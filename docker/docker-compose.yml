@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  fyp:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8888:8888"
+    container_name: fyp_devsecops
+    tty: true
