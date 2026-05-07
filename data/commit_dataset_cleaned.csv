@@ -1,0 +1,1040 @@
+commit_hash,commit_message,author_name,author_date,files_changed,lines_added,lines_removed,diff_length,has_security_terms,label,diff
+7156cece3c49544abb6bf7a0c218eb36646fad6d,slight modifications to docs.,unknown,,1,8,8,2433,0,0,".. _grit: http://grit.rubyforge.org
+
+-The ``method_missing`` stuff was `taken from this blog post`_
++The ``method_missing`` stuff was `taken from this blog post`_.
+
+ .. _taken from this blog post: http://blog.iffy.us/?p=43
+
+ Initialize a Repo object
+ ************************
+
+-The first step is to create a `Repo` object to represent your repository.
++The first step is to create a ``Repo`` object to represent your repository.
+
+ 	>>> from git_python import *
+ 	>>> repo = Repo.new(""/Users/mtrier/Development/git-python"")
+
+-In the above example, the directory `/Users/mtrier/Development/git-python` is my working
+-repo and contains the `.git` directory. You can also initialize GitPython with a
++In the above example, the directory ``/Users/mtrier/Development/git-python`` is my working
++repo and contains the ``.git`` directory. You can also initialize GitPython with a
+ bare repo.
+
+ 	>>> repo = Repo.init_bare(""/var/git/git-python.git"")
+ Getting a list of commits
+ *************************
+
+-From the `Repo` object, you can get a list of `Commit`
++From the ``Repo`` object, you can get a list of ``Commit``
+ objects.
+
+ 	>>> repo.commits()
+ 	 <GitPython.Commit ""e17c7e11aed9e94d2159e549a99b966912ce1091"">,
+ 	 <GitPython.Commit ""bd795df2d0e07d10e0298670005c0e9d9a5ed867"">]
+
+-Called without arguments, `Repo.commits` returns a list of up to ten commits
++Called without arguments, ``Repo.commits`` returns a list of up to ten commits
+ reachable by the master branch (starting at the latest commit). You can ask
+ for commits beginning at a different branch, commit, tag, etc.
+
+ The Tree object
+ ***************
+
+-A tree recorda pointers to the contents of a directory. Let's say you want
++A tree records pointers to the contents of a directory. Let's say you want
+ the root tree of the latest commit on the master branch.
+
+ 	>>> tree = repo.commits()[0].tree
+ 	>>> tree/""lib""
+ 	<GitPython.Tree ""c1c7214dde86f76bc3e18806ac1f47c38b2b7a30"">
+
+-You can also get a tree directly from the repo if you know its name.
++You can also get a tree directly from the repository if you know its name.
+
+ 	>>> repo.tree()
+ 	<GitPython.Tree ""master"">"
+933d23bf95a5bd1624fbcdf328d904e1fa173474,cleaned up a bunch of imports for the tests.,unknown,,11,86,86,8335,0,0,"import os
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestActor(object):
+     def test_from_string_should_separate_name_and_email(self):
+
+ import time
+ from mock import *
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestBlob(object):
+     def setup(self):
+
+ from mock import *
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestCommit(object):
+     def setup(self):
+
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestDiff(object):
+     def setup(self):
+
+ import os
+ from mock import *
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestGit(object):
+     def setup(self):
+
+ from mock import *
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestHead(object):
+     def setup(self):
+
+ import os
+ import time
+ from mock import *
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestRepo(object):
+     def setup(self):
+         assert_equal(""Merge branch 'site'"", c.message)
+
+         assert_true(git.called)
+-        assert_equal(git.call_args, (('rev_list',), {}))
++        assert_equal(git.call_args, (('rev_list', 'master'), {'skip': 0, 'pretty': 'raw', 'max_count': 10}))
+
+     @patch(Git, 'method_missing')
+     def test_commit_count(self, git):
+     def test_archive_tar_gz(self):
+         self.repo.archive_tar_gz
+
+-    @patch('gitalicious.lib.utils', 'touch')
++    @patch('git_python.utils', 'touch')
+     def test_enable_daemon_serve(self, touch):
+         # FileUtils.expects(:touch).with(File.join(self.repo.path, '.git', 'git-daemon-export-ok'))
+         self.repo.enable_daemon_serve
+         # FileUtils.expects(:rm_f).with(File.join(self.repo.path, '.git', 'git-daemon-export-ok'))
+         self.repo.disable_daemon_serve
+
+-    @patch(os.path, 'exists')
+-    @patch('__builtin__', 'open')
+-    def test_alternates_with_two_alternates(self, exists, read):
+-        # File.expects(:exist?).with(""#{absolute_project_path}/.git/objects/info/alternates"").returns(true)
+-        # File.expects(:read).returns(""/path/to/repo1/.git/objects\n/path/to/repo2.git/objects\n"")
+-        exists.return_value = True
+-        read.return_value = (""/path/to/repo1/.git/objects\n/path/to/repo2.git/objects\n"")
+-
+-        assert_equal([""/path/to/repo1/.git/objects"", ""/path/to/repo2.git/objects""], self.repo.alternates)
+-
+-        assert_true(exists.called)
+-        assert_true(read.called)
+-
+-    @patch(os.path, 'exists')
+-    def test_alternates_no_file(self, os):
+-        os.return_value = False
+-        # File.expects(:exist?).returns(false)
+-        assert_equal([], self.repo.alternates)
+-
+-        assert_true(os.called)
+-
+-    @patch(os.path, 'exists')
+-    def test_alternates_setter_ok(self, os):
+-        os.return_value = True
+-        alts = ['/path/to/repo.git/objects', '/path/to/repo2.git/objects']
+-
+-        # File.any_instance.expects(:write).with(alts.join(""\n""))
+-
+-        self.repo.alternates = alts
+-
+-        assert_true(os.called)
+-        # assert_equal(os.call_args, ((alts,), {}))
+-        # for alt in alts:
+-
+-    @patch(os.path, 'exists')
+-    @raises(NoSuchPathError)
+-    def test_alternates_setter_bad(self, os):
+-        os.return_value = False
+-
+-        alts = ['/path/to/repo.git/objects']
+-        # File.any_instance.expects(:write).never
+-        self.repo.alternates = alts
+-
+-        for alt in alts:
+-            assert_true(os.called)
+-            assert_equal(os.call_args, (alt, {}))
+-
+-    @patch(os, 'remove')
+-    def test_alternates_setter_empty(self, os):
+-        self.repo.alternates = []
+-        assert_true(os.called)
++    # @patch(os.path, 'exists')
++    #     @patch('__builtin__', 'open')
++    #     def test_alternates_with_two_alternates(self, exists, read):
++    #         # File.expects(:exist?).with(""#{absolute_project_path}/.git/objects/info/alternates"").returns(true)
++    #         # File.expects(:read).returns(""/path/to/repo1/.git/objects\n/path/to/repo2.git/objects\n"")
++    #         exists.return_value = True
++    #         read.return_value = (""/path/to/repo1/.git/objects\n/path/to/repo2.git/objects\n"")
++    #
++    #         assert_equal([""/path/to/repo1/.git/objects"", ""/path/to/repo2.git/objects""], self.repo.alternates)
++    #
++    #         assert_true(exists.called)
++    #         assert_true(read.called)
++    #
++    #     @patch(os.path, 'exists')
++    #     def test_alternates_no_file(self, os):
++    #         os.return_value = False
++    #         # File.expects(:exist?).returns(false)
++    #         assert_equal([], self.repo.alternates)
++    #
++    #         assert_true(os.called)
++    #
++    #     @patch(os.path, 'exists')
++    #     def test_alternates_setter_ok(self, os):
++    #         os.return_value = True
++    #         alts = ['/path/to/repo.git/objects', '/path/to/repo2.git/objects']
++    #
++    #         # File.any_instance.expects(:write).with(alts.join(""\n""))
++    #
++    #         self.repo.alternates = alts
++    #
++    #         assert_true(os.called)
++    #         # assert_equal(os.call_args, ((alts,), {}))
++    #         # for alt in alts:
++    #
++    #     @patch(os.path, 'exists')
++    #     @raises(NoSuchPathError)
++    #     def test_alternates_setter_bad(self, os):
++    #         os.return_value = False
++    #
++    #         alts = ['/path/to/repo.git/objects']
++    #         # File.any_instance.expects(:write).never
++    #         self.repo.alternates = alts
++    #
++    #         for alt in alts:
++    #             assert_true(os.called)
++    #             assert_equal(os.call_args, (alt, {}))
++    #
++    #     @patch(os, 'remove')
++    #     def test_alternates_setter_empty(self, os):
++    #         self.repo.alternates = []
++    #         assert_true(os.called)
+
+     def test_repr(self):
+         assert_equal('<GitPython.Repo ""%s/.git"">' % os.path.abspath(GIT_REPO), repr(self.repo))
+
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestStats(object):
+     def setup(self):
+
+ from mock import *
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestTag(object):
+     def setup(self):
+
+ from mock import *
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestTree(object):
+     def setup(self):
+
+ import os
+-from gitalicious.test.asserts import *
+-from gitalicious.lib import *
+-from gitalicious.test.helper import *
++from test.asserts import *
++from git_python import *
++from test.helper import *
+
+ class TestUtils(object):
+     def setup(self):"
+9066712dca21ef35c534e068f2cc4fefdccf1ea3,Moved test stuff around and modified imports to just clean things up a bit.,unknown,,16,41,50,4129,0,0,"import inspect
+
+-from actor import Actor
+-from blob import Blob
+-from commit import Commit
+-from diff import Diff
+-from errors import InvalidGitRepositoryError, NoSuchPathError
+-from git import Git
+-from head import Head
+-from repo import Repo
+-from stats import Stats
+-from tag import Tag
+-from tree import Tree
+-from utils import shell_escape, dashify, touch
++from git_python.actor import Actor
++from git_python.blob import Blob
++from git_python.commit import Commit
++from git_python.diff import Diff
++from git_python.errors import InvalidGitRepositoryError, NoSuchPathError
++from git_python.git import Git
++from git_python.head import Head
++from git_python.repo import Repo
++from git_python.stats import Stats
++from git_python.tag import Tag
++from git_python.tree import Tree
++from git_python.utils import shell_escape, dashify, touch
+
+ __all__ = [ name for name, obj in locals().items()
+             if not (name.startswith('_') or inspect.ismodule(obj)) ]
+
+ import os
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestActor(object):
+     def test_from_string_should_separate_name_and_email(self):
+
+ import time
+-from mock import *
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestBlob(object):
+     def setup(self):
+
+-from mock import *
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestCommit(object):
+     def setup(self):
+
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestDiff(object):
+     def setup(self):
+
+ import os
+-from mock import *
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestGit(object):
+     def setup(self):
+
+-from mock import *
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestHead(object):
+     def setup(self):
+
+ import os
+ import time
+-from mock import *
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestRepo(object):
+     def setup(self):
+
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestStats(object):
+     def setup(self):
+
+ from mock import *
+-from test.asserts import *
+-from git_python import *
++from test.testlib import *
+ from test.helper import *
++from git_python import *
+
+ class TestTag(object):
+     def setup(self):
+
+-from mock import *
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestTree(object):
+     def setup(self):
+
+ import os
+-from test.asserts import *
++from test.testlib import *
+ from git_python import *
+-from test.helper import *
+
+ class TestUtils(object):
+     def setup(self):
+
+-import os
+-
+-GIT_REPO = os.path.join(os.path.dirname(__file__), "".."")
+-
+-def fixture(name):
+-    file = open(os.path.join(os.path.dirname(__file__), ""fixtures"", name))
+-    return file.read()
+-
+-def absolute_project_path():
+-    return os.path.abspath(os.path.join(os.path.dirname(__file__), ""..""))
+\ No newline at end of file
+
++import inspect
++from mock import *
++from asserts import *
++from helper import *
++
++__all__ = [ name for name, obj in locals().items()
++            if not (name.startswith('_') or inspect.ismodule(obj)) ]
+
++import os
++
++GIT_REPO = os.path.join(os.path.dirname(__file__), "".."", "".."")
++
++def fixture(name):
++    file = open(os.path.join(os.path.dirname(__file__), "".."", ""fixtures"", name))
++    return file.read()
++
++def absolute_project_path():
++    return os.path.abspath(os.path.join(os.path.dirname(__file__), "".."", ""..""))
+\ No newline at end of file"
+620dbee78ed8481d108327c4c332899df7cb8ef4,Apparently I'm a moron,unknown,,3,2,4,469,1,0,"-include doc/*.html
+-include doc/*.css
+
+-0.1.0
++0.1.1
+
+       description = ""Python Git Library"",
+       author = ""Michael Trier"",
+       author_email = ""mtrier@gmail.com"",
+-      url = ""http://gitalicious.org/projects/git-python/"",
++      url = ""http://gitorious.org/projects/git-python/"",
+       packages = find_packages('lib'),
+       package_dir = {'':'lib'},
+       license = ""BSD License"","
+7c35350e5bc4fe113330818ca6784ff368c5ffef,"ugh, the editing never ends.",unknown,,1,9,2,958,0,0,"GitPython's git repo is available on Gitorious, which can be browsed at:
+
+-http://gitorious.org/projects/git-python
++http://gitorious.org/projects/git-python/
+
+ and cloned from:
+
+-git://gitorious.org/projects/git-python.git
++git://gitorious.org/git-python/mainline.git
+
+ USAGE
+ =====
+ 	>>> repo.blob(""b19574431a073333ea09346eafd64e7b1908ef49"")
+ 	<GitPython.Blob ""b19574431a073333ea09346eafd64e7b1908ef49"">
+
++What Else?
++**********
++
++There is more stuff in there, like the ability to tar or gzip repos, stats, blame, and probably a few other things.  Additionally calls to the git instance are handled through a ``method_missing`` construct, which makes available any git commands directly, with a nice conversion of Python dicts to command line parameters.
++
++Check the unit tests, they're pretty exhaustive.
++
+ LICENSE
+ ======="
+657e98094f0f669809bc0e47f3d6bd9a8124cf32,Fixed up rspec comments that are passing.,unknown,,2,4,27,5391,0,0,"CHANGES
+ =======
+
++0.1.1
++=====
++Fixed up some urls because I'm a moron
++
+ 0.1.0
+ =====
+ initial release
+
+     @patch(Git, 'method_missing')
+     def test_heads_should_populate_head_data(self, git):
+-        # Git.any_instance.expects(:for_each_ref).returns(fixture('for_each_ref'))
+         git.return_value = fixture('for_each_ref')
+
+         head = self.repo.heads[0]
+
+     @patch(Git, 'method_missing')
+     def test_commits(self, git):
+-        # Git.any_instance.expects(:rev_list).returns(fixture('rev_list'))
+         git.return_value = fixture('rev_list')
+
+         commits = self.repo.commits('master', 10)
+
+     @patch(Git, 'method_missing')
+     def test_commit_count(self, git):
+-        # Git.any_instance.expects(:rev_list).with({}, 'master').returns(fixture('rev_list_count'))
+         git.return_value = fixture('rev_list_count')
+
+         assert_equal(655, self.repo.commit_count('master'))
+
+     @patch(Git, 'method_missing')
+     def test_tree(self, git):
+-        # Git.any_instance.expects(:ls_tree).returns(fixture('ls_tree_a'))
+         git.return_value = fixture('ls_tree_a')
+
+         tree = self.repo.tree('master')
+
+     @patch(Git, 'method_missing')
+     def test_blob(self, git):
+-        # Git.any_instance.expects(:cat_file).returns(fixture('cat_file_blob'))
+         git.return_value = fixture('cat_file_blob')
+
+         blob = self.repo.blob(""abc"")
+     @patch(Repo, '__init__')
+     @patch(Git, 'method_missing')
+     def test_init_bare(self, repo, git):
+-        # Git.any_instance.expects(:init).returns(true)
+-        # Repo.expects(:new).with(""/foo/bar.git"")
+         git.return_value = True
+
+         Repo.init_bare(""/foo/bar.git"")
+     @patch(Repo, '__init__')
+     @patch(Git, 'method_missing')
+     def test_init_bare_with_options(self, repo, git):
+-        # Git.any_instance.expects(:init).with(
+-        # :template => ""/baz/sweet"").returns(true)
+-        # Repo.expects(:new).with(""/foo/bar.git"")
+         git.return_value = True
+
+         Repo.init_bare(""/foo/bar.git"", **{'template': ""/baz/sweet""})
+     @patch(Repo, '__init__')
+     @patch(Git, 'method_missing')
+     def test_fork_bare(self, repo, git):
+-        # Git.any_instance.expects(:clone).with(
+-        #           {:bare => true, :shared => false},
+-        #           ""#{absolute_project_path}/.git"",
+-        #           ""/foo/bar.git"").returns(nil)
+-        # Repo.expects(:new)
+         git.return_value = None
+
+         self.repo.fork_bare(""/foo/bar.git"")
+     @patch(Repo, '__init__')
+     @patch(Git, 'method_missing')
+     def test_fork_bare_with_options(self, repo, git):
+-        # Git.any_instance.expects(:clone).with(
+-        #       {:bare => true, :shared => false, :template => '/awesome'},
+-        #       ""#{absolute_project_path}/.git"",
+-        #       ""/foo/bar.git"").returns(nil)
+-        #     Repo.expects(:new)
+         git.return_value = None
+
+         self.repo.fork_bare(""/foo/bar.git"", **{'template': '/awesome'})
+
+     @patch(Git, 'method_missing')
+     def test_diff(self, git):
+-        # Git.any_instance.expects(:diff).with({}, 'master^', 'master', '--')
+         self.repo.diff('master^', 'master')
+
+         assert_true(git.called)
+         assert_equal(git.call_args, (('diff', 'master^', 'master', '--'), {}))
+
+-        # Git.any_instance.expects(:diff).with({}, 'master^', 'master', '--', 'foo/bar')
+         self.repo.diff('master^', 'master', 'foo/bar')
+
+         assert_true(git.called)
+         assert_equal(git.call_args, (('diff', 'master^', 'master', '--', 'foo/bar'), {}))
+
+-        # Git.any_instance.expects(:diff).with({}, 'master^', 'master', '--', 'foo/bar', 'foo/baz')
+         self.repo.diff('master^', 'master', 'foo/bar', 'foo/baz')
+
+         assert_true(git.called)
+
+     @patch(Git, 'method_missing')
+     def test_diff(self, git):
+-        # Git.any_instance.expects(:diff).returns(fixture('diff_p'))
+         git.return_value = fixture('diff_p')
+
+         diffs = self.repo.commit_diff('master')
+
+     @patch('git_python.utils', 'touch')
+     def test_enable_daemon_serve(self, touch):
+-        # FileUtils.expects(:touch).with(File.join(self.repo.path, '.git', 'git-daemon-export-ok'))
+         self.repo.enable_daemon_serve
+
+     def test_disable_daemon_serve(self):
+-        # FileUtils.expects(:rm_f).with(File.join(self.repo.path, '.git', 'git-daemon-export-ok'))
+         self.repo.disable_daemon_serve
+
+     # @patch(os.path, 'exists')
+     @patch(os.path, 'exists')
+     def test_alternates_no_file(self, os):
+         os.return_value = False
+-        # File.expects(:exist?).returns(false)
+         assert_equal([], self.repo.alternates)
+
+         assert_true(os.called)"
+ea6af04977c197fd07ab812d394dcb61feebaf67,Forgot to add Mock to the requirements.,unknown,,1,2,0,334,0,0,"* Git_ tested with 1.5.3.7
+ * `Python Nose`_ - used for running the tests
++* `Mock by Michael Foord`_ used for tests
+
+ .. _Git: http://git.or.cz/
+ .. _Python Nose: http://code.google.com/p/python-nose/
++.. _Mock by Michael Foord: http://www.voidspace.org.uk/python/mock.html
+
+ INSTALL
+ ======="
+062aafa396866d4dfe8f3fd2f32d46fa7c01b6dd,Corrected problem with tree.__len__ getting confused with zero length files. Thanks Alan Briolat.,unknown,,5,26,6,2257,0,0,"+Michael Trier <mtrier _at_ gmail.com>
++Alan Briolat
+
+ CHANGES
+ =======
+
++0.1.2
++=====
++Corrected problem with Tree.__div__ not working with zero length files.
++Removed __len__ override and replaced with size instead. Also made size cache
++properly.
++
+ 0.1.1
+ =====
+ Fixed up some urls because I'm a moron
+
+ 	>>> blob.mime_type
+ 	'text/x-python'
+
+-	>>> len(blob)
++	>>> blob.size
+ 	415
+
+ You can get the data of a blob as a string.
+
+         self.id = None
+         self.mode = None
+         self.name = None
+-        self.size = None
++        self._size = None
+         self.data_stored  = None
+
+         self.repo = repo
+         for k, v in kwargs.items():
+             setattr(self, k, v)
+
+-    def __len__(self):
++    @property
++    def size(self):
+         """"""
+         The size of this blob in bytes
+
+         Returns
+             int
+         """"""
+-        self.size = self.size or int(self.repo.git.cat_file(self.id, **{'s': True}).rstrip())
+-        return self.size
++        if self._size is None:
++            self._size = int(self.repo.git.cat_file(self.id, **{'s': True}).rstrip())
++        return self._size
+
+     @property
+     def data(self):
+
+     def test_should_return_file_size(self, git):
+         git.return_value = fixture('cat_file_blob_size')
+         blob = Blob(self.repo, **{'id': 'abc'})
+-        assert_equal(11, len(blob))
++        assert_equal(11, blob.size)
+         assert_true(git.called)
+         assert_equal(git.call_args, (('cat_file', 'abc'), {'s': True}))
++
++    @patch(Git, 'method_missing')
++    def test_should_cache_file_size(self, git):
++        git.return_value = fixture('cat_file_blob_size')
++        blob = Blob(self.repo, **{'id': 'abc'})
++        assert_equal(11, blob.size)
++        assert_equal(11, blob.size)
++        assert_true(git.called)
++        assert_equal(git.call_count, 1)
++        assert_equal(git.call_args, (('cat_file', 'abc'), {'s': True}))
+
+     def test_mime_type_should_return_mime_type_for_known_types(self):
+         blob = Blob(self.repo, **{'id': 'abc', 'name': 'foo.png'})"
+0651f0964ba5a33257ebbda1e92c7a1649a4a058,lots of little fixes.  Corrected problem with creating bare repo.  Added Repo.create alias.,unknown,,7,38,9,4034,1,0,"=====
+ Corrected problem with Tree.__div__ not working with zero length files.
+ Removed __len__ override and replaced with size instead. Also made size cache
+-properly.
++properly. This is a breaking change.
+
+ 0.1.1
+ =====
+
+-Copyright (c) 2008, Michael Trier
++Copyright (c) 2008, Michael Trier and contributors
+ All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+
+ is my working repository and contains the ``.git`` directory. You can also
+ initialize GitPython with a bare repository.
+
+-	>>> repo = Repo.init_bare(""/var/git/git-python.git"")
++	>>> repo = Repo.create(""/var/git/git-python.git"")
+
+ Getting a list of commits
+ *************************
+
+-0.1.1
++0.1.2
+
+         ``command``
+             The command to execute
+         """"""
++        print command
+         proc = subprocess.Popen(command,
+                                 shell=True,
+                                 stdout=subprocess.PIPE
+
+         return Commit.diff(self, commit)
+
+     @classmethod
+-    def init_bare(self, path, **kwargs):
++    def init_bare(self, path, mkdir=True, **kwargs):
+         """"""
+         Initialize a bare git repository at the given path
+
+         ``path``
+             is the full path to the repo (traditionally ends with /<name>.git)
+
++        ``mkdir``
++            if specified will create the repository directory if it doesn't
++            already exists. Creates the directory with a mode=0755.
++
+         ``kwargs``
+             is any additional options to the git init command
+
+         Returns
+             ``GitPython.Repo`` (the newly created repo)
+         """"""
+-        git = Git(path)
+-        git.init(**kwargs)
++        split = os.path.split(path)
++        if split[-1] == '.git' or os.path.split(split[0])[-1] == '.git':
++            gitpath = path
++        else:
++            gitpath = os.path.join(path, '.git')
++
++        if mkdir and not os.path.exists(gitpath):
++            os.makedirs(gitpath, 0755)
++
++        git = Git(gitpath)
++        output = git.init(**kwargs)
+         return Repo(path)
++    create = init_bare
+
+     def fork_bare(self, path, **kwargs):
+         """"""
+         Returns
+             ``GitPython.Repo`` (the newly forked repo)
+         """"""
+-        options = {'bare': True, 'shared': False}
++        options = {'bare': True}
+         options.update(kwargs)
+         self.git.clone(self.path, path, **options)
+         return Repo(path)
+
+     def test_content_from_string_invalid_type_should_raise(self):
+         self.tree.content_from_string(None, ""040000 bogus 650fa3f0c17f1edb4ae53d8dcca4ac59d86e6c44	test"")
+
+-    @patch(Blob, '__len__')
++    @patch(Blob, 'size')
+     @patch(Git, 'method_missing')
+     def test_slash(self, blob, git):
+         git.return_value = fixture('ls_tree_a')
+         assert_true(git.called)
+         assert_equal(git.call_args, (('ls_tree', 'master'), {}))
+
++    @patch(Blob, 'size')
++    @patch(Git, 'method_missing')
++    def test_slash_with_zero_length_file(self, blob, git):
++        git.return_value = fixture('ls_tree_a')
++        blob.return_value = 0
++
++        tree = self.repo.tree('master')
++
++        assert_not_none(tree/'README.txt')
++        assert_equal('8b1e02c0fb554eed2ce2ef737a68bb369d7527df', (tree/'README.txt').id)
++
++        assert_true(git.called)
++        assert_equal(git.call_args, (('ls_tree', 'master'), {}))
++
+     @patch(Git, 'method_missing')
+     def test_slash_with_commits(self, git):
+         git.return_value = fixture('ls_tree_commit')"
+d7e59d3ef86beb3b3b3e53a610af122b2220841b,added in note about how to handle date time information.  Fixed up repo tests for the removal of the shared option.,unknown,,2,23,7,3161,1,0,"(2008, 5, 7, 5, 0, 56, 2, 128, 0)
+
+ 	>>> head.message
+-	'cleaned up a lot of test information. Fixed escaping so it works with subprocess.'
++	'cleaned up a lot of test information. Fixed escaping so it works with
++	subprocess.'
+
++Note: date time is represented in a `struct_time`_ format.  Conversion to
++human readable form can be accomplished with the various time module methods.
++
++	>>> import time
++	>>> time.asctime(head.committed_date)
++	'Wed May 7 05:56:02 2008'
++
++	>>> time.strftime(""%a, %d %b %Y %H:%M"", head.committed_date)
++	'Wed, 7 May 2008 05:56'
++
++.. _struct_time: http://docs.python.org/lib/module-time.html
+
+ You can traverse a commit's ancestry by chaining calls to ``parents``.
+
+ 	 <GitPython.Tree ""eaa0090ec96b054e425603480519e7cf587adfc3"">,
+ 	 <GitPython.Blob ""980e72ae16b5378009ba5dfd6772b59fe7ccd2df"">]
+
+-This tree contains three ``Blob`` objects and one ``Tree`` object. The trees are
+-subdirectories and the blobs are files. Trees below the root have additional
+-attributes.
++This tree contains three ``Blob`` objects and one ``Tree`` object. The trees
++are subdirectories and the blobs are files. Trees below the root have
++additional attributes.
+
+ 	>>> contents = tree.contents[-2]
+ 	<GitPython.Tree ""e5445b9db4a9f08d5b4de4e29e61dffda2f386ba"">
+ What Else?
+ **********
+
+-There is more stuff in there, like the ability to tar or gzip repos, stats, blame, and probably a few other things.  Additionally calls to the git instance are handled through a ``method_missing`` construct, which makes available any git commands directly, with a nice conversion of Python dicts to command line parameters.
++There is more stuff in there, like the ability to tar or gzip repos, stats,
++log, blame, and probably a few other things.  Additionally calls to the git
++instance are handled through a ``method_missing`` construct, which makes
++available any git commands directly, with a nice conversion of Python dicts
++to command line parameters.
+
+ Check the unit tests, they're pretty exhaustive.
+
+         self.repo.fork_bare(""/foo/bar.git"")
+
+         assert_true(git.called)
+-        assert_equal(git.call_args, (('clone', '%s/.git' % absolute_project_path(), '/foo/bar.git'), {'bare': True, 'shared': False}))
++        assert_equal(git.call_args, (('clone', '%s/.git' % absolute_project_path(), '/foo/bar.git'), {'bare': True}))
+         assert_true(repo.called)
+
+     @patch(Repo, '__init__')
+
+         assert_true(git.called)
+         assert_equal(git.call_args, (('clone', '%s/.git' % absolute_project_path(), '/foo/bar.git'),
+-                                      {'bare': True, 'shared': False, 'template': '/awesome'}))
++                                      {'bare': True, 'template': '/awesome'}))
+         assert_true(repo.called)
+
+     @patch(Git, 'method_missing')"
+207bf7bf30651c3284408d87d7c499e43db6bc83,Missing os import.  Thanks apollo13.,unknown,,2,2,0,166,0,0,"import mimetypes
++import os
+ import re
+ import time
+ from actor import Actor
+
++import os
+ from lazy import LazyMixin
+ import blob"
+03bfdb16cd7cc6e1c7c8d3b59552da7de3d82d1c,added /me as author,unknown,,1,1,0,117,0,0,"Michael Trier <mtrier _at_ gmail.com>
+ Alan Briolat
++Florian Apolloner <florian _at_ apolloner.eu>"
+69a56c4e2addd1ec53bb40e8a18f52353d1fc28c,fixed incorrect test import,unknown,,1,0,1,144,0,0,"from mock import *
+ from test.testlib import *
+-from test.helper import *
+ from git_python import *
+
+ class TestTag(object):"
+9b975d9fcf5924800f9ea5d68d7d79f743ca9af7,removed some more spaces,unknown,,1,12,12,1994,1,0,"def __init__(self, git_dir):
+         super(Git, self).__init__()
+         self.git_dir = git_dir
+-
++
+     git_binary = ""/usr/bin/env git""
+-
++
+     @property
+     def get_dir(self):
+         return self.git_dir
+-
++
+     def execute(self, command):
+         """"""
+         Handles executing the command on the shell and consumes and returns
+         the returned information (stdout)
+-
++
+         ``command``
+             The command to execute
+         """"""
+         print command
+-        proc = subprocess.Popen(command,
++        proc = subprocess.Popen(command,
+                                 shell=True,
+-                                stdout=subprocess.PIPE
++                                stdout=subprocess.PIPE
+                                 )
+         stdout_value = proc.communicate()[0]
+         return stdout_value
+                 else:
+                     args.append(""--%s=%r"" % (dashify(k), v))
+         return args
+-
++
+     def method_missing(self, method, *args, **kwargs):
+         """"""
+         Run the given git command with the specified arguments and return
+         the result as a String
+-
++
+         ``method``
+             is the command
+-
++
+         ``args``
+             is the list of arguments
+-
++
+         ``kwargs``
+             is a dict of keyword arguments
+
+         Examples
+             git.rev_list('master', max_count=10, header=True)
+-
++
+         Returns
+             str
+         """"""
+         opt_args = self.transform_kwargs(**kwargs)
+         ext_args = map(lambda a: (a == '--') and a or ""%s"" % shell_escape(a), args)
+         args = opt_args + ext_args
+-
++
+         call = ""%s --git-dir=%s %s %s"" % (self.git_binary, self.git_dir, dashify(method), ' '.join(args))
+         stdout_value = self.execute(call)
+         return stdout_value"
+ae54e18d7ca7bc8b8fbc667119fb60b25f0f3871,made subprocess not use a shell...,unknown,,3,12,13,2568,1,0,"from git_python.stats import Stats
+ from git_python.tag import Tag
+ from git_python.tree import Tree
+-from git_python.utils import shell_escape, dashify, touch
++from git_python.utils import dashify, touch
+
+ __all__ = [ name for name, obj in locals().items()
+             if not (name.startswith('_') or inspect.ismodule(obj)) ]
+
+         super(Git, self).__init__()
+         self.git_dir = git_dir
+
+-    git_binary = ""/usr/bin/env git""
+-
+     @property
+     def get_dir(self):
+         return self.git_dir
+         ``command``
+             The command to execute
+         """"""
+-        print command
++        print ' '.join(command)
+         proc = subprocess.Popen(command,
+-                                shell=True,
++                                cwd = self.git_dir,
+                                 stdout=subprocess.PIPE
+                                 )
+-        stdout_value = proc.communicate()[0]
++        proc.wait()
++        stdout_value = proc.stdout.read()
++        proc.stdout.close()
+         return stdout_value
+
+     def transform_kwargs(self, **kwargs):
+                 if v is True:
+                     args.append(""-%s"" % k)
+                 else:
+-                    args.append(""-%s %r"" % (k, v))
++                    args.append(""-%s"" % k)
++                    args.append(v)
+             else:
+                 if v is True:
+                     args.append(""--%s"" % dashify(k))
+                 else:
+-                    args.append(""--%s=%r"" % (dashify(k), v))
++                    args.append(""--%s=%s"" % (dashify(k), v))
+         return args
+
+     def method_missing(self, method, *args, **kwargs):
+             str
+         """"""
+         opt_args = self.transform_kwargs(**kwargs)
+-        ext_args = map(lambda a: (a == '--') and a or ""%s"" % shell_escape(a), args)
++        ext_args = map(lambda a: (a == '--') and a or ""%s"" % a, args)
+         args = opt_args + ext_args
+
+-        call = ""%s --git-dir=%s %s %s"" % (self.git_binary, self.git_dir, dashify(method), ' '.join(args))
++        call = ['git-'+dashify(method)]
++        call.extend(args)
+         stdout_value = self.execute(call)
+         return stdout_value
+
+-def shell_escape(string):
+-    return str(string).replace(""'"", ""\\\\'"")
+-
+ def dashify(string):
+     return string.replace('_', '-')"
