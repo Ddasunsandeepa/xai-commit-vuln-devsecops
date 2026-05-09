@@ -1,0 +1,70 @@
+BIG-VUL PREPROCESSING REPORT  v2
+==================================================
+Run time              : 2026-05-08 08:29:50
+Input                 : data/big_vul/MSR_data_cleaned.csv
+Output                : data/processed/big_vul_ml_ready.csv
+Chunk size            : 2000
+Languages             : ['C', 'C++']
+Diff limits           : 30–5000 chars
+Security terms feature: ON
+
+COLLECTION RESULTS
+--------------------------------------------------
+Chunks read        : 92
+Total rows seen    : 184,000
+Vulnerable (vul=1) : 3,000
+Safe (vul=0)       : 6,000
+After dedup        : 9,000 rows
+
+LABEL DISTRIBUTION
+--------------------------------------------------
+  label=1 (vulnerable)    : 3,000
+  label=0 (not vulnerable): 6,000
+  imbalance ratio         : 1:2
+
+IMPROVEMENTS APPLIED
+--------------------------------------------------
+  1. files_changed nulls   → filled with 1
+  2. Duplicate functions   → removed on func_before+label (NOT commit_hash)
+  3. Patch cleaning        → removed +++/---/@@ headers
+ 4. Security terms        → included (USE_SECURITY_TERMS=True)
+
+COLUMN MAPPING
+--------------------------------------------------
+  commit_id            → commit_hash
+  project              → project
+  lang                 → lang
+  add_lines            → lines_added
+  del_lines            → lines_removed
+  files_changed        → files_changed
+  patch                → diff
+  func_before          → func_before
+  func_after           → func_after
+  CWE ID               → cwe_id
+  CVE ID               → cve_id
+  Score                → cvss_score
+  vul                  → label
+
+FEATURE COLUMNS ADDED
+--------------------------------------------------
+  diff_length          (char count of cleaned patch)
+  func_before_length   (char count of vulnerable function)
+  has_security_terms   (active)
+
+RESEARCH NOTE
+--------------------------------------------------
+  has_security_terms uses domain keywords (sql, overflow, etc.)
+  This may cause information leakage in the model.
+  Recommended: run two experiments:
+    Exp A: USE_SECURITY_TERMS = True
+    Exp B: USE_SECURITY_TERMS = False
+  Compare F1/AUC-ROC. Discuss difference in thesis.
+
+NEXT STEP
+--------------------------------------------------
+  STEP 3: Baseline ML Model
+  Features: lines_added, lines_removed, diff_length,
+            func_before_length, has_security_terms
+  Target  : label (0/1)
+  Models  : Logistic Regression → Random Forest
+  Metrics : F1, Precision, Recall, AUC-ROC  (NOT accuracy)
