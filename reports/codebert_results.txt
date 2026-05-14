@@ -1,0 +1,33 @@
+CODEBERT FINE-TUNING RESULTS
+=======================================================
+Run time     : 2026-05-13 04:48:02
+Model        : microsoft/codebert-base
+Device       : cuda
+Max length   : 256
+Batch size   : 8 (eff. 32)
+Epochs       : 3
+LR           : 2e-05
+Train sample : 5,000
+Test sample  : 1,500
+
+TRAINING HISTORY
+-------------------------------------------------------
+  Epoch 1  loss=0.4270  F1=0.5755  AUC=0.8251  PR-AUC=0.5178
+  Epoch 2  loss=0.2263  F1=0.5402  AUC=0.7919  PR-AUC=0.6115
+  Epoch 3  loss=0.1554  F1=0.5775  AUC=0.8361  PR-AUC=0.6075
+
+BEST MODEL: Epoch 3
+-------------------------------------------------------
+  F1        : 0.5775
+  AUC-ROC   : 0.8361
+  PR-AUC    : 0.6075
+  Precision : 0.4884
+  Recall    : 0.7064
+  TP=231  FP=242  FN=96  TN=931
+
+COMPARISON
+-------------------------------------------------------
+  Exp-C structural LR (2 features)  F1=0.4943  AUC=0.7834
+  Exp-D complexity-only LR           F1=0.4797  AUC=0.7617
+  Char TF-IDF LR (tuned)            F1=0.4505  AUC=0.7047
+  CodeBERT fine-tuned               F1=0.5775  AUC=0.8361
