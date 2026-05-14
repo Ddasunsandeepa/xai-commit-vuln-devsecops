@@ -9,3 +9,10 @@ services:
       - "8888:8888"
     container_name: fyp_devsecops
     tty: true
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
