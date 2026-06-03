@@ -281,7 +281,7 @@ def main():
     with open(REPORT_FILE, "w") as f:
         f.write("\n".join(report_lines))
     print(f"  Report → '{REPORT_FILE}'")
-    print("\n  DONE ✅")
+    print("\n  DONE ")
     print("\n  Next: update FEATURE_COLS in train_baseline_model.py to:")
     print(f"  {NEW_FEATURES}\n")
 

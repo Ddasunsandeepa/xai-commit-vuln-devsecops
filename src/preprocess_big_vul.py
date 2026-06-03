@@ -192,7 +192,7 @@ def main():
     print(f"    Safe collected      : {safe_collected:,}")
 
     if vuln_collected == 0:
-        print("\n  ⚠️  0 vulnerable rows found — dataset may be fully sorted.")
+        print("\n    0 vulnerable rows found — dataset may be fully sorted.")
         print("  Increase MAX_SAFE or read the full file.\n")
 
     # ── Combine ───────────────────────────────────────────────────────────────
@@ -266,7 +266,7 @@ def main():
         bar = "█" * int(pct / 3)
         print(f"    label={val}  {tag}  {cnt:>6,}  ({pct:.1f}%)  {bar}")
     print(f"\n    Imbalance ratio : 1:{ratio}")
-    print(f"    ⚠️  Use class_weight='balanced' or SMOTE in ML step")
+    print(f"      Use class_weight='balanced' or SMOTE in ML step")
 
     if "cwe_id" in df.columns and vuln_n > 0:
         print(f"\n    Top CWE types (vulnerable):")
@@ -356,7 +356,7 @@ def main():
     print(f"    Report → '{REPORT_FILE}'")
 
     print("\n" + "=" * 62)
-    print("  DONE ✅  Next → STEP 3: Baseline ML Model")
+    print("  DONE   Next → STEP 3: Baseline ML Model")
     print("=" * 62 + "\n")
 
 

@@ -320,7 +320,7 @@ def main():
         f.write("\n".join(report_lines))
     print(f"  Report → '{REPORT_FILE}'")
     print(f"  Plots  → '{PLOTS_DIR}/'")
-    print("\n  DONE ✅  Enriched SHAP complete.\n")
+    print("\n  DONE  Enriched SHAP complete.\n")
 
 
 if __name__ == "__main__":
