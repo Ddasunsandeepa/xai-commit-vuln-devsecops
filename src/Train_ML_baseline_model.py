@@ -240,7 +240,7 @@ def main():
     report_lines += ["\n\nFINAL COMPARISON", "=" * 55]
     for exp_name, exp_res in all_results:
         for r in exp_res:
-            flag = "  ⚠️ check leakage" if r["f1"] > 0.95 else ("  ← realistic" if r["f1"] < 0.85 else "")
+            flag = "  check leakage" if r["f1"] > 0.95 else ("  ← realistic" if r["f1"] < 0.85 else "")
             print(f"  {exp_name:<45} {r['name']:<22} {r['f1']:>6.4f}  {r['auc']:>6.4f}{flag}")
             report_lines.append(f"  {exp_name} | {r['name']} | F1={r['f1']:.4f} AUC={r['auc']:.4f}")
 
@@ -253,7 +253,7 @@ def main():
 
     with open(REPORT_FILE, "w") as f:
         f.write("\n".join(report_lines))
-    print(f"  Report → '{REPORT_FILE}'\n  DONE ✅\n")
+    print(f"  Report → '{REPORT_FILE}'\n  DONE \n")
 
 
 if __name__ == "__main__":

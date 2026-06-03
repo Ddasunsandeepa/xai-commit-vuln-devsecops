@@ -279,7 +279,7 @@ def main():
             # Save best threshold
             save_json({"threshold": best_t, "val_f1": best_val_f1},
                       f"{OUTPUT_DIR}/best_threshold.json")
-            print(f"  ✅ Best val F1: {best_val_f1:.4f} — saved (threshold={best_t:.3f})")
+            print(f"  Best val F1: {best_val_f1:.4f} — saved (threshold={best_t:.3f})")
         else:
             no_improve += 1
             print(f"  No improvement ({no_improve}/{PATIENCE})")
@@ -403,7 +403,7 @@ def main():
     print(f"  CodeBERT F1 = {m_tuned['f1']:.4f}  AUC = {m_tuned['auc']:.4f}")
     print(f"  vs best baseline F1 = 0.4943  (gain = {gain:+.4f})")
     if gain > 0:
-        print("  ✅ CodeBERT beats structural baseline")
+        print("  CodeBERT beats structural baseline")
         print("  Semantic understanding adds value beyond handcrafted features.")
     print("=" * 62 + "\n")
 

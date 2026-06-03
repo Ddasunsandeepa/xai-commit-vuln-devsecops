@@ -95,7 +95,7 @@ def explore(df, is_sample=True):
         ("(bonus)",        "CVE ID",         "CVE ID"         in df.columns),
     ]
     for your_col, bv_col, found in mapping:
-        status = "✅ FOUND" if found else "❌ missing"
+        status = "FOUND" if found else " missing"
         print(f"    {your_col:<22} {bv_col:<22} {status}")
 
     print("\n[9] SAMPLE VULNERABLE FUNCTION")

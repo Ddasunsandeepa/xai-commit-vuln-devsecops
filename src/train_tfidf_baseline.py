@@ -348,7 +348,7 @@ def main():
     with open(REPORT_FILE, "w") as f:
         f.write("\n".join(report_lines))
     print(f"  Report → '{REPORT_FILE}'")
-    print("  DONE ✅\n")
+    print("  DONE \n")
 
 
 if __name__ == "__main__":
