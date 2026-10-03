@@ -142,7 +142,7 @@ def main():
 
     # ── IMPROVEMENT 4 warning ─────────────────────────────────────────────────
     if USE_SECURITY_TERMS:
-        print("  ⚠️  RESEARCH NOTE: has_security_terms uses domain keywords.")
+        print("    RESEARCH NOTE: has_security_terms uses domain keywords.")
         print("      Run again with USE_SECURITY_TERMS=False to compare.")
         print("      Both results belong in your thesis ablation section.\n")
 
