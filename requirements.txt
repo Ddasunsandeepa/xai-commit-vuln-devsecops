@@ -1,7 +1,8 @@
-pandas
-numpy
-scikit-learn
-gitpython
-pydriller
-matplotlib
-shap
+pandas==2.3.3
+numpy==2.2.6
+scikit-learn==1.7.2
+gitpython==3.2.0
+pydriller==2.12
+matplotlib==3.10.9
+shap==0.49.1
+transformers==5.18.0
