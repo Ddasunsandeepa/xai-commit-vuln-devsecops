@@ -2,3 +2,7 @@
 models/codebert
 # literature/
 *.pdf
+
+.venv/
+__pycache__/
+*.pyc
