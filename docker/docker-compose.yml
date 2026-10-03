@@ -1,14 +1,16 @@
-version: '3'
-
 services:
   fyp:
-    build: .
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+
     volumes:
-      - .:/app
-    ports:
-      - "8888:8888"
+      - ..:/app
+
     container_name: fyp_devsecops
     tty: true
+    stdin_open: true
+
     deploy:
       resources:
         reservations:
