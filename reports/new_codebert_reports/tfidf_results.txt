@@ -1,0 +1,43 @@
+TF-IDF TEXT BASELINE RESULTS  v2
+=======================================================
+Run time  : 2026-05-10 15:21:06
+Input     : data/processed/big_vul_ml_ready.csv
+
+FIXES APPLIED IN v2
+  1. Threshold tuning (optimal F1 cutoff, not default 0.5)
+  2. PR-AUC added (better metric for imbalanced classes)
+  3. Char-level TF-IDF added (Exp-D — captures C syntax)
+  4. Results CSV includes PR-AUC for thesis table
+
+RESEARCH NOTE ON TRAIN/TEST GAP
+  Train CV F1 ~0.85 but Test F1 ~0.38 is a FINDING, not a bug.
+  TF-IDF memorises project-specific tokens, not universal patterns.
+  This justifies the need for CodeBERT pretrained representations.
+
+
+Word TF-IDF + LR (thresh=0.5)  [threshold=0.500]
+  Precision=0.2488  Recall=0.8240  F1=0.3822
+  AUC-ROC=0.6747  PR-AUC=0.4264
+  TP=323  FP=975  FN=69  TN=478
+
+Word TF-IDF + LR (thresh-tuned)  [threshold=0.676]
+  Precision=0.3084  Recall=0.6633  F1=0.4211
+  AUC-ROC=0.6747  PR-AUC=0.4264
+  TP=260  FP=583  FN=132  TN=870
+  Train CV F1: 0.8513 ± 0.0088
+
+Char TF-IDF + LR (thresh=0.5)  [threshold=0.500]
+  Precision=0.2628  Recall=0.8495  F1=0.4014
+  AUC-ROC=0.7047  PR-AUC=0.4772
+  TP=333  FP=934  FN=59  TN=519
+
+Char TF-IDF + LR (thresh-tuned)  [threshold=0.826]
+  Precision=0.4545  Recall=0.4464  F1=0.4505
+  AUC-ROC=0.7047  PR-AUC=0.4772
+  TP=175  FP=210  FN=217  TN=1243
+  Train CV F1: 0.8676 ± 0.0061
+
+NEXT STEPS
+  Step 4: SHAP on Exp-C structural model (explainability)
+  Step 6: CodeBERT fine-tuning on func_before text
+  Add CodeBERT results to reports/results_comparison.csv
