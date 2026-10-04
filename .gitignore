@@ -2,3 +2,10 @@
 models/codebert
 # literature/
 *.pdf
+
+# Trained model checkpoints - too large for normal GitHub
+models/codebert/best_model/
+models/codebert_previous/best_model/
+
+# Hugging Face model weights
+*.safetensors

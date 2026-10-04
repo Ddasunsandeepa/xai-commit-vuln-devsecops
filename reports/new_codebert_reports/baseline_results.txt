@@ -1,0 +1,78 @@
+BASELINE ML RESULTS  (Leakage-Mitigated)
+=======================================================
+Run time : 2026-05-09 02:06:10
+Input    : data/processed/big_vul_ml_ready.csv
+
+LEAKAGE FIXES APPLIED
+-------------------------------------------------------
+  1. Project-wise train/test split (no project memorization)
+  2. Three experiments isolating different leakage sources
+  3. Model artifacts saved to models/
+
+IF YOU SEE F1~1.0 AGAIN:
+  → leakage still present in dataset structure
+  → discuss this in thesis as research finding
+
+
+=======================================================
+EXPERIMENT: Exp-A: ALL features (leaked baseline)
+Features  : ['lines_added', 'lines_removed', 'diff_length', 'func_before_length', 'has_security_terms']
+
+  Logistic Regression
+    Precision=0.9975  Recall=1.0000  F1=0.9987  AUC=0.9999
+    TP=392  FP=1  FN=0  TN=1452
+    Train CV F1: 0.9987 ± 0.0012
+
+  Random Forest
+    Precision=1.0000  Recall=1.0000  F1=1.0000  AUC=1.0000
+    TP=392  FP=0  FN=0  TN=1453
+    Train CV F1: 0.9987 ± 0.0012
+
+=======================================================
+EXPERIMENT: Exp-B: No patch-size features
+Features  : ['diff_length', 'func_before_length', 'has_security_terms']
+
+  Logistic Regression
+    Precision=0.3123  Recall=0.7577  F1=0.4423  AUC=0.7526
+    TP=297  FP=654  FN=95  TN=799
+    Train CV F1: 0.5764 ± 0.0073
+
+  Random Forest
+    Precision=0.3048  Recall=0.8724  F1=0.4518  AUC=0.7617
+    TP=342  FP=780  FN=50  TN=673
+    Train CV F1: 0.7269 ± 0.0067
+
+=======================================================
+EXPERIMENT: Exp-C: Structural only (no keywords)
+Features  : ['diff_length', 'func_before_length']
+
+  Logistic Regression
+    Precision=0.3939  Recall=0.6633  F1=0.4943  AUC=0.7834
+    TP=260  FP=400  FN=132  TN=1053
+    Train CV F1: 0.5646 ± 0.0117
+
+  Random Forest
+    Precision=0.2977  Recall=0.8597  F1=0.4423  AUC=0.7549
+    TP=337  FP=795  FN=55  TN=658
+    Train CV F1: 0.7272 ± 0.0116
+
+
+FINAL COMPARISON
+=======================================================
+  Exp-A: ALL features (leaked baseline) | Logistic Regression | F1=0.9987 AUC=0.9999
+  Exp-A: ALL features (leaked baseline) | Random Forest | F1=1.0000 AUC=1.0000
+  Exp-B: No patch-size features | Logistic Regression | F1=0.4423 AUC=0.7526
+  Exp-B: No patch-size features | Random Forest | F1=0.4518 AUC=0.7617
+  Exp-C: Structural only (no keywords) | Logistic Regression | F1=0.4943 AUC=0.7834
+  Exp-C: Structural only (no keywords) | Random Forest | F1=0.4423 AUC=0.7549
+
+INTERPRETATION
+  F1 > 0.98 → check for remaining leakage
+  F1 0.60-0.85 → realistic baseline
+  F1 < 0.60 → features insufficient, need CodeBERT
+
+NEXT STEPS
+  Step 4: SHAP explainability on Exp-C model (no leakage)
+  Step 5: TF-IDF + LR on func_before text (text baseline)
+  Step 6: CodeBERT fine-tuning (advanced model)
+  Compare all F1/AUC results in thesis Table

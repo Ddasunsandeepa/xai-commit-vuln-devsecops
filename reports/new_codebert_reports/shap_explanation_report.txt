@@ -1,0 +1,66 @@
+SHAP EXPLAINABILITY REPORT
+=======================================================
+Run time   : 2026-05-10 15:41:51
+Model      : models/ExpC_best_model.pkl
+Features   : ['diff_length', 'func_before_length']
+Dataset    : data/processed/big_vul_ml_ready.csv
+
+WHY SHAP?
+  SHAP (SHapley Additive exPlanations) assigns each feature
+  a contribution score for each prediction.
+  Positive SHAP = pushed prediction toward VULNERABLE
+  Negative SHAP = pushed prediction toward SAFE
+
+
+GLOBAL FEATURE IMPORTANCE (mean absolute SHAP)
+-------------------------------------------------------
+  #1  func_before_length         mean|SHAP|=0.6690
+       Length of the function before the fix (number of characters)
+  #2  diff_length                mean|SHAP|=0.2458
+       Length of the code patch (number of characters in diff)
+
+
+LOCAL EXPLANATIONS
+-------------------------------------------------------
+
+  [TP] TRUE POSITIVE  — correctly flagged as vulnerable
+  Predicted vuln probability: 1.0000
+    diff_length: val=-0.61  SHAP=-0.1654
+    func_before_length: val=8.95  SHAP=+12.2145
+
+  [FP] FALSE POSITIVE — wrongly flagged as vulnerable
+  Predicted vuln probability: 0.8968
+    diff_length: val=-0.62  SHAP=-0.1701
+    func_before_length: val=1.73  SHAP=+2.4296
+
+  [TN] TRUE NEGATIVE  — correctly flagged as safe
+  Predicted vuln probability: 0.3458
+    diff_length: val=-0.61  SHAP=-0.1688
+    func_before_length: val=-0.34  SHAP=-0.3715
+
+  [FN] FALSE NEGATIVE — missed vulnerability
+  Predicted vuln probability: 0.4770
+    diff_length: val=-0.72  SHAP=-0.2081
+    func_before_length: val=0.10  SHAP=+0.2134
+
+
+SHAP DISTRIBUTION BY CLASS
+-------------------------------------------------------
+  diff_length: vuln=+0.1088  safe=+0.0325  diff=+0.0763
+  func_before_length: vuln=+1.5102  safe=-0.1270  diff=+1.6371
+
+
+KEY SHAP FINDINGS FOR THESIS
+-------------------------------------------------------
+  Most important feature: func_before_length
+  Mean |SHAP| = 0.6690
+
+  Plots saved:
+    reports/shap_plots/shap_summary_beeswarm.png
+    reports/shap_plots/shap_bar_importance.png
+    reports/shap_plots/shap_waterfall_tp.png
+
+NEXT STEPS
+  Step 5: CodeBERT fine-tuning (Step 6 in roadmap)
+  Compare CodeBERT attention with SHAP feature importance
+  Add SHAP plots to thesis Chapter 4 (Explainability)
