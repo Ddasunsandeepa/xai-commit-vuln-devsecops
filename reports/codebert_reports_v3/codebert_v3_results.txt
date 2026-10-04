@@ -1,0 +1,52 @@
+CodeBERT v3 - Strict Project-Disjoint Evaluation
+======================================================================
+
+Split seed: 42
+Model seed: 42
+Project overlap: {'train&val': 0, 'train&test': 0, 'val&test': 0}
+
+DATA PARTITIONS
+----------------------------------------------------------------------
+train: rows=6301 projects=99 safe=4235 vulnerable=2066 positive_rate=0.3279 largest_project=linux largest_share=0.2225
+val: rows=903 projects=22 safe=585 vulnerable=318 positive_rate=0.3522 largest_project=samba largest_share=0.4452
+test: rows=1796 projects=60 safe=1180 vulnerable=616 positive_rate=0.3430 largest_project=openssl largest_share=0.2661
+
+Balanced training:
+rows=4132 positive_rate=0.5000
+
+FINAL COMPARISON
+----------------------------------------------------------------------
+Approach                                      F1     ROC-AUC      PR-AUC
+------------------------------------------------------------------------
+Predict-all-vulnerable (trivial)          0.5108      0.5000      0.3430
+Structural LR (all)                       0.5861      0.7406      0.6317
+Complexity-only LR                        0.6416      0.8020      0.6924
+Size-only LR                              0.5613      0.7045      0.5985
+Char TF-IDF LR                            0.5967      0.7347      0.5879
+CodeBERT v3 (val-tuned thr)               0.7088      0.9031      0.8261
+
+Test prevalence = 0.3430
+Random PR-AUC baseline ≈ 0.3430
+
+BASELINE DETAILS
+----------------------------------------------------------------------
+Structural LR (all) [VAL]                  F1=0.6723  P=0.5474  R=0.8711  AUC=0.8033  PR-AUC=0.6981  thr=0.390  (TP=277 FP=229 FN=41 TN=356)
+Structural LR (all) [TEST]                 F1=0.5861  P=0.4602  R=0.8068  AUC=0.7406  PR-AUC=0.6317  thr=0.390  (TP=497 FP=583 FN=119 TN=597)
+Complexity-only LR [VAL]                   F1=0.6498  P=0.5433  R=0.8082  AUC=0.7975  PR-AUC=0.6763  thr=0.480  (TP=257 FP=216 FN=61 TN=369)
+Complexity-only LR [TEST]                  F1=0.6416  P=0.5623  R=0.7468  AUC=0.8020  PR-AUC=0.6924  thr=0.480  (TP=460 FP=358 FN=156 TN=822)
+Size-only LR [VAL]                         F1=0.5995  P=0.5235  R=0.7013  AUC=0.7373  PR-AUC=0.6812  thr=0.400  (TP=223 FP=203 FN=95 TN=382)
+Size-only LR [TEST]                        F1=0.5613  P=0.4418  R=0.7695  AUC=0.7045  PR-AUC=0.5985  thr=0.400  (TP=474 FP=599 FN=142 TN=581)
+Char TF-IDF LR [VAL]                       F1=0.6016  P=0.4803  R=0.8050  AUC=0.7179  PR-AUC=0.5459  thr=0.520  (TP=256 FP=277 FN=62 TN=308)
+Char TF-IDF LR [TEST]                      F1=0.5967  P=0.5192  R=0.7013  AUC=0.7347  PR-AUC=0.5879  thr=0.520  (TP=432 FP=400 FN=184 TN=780)
+
+CODEBERT DETAILS
+----------------------------------------------------------------------
+CodeBERT v3 VAL                            F1=0.7178  P=0.7006  R=0.7358  AUC=0.8559  PR-AUC=0.7191  thr=0.850  (TP=234 FP=100 FN=84 TN=485)
+CodeBERT v3 TEST default                   F1=0.7515  P=0.7755  R=0.7289  AUC=0.9031  PR-AUC=0.8261  thr=0.500  (TP=449 FP=130 FN=167 TN=1050)
+CodeBERT v3 TEST val-tuned                 F1=0.7088  P=0.8130  R=0.6282  AUC=0.9031  PR-AUC=0.8261  thr=0.850  (TP=387 FP=89 FN=229 TN=1091)
+
+CodeBERT v3 test 95% project-cluster bootstrap CI:
+  F1      : 0.656 - 0.778
+  ROC-AUC : 0.841 - 0.950
+  PR-AUC  : 0.730 - 0.935
+  Successful bootstrap samples: 500
