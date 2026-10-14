@@ -3,6 +3,9 @@ models/codebert
 # literature/
 *.pdf
 
+.venv/
+__pycache__/
+*.pyc
 # Trained model checkpoints - too large for normal GitHub
 models/codebert/best_model/
 models/codebert_previous/best_model/
