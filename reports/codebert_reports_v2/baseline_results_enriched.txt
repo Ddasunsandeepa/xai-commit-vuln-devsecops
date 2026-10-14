@@ -1,0 +1,80 @@
+BASELINE ML RESULTS — ENRICHED FEATURES
+=======================================================
+Run time : 2026-05-12 05:11:33
+Input    : data/processed/big_vul_enriched.csv
+
+ENRICHED FEATURES USED
+-------------------------------------------------------
+  diff_length, func_before_length, cyclomatic_complexity,
+  num_parameters, num_function_calls, nesting_depth,
+  token_diversity, security_keyword_count, comment_ratio,
+  lines_added, lines_removed
+
+
+=======================================================
+EXPERIMENT: Exp-A: All 11 features
+Features: ['diff_length', 'func_before_length', 'cyclomatic_complexity', 'num_parameters', 'num_function_calls', 'nesting_depth', 'token_diversity', 'security_keyword_count', 'comment_ratio', 'lines_added', 'lines_removed']
+
+  Logistic Regression
+    P=0.3726  R=0.7015  F1=0.4867  AUC=0.7722
+    TP=275  FP=463  FN=117  TN=990
+    LR Train CV F1: 0.6482 ± 0.0129
+
+  Random Forest
+    P=0.3060  R=0.7526  F1=0.4351  AUC=0.7521
+    TP=295  FP=669  FN=97  TN=784
+    RF Train CV F1: 0.7357 ± 0.0125
+
+=======================================================
+EXPERIMENT: Exp-B: No patch-size (lines_added/removed)
+Features: ['diff_length', 'func_before_length', 'cyclomatic_complexity', 'num_parameters', 'num_function_calls', 'nesting_depth', 'token_diversity', 'security_keyword_count', 'comment_ratio']
+
+  Logistic Regression
+    P=0.3406  R=0.7551  F1=0.4695  AUC=0.7628
+    TP=296  FP=573  FN=96  TN=880
+    LR Train CV F1: 0.6228 ± 0.0054
+
+  Random Forest
+    P=0.3092  R=0.7628  F1=0.4400  AUC=0.7463
+    TP=299  FP=668  FN=93  TN=785
+    RF Train CV F1: 0.6968 ± 0.0177
+
+=======================================================
+EXPERIMENT: Exp-C: Structural + complexity (honest enriched)
+Features: ['func_before_length', 'cyclomatic_complexity', 'num_parameters', 'num_function_calls', 'nesting_depth', 'token_diversity', 'comment_ratio']
+
+  Logistic Regression
+    P=0.3384  R=0.7449  F1=0.4653  AUC=0.7492
+    TP=292  FP=571  FN=100  TN=882
+    LR Train CV F1: 0.6168 ± 0.0086
+
+  Random Forest
+    P=0.3119  R=0.7194  F1=0.4352  AUC=0.7350
+    TP=282  FP=622  FN=110  TN=831
+    RF Train CV F1: 0.6363 ± 0.0133
+
+=======================================================
+EXPERIMENT: Exp-D: Complexity only (no size at all)
+Features: ['cyclomatic_complexity', 'num_parameters', 'num_function_calls', 'nesting_depth', 'token_diversity', 'comment_ratio']
+
+  Logistic Regression
+    P=0.3520  R=0.7526  F1=0.4797  AUC=0.7617
+    TP=295  FP=543  FN=97  TN=910
+    LR Train CV F1: 0.6139 ± 0.0106
+
+  Random Forest
+    P=0.3150  R=0.7143  F1=0.4372  AUC=0.7404
+    TP=280  FP=609  FN=112  TN=844
+    RF Train CV F1: 0.6388 ± 0.0071
+
+
+FINAL COMPARISON
+=======================================================
+  Exp-A: All 11 features | Logistic Regression | F1=0.4867 AUC=0.7722
+  Exp-A: All 11 features | Random Forest | F1=0.4351 AUC=0.7521
+  Exp-B: No patch-size (lines_added/removed) | Logistic Regression | F1=0.4695 AUC=0.7628
+  Exp-B: No patch-size (lines_added/removed) | Random Forest | F1=0.4400 AUC=0.7463
+  Exp-C: Structural + complexity (honest enriched) | Logistic Regression | F1=0.4653 AUC=0.7492
+  Exp-C: Structural + complexity (honest enriched) | Random Forest | F1=0.4352 AUC=0.7350
+  Exp-D: Complexity only (no size at all) | Logistic Regression | F1=0.4797 AUC=0.7617
+  Exp-D: Complexity only (no size at all) | Random Forest | F1=0.4372 AUC=0.7404

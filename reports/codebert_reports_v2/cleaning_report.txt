@@ -1,0 +1,33 @@
+COMMIT DATASET CLEANING REPORT
+==================================================
+Run time      : 2026-05-07 13:35:48
+Input file    : data/commit_dataset.csv
+Output file   : data/commit_dataset_cleaned.csv
+
+CLEANING SUMMARY
+--------------------------------------------------
+Original commits  : 20
+Commits dropped   : 5
+Commits kept      : 15
+
+REMOVAL REASONS
+--------------------------------------------------
+    0 removed — empty/too-short diff
+    3 removed — diff too large (>10k chars)
+    2 removed — noise commit message
+
+FEATURE STATS (cleaned dataset)
+--------------------------------------------------
+  avg lines added   : 17.7
+  avg lines removed : 15.0
+  avg diff length   : 2433 chars
+  security term hits: 5 / 15
+
+LABEL DISTRIBUTION
+--------------------------------------------------
+  label=0 (placeholder): 15
+  label=1 (vulnerable) : 0  <- will be filled from JIT-Vul
+
+NEXT STEP
+--------------------------------------------------
+  Move to STEP 2.4 — Load JIT-Vul dataset and map real labels.

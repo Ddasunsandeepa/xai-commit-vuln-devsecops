@@ -1,0 +1,24 @@
+FEATURE ENRICHMENT REPORT
+=======================================================
+Run time : 2026-05-12 04:53:37
+
+NEW FEATURES ADDED
+-------------------------------------------------------
+  diff_length                vuln=1096.94  safe=787.88  diff=+309.06
+  func_before_length         vuln=3285.00  safe=1055.50  diff=+2229.50
+  cyclomatic_complexity      vuln=23.22  safe=7.67  diff=+15.54
+  num_parameters             vuln=2.91  safe=2.10  diff=+0.81
+  num_function_calls         vuln=28.15  safe=9.64  diff=+18.51
+  nesting_depth              vuln=2.99  safe=2.22  diff=+0.77
+  token_diversity            vuln=0.44  safe=0.58  diff=-0.13
+  security_keyword_count     vuln=6.07  safe=2.89  diff=+3.18
+  comment_ratio              vuln=0.07  safe=0.04  diff=+0.03
+  lines_added                vuln=10.27  safe=7.56  diff=+2.71
+  lines_removed              vuln=6.46  safe=2.29  diff=+4.17
+
+NEXT STEP
+  Re-run train_baseline_model.py with INPUT_FILE = big_vul_enriched.csv
+  Update FEATURE_COLS to include all new features
+  Re-run explain_shap.py to see if func_before_length still dominates
+  If it does → research finding (structure = key signal)
+  If other features emerge → stronger model

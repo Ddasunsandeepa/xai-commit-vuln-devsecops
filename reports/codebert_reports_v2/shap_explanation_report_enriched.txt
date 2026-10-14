@@ -1,0 +1,74 @@
+SHAP EXPLAINABILITY REPORT — ENRICHED FEATURES
+=======================================================
+Run time : 2026-05-12 05:12:52
+Model    : models/ExpC_best_model.pkl
+Features : ['func_before_length', 'cyclomatic_complexity', 'num_parameters', 'num_function_calls', 'nesting_depth', 'token_diversity', 'comment_ratio']
+
+SHAP values: positive = toward VULNERABLE, negative = toward SAFE
+
+
+GLOBAL FEATURE IMPORTANCE
+-------------------------------------------------------
+  #1  num_function_calls              0.7829  — Number of calls to other functions
+  #2  token_diversity                 0.4865  — Unique tokens / total tokens (code variety)
+  #3  func_before_length              0.3229  — Length of vulnerable function (chars)
+  #4  num_parameters                  0.1675  — Number of function arguments
+  #5  comment_ratio                   0.1264  — Fraction of lines that are comments
+  #6  nesting_depth                   0.0417  — Maximum brace nesting depth
+  #7  cyclomatic_complexity           0.0071  — Number of branches/decision points
+
+
+LOCAL EXPLANATIONS
+-------------------------------------------------------
+
+  [TP] TRUE POSITIVE  — correctly flagged vulnerable
+  Vuln prob: 0.9947
+    num_function_calls: SHAP=+9.7242
+    func_before_length: SHAP=-5.8947
+    token_diversity: SHAP=+1.0637
+    nesting_depth: SHAP=+0.1893
+    cyclomatic_complexity: SHAP=+0.1339
+
+  [FP] FALSE POSITIVE — wrongly flagged vulnerable
+  Vuln prob: 0.6843
+    num_function_calls: SHAP=+0.6332
+    token_diversity: SHAP=+0.2847
+    comment_ratio: SHAP=-0.1280
+    num_parameters: SHAP=-0.0544
+    func_before_length: SHAP=+0.0304
+
+  [TN] TRUE NEGATIVE  — correctly flagged safe
+  Vuln prob: 0.2251
+    token_diversity: SHAP=-0.7951
+    num_function_calls: SHAP=-0.3310
+    func_before_length: SHAP=+0.1793
+    num_parameters: SHAP=-0.1679
+    comment_ratio: SHAP=-0.1280
+
+  [FN] FALSE NEGATIVE — missed vulnerability
+  Vuln prob: 0.3913
+    num_function_calls: SHAP=-0.3310
+    func_before_length: SHAP=+0.1558
+    comment_ratio: SHAP=-0.1280
+    token_diversity: SHAP=-0.0933
+    num_parameters: SHAP=-0.0544
+
+
+SHAP BY CLASS
+-------------------------------------------------------
+  func_before_length: vuln=-0.7288  safe=+0.0613  diff=-0.7901
+  cyclomatic_complexity: vuln=+0.0150  safe=-0.0011  diff=+0.0161
+  num_parameters: vuln=+0.0116  safe=-0.0830  diff=+0.0947
+  num_function_calls: vuln=+1.5159  safe=-0.0162  diff=+1.5321
+  nesting_depth: vuln=+0.0452  safe=+0.0117  diff=+0.0335
+  token_diversity: vuln=+0.3965  safe=-0.1749  diff=+0.5714
+  comment_ratio: vuln=+0.0311  safe=-0.0353  diff=+0.0664
+
+
+PLOTS SAVED
+  reports/shap_plots_enriched/shap_beeswarm_enriched.png
+  reports/shap_plots_enriched/shap_bar_enriched.png
+  reports/shap_plots_enriched/shap_waterfall_enriched.png
+
+NEXT STEP
+  → CodeBERT fine-tuning on func_before text
