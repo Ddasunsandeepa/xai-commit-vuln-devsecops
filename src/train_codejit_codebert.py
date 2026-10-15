@@ -1,3 +1,163 @@
+#!/usr/bin/env python3
+"""CodeJIT CodeBERT, repository-disjoint TRAIN/VALIDATION ONLY.
+
+Uses exactly the same manifest validation and verified extraction loader as
+run_codejit_large_baselines.py. No test cohort is loaded or accessed.
+Run one mode at a time: --input-mode message|code|combined.
+"""
+import argparse
+import hashlib
+import json
+import math
+import os
+import random
+import sys
+import time
+from pathlib import Path
+
+import numpy as np
+import pandas as pd
+from sklearn.metrics import (accuracy_score, balanced_accuracy_score,
+                             precision_score, recall_score, f1_score,
+                             roc_auc_score, average_precision_score,
+                             confusion_matrix)
+
+
+def sha256(path):
+    h = hashlib.sha256()
+    with open(path, 'rb') as f:
+        for chunk in iter(lambda: f.read(1024 * 1024), b''):
+            h.update(chunk)
+    return h.hexdigest()
+
+
+def metric(y, p, threshold):
+    pred = (np.asarray(p) >= threshold).astype(int)
+    y = np.asarray(y).astype(int)
+    return dict(n=int(len(y)), threshold=float(threshold),
+                accuracy=float(accuracy_score(y, pred)),
+                balanced_accuracy=float(balanced_accuracy_score(y, pred)),
+                precision=float(precision_score(y, pred, zero_division=0)),
+                recall=float(recall_score(y, pred, zero_division=0)),
+                f1=float(f1_score(y, pred, zero_division=0)),
+                macro_f1=float(f1_score(y, pred, average='macro', zero_division=0)),
+                roc_auc=float(roc_auc_score(y, p)),
+                pr_auc=float(average_precision_score(y, p)),
+                confusion_matrix=confusion_matrix(y, pred, labels=[0, 1]).tolist())
+
+
+def tune_threshold(y, p):
+    # Tune only on validation, deterministic, report 0.5 alongside tuned.
+    thresholds = np.arange(5, 96) / 100.0
+    values = [f1_score(y, np.asarray(p) >= t, zero_division=0) for t in thresholds]
+    return float(thresholds[int(np.argmax(values))])
+
+
+def build_tokens(tokenizer, message, patch, mode, max_length, message_budget):
+    """RoBERTa token construction without deprecated tokenizer helper APIs.
+
+    Single: <s> text </s>; pair: <s> message </s></s> patch </s>.
+    Prefix selection of patch bytes happens upstream in load_records.
+    """
+    bos = tokenizer.bos_token_id
+    eos = tokenizer.eos_token_id
+    if bos is None or eos is None:
+        raise ValueError('Expected a RoBERTa-compatible tokenizer with BOS/EOS tokens')
+
+    def raw_ids(text):
+        # verbose=False suppresses the irrelevant pre-truncation >512 warning.
+        return tokenizer.encode(text, add_special_tokens=False,
+                                truncation=False, verbose=False)
+
+    if mode == 'message':
+        m = raw_ids(message)
+        capacity = max_length - 2
+        return [bos] + m[:capacity] + [eos], len(m) > capacity, False
+    if mode == 'code':
+        c = raw_ids(patch)
+        capacity = max_length - 2
+        return [bos] + c[:capacity] + [eos], False, len(c) > capacity
+
+    m = raw_ids(message)
+    c = raw_ids(patch)
+    capacity = max_length - 4
+    mcap = min(len(m), message_budget, capacity - 1)
+    ccap = capacity - mcap
+    if len(c) < ccap:
+        mcap = min(len(m), capacity - len(c))
+        ccap = capacity - mcap
+    # Explicit RoBERTa pair encoding. Verify maximum length at call site.
+    ids = [bos] + m[:mcap] + [eos, eos] + c[:ccap] + [eos]
+    return ids, len(m) > mcap, len(c) > ccap
+
+
+def main():
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument('--train', required=True)
+    p.add_argument('--val', required=True)
+    p.add_argument('--extraction', default='reports/codejit_extraction_v1')
+    p.add_argument('--out', default='reports/codejit_codebert_v1')
+    p.add_argument('--input-mode', choices=['message', 'code', 'combined'], required=True)
+    p.add_argument('--model-name', default='microsoft/codebert-base')
+    p.add_argument('--max-patch-bytes', type=int, default=32768)
+    p.add_argument('--max-length', type=int, default=256)
+    p.add_argument('--message-budget', type=int, default=64)
+    p.add_argument('--batch-size', type=int, default=4)
+    p.add_argument('--grad-accum', type=int, default=4)
+    p.add_argument('--epochs', type=int, default=3)
+    p.add_argument('--patience', type=int, default=2)
+    p.add_argument('--learning-rate', type=float, default=2e-5)
+    p.add_argument('--seed', type=int, default=42)
+    p.add_argument('--smoke-test', action='store_true', help='1 epoch, first 64 train/32 val; NOT research results')
+    p.add_argument('--check-data-only', action='store_true', help='Verify inputs and report counts, no model download')
+    args = p.parse_args()
+    if args.max_length < 16 or args.max_length > 512 or args.message_budget < 1 or args.message_budget >= args.max_length - 4:
+        p.error('Require 16<=max-length<=512 and 1<=message-budget<max-length-4')
+    if min(args.batch_size, args.grad_accum, args.epochs, args.max_patch_bytes) < 1:
+        p.error('batch-size, grad-accum, epochs, max-patch-bytes must be positive')
+
+    # Reuse baseline's exact manifest validation, path checks, message extraction,
+    # patch integrity and 32KiB prefix selection. Fail if module unavailable.
+    sys.path.insert(0, str(Path(__file__).resolve().parent))
+    from run_codejit_large_baselines import load_manifest, load_records
+    train, val = load_manifest(args.train), load_manifest(args.val)
+    train_keys = set(zip(train.repo, train.commit_id))
+    val_keys = set(zip(val.repo, val.commit_id))
+    if train_keys & val_keys or set(train.repo) & set(val.repo):
+        raise ValueError('Train/validation commit or repository overlap')
+    if set(train.label.astype(int)) != {0, 1} or set(val.label.astype(int)) != {0, 1}:
+        raise ValueError('Both labels required in each split')
+    train_msg, train_patch, train_audit = load_records(train, Path(args.extraction), args.max_patch_bytes)
+    val_msg, val_patch, val_audit = load_records(val, Path(args.extraction), args.max_patch_bytes)
+    ytrain = train.label.astype(int).to_numpy()
+    yval = val.label.astype(int).to_numpy()
+    out = Path(args.out) / args.input_mode
+    if args.smoke_test:
+        out = out / 'SMOKE_NOT_FOR_REPORTING'
+        train = train.iloc[:64].copy(); val = val.iloc[:32].copy()
+        train_msg, train_patch = train_msg[:64], train_patch[:64]
+        val_msg, val_patch = val_msg[:32], val_patch[:32]
+        ytrain, yval = ytrain[:64], yval[:32]
+    out.mkdir(parents=True, exist_ok=True)
+    data_report = dict(train=int(len(train)), val=int(len(val)),
+                       train_repositories=int(train.repo.nunique()),
+                       val_repositories=int(val.repo.nunique()),
+                       train_label_counts={str(k): int(v) for k, v in zip(*np.unique(ytrain, return_counts=True))},
+                       val_label_counts={str(k): int(v) for k, v in zip(*np.unique(yval, return_counts=True))},
+                       train_manifest_sha256=sha256(args.train), val_manifest_sha256=sha256(args.val),
+                       max_patch_bytes=args.max_patch_bytes,
+                       smoke_test=bool(args.smoke_test), heldout_test_accessed=False)
+    (out / 'data_audit.json').write_text(json.dumps(data_report, indent=2) + '\n')
+    print('DATA AUDIT:', json.dumps(data_report, indent=2), flush=True)
+    if args.check_data_only:
+        return
+
+    import torch
+    from torch.utils.data import DataLoader, Dataset
+    from transformers import AutoTokenizer, AutoModelForSequenceClassification, get_linear_schedule_with_warmup
+    if not torch.cuda.is_available():
+        raise RuntimeError('CUDA GPU required; enable Kaggle GPU before training')
+    random.seed(args.seed); np.random.seed(args.seed); torch.manual_seed(args.seed)
     torch.cuda.manual_seed_all(args.seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
