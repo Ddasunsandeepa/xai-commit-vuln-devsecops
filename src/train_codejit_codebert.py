@@ -54,27 +54,40 @@ def tune_threshold(y, p):
 
 
 def build_tokens(tokenizer, message, patch, mode, max_length, message_budget):
-    # The baseline uses first max_patch_bytes raw bytes, verified before decoding.
-    # Encode with explicit special tokens; combined reserves a message budget so
-    # neither modality is accidentally entirely omitted by prefix truncation.
-    m = tokenizer.encode(message, add_special_tokens=False)
-    c = tokenizer.encode(patch, add_special_tokens=False)
+    """RoBERTa token construction without deprecated tokenizer helper APIs.
+
+    Single: <s> text </s>; pair: <s> message </s></s> patch </s>.
+    Prefix selection of patch bytes happens upstream in load_records.
+    """
+    bos = tokenizer.bos_token_id
+    eos = tokenizer.eos_token_id
+    if bos is None or eos is None:
+        raise ValueError('Expected a RoBERTa-compatible tokenizer with BOS/EOS tokens')
+
+    def raw_ids(text):
+        # verbose=False suppresses the irrelevant pre-truncation >512 warning.
+        return tokenizer.encode(text, add_special_tokens=False,
+                                truncation=False, verbose=False)
+
     if mode == 'message':
-        capacity = max_length - tokenizer.num_special_tokens_to_add(pair=False)
-        ids = tokenizer.build_inputs_with_special_tokens(m[:capacity])
-        return ids, len(m) > capacity, False
+        m = raw_ids(message)
+        capacity = max_length - 2
+        return [bos] + m[:capacity] + [eos], len(m) > capacity, False
     if mode == 'code':
-        capacity = max_length - tokenizer.num_special_tokens_to_add(pair=False)
-        ids = tokenizer.build_inputs_with_special_tokens(c[:capacity])
-        return ids, False, len(c) > capacity
-    capacity = max_length - tokenizer.num_special_tokens_to_add(pair=True)
+        c = raw_ids(patch)
+        capacity = max_length - 2
+        return [bos] + c[:capacity] + [eos], False, len(c) > capacity
+
+    m = raw_ids(message)
+    c = raw_ids(patch)
+    capacity = max_length - 4
     mcap = min(len(m), message_budget, capacity - 1)
     ccap = capacity - mcap
-    # Redistribute unused code capacity to message, if code is short.
     if len(c) < ccap:
         mcap = min(len(m), capacity - len(c))
         ccap = capacity - mcap
-    ids = tokenizer.build_inputs_with_special_tokens(m[:mcap], c[:ccap])
+    # Explicit RoBERTa pair encoding. Verify maximum length at call site.
+    ids = [bos] + m[:mcap] + [eos, eos] + c[:ccap] + [eos]
     return ids, len(m) > mcap, len(c) > ccap
 
 
