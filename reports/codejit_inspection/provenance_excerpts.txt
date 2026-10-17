@@ -1,0 +1,333 @@
+README: Readme.md
+## Instruction to train word2vec model
+```
+python Main_Word2Vec.py --vocab_file_path="vocab/word2vec.vocabulary.txt" --vector_length=32 --model_dir="model" --model_name="w2v"
+```
+The vocab file can be downloaded <a href="https://drive.google.com/file/d/1jXZTQv08tl7ThoCI8468fNQ0FeTA8XNN/view?usp=sharing"> here </a>
+
+You can used our <a href="https://drive.google.com/file/d/1-0KTxFoPgx4OmEK7RTVxVkqYiQJ8KjUB/view?usp=sharing"> pre-trained model </a>
+
+## Instruction to embed features of nodes and edges of the graphs
+```
+python Main_Graph_Embedding.py --node_graph_dir="Data/Graph/node" --node_graph_dir="Data/Graph/edge" --label=1 --embedding_graph_dir="Data/embedding" 
+```
+
+You can used our <a href="https://drive.google.com/drive/folders/13t6b0Iavnlrj0zEdksmuz7MPWyz6n9jY?usp=share_link"> embedded graphs </a>
+
+## Instruction to train and test GNN models
+
+```
+python Main_VULJIT_Detection.py --graph_dir='Data/Embedding_CTG'  --train_file='Data/data_split/train_time_id.txt' --test_file='Data/data_split/test_time_id.txt'  --model_dir='Model'  --model_name="rgcn" 
+```
+
+Download the commit ids in the training and testing sets from <a href="https://drive.google.com/drive/folders/1pJJsY_dkpdRGyhsCz44LdVrW-waA0j8E?usp=sharing"> here </a>
+
+In order to train GNN models, you need to install the required libraries such as torch and pytorch_geometrics
+
+```
+# Install required packages.
+import os
+import torch
+os.environ['TORCH'] = torch.__version__
+print(torch.__version__)
+
+!pip install -q torch-scatter -f https://data.pyg.org/whl/torch-${TORCH}.html
+!pip install -q torch-sparse -f https://data.pyg.org/whl/torch-${TORCH}.html
+!pip install -q git+https://github.com/pyg-team/pytorch_geometric.git
+```
+
+
+
+FILE: Main_Embedding_Graph_From_CSV_File.py
+
+  L33: data.columns = ['Unnamed: 0.1', 'Unnamed: 0', 'commit_id', 'line_number', 'index_ctg',
+
+  L34: 'topic', 'context_nodes', 'context_edges', 'stmt', 'label']
+
+  L46: commit_id = data.at[idx, "commit_id"]
+
+  L49: graph = embed_graph(data.at[idx, "commit_id"], data.at[idx, "label"], nodes, edges)
+
+  L50: torch.save(data, os.path.join(embedding_graph_dir, "data_{}_{}_{}.pt".format(commit_id, ctg_index, line_number)))
+
+
+FILE: Main_Graph_Embedding.py
+
+  L14: parser.add_argument('--label', type=int, help='label of the commits, 1 if the commits are buggy, 0 otherwise')
+
+  L23: label = int(args.label)
+
+  L24: if label == 1:
+
+  L32: commit_id = f.split(".")[0].split("_")[-1]
+
+  L34: edge_info = pandas.read_csv(join(edge_graph_dir, "edge_" + commit_id + ".csv"))
+
+  L36: data = embed_graph(commit_id, label, node_info,  edge_info)
+
+  L37: torch.save(data, os.path.join(embedding_graph_dir, "data_{}.pt".format(commit_id)))
+
+  L39: print("exception:" + commit_id)
+
+
+FILE: Main_STMT_Context_Extraction_bk.py
+
+  L37: ground_truth = 1
+
+  L47: df.columns = ['commit_id', 'nodes', 'edges', 'vul_lines']
+
+  L50: commit_id = df.at[idx, "commit_id"]
+
+  L52: print("skip commit:", commit_id)
+
+  L56: print("handle commit:", commit_id)
+
+  L58: node_infos, edge_infos = CTG_main(df, idx, ground_truth, separate_token, "explaining")
+
+  L75: data_of_the_stmt = {"commit_id": commit_id, "line_number": item,
+
+  L91: print("exception: ", commit_id)
+
+
+FILE: Main_STMT_Extract_Feature.py
+
+  L14: method = nodes[nodes["_label"] == "METHOD"]
+
+  L16: if "METHOD_1.0:" in method.at[idx, "node_label"] and "<global>" not in method.at[idx, "node_label"]:
+
+  L39: changedline_data.columns = ['Unnamed: 0', 'commit_id', 'idx', 'changed_type', 'label',
+
+  L44: commit_id = changedline_data.at[idx, "commit_id"]
+
+  L54: ctg = ctg_data[ctg_data['commit_id'] == commit_id]
+
+  L72: data_of_the_stmt = {"commit_id": commit_id,
+
+  L79: "label": changedline_data.at[idx, "label"]
+
+  L88: print("exception: ", commit_id)
+
+
+FILE: graph_embedding/relational_graph.py
+
+  L74: def embed_graph(commit_id, ground_truth, nodes, edges):
+
+  L83: edge_index, edge_type, edge_label = load_edges(
+
+  L97: data.edge_attr = edge_label
+
+  L100: data.y = torch.tensor([ground_truth], dtype = int)
+
+
+FILE: graph_manager/Joern_Node.py
+
+  L31: tmp = NODE(stmt_nodes.at[i, "id"], stmt_nodes.at[i, "_label"], stmt_nodes.at[i, "code"],
+
+  L47: def __init__(self, _id, label, code, name, change_operation):
+
+  L50: if isinstance(label, str):
+
+  L51: self.label = label
+
+  L53: self.label = ""
+
+  L73: if self.label == "META_DATA":
+
+  L75: elif self.label == "CONTROL_STRUCTURE" and self.code != "":
+
+  L86: elif self.label == "CALL":
+
+  L89: elif self.label == "IDENTIFIER" or self.label == "METHOD_PARAMETER_IN" or self.label == "METHOD_PARAMETER_OUT" or self.label == "FIELD_IDENTIFIER" or self.label == "LOCAL":
+
+  L92: elif self.label == "METHOD_RETURN" or self.label == "RETURN":
+
+  L98: elif self.label == "NAMESPACE":
+
+  L100: elif self.label == "COMMENT":
+
+  L102: elif self.label == "FILE":
+
+  L104: elif self.label == "LITERAL":
+
+  L107: elif self.label == "UNKNOWN":
+
+  L109: elif self.label == "TYPE" or self.label == "TYPE_DECL":
+
+  L112: elif self.label == "METHOD":
+
+  L116: elif self.label != "BLOCK":
+
+  L117: result = self.label + " "
+
+
+FILE: graph_manager/Main_Trim_CTG.py
+
+  L112: tmp = NODE(nodes.at[i, "id"], nodes.at[i, "_label"], nodes.at[i, "code"],
+
+  L138: removed_nodes = nodes[nodes["_label"] == "BLOCK"]["id"].tolist()
+
+  L139: nodes = nodes[nodes["_label"] != "BLOCK"]
+
+  L192: def CTG_main(df, idx, ground_truth, separate_token, mode="embedding"):
+
+  L193: commit_id = df.at[idx, "commit_id"]
+
+  L212: removed_nodes = nodes[nodes["_label"] == "BLOCK"]["id"].tolist()
+
+  L213: nodes = nodes[nodes["_label"] != "BLOCK"]
+
+  L281: # if ground_truth == 1:
+
+  L282: #   all_nodes.to_csv("Data/sliced_graph_before_embedding/VTC_Graph/node/node_{}.csv".format(commit_id))
+
+  L283: #   all_edges.to_csv("Data/sliced_graph_before_embedding/VTC_Graph/edge/edge_{}.csv".format(commit_id))
+
+  L285: #   all_nodes.to_csv("Data/sliced_graph_before_embedding/VFC_Graph/node/node_{}.csv".format(commit_id))
+
+  L286: #   all_edges.to_csv("Data/sliced_graph_before_embedding/VFC_Graph/edge/edge_{}.csv".format(commit_id))
+
+  L289: #   data = embed_graph(commit_id, ground_truth, pandas.concat(commit_nodes),  pandas.concat(commit_edges))
+
+
+FILE: graph_manager/parse_joern.py
+
+  L31: def nodelabel2line(label: str):
+
+  L32: """Given a node label, return the line number.
+
+  L36: nodelabel2line(s)
+
+  L40: return str(int(label))
+
+  L42: return label.split(":")[0].split("_")[-1]
+
+  L54: def get_digraph(nodes, edges, edge_label=True):
+
+  L58: nodes = [n + [nodelabel2line(n[1])] for n in nodes]
+
+  L91: if edge_label:
+
+  L118: ["id", "_label", "name", "code", "lineNumber", "controlStructureType", "ALPHA"]
+
+  L141: # Assign node label for printing in the graph
+
+  L142: nodes["node_label"] = (
+
+  L143: nodes._label + "_" + nodes.lineNumber.astype(str) + ": " + nodes.code
+
+  L147: nodes = nodes[nodes._label != "COMMENT"]
+
+  L148: nodes = nodes[nodes._label != "FILE"]
+
+  L179: node_label = f"TYPE_{lineNum}: {typemap[int(e.outnode.split('_')[0])]}"
+
+  L181: {"id": e.outnode, "node_label": node_label, "lineNumber": lineNum},
+
+  L211: nodes_new[["id", "node_label"]].to_numpy().tolist(),
+
+  L287: label_nodes = nodes[nodes._label == "LOCAL"].id.tolist()
+
+  L288: onehop_labels = neighbour_nodes(nodes, rdg(edges, "ast"), label_nodes, 1, False)
+
+  L289: twohop_labels = neighbour_nodes(nodes, rdg(edges, "reftype"), label_nodes, 2, False)
+
+  L290: node_types = nodes[nodes._label == "TYPE"]
+
+  L293: (nodes._label == "BLOCK") | (nodes._label == "CONTROL_STRUCTURE")
+
+  L300: for k, v in twohop_labels.items():
+
+  L305: block = onehop_labels[k]
+
+  L330: nodes (pd.DataFrame): columns are id, node_label
+
+  L338: nodes, edges, nodeids=[], hop=1, drop_lone_nodes=True, edge_label=True
+
+  L343: nodes (pd.DataFrame): columns are id, node_label
+
+  L363: nodes[["id", "node_label"]].to_numpy().tolist(),
+
+  L365: edge_label=edge_label,
+
+
+FILE: jitvul_model/graph_dataset.py
+
+  L2: from torch.utils.data import DataLoader, Dataset
+
+  L6: class GraphDataset(Dataset):
+
+
+FILE: jitvul_model/jit_vul_detection_model.py
+
+  L8: from graph_dataset import *
+
+  L23: train_dataset = GraphDataset(train_files, graph_path)
+
+  L24: _trainLoader = DataLoader(train_dataset, collate_fn=collate_batch, shuffle=False)
+
+  L71: for graph, commit_id, index in _trainLoader:
+
+  L107: test_dataset = GraphDataset(test_files, graph_path)
+
+  L108: _testLoader = DataLoader(test_dataset, collate_fn=collate_batch, shuffle=False)
+
+  L143: for graph, commit_id, index in _loader:
+
+  L156: write_to_file_results.append({"commit_id": commit_id, "predict": pred[0], "target": graph.y.item()})
+
+
+FILE: jitvul_model/vul_line_graph_dataset.py
+
+  L2: from torch.utils.data import DataLoader, Dataset
+
+  L7: class GraphDataset(Dataset):
+
+
+FILE: jitvul_model/vul_localization.py
+
+  L8: from vul_line_graph_dataset import *
+
+  L23: train_dataset = GraphDataset(train_files, train_file_path)
+
+  L24: _trainLoader = DataLoader(train_dataset, collate_fn=collate_batch, shuffle=False)
+
+  L71: for graph, commit_id, index in _trainLoader:
+
+  L104: test_dataset = GraphDataset(test_files, test_file_path)
+
+  L105: _testLoader = DataLoader(test_dataset, collate_fn=collate_batch, shuffle=False)
+
+  L140: for graph, commit_id, index in _loader:
+
+  L153: write_to_file_results.append({"commit_id": commit_id, "predict": pred[0], "target": graph.y.item()})
+
+
+FILE: vul_localization/Result_Manager.py
+
+  L14: pos_label = unique_y[1]
+
+  L15: n_pos = np.sum(y_true == pos_label)
+
+  L21: n_relevant = np.sum(y_true == pos_label)
+
+  L43: lstm_predicted_labels = predictions.round()
+
+  L60: print(classification_report(y_test, lstm_predicted_labels))
+
+  L62: for item in lstm_predicted_labels:
+
+
+FILE: vul_localization/STM_blstm.py
+
+  L23: # from sklearn.model_selection import train_test_split
+
+  L210: data.columns = ['Unnamed: 0.2', 'Unnamed: 0', 'Unnamed: 0.1', 'commit_id',
+
+
+FILE: vul_localization/vectorize_gadget.py
+
+  L21: vulnerability_types = ['DoS', 'Exec Code', '+Priv',
+
+  L52: for i in range(0, len(vulnerability_types)):
+
+  L53: t = vulnerability_types[i]

@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "train_count": 937,
+  "val_count": 237,
+  "train_repositories": 240,
+  "val_repositories": 60,
+  "train_manifest_sha256": "25c4b1029628ba5d20148b8103cae9141279b67bab8a26feecdd8d801050259e",
+  "val_manifest_sha256": "007e6adb0ff5778dd02717daaf7b856543bed2f3b822afc9ec5ddbdc41d0c7b3",
+  "seed": 42,
+  "max_features": 15000,
+  "masking_rules": {
+    "fix": "(?i)\\b(?:fix(?:es|ed|ing)?|bug[\\s_-]?fix(?:es|ed|ing)?|patch(?:es|ed|ing)?|repair(?:s|ed|ing)?|resolv(?:e|es|ed|ing))\\b",
+    "security": "(?i)\\b(?:secur(?:ity|e)|vulnerabilit(?:y|ies)|vuln(?:s)?|exploit(?:s|ed|ation)?|cve[\\s_-]?\\d{4}[\\s_-]?\\d{4,}|cwe[\\s_-]?\\d+|overflow|buffer[\\s_-]?overflow)\\b",
+    "replacement_tokens": [
+      "MASKFIXTOKEN",
+      "MASKSECURITYTOKEN"
+    ]
+  },
+  "validation_metrics": {
+    "original": {
+      "n": 237,
+      "accuracy": 0.7383966244725738,
+      "balanced_accuracy": 0.7393488173268737,
+      "precision": 0.7706422018348624,
+      "recall": 0.6942148760330579,
+      "f1": 0.7304347826086957,
+      "macro_f1": 0.738168210976479,
+      "roc_auc": 0.7995867768595041,
+      "pr_auc": 0.8124995756150404,
+      "confusion_matrix": [
+        [
+          91,
+          25
+        ],
+        [
+          37,
+          84
+        ]
+      ],
+      "train_messages_changed": 0,
+      "val_messages_changed": 0
+    },
+    "fix_masked": {
+      "n": 237,
+      "accuracy": 0.7426160337552743,
+      "balanced_accuracy": 0.7434810487318324,
+      "precision": 0.7727272727272727,
+      "recall": 0.7024793388429752,
+      "f1": 0.7359307359307359,
+      "macro_f1": 0.7424509646731869,
+      "roc_auc": 0.8075662581932175,
+      "pr_auc": 0.8208738983395742,
+      "confusion_matrix": [
+        [
+          91,
+          25
+        ],
+        [
+          36,
+          85
+        ]
+      ],
+      "train_messages_changed": 417,
+      "val_messages_changed": 110
+    },
+    "fix_security_masked": {
+      "n": 237,
+      "accuracy": 0.7383966244725738,
+      "balanced_accuracy": 0.7393488173268737,
+      "precision": 0.7706422018348624,
+      "recall": 0.6942148760330579,
+      "f1": 0.7304347826086957,
+      "macro_f1": 0.738168210976479,
+      "roc_auc": 0.8067825591336564,
+      "pr_auc": 0.8235300583872048,
+      "confusion_matrix": [
+        [
+          91,
+          25
+        ],
+        [
+          37,
+          84
+        ]
+      ],
+      "train_messages_changed": 465,
+      "val_messages_changed": 120
+    }
+  },
+  "limitations": [
+    "Masking is not a causal proof of shortcut learning.",
+    "Shared replacement tokens may themselves retain class-associated information.",
+    "Validation has been repeatedly examined; results are exploratory.",
+    "CodeJIT curated negative class does not represent routine CI commits.",
+    "Held-out test data was not accessed."
+  ]
+}

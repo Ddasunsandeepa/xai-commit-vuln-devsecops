@@ -1,0 +1,101 @@
+{
+  "experiment": "CodeJIT matched-input eligibility filtering",
+  "source_manifest_version": "v1",
+  "output_manifest_version": "v2",
+  "eligibility_rule": "nonempty extracted commit message",
+  "original_manifests_preserved": true,
+  "original_metadata_modified": false,
+  "summary": {
+    "train": {
+      "original": 947,
+      "eligible": 937,
+      "excluded": 10,
+      "label_distribution": {
+        "1": 474,
+        "0": 463
+      }
+    },
+    "val": {
+      "original": 237,
+      "eligible": 237,
+      "excluded": 0,
+      "label_distribution": {
+        "1": 121,
+        "0": 116
+      }
+    }
+  },
+  "exclusions": [
+    {
+      "split": "train",
+      "repo": "axiomatic-systems___bento4",
+      "commit_id": "16b22aaaa201eb0fd56809ff77586cee966099ba",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick",
+      "commit_id": "0553bd5babdbdf65b95f91ed401c98fead17ab54",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick",
+      "commit_id": "450bd716ed3b9186dd10f9e60f630a3d9eeea2a4",
+      "label": 0,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick",
+      "commit_id": "a20214eef4b9c5e1797527b0a6273899a9062f9c",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick",
+      "commit_id": "efc63e48d038c4e691517091a357021760c576c1",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick6",
+      "commit_id": "0f4ba5afce8cd32c2ca756987375ff7c8d3a7b29",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick6",
+      "commit_id": "1684c4c35fa5a84e296d9b8a6fae6627fa046941",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick6",
+      "commit_id": "8aed7e307316751f32d9d1981cd16cb8cf82f752",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick6",
+      "commit_id": "9fe8cd76fbf1dc52cef01a2b137ca1b659b244c8",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    },
+    {
+      "split": "train",
+      "repo": "imagemagick___imagemagick6",
+      "commit_id": "fca094c5eda14e547ca03a5d4e0a7f1dc0e810e8",
+      "label": 1,
+      "reason": "empty_or_missing_commit_message"
+    }
+  ],
+  "limitation": "Empty extracted messages have not been independently verified against original Git history."
+}

@@ -1,0 +1,181 @@
+model,direction,rank,term,coefficient,shortcut_keyword
+message,positive,1,support,2.0134102420296447,False
+message,positive,2,add,1.1625359664905648,False
+message,positive,3,support for,0.9392813669832416,False
+message,positive,4,refactor,0.8067351024182663,False
+message,positive,5,remove,0.7053553699455678,False
+message,positive,6,security fixes,0.7037307012954885,True
+message,positive,7,functions,0.6835987460989089,False
+message,positive,8,warnings,0.666201314596499,False
+message,positive,9,compiler,0.6629363978808566,False
+message,positive,10,where,0.6004696507110092,False
+message,positive,11,zlib,0.5811818605344476,False
+message,positive,12,messages,0.5764651056873152,False
+message,positive,13,cleanup,0.5704762704892585,False
+message,positive,14,from,0.5566029515082241,False
+message,positive,15,style,0.5454059250127063,False
+message,positive,16,rename,0.5380100898419181,False
+message,positive,17,warning,0.5265881409431041,False
+message,positive,18,usage,0.5124653452564533,False
+message,positive,19,new,0.5050615201679305,False
+message,positive,20,decoder,0.5040691393890178,False
+message,positive,21,import,0.4935434173641432,False
+message,positive,22,6200,0.4922999899162342,False
+message,positive,23,into,0.4875162245784217,False
+message,positive,24,codec,0.4847338304231091,False
+message,positive,25,variables,0.4833327583576716,False
+message,positive,26,split,0.4809615919998393,False
+message,positive,27,more,0.4783144929151448,False
+message,positive,28,instead,0.4749078807222179,False
+message,positive,29,first,0.4745260707233947,False
+message,positive,30,native,0.4739308162355941,False
+message,negative,1,buffer,-1.9041389845641636,False
+message,negative,2,fix,-1.8678049172681936,True
+message,negative,3,overflow,-1.65221669657948,True
+message,negative,4,cve,-1.5553320872434175,True
+message,negative,5,fixed,-1.4909734190108554,True
+message,negative,6,in,-1.2116017614454175,False
+message,negative,7,check,-1.1052456862418494,False
+message,negative,8,bug,-1.0290873299092933,False
+message,negative,9,an,-0.9889648139795272,False
+message,negative,10,when,-0.9529520602613276,False
+message,negative,11,buffer overflow,-0.9067241098064674,True
+message,negative,12,thanks,-0.9057045400835926,False
+message,negative,13,security,-0.8389618565726662,True
+message,negative,14,https,-0.8346027269427545,False
+message,negative,15,was,-0.7949973206748328,False
+message,negative,16,security fix,-0.7918927340319294,True
+message,negative,17,by,-0.7479602957377534,False
+message,negative,18,vulnerability,-0.742222426020396,True
+message,negative,19,the,-0.7366829524802843,False
+message,negative,20,size,-0.7312852330211004,False
+message,negative,21,thanks to,-0.7279525895028995,False
+message,negative,22,stack,-0.7196848170418417,False
+message,negative,23,chromium,-0.716516165190635,False
+message,negative,24,overflow in,-0.693012829429671,True
+message,negative,25,bounds,-0.6847845213283439,False
+message,negative,26,fuzz,-0.6817151075637804,False
+message,negative,27,could,-0.6803844137487493,False
+message,negative,28,case,-0.6607808553953255,False
+message,negative,29,fix for,-0.6360764627407675,True
+message,negative,30,github,-0.6236014720539095,False
+code,positive,1,type,0.933647342849666,False
+code,positive,2,else,0.7771969737585752,False
+code,positive,3,support,0.717648973867528,False
+code,positive,4,item,0.6863031805379026,False
+code,positive,5,enum,0.6616024351352975,False
+code,positive,6,flags,0.6498463814964179,False
+code,positive,7,for,0.6379117786399057,False
+code,positive,8,length,0.6233946761987592,False
+code,positive,9,bool,0.612457773879355,False
+code,positive,10,tmp,0.5933003126464825,False
+code,positive,11,tag,0.5922332789933161,False
+code,positive,12,include,0.5885052743021255,False
+code,positive,13,key,0.5805391637618584,False
+code,positive,14,free,0.5726499543975999,False
+code,positive,15,uint32,0.5587198046972403,False
+code,positive,16,continue,0.5415000543092066,False
+code,positive,17,else if,0.537820388126986,False
+code,positive,18,typedef,0.5346488548636749,False
+code,positive,19,endif,0.5317450159853361,False
+code,positive,20,sd,0.5216114394811043,False
+code,positive,21,libfreerdp,0.5213459429051154,False
+code,positive,22,rc,0.5196784515400714,False
+code,positive,23,return if,0.5181886743475986,False
+code,positive,24,const char,0.5088357835491422,False
+code,positive,25,,0.5014251063012473,False
+code,positive,26,gf_box,0.5011822541442693,False
+code,positive,27,image,0.4988914197805309,False
+code,positive,28,18,0.4986719551785712,False
+code,positive,29,set,0.4873010870394793,False
+code,positive,30,server,0.4860803451468456,False
+code,negative,1,git,-0.8106765208782153,False
+code,negative,2,100644,-0.8037350908648997,False
+code,negative,3,diff git,-0.7947802002090357,False
+code,negative,4,imap,-0.7680789852973804,False
+code,negative,5,test,-0.763715203796347,False
+code,negative,6,diff,-0.7633446152892543,False
+code,negative,7,index,-0.7384242492920128,False
+code,negative,8,if,-0.6762639675287317,False
+code,negative,9,libavcodec,-0.6659208843174761,False
+code,negative,10,src,-0.6202498792818196,False
+code,negative,11,cc,-0.6076928970082973,False
+code,negative,12,tests,-0.5147550785411487,False
+code,negative,13,lua_state,-0.4778615825424918,False
+code,negative,14,goto err,-0.4691440783428976,False
+code,negative,15,cpp,-0.4594193172618033,False
+code,negative,16,util,-0.4484250844031963,False
+code,negative,17,overflow,-0.4417247196118209,True
+code,negative,18,result,-0.4361758722435083,False
+code,negative,19,chrome,-0.4334515336187889,False
+code,negative,20,vm,-0.4261735834497535,False
+code,negative,21,return,-0.4062597523817365,False
+code,negative,22,2019,-0.4026179128399765,False
+code,negative,23,ptmp,-0.3958033968829383,False
+code,negative,24,verify,-0.3908484366443749,False
+code,negative,25,renderer,-0.3753344752069001,False
+code,negative,26,corrupt,-0.3685627601878659,False
+code,negative,27,2017,-0.3673915884892059,False
+code,negative,28,base,-0.3578832044298056,False
+code,negative,29,2022,-0.3522722327704111,False
+code,negative,30,cc index,-0.347829764980699,False
+combined,positive,1,support,0.8555789008394472,False
+combined,positive,2,type,0.795889285686637,False
+combined,positive,3,else,0.7596188295850995,False
+combined,positive,4,flags,0.6468997211918994,False
+combined,positive,5,item,0.6390191746532209,False
+combined,positive,6,enum,0.6240193642046593,False
+combined,positive,7,bool,0.5980410712745392,False
+combined,positive,8,continue,0.5928004794138237,False
+combined,positive,9,include,0.591411950933259,False
+combined,positive,10,tmp,0.5699109002244577,False
+combined,positive,11,const char,0.5651828366557329,False
+combined,positive,12,key,0.5494411638545322,False
+combined,positive,13,endif,0.5434085684794842,False
+combined,positive,14,typedef,0.5295118740185787,False
+combined,positive,15,uint32,0.529433266040494,False
+combined,positive,16,tag,0.5244998260422968,False
+combined,positive,17,failed,0.5240276814643905,False
+combined,positive,18,static void,0.5233746862383842,False
+combined,positive,19,rc,0.5220304074757245,False
+combined,positive,20,else if,0.5195819934770493,False
+combined,positive,21,libfreerdp,0.5162520198839027,False
+combined,positive,22,return if,0.5147890526154524,False
+combined,positive,23,16,0.5111349969119754,False
+combined,positive,24,sd,0.4885904805909588,False
+combined,positive,25,add,0.4877883801799136,False
+combined,positive,26,uint32_t,0.4855336675729525,False
+combined,positive,27,gf_box,0.4820774503001818,False
+combined,positive,28,unsigned int,0.4798772338847645,False
+combined,positive,29,image,0.4653350445715485,False
+combined,positive,30,void,0.4603368852301335,False
+combined,negative,1,overflow,-1.3511012661727608,True
+combined,negative,2,fix,-1.194286998077506,True
+combined,negative,3,cve,-1.1142671283155985,True
+combined,negative,4,https,-0.8495681448402426,False
+combined,negative,5,code,-0.8157918681480485,False
+combined,negative,6,imap,-0.7983149570476833,False
+combined,negative,7,bug,-0.7907514020003101,False
+combined,negative,8,test,-0.7781557622686981,False
+combined,negative,9,the,-0.7698510727428108,False
+combined,negative,10,message fix,-0.7657055412611392,True
+combined,negative,11,code diff,-0.7518338073032493,False
+combined,negative,12,was,-0.740618053528396,False
+combined,negative,13,message,-0.7150476855058597,False
+combined,negative,14,by,-0.6845159153742137,False
+combined,negative,15,buffer overflow,-0.6766598878855978,True
+combined,negative,16,src,-0.6722461819882006,False
+combined,negative,17,thanks,-0.6715373709726499,False
+combined,negative,18,fixed,-0.6422824393181435,True
+combined,negative,19,in,-0.641875512647539,False
+combined,negative,20,when,-0.6350444582920437,False
+combined,negative,21,reported,-0.6165992691172265,False
+combined,negative,22,message fixed,-0.6024290645714016,True
+combined,negative,23,security,-0.5954162400024983,True
+combined,negative,24,overflow in,-0.569653257753927,True
+combined,negative,25,stack,-0.5570129120529561,False
+combined,negative,26,check,-0.5568327458983582,False
+combined,negative,27,100644,-0.5479843424438423,False
+combined,negative,28,cc,-0.5479721277018876,False
+combined,negative,29,git,-0.5438999210187389,False
+combined,negative,30,diff git,-0.5333093477228609,False

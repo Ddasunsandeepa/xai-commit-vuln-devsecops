@@ -1,0 +1,46 @@
+{
+  "source": "data/raw/jit_candidate/CodeJIT/Data/CodeJIT_Dataset_Commit_Hash.csv",
+  "source_sha256": "d5b07fac7399dce2aba10406c3033cb9bd004e5c3d32c4f5d3f1f6626712fa1f",
+  "raw_rows": 20274,
+  "invalid_rows": 0,
+  "duplicate_repo_commit_rows": 0,
+  "label_conflicts": 0,
+  "valid_unique_rows": 20274,
+  "seed": 42,
+  "requested_target": 2000,
+  "actual_cohort_rows": 2000,
+  "max_per_repo": 30,
+  "requested_test_project_fraction": 0.2,
+  "cohort_labels": {
+    "0": 1000,
+    "1": 1000
+  },
+  "cohort_repositories": 496,
+  "split_summary": {
+    "test": {
+      "rows": 385,
+      "repos": 100,
+      "labels": {
+        "0": 199,
+        "1": 186
+      }
+    },
+    "train": {
+      "rows": 1615,
+      "repos": 396,
+      "labels": {
+        "0": 801,
+        "1": 814
+      }
+    }
+  },
+  "warnings": [],
+  "limitations": [
+    "Metadata selection only; no commit retrieval or diff validation",
+    "Original CodeJIT safe class consists of curated fixing commits, not ordinary production negatives",
+    "Class-balanced, per-repository capped selection is deliberately not population representative",
+    "Project-disjoint split is not a chronological split",
+    "Splits must be frozen before model selection; do not tune against held-out test data",
+    "SZZ-derived labels may contain noise and require provenance review"
+  ]
+}

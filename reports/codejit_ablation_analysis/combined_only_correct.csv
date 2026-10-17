@@ -1,0 +1,6 @@
+repo,commit_id,label,fold,message_only_prediction,message_only_probability,message_only_correct,code_only_prediction,code_only_probability,code_only_correct,message_plus_code_prediction,message_plus_code_probability,message_plus_code_correct,combined_only_correct,combined_only_wrong,mentions_fix,mentions_security,message_length,diff_length
+domoticz___domoticz,cc83cf857107adc4d3154c4537299a23277e732c,1,1,0,0.4794416881159458,False,0,0.4869966729198369,False,1,0.5196167453977212,True,True,False,False,False,41,999
+jktjkt___trojita,25fffa3e25cbad85bbca804193ad336b090a9ce1,0,3,1,0.5207460721069371,False,1,0.5049048008349989,False,0,0.4382140405626134,True,True,False,False,True,544,2913
+mariadb-corporation___mariadb-connector-c,1218ffac1a9adefd6428e68b6154bc54a04343aa,1,4,0,0.42449129406943,False,0,0.4949805354255582,False,1,0.5190451947382324,True,True,False,True,True,390,20845
+stoth68000___media-tree,065e1477d277174242e73e7334c717b840d0693f,1,2,0,0.4688262044045784,False,0,0.4914205850783806,False,1,0.5123544581285179,True,True,False,True,False,4000,14850
+torproject___tor,79b59a2dfcb68897ee89d98587d09e55f07e68d7,0,2,1,0.5033077397431548,False,1,0.5559834522937098,False,0,0.4704771749578126,True,True,False,True,False,556,3880

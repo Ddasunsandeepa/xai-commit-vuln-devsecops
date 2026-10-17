@@ -1,0 +1,5 @@
+repo,commit_id,label,fold,message_only_prediction,message_only_probability,message_only_correct,code_only_prediction,code_only_probability,code_only_correct,message_plus_code_prediction,message_plus_code_probability,message_plus_code_correct,combined_only_correct,combined_only_wrong,mentions_fix,mentions_security,message_length,diff_length
+blosc___c-blosc2,2d328439f9ea58b7516bc2a8fa37892fd28fed14,1,0,1,0.6368118606582256,True,1,0.520498304394598,True,0,0.4806780651798479,False,False,True,False,False,103,4531
+googlei18n___sfntly,53e7e87e47c9d9ce7579e53583904ce4921daead,1,3,1,0.6057950328795609,True,1,0.5401552127765373,True,0,0.4955251949730621,False,False,True,False,False,132,64002
+oetiker___rrdtool-1.x,64ed5314af1255ab6dded45f70b39cdeab5ae2ec,0,3,0,0.440936189723388,True,0,0.4801854772898851,True,1,0.5216212472872629,False,False,True,True,False,78,6694
+tmate-io___tmate-ssh-server,1c020d1f5ca462f5b150b46a027aaa1bbe3c9596,0,1,0,0.4603358499566481,True,0,0.4750252922176796,True,1,0.5115506120880572,False,False,True,False,False,61,1973
