@@ -1,0 +1,16 @@
+{
+  "repo": "uninett___mod_auth_mellon",
+  "commit_id": "62041428a32de402e0be6ba45fe12df6a83bedb8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix redirect URL validation bypass\n\nIt turns out that browsers silently convert backslash characters into\nforward slashes, while apr_uri_parse() does not.\n\nThis mismatch allows an attacker to bypass the redirect URL validation\nby using an URL like:\n\n  https://sp.example.org/mellon/logout?ReturnTo=https:%5c%5cmalicious.example.org/\n\nmod_auth_mellon will assume that it is a relative URL and allow the\nrequest to pass through, while the browsers will use it as an absolute\nurl and redirect to https://malicious.example.org/ .\n\nThis patch fixes this issue by rejecting all redirect URLs with\nbackslashes.",
+  "patch_path": "reports/codejit_extraction_v1/records/1b6f01413f14659ea2d1cafc.diff.gz",
+  "diff_bytes": 675,
+  "diff_sha256": "e1e1965661d58513ebe565bf2ecfd3d58fd55d5d97d60274200ec5003ae6eb53",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:31.891399+00:00",
+  "url": "https://github.com/uninett/mod_auth_mellon.git"
+}

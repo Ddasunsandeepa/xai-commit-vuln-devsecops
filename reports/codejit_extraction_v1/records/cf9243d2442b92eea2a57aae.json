@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "9cd8c3289c91254b3955bd7347cf605d6fa032c6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check effect command reply size in AudioFlinger\n\nBug: 29251553\nChange-Id: I1bcc1281f1f0542bb645f6358ce31631f2a8ffbf",
+  "patch_path": "reports/codejit_extraction_v1/records/cf9243d2442b92eea2a57aae.diff.gz",
+  "diff_bytes": 819,
+  "diff_sha256": "1600bea5e2f9298e404fb79f5001cf2719fc6b2f3c2476f3d4bfd4c8b7aec1b0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:09.290164+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "laverdet___isolated-vm",
+  "commit_id": "ffcad2cadaa45c6c87088a33185bf02bc6419b7d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent native modules from being garbage collected while still active",
+  "patch_path": "reports/codejit_extraction_v1/records/2300ebf5a1193733808a0be8.diff.gz",
+  "diff_bytes": 4046,
+  "diff_sha256": "e2b9970c5bc689aa526e444e724ac1dc87b17011c76f302bdf53b1a05d21ff34",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:36.745936+00:00",
+  "url": "https://github.com/laverdet/isolated-vm.git"
+}

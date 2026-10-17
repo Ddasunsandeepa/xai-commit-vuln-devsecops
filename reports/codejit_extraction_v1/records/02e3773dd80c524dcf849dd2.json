@@ -1,0 +1,16 @@
+{
+  "repo": "evilnet___nefarious2",
+  "commit_id": "f50a84bad996d438e7b31b9e74c32a41e43f8be5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix to prevent SASL security vulnerability",
+  "patch_path": "reports/codejit_extraction_v1/records/02e3773dd80c524dcf849dd2.diff.gz",
+  "diff_bytes": 1041,
+  "diff_sha256": "4329e9768738eb74885dd5f4de0a817d424c116660620bdea27ca841075ae308",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:15.612832+00:00",
+  "url": "https://github.com/evilnet/nefarious2.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "d8634daf74c882356659addb65fb142b738a186b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream: fix false negative on bad RST\n\nIf a bad RST was received the stream inspection would not happen\nfor that packet, but it would still move the 'raw progress' tracker\nforward. Following good packets would then fail to detect anything\nbefore the 'raw progress' position.\n\nBug #2770\n\nReported-by: Alexey Vishnyakov",
+  "patch_path": "reports/codejit_extraction_v1/records/ee648033a07a78ed85997387.diff.gz",
+  "diff_bytes": 587,
+  "diff_sha256": "e5056a77c2aa09a9e1f7197d5063a3c60f86278d20f5a3835d43721e79ed8d9e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:54.450155+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

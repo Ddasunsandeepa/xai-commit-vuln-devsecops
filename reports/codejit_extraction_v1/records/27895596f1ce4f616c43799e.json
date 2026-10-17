@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "02c6a2b62ddcb6fa4569a591d3461a156a636305",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix security issue reported by someone.\n\nsomeone will get their name attributed for future issues if they bother\nfollowing procedure.",
+  "patch_path": "reports/codejit_extraction_v1/records/27895596f1ce4f616c43799e.diff.gz",
+  "diff_bytes": 912,
+  "diff_sha256": "e7bc85ca6eeac92c8a6a1312cac4c3708c2fbd8c98ae41531f45911cffbe95e4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:49.822953+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

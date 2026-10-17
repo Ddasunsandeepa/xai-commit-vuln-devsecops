@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "9f143de8c6180be433259329ecfac302f39e5df1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixes in vvc parsing - cf #1667",
+  "patch_path": "reports/codejit_extraction_v1/records/2d70a8e5def72a62838e2e17.diff.gz",
+  "diff_bytes": 8547,
+  "diff_sha256": "9fc81ab9fc2a551a8c1e2ba312f150027ce6956da685354d4bc3dd9b8e79d4f3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:07.292754+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

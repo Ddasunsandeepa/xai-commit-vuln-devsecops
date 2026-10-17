@@ -1,0 +1,16 @@
+{
+  "repo": "landfillbaby___png2webp",
+  "commit_id": "8f21ad79b0cd98fc22d5b49734543101946abbff",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "v1.0.5: fix buffer overrun when reading bad WebPs",
+  "patch_path": "reports/codejit_extraction_v1/records/875dc6b8a2c7b2be6a6d41c7.diff.gz",
+  "diff_bytes": 673,
+  "diff_sha256": "d4c1e22eb28151f194247668cd721cdd9705e09de6debdacbf37b45364b6b529",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:35.434919+00:00",
+  "url": "https://github.com/landfillbaby/png2webp.git"
+}

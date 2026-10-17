@@ -1,0 +1,16 @@
+{
+  "repo": "yubico___pam-u2f",
+  "commit_id": "7db3386fcdb454e33a3ea30dcfb8e8960d4c3aa3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Drop privileges by default when opening user-related files\n\nThe module is typically executed as root and would sometimes\nopen files or follow symlinks that could be controlled from the\noutside.\n\nDrop privileges to the target user before opening any files.\n\nFixes CVE-2019-12209.\n\nThanks to Matthias Gerstner of the SUSE Security Team for reporting\nthe issue.",
+  "patch_path": "reports/codejit_extraction_v1/records/2c9cda97fcfe30cfa21b3521.diff.gz",
+  "diff_bytes": 13470,
+  "diff_sha256": "60b725c95f26ed3387eb4c5451e394b444dd22a4c625579a89011828f373a89a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:18.718433+00:00",
+  "url": "https://github.com/yubico/pam-u2f.git"
+}

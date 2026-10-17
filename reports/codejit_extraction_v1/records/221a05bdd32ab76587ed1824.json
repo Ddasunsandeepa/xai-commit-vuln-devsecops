@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "375407c16c61a70b56fdbe13b0d2c8f11398e92c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "use encrypted JWTs for storing encrypted cache contents\n\n- avoid using static AAD/IV; thanks @niebardzo\n- bump to 2.4.9-dev\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/221a05bdd32ab76587ed1824.diff.gz",
+  "diff_bytes": 38323,
+  "diff_sha256": "195869e75c2ad5366dd8cbc532ea96cb38e28aa4615a1c06d417fcfceda9333a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:20.170274+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

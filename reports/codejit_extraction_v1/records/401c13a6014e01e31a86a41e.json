@@ -1,0 +1,16 @@
+{
+  "repo": "sipa___bitcoin",
+  "commit_id": "7bf8b7c25c944110dbe85ef9e4eebd858da34158",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "-bip16 option (default: 1) to support / not support BIP 16. And bumped default BIP16 switchover date from Feb 15 to Mar 1",
+  "patch_path": "reports/codejit_extraction_v1/records/401c13a6014e01e31a86a41e.diff.gz",
+  "diff_bytes": 4424,
+  "diff_sha256": "d4a73d34c72e552e4ee642904c4ae467c0c1783728bcdb6dec91d6cd1ee20534",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:16.233088+00:00",
+  "url": "https://github.com/sipa/bitcoin.git"
+}

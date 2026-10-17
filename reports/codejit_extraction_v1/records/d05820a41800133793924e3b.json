@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "87e721764360c514bd6509a5384cd202ed0f019e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix #247, A read out-of-bands was found in the parsing of TGA files (CVE-2016-6132)",
+  "patch_path": "reports/codejit_extraction_v1/records/d05820a41800133793924e3b.diff.gz",
+  "diff_bytes": 1121,
+  "diff_sha256": "0a5377b596875bd009fc4dcb7718b366bd220970d35cf83f3ba845e12cf637c2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:59.569323+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___audio",
+  "commit_id": "d72ea85c78a1a68bf99fd5804ad9784b4102fe57",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix security vulnerability: Equalizer command might allow negative indexes\n\nBug: 32247948\nBug: 32438598\nBug: 32436341\n\nTest: use POC on bug or cts security test\n\nChange-Id: I56a92582687599b5b313dea1abcb8bcb19c7fc0e\n(cherry picked from commit 3f37d4ef89f4f0eef9e201c5a91b7b2c77ed1071)\n(cherry picked from commit ceb7b2d7a4c4cb8d03f166c61f5c7551c6c760aa)",
+  "patch_path": "reports/codejit_extraction_v1/records/3d11118ee6ac12b8a82dc588.diff.gz",
+  "diff_bytes": 2048,
+  "diff_sha256": "35f96013484de74e71f446c5f58e0593f9318c858ef04b36783f1ac81439c1e7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:57.081755+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/audio"
+}

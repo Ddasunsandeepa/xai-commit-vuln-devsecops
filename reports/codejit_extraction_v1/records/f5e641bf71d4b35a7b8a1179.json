@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "a2ca9faeac3609e5cfdbda357a6ce223a2c8bc66",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Revert \"Revert \"make simplexml xpath return original objects\"\"\n\nThis reverts commit 20c0a8a3c8bf58239fbd856b7f9a83a4c35844bf.\n\nReviewed By: @edwinsmith\n\nDifferential Revision: D964913",
+  "patch_path": "reports/codejit_extraction_v1/records/f5e641bf71d4b35a7b8a1179.diff.gz",
+  "diff_bytes": 22575,
+  "diff_sha256": "4f5ff70dd4d91744e3a0ac51dd0f75543bef54b541007edad4586420c8304554",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:39.113016+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "fb013ec666759cb8a9e294347c7b4c1f597639cc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tls: clear data after a starttls acknowledgement\n\nAfter a starttls acknowledgement message, clear the buffers of any\nincoming data / commands.  This will ensure that all future data is\nhandled securely.\n\nCo-authored-by: Pietro Cerutti <gahr@gahr.ch>",
+  "patch_path": "reports/codejit_extraction_v1/records/d060b250554fdeab70d64d14.diff.gz",
+  "diff_bytes": 4502,
+  "diff_sha256": "b400d2912432c412d33f7fa6a8f6800ea6956de90b7ef2b1e0515ace737f2485",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:51.780823+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

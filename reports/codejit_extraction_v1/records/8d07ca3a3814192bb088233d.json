@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "5f7e55ea443c80ef8b6173efd1c2551e07309b0a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a small hook to support gapless in AAH.\n\nChange-Id: Ie07eca6b45142bdd83412ee0e38d732a4c355630",
+  "patch_path": "reports/codejit_extraction_v1/records/8d07ca3a3814192bb088233d.diff.gz",
+  "diff_bytes": 2324,
+  "diff_sha256": "bf5bd1388776d1e536797b514d7a8bdb9e2532f5b2f08f03c9382b54e379140e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:57.062752+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

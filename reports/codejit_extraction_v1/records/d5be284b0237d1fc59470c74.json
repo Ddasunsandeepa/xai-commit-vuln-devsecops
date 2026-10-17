@@ -1,0 +1,16 @@
+{
+  "repo": "gnuaspell___aspell",
+  "commit_id": "0718b375425aad8e54e1150313b862e4c6fd324a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "objstack: assert that the alloc size will fit within a chunk\nto prevent a buffer overflow\n\nBug found using OSS-Fuze.",
+  "patch_path": "reports/codejit_extraction_v1/records/d5be284b0237d1fc59470c74.diff.gz",
+  "diff_bytes": 2449,
+  "diff_sha256": "e2dfbe3af06e648f0ddbc145f6c28c3dd975b5ca38f65fcbead51e0fa135f692",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:16.825095+00:00",
+  "url": "https://github.com/gnuaspell/aspell.git"
+}

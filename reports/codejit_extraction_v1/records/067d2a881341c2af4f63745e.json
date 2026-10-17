@@ -1,0 +1,16 @@
+{
+  "repo": "kde___kdeconnect-kde",
+  "commit_id": "8112729eb0f13e6947984416118531078e65580d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't brute-force reading the socket\n\nThe package will arrive eventually, and dataReceived will be emitted.\nOtherwise we just end up calling dataReceived to no end.\n\nThanks Matthias Gerstner <mgerstner@suse.de> for reporting this.",
+  "patch_path": "reports/codejit_extraction_v1/records/067d2a881341c2af4f63745e.diff.gz",
+  "diff_bytes": 2585,
+  "diff_sha256": "98a4834d5f97f5ecbef5d63946cd3433e3e8d23852226ce72f5bf1eb239c117d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:23.528522+00:00",
+  "url": "https://github.com/kde/kdeconnect-kde.git"
+}

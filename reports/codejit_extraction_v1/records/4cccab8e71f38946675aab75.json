@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "5778d42838f0b176266ac60b517a0267bb2349d3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a zero-copy implementation of ConvertGraphDefToGraph().\n\nCurrently, when initializing the execution state for a Session, we build a `GraphDef` protocol buffer, then convert it to a pointer-based `Graph*`. The existing converter takes a `const GraphDef&`, which means that peak memory utilization is approximately 2x the size of the original graph. This change adds an implementation of the converter that takes a `GraphDef&&`, and moves the contained `NodeDef`s all the way into the resulting `Graph*`, which avoids keeping two copies of any `NodeDef` in memory at once.\n\nPiperOrigin-RevId: 255980078",
+  "patch_path": "reports/codejit_extraction_v1/records/4cccab8e71f38946675aab75.diff.gz",
+  "diff_bytes": 34668,
+  "diff_sha256": "4151716d12bae021efeaaae3a810a0edfe8d38a0ff3a7fc2dbacf212400a6a2a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:32:13.454814+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

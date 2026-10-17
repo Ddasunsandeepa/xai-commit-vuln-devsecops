@@ -1,0 +1,16 @@
+{
+  "repo": "stachenov___quazip",
+  "commit_id": "5d2fc16a1976e5bf78d2927b012f67a2ae047a98",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed the Zip Slip vulnerability in JlCompress\n\nWhen extracting a file with a dangerous path like \"../evil.exe\"\nfrom a ZIP archive with JlCompress::extractDir(), the target\nfile would be created outside of the target directory, potentially\neven overwriting an existing file there.",
+  "patch_path": "reports/codejit_extraction_v1/records/256788903bedc52c6018fdb7.diff.gz",
+  "diff_bytes": 5059,
+  "diff_sha256": "30cf1702e8736cbadf5777c7b5181c20370fc0368c6a3f3dbee26d4dc18aa0ff",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:37.287889+00:00",
+  "url": "https://github.com/stachenov/quazip.git"
+}

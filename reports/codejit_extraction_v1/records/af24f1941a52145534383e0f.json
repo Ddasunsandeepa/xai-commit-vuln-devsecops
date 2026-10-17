@@ -1,0 +1,16 @@
+{
+  "repo": "turbovnc___turbovnc",
+  "commit_id": "5d5c7140058ff648a71d27d7a690f53aa1c7963f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Doc: Use more consistent/standard terminology\n\n- \"server machine\" = \"VNC host\", \"TurboVNC host\", or \"host\", depending\n  on the context\n- \"machine\" = \"host\", when referring to the machine on which the VNC\n  server runs\n- \"server\" = \"host\", when referring to the machine rather than the\n  software\n- \"server\" = \"session\", when referring to a specific instance of Xvnc\n- \"TurboVNC Server session\" = \"TurboVNC session\" (\"TurboVNC Server\n  session\" is redundant)\n- \"server session\" = \"VNC session\", when used generically, or \"TurboVNC\n  session\", when it applies only to TurboVNC\n- \"client\" = \"viewer\", when referring to the software rather than the\n  machine\n- Use specific references to the TurboVNC Server and Viewer (as opposed\n  to generic references, such as \"a TurboVNC server\" or \"TurboVNC\n  viewers\") when referring to performance, since we can't guarantee the\n  same performance with anyone else's software, but leave the generic\n  references when referring to compatibility (mainly because\n  LibVNCServer/LibVNCCLient is arguably \"a TurboVNC server/viewer\",\n  since it uses our codec and all of our extensions.)\n\nChangeLog.md:\n- Fix a factual error in the description of 1.2[6] (not that it matters,\n  given that the applet feature no longer exists)\n\nunix/Xvnc/README:\n- Eliminate vestigial reference to Xorg 7.7\n\nunix/Xvnc/programs/Xserver/Xvnc.man:\n- \"XFree86\" = \"X.org\"\n\nunix/Xvnc/programs/Xserver/hw/vnc/auth.c:\n- Change vestigial \"authentication method\" references to \"security\n  type\", both in identifier names and user-visible messages\n\n+ A few minor formatting tweaks",
+  "patch_path": "reports/codejit_extraction_v1/records/af24f1941a52145534383e0f.diff.gz",
+  "diff_bytes": 637619,
+  "diff_sha256": "13b0f67d2e1d0b99d7e06870b5f3f5d5db6ecbef73cb168a526aa9df2bec5bce",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:12.945479+00:00",
+  "url": "https://github.com/turbovnc/turbovnc.git"
+}

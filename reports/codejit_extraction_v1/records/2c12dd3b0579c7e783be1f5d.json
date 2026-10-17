@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "cd8c8e3aca6c3af7685a546a20a3776359941f7e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "preserve POST data across authentication requests and discovery",
+  "patch_path": "reports/codejit_extraction_v1/records/2c12dd3b0579c7e783be1f5d.diff.gz",
+  "diff_bytes": 21084,
+  "diff_sha256": "f7fa5ec86d24d72a7029b585a06e3e58e9674bc3736600157678dd6fc0c60ed8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:21.965393+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

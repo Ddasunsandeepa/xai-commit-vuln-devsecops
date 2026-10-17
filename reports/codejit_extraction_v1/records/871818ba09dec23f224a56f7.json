@@ -1,0 +1,16 @@
+{
+  "repo": "winscp___winscp",
+  "commit_id": "642499f217c305c361b40ce3c83a8e59c36a3b9b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Factoring out common download code + Change: Last access time of downloaded files is no longer preserved\n\nSource commit: f0d582dad37a7c48e72f4b805124f93dc0ccc050",
+  "patch_path": "reports/codejit_extraction_v1/records/871818ba09dec23f224a56f7.diff.gz",
+  "diff_bytes": 91286,
+  "diff_sha256": "7a2a229f3a3f9d0af437f99585ae9d3b3764531a5c6d800d965766a446520737",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:06.615766+00:00",
+  "url": "https://github.com/winscp/winscp.git"
+}

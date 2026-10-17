@@ -1,0 +1,16 @@
+{
+  "repo": "tbeu___matio",
+  "commit_id": "5fa49ef9fc4368fe3d19b5fdaa36d8fa5e7f4606",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix integer addition overflow\n\nAs reported by https://github.com/tbeu/matio/issues/121",
+  "patch_path": "reports/codejit_extraction_v1/records/430f954cd31ee51c22de9c38.diff.gz",
+  "diff_bytes": 3601,
+  "diff_sha256": "560cd04e6bdc42a0263cc96477b0ed34923da1e154d3ec36dc4bbe6e6c638e25",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:49.626546+00:00",
+  "url": "https://github.com/tbeu/matio.git"
+}

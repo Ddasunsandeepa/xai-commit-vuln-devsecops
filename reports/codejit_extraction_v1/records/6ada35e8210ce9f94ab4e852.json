@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "68928ae52001486494e013cb4907a1fce8f760c1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- changed \\\\e back to \\e in sc_log.c\n- changed function prototypes in sc-asn1.c (int --> size_t)\n\n\ngit-svn-id: https://www.opensc-project.org/svnp/opensc/trunk@126 c6295689-39f2-0310-b995-f0e70906c6a9",
+  "patch_path": "reports/codejit_extraction_v1/records/6ada35e8210ce9f94ab4e852.diff.gz",
+  "diff_bytes": 15309,
+  "diff_sha256": "caac60cfaae2abfebe65d807126037f1190b422ce29923a9b4e400a5e639d257",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:58.658491+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

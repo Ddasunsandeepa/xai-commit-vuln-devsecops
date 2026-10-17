@@ -1,0 +1,16 @@
+{
+  "repo": "domoticz___domoticz",
+  "commit_id": "dbf724413fd2cc1f94deee59e4e861c0190cc7b7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Floorplans now stored in database (#2400)\n\n* Floorplans now stored in database\n* Blockly, slightly better 'Show Current Values' notation for a humidity sensor",
+  "patch_path": "reports/codejit_extraction_v1/records/5086e7d5ddd43f22ddf8d8f6.diff.gz",
+  "diff_bytes": 43364,
+  "diff_sha256": "799897357a48f00ee2f99c0dc5604af569a49e2ff7e3616a6078b57010659557",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:06.886834+00:00",
+  "url": "https://github.com/domoticz/domoticz.git"
+}

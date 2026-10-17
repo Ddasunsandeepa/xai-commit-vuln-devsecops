@@ -1,0 +1,16 @@
+{
+  "repo": "openssl___openssl",
+  "commit_id": "cd30f03ac5bf2962f44bd02ae8d88245dff2f12c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Canonicalise input in CMS_verify.\n\nIf content is detached and not binary mode translate the input to\nCRLF format. Before this change the input was verified verbatim\nwhich lead to a discrepancy between sign and verify.",
+  "patch_path": "reports/codejit_extraction_v1/records/bd134ecb170dfdeaeaf6bd48.diff.gz",
+  "diff_bytes": 3323,
+  "diff_sha256": "4a3b095fa8b24c85e577e4725f43272b10395b1df65ce269ca02468ece913f08",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:16.186015+00:00",
+  "url": "https://github.com/openssl/openssl.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "selinuxproject___selinux",
+  "commit_id": "8a74c05b97050bd226d61fc162e04dcdf8e91247",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libsepol/cil: Sync checks for invalid rules in booleanifs\n\nWhen building the AST, typemember rules in a booleanif block will\nbe incorrectly called invalid. They are allowed in the kernel\npolicy and should be allowed in CIL.\n\nWhen resolving the AST, if a neverallow rule is copied into a\nbooleanif block, it will not be considered an invalid rule, even\nthough this is not allowed in the kernel policy.\n\nUpdate the booleanif checks to allow typemember rules and to not\nallow neverallow rules in booleanifs. Also use the same form of\nconditional for the checks when building and resolving the AST.\n\nSigned-off-by: James Carter <jwcart2@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/887242b20c7aa68ae0fc34e9.diff.gz",
+  "diff_bytes": 2466,
+  "diff_sha256": "f1949cae7ab80b1e7e9fedcc0bece186636c50604ecd2e89b8b2aea8b1c21fc7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:45.269205+00:00",
+  "url": "https://github.com/selinuxproject/selinux.git"
+}

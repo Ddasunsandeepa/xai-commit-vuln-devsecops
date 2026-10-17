@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "ecf5fd58a8f50362ce9e8d4245a33d56f29f142b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libutils/Unicode.cpp: Correct length computation and add checks for utf16->utf8\n\nInconsistent behaviour between utf16_to_utf8 and utf16_to_utf8_length\nis causing a heap overflow.\n\nCorrecting the length computation and adding bound checks to the\nconversion functions.\n\nTest: ran libutils_tests\nBug: 29250543\nChange-Id: I6115e3357141ed245c63c6eb25fc0fd0a9a7a2bb\n(cherry picked from commit c4966a363e46d2e1074d1a365e232af0dcedd6a1)",
+  "patch_path": "reports/codejit_extraction_v1/records/d0e3217e7c5e910e61becc82.diff.gz",
+  "diff_bytes": 6573,
+  "diff_sha256": "2226985446d4bf6373540f80344557c81ac83394eaabc9a5ec3bb9ce4306db95",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:35.497223+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

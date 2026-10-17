@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "7d10d5a6e10065521c32d70512b265c4116c0a88",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor the name resolution procedures in the code generator. (CVS 5569)\n\nFossilOrigin-Name: daf730d1defa78fb8b80a78f9108ac35a13e09f6",
+  "patch_path": "reports/codejit_extraction_v1/records/e4c6f8101496c0a209c57378.diff.gz",
+  "diff_bytes": 205909,
+  "diff_sha256": "72ef6377190f97a09023c3650725330f288652936be9a6410dc313ea0bff0614",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:56.267588+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

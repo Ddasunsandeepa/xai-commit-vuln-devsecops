@@ -1,0 +1,16 @@
+{
+  "repo": "merbanan___rtl_433",
+  "commit_id": "2dad7b9fc67a1d0bfbe520fbd821678b8f8cc7a8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "minor: Fix overflow in Clipsal-CMR113 and Somfy-IOHC reported by aug5t7",
+  "patch_path": "reports/codejit_extraction_v1/records/6439b671305b6fc1322a3483.diff.gz",
+  "diff_bytes": 1949,
+  "diff_sha256": "3a75c440c5e7a7f12c40ff8cfff61ffacb41abdb64e3b0bee87ae7c5cb4abe07",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:53.516645+00:00",
+  "url": "https://github.com/merbanan/rtl_433.git"
+}

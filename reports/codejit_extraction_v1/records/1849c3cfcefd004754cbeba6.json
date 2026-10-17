@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "bef16671c891e16f25a7b174bc528eea109357be",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Adding check for min_width and min_height\n\nAdd check for min_wd and min_ht. Stride is updated if header\ndecode is done.\n\nBug: 74078669\n\nChange-Id: Ided95395e1138335dbb4b05131a8551f6f7bbfcd\n(cherry picked from commit 84eba4863dd50083951db83ea3cc81e015bf51da)",
+  "patch_path": "reports/codejit_extraction_v1/records/1849c3cfcefd004754cbeba6.diff.gz",
+  "diff_bytes": 2168,
+  "diff_sha256": "2160c851346e7aa3261350ca919dbef311afa58081ae27abff82db890eac17c5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:29.782746+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

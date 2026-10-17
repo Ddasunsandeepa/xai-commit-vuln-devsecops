@@ -1,0 +1,16 @@
+{
+  "repo": "pjsip___pjproject",
+  "commit_id": "560a1346f87aabe126509bb24930106dea292b00",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge pull request from GHSA-f5qg-pqcg-765m",
+  "patch_path": "reports/codejit_extraction_v1/records/e58549b8668f8ce4234077d1.diff.gz",
+  "diff_bytes": 886,
+  "diff_sha256": "b0b9abc7bb3340ca8953c1eb96b610d7ff55eac73f1dfcde75f918b74ccb361b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:33.551273+00:00",
+  "url": "https://github.com/pjsip/pjproject.git"
+}

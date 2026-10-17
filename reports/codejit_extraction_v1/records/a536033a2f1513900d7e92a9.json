@@ -1,0 +1,16 @@
+{
+  "repo": "fragglet___lhasa",
+  "commit_id": "6fcdb8f1f538b9d63e63a5fa199c5514a15d4564",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix integer underflow vulnerability in L3 decode.\n\nMarcin 'Icewall' Noga of Cisco TALOS discovered that the level 3 header\ndecoding routines were vulnerable to an integer underflow, if the 32-bit\nheader length was less than the base level 3 header length. This could\nlead to an exploitable heap corruption condition.\n\nThanks go to Marcin Noga and Regina Wilson of Cisco TALOS for reporting\nthis vulnerability.",
+  "patch_path": "reports/codejit_extraction_v1/records/a536033a2f1513900d7e92a9.diff.gz",
+  "diff_bytes": 746,
+  "diff_sha256": "4e7e8b06f1d2391f9151f8989b3a8b7aa77f81ebe37ededa5fbd6035d258ef92",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:29.664476+00:00",
+  "url": "https://github.com/fragglet/lhasa.git"
+}

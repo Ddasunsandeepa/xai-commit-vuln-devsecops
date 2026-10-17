@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___minikin",
+  "commit_id": "f4785aa1947b8d22d5b19559ef1ca526d98e0e73",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add error logging on invalid cmap - DO NOT MERGE\n\nThis patch logs instances of fonts with invalid cmap tables.\n\nBug: 25645298\nBug: 26413177\nChange-Id: I183985e9784a97a2b4307a22e036382b1fc90e5e",
+  "patch_path": "reports/codejit_extraction_v1/records/2dbbdc7fbbf485b016c58fef.diff.gz",
+  "diff_bytes": 1617,
+  "diff_sha256": "41fd0a35deea8aec37ec6e351651041e7550692b56f778798dc4a6b602e3371b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:35.154127+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/minikin"
+}

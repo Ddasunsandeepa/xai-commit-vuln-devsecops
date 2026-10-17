@@ -1,0 +1,16 @@
+{
+  "repo": "taglib___taglib",
+  "commit_id": "ab1bc0617211586351e30bac10fd3e41e363b3ab",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support for reading/writing tags from Monkey's Audio files\n\nPatch by Alex Novichkov, slightly modified by me (code formatting + tests).\n\n\ngit-svn-id: svn://anonsvn.kde.org/home/kde/trunk/kdesupport/taglib@1145554 283d02a7-25f6-0310-bc7c-ecb5cbfe19da",
+  "patch_path": "reports/codejit_extraction_v1/records/1fd3d0a7a3bc492cde640bc3.diff.gz",
+  "diff_bytes": 31952,
+  "diff_sha256": "b053f026e242e1e4c3fe63fd3fa7b6173489538e057eacb7440e736886beb99a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:47.883545+00:00",
+  "url": "https://github.com/taglib/taglib.git"
+}

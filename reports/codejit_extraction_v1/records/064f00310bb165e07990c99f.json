@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "9f0dcba9b4f792aedf37b6ecdceae46d36b93068",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improved error resilience in decoder\n\nFixed buffer management for error cases\nFixed end of picture detection logic for multiple slice error cases\nFixed handling of incomplete frame, missing slices.\n\nChange-Id: Iae447667e4d88869a8bf992180cacd77870b9877",
+  "patch_path": "reports/codejit_extraction_v1/records/064f00310bb165e07990c99f.diff.gz",
+  "diff_bytes": 33946,
+  "diff_sha256": "cb975de23f2b7f077a38545c1cb28a2882a9c72a60a5494985d53a65c6ca417e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:22.934290+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

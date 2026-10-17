@@ -1,0 +1,16 @@
+{
+  "repo": "winscp___winscp",
+  "commit_id": "177f67ba483b89b1eaf936e8871d95e7cbd3fe96",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Raw site settings editor\n\nSource commit: caf055e335fef5e08a1685b4fb7a52986f3043cf",
+  "patch_path": "reports/codejit_extraction_v1/records/f2eda0bae95e1ede206af552.diff.gz",
+  "diff_bytes": 19171,
+  "diff_sha256": "ec880538b46262f59cca736165f4508e43e0c7eea2642d4417c5fb94b0066076",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:45:59.487007+00:00",
+  "url": "https://github.com/winscp/winscp.git"
+}

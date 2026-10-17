@@ -1,0 +1,16 @@
+{
+  "repo": "xelerance___openswan",
+  "commit_id": "9eaa6c2a823c1d2b58913506a15f9474bf857a3d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "wo#7449 . verify padding contents for IKEv2 RSA sig check\n\nSpecial thanks to Sze Yiu Chau of Purdue University (schau@purdue.edu)\nwho reported the issue.",
+  "patch_path": "reports/codejit_extraction_v1/records/9a84b024ea0ba9afcc7f2722.diff.gz",
+  "diff_bytes": 784,
+  "diff_sha256": "aa55d892505d89e8db93b3d92ed8b931852dd854ed095330b4472deb1e1a3de6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:14.871288+00:00",
+  "url": "https://github.com/xelerance/openswan.git"
+}

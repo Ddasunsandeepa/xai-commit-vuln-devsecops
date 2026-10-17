@@ -1,0 +1,16 @@
+{
+  "repo": "nagiosenterprises___nagioscore",
+  "commit_id": "f844b9da698828e1abdab2c761cfc6cdc441434c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug #548: Temporary fix that rejects all external command during restart\n\nThis temporary fix will prevent Core from crashing if it receives an\nexternal command during restart that tries to access unitialized pointers.\nA more permanent fix would be to implement a retry mechanism between the\ncommand processor worker and the main Core process itself.",
+  "patch_path": "reports/codejit_extraction_v1/records/311382a4fca8f07095b628ad.diff.gz",
+  "diff_bytes": 1888,
+  "diff_sha256": "073d25cb93324e10bb3af595cff6ba164e96c8d9415c2e47e46f09dcc95d40b3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:19.025716+00:00",
+  "url": "https://github.com/nagiosenterprises/nagioscore.git"
+}

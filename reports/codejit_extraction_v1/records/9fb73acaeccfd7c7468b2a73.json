@@ -1,0 +1,16 @@
+{
+  "repo": "skvadrik___re2c",
+  "commit_id": "df3949c6ee4864ccd84b9cc3c68effc437d3d0b4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added /*!include:re2c ... */ directive.",
+  "patch_path": "reports/codejit_extraction_v1/records/9fb73acaeccfd7c7468b2a73.diff.gz",
+  "diff_bytes": 110329,
+  "diff_sha256": "03eb4cfb421545c6451b5bbe8a45e2433816d3265ac739b757a53cd1f2bc5328",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:19.679754+00:00",
+  "url": "https://github.com/skvadrik/re2c.git"
+}

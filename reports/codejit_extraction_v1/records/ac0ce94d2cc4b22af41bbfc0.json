@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___aac",
+  "commit_id": "5d4405f601fa11a8955fd7611532c982420e4206",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix stack corruption happening in aacDecoder_drcExtractAndMap()\n\nIn the aacDecoder_drcExtractAndMap() function, self->numThreads\n  can be used after having exceeded its intended max value,\n  MAX_DRC_THREADS, causing memory to be cleared after the\n  threadBs[MAX_DRC_THREADS] array.\nThe crash is prevented by never using self->numThreads with\n  a value equal to or greater than MAX_DRC_THREADS.\nA proper fix will be required as there seems to be an issue as\n  to which entry in the threadBs array is meant to be initialized\n  and used.\n\nBug 26751339\n\nChange-Id: I655cc40c35d4206ab72e83b2bdb751be2fe52b5a",
+  "patch_path": "reports/codejit_extraction_v1/records/ac0ce94d2cc4b22af41bbfc0.diff.gz",
+  "diff_bytes": 1286,
+  "diff_sha256": "b9e1124f51cb81f0931b0d70d32a694a9eefb8355efdd020ff1031fdb73ce5ce",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:14.425802+00:00",
+  "url": "https://android.googlesource.com/platform/external/aac"
+}

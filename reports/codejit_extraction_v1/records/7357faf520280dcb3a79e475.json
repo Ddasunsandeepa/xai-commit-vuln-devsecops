@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "60ad1e63969d15f22be735efcd57d83af7941deb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add 'narrow_range' and 'int axis' options to tf.quantize and_tf.dequantize to match tf.quantize_and_dequantize\n\nPiperOrigin-RevId: 267701334",
+  "patch_path": "reports/codejit_extraction_v1/records/7357faf520280dcb3a79e475.diff.gz",
+  "diff_bytes": 68701,
+  "diff_sha256": "8f68b518d54a9fbd16dd588d47dd63d1dc9773f3786e4e0ff5a195b2221f9051",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:32:29.597431+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

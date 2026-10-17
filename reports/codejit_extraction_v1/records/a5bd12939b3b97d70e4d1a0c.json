@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "6686aa8acc85ae9a03cecdedc7c9d8b090e2b97b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Xds unified mux: unifed mux is now being used when enabled.  (#17959)\n\nif envoy.reloadable_features.unified_mux runtime setting is set to true, unifed muxes will be used for regular and delta xDS.\n\nRisk Level: Low, disabled by default\nTesting: Updated existing tests to test unified muxes\nDocs Changes: updated version history\n\nSigned-off-by: Dmitri Dolguikh <ddolguik@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/a5bd12939b3b97d70e4d1a0c.diff.gz",
+  "diff_bytes": 104054,
+  "diff_sha256": "2151f21c0e1e2c7bbcca9fd35273360c177e0e4fc15e51793fd668fb38d4467f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:44.812877+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

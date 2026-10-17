@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "dbcfe72cb16222c9f7e7907fcc5f35b27cc25331",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Removing dead code from NetworkActionPredictor.\n\nBUG=none\n\n\nReview URL: http://codereview.chromium.org/9358062\n\ngit-svn-id: svn://svn.chromium.org/chrome/trunk/src@121926 0039d316-1c4b-4281-b951-d872f2087c98",
+  "patch_path": "reports/codejit_extraction_v1/records/50e9225d2595e8af0fdc003a.diff.gz",
+  "diff_bytes": 1047,
+  "diff_sha256": "ffd6aced4b516fa28fe6bb7bb141730334ced0fb1a454590e15ad5c332b4345f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:50:54.757223+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

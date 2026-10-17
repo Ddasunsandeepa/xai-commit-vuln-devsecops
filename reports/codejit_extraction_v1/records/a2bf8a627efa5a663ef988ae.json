@@ -1,0 +1,16 @@
+{
+  "repo": "selinuxproject___selinux",
+  "commit_id": "2d35fcc7e9e976a2346b1de20e54f8663e8a6cba",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libsepol/cil: Destroy classperm list when resetting map perms\n\nMap perms share the same struct as regular perms, but only the\nmap perms use the classperms field. This field is a pointer to a\nlist of classperms that is created and added to when resolving\nclassmapping rules, so the map permission doesn't own any of the\ndata in the list and this list should be destroyed when the AST is\nreset.\n\nWhen resetting a perm, destroy the classperms list without destroying\nthe data in the list.\n\nSigned-off-by: James Carter <jwcart2@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/a2bf8a627efa5a663ef988ae.diff.gz",
+  "diff_bytes": 486,
+  "diff_sha256": "7cdea49e38ad5f2a22a7e852bc335831d716ec86cbb3833c0bddbd4c21e3cd34",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:42.492651+00:00",
+  "url": "https://github.com/selinuxproject/selinux.git"
+}

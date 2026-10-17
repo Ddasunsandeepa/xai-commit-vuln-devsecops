@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "dc5f65d38a4c8f8b51e0dace323374ec76fcc647",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "move temp_ttl command and document LRU command\n\n\"lru temp_ttl <number>\" is now used instead of \"temporary_ttl <number>\"\nTEMP_LRU can also be enabled/disabled completely at runtime with this command.\n\nAlso adds documentation for all options of the \"lru\" command.",
+  "patch_path": "reports/codejit_extraction_v1/records/1a2f8db319e6ad31d8e33c9b.diff.gz",
+  "diff_bytes": 4046,
+  "diff_sha256": "1e3d05bd7ea8eb0e4ba75e5905d909d777ed0b7b14adecaf662cd442f7c6064b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:52.947505+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

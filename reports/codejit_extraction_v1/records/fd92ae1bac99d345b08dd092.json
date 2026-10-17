@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "9eb56b6235d66550fb3cb282344cac82e9efcb1b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "NDOize BGP decoder",
+  "patch_path": "reports/codejit_extraction_v1/records/fd92ae1bac99d345b08dd092.diff.gz",
+  "diff_bytes": 102384,
+  "diff_sha256": "c8bce632db79791620508435f33df5c55e40dcce1a2dab61872967503a96008f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:36.814087+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "oetiker___rrdtool-1.x",
+  "commit_id": "795227f2ad228d09d8ffb0799c764bd4c966f75e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add --left-axis-format option to control labels on y-axis of graph.\n\nConflicts:\n\n\tsrc/rrd_graph.c",
+  "patch_path": "reports/codejit_extraction_v1/records/5bc4b132cda31b95f2b32576.diff.gz",
+  "diff_bytes": 6512,
+  "diff_sha256": "4fc9c4149106eca0f6b1bc50c93eb089072d370021c0f9b136cba2ae172bc52c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:44.703690+00:00",
+  "url": "https://github.com/oetiker/rrdtool-1.x.git"
+}

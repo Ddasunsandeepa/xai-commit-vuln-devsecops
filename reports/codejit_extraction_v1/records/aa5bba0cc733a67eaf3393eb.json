@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "5666ca4ae06d20497f887241151278e266947087",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "kvm: ppc: fixes for KVM_SET_SREGS on init\n\nClassic/server ppc has had SREGS for a while now (though I think not\nalways?), but it's still missing for booke.  Check the capability before\ncalling KVM_SET_SREGS.\n\nWithout this, booke kvm fails to boot as of commit\n84b4915dd2c0eaa86c970ffc42a68ea8ba9e48b5 (kvm: Handle kvm_init_vcpu\nerrors).\n\nAlso, don't write random stack state into the non-PVR sregs fields --\nhave kvm fill it in first.\n\nEventually booke will have sregs and it will have its own capability to\nbe tested here.  However, we will want a way for platform code to request\nto look like the actual CPU we're running on, especially if SoC devices\nare being directly assigned.\n\nSigned-off-by: Scott Wood <scottwood@freescale.com>\nSigned-off-by: Alexander Graf <agraf@suse.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/aa5bba0cc733a67eaf3393eb.diff.gz",
+  "diff_bytes": 1087,
+  "diff_sha256": "236fa5f48d1960d6ffd38792db7454f68c248d73a005324d8ced8593e91b8d61",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:51.293335+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

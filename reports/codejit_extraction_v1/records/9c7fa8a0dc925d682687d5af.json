@@ -1,0 +1,16 @@
+{
+  "repo": "yast___yast-core",
+  "commit_id": "1808259f4ef4697569bf41c8c27ca169425181c9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "agent-ini: do not truncate strings longer than 2048 while writing (bnc#492859)\n\nsvn path=/trunk/core/; revision=56967",
+  "patch_path": "reports/codejit_extraction_v1/records/9c7fa8a0dc925d682687d5af.diff.gz",
+  "diff_bytes": 23847,
+  "diff_sha256": "c7548f79c8b70ad578127b7019c75e94dda20a3961aa9f0a6f7a814fc00ed5eb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:17.495682+00:00",
+  "url": "https://github.com/yast/yast-core.git"
+}

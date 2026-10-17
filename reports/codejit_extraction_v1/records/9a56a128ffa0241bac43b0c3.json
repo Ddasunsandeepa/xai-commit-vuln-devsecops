@@ -1,0 +1,16 @@
+{
+  "repo": "mindwerks___wildmidi",
+  "commit_id": "814f31d8eceda8401eb812fc2e94ed143fdad0ab",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "wildmidi_lib.c (WildMidi_Open, WildMidi_OpenBuffer): refuse to proceed if less then 18 bytes of input\n\nFixes bug #178.",
+  "patch_path": "reports/codejit_extraction_v1/records/9a56a128ffa0241bac43b0c3.diff.gz",
+  "diff_bytes": 1650,
+  "diff_sha256": "42aedd42b3daa8e5e319664bdc5111f155e11c498f9bf71b97a242e7fa38c139",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:59.624903+00:00",
+  "url": "https://github.com/mindwerks/wildmidi.git"
+}

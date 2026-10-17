@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___media",
+  "commit_id": "46e305be6e670a5a0041b0b4861122a0f1aabefa",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE mm-video-v4l2: vdec: add safety checks for freeing buffers\n\nAllow only up to 64 buffers on input/output port (since the\nallocation bitmap is only 64-wide).\n\nDo not allow changing theactual buffer count while still\nholding allocation (Client can technically negotiate\nbuffer count on a free/disabled port)\nAdd safety checks to free only as many buffers were allocated.\n\nFixes: Security Vulnerability - Heap Overflow and Possible Local\nPrivilege Escalation in MediaServer (libOmxVdec problem #3)\nBug: 27532282 27661749\n\nChange-Id: I06dd680d43feaef3efdc87311e8a6703e234b523",
+  "patch_path": "reports/codejit_extraction_v1/records/45f9c40e52f0961665a7dd23.diff.gz",
+  "diff_bytes": 7067,
+  "diff_sha256": "fbf00fc1cb7eed61329f41620c78efe0f56b2d06a5dbff5c28ebe82750893b0d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:57.394301+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/media"
+}

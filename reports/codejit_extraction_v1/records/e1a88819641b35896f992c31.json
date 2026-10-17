@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___zstd",
+  "commit_id": "3e5cdf1b6a85843e991d7d10f6a2567c15580da0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed T36302429",
+  "patch_path": "reports/codejit_extraction_v1/records/e1a88819641b35896f992c31.diff.gz",
+  "diff_bytes": 4589,
+  "diff_sha256": "cca06550badb29b44a876d0be944051e0875c2e9be33a90ff5e4bd3a7f286610",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:20.249085+00:00",
+  "url": "https://github.com/facebook/zstd.git"
+}

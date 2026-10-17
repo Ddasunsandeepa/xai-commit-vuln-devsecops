@@ -1,0 +1,16 @@
+{
+  "repo": "ccxvii___mujs",
+  "commit_id": "dd9217c6a0e06ae211e9f5db60dcb14d61295a76",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug where do/while continue statement jumped to the wrong location.",
+  "patch_path": "reports/codejit_extraction_v1/records/5d796ac3ca8b0a54549f5bc3.diff.gz",
+  "diff_bytes": 428,
+  "diff_sha256": "6d2d93028c67db19165539100a082ea63d057a907ed3c3d3b1962a61e862d837",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:59.383882+00:00",
+  "url": "https://github.com/ccxvii/mujs.git"
+}

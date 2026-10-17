@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "9d294de90d1cc66956389856e60b6944b27b4817",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "prevent out of bounds write\n\nfixes https://oss-fuzz.com/testcase-detail/5226571123392512",
+  "patch_path": "reports/codejit_extraction_v1/records/d31b33246eeef0375600a910.diff.gz",
+  "diff_bytes": 564,
+  "diff_sha256": "9e9bcf8c73f8cd19568268084ae1510c9ef00f8e40fc4f000e9790df0dd70bc9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:00.544189+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "powerdns___pdns",
+  "commit_id": "881b5b03a590198d03008e4200dd00cc537712f3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Reject qname's wirelength > 255, `chopOff()` handle dot inside labels",
+  "patch_path": "reports/codejit_extraction_v1/records/4a7e0bd665b32028b878e690.diff.gz",
+  "diff_bytes": 5281,
+  "diff_sha256": "dd1d2dc72b333ac346e2e36e417f30f65d5ee69fbc6194915a5701398cdb4872",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:01.460512+00:00",
+  "url": "https://github.com/powerdns/pdns.git"
+}

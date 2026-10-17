@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___ngiflib",
+  "commit_id": "37d939a6f511d16d4c95678025c235fe62e6417a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix deinterlacing for small pictures\n\nfixes #12",
+  "patch_path": "reports/codejit_extraction_v1/records/a11546d3ba9923faf15b04a3.diff.gz",
+  "diff_bytes": 3350,
+  "diff_sha256": "2b64ee5d2ec74abab4da4718c765d25dda9cf81f6aeffda4adac29ef03cf4530",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:07.559861+00:00",
+  "url": "https://github.com/miniupnp/ngiflib.git"
+}

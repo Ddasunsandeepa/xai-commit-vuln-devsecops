@@ -1,0 +1,16 @@
+{
+  "repo": "mariadb___server",
+  "commit_id": "347eeefbfc658c8531878218487d729f4e020805",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "don't use my_copystat in the server\n\nit was supposed to be used in command-line tools only.\nDifferent fix for 4e5473862e:\n\nBug#24388746: PRIVILEGE ESCALATION AND RACE CONDITION USING CREATE TABLE",
+  "patch_path": "reports/codejit_extraction_v1/records/75ecca27c4756ea14c541aca.diff.gz",
+  "diff_bytes": 2460,
+  "diff_sha256": "39d5dad148fc194836afa83a349b2e3ca000608b34ca1840a78afea2d67aa89d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:10.464363+00:00",
+  "url": "https://github.com/mariadb/server.git"
+}

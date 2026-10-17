@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "4b6dd3b53cd5c6d4d4df378a2fc62c1707522b31",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2022-23606\n\nAvoid closing other connections to prevent deep recursion when a large number of idle connections are closed at the start of a pool drain, when a connection is closed.\n\nSigned-off-by: Yan Avlasov <yavlasov@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/46f1484a3adf4cdd54739336.diff.gz",
+  "diff_bytes": 19538,
+  "diff_sha256": "75e2f5a1c5d7029a1c10bae2c94d885c7da7f4e71b186c5a58d2fcada80e73a6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:36.955895+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

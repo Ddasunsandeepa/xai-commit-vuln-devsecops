@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "3af9187fc6caaf415ab9c0c6d92c9678f65cb17f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "net: mipsnet: check packet length against buffer\n\nWhen receiving packets over MIPSnet network device, it uses\nreceive buffer of size 1514 bytes. In case the controller\naccepts large(MTU) packets, it could lead to memory corruption.\nAdd check to avoid it.\n\nReported by: Oleksandr Bazhaniuk <oleksandr.bazhaniuk@intel.com>\nSigned-off-by: Prasad J Pandit <pjp@fedoraproject.org>\nSigned-off-by: Jason Wang <jasowang@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/8bb9ec7cd00068be83498e0e.diff.gz",
+  "diff_bytes": 404,
+  "diff_sha256": "105b623ded5bf05b4ba77fc079ed2cf45b1d5a933309d32fa11f94f057838bca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:36.422832+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

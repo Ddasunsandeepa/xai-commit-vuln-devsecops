@@ -1,0 +1,16 @@
+{
+  "repo": "c-ares___c-ares",
+  "commit_id": "1cc7e83c3bdfaafbc5919c95025592d8de3a170e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent possible double-free in ares_getaddrinfo() if ares_destroy() is called\n\nIn the event that ares_destroy() is called prior to ares_getaddrinfo() completing,\nit would result in an invalid read and double-free due to calling end_hquery() twice.\n\nReported By: Jann Horn @ Google Project Zero",
+  "patch_path": "reports/codejit_extraction_v1/records/2a4e964462e47d5b7fc57cc9.diff.gz",
+  "diff_bytes": 350,
+  "diff_sha256": "1e80a8c4c20986a49643ce7c91c0a1c57423302fdf21e07963b64a9431112afb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:55.360071+00:00",
+  "url": "https://github.com/c-ares/c-ares.git"
+}

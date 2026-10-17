@@ -1,0 +1,16 @@
+{
+  "repo": "selinuxproject___selinux",
+  "commit_id": "c49a8ea09501ad66e799ea41b8154b6770fec2c8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libsepol/cil: cil_reset_classperms_set() should not reset classpermission\n\nIn struct cil_classperms_set, the set field is a pointer to a\nstruct cil_classpermission which is looked up in the symbol table.\nSince the cil_classperms_set does not create the cil_classpermission,\nit should not reset it.\n\nSet the set field to NULL instead of resetting the classpermission\nthat it points to.\n\nSigned-off-by: James Carter <jwcart2@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/760ffb72ac156b6f145310e2.diff.gz",
+  "diff_bytes": 538,
+  "diff_sha256": "280cd74a690d153d3db3fbb71aa7f9cd24c8a0c423feaf97cd324c1890e7cdb9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:45.470502+00:00",
+  "url": "https://github.com/selinuxproject/selinux.git"
+}

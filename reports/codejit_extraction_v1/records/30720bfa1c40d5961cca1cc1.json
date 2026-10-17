@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "851fff90a9b7461df2393af32239ba217bc25946",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Drop supplementary groups when changing to non-root\n\nSummary: When running HHVM as a non-root user, UID and GID are updated correctly but supplementary groups are not dropped properly. This runs initgroups inside main thread and lightprocess threads to reset groups to those of the specified non-root user.\n\nReviewed By: @markw65\n\nDifferential Revision: D1193229",
+  "patch_path": "reports/codejit_extraction_v1/records/30720bfa1c40d5961cca1cc1.diff.gz",
+  "diff_bytes": 1417,
+  "diff_sha256": "7ef323097db56a08a17feb63700046c94ef90af8c41c1b9cb1a59e2eab9ffb28",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:25.674131+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

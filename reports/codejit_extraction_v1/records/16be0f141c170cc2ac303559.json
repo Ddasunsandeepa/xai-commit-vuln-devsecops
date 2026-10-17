@@ -1,0 +1,16 @@
+{
+  "repo": "leesavide___abcm2ps",
+  "commit_id": "34aa1755f54689ae22db3fd7262f15e33d79ae5e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "accept 5, 7 or 9 as note length divider with L:auto\n\nAsked by Simon Wascher.",
+  "patch_path": "reports/codejit_extraction_v1/records/16be0f141c170cc2ac303559.diff.gz",
+  "diff_bytes": 3231,
+  "diff_sha256": "b09e6aa1ab420e30723f4cb85c056561dcb67a0465e646f914c415a97a02b748",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:38.488971+00:00",
+  "url": "https://github.com/leesavide/abcm2ps.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "97299606daab079cd88a096308487341c113ccec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "global structures/functions should have \"rfb\", \"sra\" or \"zrle\" as prefix,\nwhile structure members should not",
+  "patch_path": "reports/codejit_extraction_v1/records/ab621c32847e3f2e2f271447.diff.gz",
+  "diff_bytes": 122629,
+  "diff_sha256": "f70ee9ffcf2fd18e224ec43b8c01b501ac79d53ecda8a880fb92c047324ff970",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:36.897963+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

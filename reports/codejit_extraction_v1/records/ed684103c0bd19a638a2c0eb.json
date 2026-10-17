@@ -1,0 +1,16 @@
+{
+  "repo": "behdad___harfbuzz",
+  "commit_id": "63ef0b41dc48d6112d1918c1b1de9de8ea90adb5",
+  "label": 0,
+  "split": "train",
+  "status": "failed",
+  "error": "RuntimeError: fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+  "message": "",
+  "patch_path": "",
+  "diff_bytes": 0,
+  "diff_sha256": "",
+  "parent_count": null,
+  "is_merge": null,
+  "attempted_at_utc": "2026-10-17T16:39:08.983500+00:00",
+  "url": "https://github.com/behdad/harfbuzz.git"
+}

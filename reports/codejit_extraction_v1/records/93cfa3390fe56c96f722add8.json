@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "14c63f17b1fde5a575a28e96547a22b451c71fb5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "perf: Drop sample rate when sampling is too slow\n\nThis patch keeps track of how long perf's NMI handler is taking,\nand also calculates how many samples perf can take a second.  If\nthe sample length times the expected max number of samples\nexceeds a configurable threshold, it drops the sample rate.\n\nThis way, we don't have a runaway sampling process eating up the\nCPU.\n\nThis patch can tend to drop the sample rate down to level where\nperf doesn't work very well.  *BUT* the alternative is that my\nsystem hangs because it spends all of its time handling NMIs.\n\nI'll take a busted performance tool over an entire system that's\nbusted and undebuggable any day.\n\nBTW, my suspicion is that there's still an underlying bug here.\nUsing the HPET instead of the TSC is definitely a contributing\nfactor, but I suspect there are some other things going on.\nBut, I can't go dig down on a bug like that with my machine\nhanging all the time.\n\nSigned-off-by: Dave Hansen <dave.hansen@linux.intel.com>\nAcked-by: Peter Zijlstra <a.p.zijlstra@chello.nl>\nCc: paulus@samba.org\nCc: acme@ghostprotocols.net\nCc: Dave Hansen <dave@sr71.net>\n[ Prettified it a bit. ]\nSigned-off-by: Ingo Molnar <mingo@kernel.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/93cfa3390fe56c96f722add8.diff.gz",
+  "diff_bytes": 7202,
+  "diff_sha256": "034e82991423aaaa8175578fdfc6d7876890a018edb100cbdb93ab5d16087816",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:43.783034+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

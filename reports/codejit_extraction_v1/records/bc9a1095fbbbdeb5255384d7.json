@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "60f446dda8c2ee9bdee646c6dea03c7902f15ffa",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Cleanup in oinf definition",
+  "patch_path": "reports/codejit_extraction_v1/records/bc9a1095fbbbdeb5255384d7.diff.gz",
+  "diff_bytes": 10140,
+  "diff_sha256": "812710e42137e443a0c8b2689c371423d2d27b87fd99c569c52cee8d3e272af4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:49.177955+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

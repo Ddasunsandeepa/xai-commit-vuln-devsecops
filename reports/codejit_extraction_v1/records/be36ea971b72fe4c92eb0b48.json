@@ -1,0 +1,16 @@
+{
+  "repo": "ensc___irssi-proxy",
+  "commit_id": "85bbc05b21678e80423815d2ef1dfe26208491ab",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check if an SSL certificate matches the hostname of the server we are connecting to\n\ngit-svn-id: http://svn.irssi.org/repos/irssi/trunk@5104 dbcabf3a-b0e7-0310-adc4-f8d773084564",
+  "patch_path": "reports/codejit_extraction_v1/records/be36ea971b72fe4c92eb0b48.diff.gz",
+  "diff_bytes": 9301,
+  "diff_sha256": "91ee8309bbf2167c3a87f2fc5b99371301970339874ffe79946e03e376caef94",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:26.887615+00:00",
+  "url": "https://github.com/ensc/irssi-proxy.git"
+}

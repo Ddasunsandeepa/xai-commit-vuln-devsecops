@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "6ce59025f1182125e75c8d121daf44056b65dd1f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "paride/pf: cleanup queues when detection fails\n\nThe driver allocates queues for all the units it potentially\nsupports. But if we fail to detect any drives, then we fail\nloading the module without cleaning up those queues. This is\nnow evident with the switch to blk-mq, though the bug has\nbeen there forever as far as I can tell.\n\nAlso fix cleanup through regular module exit.\n\nReported-by: Randy Dunlap <rdunlap@infradead.org>\nTested-by: Randy Dunlap <rdunlap@infradead.org>\nSigned-off-by: Jens Axboe <axboe@kernel.dk>",
+  "patch_path": "reports/codejit_extraction_v1/records/77d1863362ec38b079591ecc.diff.gz",
+  "diff_bytes": 1033,
+  "diff_sha256": "8a79adf5cefbf387d8ef68b39e715506c192a28bcc48652c631d6c1fca610e0b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:37:21.196874+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

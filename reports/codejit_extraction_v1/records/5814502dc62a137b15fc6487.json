@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "e52393740334443ae0206cab2d7caef381646725",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "quote imap strings more carefully\n\nCo-authored-by: JerikoOne <jeriko.one@gmx.us>",
+  "patch_path": "reports/codejit_extraction_v1/records/5814502dc62a137b15fc6487.diff.gz",
+  "diff_bytes": 4516,
+  "diff_sha256": "50419881c42bd5351eb4b358c4cb3cc208c8363e0f42f05ab5952dd35722e1b5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:48.867269+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

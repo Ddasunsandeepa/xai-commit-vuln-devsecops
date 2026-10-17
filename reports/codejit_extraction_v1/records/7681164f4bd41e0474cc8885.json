@@ -1,0 +1,16 @@
+{
+  "repo": "akheron___jansson",
+  "commit_id": "64ce0ad3731ebd77e02897b07920eadd0e2cc318",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for issue #282\n\nThe fix limits recursion depths when parsing arrays and objects.\nThe limit is configurable via the `JSON_PARSER_MAX_DEPTH` setting\nwithin `jansson_config.h` and is set by default to 2048.\n\nUpdate the RFC conformance document to note the limit; the RFC\nallows limits to be set by the implementation so nothing has\nactually changed w.r.t. conformance state.\n\nReported by Gustavo Grieco.",
+  "patch_path": "reports/codejit_extraction_v1/records/7681164f4bd41e0474cc8885.diff.gz",
+  "diff_bytes": 103628,
+  "diff_sha256": "8ea4041f5e1f72d6ba1bad1b0346e3cf87689bb4350adf81a247ddbdbd56b248",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:14.103900+00:00",
+  "url": "https://github.com/akheron/jansson.git"
+}

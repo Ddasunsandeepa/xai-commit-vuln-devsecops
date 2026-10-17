@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "a496e8eeba51351af136734e475c947a3673dded",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "PPC: E500: Populate L1CFG0 SPR\n\nWhen running Linux on e500 with powersave-nap enabled, Linux tries to\nread out the L1CFG0 register and calculates some things from it. Passing\n0 there ends up in a division by 0, resulting in -1, resulting in badness.\n\nSo let's populate the L1CFG0 register with reasonable defaults. That way\nguests aren't completely confused.\n\nReported-by: Shrijeet Mukherjee <shm@cumulusnetworks.com>\nSigned-off-by: Alexander Graf <agraf@suse.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/4356c580d0ecdbb724286648.diff.gz",
+  "diff_bytes": 1299,
+  "diff_sha256": "eac2cc78affb56bc135055aedb52e6ce84731e1550f35840b7842dd50e7035aa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:15.019039+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

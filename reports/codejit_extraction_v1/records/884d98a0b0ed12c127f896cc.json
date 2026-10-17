@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "699e68371ec7e381e5cc48e3d96e29c669261af7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "rawdec: only exempt BIT0 with need_copy from buffer sanity check\n\nOtherwise the too small buffer is directly used in the frame, causing\nsegmentation faults, when trying to use the frame.\n\nReviewed-by: Michael Niedermayer <michael@niedermayer.cc>\nSigned-off-by: Andreas Cadhalpun <Andreas.Cadhalpun@googlemail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/884d98a0b0ed12c127f896cc.diff.gz",
+  "diff_bytes": 751,
+  "diff_sha256": "c1ed801e4c8fe38c40d4f35a0a96099b97aa6be85cad60f61fe0a75cb2d53cb7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:47.072979+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

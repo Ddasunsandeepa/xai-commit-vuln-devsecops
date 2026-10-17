@@ -1,0 +1,16 @@
+{
+  "repo": "troglobit___ssdp-responder",
+  "commit_id": "c82ca705427d00cdb573674e5641b0f90b50829a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Major refactor, pivot code from SOCK_RAW to SOCK_DGRAM\n\n- One multicast socket for receiving, bound to 239.255.255.250:1900\n- One shared unicast/multicast socket for sending reply/notify, bound\n  to ifaddr:1900, we also join 239.255.255.250 to ensure we recieve\n  M-SEARCH queries on all interfaces, regardless of the routing table\n- Move web server to port 1901\n- Find all system interface addresses, treat each as a separate\n  interface and join 239.255.255.250\n\nSigned-off-by: Joachim Nilsson <troglobit@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/3ef71722843f59afc883bcf2.diff.gz",
+  "diff_bytes": 18568,
+  "diff_sha256": "5c9fa0ab63868ba69765c29daa25f0c3a811ad151fad34dc53489d6fb353b32d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:10.845314+00:00",
+  "url": "https://github.com/troglobit/ssdp-responder.git"
+}

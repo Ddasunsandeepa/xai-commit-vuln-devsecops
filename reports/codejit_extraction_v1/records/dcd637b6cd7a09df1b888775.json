@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "d3c6ce463ac91ecbeb2128beb475d31d3ca6ef42",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ServiceManager: Restore basic uid check\n\nPrevent apps from registering services without relying on selinux checks.\n\nBug: 29431260\n\nChange-Id: I38c6e8bc7f7cba1cbd3568e8fed1ae7ac2054a9b\n(cherry picked from commit 2b74d2c1d2a2c1bb6e9c420f7e9b339ba2a95179)",
+  "patch_path": "reports/codejit_extraction_v1/records/dcd637b6cd7a09df1b888775.diff.gz",
+  "diff_bytes": 632,
+  "diff_sha256": "11852f68993fcb9317e3461335e19b79b62de6def10c9b2edaa5bb73a350c525",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:53.232419+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

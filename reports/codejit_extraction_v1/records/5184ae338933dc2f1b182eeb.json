@@ -1,0 +1,16 @@
+{
+  "repo": "latchset___mod_auth_mellon",
+  "commit_id": "42a11261b9dad2e48d70bdff7c53dd57a12db6f5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent redirect to URLs that begin with '///'\n\nVisiting a logout URL like this:\n    https://rp.example.co.jp/mellon/logout?ReturnTo=///fishing-site.example.com/logout.html\nwould have redirected the user to fishing-site.example.com\n\nWith the patch, this URL would be rejected.\n\nFixes: CVE-2021-3639",
+  "patch_path": "reports/codejit_extraction_v1/records/5184ae338933dc2f1b182eeb.diff.gz",
+  "diff_bytes": 723,
+  "diff_sha256": "8901c3e001b2ef6253d1a9fcd5e4da2c62f47f51a92b5c2d8cca7fbd4a4e8572",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:35.644976+00:00",
+  "url": "https://github.com/latchset/mod_auth_mellon.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "32b1307c62a5e8385118b6d7ce84743d125d335d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use custom error handler instead of fprintf(stderr, ...)",
+  "patch_path": "reports/codejit_extraction_v1/records/e51f6fb464219523cfbe3e12.diff.gz",
+  "diff_bytes": 59251,
+  "diff_sha256": "88d820cd7fe3d3410adad5630c0f10b4224496dad8a2cf61d51f708dc0deb18f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:53.929407+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

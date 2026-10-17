@@ -1,0 +1,16 @@
+{
+  "repo": "axiomatic-systems___bento4",
+  "commit_id": "98f39a5532323a0b64c003700d83739f06e38104",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Adding caching support for ctts\nMore detailed info for sample descriptions\nbetter AVC support",
+  "patch_path": "reports/codejit_extraction_v1/records/7e8eb00d3f38d3b00289566b.diff.gz",
+  "diff_bytes": 41167,
+  "diff_sha256": "943f18e01842e67082f4752e4807ff221f1243a3a9a76733555fc769a16f28e5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:59.301759+00:00",
+  "url": "https://github.com/axiomatic-systems/bento4.git"
+}

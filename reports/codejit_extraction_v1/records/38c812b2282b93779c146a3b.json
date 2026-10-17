@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___audio",
+  "commit_id": "ebbb82365172337c6c250c6cac4e326970a9e351",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "post proc : volume listener : fix effect release crash\n\nFix access to deleted effect context in vol_prc_lib_release()\n\nBug: 25753245.\nChange-Id: I64ca99e4d5d09667be4c8c605f66700b9ae67949\n(cherry picked from commit 93ab6fdda7b7557ccb34372670c30fa6178f8426)",
+  "patch_path": "reports/codejit_extraction_v1/records/38c812b2282b93779c146a3b.diff.gz",
+  "diff_bytes": 2178,
+  "diff_sha256": "bb56288713985a4b976eaeb39219a16306fbe9165840c3fccd6ad87d537e9ca9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:57.275627+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/audio"
+}

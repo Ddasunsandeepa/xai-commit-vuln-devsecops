@@ -1,0 +1,16 @@
+{
+  "repo": "pgbouncer___pgbouncer",
+  "commit_id": "1d377215b2679303691731d2dea21d0ad274c2c0",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "dont waste room for storing login-time salt.\n\nInstead store it in cancel_key[], as it is used\nonly once, before generating the cancel_key.",
+  "patch_path": "reports/codejit_extraction_v1/records/06d7face8b7427686ee1b142.diff.gz",
+  "diff_bytes": 2459,
+  "diff_sha256": "e4e6ac7c84a300b2a1f0fb4c49247fc00fb4873aa69aeba55f694517251c0f48",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:01.499222+00:00",
+  "url": "https://github.com/pgbouncer/pgbouncer.git"
+}

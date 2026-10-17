@@ -1,0 +1,16 @@
+{
+  "repo": "cdrummond___cantata",
+  "commit_id": "afc4f8315d3e96574925fb530a7004cc9e6ce3d3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove internal Samba shre mounting code, this had some privilege escalation issues, and is not well tested",
+  "patch_path": "reports/codejit_extraction_v1/records/249e17cbf636a28a2e3e52b9.diff.gz",
+  "diff_bytes": 120963,
+  "diff_sha256": "0d3ab0577db11bcb7d823259ec3414bc3403205bf25948f2bd50c7ebc9571741",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:00.085800+00:00",
+  "url": "https://github.com/cdrummond/cantata.git"
+}

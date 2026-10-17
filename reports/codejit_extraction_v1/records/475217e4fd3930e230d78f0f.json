@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libhevc",
+  "commit_id": "ebaa71da6362c497310377df509651974401d258",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Correct Tiles rows and cols check\n\nBug: 36231493\nBug: 34064500\nChange-Id: Ib17b2c68360685c5a2c019e1497612a130f9f76a\n(cherry picked from commit 07ef4e7138e0e13d61039530358343a19308b188)",
+  "patch_path": "reports/codejit_extraction_v1/records/475217e4fd3930e230d78f0f.diff.gz",
+  "diff_bytes": 1366,
+  "diff_sha256": "26134b1f0c624413ea90d9c32f225103207aa5fba7d67bc3c3aa5fbd8b0aab21",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:27.864342+00:00",
+  "url": "https://android.googlesource.com/platform/external/libhevc"
+}

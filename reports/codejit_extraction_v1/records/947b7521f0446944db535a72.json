@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libpng",
+  "commit_id": "771583a01bd0756a1b6861ab1f00b7bd1842a0cd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid a harmless potential integer overflow in png_XYZ_from_xy().\n\nThis change replicates commit d46b57 applied to the libpng16\ncodebase.\n\nBug: 21039636\nChange-Id: I1333196b8673aac6552cd438fd580dbd1d60ef11",
+  "patch_path": "reports/codejit_extraction_v1/records/947b7521f0446944db535a72.diff.gz",
+  "diff_bytes": 1513,
+  "diff_sha256": "2d5925f8df254d9af47e442e2b8b4c7d32712e9382b56b9ee44431f741cb24a1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:31.008611+00:00",
+  "url": "https://android.googlesource.com/platform/external/libpng"
+}

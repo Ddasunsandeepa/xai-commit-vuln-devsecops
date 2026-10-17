@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "b4cfb14e4cbefb831e8f5a63615bd263f821c399",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "asn1: print in log part of raw data to decode\n\ncloses #926",
+  "patch_path": "reports/codejit_extraction_v1/records/365fa89e7414a9720bb58c5d.diff.gz",
+  "diff_bytes": 976,
+  "diff_sha256": "df7a8da016fc4db8daf8a7e69912f6cf745156216f455260b140c9fc9cf2b09c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:02.000654+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___ngiflib",
+  "commit_id": "cc64f7cc8fc20a945f2abd2ca771e8611f7e4128",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "remove \"maxsav\" variable",
+  "patch_path": "reports/codejit_extraction_v1/records/a59b63d216189d6516653021.diff.gz",
+  "diff_bytes": 968,
+  "diff_sha256": "4b668db3c1c528203a662c9ed8a17a732092a07ba1d730d65119c8e064d3075d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:08.479896+00:00",
+  "url": "https://github.com/miniupnp/ngiflib.git"
+}

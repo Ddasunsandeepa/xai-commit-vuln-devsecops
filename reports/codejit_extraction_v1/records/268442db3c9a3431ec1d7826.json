@@ -1,0 +1,16 @@
+{
+  "repo": "trgil___gilcc",
+  "commit_id": "803969389ca9c06237075a7f8eeb1a19e6651759",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix parser tmp-buffer overflow issue",
+  "patch_path": "reports/codejit_extraction_v1/records/268442db3c9a3431ec1d7826.diff.gz",
+  "diff_bytes": 1154,
+  "diff_sha256": "1426df0ed0cc084d934b6048f2f5c7a24313413a37a0d4437d677f5a997c88df",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:10.435075+00:00",
+  "url": "https://github.com/trgil/gilcc.git"
+}

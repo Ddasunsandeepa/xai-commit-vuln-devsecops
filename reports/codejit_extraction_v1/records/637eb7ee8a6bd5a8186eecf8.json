@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "3c798dde6c5ab7d268b0c666aa6afe4382d13dcb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor error returning in yr_re_exec",
+  "patch_path": "reports/codejit_extraction_v1/records/637eb7ee8a6bd5a8186eecf8.diff.gz",
+  "diff_bytes": 10204,
+  "diff_sha256": "6367419152671b0879b630bc08ec472caff5ad3703a6618ee09cf10cfcba77f7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:40.440264+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

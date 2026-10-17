@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "b4d6cf6836ce025ba1811b7bbec52680c7204223",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Limit depth of nesting in direct objects (fixes #202)\n\nThis fixes CVE-2018-9918.",
+  "patch_path": "reports/codejit_extraction_v1/records/3846a59ca40254daf5262449.diff.gz",
+  "diff_bytes": 43599,
+  "diff_sha256": "65275c58b4ae4ead7be4d8da9f9734e2dfbf01fbe89b7da027249fba1f5c2198",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:35.378351+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

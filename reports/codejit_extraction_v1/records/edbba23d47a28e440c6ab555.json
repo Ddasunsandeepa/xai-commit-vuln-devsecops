@@ -1,0 +1,16 @@
+{
+  "repo": "libming___libming",
+  "commit_id": "9588b5371496ce26bc84d5595cd6fe26dcce5753",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "do not duplicate error/warn methods",
+  "patch_path": "reports/codejit_extraction_v1/records/edbba23d47a28e440c6ab555.diff.gz",
+  "diff_bytes": 9447,
+  "diff_sha256": "174da8868f834b64db019e3a575e91c5f55f55811dc3468e9ec16c8b595593ec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:06.851876+00:00",
+  "url": "https://github.com/libming/libming.git"
+}

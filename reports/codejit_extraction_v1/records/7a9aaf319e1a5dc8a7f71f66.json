@@ -1,0 +1,16 @@
+{
+  "repo": "strukturag___libheif",
+  "commit_id": "620633ec8b6d9154d0083bb252f80709ea6a0314",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "get_bit_depth(): return -1 in case of error instead of 0",
+  "patch_path": "reports/codejit_extraction_v1/records/7a9aaf319e1a5dc8a7f71f66.diff.gz",
+  "diff_bytes": 1722,
+  "diff_sha256": "ba2f4a1906460b9139de64c68ac8e0865522c37fb00929416e2bbe3dc7b27bd3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:45.976486+00:00",
+  "url": "https://github.com/strukturag/libheif.git"
+}

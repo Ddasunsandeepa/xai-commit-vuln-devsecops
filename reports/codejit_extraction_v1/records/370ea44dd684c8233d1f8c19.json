@@ -1,0 +1,16 @@
+{
+  "repo": "koral--___android-gif-drawable",
+  "commit_id": "8e0f7ef1085ec8bf1dde7b144ccc0b95cb7f49fd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "native code reformat",
+  "patch_path": "reports/codejit_extraction_v1/records/370ea44dd684c8233d1f8c19.diff.gz",
+  "diff_bytes": 13438,
+  "diff_sha256": "eb85a53f34fd86810f0ae94052b3e7b522644b1cfe05088039acd3264da9b545",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:31.738186+00:00",
+  "url": "https://github.com/koral--/android-gif-drawable.git"
+}

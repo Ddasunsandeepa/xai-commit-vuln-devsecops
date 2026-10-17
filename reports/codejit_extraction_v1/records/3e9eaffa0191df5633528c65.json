@@ -1,0 +1,16 @@
+{
+  "repo": "fuzzard___xbmc",
+  "commit_id": "80c8138c09598e88b4ddb6dbb279fa193bbb3237",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[Playlist] dont use istream directly to a tinyxml structure\n\nTurn istream into a std::string to handle large buffers (#20305)",
+  "patch_path": "reports/codejit_extraction_v1/records/3e9eaffa0191df5633528c65.diff.gz",
+  "diff_bytes": 756,
+  "diff_sha256": "7fafd6169fd92cc5c8024801a4e991934d09a45050640649309ba21d70f362e5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:48.807277+00:00",
+  "url": "https://github.com/fuzzard/xbmc.git"
+}

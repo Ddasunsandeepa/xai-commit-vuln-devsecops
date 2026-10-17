@@ -1,0 +1,16 @@
+{
+  "repo": "bagder___curl",
+  "commit_id": "75ca568fa1c19de4c5358fed246686de8467c238",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "URL sanitize: reject URLs containing bad data\n\nProtocols (IMAP, POP3 and SMTP) that use the path part of a URL in a\ndecoded manner now use the new Curl_urldecode() function to reject URLs\nwith embedded control codes (anything that is or decodes to a byte value\nless than 32).\n\nURLs containing such codes could easily otherwise be used to do harm and\nallow users to do unintended actions with otherwise innocent tools and\napplications. Like for example using a URL like\npop3://pop3.example.com/1%0d%0aDELE%201 when the app wants a URL to get\na mail and instead this would delete one.\n\nThis flaw is considered a security vulnerability: CVE-2012-0036\n\nSecurity advisory at: http://curl.haxx.se/docs/adv_20120124.html\n\nReported by: Dan Fandrich",
+  "patch_path": "reports/codejit_extraction_v1/records/90d89b426935caf9705b7c6a.diff.gz",
+  "diff_bytes": 6782,
+  "diff_sha256": "086d9f5c861148c619efc830d0ec733d3b2f402cae51389357197ee96da6faa2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:07.491387+00:00",
+  "url": "https://github.com/bagder/curl.git"
+}

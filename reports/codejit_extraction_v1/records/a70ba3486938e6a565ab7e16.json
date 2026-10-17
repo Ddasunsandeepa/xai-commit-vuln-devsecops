@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "d2d621106d848ba085abd22314d5a0992e20984e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed capability checks for mouse and unicode input.",
+  "patch_path": "reports/codejit_extraction_v1/records/a70ba3486938e6a565ab7e16.diff.gz",
+  "diff_bytes": 14537,
+  "diff_sha256": "515045d73e0094bb61ab22a04a84bcb7e7e064d01b86fda921b398dfeab4e259",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:45.034823+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

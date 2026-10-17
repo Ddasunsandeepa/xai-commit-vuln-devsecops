@@ -1,0 +1,16 @@
+{
+  "repo": "andrerenaud___pdfgen",
+  "commit_id": "ee58aff6918b8bbc3be29b9e3089485ea46ff956",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "jpeg: Fix another possible buffer overrun\n\nFound via the clang libfuzzer",
+  "patch_path": "reports/codejit_extraction_v1/records/7c697a0fa1acae7e61f6a502.diff.gz",
+  "diff_bytes": 449,
+  "diff_sha256": "f630845548b8d52de71257b990b86f2f43ac0bd08ab960b59a277ec1dec3f8fc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:27.610398+00:00",
+  "url": "https://github.com/andrerenaud/pdfgen.git"
+}

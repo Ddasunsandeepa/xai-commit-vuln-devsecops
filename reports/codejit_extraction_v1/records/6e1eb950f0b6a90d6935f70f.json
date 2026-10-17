@@ -1,0 +1,16 @@
+{
+  "repo": "minetest___minetest",
+  "commit_id": "3693b6871eba268ecc79b3f52d00d3cefe761131",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent players accessing inventories of other players (#10341)",
+  "patch_path": "reports/codejit_extraction_v1/records/6e1eb950f0b6a90d6935f70f.diff.gz",
+  "diff_bytes": 1155,
+  "diff_sha256": "75de35a8852499b8d6f341e626a976a2c84d7c744067fc0dedb70c87fbdd6246",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:00.198381+00:00",
+  "url": "https://github.com/minetest/minetest.git"
+}

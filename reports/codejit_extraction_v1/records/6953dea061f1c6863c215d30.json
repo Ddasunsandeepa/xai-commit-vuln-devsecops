@@ -1,0 +1,16 @@
+{
+  "repo": "flori___json",
+  "commit_id": "8f782fd8e181d9cfe9387ded43a5ca9692266b85",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix arbitrary heap exposure problem",
+  "patch_path": "reports/codejit_extraction_v1/records/6953dea061f1c6863c215d30.diff.gz",
+  "diff_bytes": 2519,
+  "diff_sha256": "168b9e478b1b7e2824428e7a25501d9cae671a782553445c04e4d2f8f5546212",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:21.533784+00:00",
+  "url": "https://github.com/flori/json.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "bdc4db0ee356cd318260e817de9a9930eaf9954f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lavfi: port mp=fspp to a native libavfilter filter\n\nSigned-off-by: Stefano Sabatini <stefasab@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/71c75cd6ab95405829d96232.diff.gz",
+  "diff_bytes": 92029,
+  "diff_sha256": "6bc4ff987a7b2e59ace2c9422944ae3bc31d206ecc27db9a9fd04661805d6983",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:02.425736+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "dd68316f3508b3742bdbf7462f80b1d20a0ab46d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "better support for MPEG-H",
+  "patch_path": "reports/codejit_extraction_v1/records/059c18cb9a036d9192d4e9bb.diff.gz",
+  "diff_bytes": 25366,
+  "diff_sha256": "04b94faf14ffbd096f89281905ab371cb0cc8426e64e25b2529f3acc51dd9813",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:22.232034+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

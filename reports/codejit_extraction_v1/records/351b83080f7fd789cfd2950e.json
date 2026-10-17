@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick",
+  "commit_id": "6661998e7693ff84516ebb520a8db0f262b2444b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Some of the additional layer information will be preserved when converting from PSD to PSD.",
+  "patch_path": "reports/codejit_extraction_v1/records/351b83080f7fd789cfd2950e.diff.gz",
+  "diff_bytes": 9156,
+  "diff_sha256": "0925a460497b838397ec0b562dd0e7aae042697d49702d74e32540bc3e1bd33c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:17.592353+00:00",
+  "url": "https://github.com/imagemagick/imagemagick.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "a516e72d60803cac3b81b3330db55983b080d8da",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "linux-user: don't crash with null name\n\nFrom Thayne Harbaugh.\n\npath() may be called with null string, don't bother trying to\nremap in that case.\n\nSigned-off-by: Riku Voipio <riku.voipio@iki.fi>\nSigned-off-by: Aurelien Jarno <aurelien@aurel32.net>\n\ngit-svn-id: svn://svn.savannah.nongnu.org/qemu/trunk@6480 c046a42c-6fe2-441c-8c8c-71466251a162",
+  "patch_path": "reports/codejit_extraction_v1/records/0981eea4169ecbf9fd84d97b.diff.gz",
+  "diff_bytes": 450,
+  "diff_sha256": "db167713d154d9092693dcc4e9eb795f40026028b0a6cdfe9000ed1601ffe0d5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:16.765631+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "d08e973a77d128b25e01a08c34d89593fdf222da",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "can: gs_usb: Added support for the GS_USB CAN devices\n\nThe Geschwister Schneider Family of devices are galvanically isolated USB2.0 to\nCAN2.0A/B adapters. Currently two form factors are available, a tethered dongle\nin a rugged enclosure, and mini-pci-e card.\n\nSigned-off-by: Maximilian Schneider <max@schneidersoft.net>\nAcked-by: Wolfgang Grandegger <wg@grandegger.com>\nSigned-off-by: Marc Kleine-Budde <mkl@pengutronix.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/8c30dd0ee9fceb7d31a7389b.diff.gz",
+  "diff_bytes": 24872,
+  "diff_sha256": "a1f6668a7eaac444345ce03f3e61b646bf53c98c2a215161bddec582d914a133",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:39:42.038503+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

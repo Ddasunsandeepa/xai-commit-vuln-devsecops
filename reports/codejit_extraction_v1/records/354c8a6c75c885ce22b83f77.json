@@ -1,0 +1,16 @@
+{
+  "repo": "linuxdeepin___deepin-clone",
+  "commit_id": "e079f3e2712b4f8c28e3e63e71ba1a1f90fce1ab",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix: Do not use the \"/tmp\" directory\n\nhttps://github.com/linuxdeepin/deepin-clone/issues/16\nhttps://bugzilla.opensuse.org/show_bug.cgi?id=1130388",
+  "patch_path": "reports/codejit_extraction_v1/records/354c8a6c75c885ce22b83f77.diff.gz",
+  "diff_bytes": 6247,
+  "diff_sha256": "0b6cb2275edfb5c40395f54545dd18e21a0cf02d554a2c8c8956cb74f228ecdc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:42.433463+00:00",
+  "url": "https://github.com/linuxdeepin/deepin-clone.git"
+}

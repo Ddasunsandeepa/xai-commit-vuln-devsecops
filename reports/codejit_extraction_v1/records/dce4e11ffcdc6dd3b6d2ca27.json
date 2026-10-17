@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "57433015f856cc12753378254ce4f1c78f5d9c7b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libvncclient: handle half-open TCP connections\n\nWhen a connection is not reset properly at the TCP level (e.g. sudden\npower loss or process crash) the TCP connection becomes half-open and\nread() always returns -1 with errno = EAGAIN while select() always\nreturns 0. This leads to an infinite loop and can be fixed by closing\nthe connection after a certain number of retries (based on a timeout)\nhas been exceeded.",
+  "patch_path": "reports/codejit_extraction_v1/records/dce4e11ffcdc6dd3b6d2ca27.diff.gz",
+  "diff_bytes": 2756,
+  "diff_sha256": "747091449a17a031b78976ed232cec8f44bbcce2479d3d3eb0fe77f9ec23730c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:36.212426+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "opencontainers___runc",
+  "commit_id": "83776dd8b30eb3771bbd0207e30d08f30943cc64",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libcontainer: Bail on close(2) failures\n\nDon't ignore close(2) return code, rather bail if there is any\nunexpected failures. By checking the close return code we make sure we\ndon't introduce the same bug (closing an already closed fd) I've fixed\nin the previous patch.\n\nAs a side note, we are not handling in this patch when close(2) returns\nEINTR and the go runtime, since go 1.14, sends SIGURG to preempt\ngoroutines. This should not happen here though, as nsenter is guaranteed\nto be executed before the go runtime starts.\n\nSigned-off-by: Rodrigo Campos <rodrigo@kinvolk.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/b6c3788d8e61adccd7863037.diff.gz",
+  "diff_bytes": 2048,
+  "diff_sha256": "e2c17e7d4869bcd425b1d80012d92d72674de64def343ac22f2376098d449ea9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:29.547297+00:00",
+  "url": "https://github.com/opencontainers/runc.git"
+}

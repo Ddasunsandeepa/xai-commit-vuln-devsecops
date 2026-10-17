@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "0b0ef9344255ff5acfac6b7af09198ac9c9756c8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "kwaj_read_headers(): fix handling of non-terminated strings",
+  "patch_path": "reports/codejit_extraction_v1/records/409330c03c1ed6e268d00379.diff.gz",
+  "diff_bytes": 23952,
+  "diff_sha256": "478e8a3a44e211dfe3c1b7e8916b2f80c8e324eeed99f0b23b304e795fba1a1d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:32.969246+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

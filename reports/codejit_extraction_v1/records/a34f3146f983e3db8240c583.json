@@ -1,0 +1,16 @@
+{
+  "repo": "serenityos___serenity",
+  "commit_id": "caf4bde3a9396193b28d134fc7ad5a0c92faace6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "LibArchive: Add Zip file parser\n\nThis is based on the zip specification on PKWARE's zip specification\n(https://pkware.cachefly.net/webdocs/casestudies/APPNOTE.TXT) and will\nbe used in the unzip utility and eventually in the zip utility.",
+  "patch_path": "reports/codejit_extraction_v1/records/a34f3146f983e3db8240c583.diff.gz",
+  "diff_bytes": 15984,
+  "diff_sha256": "b83d830265eeead04778fe2ec8343df68906f368390f0e40203fd3556525271e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:54.556945+00:00",
+  "url": "https://github.com/serenityos/serenity.git"
+}

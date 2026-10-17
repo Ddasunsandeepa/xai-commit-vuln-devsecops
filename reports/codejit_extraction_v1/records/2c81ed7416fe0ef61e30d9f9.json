@@ -1,0 +1,16 @@
+{
+  "repo": "acassen___keepalived",
+  "commit_id": "f28015671a4b04785859d1b4b1327b367b6a10e9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix buffer overflow in extract_status_code()\n\nIssue #960 identified that the buffer allocated for copying the\nHTTP status code could overflow if the http response was corrupted.\n\nThis commit changes the way the status code is read, avoids copying\ndata, and also ensures that the status code is three digits long,\nis non-negative and occurs on the first line of the response.\n\nSigned-off-by: Quentin Armitage <quentin@armitage.org.uk>",
+  "patch_path": "reports/codejit_extraction_v1/records/2c81ed7416fe0ef61e30d9f9.diff.gz",
+  "diff_bytes": 893,
+  "diff_sha256": "fe3dc5ed2ea41b3c98b819bfbfe7c593694102d5b8b7bc288962b777772e0bae",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:11.305681+00:00",
+  "url": "https://github.com/acassen/keepalived.git"
+}

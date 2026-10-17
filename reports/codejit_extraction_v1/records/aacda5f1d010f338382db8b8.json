@@ -1,0 +1,16 @@
+{
+  "repo": "lora-net___loramac-node",
+  "commit_id": "e3063a91daa7ad8a687223efa63079f0c24568e4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added received buffer size checks.",
+  "patch_path": "reports/codejit_extraction_v1/records/aacda5f1d010f338382db8b8.diff.gz",
+  "diff_bytes": 3390,
+  "diff_sha256": "4607d3d11586c571ba2db20e0c4559b9bbd80eaad1df244d1cdcf52a5ac00aa8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:44.541596+00:00",
+  "url": "https://github.com/lora-net/loramac-node.git"
+}

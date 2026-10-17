@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "4684a2041005b598ecc92fbaf36463d2fd12b5de",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "intel_iommu: disallow kernel-irqchip=on with IR\n\nWhen user specify \"intremap=on\" with \"-M kernel-irqchip=on\", throw error\nand then quit.\n\nSigned-off-by: Peter Xu <peterx@redhat.com>\nReviewed-by: Michael S. Tsirkin <mst@redhat.com>\nSigned-off-by: Michael S. Tsirkin <mst@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/5b93edbbb8471bc22d7c4684.diff.gz",
+  "diff_bytes": 1552,
+  "diff_sha256": "a85c3501926d8ad93e50b8ad46b038eb9eee61dbbba1838adfe595562bd1c132",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:42.185816+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

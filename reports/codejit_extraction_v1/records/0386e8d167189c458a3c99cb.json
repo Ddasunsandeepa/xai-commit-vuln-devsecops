@@ -1,0 +1,16 @@
+{
+  "repo": "espruino___espruino",
+  "commit_id": "8b25d8a4bd3089014cc12a4f5f2088664407817b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix precedence of 'void' keyword (fix #1079)",
+  "patch_path": "reports/codejit_extraction_v1/records/0386e8d167189c458a3c99cb.diff.gz",
+  "diff_bytes": 1196,
+  "diff_sha256": "6749bd062c6be2dc1b009b1bb1ad184265057838240c90b048bf00723694e581",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:59.590866+00:00",
+  "url": "https://github.com/espruino/espruino.git"
+}

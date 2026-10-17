@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "d3221181c3a27e7f1e23c6db1266fde820d471d7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug #72663 - part 2\n\nIf a (nested) unserialize() call fails, we remove all the values\nthat were inserted into var_hash during that call. This prevents\ntheir use in other unserializations in the same context.\n\n(cherry picked from commit 61f2f5a0f760157f9c9d32d7d3df2be47a73e74d)",
+  "patch_path": "reports/codejit_extraction_v1/records/a117b5cc427d5fba573f5bc3.diff.gz",
+  "diff_bytes": 5728,
+  "diff_sha256": "6a1d54c315ae797203ea53edd37ded994c0e6b2eb2605a734c6bd176622f848a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:28.841300+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

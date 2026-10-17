@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "863d37ea66d5c960db08d6f4a2cbd2518f0f80d1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix #72696: imagefilltoborder stackoverflow on truecolor images\n\nWe must not allow negative color values be passed to\ngdImageFillToBorder(), because that can lead to infinite recursion\nsince the recursion termination condition will not necessarily be met.",
+  "patch_path": "reports/codejit_extraction_v1/records/d2b7f0bf232bb76054a21f90.diff.gz",
+  "diff_bytes": 904,
+  "diff_sha256": "78e2b57df371ae4eb7a14d138b05b5b7b1e059f3b8af632faa2ff8eb3eae2247",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:07.866063+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

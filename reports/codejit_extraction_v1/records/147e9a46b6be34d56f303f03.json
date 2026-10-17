@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "843d0b7a10bb45627f94764a6c5d468a24143345",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream: support RST getting lost/ignored\n\nIn case of a valid RST on a SYN, the state is switched to 'TCP_CLOSED'.\nHowever, the target of the RST may not have received it, or may not\nhave accepted it. Also, the RST may have been injected, so the supposed\nsender may not actually be aware of the RST that was sent in it's name.\n\nIn this case the previous behavior was to switch the state to CLOSED and\naccept no further TCP updates or stream reassembly.\n\nThis patch changes this. It still switches the state to CLOSED, as this\nis by far the most likely to be correct. However, it will reconsider\nthe state if the receiver continues to talk.\n\nTo do this on each state change the previous state will be recorded in\nTcpSession::pstate. If a non-RST packet is received after a RST, this\nTcpSession::pstate is used to try to continue the conversation.\n\nIf the (supposed) sender of the RST is also continueing the conversation\nas normal, it's highly likely it didn't send the RST. In this case\na stream event is generated.\n\nTicket: #2501\n\nReported-By: Kirill Shipulin",
+  "patch_path": "reports/codejit_extraction_v1/records/147e9a46b6be34d56f303f03.diff.gz",
+  "diff_bytes": 12290,
+  "diff_sha256": "f438f862dd0c4550eb4e0d2d55a7f11b937e1b3809a01b578bc9ed48fbad6676",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:48.483628+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

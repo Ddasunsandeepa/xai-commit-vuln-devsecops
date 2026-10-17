@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "5c437bcc7a51edbef45242c5173cf7871fde2866",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make extensions use a correct same-origin check.\n\nGURL::GetOrigin does not do the right thing for all types of URLs.\n\nBUG=573317\n\nReview URL: https://codereview.chromium.org/1658913002\n\nCr-Commit-Position: refs/heads/master@{#373381}",
+  "patch_path": "reports/codejit_extraction_v1/records/c85891001b5cd1c0217e997b.diff.gz",
+  "diff_bytes": 9319,
+  "diff_sha256": "85c301f89af4a61a2f83ee352c478b12942901fa8fb21e399deb1355417e7512",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:43:34.378886+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

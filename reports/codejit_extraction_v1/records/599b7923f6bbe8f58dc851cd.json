@@ -1,0 +1,16 @@
+{
+  "repo": "videolan___vlc",
+  "commit_id": "8d9ba243b86401365f83d196123ff440ebc6a664",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add Dirac encoding support using the Schroedinger library\n\nModified-by and Signed-off-by: Jean-Baptiste Kempf <jb@videolan.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/599b7923f6bbe8f58dc851cd.diff.gz",
+  "diff_bytes": 47273,
+  "diff_sha256": "22b68b30833387312ea04229e5c8862590f55cc814e24b72ff2fe13b1c579146",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:11.838965+00:00",
+  "url": "https://github.com/videolan/vlc.git"
+}

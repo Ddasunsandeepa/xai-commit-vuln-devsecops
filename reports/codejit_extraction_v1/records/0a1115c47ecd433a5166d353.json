@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "93b8ac558752d09e1c56d4f1bc82631316fa9c82",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ensure UID in fetch_uidl",
+  "patch_path": "reports/codejit_extraction_v1/records/0a1115c47ecd433a5166d353.diff.gz",
+  "diff_bytes": 399,
+  "diff_sha256": "226b968d60e6a4f0765755ec04fad20f3541f8d7b7035994fc40c68c1ab711ee",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:38.318071+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "turbovnc___turbovnc",
+  "commit_id": "cea98166008301e614e0d36776bf9435a536136e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Server: Fix two issues identified by ASan\n\n1. If the TLSPlain and X509Plain security types were both disabled, then\n   rfbOptPamAuth() would overflow the name field in the secTypes\n   structure when testing the \"none\" security type, since the name of\n   that security type has less than five characters.  This issue was\n   innocuous, since the overflow was fully contained within the secTypes\n   structure, but the ASan error caused Xvnc to abort, which made it\n   difficult to detect other errors.\n\n2. If an ill-behaved RFB client sent the TurboVNC Server a fence\n   message with more than 64 bytes, then the TurboVNC Server would\n   try to read that message and subsequently overflow the stack before\n   it detected that the payload was too large.  This could never have\n   occurred with any of the VNC viewers that currently support the RFB\n   flow control extensions (TigerVNC and TurboVNC, namely.)  This issue\n   was also innocuous, since the stack overflow affected two variables\n   (newScreens and errMsg) that were never accessed before the function\n   returned.",
+  "patch_path": "reports/codejit_extraction_v1/records/636cc51c1cc08e4585657185.diff.gz",
+  "diff_bytes": 1274,
+  "diff_sha256": "6778a182462955b61de591c8ad18b11b293808970950563d3da3b7c930404154",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:15.145352+00:00",
+  "url": "https://github.com/turbovnc/turbovnc.git"
+}

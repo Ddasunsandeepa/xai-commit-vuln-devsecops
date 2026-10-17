@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libvpx",
+  "commit_id": "6886e8e0a9db2dbad723dc37a548233e004b33bc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "vp8:fix threading issues\n\n1 - stops de allocating before threads are closed.\n2 - limits threads to mb_rows when mb_rows < partitions\n\nBUG=webm:851\nBug: 30436808\n\nChange-Id: Ie017818ed28103ca9d26d57087f31361b642e09b\n(cherry picked from commit 70cca742efa20617c70c3209aa614a70f282f90e)",
+  "patch_path": "reports/codejit_extraction_v1/records/bf530a1f6f68b89c15416534.diff.gz",
+  "diff_bytes": 7558,
+  "diff_sha256": "f73a6ff1588a8267bb7a15a66d7296b4483f2767f271ae15f9aca2d477a48b2e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:34.727978+00:00",
+  "url": "https://android.googlesource.com/platform/external/libvpx"
+}

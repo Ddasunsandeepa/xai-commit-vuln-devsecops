@@ -1,0 +1,16 @@
+{
+  "repo": "linux4sam___at91bootstrap",
+  "commit_id": "45419497309ffbf27c17ea7938499aca99168927",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "driver: secure: move keys into static arrays\n\nMove the keys into static arrays. This will avoid copying the keys\nfrom the code section to the stack on the previous init_keys implementation.\nLike this, the keys are hardcoded into data section at compile time,\nand can be completely wiped after use.\n\nSigned-off-by: Eugen Hristev <eugen.hristev@microchip.com>\nTested-by: Nicolas Ferre <nicolas.ferre@microchip.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c674ee918571255aa67309d5.diff.gz",
+  "diff_bytes": 4404,
+  "diff_sha256": "4589d0fafb3214660f70413dd28e0d3fdf9dd9427860e7ec806e0af053e7ad42",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:41.261353+00:00",
+  "url": "https://github.com/linux4sam/at91bootstrap.git"
+}

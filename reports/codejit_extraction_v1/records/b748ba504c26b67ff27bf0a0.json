@@ -1,0 +1,16 @@
+{
+  "repo": "babelouest___glewlwyd",
+  "commit_id": "0efd112bb62f566877750ad62ee828bff579b4e2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix fido2 signature validation bug",
+  "patch_path": "reports/codejit_extraction_v1/records/b748ba504c26b67ff27bf0a0.diff.gz",
+  "diff_bytes": 1576,
+  "diff_sha256": "98ccb099785337892203e5539816d23769ba36c95f8a43cd5d0fc303907ad3b1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:00.651082+00:00",
+  "url": "https://github.com/babelouest/glewlwyd.git"
+}

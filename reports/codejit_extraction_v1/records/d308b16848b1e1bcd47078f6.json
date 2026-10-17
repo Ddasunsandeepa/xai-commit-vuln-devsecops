@@ -1,0 +1,16 @@
+{
+  "repo": "ocaml___ocaml",
+  "commit_id": "7c98525d0f61e9b430a08e8fe535dc790a430e2f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add proper casts.\n\ngit-svn-id: http://caml.inria.fr/svn/ocaml/trunk@14304 f963ae5c-01c2-4b8c-9fe0-0dff7051ff02",
+  "patch_path": "reports/codejit_extraction_v1/records/d308b16848b1e1bcd47078f6.diff.gz",
+  "diff_bytes": 807,
+  "diff_sha256": "47b6844f0eb628ff1ac18079d62c8e30b15790d31f60028c82aeda005edb72f5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:43.263816+00:00",
+  "url": "https://github.com/ocaml/ocaml.git"
+}

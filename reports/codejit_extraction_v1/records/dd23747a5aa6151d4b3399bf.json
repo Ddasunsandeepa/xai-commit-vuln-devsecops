@@ -1,0 +1,16 @@
+{
+  "repo": "electron___electron",
+  "commit_id": "ce361a12e355f9e1e99c989f1ea056c9e502dbe7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use case-insensitive switch comparisons",
+  "patch_path": "reports/codejit_extraction_v1/records/dd23747a5aa6151d4b3399bf.diff.gz",
+  "diff_bytes": 662,
+  "diff_sha256": "ca5fff41505893fb37416989f2c5fce4b439e5e4987726f61185993170c03095",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:26.234391+00:00",
+  "url": "https://github.com/electron/electron.git"
+}

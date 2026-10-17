@@ -1,0 +1,16 @@
+{
+  "repo": "postgres___postgres",
+  "commit_id": "0754b391f30e17fde9d7d14d5e0eb458fc02289a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Removed some unneeded variables and comparisons",
+  "patch_path": "reports/codejit_extraction_v1/records/7f3e6c388cee07e6d39b8f6c.diff.gz",
+  "diff_bytes": 18556,
+  "diff_sha256": "0a1ba7c3e53d628c91029c261ab9a7e6486e08d0548a1b19e48df64b3ece98f8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:42.991535+00:00",
+  "url": "https://github.com/postgres/postgres.git"
+}

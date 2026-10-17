@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "5fe74f831fddb92afa5ddfe46490bb49f083132b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not forward resource timing to parent frame after back-forward navigation\n\nLocalFrame has |should_send_resource_timing_info_to_parent_| flag not to\nsend timing info to parent except for the first navigation. This flag is\ncleared when the first timing is sent to parent, however this does not happen\nif iframe's first navigation was by back-forward navigation. For such\niframes, we shouldn't send timings to parent at all.\n\nBug: 876822\nChange-Id: I128b51a82ef278c439548afc8283ae63abdef5c5\nReviewed-on: https://chromium-review.googlesource.com/1186215\nReviewed-by: Kinuko Yasuda <kinuko@chromium.org>\nCommit-Queue: Kunihiko Sakamoto <ksakamoto@chromium.org>\nCr-Commit-Position: refs/heads/master@{#585736}",
+  "patch_path": "reports/codejit_extraction_v1/records/5eb5ed66f1cd0467fe20c43c.diff.gz",
+  "diff_bytes": 6259,
+  "diff_sha256": "8f581fa7b4fb69a5638ba7de2ac68decf497fb81eca30b682345fe9634b48820",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:44:27.171242+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

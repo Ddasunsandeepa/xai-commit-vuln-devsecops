@@ -1,0 +1,16 @@
+{
+  "repo": "axiomatic-systems___bento4",
+  "commit_id": "16b22aaaa201eb0fd56809ff77586cee966099ba",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "",
+  "patch_path": "reports/codejit_extraction_v1/records/6473c32af46e057e3a6e5c4d.diff.gz",
+  "diff_bytes": 93994,
+  "diff_sha256": "0933a0ec53701443117421aadddd040f2215aad3ddb35220fad18b4e3cac3e01",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:55.673949+00:00",
+  "url": "https://github.com/axiomatic-systems/bento4.git"
+}

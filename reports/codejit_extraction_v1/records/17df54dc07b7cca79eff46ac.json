@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "85d253fab5e2c01bd90990667c6de25c282fc5cd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "BQ: Add permission check to BufferQueueConsumer::dump\n\nBug 27046057\n\nChange-Id: Id7bd8cf95045b497943ea39dde49e877aa6f5c4e",
+  "patch_path": "reports/codejit_extraction_v1/records/17df54dc07b7cca79eff46ac.diff.gz",
+  "diff_bytes": 1220,
+  "diff_sha256": "da40cd998c7a8890a185cbabafca681844463626820e1270ce9a26d90fe2cc9b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:46.964433+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "keithw___mosh",
+  "commit_id": "9791768705528e911bfca6c4d8aa88139035060e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Cap escape sequence parameters to prevent long loops.\n\nFixes #271 github issue.",
+  "patch_path": "reports/codejit_extraction_v1/records/f7c522e3cb230a46306e1039.diff.gz",
+  "diff_bytes": 929,
+  "diff_sha256": "9b6992498d5dc680b04b53e773a6a941405f5b102e7c557d6eec54d9956682bc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:25.642020+00:00",
+  "url": "https://github.com/keithw/mosh.git"
+}

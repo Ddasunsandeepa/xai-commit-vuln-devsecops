@@ -1,0 +1,16 @@
+{
+  "repo": "bluez___bluez",
+  "commit_id": "00da0fb4972cf59e1c075f313da81ea549cb8738",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "shared/gatt-server: Fix not properly checking for secure flags\n\nWhen passing the mask to check_permissions all valid permissions for\nthe operation must be set including BT_ATT_PERM_SECURE flags.",
+  "patch_path": "reports/codejit_extraction_v1/records/fe1b48985f3950c502896f6b.diff.gz",
+  "diff_bytes": 3137,
+  "diff_sha256": "956d9e8df4305a8b4cda87b1c4512e490607a04d6baa8ffe015ef266a090594b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:26.231502+00:00",
+  "url": "https://github.com/bluez/bluez.git"
+}

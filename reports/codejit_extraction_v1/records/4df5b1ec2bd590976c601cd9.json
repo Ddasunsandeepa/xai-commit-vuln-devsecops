@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "6a9f5e4f7c3fd5ddab3e6727b071904d76773952",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed use after free caused by dangling pointer\n\n * This fix also improved RCE Injection detection\n\nSigned-off-by: Toni Uhlig <matzeton@googlemail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/4df5b1ec2bd590976c601cd9.diff.gz",
+  "diff_bytes": 90359,
+  "diff_sha256": "936f9ff7e9b7673522e21ab4f276de21a92e71d9cc33af89d6cd59ba3dc2d3ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:20.825861+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

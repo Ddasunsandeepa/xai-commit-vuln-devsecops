@@ -1,0 +1,16 @@
+{
+  "repo": "json-c___json-c",
+  "commit_id": "64e36901a0614bf64a19bc3396469c66dcd0b015",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Patch to address the following issues:\n\n* CVE-2013-6371: hash collision denial of service\n* CVE-2013-6370: buffer overflow if size_t is larger than int",
+  "patch_path": "reports/codejit_extraction_v1/records/02f3b889ab1a348747f4e534.diff.gz",
+  "diff_bytes": 26470,
+  "diff_sha256": "a462de5c1e94aabfbbd9ccf668db1fcaf380c41e82e85bed7e28cf73e4e6f15d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:01.530083+00:00",
+  "url": "https://github.com/json-c/json-c.git"
+}

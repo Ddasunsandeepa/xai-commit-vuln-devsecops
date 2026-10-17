@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "5f6da4d1297f8c2b7263b703aea26ef0c2b3a773",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add utility functions for QRESYNC support.\n\n* Add function to generate uid_seqset for header cache.\n  This will be used by QREFRESH to reconstruct the msn_index state.\n\n* Add seqset data structure and iterator functions.\n\n* Add cmd_parse_vanished, for QRESYNC support.\n\n* Add and enable QRESYNC capability.\n\n* Create helper functions to store and retrieve the uid_seqset.",
+  "patch_path": "reports/codejit_extraction_v1/records/617525cecf2f0cc1f394a972.diff.gz",
+  "diff_bytes": 13511,
+  "diff_sha256": "df12f48a9dea6f231439408603a4a06c82d1a6c93a8fbd9da9004c43028b4a27",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:31.535233+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

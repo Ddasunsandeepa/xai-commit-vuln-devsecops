@@ -1,0 +1,16 @@
+{
+  "repo": "pornel___pngquant",
+  "commit_id": "b7c217680cda02dddced245d237ebe8c383be285",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix integer overflow in rwpng.h (CVE-2016-5735)\n\nReported by Choi Jaeseung \nFound with Sparrow (http://ropas.snu.ac.kr/sparrow)",
+  "patch_path": "reports/codejit_extraction_v1/records/41ef5c3b772f61f4f3194e70.diff.gz",
+  "diff_bytes": 1459,
+  "diff_sha256": "afe61769d3c926e77eb89c5ba36a13b2727be286bf66241edd7d5bc130336791",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:42.755000+00:00",
+  "url": "https://github.com/pornel/pngquant.git"
+}

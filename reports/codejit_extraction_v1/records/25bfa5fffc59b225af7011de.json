@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "bf220f3e6e799f28d1599c3c5106e9e15631a91d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stagefright: add adaptive playback support to SoftAVC decoder.\n\nAlso change SoftVPX decoder to use common handlePortSettingsChanged\nand copyYV12FrameToOutputBuffer method.\n\nBug: 17326758\nChange-Id: I6fb2ee8fb9291f69c70493b8558af341adc1f4b2",
+  "patch_path": "reports/codejit_extraction_v1/records/25bfa5fffc59b225af7011de.diff.gz",
+  "diff_bytes": 14639,
+  "diff_sha256": "401e2c0d062d08918056c3a00a3cdaded60feb8fb4eb06c1db2792d788ca36cd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:11.267154+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

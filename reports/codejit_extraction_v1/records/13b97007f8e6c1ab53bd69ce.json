@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "830cb39cb2a0f1bf6704d264e2a5c5029c175dd7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add missing AVRCP message length checks inside avrc_msg_cback\n\nExplicitly check the length of the received message before\naccessing the data.\n\nBug: 111803925\nBug: 79883824\nTest: POC scripts\nChange-Id: I00b1c6bd6dd7e18ac2c469ef2032c7ff10dcaecb\nMerged-In: I00b1c6bd6dd7e18ac2c469ef2032c7ff10dcaecb\n(cherry picked from commit 282deb3e27407aaa88b8ddbdbd7bb7d56ddc635f)\n(cherry picked from commit 007868d05f4b761842c7345161aeda6fd40dd245)",
+  "patch_path": "reports/codejit_extraction_v1/records/13b97007f8e6c1ab53bd69ce.diff.gz",
+  "diff_bytes": 2524,
+  "diff_sha256": "291f5e6f2d7744c8232bc3bcefc0a12d4bddaee22dcb55daf4c3cc42bd4eddec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:15.385651+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

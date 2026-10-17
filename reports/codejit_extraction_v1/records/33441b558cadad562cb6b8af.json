@@ -1,0 +1,16 @@
+{
+  "repo": "f-zhaoyang___jhead",
+  "commit_id": "5186ddcf9e35a7aa0ff0539489a930434a1325f4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Just allocate 20 bytes extra at the end of a section. Otherwise, we end\nup with a whole lot of little checks for structures that the file says\nare there but are unexpectedly cut off in fuzz tests",
+  "patch_path": "reports/codejit_extraction_v1/records/33441b558cadad562cb6b8af.diff.gz",
+  "diff_bytes": 866,
+  "diff_sha256": "11eabd6c7b2f67f71fce5ed7ab614c2edc6d901c1d2d0be3356b07303cdd1ac6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:20.840676+00:00",
+  "url": "https://github.com/f-zhaoyang/jhead.git"
+}

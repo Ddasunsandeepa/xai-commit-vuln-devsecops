@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "412a6142c27a5973c61ba540e33cdc22d5608e68",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed out of bounds access of ASN.1 Bitstring\n\nCredit to OSS-Fuzz",
+  "patch_path": "reports/codejit_extraction_v1/records/03d038ec97f422c8de05cee3.diff.gz",
+  "diff_bytes": 812,
+  "diff_sha256": "d2271729cb8950c8ddcd20493abebd14b230e79815a05c08a06c7c8b18104acb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:57.175863+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

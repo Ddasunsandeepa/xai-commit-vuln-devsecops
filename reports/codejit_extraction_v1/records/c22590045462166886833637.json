@@ -1,0 +1,16 @@
+{
+  "repo": "silnrsi___graphite",
+  "commit_id": "db132b4731a9b4c9534144ba3a18e65b390e9ff6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Deprecate and make ineffective gr_face_dumbRendering",
+  "patch_path": "reports/codejit_extraction_v1/records/c22590045462166886833637.diff.gz",
+  "diff_bytes": 9748,
+  "diff_sha256": "6f96e9247a28166f32f1934545820811fb84c5eba323da544a16bf8ed7489e50",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:14.989729+00:00",
+  "url": "https://github.com/silnrsi/graphite.git"
+}

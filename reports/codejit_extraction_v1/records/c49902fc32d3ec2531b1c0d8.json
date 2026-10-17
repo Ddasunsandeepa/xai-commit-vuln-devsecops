@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "3ebc3c5ac0f288be3a8e1ee8b0e56a9ece740200",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "RFCOMM: Add more logging on failure cases\n\n* Log every instance of RFCOMM unexpected disconnection\n* Log every time when RFCOMM channel (DLCI) is changed\n* Refactor some RFCOMM code to be more readable and easier for logging\n* Remove excessive logging in power manager\n* Assign HSP default version more appropriate location\n* Replace some usage of NULL with nullptr\n\nBug: 77224743\nTest: make, no functional changes\nChange-Id: I5e62dd6d338f7e92a8b8d39c1fe155b71396034c\n(cherry picked from commit 4e01c6d5f2d03fb5c98567b573a9dd32d28a4106)",
+  "patch_path": "reports/codejit_extraction_v1/records/c49902fc32d3ec2531b1c0d8.diff.gz",
+  "diff_bytes": 43644,
+  "diff_sha256": "d884f6782f0037b984da5d334486eea649d93cbfb1c1ff1835180cb5802ecbac",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:11.055016+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "701b518d5c56a1449825a3a37a716c58e05e1c3e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Detect recursion loops resolving objects (fixes #51)\n\nDuring parsing of an object, sometimes parts of the object have to be\nresolved. An example is stream lengths. If such an object directly or\nindirectly points to the object being parsed, it can cause an infinite\nloop. Guard against all cases of re-entrant resolution of objects.",
+  "patch_path": "reports/codejit_extraction_v1/records/bfc343e645f71f1abd5db12a.diff.gz",
+  "diff_bytes": 5462,
+  "diff_sha256": "403de57c5f81ed8fc2168d86a9986c29e5efe58c48e8998de42b9d6c668a9a1f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:32.934487+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

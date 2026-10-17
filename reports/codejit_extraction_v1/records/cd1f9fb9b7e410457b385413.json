@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "23594f036536468072198a57c59b6e9d63caf6ce",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed stack overflow caused by missing length check\n\nSigned-off-by: Toni Uhlig <matzeton@googlemail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/cd1f9fb9b7e410457b385413.diff.gz",
+  "diff_bytes": 9765,
+  "diff_sha256": "653b86a0a5baf296a574108bbf682322392ee0bf29edd39b9970090a58308e50",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:10.008205+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

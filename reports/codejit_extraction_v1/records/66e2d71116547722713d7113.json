@@ -1,0 +1,16 @@
+{
+  "repo": "bittorrent___bootstrap-dht",
+  "commit_id": "d5366177d2afc5a542840c7bda52120b19a14048",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "initial check-in",
+  "patch_path": "reports/codejit_extraction_v1/records/66e2d71116547722713d7113.diff.gz",
+  "diff_bytes": 54314,
+  "diff_sha256": "04455adc3b2bc977fdf4514e68bde9026c6066297aeb882239ed1662c44d1d84",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:24.974120+00:00",
+  "url": "https://github.com/bittorrent/bootstrap-dht.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "38803268570f90e97452cd9a30ac831661829091",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for corruption when numFds or numInts is too large.\n\nBug: 18076253\nChange-Id: I4c5935440013fc755e1d123049290383f4659fb6\n(cherry picked from commit dfd06b89a4b77fc75eb85a3c1c700da3621c0118)",
+  "patch_path": "reports/codejit_extraction_v1/records/e62d3c7268d3329c099051c8.diff.gz",
+  "diff_bytes": 1410,
+  "diff_sha256": "5b30dd6b9eca12ee2403db93ee0e117d0b89ad59e443fdd8ca4d37f7b7f8b882",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:40.293416+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

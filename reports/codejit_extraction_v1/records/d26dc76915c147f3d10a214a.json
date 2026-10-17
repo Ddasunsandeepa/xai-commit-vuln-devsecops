@@ -1,0 +1,16 @@
+{
+  "repo": "hfp___libxsmm",
+  "commit_id": "151481489192e6d1997f8bde52c5c425ea41741d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Issue #287: made CSR/CSC readers more robust against invalid input (case #1).",
+  "patch_path": "reports/codejit_extraction_v1/records/d26dc76915c147f3d10a214a.diff.gz",
+  "diff_bytes": 5898,
+  "diff_sha256": "cef4e4af162e731e164f43475af348d90fe02d2d22ce7ae4d8b340a8924ba1d0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:35.554730+00:00",
+  "url": "https://github.com/hfp/libxsmm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "a73dc017984d1cdcda93ea5bbf0621d8825c5b81",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support relative RedirectURIs in mod_auth_openidc\n\nIt does so by offering a new function `oidc_get_redirect_uri` that is to\nbe used instead of direct access to the attribute `cfg->redirect_uri`:\n- If the configuration specifies an absolute RedirectURI it returns this\n  URL unchanged.\n- If the configuration specifies a relative RedirectURI, it uses\n  values from the current request to assemble an actual absolute\n  RedirectURI suited for the currently requested URL.\n\nSome direct accesses to `cfg->redirect_uri` where left unchanged where\nthey only check for NULL.\n\nThe `oidc_get_redirect_uri` lives in utils.c and shares some factored\nout code in `oidc_get_current_url_base` with `oidc_get_current_url`.\n\nCloses #200.",
+  "patch_path": "reports/codejit_extraction_v1/records/846a522357938a59be0a79fa.diff.gz",
+  "diff_bytes": 13924,
+  "diff_sha256": "f5601a9b082612d085225492b98fe66c339e69008cf65b05dca5341ce631db4c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:21.353093+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

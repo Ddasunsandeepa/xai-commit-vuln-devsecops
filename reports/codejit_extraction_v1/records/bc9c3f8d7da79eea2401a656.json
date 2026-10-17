@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "329163cbe64a615b4edf6c40f2fff8c79dbc8fb4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "qemu-iothread: IOThread supports the GMainContext event loop\n\nIOThread uses AioContext event loop and does not run a GMainContext.\nTherefore,chardev cannot work in IOThread,such as the chardev is\nused for colo-compare packets reception.\n\nThis patch makes the IOThread run the GMainContext event loop,\nchardev and IOThread can work together.\n\nReviewed-by: Fam Zheng <famz@redhat.com>\nSigned-off-by: Wang Yong <wang.yong155@zte.com.cn>\nSigned-off-by: Wang Guang <wang.guang55@zte.com.cn>\nSigned-off-by: Jason Wang <jasowang@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/bc9c3f8d7da79eea2401a656.diff.gz",
+  "diff_bytes": 2987,
+  "diff_sha256": "8fc4777f2c41f4ea1c71b71d23693b722d81d0f1fcfb2958e2aa6d187ffeea4f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:33.308399+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

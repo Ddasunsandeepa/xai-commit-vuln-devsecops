@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "057b6df4aebbe8e739139087dfaab15104ca5ba7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed memory leaks in ntlm",
+  "patch_path": "reports/codejit_extraction_v1/records/94b8029a6a398654301b8fc6.diff.gz",
+  "diff_bytes": 4066,
+  "diff_sha256": "3b58842cc9a20d24789f3a3790d53a81d169a37401ecbbf16039bae5b2224807",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:30.261226+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

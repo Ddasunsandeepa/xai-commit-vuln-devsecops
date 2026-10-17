@@ -1,0 +1,16 @@
+{
+  "repo": "upx___upx",
+  "commit_id": "1bb93d4fce9f1d764ba57bf5ac154af515b3fc83",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Detect bad e_shstrtab better.\n\nhttps://github.com/upx/upx/issues/332\n\tmodified:   p_lx_elf.cpp",
+  "patch_path": "reports/codejit_extraction_v1/records/0c9eb1ac8ea866ba09477d78.diff.gz",
+  "diff_bytes": 1564,
+  "diff_sha256": "6b7eac69861821e10b4ada1f217fa30395d5b53b98ca243e4aba0a3d1d348203",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:39.357522+00:00",
+  "url": "https://github.com/upx/upx.git"
+}

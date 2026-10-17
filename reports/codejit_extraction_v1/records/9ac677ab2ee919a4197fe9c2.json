@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "925bcf3c3b0a28b5b78e25d9efda5c0bf27ae699",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix issue #674. Move regexp limits to limits.h.",
+  "patch_path": "reports/codejit_extraction_v1/records/9ac677ab2ee919a4197fe9c2.diff.gz",
+  "diff_bytes": 19192,
+  "diff_sha256": "34590d0a3220d2eae0d1a772066041a4dd6e4be74b02d57e2a96e4f920b8e282",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:46.032522+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

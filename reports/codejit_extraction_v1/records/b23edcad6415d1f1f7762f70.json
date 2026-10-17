@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "e9f936d85dc1edc34fabd0a1725ec180f2316353",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2022-21654\n\ntls allows re-use when some cert validation settings have changed\n\nSigned-off-by: Yan Avlasov <yavlasov@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/b23edcad6415d1f1f7762f70.diff.gz",
+  "diff_bytes": 11624,
+  "diff_sha256": "fc0cd7f08b50bd64c2091cdf63722bd9da48a7ed0381f1334521ad79359b9390",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:56.992743+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

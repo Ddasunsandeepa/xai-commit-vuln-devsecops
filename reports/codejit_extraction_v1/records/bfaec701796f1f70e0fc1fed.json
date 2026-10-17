@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "d1d43efa4fb0f2098c0e2c5bf2e807c58d5ec05b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent fts5 tokenizer unicode61 from considering '\\0' to be a token characters, even if other characters of class \"Cc\" are.\n\nFossilOrigin-Name: b7b7bde9b7a03665e3691c6d51118965f216d2dfb1617f138b9f9e60e418ed2f",
+  "patch_path": "reports/codejit_extraction_v1/records/bfaec701796f1f70e0fc1fed.diff.gz",
+  "diff_bytes": 5226,
+  "diff_sha256": "0f5edbe0d8989b2b000228515470139e205c4c079bd23a4ff69533357fc83ca0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:11.862355+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

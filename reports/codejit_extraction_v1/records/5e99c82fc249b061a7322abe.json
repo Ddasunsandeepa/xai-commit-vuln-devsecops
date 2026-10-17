@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "dc92574c10f3e2516ec6445b88c5d584f40df4e5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix some pipelines to be safe if downstream write fails (fuzz issue 28262)",
+  "patch_path": "reports/codejit_extraction_v1/records/5e99c82fc249b061a7322abe.diff.gz",
+  "diff_bytes": 20042,
+  "diff_sha256": "73c26a5faf2b17eb0b1001801b503d6b69917057f655ed01641f49dd80b34697",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:38.346976+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

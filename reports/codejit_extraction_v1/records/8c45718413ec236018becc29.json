@@ -1,0 +1,16 @@
+{
+  "repo": "gns3___ubridge",
+  "commit_id": "2eb0d1dab6a6de76cf3556130a2d52af101077db",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Hide errored line content during parsing configuration INI file on default",
+  "patch_path": "reports/codejit_extraction_v1/records/8c45718413ec236018becc29.diff.gz",
+  "diff_bytes": 2969,
+  "diff_sha256": "b5d8ef5f31eac6a8d39bcbc473aea11bcd19918c29226d9403d5ee159a385fda",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:16.382176+00:00",
+  "url": "https://github.com/gns3/ubridge.git"
+}

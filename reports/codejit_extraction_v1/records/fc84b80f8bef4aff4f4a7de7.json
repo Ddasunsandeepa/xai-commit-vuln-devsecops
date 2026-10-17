@@ -1,0 +1,16 @@
+{
+  "repo": "evilnet___nefarious2",
+  "commit_id": "ac1e3510edca56fb46b0b90271ef8d9dc01b9a76",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rewrote code for sending SASL message server to server to fix bug where host info wasn't being sent",
+  "patch_path": "reports/codejit_extraction_v1/records/fc84b80f8bef4aff4f4a7de7.diff.gz",
+  "diff_bytes": 3115,
+  "diff_sha256": "cbe0ab11f3d8cf8287518b295bbae4a85b36233a1f46fe120d8cb98122e7f3d5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:15.107542+00:00",
+  "url": "https://github.com/evilnet/nefarious2.git"
+}

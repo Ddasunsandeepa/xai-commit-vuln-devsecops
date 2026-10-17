@@ -1,0 +1,16 @@
+{
+  "repo": "opencontainers___runc",
+  "commit_id": "df3fa115f97407713ec6ebe37a5ccf13b81dafd2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add support for cgroup namespace\n\nCgroup namespace can be configured in `config.json` as other\nnamespaces. Here is an example:\n\n```\n\"namespaces\": [\n\t{\n\t\t\"type\": \"pid\"\n\t},\n\t{\n\t\t\"type\": \"network\"\n\t},\n\t{\n\t\t\"type\": \"ipc\"\n\t},\n\t{\n\t\t\"type\": \"uts\"\n\t},\n\t{\n\t\t\"type\": \"mount\"\n\t},\n\t{\n\t\t\"type\": \"cgroup\"\n\t}\n],\n\n```\n\nNote that if you want to run a container which has shared cgroup ns with\nanother container, then it's strongly recommended that you set\nproper `CgroupsPath` of both containers(the second container's cgroup\npath must be the subdirectory of the first one). Or there might be\nsome unexpected results.\n\nSigned-off-by: Yuanhong Peng <pengyuanhong@huawei.com>\nSigned-off-by: Michael Crosby <crosbymichael@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/81d5b0762ddc00d0139467e7.diff.gz",
+  "diff_bytes": 17467,
+  "diff_sha256": "af12e421ff7775f496f22c7780603a1c5b3d1a45de015a984297605a0bb8bb32",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:30.719105+00:00",
+  "url": "https://github.com/opencontainers/runc.git"
+}

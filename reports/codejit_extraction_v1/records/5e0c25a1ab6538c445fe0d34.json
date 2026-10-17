@@ -1,0 +1,16 @@
+{
+  "repo": "yarolig___didiwiki",
+  "commit_id": "5e5c796617e1712905dc5462b94bd5e6c08d15ea",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "page_name_is_good function",
+  "patch_path": "reports/codejit_extraction_v1/records/5e0c25a1ab6538c445fe0d34.diff.gz",
+  "diff_bytes": 2488,
+  "diff_sha256": "0d3aa8e9e9331f79651db544073f1382660e27ee4dd9f3fe878f1688d46962db",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:17.225051+00:00",
+  "url": "https://github.com/yarolig/didiwiki.git"
+}

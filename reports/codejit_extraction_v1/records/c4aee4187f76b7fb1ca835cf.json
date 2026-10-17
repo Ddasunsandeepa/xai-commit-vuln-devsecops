@@ -1,0 +1,16 @@
+{
+  "repo": "ardour___ardour",
+  "commit_id": "96daa4036a425ff3f23a7dfcba57bfb0f942bec6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix apparent free-ordering issue reported in #7926",
+  "patch_path": "reports/codejit_extraction_v1/records/c4aee4187f76b7fb1ca835cf.diff.gz",
+  "diff_bytes": 701,
+  "diff_sha256": "ad6ea7e82a112aa68b69c809bf180ba5a2a0413755f7967d2eb29c0f95bac8ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:37.974510+00:00",
+  "url": "https://github.com/ardour/ardour.git"
+}

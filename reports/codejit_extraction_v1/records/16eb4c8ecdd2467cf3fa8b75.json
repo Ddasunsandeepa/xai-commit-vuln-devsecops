@@ -1,0 +1,16 @@
+{
+  "repo": "teeworlds___teeworlds",
+  "commit_id": "4ab3fa2548d175477fb9045d36a461c73dd34d4f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add knowledge about bot into engine\n\n- drop packet to bots\n- remove dummy when connecting on its slot\n\nfix #2491",
+  "patch_path": "reports/codejit_extraction_v1/records/16eb4c8ecdd2467cf3fa8b75.diff.gz",
+  "diff_bytes": 3599,
+  "diff_sha256": "7cb2fc94a4ae217d176677771f1551e5ff0578927c1ed02c0006adc7f8fc9862",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:50.340084+00:00",
+  "url": "https://github.com/teeworlds/teeworlds.git"
+}

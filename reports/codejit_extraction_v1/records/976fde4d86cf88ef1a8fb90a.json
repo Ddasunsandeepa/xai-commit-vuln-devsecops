@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "a2b26ffb1a81aa23dd14453f4db05d8fe24ee7cc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fsck: convert gitmodules url to URL passed to curl\n\nIn 07259e74ec1 (fsck: detect gitmodules URLs with embedded newlines,\n2020-03-11), git fsck learned to check whether URLs in .gitmodules could\nbe understood by the credential machinery when they are handled by\ngit-remote-curl.\n\nHowever, the check is overbroad: it checks all URLs instead of only\nURLs that would be passed to git-remote-curl. In principle a git:// or\nfile:/// URL does not need to follow the same conventions as an http://\nURL; in particular, git:// and file:// protocols are not succeptible to\nissues in the credential API because they do not support attaching\ncredentials.\n\nIn the HTTP case, the URL in .gitmodules does not always match the URL\nthat would be passed to git-remote-curl and the credential machinery:\nGit's URL syntax allows specifying a remote helper followed by a \"::\"\ndelimiter and a URL to be passed to it, so that\n\n\tgit ls-remote http::https://example.com/repo.git\n\ninvokes git-remote-http with https://example.com/repo.git as its URL\nargument. With today's checks, that distinction does not make a\ndifference, but for a check we are about to introduce (for empty URL\nschemes) it will matter.\n\n.gitmodules files also support relative URLs. To ensure coverage for the\nhttps based embedded-newline attack, urldecode and check them directly\nfor embedded newlines.\n\nHelped-by: Jeff King <peff@peff.net>\nSigned-off-by: Jonathan Nieder <jrnieder@gmail.com>\nReviewed-by: Jeff King <peff@peff.net>",
+  "patch_path": "reports/codejit_extraction_v1/records/976fde4d86cf88ef1a8fb90a.diff.gz",
+  "diff_bytes": 4846,
+  "diff_sha256": "73b29eba83e8c54a3f24d58f759cf6359b17c7d7c71170f6dd02d69982a7d663",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:04.972959+00:00",
+  "url": "https://github.com/git/git.git"
+}

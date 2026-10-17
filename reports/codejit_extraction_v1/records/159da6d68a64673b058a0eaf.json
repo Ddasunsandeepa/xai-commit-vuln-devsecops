@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "1b86fe063badb5f28c467ade39be0f4008688947",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "FINAL ATTEMPT: HTTP services are now provided from JAVA and made available to media code\n\nChange-Id: I9f74a86e70422187c9cf0ca1318a29019700192d",
+  "patch_path": "reports/codejit_extraction_v1/records/159da6d68a64673b058a0eaf.diff.gz",
+  "diff_bytes": 95389,
+  "diff_sha256": "68332968fe8140c645f0e87f696d6014cd94493c9b155fa8f3170b11858037e3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:48.299203+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

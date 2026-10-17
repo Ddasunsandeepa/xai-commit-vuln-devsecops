@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "2d3735d3bf61d5c8e154a197a11535cc65044334",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "block: check bdrv_in_use() before blockdev operations\n\nLong-running block operations like block migration and image streaming\nmust have continual access to their block device.  It is not safe to\nperform operations like hotplug, eject, change, resize, commit, or\nexternal snapshot while a long-running operation is in progress.\n\nThis patch adds the missing bdrv_in_use() checks so that block migration\nand image streaming never have the rug pulled out from underneath them.\n\nSigned-off-by: Stefan Hajnoczi <stefanha@linux.vnet.ibm.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/2facbf04f55b41fa592e2ad0.diff.gz",
+  "diff_bytes": 1821,
+  "diff_sha256": "cac5f627bfb424987c167e0f55827e849dbc8064c9ae15bc95897841814b2017",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:29.968376+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "e86d3cfd2bc28dac421092106751e5638d54a848",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Increased allocation and added checks in sei parsing.\n\nThis prevents heap overflow while parsing sei_message.\n\nBug: 63122634\nTest: ran PoC on unpatched/patched\nChange-Id: I61c1ff4ac053a060be8c24da4671db985cac628c\n(cherry picked from commit f2b70d353768af8d4ead7f32497be05f197925ef)",
+  "patch_path": "reports/codejit_extraction_v1/records/ddfb927049cd969266fab677.diff.gz",
+  "diff_bytes": 2554,
+  "diff_sha256": "0f98c2072a52925645ff77291a7cd2f61885640ffaaef94c2b5cffadf5431a1b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:25.280361+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

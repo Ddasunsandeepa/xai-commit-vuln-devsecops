@@ -1,0 +1,16 @@
+{
+  "repo": "openvswitch___ovs",
+  "commit_id": "30d0452c5e35f0d01cc3969c0f00c2eaf0fb5503",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ofproto: Change rule's 'removed' member to a tri-state 'state'.\n\nAs a rule may not be re-inserted to ofproto data structures, it is\ncleaner to have three states for the rule, rather than just two.  This\nwill be useful for managing learned flows in later patches.\n\nSigned-off-by: Jarno Rajahalme <jarno@ovn.org>\nAcked-by: Ben Pfaff <blp@ovn.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/5789820f9bc77dab18f5b1af.diff.gz",
+  "diff_bytes": 3615,
+  "diff_sha256": "012ced40d4e53008ee6dcd44e362702953d7f47c24c8a2f09723430770a07f38",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:22.588289+00:00",
+  "url": "https://github.com/openvswitch/ovs.git"
+}

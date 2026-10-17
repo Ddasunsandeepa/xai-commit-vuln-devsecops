@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "502821828ed00b4a2c4bef90683d0fd88ce495de",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "LibVNCServer: fix heap out-of-bound write access\n\nCloses #243",
+  "patch_path": "reports/codejit_extraction_v1/records/734d26d6424f6af2cbeb0844.diff.gz",
+  "diff_bytes": 555,
+  "diff_sha256": "cc0cfa4b902a8f6d9590aeaac032a81ec7d22acc1d2cb85c7a33ef63f748af1c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:35.763438+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

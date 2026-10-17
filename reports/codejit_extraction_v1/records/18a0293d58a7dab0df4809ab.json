@@ -1,0 +1,16 @@
+{
+  "repo": "skalenetwork___sgxwallet",
+  "commit_id": "7906ecc1d2f05865d5305ba469419d1d2625d37f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "SKALE-3228",
+  "patch_path": "reports/codejit_extraction_v1/records/18a0293d58a7dab0df4809ab.diff.gz",
+  "diff_bytes": 955,
+  "diff_sha256": "41f15a926a0d5b6e595120c23415bb7a66de28b6b6a9e3b3ef623ac709489e91",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:18.012663+00:00",
+  "url": "https://github.com/skalenetwork/sgxwallet.git"
+}

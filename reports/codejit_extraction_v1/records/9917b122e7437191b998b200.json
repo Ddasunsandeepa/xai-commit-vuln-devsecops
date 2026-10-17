@@ -1,0 +1,16 @@
+{
+  "repo": "collectd___collectd",
+  "commit_id": "d16c24542b2f96a194d43a73c2e5778822b9cb47",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "snmp plugin: Fix double free of request PDU\n\nsnmp_sess_synch_response() always frees request PDU, in both case of request\nerror and success. If error condition occurs inside of `while (status == 0)`\nloop, double free of `req` happens.\n\nIssue: #2291\nSigned-off-by: Florian Forster <octo@collectd.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/9917b122e7437191b998b200.diff.gz",
+  "diff_bytes": 1259,
+  "diff_sha256": "a3605d1547fad9fbaf4d763681555d4397c8e4542af80c2f39bf80d6e1d4a55f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:54.372071+00:00",
+  "url": "https://github.com/collectd/collectd.git"
+}

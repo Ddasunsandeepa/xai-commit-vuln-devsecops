@@ -1,0 +1,16 @@
+{
+  "repo": "electron___electron",
+  "commit_id": "07a1c2a3e5845901f7e2eda9506695be58edc73c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix: restrict sendToFrame to same-process frames by default (#26875)",
+  "patch_path": "reports/codejit_extraction_v1/records/a944418e4687ff80ee0e60dd.diff.gz",
+  "diff_bytes": 15922,
+  "diff_sha256": "683986f3e853f622d6364aa7e975fcb5d1f9426da6a8ed2621716e450710a0c9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:23.784873+00:00",
+  "url": "https://github.com/electron/electron.git"
+}

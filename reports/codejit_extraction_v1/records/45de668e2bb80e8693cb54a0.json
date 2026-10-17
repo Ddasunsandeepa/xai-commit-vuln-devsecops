@@ -1,0 +1,16 @@
+{
+  "repo": "libass___libass",
+  "commit_id": "08e754612019ed84d1db0d1fc4f5798248decd75",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix blur coefficient calculation buffer overflow\n\nFound by fuzzer test case id:000082,sig:11,src:002579,op:havoc,rep:8.\nCorrectness should be checked, but this fixes the overflow for good.",
+  "patch_path": "reports/codejit_extraction_v1/records/45de668e2bb80e8693cb54a0.diff.gz",
+  "diff_bytes": 486,
+  "diff_sha256": "db023c5748a7b71b15c23e6240dbfae98a491a8bb4f621522fd9a4264e5b3199",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:48.316252+00:00",
+  "url": "https://github.com/libass/libass.git"
+}

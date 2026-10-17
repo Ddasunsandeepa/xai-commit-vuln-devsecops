@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "2c6ce192cb3fb7bfbc3f3f862926dcb65c3891b4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ensure device choosers are closed on navigation\n\nThe requestDevice() IPCs can race with navigation. This change ensures\nthat choosers are closed on navigation and adds browser tests to\nexercise this for Web Bluetooth and WebUSB.\n\nBug: 723503\nChange-Id: I66760161220e17bd2be9309cca228d161fe76e9c\nReviewed-on: https://chromium-review.googlesource.com/1099961\nCommit-Queue: Reilly Grant <reillyg@chromium.org>\nReviewed-by: Michael Wasserman <msw@chromium.org>\nReviewed-by: Jeffrey Yasskin <jyasskin@chromium.org>\nCr-Commit-Position: refs/heads/master@{#569900}",
+  "patch_path": "reports/codejit_extraction_v1/records/6bee8650caf86c01974c1752.diff.gz",
+  "diff_bytes": 10768,
+  "diff_sha256": "afa47cd709890c7d7d222adc4a4959cdab2171e05e95dd44a0c7cf8514e38ca4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:42:22.473935+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

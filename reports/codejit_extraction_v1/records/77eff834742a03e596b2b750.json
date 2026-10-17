@@ -1,0 +1,16 @@
+{
+  "repo": "fluent___fluent-bit",
+  "commit_id": "1924960dbd0ada098e70913709a4fd0a0c46dd68",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "gzip: new gzip compress/uncompress interface\n\nSigned-off-by: Eduardo Silva <eduardo@treasure-data.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/77eff834742a03e596b2b750.diff.gz",
+  "diff_bytes": 7482,
+  "diff_sha256": "14c96cb681de39273dfe61acdb49bb167f807bca185cd34b918e736e276cb38e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:21.789808+00:00",
+  "url": "https://github.com/fluent/fluent-bit.git"
+}

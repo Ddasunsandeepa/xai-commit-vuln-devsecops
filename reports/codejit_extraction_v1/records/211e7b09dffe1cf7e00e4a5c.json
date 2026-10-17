@@ -1,0 +1,16 @@
+{
+  "repo": "open5gs___open5gs",
+  "commit_id": "d919b2744cd05abae043490f0a3dd1946c1ccb8c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[AMF] fix the memory problem (#1247)\n\n1. memory corruption\n- Overflow num_of_part in SBI message\n2. null pointer dereference\n- n2InfoContent->ngap_ie_type",
+  "patch_path": "reports/codejit_extraction_v1/records/211e7b09dffe1cf7e00e4a5c.diff.gz",
+  "diff_bytes": 5207,
+  "diff_sha256": "b79852671f2cccd182cfe346e92b793eab9745fd36f8c03b4bcdeff5132f09f2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:27.248731+00:00",
+  "url": "https://github.com/open5gs/open5gs.git"
+}

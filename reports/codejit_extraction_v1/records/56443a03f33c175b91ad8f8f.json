@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "8e59147cba140aa7d592b483806a2a8fadb562a2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "network: refactor binprot's bizarre rbuf usage\n\nsince keys were (maybe) expanding to 64k, binprot overloads the\nread-into-key \"conn_nread\" state to read... a specific number of bytes\ninto the read buffer.\n\nHowever keys were never expanded in size, so this ends up being a waste\nof code and attaches binprot to management of the read buffer directly.\n\nInstead, re-parse the binary header if we don't have enough bytes and\nlet try_read_network() handle it like it does for ascii.\n\nAs a side effect, this prevents multiple memmove's of potentially a\nlarge amount of data for pipelined binprot commands, and under\nNEED_ALIGN.",
+  "patch_path": "reports/codejit_extraction_v1/records/56443a03f33c175b91ad8f8f.diff.gz",
+  "diff_bytes": 14573,
+  "diff_sha256": "55d36e133b3d4215a95d220cd80eddb7a0d2a46c4f7a5b57c3b7a8e1b10eb1b7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:51.273432+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

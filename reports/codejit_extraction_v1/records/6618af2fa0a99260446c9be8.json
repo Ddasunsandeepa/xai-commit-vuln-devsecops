@@ -1,0 +1,16 @@
+{
+  "repo": "nothings___stb",
+  "commit_id": "98fdfc6df88b1e34a736d5e126e6c8139c8de1a6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix seven bugs discovered and fixed by ForAllSecure:\n\nCVE-2019-13217: heap buffer overflow in start_decoder()\nCVE-2019-13218: stack buffer overflow in compute_codewords()\nCVE-2019-13219: uninitialized memory in vorbis_decode_packet_rest()\nCVE-2019-13220: out-of-range read in draw_line()\nCVE-2019-13221: issue with large 1D codebooks in lookup1_values()\nCVE-2019-13222: unchecked NULL returned by get_window()\nCVE-2019-13223: division by zero in predict_point()",
+  "patch_path": "reports/codejit_extraction_v1/records/6618af2fa0a99260446c9be8.diff.gz",
+  "diff_bytes": 4943,
+  "diff_sha256": "8416929a2d163e030b59e84a22cb77b9682853bbc0bdc8b06a320378dcf50621",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:05.423878+00:00",
+  "url": "https://github.com/nothings/stb.git"
+}

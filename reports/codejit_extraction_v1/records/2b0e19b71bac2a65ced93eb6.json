@@ -1,0 +1,16 @@
+{
+  "repo": "platform___dalvik",
+  "commit_id": "338aeaf28e9981c15d0673b18487dba61eb5447c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix potential buffer overrun.\n\nBUG=27840771\n\nChange-Id: I240f188b2e8f4b45d90138cfb3b14869cf506452",
+  "patch_path": "reports/codejit_extraction_v1/records/2b0e19b71bac2a65ced93eb6.diff.gz",
+  "diff_bytes": 1544,
+  "diff_sha256": "f86af35c68ff71b9f22afa2ba076e9dccdae1094f44b0df3f9e5cc6b992b7f3c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:13.876083+00:00",
+  "url": "https://android.googlesource.com/platform/dalvik"
+}

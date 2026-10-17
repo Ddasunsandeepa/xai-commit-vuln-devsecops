@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "e5e69d0f7ab382e3507660fe752027c09e32310e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added the ability to detect when a known protocol is using a non-standard port\nAdded check to spot executables exchanged via HTTP",
+  "patch_path": "reports/codejit_extraction_v1/records/82d3058df0430b0bf9a0b6e1.diff.gz",
+  "diff_bytes": 971019,
+  "diff_sha256": "2702b5fc5de19f62ea1d67f001358222e283a93d2a88fff0227f3f7bdacb0cec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:38.036515+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

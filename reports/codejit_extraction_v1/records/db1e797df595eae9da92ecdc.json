@@ -1,0 +1,16 @@
+{
+  "repo": "ardour___ardour",
+  "commit_id": "c9e5903e731acaf60ae2e2c654f90fbea5f1a261",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Clean up xml++.h and xml++.cc in Ardour style.\nNo functional changes.\n(We've diverged far enough for it to not matter, and are about to diverge even more, so might as well).\n\n\ngit-svn-id: svn://localhost/ardour2/branches/3.0@4649 d708f5d6-7413-0410-9779-e7cbd77b26cf",
+  "patch_path": "reports/codejit_extraction_v1/records/db1e797df595eae9da92ecdc.diff.gz",
+  "diff_bytes": 23996,
+  "diff_sha256": "1e5080fa8fa5af736962c3a2b5a982d8b96059f152f91c130efc9dd11c2c5f8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:42.143177+00:00",
+  "url": "https://github.com/ardour/ardour.git"
+}

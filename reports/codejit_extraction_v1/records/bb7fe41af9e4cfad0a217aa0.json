@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "6cfd65819add78426d9635e3f8358f8bc149b645",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix crash when missing dref in mp4 files",
+  "patch_path": "reports/codejit_extraction_v1/records/bb7fe41af9e4cfad0a217aa0.diff.gz",
+  "diff_bytes": 695,
+  "diff_sha256": "dc181e33f73082a23c6bc9f1e295b1be6208bbea8ba91aaa341fa9189c39ee36",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:50.741881+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "864e2e22fcd0cba3f5e67680ccabd0302dfda45d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix overflow in path building\n\nAn incorrect size was causing an unsigned value\nto wrap, causing it to write past the end of\nthe buffer.\n\nBug: 28085658\nChange-Id: Ie9625c729cca024d514ba2880ff97209d435a165",
+  "patch_path": "reports/codejit_extraction_v1/records/0342648a846a68360e1a0e12.diff.gz",
+  "diff_bytes": 532,
+  "diff_sha256": "4415d7155c42d6d7639f5326e78bf8cc8faa4c236289f006cac7c7c4a2db09d6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:31.753754+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

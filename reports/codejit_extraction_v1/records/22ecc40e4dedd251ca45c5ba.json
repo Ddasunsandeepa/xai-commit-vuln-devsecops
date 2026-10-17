@@ -1,0 +1,16 @@
+{
+  "repo": "swaywm___swaylock",
+  "commit_id": "40e9098a741b1a213b55cd6a400aa1c7eb4f47e8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add option show-failed-attempts\n\nKeeps track of unsuccessful authentication attempts via an int counter\nin the state struct. Displays on the unlock indicator, but will be\nreplaced by the Caps Lock text if enabled.",
+  "patch_path": "reports/codejit_extraction_v1/records/22ecc40e4dedd251ca45c5ba.diff.gz",
+  "diff_bytes": 4583,
+  "diff_sha256": "e0f19870d02c281fc5d0ee2f779b8e5f6efb9a35e43634b08151fe521d2bd038",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:46.895396+00:00",
+  "url": "https://github.com/swaywm/swaylock.git"
+}

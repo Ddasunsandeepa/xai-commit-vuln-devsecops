@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "d87bfc277858543ff14cd43f4222c66362464094",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove unnecessary string copies and dead code",
+  "patch_path": "reports/codejit_extraction_v1/records/aeed4add7ba5bd4b66cb7707.diff.gz",
+  "diff_bytes": 9950,
+  "diff_sha256": "abfe4d20137d4a7f7afce390cfa204b9e6cb14cedf65b0015b8eabcfb0261f70",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:40.336827+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

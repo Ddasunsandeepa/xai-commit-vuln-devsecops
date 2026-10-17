@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "2976bacd82020941e1fdef931842d8663394abcc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Apply YARA's coding style to tests",
+  "patch_path": "reports/codejit_extraction_v1/records/d87528508e85bf4f87dc2d93.diff.gz",
+  "diff_bytes": 57965,
+  "diff_sha256": "737f9153c20d43f2fe287d96a8559f402847d9d751132608adaef310046a113a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:38.810151+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

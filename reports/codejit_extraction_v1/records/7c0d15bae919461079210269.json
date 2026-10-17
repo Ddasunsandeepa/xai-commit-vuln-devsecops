@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "c27907e1bc5a46f3f95e72f901d7b0dfa3fa577f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "core: arm32: add support for dynamically linked TAs\n\nThis commit adds support for 32-bit dynamically linked Trusted\nApplications. The config flag for this feature is CFG_TA_DYNLINK,\ndefault enabled.\n\nWhy do this? Several reasons:\n\n1. Save space in the TA storage area. The OP-TEE core libraries\n(libutee, libutils, libmpa) could very well be provided as shared\nobjects (.so) rather than archive files (.a). They would be installed\nonly once in the TA storage, instead of being duplicated inside each TA.\n2. Allow upgrade of some libraries without re-linking the TAs.\n3. Pave the way to sharing code pages between TAs, thus potentially\nreducing the memory footprint of the TEE.\n\nThe ELF loader is updated as follows:\n\n- Locate the dynamic section in the program headers (PT_DYNAMIC entry).\n- Find the required external libraries by looking for DT_NEEDED entries\nin the dynamic section. Libraries are .so files signed like TAs and\nidentified by a UUID so that the TA stores can be re-used. Using a UUID\nis also more flexible, because a new versions of a library may keep the\nsame UUID or use another one.\n- Load all the libraries.\n- Process the dynamic relocations of type R_ARM_GLOB_DAT and\nR_ARM_JUMP_SLOT by resolving symbols by name, in breadth first order.\n- Map the library code and data into the user VA space.\n\nThe stack unwinding code will be updated in a later commit. As a result\nonly the main executable may be unwound ; stack dumps will stop if the\ncall stack goes inside a shared library.\n\nSigned-off-by: Jerome Forissier <jerome.forissier@linaro.org>\nTested-by: Jerome Forissier <jerome.forissier@linaro.org> (QEMU)\nTested-by: Jerome Forissier <jerome.forissier@linaro.org> (HiKey960 32/64)\nReviewed-by: Jens Wiklander <jens.wiklander@linaro.org>\nAcked-by: Joakim Bech <joakim.bech@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/7c0d15bae919461079210269.diff.gz",
+  "diff_bytes": 44326,
+  "diff_sha256": "72493294cd7d9ecdcbceb99c329db0ee879746742ad3e07218a62bd14f2ae346",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:22.121975+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

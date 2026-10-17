@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "e264f04ae825a5d97758130cf8eec99862517e7e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix self recursion in compact\n\nSummary: There were no checks at all.\n\nReviewed By: alexmalyshev\n\nDifferential Revision: D3623763\n\nfbshipit-source-id: 9d708deca05bbd121503e8f323b4f295fde8e835",
+  "patch_path": "reports/codejit_extraction_v1/records/427d0b35c0c8253b118054b1.diff.gz",
+  "diff_bytes": 4699,
+  "diff_sha256": "c64d4824d2607504190195173769968a2dd22faf3536dd329f186c907c948959",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:05.611135+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "civetweb___civetweb",
+  "commit_id": "a69a2da39dcca63ad1a77553d3bc3a05f42e0e66",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Initial import - converting from Subversion.",
+  "patch_path": "reports/codejit_extraction_v1/records/64388f6d56314c47e024fd1d.diff.gz",
+  "diff_bytes": 863236,
+  "diff_sha256": "cc526b90e655236878e3657bedca466597f4dc13faca26b1cfc757b3a7d01422",
+  "parent_count": 0,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:49.816923+00:00",
+  "url": "https://github.com/civetweb/civetweb.git"
+}

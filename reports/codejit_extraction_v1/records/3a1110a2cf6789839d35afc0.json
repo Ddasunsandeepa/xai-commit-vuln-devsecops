@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "dded8fdbb700d6cc498debc69a780915bc34d755",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "IGraphicBufferConsumer: fix ATTACH_BUFFER info leak\n\nBug: 26338113\nChange-Id: I019c4df2c6adbc944122df96968ddd11a02ebe33",
+  "patch_path": "reports/codejit_extraction_v1/records/3a1110a2cf6789839d35afc0.diff.gz",
+  "diff_bytes": 620,
+  "diff_sha256": "f241a42eb6a309fe5960a1203893cd57e13629114aba2573c5a1ff0fb5bcfacf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:53.946542+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "redis___hiredis",
+  "commit_id": "76a7b10005c70babee357a7d0f2becf28ec7ed1e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for integer/buffer overflow CVE-2021-32765\n\nThis fix prevents hiredis from trying to allocate more than `SIZE_MAX`\nbytes, which would result in a buffer overrun.\n\n[Full Details](https://github.com/redis/hiredis/security/advisories/GHSA-hfm9-39pp-55p2)",
+  "patch_path": "reports/codejit_extraction_v1/records/f301ac28d9f8ac8f86e56efa.diff.gz",
+  "diff_bytes": 1435,
+  "diff_sha256": "6b8fefd9995b51f88e54e75e03578b184696cb65a447b39f721cfdd87a1bd770",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:04.022356+00:00",
+  "url": "https://github.com/redis/hiredis.git"
+}

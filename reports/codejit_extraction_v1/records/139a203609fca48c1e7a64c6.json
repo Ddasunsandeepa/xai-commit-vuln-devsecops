@@ -1,0 +1,16 @@
+{
+  "repo": "saschahauer___barebox",
+  "commit_id": "0a9f9a7410681e55362f8311537ebc7be9ad0fbe",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "crypto: digest: use crypto_memneq()\n\nWhen verifying a digest it is important not to leak timing information\nthrough memcmp(). Use crypto_memneq() instead.\n\nSigned-off-by: Sascha Hauer <s.hauer@pengutronix.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/139a203609fca48c1e7a64c6.diff.gz",
+  "diff_bytes": 561,
+  "diff_sha256": "c08a6477f4c76da5e61c15b60e16123b3a2ef781e26af721ddd88b3b36e79c8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:28.801292+00:00",
+  "url": "https://github.com/saschahauer/barebox.git"
+}

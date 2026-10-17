@@ -1,0 +1,16 @@
+{
+  "repo": "att___ast",
+  "commit_id": "c7de8b641266bac7c77942239ac659edfee9ecd2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Harden env var imports",
+  "patch_path": "reports/codejit_extraction_v1/records/351a16e35fa0e6c41850e47f.diff.gz",
+  "diff_bytes": 3807,
+  "diff_sha256": "88725f0c1206d5c507eed5579d44ebaf693dc7a12b24b3d577aebc1a2b57b037",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:53.095188+00:00",
+  "url": "https://github.com/att/ast.git"
+}

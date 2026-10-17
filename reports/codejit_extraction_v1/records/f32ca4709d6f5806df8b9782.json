@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "cc7cc67349b7a3f498882087aa42ffc05a2daf11",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stagefright: allow to overallocate OMX codec buffers\n\nSpecify allottedSize for useBuffer and allocateBufferWithBackup,\nwhere OMX will see only the allottedSize, even though framework may\nallocate and use a bigger buffer.\n\nBug: 13222807\nChange-Id: Ibfa93f6c7b7c8ca0853ef17d4a0758e496eaf921",
+  "patch_path": "reports/codejit_extraction_v1/records/f32ca4709d6f5806df8b9782.diff.gz",
+  "diff_bytes": 14441,
+  "diff_sha256": "2f790ee73e29a5767636a1af279bc228aa10ce1116b2bfcdde68cafd2367c78a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:12.689071+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

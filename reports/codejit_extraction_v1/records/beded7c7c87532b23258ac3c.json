@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "f2ba0ad9be431970ffd41d8b79f2bb5b7f877ed1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "PIV: refactor to use sc_compacttlv_find_tag()",
+  "patch_path": "reports/codejit_extraction_v1/records/beded7c7c87532b23258ac3c.diff.gz",
+  "diff_bytes": 1567,
+  "diff_sha256": "a3d0e060e7f3fc2e77dcf3fa659b3c17de755ccf976a7e300faaa21fecbdf9ad",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:04.724609+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

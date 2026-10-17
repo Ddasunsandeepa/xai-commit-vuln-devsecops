@@ -1,0 +1,16 @@
+{
+  "repo": "netblue30___firejail",
+  "commit_id": "949070a1dd728e58ab04c8e02f08cef422ddf7d9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "shell fixes",
+  "patch_path": "reports/codejit_extraction_v1/records/f3b4bcec84a4adce07f0a299.diff.gz",
+  "diff_bytes": 3020,
+  "diff_sha256": "0742eb4e2efd1a893b25ecb98ef2e9b47cbab7774a57cd423b354c5fc9f12cad",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:56.013478+00:00",
+  "url": "https://github.com/netblue30/firejail.git"
+}

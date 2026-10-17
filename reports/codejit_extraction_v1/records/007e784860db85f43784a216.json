@@ -1,0 +1,16 @@
+{
+  "repo": "qbittorrent___qbittorrent",
+  "commit_id": "f5ad04766f4abaa78374ff03704316f8ce04627d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[WebUI] Avoid clickjacking attacks",
+  "patch_path": "reports/codejit_extraction_v1/records/007e784860db85f43784a216.diff.gz",
+  "diff_bytes": 1132,
+  "diff_sha256": "81c46c978db1a908522282668d0caee79f8526f82ab868bff9ff72342bf2aed3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:20.967100+00:00",
+  "url": "https://github.com/qbittorrent/qbittorrent.git"
+}

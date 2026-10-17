@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "beefafda639dd53fc59c21d8a7cf8334da9a1062",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed invalid access in wavpack decoder on corrupted extra bits sub-blocks.\n\nSigned-off-by: Martin Storsjö <martin@martin.st>",
+  "patch_path": "reports/codejit_extraction_v1/records/ea586026db31b06c2af9e1c8.diff.gz",
+  "diff_bytes": 559,
+  "diff_sha256": "bcec8a3a5512fc7f7d4fdfc960acb86d98d694e8e0663d0c40a04ce8259d873b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:04.742876+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

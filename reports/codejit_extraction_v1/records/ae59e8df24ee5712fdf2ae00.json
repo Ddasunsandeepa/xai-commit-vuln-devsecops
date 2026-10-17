@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "e7142a0703bc93f75e213e96ebc19000022afed9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check malloc result to avoid NPD\n\nBug: 28471206\nChange-Id: Id5d055d76893d6f53a2e524ff5f282d1ddca3345",
+  "patch_path": "reports/codejit_extraction_v1/records/ae59e8df24ee5712fdf2ae00.diff.gz",
+  "diff_bytes": 2093,
+  "diff_sha256": "e85e454a3b8acae499e541ba3449bee0b8f387310c8db049f37a291d1b1cb282",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:19.561954+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

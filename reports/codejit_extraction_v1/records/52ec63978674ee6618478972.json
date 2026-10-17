@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "b538a34e8929fdc7ca8bd7d24da513327fd53a06",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support for UNIX sockets\n\nAdd a new config param, Server.FileSocket. When\nServer.FileSocket\nis set it will be used inplace of a network socket for the primary\nserver. This uses a new parameter to ServerOptions, m_useFileSocket,\nto toggle between treating the address as a socket path or a network\naddress.\n\nTo initialize a socket connection thrift expects the socket file to not\nexist. To support this the 'something nice' retry in startServer will\nunlink an existing socket only if fuser claims it is unused.\nServer.EvilShutdown enables unlinking the socket regardless of current\nusers.\n\nCloses #1594\n\nReviewed By: @ptarjan\n\nDifferential Revision: D1135876\n\nPulled By: @sgolemon",
+  "patch_path": "reports/codejit_extraction_v1/records/52ec63978674ee6618478972.diff.gz",
+  "diff_bytes": 9105,
+  "diff_sha256": "fd50731059a27efe747362354ff0c6d646d28e63239309c0a19c5eabceb16e2d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:47.036015+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "stefanberger___swtpm",
+  "commit_id": "27bf9db67efb8774f08e28fea78d43837d2ebbf2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "swtpm: Use tag-length-value blocks to store data in v2 format\n\nPrepend tag-length-value (tlv) headers in front of all data being stored in\nthe byte stream following the header. This lets us uniquely identify plain\ndata (= TPM state), encrypted data (= encrytped TPM state), migration data\n(which is wrapped plain or encrytped TPM state), and an HMAC block to\nvalidate the plain data.\n\nWe keep support for version 1 for reading the data but convert them to\nversion 2 when writing them out. This way we loose backwards compatibility\n(downgrading of swtpm is not possible), but it allows us to extend the state\nin the future by adding addition blocks with tlv headers.\n\nVersion 1 of the encryption was prepending the hash on the plaintext data\nthen encrypting all of it. This method is not so good. In version 2 we now\nuse Encrypt-then-MAC (EtM) where we encrypt the data and then calculate an\nHMAC on the encrypted data.\n\nFiles written by the swtpm didn't have a header before. Now they also get a\nheader. This means that the state written into files and the state retrieved\nusing the API (swtpm_ioctl --save) have the same format, but still differ\nin so far as the API wraps the data in a tlv header for migration, which the\nfiles written out as state would never get.\n\nAdapt a couple of test cases show file sizes and hashes have changed now.\n\nSigned-off-by: Stefan Berger <stefanb@linux.vnet.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c5d2e410e346288daca70245.diff.gz",
+  "diff_bytes": 34244,
+  "diff_sha256": "6cec19b7ade3392389f90d319fae370a4cfb62a29224cf9b1954c992eb946b80",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:38.376802+00:00",
+  "url": "https://github.com/stefanberger/swtpm.git"
+}

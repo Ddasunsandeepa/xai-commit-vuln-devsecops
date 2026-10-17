@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "d07f5c14e811951ff9b411ceb84e7288e0d04aaf",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix memory leak in OggExtractor\n\nTest: added a temporal log and run poc\nBug: 63581671\nChange-Id: I436a08e54d5e831f9fbdb33c26d15397ce1fbeba\n(cherry picked from commit 63079e7c8e12cda4eb124fbe565213d30b9ea34c)",
+  "patch_path": "reports/codejit_extraction_v1/records/d96b3f4a769a67b9ae8b6025.diff.gz",
+  "diff_bytes": 668,
+  "diff_sha256": "6a9cb39d7385d9984b2d9ad9c9e57b0838f561a8b1c8274046e30ff3d6fe66eb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:13.948742+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

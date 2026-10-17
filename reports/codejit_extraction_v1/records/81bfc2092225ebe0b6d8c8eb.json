@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "ed28c1ba666b39581adb860bf51cdde43c84cc89",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed out of bounds memory access from malformed DNS queries that have an invalid length label. Introduced in a6a07de0daa353bcd29056a4535a9c4784c113c8.",
+  "patch_path": "reports/codejit_extraction_v1/records/81bfc2092225ebe0b6d8c8eb.diff.gz",
+  "diff_bytes": 490,
+  "diff_sha256": "60f6de2322dad41c30cbefc80afc5ebc83717271d997b28453be30cda7a36eb6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:41.644904+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

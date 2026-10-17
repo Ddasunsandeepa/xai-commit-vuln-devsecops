@@ -1,0 +1,16 @@
+{
+  "repo": "stephane___libmodbus",
+  "commit_id": "5ccdf5ef79d742640355d1132fa9e2abc7fbaefc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix VD-1301 and VD-1302 vulnerabilities\n\nThis patch was contributed by Maor Vermucht and Or Peles from\nVDOO Connected Trust.",
+  "patch_path": "reports/codejit_extraction_v1/records/1f2e7b02e3f423d8ff02e251.diff.gz",
+  "diff_bytes": 1395,
+  "diff_sha256": "5fb8818dd13c9497178da25383acebee245b3aa76c08d174c9eb674eb33a80f9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:38.699047+00:00",
+  "url": "https://github.com/stephane/libmodbus.git"
+}

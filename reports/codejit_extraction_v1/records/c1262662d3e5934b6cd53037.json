@@ -1,0 +1,16 @@
+{
+  "repo": "vrtadmin___clamav-devel",
+  "commit_id": "a1d17cd32cf7bf2ca4c6f90c2378a7ff4af58463",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Better detection for encrypted PDFs (bb #2448)\n\nIf --block-encrypted is specified then we can detect Encrypted.PDF if:\n - PDF is encrypted with R 2,3,4 or 5\n - PDF is not displayable without specifying a password\n\nIf PDF is encrypted, but is displayable without specifying a password, then it\nis not detected as Encrypted.PDF.",
+  "patch_path": "reports/codejit_extraction_v1/records/c1262662d3e5934b6cd53037.diff.gz",
+  "diff_bytes": 20108,
+  "diff_sha256": "84f3c73d2dbb6d891f626607c694d2a498f7d1ad03ae918dbd84d0c37806c41c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:57.014436+00:00",
+  "url": "https://github.com/vrtadmin/clamav-devel.git"
+}

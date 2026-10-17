@@ -1,0 +1,16 @@
+{
+  "repo": "postgres___postgres",
+  "commit_id": "b8b2e3b2deeaab19715af063fc009b7c230b2336",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Replace int2/int4 in C code with int16/int32\n\nThe latter was already the dominant use, and it's preferable because\nin C the convention is that intXX means XX bits.  Therefore, allowing\nmixed use of int2, int4, int8, int16, int32 is obviously confusing.\n\nRemove the typedefs for int2 and int4 for now.  They don't seem to be\nwidely used outside of the PostgreSQL source tree, and the few uses\ncan probably be cleaned up by the time this ships.",
+  "patch_path": "reports/codejit_extraction_v1/records/e087a3e4b61ab63676530255.diff.gz",
+  "diff_bytes": 92707,
+  "diff_sha256": "3f0ee99d10e2e2dd7f2c6ea55ed8a8f5e8c7ac27b33b677aca3713c85574f7c3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:56.764430+00:00",
+  "url": "https://github.com/postgres/postgres.git"
+}

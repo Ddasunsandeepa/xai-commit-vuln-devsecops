@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick6",
+  "commit_id": "8aed7e307316751f32d9d1981cd16cb8cf82f752",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "",
+  "patch_path": "reports/codejit_extraction_v1/records/64912c4cd71b4cd95f41223b.diff.gz",
+  "diff_bytes": 24252,
+  "diff_sha256": "300c5a48630748c37f2f5b142d8605d614c2206834213bfe3566baee57bd09b4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:18.720541+00:00",
+  "url": "https://github.com/imagemagick/imagemagick6.git"
+}

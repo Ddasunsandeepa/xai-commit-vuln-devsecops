@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "74e563ce48786c95b5ca1b61078a8d95e5ab7e44",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Unit test framework (#1031)\n\nMinimal unit-test framework to test C library APIs",
+  "patch_path": "reports/codejit_extraction_v1/records/5f1b58009b69631026de09b6.diff.gz",
+  "diff_bytes": 37120,
+  "diff_sha256": "ca46f5debb8819cf880e20e6f337cf5ed477316ca887682b40d23f97d205a4ec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:36.169733+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

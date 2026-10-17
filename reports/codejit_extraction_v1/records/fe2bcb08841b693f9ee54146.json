@@ -1,0 +1,16 @@
+{
+  "repo": "tildeslash___monit",
+  "commit_id": "00c3ff2167e777c7fb239421e21cd9fe68ce5e28",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix coverity CID #273563",
+  "patch_path": "reports/codejit_extraction_v1/records/fe2bcb08841b693f9ee54146.diff.gz",
+  "diff_bytes": 2297,
+  "diff_sha256": "136ca8dc8f7299e02329534f8c0aae0ba84748874fce3666b12f314177c1dbc8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:39.120945+00:00",
+  "url": "https://github.com/tildeslash/monit.git"
+}

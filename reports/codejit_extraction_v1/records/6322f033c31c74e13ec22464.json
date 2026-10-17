@@ -1,0 +1,16 @@
+{
+  "repo": "cloudendpoints___esp",
+  "commit_id": "53db633468a650aa99fe3ca0d43827e4922f67c1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Copy the origin Authorization header to X-Forwarded-Authorization for backend_auth (#772)\n\n* Copy Authorization header to X-Forwarded-Authorization\n\n* add some comment to the t test\n\n* update per comment",
+  "patch_path": "reports/codejit_extraction_v1/records/6322f033c31c74e13ec22464.diff.gz",
+  "diff_bytes": 6311,
+  "diff_sha256": "33aa77c7fb71da45c24705eae7b4893b204708c10ee6f4451f2f73449da46b8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:51.779909+00:00",
+  "url": "https://github.com/cloudendpoints/esp.git"
+}

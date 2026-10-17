@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "03a53d1c7765eeb3af0bc34c3dff02ada1953fbf",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add new MotionEvent flag for partially obscured windows.\n\nDue to more complex window layouts resulting in lots of overlapping\nwindows, the policy around FLAG_WINDOW_IS_OBSCURED has changed to\nonly be set when the point at which the window was touched is\nobscured. Unfortunately, this doesn't prevent tapjacking attacks that\noverlay the dialog's text, making a potentially dangerous operation\nseem innocuous. To avoid this on particularly sensitive dialogs,\nintroduce a new flag that really does tell you when your window is\nbeing even partially overlapped.\n\nWe aren't exposing this as API since we plan on making the original\nflag more robust. This is really a workaround for system dialogs\nsince we generally know their layout and screen position, and that\nthey're unlikely to be overlapped by other applications.\n\nBug: 26677796\nChange-Id: I9e336afe90f262ba22015876769a9c510048fd47",
+  "patch_path": "reports/codejit_extraction_v1/records/4f103adb9ce35540a96cc6d9.diff.gz",
+  "diff_bytes": 8021,
+  "diff_sha256": "6d32450b5232b3edacea5f92fc3e528cd22a5ccefc5c2f9614b0ef7047406e23",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:35.342050+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

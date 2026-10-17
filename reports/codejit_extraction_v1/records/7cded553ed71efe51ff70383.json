@@ -1,0 +1,16 @@
+{
+  "repo": "troglobit___uftpd",
+  "commit_id": "455b47d3756aed162d2d0ef7f40b549f3b5b30fe",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "FTP/TFTP: Fix directory traversal regression, reported by Aaron Esau\n\nSigned-off-by: Joachim Nilsson <troglobit@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/7cded553ed71efe51ff70383.diff.gz",
+  "diff_bytes": 370,
+  "diff_sha256": "1b8b7abd4b98303077da500e41400f8c9f4355d3b8827bdc41ec74f6994908f1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:11.520411+00:00",
+  "url": "https://github.com/troglobit/uftpd.git"
+}

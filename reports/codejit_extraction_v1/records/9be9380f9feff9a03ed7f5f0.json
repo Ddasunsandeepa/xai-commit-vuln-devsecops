@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "dbb7a8af90054bf4ef51f5814ef7ceb17d83d974",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "disable UDP port by default\n\nAs reported, UDP amplification attacks have started to use insecure\ninternet-exposed memcached instances. UDP used to be a lot more popular as a\ntransport for memcached many years ago, but I'm not aware of many recent\nusers.\n\nTen years ago, the TCP connection overhead from many clients was relatively\nhigh (dozens or hundreds per client server), but these days many clients are\nbatched, or user fewer processes, or simply anre't worried about it.\n\nWhile changing the default to listen on localhost only would also help, the\ntrue culprit is UDP. There are many more use cases for using memcached over\nthe network than there are for using the UDP protocol.",
+  "patch_path": "reports/codejit_extraction_v1/records/9be9380f9feff9a03ed7f5f0.diff.gz",
+  "diff_bytes": 1660,
+  "diff_sha256": "78aa6c48ebe149ac4e5c66e3bdff1aabf7251490ba6eeed71f5073fb47e735c8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:52.650198+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

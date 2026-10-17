@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "a6a88d9c445e261972c2433254e0a996336e78a4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Plumbing to reflect minor changes in the HDCP module API that allow for\n\nsupport of _decryption_ modules in addition to what we already supported.\n\nChange-Id: Ic37b87dc170ba8def3817991d25df798f21e950b",
+  "patch_path": "reports/codejit_extraction_v1/records/eac05394ff250d5f74237483.diff.gz",
+  "diff_bytes": 10762,
+  "diff_sha256": "b13b8ad1b288415f12d88382369886d4a53b898ae9d27228cef7204a4aef751b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:10.150711+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

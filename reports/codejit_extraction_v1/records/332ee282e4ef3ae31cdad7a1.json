@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "69dee5c732fe982c82edb17d0dbc3e79a47748d8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug #73342\n\nDirectly listen on socket, instead of duping it to STDIN and\nlistening on that.",
+  "patch_path": "reports/codejit_extraction_v1/records/332ee282e4ef3ae31cdad7a1.diff.gz",
+  "diff_bytes": 2532,
+  "diff_sha256": "910010d4f66c4f9dfa7b2602f113b5b66ac67109c427cdab26b817c7e1ab06d7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:45.251238+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

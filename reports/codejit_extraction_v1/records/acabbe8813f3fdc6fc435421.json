@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "9f3053de78630815d60cf48a2cf2348cc5867c45",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "BufferQueue: Allow detaching/reattaching buffers\n\nAdds detachBuffer and attachBuffer calls to both the producer and\nconsumer sides of BufferQueue. Buffers may be detached while dequeued\nby the producer or acquired by the consumer, and when attached, enter\nthe dequeued and acquired states, respectively.\n\nBug: 13173343\nChange-Id: Ic152692b0a94d99e0135b9bfa62747dab2a54220",
+  "patch_path": "reports/codejit_extraction_v1/records/acabbe8813f3fdc6fc435421.diff.gz",
+  "diff_bytes": 57207,
+  "diff_sha256": "9fed3856c76727990aa8cd8767908e0bf5e17bf0b81ef1afa766478897a55677",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:49.554018+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

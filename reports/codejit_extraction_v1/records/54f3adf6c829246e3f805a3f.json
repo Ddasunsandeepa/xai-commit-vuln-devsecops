@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "9b534de2aca5d790c2a1c4d76b545f16137d95dd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE Check size of pin before replying\n\nIf a malicious client set a pin that was too long it would overflow\nthe pin code memory.\n\nBug: 27411268\nChange-Id: I9197ac6fdaa92a4799dacb6364e04671a39450cc",
+  "patch_path": "reports/codejit_extraction_v1/records/54f3adf6c829246e3f805a3f.diff.gz",
+  "diff_bytes": 540,
+  "diff_sha256": "94c910ddc975e9f5ffbb6bd5242da41d43dfda35f80ed1b45c5e8e1cb96701bf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:19.156088+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

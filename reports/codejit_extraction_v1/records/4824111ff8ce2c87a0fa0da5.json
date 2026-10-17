@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "2adaf04fab35cf47c824d74d901b54094e01ccd3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rename ISurfaceTexture and SurfaceTexture\n\nThe C++ class names don't match what the classes do, so rename\nISurfaceTexture to IGraphicBufferProducer, and SurfaceTexture to\nGLConsumer.\n\nBug 7736700\n\nChange-Id: Ia03e468888025b5cae3c0ee1995434515dbea387",
+  "patch_path": "reports/codejit_extraction_v1/records/4824111ff8ce2c87a0fa0da5.diff.gz",
+  "diff_bytes": 95347,
+  "diff_sha256": "38ad65c506d3f26539641e178f637235c1808c8faabd113a1c25c6c4f88b8b6c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:38.772210+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

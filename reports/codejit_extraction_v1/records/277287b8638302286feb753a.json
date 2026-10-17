@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "d358f57009b85fb7440208afa5ba87636b491889",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor to support default Bluetooth pairing delegate\n\nIn order to support a default pairing delegate we need to move the agent\nservice provider delegate implementation from BluetoothDevice to\nBluetoothAdapter while retaining the existing API.\n\nBUG=338492\nTEST=device_unittests, unit_tests, browser_tests\n\nReview URL: https://codereview.chromium.org/148293003\n\ngit-svn-id: svn://svn.chromium.org/chrome/trunk/src@252216 0039d316-1c4b-4281-b951-d872f2087c98",
+  "patch_path": "reports/codejit_extraction_v1/records/277287b8638302286feb753a.diff.gz",
+  "diff_bytes": 43698,
+  "diff_sha256": "ab1614ab44a9168b7b05f7d38a423492ab01202afc37b7b10a332c7ddc2a8d23",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:50:32.206497+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

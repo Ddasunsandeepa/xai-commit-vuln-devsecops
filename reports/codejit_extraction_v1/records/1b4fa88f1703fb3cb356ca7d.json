@@ -1,0 +1,16 @@
+{
+  "repo": "taglib___taglib",
+  "commit_id": "cb9f07d9dcd791b63e622da43f7b232adaec0a9a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't assume TDRC is an instance of TextIdentificationFrame (#831)\n\nIf TDRC is encrypted, FrameFactory::createFrame() returns UnknownFrame\nwhich causes problems in rebuildAggregateFrames() when it is assumed\nthat TDRC is a TextIdentificationFrame",
+  "patch_path": "reports/codejit_extraction_v1/records/1b4fa88f1703fb3cb356ca7d.diff.gz",
+  "diff_bytes": 824,
+  "diff_sha256": "77e395caf04b87d377d99b6257da554ebe027ca27ceb0b94ed8527a249a4c418",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:48.586430+00:00",
+  "url": "https://github.com/taglib/taglib.git"
+}

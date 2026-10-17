@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "428c149b0be790b440e1cbee185b152cdb22feec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "block: add topology qdev properties\n\nAdd three new qdev properties to export block topology information to\nthe guest.  This is needed to get optimal I/O alignment for RAID arrays\nor SSDs.\n\nThe options are:\n\n - physical_block_size to specify the physical block size of the device,\n   this is going to increase from 512 bytes to 4096 kilobytes for many\n   modern storage devices\n - min_io_size to specify the minimal I/O size without performance impact,\n   this is typically set to the RAID chunk size for arrays.\n - opt_io_size to specify the optimal sustained I/O size, this is\n   typically the RAID stripe width for arrays.\n\nI decided to not auto-probe these values from blkid which might easily\nbe possible as I don't know how to deal with these issues on migration.\n\nNote that we specificly only set the physical_block_size, and not the\nlogial one which is the unit all I/O is described in.  The reason for\nthat is that IDE does not support increasing the logical block size and\nat last for now I want to stick to one meachnisms in queue and allow\nfor easy switching of transports for a given backing image which would\nnot be possible if scsi and virtio use real 4k sectors, while ide only\nuses the physical block exponent.\n\nTo make this more common for the different block drivers introduce a\nnew BlockConf structure holding all common block properties and a\nDEFINE_BLOCK_PROPERTIES macro to add them all together, mirroring\nwhat is done for network drivers.  Also switch over all block drivers\nto use it, except for the floppy driver which has weird driveA/driveB\nproperties and probably won't require any advanced block options ever.\n\nExample usage for a virtio device with 4k physical block size and\n8k optimal I/O size:\n\n  -drive file=scratch.img,media=disk,cache=none,id=scratch \\\n  -device virtio-blk-pci,drive=scratch,physical_block_size=4096,opt_io_size=8192\n\naliguori: updated patch to take into account BLOCK events\n\nSigned-off-by: Christoph Hellwig <hch@lst.de>\nSigned-off-by: Anthony Liguori <aliguori@us.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/86d5d217d6374cc19bb4e3a3.diff.gz",
+  "diff_bytes": 27074,
+  "diff_sha256": "573c519679f6ea83c6a9b48eacc6b852ca7abd6d5cc20739a44083d179f6886f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:37.097652+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

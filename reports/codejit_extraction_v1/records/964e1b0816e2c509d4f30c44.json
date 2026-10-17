@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "dbdc4f4933ca4d603831ef46c4aa17261298e03e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed endianess issues of zgfx decoder.",
+  "patch_path": "reports/codejit_extraction_v1/records/964e1b0816e2c509d4f30c44.diff.gz",
+  "diff_bytes": 6046,
+  "diff_sha256": "0753a204259f83aaae66a07cdccb60f26ac5ac65656dcfd1669bdec2cf596778",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:45.889279+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

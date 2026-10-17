@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "18b6a2cc0b87536015bedd4f7763e6b02d5aa4f3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent a 1-byte underread of the input buffer if an odd-sized data block comes just before an uncompressed block header",
+  "patch_path": "reports/codejit_extraction_v1/records/bd5dba124e87fece5138de45.diff.gz",
+  "diff_bytes": 1211,
+  "diff_sha256": "b9a82e3135c7615af50ddd390841b76ea9ff86da8ec60f25ab72301add751f95",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:33.304739+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

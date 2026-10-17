@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "1ec621c85b9411cc611652fd57a892cfef478af3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added further checks",
+  "patch_path": "reports/codejit_extraction_v1/records/03cbed9fc207671e7714c3e8.diff.gz",
+  "diff_bytes": 6006,
+  "diff_sha256": "ec7919a97dca6aeda9e8a9e3f7e2611931878cfc681520b50c3b04e1333af60b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:05.802531+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

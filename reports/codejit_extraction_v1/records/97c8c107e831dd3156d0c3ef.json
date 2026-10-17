@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "58b6dde319c301b0eae27d12e2a659e067d80558",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix OOB reads of the TGA decompression buffer\n\nIt is possible to craft TGA files which will overflow the decompression\nbuffer, but not the image's bitmap. Therefore we also have to check for\npotential decompression buffer overflows.\n\nThis issue had been reported by Ibrahim El-Sayed to security@libgd.org;\na modified case exposing an off-by-one error of the first patch had been\nprovided by Konrad Beckmann.\n\nThis commit is an amendment to commit fb0e0cce, so we use CVE-2016-6906\nas well.",
+  "patch_path": "reports/codejit_extraction_v1/records/97c8c107e831dd3156d0c3ef.diff.gz",
+  "diff_bytes": 2772,
+  "diff_sha256": "ac7f0655ef7ad5095ba4f0b6fe8781d86b1ebe9f149cf8078ab5dccd630be4b3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:58.806928+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

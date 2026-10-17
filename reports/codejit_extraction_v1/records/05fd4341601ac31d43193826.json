@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "c5a59182a8406f67333c283a31f257714f082b7d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[wasm] Use correct bindings APIs\n\nUse ScriptState::ForCurrentRealm in static methods, instead of\nForRelevantRealm().\n\nBug: chromium:788453\nChange-Id: I63bd25e3f5a4e8d7cbaff945da8df0d71aa65527\nReviewed-on: https://chromium-review.googlesource.com/795096\nCommit-Queue: Mircea Trofin <mtrofin@chromium.org>\nReviewed-by: Yuki Shiino <yukishiino@chromium.org>\nReviewed-by: Kentaro Hara <haraken@chromium.org>\nCr-Commit-Position: refs/heads/master@{#520174}",
+  "patch_path": "reports/codejit_extraction_v1/records/05fd4341601ac31d43193826.diff.gz",
+  "diff_bytes": 4409,
+  "diff_sha256": "e2a156784bc07f5843d8308c9af481984a7db13a613f18f3cfb9bdeb35a69b75",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:49:18.763443+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

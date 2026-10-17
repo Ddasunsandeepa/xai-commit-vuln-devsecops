@@ -1,0 +1,16 @@
+{
+  "repo": "ilanschnell___bsdiff4",
+  "commit_id": "d10e76af3797c6265c86bc3d3b6a0e5b2e7faf14",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "PyArg_ParseTuple s# uses Py_ssize_t, see issue #13",
+  "patch_path": "reports/codejit_extraction_v1/records/130b19a5c38193f3dd7fe011.diff.gz",
+  "diff_bytes": 1682,
+  "diff_sha256": "0e13342becaa24f579eec0f4af4d02c321660a781575e3db630543726a26325d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:04.293805+00:00",
+  "url": "https://github.com/ilanschnell/bsdiff4.git"
+}

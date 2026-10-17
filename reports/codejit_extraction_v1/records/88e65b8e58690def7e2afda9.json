@@ -1,0 +1,16 @@
+{
+  "repo": "openvswitch___ovs",
+  "commit_id": "9237a63c47bd314b807cda0bd2216264e82edbe8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ofp-actions: Avoid buffer overread in BUNDLE action decoding.\n\nReported-at: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=9052\nSigned-off-by: Ben Pfaff <blp@ovn.org>\nAcked-by: Justin Pettit <jpettit@ovn.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/88e65b8e58690def7e2afda9.diff.gz",
+  "diff_bytes": 955,
+  "diff_sha256": "863e4ce707c34fc126c5132090a30803be00dbd237994583fb6d7764bdddd6ed",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:26.282132+00:00",
+  "url": "https://github.com/openvswitch/ovs.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libidn___libidn2",
+  "commit_id": "ec709989489651deb8a036e97ca628bda0f77bf8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "apply TR#46 non-transitional processing by default\n\nThis switches the default library behavior from \"pure\" IDNA2008\nto IDNA2008 + non-transitional processing. This can be API and\nABI break for certain applications which intentionally needed\nthe non amended IDNA2008.  It is done in the interest of interoperability\nbased on the fact that this is what most application writers care about\nrather than strict compliance with a particular protocol.\n\nResolves #49\n\nSigned-off-by: Nikos Mavrogiannopoulos <nmav@gnutls.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/8fbb456c919243f3ef52479a.diff.gz",
+  "diff_bytes": 22188,
+  "diff_sha256": "07ed3e65684967cac5daec741b0c24c969708318aafe8f6f924abdc04437b4c6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:03.464324+00:00",
+  "url": "https://github.com/libidn/libidn2.git"
+}

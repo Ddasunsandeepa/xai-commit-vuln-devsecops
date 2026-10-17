@@ -1,0 +1,16 @@
+{
+  "repo": "knik0___faad2",
+  "commit_id": "ae68cd1f2bf299003b5d6efabaf285f7ae9208a3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "The patch enables input on stdin for AAC/AAC+ streams.",
+  "patch_path": "reports/codejit_extraction_v1/records/2b7dee4adf176951acb49933.diff.gz",
+  "diff_bytes": 8239,
+  "diff_sha256": "6d06058191a062864e89067a04bdb7dfe1ed558b670d72acac1c8733fe66e852",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:31.091760+00:00",
+  "url": "https://github.com/knik0/faad2.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "9bfab35522301794483f8f9ed60820bdec9be59e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "sanitise cache paths\n\nCo-authored-by: JerikoOne <jeriko.one@gmx.us>",
+  "patch_path": "reports/codejit_extraction_v1/records/a6e0e506b7b3ccd71426713a.diff.gz",
+  "diff_bytes": 3654,
+  "diff_sha256": "470a1ad2d27cb63fec1a5983e19e69749a4dfc68c363f2ceac1825f4a342e288",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:41.270070+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

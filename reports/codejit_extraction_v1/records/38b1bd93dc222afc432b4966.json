@@ -1,0 +1,16 @@
+{
+  "repo": "kde___kdeconnect-kde",
+  "commit_id": "613899be24b6e2a6b3e5cc719efce8ae8a122991",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not remember more than a few identity packets at a time\n\nTo prevent the kdeconnect process from using too much memory.\n\nThanks Matthias Gerstner <mgerstner@suse.de> for reporting this.",
+  "patch_path": "reports/codejit_extraction_v1/records/38b1bd93dc222afc432b4966.diff.gz",
+  "diff_bytes": 1626,
+  "diff_sha256": "0ed4a8c08528083ca890fe3b300f0036460f59ae7e0db802e9ebe71937e7a10d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:23.194404+00:00",
+  "url": "https://github.com/kde/kdeconnect-kde.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "babelouest___ulfius",
+  "commit_id": "c83f564c184a27145e07c274b305cabe943bbfaa",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug when malformed HTTP requests are sent, thanks Jeremy Brown!",
+  "patch_path": "reports/codejit_extraction_v1/records/8d62f72b2230aeffb024a131.diff.gz",
+  "diff_bytes": 1381,
+  "diff_sha256": "c979f3528e94fadeaa933d112045b225b4fde9225ad7dc6691f99b032ea500a9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:04.908410+00:00",
+  "url": "https://github.com/babelouest/ulfius.git"
+}

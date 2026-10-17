@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "c5a93d4c85ef5b7c4219ec251d60a37306b625a6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Validate the type, name, and tbl_name fields of the sqlite_master table when\nloading the schema, unless writable_schema is engaged.\n\nFossilOrigin-Name: 724f4df9ccc2b683f7091a3f7a8c20ee210f44d7a610cd1b4c49da1c274add08",
+  "patch_path": "reports/codejit_extraction_v1/records/e30c5554512775558797be72.diff.gz",
+  "diff_bytes": 27749,
+  "diff_sha256": "4c206646bc59a7ded708b45d6f02b363e0b3efc2a943d0fa2d8878ed5b61bdfc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:08.220715+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

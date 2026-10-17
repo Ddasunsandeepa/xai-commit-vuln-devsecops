@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "f045c704568e9cf6279b3cbccbec6d86c35f8a13",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Disable FileSystemManager::CreateWriter if WritableFiles isn't enabled.\n\nBug: 922677\nChange-Id: Ib16137cbabb2ec07f1ffc0484722f1d9cc533404\nReviewed-on: https://chromium-review.googlesource.com/c/1416570\nCommit-Queue: Marijn Kruisselbrink <mek@chromium.org>\nReviewed-by: Victor Costan <pwnall@chromium.org>\nCr-Commit-Position: refs/heads/master@{#623552}",
+  "patch_path": "reports/codejit_extraction_v1/records/4efe634871e5d6f380d175ca.diff.gz",
+  "diff_bytes": 1811,
+  "diff_sha256": "c6c09e06cf34512a5b590f92164b63fc26f9d303140b40875d43f60e0e6d64ac",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:51:11.298962+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

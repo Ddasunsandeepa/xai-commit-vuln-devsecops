@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "af51e0f5a12865a1d805f7010ee02e8b7444aa38",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "detect: rewrite of the detect engine\n\nUse per tx detect_flags to track prefilter. Detect flags are used for 2\nthings:\n1. marking tx as fully inspected\n2. tracking already run prefilter (incl mpm) engines\n\nThis supercedes the MpmIDs API for directionless tracking\nof the prefilter engines.\n\nWhen we have no SGH we have to flag the txs that are 'complete'\nas inspected as well.\n\nSpecial handling for the stream engine:\n\nIf a rule mixes TX inspection and STREAM inspection, we can encounter\nthe case where the rule is evaluated against multiple transactions\nduring a single inspection run. As the stream data is exactly the same\nfor each of those runs, it's wasteful to rerun inspection of the stream\nportion of the rule.\n\nThis patch enables caching of the stream 'inspect engine' result in\nthe local 'RuleMatchCandidateTx' array. This is valid only during the\nlive of a single inspection run.\n\nRemove stateful inspection from 'mask' (SignatureMask). The mask wasn't\nused in most cases for those rules anyway, as there we rely on the\nprefilter. Add a alproto check to catch the remaining cases.\n\nWhen building the active non-mpm/non-prefilter list check not just\nthe mask, but also the alproto. This especially helps stateful rules\nwith negated mpm.\n\nSimplify AppLayerParserHasDecoderEvents usage in detection to only\nreturn true if protocol detection events are set. Other detection is done\nin inspect engines.\n\nMove rule group lookup and handling into it's own function. Handle\n'post lookup' tasks immediately, instead of after the first detect\nrun. The tasks were independent of the initial detection.\n\nMany cleanups and much refactoring.",
+  "patch_path": "reports/codejit_extraction_v1/records/4c7fb4aacb4f0f364c441257.diff.gz",
+  "diff_bytes": 124686,
+  "diff_sha256": "8e45f3d4ac1bf90c3e2e35baff9d69df3ef0d8b428d04eeda2b348fe27263bdb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:50.777816+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

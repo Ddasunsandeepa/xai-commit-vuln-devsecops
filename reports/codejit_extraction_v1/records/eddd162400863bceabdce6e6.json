@@ -1,0 +1,16 @@
+{
+  "repo": "sonicdoe___detect-character-encoding",
+  "commit_id": "2e3aa333a573960edf2d782bca3b25a01e49678b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don’t continue execution when error occurs",
+  "patch_path": "reports/codejit_extraction_v1/records/eddd162400863bceabdce6e6.diff.gz",
+  "diff_bytes": 1052,
+  "diff_sha256": "ab3c99e65722ce4d3b13360d947002135eb113f242d420758a79c2c4a8c3c74e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:23.410707+00:00",
+  "url": "https://github.com/sonicdoe/detect-character-encoding.git"
+}

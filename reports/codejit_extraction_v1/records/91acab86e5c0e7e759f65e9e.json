@@ -1,0 +1,16 @@
+{
+  "repo": "aomediacodec___libavif",
+  "commit_id": "060d534faddcdff0442fd5fd83fba41ee9b9655b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Image grid support (Summer_in_Tomsk_720p_5x4_grid)",
+  "patch_path": "reports/codejit_extraction_v1/records/91acab86e5c0e7e759f65e9e.diff.gz",
+  "diff_bytes": 45002,
+  "diff_sha256": "6430acd1fb8a677bbcfa02f6571153857a89ca004c19bf2dfc54c0032cf98a13",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:31.183169+00:00",
+  "url": "https://github.com/aomediacodec/libavif.git"
+}

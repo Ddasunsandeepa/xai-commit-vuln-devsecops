@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___jhead",
+  "commit_id": "42c1e4bde9be6b05412e6482cc20c3581b6d3b0b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixes exif corruption issues in jhead.\n\n- Incorrect usercomment handling (backported from jhead 2.90)\n- Doesn't handle (-1) sized SSHORT params, corrupts EXIF\n- Doesn't convert floating point number strings to rational numbers, corrupts EXIF.\n- Doesn't handle the separator \":\" in addition to \"/\"\n\nFixes for the first two issues are provided by ANDREW COLLINS <w36194@motorola.com>.\n\nBug: 6775455\n\nChange-Id: I5b93a2e61d47ccf0504f29ecde6703b358e97f63",
+  "patch_path": "reports/codejit_extraction_v1/records/e98b7b1ab8e83dbc1b8892f9.diff.gz",
+  "diff_bytes": 8060,
+  "diff_sha256": "2b134d547017f6723af25a89cf04f0b3a6f572fa88cc31d54ad12f1ae8e108e9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:15.980526+00:00",
+  "url": "https://android.googlesource.com/platform/external/jhead"
+}

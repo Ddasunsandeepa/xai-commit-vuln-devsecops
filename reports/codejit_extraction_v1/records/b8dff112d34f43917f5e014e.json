@@ -1,0 +1,16 @@
+{
+  "repo": "openssl___openssl",
+  "commit_id": "0a699a0723bcc689c07c8110da0fff7f9c2356a4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix no-ec\n\nFix no-ec builds by having separate functions to create keys based on\nan existing EVP_PKEY and a curve id.\n\nReviewed-by: Rich Salz <rsalz@openssl.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/b8dff112d34f43917f5e014e.diff.gz",
+  "diff_bytes": 5391,
+  "diff_sha256": "33de53564b3a654abb2094c50116fdb9af499f2801002d1ed07d54551eb465c2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:08.294907+00:00",
+  "url": "https://github.com/openssl/openssl.git"
+}

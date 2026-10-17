@@ -1,0 +1,16 @@
+{
+  "repo": "mindwerks___wildmidi",
+  "commit_id": "ad6d7cf88d6673167ca1f517248af9409a9f1be1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #175:\n\nCVE-2017-11661, CVE-2017-11662, CVE-2017-11663, CVE-2017-11664:\nAdd a new size parameter to _WM_SetupMidiEvent() so that it\nknows where to stop reading, and adjust its clients properly.",
+  "patch_path": "reports/codejit_extraction_v1/records/21feeb588ecbec7d721a7902.diff.gz",
+  "diff_bytes": 33636,
+  "diff_sha256": "4a210df6d6b506605f4fa0025db3d2655b2a1896854c3b9ebd1b71c8e9456b93",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:59.910399+00:00",
+  "url": "https://github.com/mindwerks/wildmidi.git"
+}

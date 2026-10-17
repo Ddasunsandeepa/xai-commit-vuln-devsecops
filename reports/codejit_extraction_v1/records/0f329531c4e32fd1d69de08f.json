@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick",
+  "commit_id": "726812fa2fa7ce16bcf58f6e115f65427a1c0950",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent buffer overflow in magick/draw.c",
+  "patch_path": "reports/codejit_extraction_v1/records/0f329531c4e32fd1d69de08f.diff.gz",
+  "diff_bytes": 6890,
+  "diff_sha256": "cc72514474fff5c1e8af2d39acc5850013340e6d9a42a3f5d519c1f5c3360904",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:24.030521+00:00",
+  "url": "https://github.com/imagemagick/imagemagick.git"
+}

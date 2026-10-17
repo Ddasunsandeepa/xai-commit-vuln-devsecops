@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "661f90d4d1f83e7dc1258befa9741fec32649b45",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Replaced Zend Memory Manager",
+  "patch_path": "reports/codejit_extraction_v1/records/04de293326e84e87b6ff33e8.diff.gz",
+  "diff_bytes": 154397,
+  "diff_sha256": "d44626ce50564598ee285ce79b9da865a9af705a51097f830f4d6c5afc2e5862",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:41.979271+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

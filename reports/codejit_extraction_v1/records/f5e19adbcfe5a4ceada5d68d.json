@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "a47f02afb1e1f2c4abd9379c13903a5dde89d354",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "change 2115 wasn't merged properly into master. this fixes that.\n\nMerge change 2115 into donut\n\n* changes:\n  bring the native_handle stuff back from master_gl\n\nConflicts:\n\n\tlibs/binder/Parcel.cpp",
+  "patch_path": "reports/codejit_extraction_v1/records/f5e19adbcfe5a4ceada5d68d.diff.gz",
+  "diff_bytes": 5866,
+  "diff_sha256": "0b9668cc55f810fadfa8b87663f6453f30bac6fee892b55e504debe6b05f3840",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:51.340680+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

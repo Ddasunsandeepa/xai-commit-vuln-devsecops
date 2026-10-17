@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "8e7b1ea7a136cc4e4aa9880072ec2d69900a825e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for potential heap-buffer-overflow in ndpi_search_openvpn",
+  "patch_path": "reports/codejit_extraction_v1/records/8198355cf4161878a0b46b27.diff.gz",
+  "diff_bytes": 3396,
+  "diff_sha256": "24a3ddb2cc6bf3d9fbcb55e3abae216883ee11bbb79ad8c6ed0072491b9c048c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:24.379445+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

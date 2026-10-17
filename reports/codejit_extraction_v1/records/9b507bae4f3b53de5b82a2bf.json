@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "0b23c81c3dd9ec38f7e6806a3955fed1925541a0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Fixed initialization of first_slice_in_pic\n\nTo handle some errors, first_slice_in_pic was being set to 2.\nThis is now cleaned up and first_slice_in_pic is set to 1 only once per pic.\nThis will ensure picture level initializations are done only once even in case\nof error clips\n\nBug: 33717589\nBug: 33551775\nBug: 33716442\nBug: 33677995\n\nChange-Id: If341436b3cbaa724017eedddd88c2e6fac36d8ba",
+  "patch_path": "reports/codejit_extraction_v1/records/9b507bae4f3b53de5b82a2bf.diff.gz",
+  "diff_bytes": 6197,
+  "diff_sha256": "2477bcd3976d1705dc30d1a68afd929e3b9f15056fe41851e5343c6597ccf372",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:16.235473+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

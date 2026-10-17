@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "8c95ab0b50f8a257514f9647929267e62b1e611d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix syncing of NPAPI plugins.\n\nThis fix adds a check for |plugin| permission\nwhile syncing NPAPI plugins.\n\nBUG=252034\n\nReview URL: https://chromiumcodereview.appspot.com/16816024\n\ngit-svn-id: svn://svn.chromium.org/chrome/trunk/src@207830 0039d316-1c4b-4281-b951-d872f2087c98",
+  "patch_path": "reports/codejit_extraction_v1/records/c0f9355a1786f52362ec6e18.diff.gz",
+  "diff_bytes": 3678,
+  "diff_sha256": "7ae3173a9c8f4e5467a7c8dfa273932bc58298d9799ebbec51cae08444ea0715",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:45:43.528130+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

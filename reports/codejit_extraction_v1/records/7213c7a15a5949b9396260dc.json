@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "41727ff06111117bdf86b37db198217fd7a143cc",
+  "label": 0,
+  "split": "train",
+  "status": "failed",
+  "error": "RuntimeError: fatal: write error: No space left on device\nfatal: fetch-pack: invalid index-pack output",
+  "message": "",
+  "patch_path": "",
+  "diff_bytes": 0,
+  "diff_sha256": "",
+  "parent_count": null,
+  "is_merge": null,
+  "attempted_at_utc": "2026-10-17T17:19:19.354941+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

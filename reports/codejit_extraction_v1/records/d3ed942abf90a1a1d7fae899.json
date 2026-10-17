@@ -1,0 +1,16 @@
+{
+  "repo": "gnutls___gnutls",
+  "commit_id": "51464af713d71802e3c6d5ac15f1a95132a354fe",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "cdk_pkt_read: enforce packet limits\n\nThat ensures that there are no overflows in the subsequent\ncalculations.\n\nResolves the oss-fuzz found bug:\nhttps://bugs.chromium.org/p/oss-fuzz/issues/detail?id=420\n\nRelates: #159\n\nSigned-off-by: Nikos Mavrogiannopoulos <nmav@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/d3ed942abf90a1a1d7fae899.diff.gz",
+  "diff_bytes": 1039,
+  "diff_sha256": "27ba2bc8809b0442b3bcf7c285c469c6757d6f5726b37d8c7d35a83d97af9fa1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:21.724834+00:00",
+  "url": "https://github.com/gnutls/gnutls.git"
+}

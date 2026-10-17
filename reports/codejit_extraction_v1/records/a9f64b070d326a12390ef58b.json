@@ -1,0 +1,16 @@
+{
+  "repo": "yubico___pam-u2f",
+  "commit_id": "322e100d9d9898ca04c7046e61e498b69df1e709",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make authpending_file const and cast it during free",
+  "patch_path": "reports/codejit_extraction_v1/records/a9f64b070d326a12390ef58b.diff.gz",
+  "diff_bytes": 594,
+  "diff_sha256": "c134c0275809ca5d8974763e1d340d770cc3e1e7ac3e3bc53a319679d0af1836",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:18.505742+00:00",
+  "url": "https://github.com/yubico/pam-u2f.git"
+}

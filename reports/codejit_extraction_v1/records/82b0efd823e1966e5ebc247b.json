@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "8684fde8008aa1569bedf4f8daa671461fd8d8b7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "core: split struct tee_ta_ctx\n\nMoves user ta specific parts into struct user_ta_ctx and static ta\nspecific parts into struct static_ta_ctx.\n\nReviewed-by: Pascal Brand <pascal.brand@linaro.org>\nTested-by: Pascal Brand <pascal.brand@linaro.org> (STM platform)\nReviewed-by: Joakim Bech <joakim.bech@linaro.org>\nTested-by: Jens Wiklander <jens.wiklander@linaro.org> (QEMU)\nSigned-off-by: Jens Wiklander <jens.wiklander@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/82b0efd823e1966e5ebc247b.diff.gz",
+  "diff_bytes": 89507,
+  "diff_sha256": "d81a8a39e57253f5996b206443604b1ba5e746f8fb9d8d1b2e67ea6b41d10a2c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:20.979167+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

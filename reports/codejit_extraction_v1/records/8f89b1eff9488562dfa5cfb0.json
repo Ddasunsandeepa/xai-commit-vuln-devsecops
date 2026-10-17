@@ -1,0 +1,16 @@
+{
+  "repo": "acassen___keepalived",
+  "commit_id": "04f2d32871bb3b11d7dc024039952f2fe2750306",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "When opening files for write, ensure they aren't symbolic links\n\nIssue #1048 identified that if, for example, a non privileged user\ncreated a symbolic link from /etc/keepalvied.data to /etc/passwd,\nwriting to /etc/keepalived.data (which could be invoked via DBus)\nwould cause /etc/passwd to be overwritten.\n\nThis commit stops keepalived writing to pathnames where the ultimate\ncomponent is a symbolic link, by setting O_NOFOLLOW whenever opening\na file for writing.\n\nThis might break some setups, where, for example, /etc/keepalived.data\nwas a symbolic link to /home/fred/keepalived.data. If this was the case,\ninstead create a symbolic link from /home/fred/keepalived.data to\n/tmp/keepalived.data, so that the file is still accessible via\n/home/fred/keepalived.data.\n\nThere doesn't appear to be a way around this backward incompatibility,\nsince even checking if the pathname is a symbolic link prior to opening\nfor writing would create a race condition.\n\nSigned-off-by: Quentin Armitage <quentin@armitage.org.uk>",
+  "patch_path": "reports/codejit_extraction_v1/records/8f89b1eff9488562dfa5cfb0.diff.gz",
+  "diff_bytes": 9266,
+  "diff_sha256": "31ca2e9f4bdf1bfe6d12e52cae3e3c7854767641083613f900a42eca79bf317f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:10.881537+00:00",
+  "url": "https://github.com/acassen/keepalived.git"
+}

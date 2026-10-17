@@ -1,0 +1,16 @@
+{
+  "repo": "nothings___stb",
+  "commit_id": "244d83bc3d859293f55812d48b3db168e581f6ab",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix unchecked length in stb_vorbis that could crash on corrupt/invalid files",
+  "patch_path": "reports/codejit_extraction_v1/records/4237b0e286aaf51d6663fd65.diff.gz",
+  "diff_bytes": 3632,
+  "diff_sha256": "3e30ab9d6e3010b0bb3b418b3dcc61999da9de85d16878a7781fb9f83047498a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:04.726491+00:00",
+  "url": "https://github.com/nothings/stb.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "a02ea577174ab8ed18f847cf1693f213e0b9c473",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "git_connect_git(): forbid newlines in host and path\n\nWhen we connect to a git:// server, we send an initial request that\nlooks something like:\n\n  002dgit-upload-pack repo.git\\0host=example.com\n\nIf the repo path contains a newline, then it's included literally, and\nwe get:\n\n  002egit-upload-pack repo\n  .git\\0host=example.com\n\nThis works fine if you really do have a newline in your repository name;\nthe server side uses the pktline framing to parse the string, not\nnewlines. However, there are many _other_ protocols in the wild that do\nparse on newlines, such as HTTP. So a carefully constructed git:// URL\ncan actually turn into a valid HTTP request. For example:\n\n  git://localhost:1234/%0d%0a%0d%0aGET%20/%20HTTP/1.1 %0d%0aHost:localhost%0d%0a%0d%0a\n\nbecomes:\n\n  0050git-upload-pack /\n  GET / HTTP/1.1\n  Host:localhost\n\n  host=localhost:1234\n\non the wire. Again, this isn't a problem for a real Git server, but it\ndoes mean that feeding a malicious URL to Git (e.g., through a\nsubmodule) can cause it to make unexpected cross-protocol requests.\nSince repository names with newlines are presumably quite rare (and\nindeed, we already disallow them in git-over-http), let's just disallow\nthem over this protocol.\n\nHostnames could likewise inject a newline, but this is unlikely a\nproblem in practice; we'd try resolving the hostname with a newline in\nit, which wouldn't work. Still, it doesn't hurt to err on the side of\ncaution there, since we would not expect them to work in the first\nplace.\n\nThe ssh and local code paths are unaffected by this patch. In both cases\nwe're trying to run upload-pack via a shell, and will quote the newline\nso that it makes it intact. An attacker can point an ssh url at an\narbitrary port, of course, but unless there's an actual ssh server\nthere, we'd never get as far as sending our shell command anyway.  We\n_could_ similarly restrict newlines in those protocols out of caution,\nbut there seems little benefit to doing so.\n\nThe new test here is run alongside the git-daemon tests, which cover the\nsame protocol, but it shouldn't actually contact the daemon at all.  In\ntheory we could make the test more robust by setting up an actual\nrepository with a newline in it (so that our clone would succeed if our\nnew check didn't kick in). But a repo directory with newline in it is\nlikely not portable across all filesystems. Likewise, we could check\ngit-daemon's log that it was not contacted at all, but we do not\ncurrently record the log (and anyway, it would make the test racy with\nthe daemon's log write). We'll just check the client-side stderr to make\nsure we hit the expected code path.\n\nReported-by: Harold Kim <h.kim@flatt.tech>\nSigned-off-by: Jeff King <peff@peff.net>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/244f5e14a83716231b57fdd9.diff.gz",
+  "diff_bytes": 919,
+  "diff_sha256": "948198303154abc98193a46949915c67925fe35949beb9cbd6459717003d22ba",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:02.584741+00:00",
+  "url": "https://github.com/git/git.git"
+}

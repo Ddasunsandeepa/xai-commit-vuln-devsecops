@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "809dbf7744f6550104516c929839df4f140ea63c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libfreerdp-core: fix capability set parsing for Windows XP",
+  "patch_path": "reports/codejit_extraction_v1/records/7b60ffadf2c41b77fdd1b52b.diff.gz",
+  "diff_bytes": 16338,
+  "diff_sha256": "fdd25000fc7391727f5320e2d7c5564de4d374b9de0c3e716c20d246a8c2d1e3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:36.297153+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

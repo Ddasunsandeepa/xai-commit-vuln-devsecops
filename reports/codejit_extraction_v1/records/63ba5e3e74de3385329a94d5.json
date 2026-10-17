@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "3b8d4de300854b3517c7acb239b84f7726c1353c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #71923 - integer overflow in ZipArchive::getFrom*",
+  "patch_path": "reports/codejit_extraction_v1/records/63ba5e3e74de3385329a94d5.diff.gz",
+  "diff_bytes": 744,
+  "diff_sha256": "55ecaa6a0380c769c25d42f1433fa9726c6ace379b08e2d56f63c922ab7cabd8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:19.964054+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

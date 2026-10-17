@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "59357157706d47c365b2227739e17daba3607526",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add ARCHIVE_EXTRACT_SECURE_NOABSOLUTEPATHS option\n\nThis fixes a directory traversal in the cpio tool.",
+  "patch_path": "reports/codejit_extraction_v1/records/5256195c345a981453673592.diff.gz",
+  "diff_bytes": 5419,
+  "diff_sha256": "1855b0ead67b408295a8f72873066131ea6b8fb04e6ba8fc947a7cdf99e09eec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:39.796714+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

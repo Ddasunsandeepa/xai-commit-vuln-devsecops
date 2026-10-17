@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "8b4ed5a23175b7ffa56eea4678db7287f825e985",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed stack buffer overflow\n\nBugfix: 25812590\nMoved check for numCoeffs > 64 inside the coeff decode loop\n\nChange-Id: I444b77ef2a3da9233ec14bb72ac70b7e2fa56bd1\n(cherry picked from commit ff3496c45c571da7eb93d6f9f05758813468fc72)",
+  "patch_path": "reports/codejit_extraction_v1/records/4b48e9a00fdcc8ea9c89d78d.diff.gz",
+  "diff_bytes": 1233,
+  "diff_sha256": "d7031d741cfa200f95ed28c950fec424e68470aed744d880650a668777c39cba",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:29.172024+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

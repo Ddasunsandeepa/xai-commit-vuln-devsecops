@@ -1,0 +1,16 @@
+{
+  "repo": "darold___squidclamav",
+  "commit_id": "80f74451f628264d1d9a1f1c0bbcebc932ba5e00",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a workaround for a squidGuard bug that unescape the URL and send it back unescaped. This could conduct in wrong result and ssquidclamav crash especially with URL containing the %0D or %0A character. John Xue",
+  "patch_path": "reports/codejit_extraction_v1/records/cb24d217c6411e88ae832748.diff.gz",
+  "diff_bytes": 2113,
+  "diff_sha256": "1bef12baa81d665d628a78c23457ec6aa04c1e953eadacbdcabd11221efd8b61",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:03.343335+00:00",
+  "url": "https://github.com/darold/squidclamav.git"
+}

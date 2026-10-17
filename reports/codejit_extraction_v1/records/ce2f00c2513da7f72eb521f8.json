@@ -1,0 +1,16 @@
+{
+  "repo": "unrealircd___unrealircd",
+  "commit_id": "b68befc29a5058270692784e336848db6b9e94d1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "m_sasl: Send certfp for SASL EXTERNAL",
+  "patch_path": "reports/codejit_extraction_v1/records/ce2f00c2513da7f72eb521f8.diff.gz",
+  "diff_bytes": 825,
+  "diff_sha256": "6f3785e95aa5fde22227426915dc8afaf2684e0e6425fad8d53d9877f1b42bca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:38.658087+00:00",
+  "url": "https://github.com/unrealircd/unrealircd.git"
+}

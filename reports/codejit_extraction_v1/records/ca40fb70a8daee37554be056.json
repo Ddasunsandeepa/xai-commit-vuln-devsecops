@@ -1,0 +1,16 @@
+{
+  "repo": "videolan___vlc",
+  "commit_id": "111e49393ced2fa7e4e4c2d6a2860803f30f7ab0",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "demux: libmp4: add generic string reading function",
+  "patch_path": "reports/codejit_extraction_v1/records/ca40fb70a8daee37554be056.diff.gz",
+  "diff_bytes": 10776,
+  "diff_sha256": "ad352be93332e96d7448c747bfbb150a1325dbb02fc88a87c82c1b0c274140cc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:42:29.274848+00:00",
+  "url": "https://github.com/videolan/vlc.git"
+}

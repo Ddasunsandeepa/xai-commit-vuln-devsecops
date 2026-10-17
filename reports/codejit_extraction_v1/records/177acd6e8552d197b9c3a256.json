@@ -1,0 +1,16 @@
+{
+  "repo": "kde___kde1-kdebase",
+  "commit_id": "04906bd5de2f220bf100b605dad37b4a1d9a91a6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for password entry/dialog deletion race.",
+  "patch_path": "reports/codejit_extraction_v1/records/177acd6e8552d197b9c3a256.diff.gz",
+  "diff_bytes": 354,
+  "diff_sha256": "b22ba8a3c9994eefc1d61a1bb88765b4ada2b686c2b728203134ca118e03f755",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:21.640991+00:00",
+  "url": "https://github.com/kde/kde1-kdebase.git"
+}

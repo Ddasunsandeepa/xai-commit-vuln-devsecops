@@ -1,0 +1,16 @@
+{
+  "repo": "strukturag___libheif",
+  "commit_id": "2710c930918609caaf0a664e9c7bc3dce05d5b58",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "force fraction to a limited resolution to finally solve those pesky numerical edge cases",
+  "patch_path": "reports/codejit_extraction_v1/records/32c7adedb591ff8d63c68bd1.diff.gz",
+  "diff_bytes": 2015,
+  "diff_sha256": "d4bb15c8569c64426f9e6b0679d667f12e2240e687ede8d8e098c9f95ab50fa7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:45.213269+00:00",
+  "url": "https://github.com/strukturag/libheif.git"
+}

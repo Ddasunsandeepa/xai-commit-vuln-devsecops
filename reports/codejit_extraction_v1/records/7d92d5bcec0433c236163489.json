@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "85e5208b62185f5afa217e59897870960a00f9c3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "move unsigned atoi functions",
+  "patch_path": "reports/codejit_extraction_v1/records/7d92d5bcec0433c236163489.diff.gz",
+  "diff_bytes": 9176,
+  "diff_sha256": "4b864ce15e01ac8f5188da6a1d35fcb2c0c89f8638f393f6e8cafa31a3c14858",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:37.238352+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

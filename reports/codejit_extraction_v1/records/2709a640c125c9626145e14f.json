@@ -1,0 +1,16 @@
+{
+  "repo": "academysoftwarefoundation___openexr",
+  "commit_id": "8b5370c688a7362673c3a5256d93695617a4cd9a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix #491, issue with part number range check reconstructing chunk offset table\n\nThe chunk offset was incorrectly testing for a part number that was the\nsame size (i.e. an invalid index)\n\nSigned-off-by: Kimball Thurston <kdt3rd@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/2709a640c125c9626145e14f.diff.gz",
+  "diff_bytes": 620,
+  "diff_sha256": "b5b0bd998b52286a92c309c1e83835e20d43022e520c31084e9a5c0a27a63908",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:08.390527+00:00",
+  "url": "https://github.com/academysoftwarefoundation/openexr.git"
+}

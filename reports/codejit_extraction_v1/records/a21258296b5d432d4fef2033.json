@@ -1,0 +1,16 @@
+{
+  "repo": "zyantific___zydis",
+  "commit_id": "956a70cfb12d8aa0cdae876cd6f1ee0778e55d1d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added missing formatter functions\n\n- `ZydisFormatterTokenizeOperand`/`ZydisFormatterTokenizeOperandEx`",
+  "patch_path": "reports/codejit_extraction_v1/records/a21258296b5d432d4fef2033.diff.gz",
+  "diff_bytes": 16073,
+  "diff_sha256": "30005d736c4adb6b127a0ef93c984a25c81489295f823e5bd0af2909b68c9130",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:23.359371+00:00",
+  "url": "https://github.com/zyantific/zydis.git"
+}

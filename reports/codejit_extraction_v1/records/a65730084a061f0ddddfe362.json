@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "61066fb106efa6d3d95b67e47b662de208b2b622",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added check for heap buffer overflow read",
+  "patch_path": "reports/codejit_extraction_v1/records/a65730084a061f0ddddfe362.diff.gz",
+  "diff_bytes": 1787,
+  "diff_sha256": "276a62e861bfca30461653b43c4a1f7583eeb8c4eab6009965742ecb0d1c46e4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:19.062885+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

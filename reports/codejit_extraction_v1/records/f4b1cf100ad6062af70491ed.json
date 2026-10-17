@@ -1,0 +1,16 @@
+{
+  "repo": "bro___bro",
+  "commit_id": "ded592868c773f6ab3b8943d246444bb8833cfb1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "A bit more DNP3 tweaking.\n\nTwo changes:\n\n    - Renaming the base class from DNP3_Analyzer to DNP3_Base. The\n      \"*_Analyzer\" postfix could be confusing here because it's not\n      actually derived from Analyzer.\n\n    - Factoring some further code/state that's joined between TCP and\n      UDP into the base clase.\n\nAll tests still pass.",
+  "patch_path": "reports/codejit_extraction_v1/records/f4b1cf100ad6062af70491ed.diff.gz",
+  "diff_bytes": 12029,
+  "diff_sha256": "f40d054c95d66b752788de3f0d4ae1bd89c0c6510ef80986eb8d63dda5f9326f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:53.987493+00:00",
+  "url": "https://github.com/bro/bro.git"
+}

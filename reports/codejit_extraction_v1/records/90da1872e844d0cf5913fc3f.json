@@ -1,0 +1,16 @@
+{
+  "repo": "gnuaspell___aspell",
+  "commit_id": "80fa26c74279fced8d778351cff19d1d8f44fe4e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix various bugs found by OSS-Fuze.",
+  "patch_path": "reports/codejit_extraction_v1/records/90da1872e844d0cf5913fc3f.diff.gz",
+  "diff_bytes": 1131,
+  "diff_sha256": "d4f1fa49012191963ed37079643e5956b678a3c0f1c6f57761b8a6795c162e7e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:17.394504+00:00",
+  "url": "https://github.com/gnuaspell/aspell.git"
+}

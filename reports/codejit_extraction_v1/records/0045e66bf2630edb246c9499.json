@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "411a4068f8c464e883358bf403a3e25158863823",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a few bugs in the RAS encoder and decoder where errors were tested\nwith assertions instead of being gracefully handled.",
+  "patch_path": "reports/codejit_extraction_v1/records/0045e66bf2630edb246c9499.diff.gz",
+  "diff_bytes": 3983,
+  "diff_sha256": "e2f6721985ebd565d3c7d2a2491f406359142bbb0653b6271d255769ef660b48",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:41.456190+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

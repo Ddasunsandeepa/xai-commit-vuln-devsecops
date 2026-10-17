@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "decf4407d41230fc54dea8058bf887a2696fd4c2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge PHP libgd Xbm code",
+  "patch_path": "reports/codejit_extraction_v1/records/506c20db654b90d783e54010.diff.gz",
+  "diff_bytes": 8187,
+  "diff_sha256": "04005fc8beca0739a63fce0fbe3895738926ef99ec13861d8d75b4d44dabf016",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:00.857924+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "belledonnecommunications___bzrtp",
+  "commit_id": "bbb1e6e2f467ee4bd7b9a8c800e4f07343d7d99b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add ZRTP Commit packet hvi check on DHPart2 packet reception",
+  "patch_path": "reports/codejit_extraction_v1/records/de26e855465e5444e8b0bb62.diff.gz",
+  "diff_bytes": 7793,
+  "diff_sha256": "bdd2f992baa9e18755e6614f55d31ffa2aa7488955de54ac3bcd4b247f78e3ea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:15.877121+00:00",
+  "url": "https://github.com/belledonnecommunications/bzrtp.git"
+}

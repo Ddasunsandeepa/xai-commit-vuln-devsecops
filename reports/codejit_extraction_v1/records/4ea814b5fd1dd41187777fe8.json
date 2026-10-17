@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "4c3aee4bb0294c232d56b6d34e9eeb74f630fe8c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2017-13040/MPTCP: Clean up printing DSS suboption.\n\nDo the length checking inline; that means we print stuff up to the point\nat which we run out of option data.\n\nFirst check to make sure we have at least 4 bytes of option, so we have\nflags to check.\n\nThis fixes a buffer over-read discovered by Kim Gwan Yeong.\n\nAdd a test using the capture file supplied by the reporter(s).",
+  "patch_path": "reports/codejit_extraction_v1/records/4ea814b5fd1dd41187777fe8.diff.gz",
+  "diff_bytes": 6505,
+  "diff_sha256": "022a4e664a8bee3cf91ed27f2eb25d91b793121d60d39b497bbbc2422a0d5646",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:33.626508+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "66b5b9722b8743f83d4c3f11f39665f5f2c40b12",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ALSA: Add snd_ctl_replace() to dynamically replace a control\n\nAdd a function to dynamically replace a given control.  If the\ncontrol does not already exist, a third parameter is used to determine\nwhether to actually add that control.  This is useful in cases where\ndownloadable firmware at runtime can add or replace existing controls.\nA separate patch needs to be made to allow ALSA Mixer to render the\nreplaced controls on the fly.\n\nSigned-off-by: Dimitris Papastamos <dp@opensource.wolfsonmicro.com>\nSigned-off-by: Takashi Iwai <tiwai@suse.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/457031991f647f7af33f0abc.diff.gz",
+  "diff_bytes": 2962,
+  "diff_sha256": "51c72f7072d72b47b4b287d8bc7ba0a9b503e323593e410db8baa5ec79478dcf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:37:08.433817+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

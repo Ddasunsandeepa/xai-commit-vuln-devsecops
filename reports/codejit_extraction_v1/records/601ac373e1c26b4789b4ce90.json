@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "e1ef57c848bbe4e567d5d4b66d346a742e3f77a1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream: still inspect packets dropped by stream\n\nThe detect engine would bypass packets that are set as dropped. This\nseems sane, as these packets are going to be dropped anyway.\n\nHowever, it lead to the following corner case: stream events that\ntriggered the drop could not be matched on the rules. The packet\nwith the event wouldn't make it to the detect engine due to the bypass.\n\nThis patch changes the logic to not bypass DROP packets anymore.\nPackets that are dropped by the stream engine will set the no payload\ninspection flag, so avoid needless cost.",
+  "patch_path": "reports/codejit_extraction_v1/records/601ac373e1c26b4789b4ce90.diff.gz",
+  "diff_bytes": 1589,
+  "diff_sha256": "bc25955d0c7663a1d55d7841e5ff8e7c9023e99b395f506c416ee4abeb00f297",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:55.649192+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

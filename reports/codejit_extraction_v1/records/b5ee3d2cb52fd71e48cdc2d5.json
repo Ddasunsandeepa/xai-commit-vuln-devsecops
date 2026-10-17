@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "b7fcff01790d25f48d81ef6c8c3399577096a555",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "qtest: Fix the bug about disable vnc causes \"make check\" fail\n\nWhen we disable vnc from \"./configure\", QEMU can't use the vnc option.\nSo qtest can't use the \"vnc -none \", otherwise \"make check\" fails.\nIf QEMU uses \"-display none\", \"-vnc none\" is excrescent, So we just need to drop it.\n\nSigned-off-by: Kewei Yu <keweihk@gmail.com>\nReviewed-by: Paolo Bonzini <pbonzini@redhat.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/b5ee3d2cb52fd71e48cdc2d5.diff.gz",
+  "diff_bytes": 1547,
+  "diff_sha256": "c692b43d5d1bdbe006dc15544b712a97f2f94d2c9fab3276d17d2b7edbf674bd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:23.454159+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

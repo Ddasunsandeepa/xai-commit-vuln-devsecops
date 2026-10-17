@@ -1,0 +1,16 @@
+{
+  "repo": "saschahauer___barebox",
+  "commit_id": "a3337563c705bc8e0cf32f910b3e9e3c43d962ff",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "password: Use crypto_memneq() to compare hashes\n\nCryptographic verifications should be time-constant so that an attacker\ncannot get information about the secrets used by observing the system,\nso use crypto_memneq() rather than memcmp() to compare password hashes.\n\nSigned-off-by: Sascha Hauer <s.hauer@pengutronix.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/1415adf8022c3e3f07a676a3.diff.gz",
+  "diff_bytes": 826,
+  "diff_sha256": "b674a7d62b7ec9ebf0d0833e83d0e81379e60175fd4c3364acd58ed6c8b73635",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:34.683449+00:00",
+  "url": "https://github.com/saschahauer/barebox.git"
+}

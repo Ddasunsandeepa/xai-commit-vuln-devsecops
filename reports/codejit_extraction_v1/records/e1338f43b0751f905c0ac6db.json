@@ -1,0 +1,16 @@
+{
+  "repo": "ruven___iipsrv",
+  "commit_id": "4ed59265fbbd636dc2fbbf325f8ea37ed300a6d9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added verification that image has been set in SPECTRA.cc and check on the validity of the requested tile resolution in JTL.cc. Fixes a couple of the crash conditions reported in https://github.com/ruven/iipsrv/issues/223",
+  "patch_path": "reports/codejit_extraction_v1/records/e1338f43b0751f905c0ac6db.diff.gz",
+  "diff_bytes": 5702,
+  "diff_sha256": "b25268f491d26c0580499a7f9b21ee300aa0ff871ae4a0b699bb68aaf77b1ce2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:26.655875+00:00",
+  "url": "https://github.com/ruven/iipsrv.git"
+}

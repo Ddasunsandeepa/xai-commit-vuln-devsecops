@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "eb1f20bf205cfc3e83d3bd25659b3d8d23dbe6de",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Convert ext/mcrypt to HNI\n\nSummary: Part of #1480\n\nThe revert is my workaround for #1738, so probably shouldn't be merged. I'm just keeping it in here so I don't have to keep reverting it when something breaks in the tests ;)\n\nAlso adds a rasie_deprecation() function and changes raise_message() to call that for deprecation notices rather than a plain notice.\nCloses #1760\n\nReviewed By: ptarjan, sgolemon\n\nSubscribers: hphp-diffslists, ps\n\nDifferential Revision: D1331176\n\nPulled By: @JoelMarcey",
+  "patch_path": "reports/codejit_extraction_v1/records/8a0b224f846c6043f8dd0bc5.diff.gz",
+  "diff_bytes": 138097,
+  "diff_sha256": "6b3e5a2b9a5bfae481d43239e914faf25092b3323be9a8fe9c177f7edb95e4ed",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:10.657731+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

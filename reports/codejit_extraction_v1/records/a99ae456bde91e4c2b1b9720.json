@@ -1,0 +1,16 @@
+{
+  "repo": "torproject___tor",
+  "commit_id": "8293356ad993e06c66e6b56534be91fb912c9b5a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "hs: Refactor rend_data_t for multi version support\n\nIn order to implement proposal 224, we need the data structure rend_data_t to\nbe able to accomodate versionning that is the current version of hidden\nservice (2) and the new version (3) and future version.\n\nFor that, we implement a series of accessors and a downcast function to get\nthe v2 data structure. rend_data_t becomes a top level generic place holder.\n\nThe entire rend_data_t API has been moved to hs_common.{c|h} in order to\nseperate code that is shared from between HS versions and unshared code (in\nrendcommon.c).\n\nCloses #19024\n\nSigned-off-by: David Goulet <dgoulet@torproject.org>\nSigned-off-by: George Kadianakis <desnacked@riseup.net>",
+  "patch_path": "reports/codejit_extraction_v1/records/a99ae456bde91e4c2b1b9720.diff.gz",
+  "diff_bytes": 87805,
+  "diff_sha256": "b73e07a5551b37431e86f58086d22470b05ab9df246cf3d572833f1cbf8ef120",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:42.665010+00:00",
+  "url": "https://github.com/torproject/tor.git"
+}

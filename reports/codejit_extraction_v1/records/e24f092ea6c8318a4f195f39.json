@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "4a524d3a8ae9aa20c36430008e6bd429443f8f1d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder Update mb count after mb map is set.\n\nBug: 25928803\n\nChange-Id: Iccc58a7dd1c5c6ea656dfca332cfb8dddba4de37",
+  "patch_path": "reports/codejit_extraction_v1/records/e24f092ea6c8318a4f195f39.diff.gz",
+  "diff_bytes": 4086,
+  "diff_sha256": "9541b361da078df2f3b09c63a96b1e2b69de314d8418a65660fc8a71ca084b5a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:19.152514+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

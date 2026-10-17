@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "2fefae47716d501aec41c1102f3fd4531f070b05",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed Sec Bug #67717 segfault in dns_get_record CVE-2014-3597\n\nIncomplete fix for CVE-2014-4049\n\nCheck possible buffer overflow\n- pass real buffer end to dn_expand calls\n- check buffer len before each read",
+  "patch_path": "reports/codejit_extraction_v1/records/2ced346900035675e760f7be.diff.gz",
+  "diff_bytes": 8348,
+  "diff_sha256": "64c1c2d4d5a3aa8d54255f36005aec09950fd73163cc2edd358719284d1c32e5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:16.994049+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "weechat___weechat",
+  "commit_id": "20c86db0d8dfc67c34cd4a2ca178bc05e6e04866",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "api: remove functions printf_date() and printf_tags()",
+  "patch_path": "reports/codejit_extraction_v1/records/1cfd79927a814bcb30dc32b0.diff.gz",
+  "diff_bytes": 99048,
+  "diff_sha256": "2cbf11b94f548b94d3cfe257235adfdebac5484c5ab78fe53b769ecc7c5e6f7b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:05.789364+00:00",
+  "url": "https://github.com/weechat/weechat.git"
+}

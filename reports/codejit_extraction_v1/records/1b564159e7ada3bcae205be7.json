@@ -1,0 +1,16 @@
+{
+  "repo": "platform___bootable___recovery",
+  "commit_id": "28a566f7731b4cb76d2a9ba16d997ac5aeb07dad",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix integer overflows in recovery procedure.\n\nBug: 26960931\nChange-Id: Ieae45caccfb4728fcf514f0d920976585d8e6caf\n(cherry picked from commit 4f2df162c6ab4a71ca86e4b38735b681729c353b)",
+  "patch_path": "reports/codejit_extraction_v1/records/1b564159e7ada3bcae205be7.diff.gz",
+  "diff_bytes": 4562,
+  "diff_sha256": "62c6c3cf96acab9d2aa2975e438d070ffdc66eb8c9dba07bd215d982dc7577a7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:13.501324+00:00",
+  "url": "https://android.googlesource.com/platform/bootable/recovery"
+}

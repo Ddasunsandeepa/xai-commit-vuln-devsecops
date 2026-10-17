@@ -1,0 +1,16 @@
+{
+  "repo": "ambiot___amb1_sdk",
+  "commit_id": "4b73f58f32914d0081d79a79e53a3215c8c1ea56",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[dhcps] update dhcps",
+  "patch_path": "reports/codejit_extraction_v1/records/54fefaf9de9f197560c1be5e.diff.gz",
+  "diff_bytes": 31756,
+  "diff_sha256": "78394152bb7eb21e987bb2c6b733e31f22088f900cd706534c5adf35a7cdb6ef",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:17.422081+00:00",
+  "url": "https://github.com/ambiot/amb1_sdk.git"
+}

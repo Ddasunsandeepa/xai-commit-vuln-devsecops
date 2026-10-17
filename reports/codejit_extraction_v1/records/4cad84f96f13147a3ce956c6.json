@@ -1,0 +1,16 @@
+{
+  "repo": "sddm___sddm",
+  "commit_id": "72b82eba652da365b7d6a40f6bb2fa1e51075b41",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Re-use existing sessions\n\nMost desktop environments don't support logging in as the same user\ntwice, especially with system changes that means the DBUS session bus is\nthe same.\n\nWith this patch if a user tries to log in as a user that is already\nlogged in we unlock and activate that session rather than creating a new\nsession.\n\nThis behaviour is configurable with a config option. The default matches\nthe current behaviour.",
+  "patch_path": "reports/codejit_extraction_v1/records/4cad84f96f13147a3ce956c6.diff.gz",
+  "diff_bytes": 24510,
+  "diff_sha256": "646efd742cc004f367644b0f545f52ff166ddb0c9b1f89031251330f1eb32b0b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:42.071025+00:00",
+  "url": "https://github.com/sddm/sddm.git"
+}

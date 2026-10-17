@@ -1,0 +1,16 @@
+{
+  "repo": "babelouest___glewlwyd",
+  "commit_id": "579e90e831e912dbdcb86bab2ef2a93d177fedf2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix last login refresh without authentication bug",
+  "patch_path": "reports/codejit_extraction_v1/records/898334866503ca7552da3eb4.diff.gz",
+  "diff_bytes": 22992,
+  "diff_sha256": "cd65790871889a5fe006373e6501731cc93dd3a6e0f03e4127cacaff15922c14",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:02.339038+00:00",
+  "url": "https://github.com/babelouest/glewlwyd.git"
+}

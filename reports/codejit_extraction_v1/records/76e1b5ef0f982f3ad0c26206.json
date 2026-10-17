@@ -1,0 +1,16 @@
+{
+  "repo": "silnrsi___graphite",
+  "commit_id": "4dc0e5bab12f0da9c9857dfec0612e57802af808",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check Glat table size earlier",
+  "patch_path": "reports/codejit_extraction_v1/records/76e1b5ef0f982f3ad0c26206.diff.gz",
+  "diff_bytes": 1108,
+  "diff_sha256": "bbcf422105ce2ffb0e01307f0bc8a7a5b2e5148c1e1cded87c283d535bd44527",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:14.191830+00:00",
+  "url": "https://github.com/silnrsi/graphite.git"
+}

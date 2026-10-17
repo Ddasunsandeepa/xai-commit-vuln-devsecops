@@ -1,0 +1,16 @@
+{
+  "repo": "upx___upx",
+  "commit_id": "e2f60adc95334f47e286838dac33160819c5d74d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Detect 0==DT_SYMTAB in invert_pt_dynamic()\n\nhttps://github.com/upx/upx/issues/333\n\tmodified:   p_lx_elf.cpp",
+  "patch_path": "reports/codejit_extraction_v1/records/8c7138e7bdc65f6fb4b0933a.diff.gz",
+  "diff_bytes": 2711,
+  "diff_sha256": "c29d1e058fb2a926a4ca799db0f0d7eadd539af4c5067096724e5e7aa61438a5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:42.005598+00:00",
+  "url": "https://github.com/upx/upx.git"
+}

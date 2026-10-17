@@ -1,0 +1,16 @@
+{
+  "repo": "artifexsoftware___mupdf",
+  "commit_id": "695077ca030b3a999910ba8e29b2b14e0878d3c7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Various code fixes for warnings from lgtm.com\n\nMuPDF is statically analysed by lgtm.com and it flags up various\nsmall issues, which we address here.\n\nFirstly, let's be consistent about our definition of PATH_MAX.\n\nSecond, let's add some repeat inclusion guards on header files.\n\nThirdly, address lots of cases where we do: size_t z = a * b;\nwhere a and b are ints. We should promote those to size_t BEFORE\nthe multiplication to avoid overflow.\n\nFourthly, remove some unnecessary checks. e.g. don't check for\nw == 0 when we've already checked that w > 6 earlier. Similarly,\ndon't check for unsigned things being < 0.\n\nFifthly, fix my_log2 to avoid relying on shifting bits into the\nsign bit position.",
+  "patch_path": "reports/codejit_extraction_v1/records/9169580a05db90ac19dc35bb.diff.gz",
+  "diff_bytes": 25223,
+  "diff_sha256": "a160bd5704edd26440dc3f0d9e3495d1616f5f2925ccc96ed207c326e3902480",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:49.745833+00:00",
+  "url": "https://github.com/artifexsoftware/mupdf.git"
+}

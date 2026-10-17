@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "e2b1fb81e0e1339eebaa36fb90635e03f69d4da3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Restore minimal CAC1 driver for legacy cards (#1502)\n\n* Add minimal CAC1 driver for legacy cards.\n\nIt is using the same pkcs15 backend as the CAC2 cards as well as some of\nthe CAC2 driver methods.\n\nThe separation is made mostly for easier card matching or disabling.",
+  "patch_path": "reports/codejit_extraction_v1/records/a668881fdcc16f6423d273b6.diff.gz",
+  "diff_bytes": 36876,
+  "diff_sha256": "7d41960feb5fb7a743c58e99b7a40a5a9862a48d9c3c3df6d5b78f2d73fda9da",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:04.056810+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

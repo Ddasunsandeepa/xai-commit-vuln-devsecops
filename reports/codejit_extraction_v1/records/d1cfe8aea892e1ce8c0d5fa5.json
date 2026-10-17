@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "65c7c4918450f8c4545ccb02a9c7a3d77e073535",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bluetooth: Add L2CAP RFC option if ERTM is enabled\n\nWhen trying to establish a connection with Enhanced Retransmission mode\nenabled, the RFC option needs to be added to the configuration.\n\nSigned-off-by: Marcel Holtmann <marcel@holtmann.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/d1cfe8aea892e1ce8c0d5fa5.diff.gz",
+  "diff_bytes": 1500,
+  "diff_sha256": "de443e4eb884bdb9f396b87e36b03b5646773651a1f90ba5942ab123bdafe030",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:36:56.077028+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "132a4111bf3791e76437619a66336dce2ce4c79b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "release 2.3.10.2: fix XSS vulnerability for poll parameter\n\nin OIDC Session Management RP iframe; CSNC-2019-001; thanks Mischa\nBachmann\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/49d102cca8efa73d04ffbd46.diff.gz",
+  "diff_bytes": 2034,
+  "diff_sha256": "f5ccc212b82326700cbfab15b307bfccead5ee37060c3704c1d0fea6903a2ff5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:19.868317+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

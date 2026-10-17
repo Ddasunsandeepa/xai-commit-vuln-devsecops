@@ -1,0 +1,16 @@
+{
+  "repo": "lighttpd___lighttpd1.4",
+  "commit_id": "32120d5b8b3203fc21ccb9eafb0eaf824bb59354",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[core] fix abort in http-parseopts (fixes #2945)\n\nfix abort in server.http-parseopts with url-path-2f-decode enabled\n\n(thx stze)\n\nx-ref:\n  \"Security - SIGABRT during GET request handling with url-path-2f-decode enabled\"\n  https://redmine.lighttpd.net/issues/2945",
+  "patch_path": "reports/codejit_extraction_v1/records/49f7dc2ac276637e25deb59c.diff.gz",
+  "diff_bytes": 1450,
+  "diff_sha256": "f10c1663e531d3410095be418bee8f37c264e7b3c8605d0474fc4b41b5ac329d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:39.955510+00:00",
+  "url": "https://github.com/lighttpd/lighttpd1.4.git"
+}

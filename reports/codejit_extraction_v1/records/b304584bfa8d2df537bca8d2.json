@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "44a524e367597af58d6265ae2014468b334d0309",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "The memory stream interface allows for a buffer size of zero.\nThe case of a zero-sized buffer was not handled correctly, as it could\nlead to a double free.\nThis problem has now been fixed (hopefully).\nOne might ask whether a zero-sized buffer should be allowed at all,\nbut this is a question for another day.",
+  "patch_path": "reports/codejit_extraction_v1/records/b304584bfa8d2df537bca8d2.diff.gz",
+  "diff_bytes": 550,
+  "diff_sha256": "551742d14fc992f0a598322a2c48c24e9b944b64508d923b6967a88814d09a68",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:41.840516+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

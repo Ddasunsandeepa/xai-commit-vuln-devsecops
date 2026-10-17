@@ -1,0 +1,16 @@
+{
+  "repo": "vincentbernat___lldpd",
+  "commit_id": "9221b5c249f9e4843f77c7f888d5705348d179c0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "protocols: don't use assert on paths that can be reached\n\nMalformed packets should not make lldpd crash. Ensure we can handle them\nby not using assert() in this part.",
+  "patch_path": "reports/codejit_extraction_v1/records/dff638b4be372e2475fbed18.diff.gz",
+  "diff_bytes": 3929,
+  "diff_sha256": "97f3e31447480ded14e687a103fd476217de384ca6fc9e0434a950296238282a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:37.379931+00:00",
+  "url": "https://github.com/vincentbernat/lldpd.git"
+}

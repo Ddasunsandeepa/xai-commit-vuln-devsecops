@@ -1,0 +1,16 @@
+{
+  "repo": "wez___atomicparsley",
+  "commit_id": "020176f688d9efec68f1ce1b100e052bff1cfc2e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix memory leak and avoid some heap allocations\n\nIt's not necessary to heap allocate these small buffers; using\nthe stack avoids the need to remember to free them as well.\n\nRefs: #30\nFixes: #31",
+  "patch_path": "reports/codejit_extraction_v1/records/5a4025e8443b0a1cf218aed4.diff.gz",
+  "diff_bytes": 2348,
+  "diff_sha256": "0bda4e62960abaee56845fe391012b2aa0d59514876782af8dcc030ebd6ed7fb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:45:58.941955+00:00",
+  "url": "https://github.com/wez/atomicparsley.git"
+}

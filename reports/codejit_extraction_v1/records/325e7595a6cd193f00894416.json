@@ -1,0 +1,16 @@
+{
+  "repo": "selinuxproject___selinux",
+  "commit_id": "76ba6eaa7333483a8cc0c73a7880f7acf99c2656",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Squashed 'libsepol/cil/' changes from 08520e9..28ad56e\n\n28ad56e Store file paths in the string pool\nda42c28 Use the new fqn datum field for generated strings\n5df35f5 Fix a typo in .gitignore that was not ignoring files in docs/\n479051c Modify how blocks are copied into blockinherits\n793d12d Fix memory leak in classpermissionset\ne5bb941 Added several new test policies\nd6f2710 Refactored the name resolution code\nba61ee8 Changed how datums are handled when destroying a tree.\n36e6818 Reimplemented the code to fully qualify names.\n43fa823 Fixed two bugs in cil_copy_ast.c\n9ff6072 Small fix to cil_list_remove()\n4eecdbe Changed how root node of the AST is initialized.\n172b918 Cleanup unused symtab_datum from disabled optionals\n06df2d2 Add policy binary and file_contexts to .gitignore\n\ngit-subtree-dir: libsepol/cil\ngit-subtree-split: 28ad56e90c9b923ddf4a186e772645b4c086b6cc",
+  "patch_path": "reports/codejit_extraction_v1/records/325e7595a6cd193f00894416.diff.gz",
+  "diff_bytes": 80294,
+  "diff_sha256": "04f9e907c0abd227d548a07ef3e38cd4b5d4e1e266e363f51b4f73e1497e6ebd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:44.940064+00:00",
+  "url": "https://github.com/selinuxproject/selinux.git"
+}

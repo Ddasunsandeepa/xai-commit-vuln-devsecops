@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "99b14815a53e556080f459a4998d942448031f08",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "core: fix incorrect usage of realloc.\n\nrealloc can handle the case that its first parameter is NULL.\n\nSigned-off-by: Zhang Zhaolong <zhangzl2013@126.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/d404c0d21e406cc339cd0ba9.diff.gz",
+  "diff_bytes": 9974,
+  "diff_sha256": "1cd5a3baa2e5fca34ee17fdabfb1066069b1c03fa7f483957d067b9519596744",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:38.916477+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

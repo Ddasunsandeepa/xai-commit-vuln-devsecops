@@ -1,0 +1,16 @@
+{
+  "repo": "libssh2___libssh2",
+  "commit_id": "12bddb0d45921bc482f8d1ef85cd0e6149f1b5ff",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "code style: unify code style\n\nIndent-level: 4\nMax columns: 79\nNo spaces after if/for/while\nUnified brace positions\nUnified white spaces",
+  "patch_path": "reports/codejit_extraction_v1/records/bb80295bc5671c1e59501bb1.diff.gz",
+  "diff_bytes": 317831,
+  "diff_sha256": "ec3208810443b91085d8a29d7307947ed67998dc791c0e6da386b486b40bce1d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:13.827543+00:00",
+  "url": "https://github.com/libssh2/libssh2.git"
+}

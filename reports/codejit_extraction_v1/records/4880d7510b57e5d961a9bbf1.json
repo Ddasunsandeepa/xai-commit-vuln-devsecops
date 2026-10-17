@@ -1,0 +1,16 @@
+{
+  "repo": "postgres___postgres",
+  "commit_id": "31400a673325147e1205326008e32135a78b4d8a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Predict integer overflow to avoid buffer overruns.\n\nSeveral functions, mostly type input functions, calculated an allocation\nsize such that the calculation wrapped to a small positive value when\narguments implied a sufficiently-large requirement.  Writes past the end\nof the inadvertent small allocation followed shortly thereafter.\nCoverity identified the path_in() vulnerability; code inspection led to\nthe rest.  In passing, add check_stack_depth() to prevent stack overflow\nin related functions.\n\nBack-patch to 8.4 (all supported versions).  The non-comment hstore\nchanges touch code that did not exist in 8.4, so that part stops at 9.0.\n\nNoah Misch and Heikki Linnakangas, reviewed by Tom Lane.\n\nSecurity: CVE-2014-0064",
+  "patch_path": "reports/codejit_extraction_v1/records/4880d7510b57e5d961a9bbf1.diff.gz",
+  "diff_bytes": 18406,
+  "diff_sha256": "a62d9e9614d5cc214d502e2878db28f77cb7b3f5e6f80b21144125c8c21f0ce9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:46.072424+00:00",
+  "url": "https://github.com/postgres/postgres.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "2721a0148649e07ed74468f097a28899741eb58f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug #70755: fpm_log.c memory leak and buffer overflow",
+  "patch_path": "reports/codejit_extraction_v1/records/01b453e0044ee28b0ce202bd.diff.gz",
+  "diff_bytes": 472,
+  "diff_sha256": "71fce35acefc56c883107ddee5d840674351ac501e58316de9f4c472aeffdde7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:09.988675+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

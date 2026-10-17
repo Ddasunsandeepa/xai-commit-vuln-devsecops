@@ -1,0 +1,16 @@
+{
+  "repo": "nginx___njs",
+  "commit_id": "5c6130a2a0b4c41ab415f6b8992aa323636338b9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed Array.prototype.fill() for typed-arrays.\n\nThis closes #478 issue on Github.",
+  "patch_path": "reports/codejit_extraction_v1/records/0c1f084ada6cd87dbcf369d6.diff.gz",
+  "diff_bytes": 842,
+  "diff_sha256": "d1a95fabb9f007d54e0df7e47926bbfe8dc55fdad29ec301ffdc31b12aee31e7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:00.319493+00:00",
+  "url": "https://github.com/nginx/njs.git"
+}

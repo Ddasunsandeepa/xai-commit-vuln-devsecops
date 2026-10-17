@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "6f5ef23a3ff09919b73eef8196969685cb2383ee",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "migration/block: Use real permissions\n\nRequest BLK_PERM_CONSISTENT_READ for the source of block migration, and\nhandle potential permission errors as good as we can in this place\n(which is not very good, but it matches the other failure cases).\n\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>\nAcked-by: Fam Zheng <famz@redhat.com>\nReviewed-by: Max Reitz <mreitz@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/6eeed2e03f94f1691b0debdd.diff.gz",
+  "diff_bytes": 2222,
+  "diff_sha256": "690f3d25a4d9f751c21cdebd8730d6c9047e5458285b32be20cadf0022f764f1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:56.277953+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

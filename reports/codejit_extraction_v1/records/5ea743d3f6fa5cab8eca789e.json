@@ -1,0 +1,16 @@
+{
+  "repo": "jpirko___libndp",
+  "commit_id": "af9bb8bec1af4baee9a8f1539f3ebb1273b1fab9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lib: move msg validity check into separate function\n\nSigned-off-by: Jiri Pirko <jiri@resnulli.us>",
+  "patch_path": "reports/codejit_extraction_v1/records/5ea743d3f6fa5cab8eca789e.diff.gz",
+  "diff_bytes": 1049,
+  "diff_sha256": "5215b9ff711a9f918bf0da565f2e42ec51b0bb67522a05c4eb159452d4d3382c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:01.345095+00:00",
+  "url": "https://github.com/jpirko/libndp.git"
+}

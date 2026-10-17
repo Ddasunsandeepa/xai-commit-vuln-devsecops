@@ -1,0 +1,16 @@
+{
+  "repo": "tindy2013___subconverter",
+  "commit_id": "ce8d2bd0f13f05fcbd2ed90755d097f402393dd3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Enhancements\n\nAdd authorization check before loading scripts.\nAdd detailed logs when loading preference settings.",
+  "patch_path": "reports/codejit_extraction_v1/records/d4a2794d93442c5e3186f630.diff.gz",
+  "diff_bytes": 6508,
+  "diff_sha256": "60c26d5dcdf56a19318181d5433f08b68891ed2cd13c8548664115f1e121ae4e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:41.073466+00:00",
+  "url": "https://github.com/tindy2013/subconverter.git"
+}

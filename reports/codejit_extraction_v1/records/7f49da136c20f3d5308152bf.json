@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "1b0f0d0988e6df4e32e9f4bf8780846ea95d4485",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't overflow stack buffer in msg_parse_fetch",
+  "patch_path": "reports/codejit_extraction_v1/records/7f49da136c20f3d5308152bf.diff.gz",
+  "diff_bytes": 761,
+  "diff_sha256": "22f8594b9aacdb560a2b89f0435f99f190f518e68e22f5f2e1a24b6d36e5eff9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:27.306864+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "bro___bro",
+  "commit_id": "6c0f101a62489b1c5927b4ed63b0e1d37db40282",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Patch OOB write in content-line analyzer.\n\nA combination of packets can trigger an out of bound write of '0' byte\nin the content-line analyzer.\n\nThis bug was found by Frank Meier.\n\nAddresses BIT-1856.",
+  "patch_path": "reports/codejit_extraction_v1/records/5d085a1dcbd7a419c4c874b1.diff.gz",
+  "diff_bytes": 794,
+  "diff_sha256": "e7e4594be18b15f14a33cf4a23965c9b11d171c42e15e5867b4efb43b20e3d9f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:51.074958+00:00",
+  "url": "https://github.com/bro/bro.git"
+}

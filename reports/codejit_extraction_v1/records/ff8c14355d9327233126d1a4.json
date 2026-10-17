@@ -1,0 +1,16 @@
+{
+  "repo": "vmg___redcarpet",
+  "commit_id": "d1d80db38888e3d6c2f718acbe50a6a126281c7b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Replace quotation marks with a dedicated HTML tag q",
+  "patch_path": "reports/codejit_extraction_v1/records/ff8c14355d9327233126d1a4.diff.gz",
+  "diff_bytes": 6824,
+  "diff_sha256": "f13cb3ad33b6e326b9eb3c700da82b97242cdaf9b502070aba3bbe66ca8a7ad3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:50.079814+00:00",
+  "url": "https://github.com/vmg/redcarpet.git"
+}

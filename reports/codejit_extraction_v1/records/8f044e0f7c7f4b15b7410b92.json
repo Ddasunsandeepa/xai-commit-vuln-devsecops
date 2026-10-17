@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "9b500b8f6c9806f3979f9d1fb874b7f4a802c656",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avcodec: Add a RFC 3389 comfort noise codec\n\nThis isn't too useful as a normal codec, but can be used in\nvoip style applications. The decoder updates the noise\ngenerator parameters when a packet is given to it for decoding,\nbut if called with an empty packet, it generates more noise\naccording to the last parameters.\n\nSigned-off-by: Martin Storsjö <martin@martin.st>",
+  "patch_path": "reports/codejit_extraction_v1/records/8f044e0f7c7f4b15b7410b92.diff.gz",
+  "diff_bytes": 12470,
+  "diff_sha256": "fc93c2847c22e94edd6e912480c28ba95d6921ac5225836994ceb5658f3bb313",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:57.756281+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

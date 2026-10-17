@@ -1,0 +1,16 @@
+{
+  "repo": "adrienverge___openfortivpn",
+  "commit_id": "6328a070ddaab16faaf008cb9a8a62439c30f2a8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix TLS Certificate CommonName NULL Byte Vulnerability\n\nCVE-2020-7043 TLS Certificate CommonName NULL Byte Vulnerability is fixed\nwith this commit\n\nwith #8 hostname validation for the certificate was introduced\nbut unfortunately strncasecmp() was used to compare the byte array\nagainst the expected hostname. This does not correctly treat a CN\nwhich contains a NULL byte. In order to fix this vulnerability\nthe reference implementation from iSECPartners has been included\ninto the code.",
+  "patch_path": "reports/codejit_extraction_v1/records/c41ab0b9b04462f8723de5ed.diff.gz",
+  "diff_bytes": 10832,
+  "diff_sha256": "2d64d23677d73b4e8a9d9ce4feba70fdcabd6d13515857da226bb78e0ce37875",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:13.396896+00:00",
+  "url": "https://github.com/adrienverge/openfortivpn.git"
+}

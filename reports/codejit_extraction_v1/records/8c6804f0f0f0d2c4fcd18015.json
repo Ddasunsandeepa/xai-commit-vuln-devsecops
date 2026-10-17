@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "07da0854fe98793b17a7125ff96c54b206e452a4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avformat/vfq: fix deadlock in vqf_read_header()\n\nFixes #3010.\nReported-by: Piotr Bandurski <ami_stuff@o2.pl>\nSigned-off-by: Paul B Mahol <onemda@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/8c6804f0f0f0d2c4fcd18015.diff.gz",
+  "diff_bytes": 357,
+  "diff_sha256": "e0fc523071a2c7069acae393fb4dcaf8167744c80174596231be3196770ed116",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:30.900112+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

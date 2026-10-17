@@ -1,0 +1,16 @@
+{
+  "repo": "psi-im___iris",
+  "commit_id": "cf4d6e5c04048b8938e2822667417187d79fa5d4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support for forwarded messages not only withing carbons",
+  "patch_path": "reports/codejit_extraction_v1/records/a48adcce423b56270cd77cab.diff.gz",
+  "diff_bytes": 4421,
+  "diff_sha256": "38a4eeace8598cdc3f52c8b1403aad0d0f0dbcdabec3ac4bd4aa2894ccee4dc6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:11.437777+00:00",
+  "url": "https://github.com/psi-im/iris.git"
+}

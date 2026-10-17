@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "dea704f0ab7f625e1e7b3f9a1110b45b63157317",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Pad keys to avoid memory errors (fixes #147)",
+  "patch_path": "reports/codejit_extraction_v1/records/7bb649552a39226fb654ead8.diff.gz",
+  "diff_bytes": 3553,
+  "diff_sha256": "9e1809653585a8f2326cc9f20373e1d1a108410c344864b905ee7b083a2be85d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:39.838204+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

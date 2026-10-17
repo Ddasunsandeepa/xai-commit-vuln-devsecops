@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "d917514bd6b270df431ea4e781a865764d406120",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix incorrect check of descsz value.\n\nBug: 25187394\n\n(cherry picked from commit 1fa55234d6773e09e3bb934419b5b6cc0df981c9)\n\nChange-Id: Idbc9071e8b2b25a062c4e94118808d6e19d443d9",
+  "patch_path": "reports/codejit_extraction_v1/records/0b4b81cbf653a61c16be4b94.diff.gz",
+  "diff_bytes": 911,
+  "diff_sha256": "4353cc7d094015538878740dd4ca90e7c9756471ae47290e029a8fad45cfe53c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:34.472783+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

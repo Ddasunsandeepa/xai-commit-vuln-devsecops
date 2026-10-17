@@ -1,0 +1,16 @@
+{
+  "repo": "openvswitch___ovs",
+  "commit_id": "4af6da3b275b764b1afe194df6499b33d2bf4cde",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ofp-group: Don't assert-fail decoding bad OF1.5 group mod type or command.\n\nWhen decoding a group mod, the current code validates the group type and\ncommand after the whole group mod has been decoded.  The OF1.5 decoder,\nhowever, tries to use the type and command earlier, when it might still be\ninvalid.  This caused an assertion failure (via OVS_NOT_REACHED).  This\ncommit fixes the problem.\n\novs-vswitchd does not enable support for OpenFlow 1.5 by default.\n\nReported-at: https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=9249\nSigned-off-by: Ben Pfaff <blp@ovn.org>\nReviewed-by: Yifeng Sun <pkusunyifeng@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/13aab907b17f9d17b0dfdcd4.diff.gz",
+  "diff_bytes": 754,
+  "diff_sha256": "bf6b74ac36eae898fe5d37d0496fd7877e3ec94141b6f926f940743419a74e0c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:23.671104+00:00",
+  "url": "https://github.com/openvswitch/ovs.git"
+}

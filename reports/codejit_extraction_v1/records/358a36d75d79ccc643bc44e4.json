@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___aac",
+  "commit_id": "8e3be529372892e20ccf196809bc73276c822189",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix out of bound memory access in lppTransposer\n\nIn TRANSPOSER_SETTINGS, initialize the whole bwBorders array to a\n  reasonable value to guarantee correct termination in while loop\n  in lppTransposer function. This fixes the reported bug.\nFor completeness:\n  - clear the whole bwIndex array instead of noOfPatches entries only.\n  - abort criterion in while loop to prevent potential\n    infinite loop, and limit bwIndex[patch] to a valid range.\n\nTest: see bug for malicious content, decoded with \"stagefright -s -a\"\nBug: 65280786\n\nChange-Id: I16ed2e1c0f1601926239a652ca20a91284151843\n(cherry picked from commit 6d3dd40e204bf550abcfa589bd9615df8778e118)",
+  "patch_path": "reports/codejit_extraction_v1/records/358a36d75d79ccc643bc44e4.diff.gz",
+  "diff_bytes": 1327,
+  "diff_sha256": "789d1c828351eb0a33e0a0e28a581014d0881b163c98c326e1bd5234b98637f3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:14.780539+00:00",
+  "url": "https://android.googlesource.com/platform/external/aac"
+}

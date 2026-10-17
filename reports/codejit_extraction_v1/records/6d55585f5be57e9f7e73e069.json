@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "498571354d2c22c192bb80bc79058b70d455b363",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "openvpn: fix heap-overflow error",
+  "patch_path": "reports/codejit_extraction_v1/records/6d55585f5be57e9f7e73e069.diff.gz",
+  "diff_bytes": 1508,
+  "diff_sha256": "182e8435f6793e7190ddc743bf9df562bd70852478cd4e3e8c33a90c4f95e4f5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:15.496434+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

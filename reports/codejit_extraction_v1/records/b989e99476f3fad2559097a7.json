@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "0b0b3a95d025430c83563ee390656901734f9988",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "In the Table object, change the nVCol field to nNVCol - the number of\nnon-virtual columns, as that is the quantity that we need most.\n\nFossilOrigin-Name: 4ad66af04a654d92711d2d056ce8f35cd21eac4b99fb8d78be1a314620b6d29e",
+  "patch_path": "reports/codejit_extraction_v1/records/b989e99476f3fad2559097a7.diff.gz",
+  "diff_bytes": 8287,
+  "diff_sha256": "5d95f6226253aa592d302fefc0a71d84555254cedccb4e85de1cd090b0927392",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:34.655243+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

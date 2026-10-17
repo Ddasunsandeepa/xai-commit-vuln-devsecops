@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "0ddb050474551e3a4888fa865879a6ed2c39893b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a possibility of memory leaks when realloc fails.\nDo not assign the return value of realloc into the variable that has\nthe original pointer because if realloc failed we will lose the chance\nto release the address.",
+  "patch_path": "reports/codejit_extraction_v1/records/8cd63d16abe1213975e0b53c.diff.gz",
+  "diff_bytes": 7654,
+  "diff_sha256": "476a3750513def52edd7f9df87fb34f1c8fffd03ab68da78a7d574f2d1c10492",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:38.770527+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

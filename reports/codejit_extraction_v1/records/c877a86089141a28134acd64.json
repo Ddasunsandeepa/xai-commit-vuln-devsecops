@@ -1,0 +1,16 @@
+{
+  "repo": "01org___tpm2.0-tools",
+  "commit_id": "c5d72beaab1cbbbe68271f4bc4b6670d69985157",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "kdfa: use openssl for hmac not tpm\n\nWhile not reachable in the current code base tools, a potential\nsecurity bug lurked in tpm_kdfa().\n\nIf using that routine for an hmac authorization, the hmac was\ncalculated using the tpm. A user of an object wishing to\nauthenticate via hmac, would expect that the password is never\nsent to the tpm. However, since the hmac calculation relies on\npassword, and is performed by the tpm, the password ends up\nbeing sent in plain text to the tpm.\n\nThe fix is to use openssl to generate the hmac on the host.\n\nFixes: CVE-2017-7524\n\nSigned-off-by: William Roberts <william.c.roberts@intel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c877a86089141a28134acd64.diff.gz",
+  "diff_bytes": 5909,
+  "diff_sha256": "4c397d020f9c3c3d837bfe5dfa6afc44c5b56ddc1de49f08647e2e2e0e521b04",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:36:59.741151+00:00",
+  "url": "https://github.com/01org/tpm2.0-tools.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebookincubator___mvfst",
+  "commit_id": "a67083ff4b8dcbb7ee2839da6338032030d712b0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Close connection if we derive an extra 1-rtt write cipher\n\nSummary: Fixes CVE-2021-24029\n\nReviewed By: mjoras, lnicco\n\nDifferential Revision: D26613890\n\nfbshipit-source-id: 19bb2be2c731808144e1a074ece313fba11f1945",
+  "patch_path": "reports/codejit_extraction_v1/records/c199cbdd583153cf6d481949.diff.gz",
+  "diff_bytes": 1645,
+  "diff_sha256": "9d1952975741470a05fb0ea695a929c40596a39d12e7ce421a7489676c6922ff",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:21.641776+00:00",
+  "url": "https://github.com/facebookincubator/mvfst.git"
+}

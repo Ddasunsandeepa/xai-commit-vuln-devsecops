@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___media",
+  "commit_id": "21532655a531cf1168f10b8b974e2cef3061dd91",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "LP64 fixes for camera_metadata.\n\ncamera_metadata packets are transferred across process\nboundaries with Parcel::readBlob / Parcel::writeBlob calls\nso we should make sure they have a consistent layout across\n32 and 64 bit processes. In this change :\n\n- Replace size_t members with uint32_t members.\n- Remove the \"void*\" user pointer which is no longer required\n\nChange-Id: Ia0eada5d8358be21d725c05d6105705186b3d9c8",
+  "patch_path": "reports/codejit_extraction_v1/records/59189551dcfee61dc87c55d1.diff.gz",
+  "diff_bytes": 14456,
+  "diff_sha256": "1d632c38dc2c59b48628e6d04b323cf9bd6ed5083051b1604f05848daa626f23",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:36.447190+00:00",
+  "url": "https://android.googlesource.com/platform/system/media"
+}

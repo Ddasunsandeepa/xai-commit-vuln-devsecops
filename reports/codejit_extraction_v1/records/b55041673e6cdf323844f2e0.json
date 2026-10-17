@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "553702980ae89c83f2d6e254d62cf82e204956d0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix #492: Potential double-free in gdImage*Ptr()\n\nWhenever `gdImage*Ptr()` calls `gdImage*Ctx()` and the latter fails, we\nmust not call `gdDPExtractData()`; otherwise a double-free would\nhappen.  Since `gdImage*Ctx()` are void functions, and we can't change\nthat for BC reasons, we're introducing static helpers which are used\ninternally.\n\nWe're adding a regression test for `gdImageJpegPtr()`, but not for\n`gdImageGifPtr()` and `gdImageWbmpPtr()` since we don't know how to\ntrigger failure of the respective `gdImage*Ctx()` calls.\n\nThis potential security issue has been reported by Solmaz Salimi (aka.\nRooney).",
+  "patch_path": "reports/codejit_extraction_v1/records/b55041673e6cdf323844f2e0.diff.gz",
+  "diff_bytes": 6859,
+  "diff_sha256": "22502065e79e350d28c27f9f6221066053882594562a8949065c565f065fd396",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:58.392034+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

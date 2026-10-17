@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "6f7fe1dfa05bc3d23574de48d12badd2f46ee89e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug #26752 (Silent unterminated loop when length parameter for\nfgets(), fread() and fgetss() is 0).",
+  "patch_path": "reports/codejit_extraction_v1/records/74d46e60703e0774c02d901f.diff.gz",
+  "diff_bytes": 1206,
+  "diff_sha256": "cc52a5ebf0af14656b45bbbf80869a0224d06f09c479623937ddeedb7a53dbdc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:52.374985+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

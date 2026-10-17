@@ -1,0 +1,16 @@
+{
+  "repo": "sgminer-dev___sgminer",
+  "commit_id": "910c36089940e81fb85c65b8e63dcd2fac71470c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stratum: parse_notify(): Don't die on malformed bbversion/prev_hash/nbit/ntime.\n\nMight have introduced a memory leak, don't have time to check. :(\n\nShould the other hex2bin()'s be checked?\n\nThanks to Mick Ayzenberg <mick.dejavusecurity.com> for finding this.",
+  "patch_path": "reports/codejit_extraction_v1/records/a7c3e36f0d66fcecbd739451.diff.gz",
+  "diff_bytes": 1459,
+  "diff_sha256": "c3e23604cfd33f84c06fa200d4b40e255868f0c2b7741e21dc83b9ddc5ec0f78",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:59.006886+00:00",
+  "url": "https://github.com/sgminer-dev/sgminer.git"
+}

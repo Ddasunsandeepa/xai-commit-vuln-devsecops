@@ -1,0 +1,16 @@
+{
+  "repo": "facebookincubator___fizz",
+  "commit_id": "d99bb003b62f2b2bcf6c884b2527be4ab303da1c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Back out \"Reduce memory usage if multiple records share an iobuf\"\n\nSummary: Original commit changeset: e4d8603462a3\n\nReviewed By: AjanthanAsogamoorthy, lnicco\n\nDifferential Revision: D13937772\n\nfbshipit-source-id: f3f89faad15d5426dc7ca6adbe4d970650109ede",
+  "patch_path": "reports/codejit_extraction_v1/records/76f8171e1e2b107b60076497.diff.gz",
+  "diff_bytes": 12268,
+  "diff_sha256": "c2c647c74824c52089aaac5f6bec1b79531ec31ee94e1bbcded879d292496293",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:21.296293+00:00",
+  "url": "https://github.com/facebookincubator/fizz.git"
+}

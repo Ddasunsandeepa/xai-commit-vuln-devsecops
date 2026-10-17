@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "39e7e177473350b3a5c34e8824af3b98e25efa89",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix param types for mcrypt_get_block_size() to match PHP\n\nReviewed By: edwinsmith\n\nDifferential Revision: D3447281\n\nfbshipit-source-id: a88549307faad886f5a0f78d421aa28e08d21b1c",
+  "patch_path": "reports/codejit_extraction_v1/records/2061bd9b4954eb368560dade.diff.gz",
+  "diff_bytes": 2595,
+  "diff_sha256": "24c9e5a6c30f6f7c137110c61750c0ffb9f6710e3eb754c5918b058b077edb9e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:59.736492+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

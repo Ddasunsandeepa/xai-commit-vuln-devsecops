@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___ngiflib",
+  "commit_id": "cf429e0a2fe26b5f01ce0c8e9b79432e94509b6e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix \"pixel overrun\"\n\nfixes #3",
+  "patch_path": "reports/codejit_extraction_v1/records/1498abf74df039ce93290aeb.diff.gz",
+  "diff_bytes": 1097,
+  "diff_sha256": "c2249cbb0682bc35346c90fd2a43baeaf2cb432b84b95581ccd278a142f79c48",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:08.831118+00:00",
+  "url": "https://github.com/miniupnp/ngiflib.git"
+}

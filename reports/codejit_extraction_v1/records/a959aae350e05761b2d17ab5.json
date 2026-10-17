@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "6c327afb263837bc90760c55c6605b26161a4eb9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Fixed incorrect use of mmco parameters.\n\nAdded extra structure to read mmco values and copied only once per\npicture.\n\nBug: 65735716\n\nChange-Id: I25b08a37bc78342042c52957774b089abce1a54b\n(cherry picked from commit 3c70b9a190875938fc57164d9295a3ec791554df)",
+  "patch_path": "reports/codejit_extraction_v1/records/a959aae350e05761b2d17ab5.diff.gz",
+  "diff_bytes": 1729,
+  "diff_sha256": "5a0101f93509cfbfdab90b88b74123e54e1ffd98d8fb62de7997563e92480dd5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:19.680905+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

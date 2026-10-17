@@ -1,0 +1,16 @@
+{
+  "repo": "akheron___jansson",
+  "commit_id": "8f80c2d83808150724d31793e6ade92749b1faa4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2013-6401: Change hash function, randomize hashes\n\nThanks to Florian Weimer and Eric Sesterhenn for reporting, reviewing\nand testing.",
+  "patch_path": "reports/codejit_extraction_v1/records/d74e7f58f1633370030d83b3.diff.gz",
+  "diff_bytes": 45402,
+  "diff_sha256": "06e3f5568d6d7c36e24d6ae4e32d937709759bf374343e6938224622de19f005",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:14.352680+00:00",
+  "url": "https://github.com/akheron/jansson.git"
+}

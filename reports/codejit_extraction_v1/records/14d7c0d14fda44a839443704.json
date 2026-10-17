@@ -1,0 +1,16 @@
+{
+  "repo": "ruven___iipsrv",
+  "commit_id": "882925b295a80ec992063deffc2a3b0d803c3195",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- Modified TileManager.cc to verify that malloc() has correctly allocated memory.\n- Updated numerical types to std::size_t in RawTile.h, TileManager.cc, KakaduImage.cc, OpenJPEG.cc and Transforms.cc when allocating memory via new to avoid integer overflow - fixes remaining problems identified in https://github.com/ruven/iipsrv/issues/223.",
+  "patch_path": "reports/codejit_extraction_v1/records/14d7c0d14fda44a839443704.diff.gz",
+  "diff_bytes": 6230,
+  "diff_sha256": "732b4a8a8b5d028479c4d7b794bf688a136864f9df5422682c665ce0984f182d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:27.331741+00:00",
+  "url": "https://github.com/ruven/iipsrv.git"
+}

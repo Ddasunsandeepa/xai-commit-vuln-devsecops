@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "22f824feac43d5758f9a70b77f2aca840ba62c3b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix security vulnerability in ICrypto DO NOT MERGE\n\nb/25800375\n\nChange-Id: I03c9395f7c7de4ac5813a1207452aac57aa39484",
+  "patch_path": "reports/codejit_extraction_v1/records/d7450831b6645bef7e28f557.diff.gz",
+  "diff_bytes": 651,
+  "diff_sha256": "1732bc22c3db570dadf3040864a6056c9c811e6ab806a0ed996d65e826e49a52",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:50.421668+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

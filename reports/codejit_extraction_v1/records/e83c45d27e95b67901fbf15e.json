@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "df9f9b1c1c2bbdf7e7083c904200b2d089e1dcfc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix: improve ligatures handling",
+  "patch_path": "reports/codejit_extraction_v1/records/e83c45d27e95b67901fbf15e.diff.gz",
+  "diff_bytes": 12811,
+  "diff_sha256": "690cee66cf1cead5a1517f31b13cf722fd8efda65e5bf455993df14aaf80e125",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:21.764170+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

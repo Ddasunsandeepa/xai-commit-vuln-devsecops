@@ -1,0 +1,16 @@
+{
+  "repo": "sctplab___usrsctp",
+  "commit_id": "790a7a2555aefb392a5a69923f1e9d17b4968467",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve input validation for some parameters having a too small\nreported length.\n\nThanks to Natalie Silvanovich from Google for finding one of these\nissues in the SCTP userland stack and reporting it.",
+  "patch_path": "reports/codejit_extraction_v1/records/ad65ad67db77f20e5624f9bd.diff.gz",
+  "diff_bytes": 1829,
+  "diff_sha256": "822bbc205be0f950374fe1128a01326a0c41e817389122073653917a25c50655",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:40.529515+00:00",
+  "url": "https://github.com/sctplab/usrsctp.git"
+}

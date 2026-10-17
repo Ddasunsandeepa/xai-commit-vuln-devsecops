@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "93d216d37a3f95190ecb9d51cf72f54ea4e04ec7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "dict: K&R formatting cosmetics",
+  "patch_path": "reports/codejit_extraction_v1/records/abd599ec389a60ee1b4fc21d.diff.gz",
+  "diff_bytes": 3369,
+  "diff_sha256": "ddf39bdfed75b7f69348de1ab6f37ab5a0016bc64fb2e7afc300ea6c3e9b694e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:55.661351+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

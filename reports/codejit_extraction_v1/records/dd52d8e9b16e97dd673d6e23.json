@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___fbthrift",
+  "commit_id": "01686e15ec77ccb4d49a77d5bce3a01601e54d64",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Throw on skipping an invalid type.\n\nSummary:\nCertain values (e.g.) T_STOP should not appear as a skip type. Allowing them to\ncan cause thrift to loop unboundedly.\n\nReviewed By: spalamarchuk\n\nDifferential Revision: D15102451\n\nfbshipit-source-id: c08d52f44f37e9c212d3480233ac217105586c9f",
+  "patch_path": "reports/codejit_extraction_v1/records/dd52d8e9b16e97dd673d6e23.diff.gz",
+  "diff_bytes": 459,
+  "diff_sha256": "39b15506289ab0f9e3cde4460baf589f19738a418b046deb036b4e756422d5c6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:21.181904+00:00",
+  "url": "https://github.com/facebook/fbthrift.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "8357ef3f8ffc7d99ef6571350724160de356158b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "proto/detect: workaround dns misdetected as dcerpc\n\nThe DCERPC UDP detection would misfire on DNS with transaction\nID 0x0400. This would happen as the protocol detection engine\ngives preference to pattern based detection over probing parsers for\nperformance reasons.\n\nThis hack/workaround fixes this specific case by still running the\nprobing parser if DCERPC has been detected on UDP. The probing\nparser result will take precedence.\n\nBug #2736.",
+  "patch_path": "reports/codejit_extraction_v1/records/9b4b29191020bc115e3f97b6.diff.gz",
+  "diff_bytes": 1306,
+  "diff_sha256": "e4b1756b2d1714fc57f31001cd102ac128413b0c2a23a6e7c9211971ea8a43e1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:47.332432+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

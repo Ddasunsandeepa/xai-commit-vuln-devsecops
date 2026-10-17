@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "51eb29fa9a2ffe9c5adb9ea25bfbd51992ff16a4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add TYPE_MAGNIFICATION_OVERLAY to isTrustedOverlay\n\nThis fixes a bug where a View with filterTouchesWhenObscured will have\nall touches filtered when in magnification accessibility mode. This is\ndue to magnification being a separate Window over top of the running\nActivity. The method onFilterTouchEventForSecurity in View will then\nalways return false when filterTouchesWhenObscured is enabled on the\nView. By adding the magnification Window to the list of Trusted Overlays\nwe can ensure that touches will work properly with this property\nenabled.\n\nThis corresponds to AOSP change\nI07706588a625682d05da5cb19f401139eb08a54c\n\nChange-Id: Iba095433a1f9045349d1b47a58a33b850ed31c97",
+  "patch_path": "reports/codejit_extraction_v1/records/6774d94e905cc38db74fdd6b.diff.gz",
+  "diff_bytes": 1118,
+  "diff_sha256": "258df6ca35fd04ffcafb609ab1e81fd2c6fd0d69e04542ad81c1af9d4d4357fb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:42.531407+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

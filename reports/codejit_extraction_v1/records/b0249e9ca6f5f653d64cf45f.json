@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "da570e10260f82803311dddbccfc8d389eb74e2c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libvncserver: implement native win32 threading\n\nCloses #3",
+  "patch_path": "reports/codejit_extraction_v1/records/b0249e9ca6f5f653d64cf45f.diff.gz",
+  "diff_bytes": 9852,
+  "diff_sha256": "cff7ef1db833892a48b47245cb3fff794d908bf0f6d975bb4f00075c20bfc327",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:37.801056+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

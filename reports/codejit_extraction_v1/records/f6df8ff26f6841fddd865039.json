@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "d88231e01ec3083fa99363efcd5b049fb1663a6c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Promote QPDF::ObjGen to top-level object QPDFObjGen",
+  "patch_path": "reports/codejit_extraction_v1/records/f6df8ff26f6841fddd865039.diff.gz",
+  "diff_bytes": 44167,
+  "diff_sha256": "52b5343be759932a2a9c606120b7d5f93f02038e93a6176a298e65a0fae0e336",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:37.857903+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

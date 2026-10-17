@@ -1,0 +1,16 @@
+{
+  "repo": "libming___libming",
+  "commit_id": "d50548bb4d335bb9aec8f9bed4750851aafb4b8f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "SWF8:\n        new fillstyle SWFFILL_FOCAL_GRADIENT\nSWFFill:\n        make SWFFill independent of shapes (usefull for morphs)\n        removed get/setIdx\n        calculate and write propper gradient matrix\n        setLeft/RightFillStyle adds fillstyle to the shape if necessary",
+  "patch_path": "reports/codejit_extraction_v1/records/f1a8a667ae9eac89a51b99d7.diff.gz",
+  "diff_bytes": 17957,
+  "diff_sha256": "84e448e0f517a271e647c4313b765ad4dc461c3804767295dc8114e55d6741e7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:07.713809+00:00",
+  "url": "https://github.com/libming/libming.git"
+}

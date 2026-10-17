@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "08f6de7f314ad6b15d34cc5f27c3e737fcd99268",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Treat integer values in window definition ORDER BY clauses as constants, not as references to another expression.\n\nFossilOrigin-Name: 7e4809eadfe99ebfd797a7c63501421021a720bbeed9fba81bebf630c58bb791",
+  "patch_path": "reports/codejit_extraction_v1/records/b70a409a75e1405aaf382a61.diff.gz",
+  "diff_bytes": 77052,
+  "diff_sha256": "f2b01e4ab01f0755f7c8faf387fde13c109b7e53e6deab1698f907b120b03ffb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:31.005219+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

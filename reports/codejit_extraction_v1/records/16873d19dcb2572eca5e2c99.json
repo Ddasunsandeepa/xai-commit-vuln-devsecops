@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxc",
+  "commit_id": "669b632579c213da730c783ad13472fe8835480b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix failed to fallback at lxclock_name\n\nlxclock_name will fallback to /tmp/$(id -u)/lxc$lxcpath/.$lxcname when failed\nto create directories into rundir. But, in currently, lxclock_name returns\nuntill preparing directories under the /tmp, so invoker will fail to get\nthe container lock.  This patch fixes fixes this.\n\nSigned-off-by: Kohei YOSHIDA <kohei.yoshida@gehirn.co.jp>",
+  "patch_path": "reports/codejit_extraction_v1/records/16873d19dcb2572eca5e2c99.diff.gz",
+  "diff_bytes": 1348,
+  "diff_sha256": "425f36eb2e0ea92d29f007e191984559cd7db96ff990f680acc1b5592769821b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:53.182911+00:00",
+  "url": "https://github.com/lxc/lxc.git"
+}

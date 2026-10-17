@@ -1,0 +1,16 @@
+{
+  "repo": "muttmua___mutt",
+  "commit_id": "6aed28b40a0410ec47d40c8c7296d8d10bae7576",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Sanitize POP bcache paths.\n\nProtect against bcache directory path traversal for UID values.\n\nThanks for Jeriko One for the bug report and patch, which this commit\nis based upon.",
+  "patch_path": "reports/codejit_extraction_v1/records/5235d8609a542b3c57a6e1e2.diff.gz",
+  "diff_bytes": 3017,
+  "diff_sha256": "e3ceda5abab8689e1fea6e64fda8824072997b3d3e8693bb4958f3cf45fec258",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:01.899532+00:00",
+  "url": "https://github.com/muttmua/mutt.git"
+}

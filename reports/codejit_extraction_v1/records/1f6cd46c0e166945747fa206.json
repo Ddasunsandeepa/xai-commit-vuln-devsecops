@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "4a59cfaf9ab3d48fca4a15c0d2674bf7138e3d1a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a buffer overrun problem in the QMFB code in the JPC codec\nthat was caused by a buffer being allocated with a size that was too small\nin some cases.\nAdded a new regression test case.",
+  "patch_path": "reports/codejit_extraction_v1/records/1f6cd46c0e166945747fa206.diff.gz",
+  "diff_bytes": 3617,
+  "diff_sha256": "23e24316bc6554902e857eee932bfcfd053347f2c036ba7a42dbd3c729b93558",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:42.183296+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

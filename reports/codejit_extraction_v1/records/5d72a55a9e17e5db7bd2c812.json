@@ -1,0 +1,16 @@
+{
+  "repo": "flori___json",
+  "commit_id": "7fbf4caae104b6010c849f8e1edcd060e95485f4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "some more optimisation",
+  "patch_path": "reports/codejit_extraction_v1/records/5d72a55a9e17e5db7bd2c812.diff.gz",
+  "diff_bytes": 2974,
+  "diff_sha256": "cb835eb96a9a58a22b5bd38119c4ff9d4771484c5155d05433740515123941a9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:21.190872+00:00",
+  "url": "https://github.com/flori/json.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___fbthrift",
+  "commit_id": "ab3a3c54a1dbcd6c5f32e0f027be67a0e5b5b8f2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "support cpp2.ref = shared_const\n\nSummary:\nIn order to support shared const ref which wraps the type T as `std::shared_ptr<const T>`, we need to be able to address recursive declarations of `TypeToInfo<TypeClass, T>`.\n\nThe recursive declarations won't work when we take `std::shared_ptr<const T>::element_type` since we have no specializations of the form `TypeToInfo<TypeClass, const T>`.\n\nThe trick here is to use `std::remove_cv_t` on `::element_type` to normalize the recursive declarations.\n\nFixed up read path when a smart ptr type could have been default constructed to point to nullptr, instead we need to initialize it using `std::make_share|unique` accordingly before reading.\n\nFixed up write path when a smart ptr type could have been default constructed to point to nullptr, we deref non trivial types up front to check for nullptr before writing.\n\nMerged `derefSmartPointer` into `get` function, and `initialize` into `set` function.\n\nRefactored `set` to return the pointer so that we can initialize and use the pointer in one function call.\n\nAdded ThriftValue abstraction to enable `get` function to both deref and get the value in one function call and simplify write path.\n\nAdded unit test.\n\nReviewed By: vitaut\n\nDifferential Revision: D23547634\n\nfbshipit-source-id: a01b074e4db0913631868a44512320c8c7c1869e",
+  "patch_path": "reports/codejit_extraction_v1/records/a30d9373f0577cd86f03e8c6.diff.gz",
+  "diff_bytes": 33151,
+  "diff_sha256": "3e13fc1e43306c2ea8c7839e309cc3f2fb155b9160c9ef336b34cf17776abd57",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:22.268846+00:00",
+  "url": "https://github.com/facebook/fbthrift.git"
+}

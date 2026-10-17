@@ -1,0 +1,16 @@
+{
+  "repo": "knik0___faad2",
+  "commit_id": "720f7004d6c4aabee19aad16e7c456ed76a3ebfa",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Dynamically allocate file name buffers.",
+  "patch_path": "reports/codejit_extraction_v1/records/4835fe67c3e81c3c33191f6d.diff.gz",
+  "diff_bytes": 3110,
+  "diff_sha256": "2d89b4c02c207e10ec2ff554f51b8e7a46945813955263f7922ca0698de9bb3c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:29.934691+00:00",
+  "url": "https://github.com/knik0/faad2.git"
+}

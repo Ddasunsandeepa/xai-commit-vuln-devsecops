@@ -1,0 +1,16 @@
+{
+  "repo": "akrennmair___newsbeuter",
+  "commit_id": "aaa3d370e4a38b6c70e506e067471c33d2d0e55d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix compiler warnings. Closes #430",
+  "patch_path": "reports/codejit_extraction_v1/records/c49a4c58d93c8bbb7ae8a023.diff.gz",
+  "diff_bytes": 8237,
+  "diff_sha256": "7585822b227b35738dc256a5157c0a1753c4cd1fadf3b320b32502690467436f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:15.695636+00:00",
+  "url": "https://github.com/akrennmair/newsbeuter.git"
+}

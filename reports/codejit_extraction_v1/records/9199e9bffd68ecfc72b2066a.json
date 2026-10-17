@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "427002d14fbb4d42c30d38b5812e40142c96ff98",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Reworked protocol handling chnging it is u_int16_t",
+  "patch_path": "reports/codejit_extraction_v1/records/9199e9bffd68ecfc72b2066a.diff.gz",
+  "diff_bytes": 526843,
+  "diff_sha256": "74f17b493052217f245d8129e77808eb3cbcff8128139b8b7aac5884cf794b80",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:13.675424+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "1f45ae6f0bb488e8c136108331feeb49e13ab01a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Initial cleanup of ObjectData\n\nSummary: * Moves all inline ObjectData methods out of object-data.h, and into\n  object-data-inl.h\n\n* Renames implementsIterator() to isIterator() to match is*Collection().\n\n* Gets rid of the o_ prefix on o_getClassName(), o_getId(), and o_instanceof().\n\n* Deletes a few unnecessary methods such as getAttributes(), setAttributes().\n\nReviewed By: @edwinsmith\n\nDifferential Revision: D1707226\n\nSignature: t1:1707226:1417042506:3be85673baf9cd215b506fbf52533733ac9d4c96",
+  "patch_path": "reports/codejit_extraction_v1/records/4c3c667e33b277c519b9e781.diff.gz",
+  "diff_bytes": 54066,
+  "diff_sha256": "1987c9f57402d311d6aa806dc25ac1cac242cd8e50861ecd4c95a21a2cf97159",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:43.189912+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "46a2f17c7df192c0ca662f6c63a3b407df890c40",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "extstore: don't start with UDP support\n\nalso fixes a bug where setting -U 0 would disable TCP automatically...\nand vice versa.",
+  "patch_path": "reports/codejit_extraction_v1/records/313298659742ab905dc044b6.diff.gz",
+  "diff_bytes": 4028,
+  "diff_sha256": "50c9d46eb9d5a576e8b8c1a9c9c458f27141a77d502dd095a376cdb114d092e3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:50.419293+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

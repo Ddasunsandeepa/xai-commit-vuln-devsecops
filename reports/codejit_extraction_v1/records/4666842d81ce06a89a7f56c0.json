@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "8c3b329da21a05a977b21d1a3ad3ed8ce72f997b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avcodec/h264_slice: don't sync default_ref[] between threads.\n\ndefault_ref[] is unconditionally initialized in h264_initialise_ref_list()\n(called from ff_h264_build_ref_list(), called from h264_slice_init()).\n\nThis fixes the following tsan warning when running fate-h264:\n\nWARNING: ThreadSanitizer: data race (pid=31070)\n  Write of size 8 at 0x7bbc000082a8 by thread T1 (mutexes: write M1628):\n    #0 memcpy /work/release-test/final/llvm.src/projects/compiler-rt/lib/tsan/../sanitizer_common/sanitizer_common_interceptors.inc:655:5\n(ffmpeg+0x10de9d)\n    #1 h264_initialise_ref_list ffmpeg/libavcodec/h264_refs.c:214:29 (ffmpeg+0x1186b3f)\n    #2 ff_h264_build_ref_list ffmpeg/libavcodec/h264_refs.c:306 (ffmpeg+0x1186b3f)\n    #3 h264_slice_init ffmpeg/libavcodec/h264_slice.c:1900:11 (ffmpeg+0x1191149)\n[..]\n  Previous read of size 8 at 0x7bbc000082a8 by main thread (mutexes:\nwrite M1630):\n    #0 memcpy /work/release-test/final/llvm.src/projects/compiler-rt/lib/tsan/../sanitizer_common/sanitizer_common_interceptors.inc:655:5\n(ffmpeg+0x10de9d)\n    #1 ff_h264_update_thread_context ffmpeg/libavcodec/h264_slice.c:411:5 (ffmpeg+0x118b7dc)\n\nSigned-off-by: Wan-Teh Chang <wtc@google.com>\nSigned-off-by: Ronald S. Bultje <rsbultje@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/4666842d81ce06a89a7f56c0.diff.gz",
+  "diff_bytes": 571,
+  "diff_sha256": "9551d024e061526c874e61cb1e654a8bb968fb0e2fe6bf1d1fe64668364a74f9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:52.426663+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

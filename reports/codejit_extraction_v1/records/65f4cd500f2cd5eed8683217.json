@@ -1,0 +1,16 @@
+{
+  "repo": "mumble-voip___mumble",
+  "commit_id": "fa3529fb088f7d25d109da4ee0784ad08886383f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Import/export of overlay settings",
+  "patch_path": "reports/codejit_extraction_v1/records/65f4cd500f2cd5eed8683217.diff.gz",
+  "diff_bytes": 21862,
+  "diff_sha256": "6e84b4d087250d8470c1d8af1fe1d39a915e29062cc2f7529f8ecc82dcf10d22",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:59.182777+00:00",
+  "url": "https://github.com/mumble-voip/mumble.git"
+}

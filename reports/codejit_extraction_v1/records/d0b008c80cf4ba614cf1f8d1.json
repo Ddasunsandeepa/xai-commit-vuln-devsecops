@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libvpx",
+  "commit_id": "063be1485e0099bc81ace3a08b0ec9186dcad693",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE | libvpx: Cherry-pick 0f42d1f from upstream\n\nDescription from upstream:\nvp8: fix decoder crash with invalid leading keyframes\n\ndecoding the same invalid keyframe twice would result in a crash as the\nsecond time through the decoder would be assumed to have been\ninitialized as there was no resolution change. in this case the\nresolution was itself invalid (0x6), but vp8_peek_si() was only failing\nin the case of 0x0.\ninvalid-vp80-00-comprehensive-018.ivf.2kf_0x6.ivf tests this case by\nduplicating the first keyframe and additionally adds a valid one to\nensure decoding can resume without error.\n\nBug: 30593765\nChange-Id: I0de85f5a5eb5c0a5605230faf20c042b69aea507\n(cherry picked from commit fc0466b695dce03e10390101844caa374848d903)\n(cherry picked from commit 1114575245cb9d2f108749f916c76549524f5136)",
+  "patch_path": "reports/codejit_extraction_v1/records/d0b008c80cf4ba614cf1f8d1.diff.gz",
+  "diff_bytes": 1154,
+  "diff_sha256": "d9092d7c1790357056eb7243da7c0f2580358390035021dbee9cbc7ffdbbacfc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:31.402234+00:00",
+  "url": "https://android.googlesource.com/platform/external/libvpx"
+}

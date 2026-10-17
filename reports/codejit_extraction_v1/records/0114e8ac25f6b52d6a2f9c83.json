@@ -1,0 +1,16 @@
+{
+  "repo": "akrennmair___newsbeuter",
+  "commit_id": "c8fea2f60c18ed30bdd1bb6f798e994e51a58260",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Work around shell code in podcast names (#598)",
+  "patch_path": "reports/codejit_extraction_v1/records/0114e8ac25f6b52d6a2f9c83.diff.gz",
+  "diff_bytes": 991,
+  "diff_sha256": "6ca91ca889ed3be149eee88c048c2d22462db3854f6e6e2d3a893d5cbb7311ac",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:16.048022+00:00",
+  "url": "https://github.com/akrennmair/newsbeuter.git"
+}

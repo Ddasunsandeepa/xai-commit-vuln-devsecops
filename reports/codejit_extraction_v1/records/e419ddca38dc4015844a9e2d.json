@@ -1,0 +1,16 @@
+{
+  "repo": "ccxvii___mujs",
+  "commit_id": "fea0707d208c05f55b4d23392d261695ce22fa25",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support 'radix' argument for Number.prototype.toString.\n\nThe conversion is not very accurate, but should work well enough\nfor most purposes.",
+  "patch_path": "reports/codejit_extraction_v1/records/e419ddca38dc4015844a9e2d.diff.gz",
+  "diff_bytes": 2634,
+  "diff_sha256": "561a9f6da9a6aa4e3ca2abc7b247986a9669daa405fd4813b3627acbcafeef1e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:59.853427+00:00",
+  "url": "https://github.com/ccxvii/mujs.git"
+}

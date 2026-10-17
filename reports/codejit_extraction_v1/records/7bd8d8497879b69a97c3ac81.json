@@ -1,0 +1,16 @@
+{
+  "repo": "qbittorrent___qbittorrent",
+  "commit_id": "6ca3e4f094da0a0017cb2d483ec1db6176bb0b16",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add Utils::String::toHtmlEscaped",
+  "patch_path": "reports/codejit_extraction_v1/records/7bd8d8497879b69a97c3ac81.diff.gz",
+  "diff_bytes": 6591,
+  "diff_sha256": "32b0b2306c227f54cd94b34c110d2723e7bea416eecadb29bbab4acab509dd1d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:17.253504+00:00",
+  "url": "https://github.com/qbittorrent/qbittorrent.git"
+}

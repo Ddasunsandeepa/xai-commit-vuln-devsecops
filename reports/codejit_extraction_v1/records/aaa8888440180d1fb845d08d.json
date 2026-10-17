@@ -1,0 +1,16 @@
+{
+  "repo": "mariadb-corporation___mariadb-connector-c",
+  "commit_id": "2759b87d72926b7c9b5426437a7c8dd15ff57945",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "sanity checks for client-supplied OK packet content\n\nreported by Matthias Kaiser, Apple Information Security",
+  "patch_path": "reports/codejit_extraction_v1/records/aaa8888440180d1fb845d08d.diff.gz",
+  "diff_bytes": 6179,
+  "diff_sha256": "d7323ec4952e6a8e4c9e34dbe6b8487bf47b1063344273dfd1b0d602f2ff17cf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:59.807986+00:00",
+  "url": "https://github.com/mariadb-corporation/mariadb-connector-c.git"
+}

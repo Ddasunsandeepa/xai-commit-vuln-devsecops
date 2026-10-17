@@ -1,0 +1,16 @@
+{
+  "repo": "academysoftwarefoundation___openexr",
+  "commit_id": "11cad77da87c4fa2aab7d58dd5339e254db7937e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "enforce xSampling/ySampling==1 in CompositeDeepScanLine (#1209)\n\nSigned-off-by: Peter Hillman <peterh@wetafx.co.nz>",
+  "patch_path": "reports/codejit_extraction_v1/records/e3dd8d8f2738e649f198b2db.diff.gz",
+  "diff_bytes": 946,
+  "diff_sha256": "557c4c5d823fb297f8e44e36d0af6665d91c6e20447d07dd454b1c489413d367",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:01.714896+00:00",
+  "url": "https://github.com/academysoftwarefoundation/openexr.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "9fe27a9b445f7e911286ed31c1087ceac567736b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add bound check for rfc_parse_data\n\nBug: 78288018\nTest: manual\nChange-Id: I44349cd22c141483d01bce0f5a2131b727d0feb0\n(cherry picked from commit 6039cb7225733195192b396ad19c528800feb735)",
+  "patch_path": "reports/codejit_extraction_v1/records/61e5f9f33e28390c09582d75.diff.gz",
+  "diff_bytes": 1604,
+  "diff_sha256": "582e96b1bd242efb24dfa2014fd58c4f6b22822886c2bd7e8eab7ed7de2cd884",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:19.716892+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

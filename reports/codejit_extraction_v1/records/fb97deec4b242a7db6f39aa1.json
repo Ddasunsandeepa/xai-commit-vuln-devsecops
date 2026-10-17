@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "e87ee58da81e1f9ab3d54b425f76d2dedf43be51",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Parse raw address string in VariableUnserializer::matchString\n\nSummary: For APC serialization, if the string is a static string, instead of recording the contents of the string, we just record the raw memory address of this string. This diff makes it so that `matchString` function can read this format, hence preventing it from punting to the slower path.\n\nReviewed By: markw65\n\nDifferential Revision: D15529273\n\nfbshipit-source-id: 21d50d4e91e514ab24ae9849fd58e3ce9c04a6b2",
+  "patch_path": "reports/codejit_extraction_v1/records/fb97deec4b242a7db6f39aa1.diff.gz",
+  "diff_bytes": 2591,
+  "diff_sha256": "c316ecf2edd4918269333bf1839fb43ac608b0a99fa1755ad1fd81f6fa36889d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:05.929304+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

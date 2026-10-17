@@ -1,0 +1,16 @@
+{
+  "repo": "keithw___mosh",
+  "commit_id": "07d4aedcaa43e48e5d674fd0ac036726e87cc2c9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Construct dispatch registry on first use to avoid static init order crash",
+  "patch_path": "reports/codejit_extraction_v1/records/caef9a33d3de8cebd2f1af70.diff.gz",
+  "diff_bytes": 2308,
+  "diff_sha256": "3c6683d477e544e83d548f7c1f6624fc0fedbd9239e1c280c321870fe4601350",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:25.386215+00:00",
+  "url": "https://github.com/keithw/mosh.git"
+}

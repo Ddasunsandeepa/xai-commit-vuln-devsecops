@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "d77f1999ecece56c1cbb333f4ddc26f0b5bac2c5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix crashes with lots of discovered LE devices\n\nWhen loads of devices are discovered a config file which is too large\ncan be written out, which causes the BT daemon to crash on startup.\n\nThis limits the number of config entries for unpaired devices which\nare initialized, and prevents a large number from being saved to the\nfilesystem.\n\nBug: 26071376\nChange-Id: I4a74094f57a82b17f94e99a819974b8bc8082184",
+  "patch_path": "reports/codejit_extraction_v1/records/63ef04dc3a3f43dc8501e066.diff.gz",
+  "diff_bytes": 4676,
+  "diff_sha256": "3ac5d8d07b22f19b38fbc1b74f9c60047ef19aa3c44930e8295e6056d0f55bda",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:22.848147+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

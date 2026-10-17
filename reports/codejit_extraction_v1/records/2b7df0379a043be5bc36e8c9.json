@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "c1c4bb0cf9e076aafaf4ff3515556ef9faf906f3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2020-1900\n\nPre-reserve object dynamic properties when unserializing",
+  "patch_path": "reports/codejit_extraction_v1/records/2b7df0379a043be5bc36e8c9.diff.gz",
+  "diff_bytes": 1278,
+  "diff_sha256": "3e838848c9a83cc5ac85283aef53ee589faf5049f990091da0eccc034bc0a9fd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:54.782197+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

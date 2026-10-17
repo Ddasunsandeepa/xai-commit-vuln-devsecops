@@ -1,0 +1,16 @@
+{
+  "repo": "rizinorg___rizin",
+  "commit_id": "aa6917772d2f32e5a7daab25a46c72df0b5ea406",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix oob write for dwarf with abbrev with count 0 (Fix #2083) (#2086)",
+  "patch_path": "reports/codejit_extraction_v1/records/4ef2ebf83fa115050e9e62a0.diff.gz",
+  "diff_bytes": 2846,
+  "diff_sha256": "2bade4e582821bd9d53284982cd913389555615ae772cde8cac51a84d504e8ec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:16.306291+00:00",
+  "url": "https://github.com/rizinorg/rizin.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "keepkey___keepkey-firmware",
+  "commit_id": "15c27a4bf523b2883b61c8e90b77b91d5faec0e4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "uniswap add liquidity and approve liquid txs work",
+  "patch_path": "reports/codejit_extraction_v1/records/576b26a39713d913fd5953ff.diff.gz",
+  "diff_bytes": 18450,
+  "diff_sha256": "bc575a5379a2337a53219a22d880ac0eb78220c50992323d6898da74bf430597",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:24.408033+00:00",
+  "url": "https://github.com/keepkey/keepkey-firmware.git"
+}

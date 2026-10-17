@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "33cc2cfa51a8d0fc3116d16cc1d8fc581b3f9e8d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "The RCT and ICT require at least three components.\nPreviously, this was enforced with an assertion.\nNow, the assertion has been replaced with a proper error check.",
+  "patch_path": "reports/codejit_extraction_v1/records/28eb8ccc243ef46dcc6d5923.diff.gz",
+  "diff_bytes": 1170,
+  "diff_sha256": "9ae593a603c3b03d19d17c442026cce6ae15b20a3958fd67d8df5dc8277af227",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:40.667375+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

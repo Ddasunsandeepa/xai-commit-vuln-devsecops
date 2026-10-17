@@ -1,0 +1,16 @@
+{
+  "repo": "troglobit___ssdp-responder",
+  "commit_id": "ce04b1f29a137198182f60bbb628d5ceb8171765",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix #1: Ensure recv buf is always NUL terminated\n\nSigned-off-by: Joachim Nilsson <troglobit@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/18802196491b2d7bc6174f60.diff.gz",
+  "diff_bytes": 506,
+  "diff_sha256": "7eecc9b150f188e9ad17f5965020ad6169bff7a3f3d99df17eafe85d4ab1a938",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:11.067099+00:00",
+  "url": "https://github.com/troglobit/ssdp-responder.git"
+}

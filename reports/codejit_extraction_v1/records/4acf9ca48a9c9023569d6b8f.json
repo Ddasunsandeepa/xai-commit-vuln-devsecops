@@ -1,0 +1,16 @@
+{
+  "repo": "qbittorrent___qbittorrent",
+  "commit_id": "9bdd26de43d95e62007920e5914335e590f206a9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Simplify Log::Msg and Log::Peer\n\nAlso fixes some unitialized scalar field bugs.",
+  "patch_path": "reports/codejit_extraction_v1/records/4acf9ca48a9c9023569d6b8f.diff.gz",
+  "diff_bytes": 2013,
+  "diff_sha256": "5d06d5892c679c613b848668c6f21e14085d89aa98c6571a8492339ba59dad8b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:19.745411+00:00",
+  "url": "https://github.com/qbittorrent/qbittorrent.git"
+}

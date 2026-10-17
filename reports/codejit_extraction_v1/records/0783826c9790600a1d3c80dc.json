@@ -1,0 +1,16 @@
+{
+  "repo": "serenityos___serenity",
+  "commit_id": "0538dc4e28966fb789dd028f6e34d06525169ed3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "LibTextCodec: Add a simple UTF-16BE decoder",
+  "patch_path": "reports/codejit_extraction_v1/records/0783826c9790600a1d3c80dc.diff.gz",
+  "diff_bytes": 2294,
+  "diff_sha256": "0234c623ac625c447d6fe8286ab32de16d4ee1a7451feabf6c83abf7e599ee84",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:46.900644+00:00",
+  "url": "https://github.com/serenityos/serenity.git"
+}

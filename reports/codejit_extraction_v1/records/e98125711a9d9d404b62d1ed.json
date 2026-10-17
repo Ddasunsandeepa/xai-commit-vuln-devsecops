@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "21eeea2cee7ddcbf2b2c7fa10a90408f72823a3b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "codec: Fix broken reallocs",
+  "patch_path": "reports/codejit_extraction_v1/records/e98125711a9d9d404b62d1ed.diff.gz",
+  "diff_bytes": 3565,
+  "diff_sha256": "a2ad35802f93639170d2ca3f75e3ddbc99ed0c0b8abac04cbbbab796326f440c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:31.870209+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

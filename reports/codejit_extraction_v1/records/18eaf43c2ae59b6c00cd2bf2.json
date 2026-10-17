@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "e59c562b3f6894f84c715772c4b116d7b5c01348",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a crash that could occur if a sub-select that uses both DISTINCT and window functions also used an ORDER BY that is the same as its select list.\n\nFossilOrigin-Name: bcdd66c1691955c697f3d756c2b035acfe98f6aad72e90b0021bab6e9023b3ba",
+  "patch_path": "reports/codejit_extraction_v1/records/18eaf43c2ae59b6c00cd2bf2.diff.gz",
+  "diff_bytes": 4411,
+  "diff_sha256": "1dc2367d9fe425ba509f2ced31672683bff3d8eec956ca2dea865e1a1db25951",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:21.804562+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

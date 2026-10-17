@@ -1,0 +1,16 @@
+{
+  "repo": "sigil-ebook___sigil",
+  "commit_id": "0979ba8d10c96ebca330715bfd4494ea0e019a8f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "harden plugin unzipping to zip-slip attacks",
+  "patch_path": "reports/codejit_extraction_v1/records/4650465206e8342ad5ada7a4.diff.gz",
+  "diff_bytes": 3313,
+  "diff_sha256": "dc73ddfff207c71a2c46884f704b4d1a69dd7bd40d6c9cfd58ee0e353dfd2ed0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:03.847676+00:00",
+  "url": "https://github.com/sigil-ebook/sigil.git"
+}

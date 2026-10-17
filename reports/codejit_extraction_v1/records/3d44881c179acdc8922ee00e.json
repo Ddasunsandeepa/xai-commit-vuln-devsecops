@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "beacc44eb8cdf6d58717ec1a5103c5141f1b37f9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check for multiplication overflow in MSADPCM decodeSample\n\nCheck for multiplication overflow (using __builtin_mul_overflow\nif available) in MSADPCM.cpp decodeSample and return an empty\ndecoded block if an error occurs.\n\nThis fixes the 00193-audiofile-signintoverflow-MSADPCM case of #41",
+  "patch_path": "reports/codejit_extraction_v1/records/3d44881c179acdc8922ee00e.diff.gz",
+  "diff_bytes": 3151,
+  "diff_sha256": "f35f11a1a2b073dd69e5e735afb69d0d1a5d25207c760c42181091e6f9ab543a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:30.049612+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

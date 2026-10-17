@@ -1,0 +1,16 @@
+{
+  "repo": "bitlbee___bitlbee",
+  "commit_id": "30d598ce7cd3f136ee9d7097f39fa9818a272441",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "purple: Fix crash on ft requests from unknown contacts\n\nFollowup to 701ab81 (included in 3.5) which was a partial fix which only\nimproved things for non-libpurple file transfers (that is, just jabber)",
+  "patch_path": "reports/codejit_extraction_v1/records/a48bf525d46b255d39daa028.diff.gz",
+  "diff_bytes": 534,
+  "diff_sha256": "3f62117ba2a80d782ab3dbff409d7f0fff612f8be33ddd6be6d46348ca898450",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:23.407011+00:00",
+  "url": "https://github.com/bitlbee/bitlbee.git"
+}

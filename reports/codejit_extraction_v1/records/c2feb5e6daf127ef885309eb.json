@@ -1,0 +1,16 @@
+{
+  "repo": "open-iscsi___tcmu-runner",
+  "commit_id": "438b7f52ff6a8d1f1a892a3e1b43df4a22b842fd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid free of uninitialized ptr\n\nIf glfs_check_config() is called with a cfgstring that doesn't have '/'\nthen it can lead to crash as ptr 'hosts' is not initialized to NULL.\nFixing that in this commit.\n\nSigned-off-by: Pranith Kumar K <pkarampu@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c2feb5e6daf127ef885309eb.diff.gz",
+  "diff_bytes": 411,
+  "diff_sha256": "a8af9dcb1c801cc0e996964d3df1505a10c4ff68d97af34f4035f9dd23b832fd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:22.939073+00:00",
+  "url": "https://github.com/open-iscsi/tcmu-runner.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ccxvii___mujs",
+  "commit_id": "22430de3a9bd077deea6d5854751d81ca97fb424",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix creation of empty regular expressions.\n\nHandle empty regular expressions in RegExp compiler asserts.\n\nAlso turn them into /(?:)/ on the JS side, so they can be printed\nback as valid JS syntax where // is a comment, not a regular expression.",
+  "patch_path": "reports/codejit_extraction_v1/records/cd6a29ba416e024b209b3b9f.diff.gz",
+  "diff_bytes": 1191,
+  "diff_sha256": "1bd677dfb0e6104676750579300b1d9559551e5af5ce6fc5c19f85ef861032f4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:58.892259+00:00",
+  "url": "https://github.com/ccxvii/mujs.git"
+}

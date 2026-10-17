@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___audio",
+  "commit_id": "7106b08ee43b84978e370b9c25e89f1ed7bfbf0d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE - volume_listener: fix release\n\nuse safe iteration of list when removing node.\n\nBug: 23731264\nChange-Id: I6d0c51638b6a3de684cf595833dc4d0fc7e8c8b5\n(cherry picked from commit 591ef60fb95d863cb8f3a3923d59bc36c8cd4b8c)",
+  "patch_path": "reports/codejit_extraction_v1/records/43107f70c2d78563da81a592.diff.gz",
+  "diff_bytes": 1077,
+  "diff_sha256": "ba4d3b59e66712b161b11d688eb00188ed706f46fd7074a079e99f0b1000a447",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:56.822433+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/audio"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "dovecot___core",
+  "commit_id": "1a29ed2f96da1be22fa5a4d96c7583aa81b8b060",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lib-auth: Fix memory leak in auth_client_request_abort()\n\nThis caused memory leaks when authentication was aborted. For example\nwith IMAP:\n\na AUTHENTICATE PLAIN\n*\n\nBroken by 9137c55411aa39d41c1e705ddc34d5bd26c65021",
+  "patch_path": "reports/codejit_extraction_v1/records/8df6b7f3a255fab97d758555.diff.gz",
+  "diff_bytes": 530,
+  "diff_sha256": "c5403d9b590a9dee814f2e47c3a553241a7c8c9e7fe09bac21c8f7faaab395b9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:14.693329+00:00",
+  "url": "https://github.com/dovecot/core.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "muttmua___mutt",
+  "commit_id": "e154cba1b3fc52bb8cb8aa846353c0db79b5d9c6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ensure UID in fetch_uidl.",
+  "patch_path": "reports/codejit_extraction_v1/records/31ed86a089b78d5856e94c99.diff.gz",
+  "diff_bytes": 395,
+  "diff_sha256": "eed68c0d57775ec76e6921789fb43b24c3058b86a00f2b563e0ceaadfeae70d9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:03.863134+00:00",
+  "url": "https://github.com/muttmua/mutt.git"
+}

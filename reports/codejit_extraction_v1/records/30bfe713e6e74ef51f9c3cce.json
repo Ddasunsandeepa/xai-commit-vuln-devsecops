@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "e8a1ca20352f14bf3b527bb1f148610fc1fb5247",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed compilation of websockets on system where there is no implementation of base64 functions.",
+  "patch_path": "reports/codejit_extraction_v1/records/30bfe713e6e74ef51f9c3cce.diff.gz",
+  "diff_bytes": 16294,
+  "diff_sha256": "77cbf1454117a5308acd398badcf59cb45838aacb62a4129433ff15619d2b600",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:38.237416+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

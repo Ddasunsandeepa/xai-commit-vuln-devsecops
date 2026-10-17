@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "81df1cc77722000f8d0025c1ab00ced123aa573c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't create tombstone directory.\n\nPartial backport of cf79748.\n\nBug: http://b/26403620\nChange-Id: Ib877ab6cfab6aef079830c5a50ba81141ead35ee",
+  "patch_path": "reports/codejit_extraction_v1/records/5bc9bad156497fe922e275fc.diff.gz",
+  "diff_bytes": 1048,
+  "diff_sha256": "183f29a708b441c49045fffe6249266294f8a1f42423146eca7910446bfcaafd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:31.387384+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

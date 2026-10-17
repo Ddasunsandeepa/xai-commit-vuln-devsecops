@@ -1,0 +1,16 @@
+{
+  "repo": "ettercap___ettercap",
+  "commit_id": "4ef3ede30181eca9add74305ad26dbcb0c3686a0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "More changes to mitigate:\nCVE-2010-3843\nCVE-2010-3844",
+  "patch_path": "reports/codejit_extraction_v1/records/3c4c223dd84251826d1ac7e1.diff.gz",
+  "diff_bytes": 1227,
+  "diff_sha256": "517cd4939752b0f5f8a79a3d174f0b626362980f0760c46dd785252867b7e2f2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:14.444546+00:00",
+  "url": "https://github.com/ettercap/ettercap.git"
+}

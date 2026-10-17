@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "f301cff2c1ddd880d9a2c77b22602a137519867b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check for Valid Frame Rate in Header\n\nBug: 34093952\nChange-Id: I9f009edda84555e8d14b138684a38114fb888bf8\n(cherry picked from commit 3f068a4e66cc972cf798c79a196099bd7d3bfceb)",
+  "patch_path": "reports/codejit_extraction_v1/records/535e70d6f32dc3e4f7e56739.diff.gz",
+  "diff_bytes": 1267,
+  "diff_sha256": "e9a37f083085b18b10a997452a46d1c7a17cc63c89bcc913e19335d24dcdd687",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:30.304528+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

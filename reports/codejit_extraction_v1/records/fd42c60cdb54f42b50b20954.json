@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "1d748d418caa9e0566347ad0d3a6b76f4fe80de6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Backport fix for CVE-2011-2202\n\nSummary: Backported fix for file path injection. The code tries to strip all path components from the\nfilename, ( e.g. /abc/def/foobar -> foobar)  but filnames could include a single (back)slash in the\nbeginning, which the code wouldn't strip due to an off-by-one error. (e.g. /vmlinuz -> /vmlinuz)\n\nUpstream commit: http://svn.php.net/viewvc/php/php-src/branches/PHP_5_3/main/rfc1867.c?r1=312103&r2=312102&pathrev=312103\n\nReviewed By: @bertmaher\n\nDifferential Revision: D1303154",
+  "patch_path": "reports/codejit_extraction_v1/records/fd42c60cdb54f42b50b20954.diff.gz",
+  "diff_bytes": 831,
+  "diff_sha256": "bc6c7e8b0fcd9cae07688d28cd465b2c1f4c8e2a357bc1315c3986128627ab7d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:39.876350+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

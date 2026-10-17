@@ -1,0 +1,16 @@
+{
+  "repo": "madler___zlib",
+  "commit_id": "d1d577490c15a0c6862473d7576352a9f18ef811",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid pre-decrement of pointer in big-endian CRC calculation.\n\nThere was a small optimization for PowerPCs to pre-increment a\npointer when accessing a word, instead of post-incrementing. This\nrequired prefacing the loop with a decrement of the pointer,\npossibly pointing before the object passed. This is not compliant\nwith the C standard, for which decrementing a pointer before its\nallocated memory is undefined. When tested on a modern PowerPC\nwith a modern compiler, the optimization no longer has any effect.\nDue to all that, and per the recommendation of a security audit of\nthe zlib code by Trail of Bits and TrustInSoft, in support of the\nMozilla Foundation, this \"optimization\" was removed, in order to\navoid the possibility of undefined behavior.",
+  "patch_path": "reports/codejit_extraction_v1/records/c3fe124e3fc380b61cabf231.diff.gz",
+  "diff_bytes": 919,
+  "diff_sha256": "ae3645b3aa6ea83dea55cb62e5f254ab00fb0c4875deba41938132a21560bddd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:56.303755+00:00",
+  "url": "https://github.com/madler/zlib.git"
+}

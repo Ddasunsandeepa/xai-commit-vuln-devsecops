@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "289ade165e60b5f71734d30e535f16eb1f4313ad",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Split BufferQueue into core + producer + consumer\n\nChange-Id: Idc39f1e511d68ce4f02202d35425a419bc0bcd92",
+  "patch_path": "reports/codejit_extraction_v1/records/98013692829f7a04422b0c58.diff.gz",
+  "diff_bytes": 86099,
+  "diff_sha256": "ee8dda9fbb2c022d9b8b1866610763162de704f533ba133ef99842ee19ce1c62",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:37.773300+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

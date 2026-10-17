@@ -1,0 +1,16 @@
+{
+  "repo": "stedolan___jq",
+  "commit_id": "8eb1367ca44e772963e704a700ef72ae2e12babd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Heap buffer overflow in tokenadd() (fix #105)\n\nThis was an off-by one: the NUL terminator byte was not allocated on\nresize.  This was triggered by JSON-encoded numbers longer than 256\nbytes.",
+  "patch_path": "reports/codejit_extraction_v1/records/664885701b150ffc2d53b893.diff.gz",
+  "diff_bytes": 806,
+  "diff_sha256": "703b56783828640e492612c3b2e8f60ebb5234bb75b8dbf71eb6650e8267ab3a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:38.078140+00:00",
+  "url": "https://github.com/stedolan/jq.git"
+}

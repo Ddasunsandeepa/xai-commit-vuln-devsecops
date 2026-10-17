@@ -1,0 +1,16 @@
+{
+  "repo": "teeworlds___teeworlds",
+  "commit_id": "b939d3822882c5061f5e3ddfb3fc3b13b116fe24",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "made the client check for valid address on connectionless packets from master/version server",
+  "patch_path": "reports/codejit_extraction_v1/records/557605d814594a59d1f1b340.diff.gz",
+  "diff_bytes": 33424,
+  "diff_sha256": "533979c8ba28f51a30f34b3307da87251af2eadf057c80fcba5b1bdacaeee143",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:51.003022+00:00",
+  "url": "https://github.com/teeworlds/teeworlds.git"
+}

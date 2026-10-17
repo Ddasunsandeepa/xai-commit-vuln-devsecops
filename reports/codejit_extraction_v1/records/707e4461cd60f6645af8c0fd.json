@@ -1,0 +1,16 @@
+{
+  "repo": "randombit___botan",
+  "commit_id": "2cfa191a940b7b884f24d23d94227ff382c672b4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add EC_Group::inverse_mod_order\n\nCentralizing this logic allows curve specific implementations such\nas using a precomputed ladder for exponentiating by p - 2\n\nGH #1479",
+  "patch_path": "reports/codejit_extraction_v1/records/707e4461cd60f6645af8c0fd.diff.gz",
+  "diff_bytes": 4723,
+  "diff_sha256": "7f4ab7761ac2308c2f34d786ef65b1fc0d62259f0ab34dd6e27b74962672c18a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:01.294774+00:00",
+  "url": "https://github.com/randombit/botan.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "01c61f8ab110a77ae64b5ca67c244c728c506f03",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Proper fix for #248",
+  "patch_path": "reports/codejit_extraction_v1/records/1bb757e74660e28869f3297d.diff.gz",
+  "diff_bytes": 2591,
+  "diff_sha256": "3c1569fc6040fa4871b43e4c8e518c646f4a54b7f54a38d4454b13290048e22b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:51.808775+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

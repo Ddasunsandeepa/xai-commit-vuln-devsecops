@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "514139f4b40cbb035bb92f3e24d5a389d75db9e6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE btif: check overflow on create_pbuf size\n\nBug: 27930580\nChange-Id: Ieb1f23f9a8a937b21f7c5eca92da3b0b821400e6",
+  "patch_path": "reports/codejit_extraction_v1/records/c56ff330b9febcb524d4c194.diff.gz",
+  "diff_bytes": 887,
+  "diff_sha256": "871d77766e4f5169b9698aae80da763c55c93d359399d1182701e6c46828e091",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:13.003127+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "serenityos___serenity",
+  "commit_id": "0fc24fe2564736689859e7edfa177a86dac36bf9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Kernel: User pointer validation should reject kernel-only addresses\n\nWe were happily allowing syscalls with pointers into kernel-only\nregions (virtual address >= 0xc0000000).\n\nThis patch fixes that by only considering user regions in the current\nprocess, and also double-checking the Region::is_user_accessible() flag\nbefore approving an access.\n\nThanks to Fire30 for finding the bug! :^)",
+  "patch_path": "reports/codejit_extraction_v1/records/2a8ad03b54ce4e33c0d98385.diff.gz",
+  "diff_bytes": 1052,
+  "diff_sha256": "ff2f24ece2cf3cba01b1d1de21c4067cd75803d712a0cfd1e8f8929d7c7b4537",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:48.663437+00:00",
+  "url": "https://github.com/serenityos/serenity.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "sgminer-dev___sgminer",
+  "commit_id": "87ae66c7e6bf9f4991725cd134e8bbffad03e9b9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Create a work data template when receiving stratum notification, allowing a simple memcpy of the merkle root avoiding more hex2bin conversions on each work generation.",
+  "patch_path": "reports/codejit_extraction_v1/records/7aea178793cf132e80c842b1.diff.gz",
+  "diff_bytes": 4428,
+  "diff_sha256": "c40ac87b4d2309479ac7493e825681d31e2ca33370ed91cdcabd1fd73547f0d5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:57.789911+00:00",
+  "url": "https://github.com/sgminer-dev/sgminer.git"
+}

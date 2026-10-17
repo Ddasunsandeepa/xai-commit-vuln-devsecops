@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "ad527a64f93dca12f6aabab2ca99ae5eb352ab4b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Parse iteratively to avoid stack overflow (fixes #146)",
+  "patch_path": "reports/codejit_extraction_v1/records/f2dc9b128691a0a89df4b478.diff.gz",
+  "diff_bytes": 36364,
+  "diff_sha256": "119799dd1c36a5c3048cf578b6b39caa49e71ba7f8c6c74488a6f2fdb258e47b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:34.889692+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

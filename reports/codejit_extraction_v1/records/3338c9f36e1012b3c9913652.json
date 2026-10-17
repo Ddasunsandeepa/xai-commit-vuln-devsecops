@@ -1,0 +1,16 @@
+{
+  "repo": "aomediacodec___libavif",
+  "commit_id": "0a8e7244d494ae98e9756355dfbfb6697ded2ff9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Set max image size to 16384 * 16384\n\nFix https://crbug.com/oss-fuzz/24728 and\nhttps://crbug.com/oss-fuzz/24734.",
+  "patch_path": "reports/codejit_extraction_v1/records/3338c9f36e1012b3c9913652.diff.gz",
+  "diff_bytes": 1106,
+  "diff_sha256": "d0d76a61f3f73b5ce80895d616fa38da9c497334b9fbf68faed44f95a0a3f5ea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:31.669092+00:00",
+  "url": "https://github.com/aomediacodec/libavif.git"
+}

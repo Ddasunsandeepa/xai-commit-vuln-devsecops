@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "eec077f52bfa2d3f7103b4b74d52572ba8a15aca",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Issue 747 (and others?):  Avoid OOB read when parsing multiple long lines\n\nThe mtree bidder needs to look several lines ahead\nin the input.  It does this by extending the read-ahead\nand parsing subsequent lines from the same growing buffer.\nA bookkeeping error when extending the read-ahead would\nsometimes lead it to significantly over-count the\nsize of the line being read.",
+  "patch_path": "reports/codejit_extraction_v1/records/aeade82f82a8dbb51a5a6884.diff.gz",
+  "diff_bytes": 4670,
+  "diff_sha256": "c9d4bdb5480d0b467d4d01a8fca50c5b43ef136fe2a10266eca6606897d230f6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:47.278248+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

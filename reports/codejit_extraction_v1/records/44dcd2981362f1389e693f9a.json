@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "2ac67cb63b715989657cee97b3181455b1380b3f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "connect: split git:// setup into a separate function\n\nThe git_connect function is growing long.  Split the\nPROTO_GIT-specific portion to a separate function to make it easier to\nread.\n\nNo functional change intended.\n\nSigned-off-by: Jonathan Nieder <jrnieder@gmail.com>\nReviewed-by: Stefan Beller <sbeller@google.com>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/44dcd2981362f1389e693f9a.diff.gz",
+  "diff_bytes": 3702,
+  "diff_sha256": "284304c4b7232c4a3237e8f50aba9776679cd5f9daacad68c92c1f42a64de948",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:54.725838+00:00",
+  "url": "https://github.com/git/git.git"
+}

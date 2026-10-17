@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "1171e7c047bf79e7c93342bb6a812c9edd86aa84",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Clear allocation to avoid info leak\n\nBug: 26914474\nChange-Id: Ie1a86e86d78058d041149fe599a4996e7f8185cf",
+  "patch_path": "reports/codejit_extraction_v1/records/d75662e83bc4ee5c5019c480.diff.gz",
+  "diff_bytes": 2721,
+  "diff_sha256": "3f11239aebd12d8c49382380c8989f42807242dd604b730059bc8fdb7a496ebe",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:46.270060+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

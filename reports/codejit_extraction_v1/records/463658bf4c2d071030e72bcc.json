@@ -1,0 +1,16 @@
+{
+  "repo": "videolan___vlc",
+  "commit_id": "2e7c7091a61aa5d07e7997b393d821e91f593c39",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "demux: mp4: fix buffer overflow in parsing of string boxes.\n\nWe ensure that pbox->i_size is never smaller than 8 to avoid an\ninteger underflow in the third argument of the subsequent call to\nmemcpy. We also make sure no truncation occurs when passing values\nderived from the 64 bit integer p_box->i_size to arguments of malloc\nand memcpy that may be 32 bit integers on 32 bit platforms.\n\nSigned-off-by: Jean-Baptiste Kempf <jb@videolan.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/463658bf4c2d071030e72bcc.diff.gz",
+  "diff_bytes": 579,
+  "diff_sha256": "0479367cb64731cf974ae510ac98e3a179f5b019e08ef1267c18a36dd702efe2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:42:51.694595+00:00",
+  "url": "https://github.com/videolan/vlc.git"
+}

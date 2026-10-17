@@ -1,0 +1,16 @@
+{
+  "repo": "vrtadmin___clamav-devel",
+  "commit_id": "bc80d89afc3a4e1c8364701a9749a1fc50f0746b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "bb11442 - adding explicit wwunpack oob checks",
+  "patch_path": "reports/codejit_extraction_v1/records/f853d2c0a4fc1ca7d08a0004.diff.gz",
+  "diff_bytes": 546,
+  "diff_sha256": "1003b9d9792da30bf9215871e4de4b43235eb1ecbd89159e286d1d19b1339742",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:00.211098+00:00",
+  "url": "https://github.com/vrtadmin/clamav-devel.git"
+}

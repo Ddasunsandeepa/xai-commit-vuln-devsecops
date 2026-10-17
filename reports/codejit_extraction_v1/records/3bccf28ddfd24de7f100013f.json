@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "73a6e7052b80d005820d1bf25e9b3e5162d60be7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed free checks to eliminate bad free warnings.",
+  "patch_path": "reports/codejit_extraction_v1/records/3bccf28ddfd24de7f100013f.diff.gz",
+  "diff_bytes": 1697,
+  "diff_sha256": "7ef64f3db4ed1844a43cfbc06285912f3505db41632fe5d1e161d2bacb5f017c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:35.311074+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

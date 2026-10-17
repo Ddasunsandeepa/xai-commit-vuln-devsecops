@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "8f62b4761711d036fd8964df256b938c809b7fca",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a sanitizer failure in the BMP codec.\nAlso, added a --debug-level command line option to the imginfo command\nfor debugging purposes.",
+  "patch_path": "reports/codejit_extraction_v1/records/d3a13f64ca5c3fe09f31cb0b.diff.gz",
+  "diff_bytes": 2978,
+  "diff_sha256": "cdbe95af035bab734bab8f52fcee7881e9cfc6da5814888672b127b4b2e3b9c6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:43.340382+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

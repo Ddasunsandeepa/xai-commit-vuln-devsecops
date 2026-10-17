@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "ec4c2208da385c7c2baa3028d1fa4fe0d4cfa145",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "debug: Strip function names from debug messages",
+  "patch_path": "reports/codejit_extraction_v1/records/b416c75f70ebf10e7cd9f3c0.diff.gz",
+  "diff_bytes": 129380,
+  "diff_sha256": "3bc95868305433898c628c4a73a2245cf57f6a49d88f74d37d40ba71582579da",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:49.882508+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libvpx",
+  "commit_id": "55cd1dd7c8d0a3de907d22e0f12718733f4e41d9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE | libvpx: Fix OOB caused by odd frame width.\n\nKeep behaviors unchanged without external allocation.\n\nBug: b/64710201\nTest: poc provided in the bug.\n\nChange-Id: I319a47b64c7cfa7bb47ad01c702be6f2acffe3a4\n(cherry picked from commit 51721c34847e6b4f935d5ecb1b44931c7716fd59)\n(cherry picked from commit 28a641201287106fbb73dfbad35dae2756cde265)",
+  "patch_path": "reports/codejit_extraction_v1/records/23dc93242e3c1fc877a6e779.diff.gz",
+  "diff_bytes": 1712,
+  "diff_sha256": "7742f1300e28b2ea6f8bdcf2ed19a008f236a49e4588aefec4ba2cb2d475838d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:32.980333+00:00",
+  "url": "https://android.googlesource.com/platform/external/libvpx"
+}

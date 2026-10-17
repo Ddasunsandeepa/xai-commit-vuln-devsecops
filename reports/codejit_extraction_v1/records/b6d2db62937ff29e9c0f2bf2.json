@@ -1,0 +1,16 @@
+{
+  "repo": "jabberd2___jabberd2",
+  "commit_id": "e3a1a2d8bdbc0971f8d8d809f16f447628edc304",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Better SASL error messages",
+  "patch_path": "reports/codejit_extraction_v1/records/b6d2db62937ff29e9c0f2bf2.diff.gz",
+  "diff_bytes": 7938,
+  "diff_sha256": "c43824d163be46f3bbc681e4dc83cf7a853e12ccbfb43b84fe3badb615fdc904",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:55.135061+00:00",
+  "url": "https://github.com/jabberd2/jabberd2.git"
+}

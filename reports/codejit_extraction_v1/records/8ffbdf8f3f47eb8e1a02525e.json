@@ -1,0 +1,16 @@
+{
+  "repo": "iortcw___iortcw",
+  "commit_id": "b6ff2bcb1e4e6976d61e316175c6d7c99860fe20",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "All: Don't load .pk3s as .dlls, and don't load user config files from .pk3s",
+  "patch_path": "reports/codejit_extraction_v1/records/8ffbdf8f3f47eb8e1a02525e.diff.gz",
+  "diff_bytes": 4596,
+  "diff_sha256": "dfc6cc8182a56db0688c3756f15c7ed1b3c221f1ea966c20b55318ea7c80597e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:51.127111+00:00",
+  "url": "https://github.com/iortcw/iortcw.git"
+}

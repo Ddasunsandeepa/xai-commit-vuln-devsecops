@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "33790cc18342231b13f7e6791196bd7c1f41e33f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Replace struct bignum_ops with function interface\n\nAdds crypto_bignum_*() replacing struct bignum_ops in crypto_ops.\n\nAcked-by: Jerome Forissier <jerome.forissier@linaro.org>\nReviewed-by: Etienne Carriere <etienne.carriere@linaro.org>\nSigned-off-by: Jens Wiklander <jens.wiklander@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/5a8066ad277283db145737a1.diff.gz",
+  "diff_bytes": 17736,
+  "diff_sha256": "91c6ec4a68f5a89a82b1015ce065b379eef3dc9e703c9dcd3b291e4e659b860e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:16.488178+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

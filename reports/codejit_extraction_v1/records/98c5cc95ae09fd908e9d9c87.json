@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "b3baa152aaef1905876670590275c2dd0bbb088c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "kvm: Add CPUID support for VIA CPU\n\nWhen KVM is running on VIA CPU with host cpu's model, the\nfeautures of VIA CPU will be passed into kvm guest by calling\nthe CPUID instruction for Centaur.\n\nSigned-off-by: BrillyWu<brillywu@viatech.com.cn>\nSigned-off-by: KaryJin<karyjin@viatech.com.cn>\nSigned-off-by: Marcelo Tosatti <mtosatti@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/98c5cc95ae09fd908e9d9c87.diff.gz",
+  "diff_bytes": 5148,
+  "diff_sha256": "a4ecd4ca9a707c62ae3a9a7af5935a5816d9721c9c2c053150f455fde09c1698",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:19.605451+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

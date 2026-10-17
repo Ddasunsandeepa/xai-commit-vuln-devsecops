@@ -1,0 +1,16 @@
+{
+  "repo": "cesanta___mongoose",
+  "commit_id": "30bfb245f5d6f5cf5559e2f62767955d32663032",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make mongoose more bare-metal Keil friendly. Declare settings after arch. Introduce MG_ENABLE_FILE",
+  "patch_path": "reports/codejit_extraction_v1/records/f27464d22925bdb49a7890db.diff.gz",
+  "diff_bytes": 14227,
+  "diff_sha256": "2414fc39bf9f0864b977a5490045ce4322d6a939004c6212ad6de4076c6eef66",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:09.262792+00:00",
+  "url": "https://github.com/cesanta/mongoose.git"
+}

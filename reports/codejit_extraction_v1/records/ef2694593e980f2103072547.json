@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "41edce3d6213878659630b25fc2372035c84ba6c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Convert fsmRemove() and helpers to unlinkat() based operation",
+  "patch_path": "reports/codejit_extraction_v1/records/ef2694593e980f2103072547.diff.gz",
+  "diff_bytes": 3569,
+  "diff_sha256": "1f6c2ffef0e2beaa0af6e1552c0165b93155607e2a0c3936a80a83b125f7870d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:21.342034+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

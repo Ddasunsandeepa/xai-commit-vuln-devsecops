@@ -1,0 +1,16 @@
+{
+  "repo": "libreswan___libreswan",
+  "commit_id": "b045947dac094c9b78637d0cd567b012428dc8d0",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "crypto: in callbacks, replace **MDP with *MD, never modified",
+  "patch_path": "reports/codejit_extraction_v1/records/b7169fdd27774b7602ce924a.diff.gz",
+  "diff_bytes": 30202,
+  "diff_sha256": "2129e6fc2bec9169b9d199fbe884890eb74597edab689ffc08be9dd4674f50bd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:11.409708+00:00",
+  "url": "https://github.com/libreswan/libreswan.git"
+}

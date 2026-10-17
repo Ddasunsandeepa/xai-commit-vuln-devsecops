@@ -1,0 +1,16 @@
+{
+  "repo": "u-boot___u-boot",
+  "commit_id": "0517cc45e502cd7858beb37b8fab754a2fa52830",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "net: nfs: Use consistent names for the rpc_pkt\n\nUse the same name throughout the nfs code and use the same member of the\nunion to avoid casts.\n\nSigned-off-by: Joe Hershberger <joe.hershberger@ni.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/e303c1c9c298ca9f49cbdcd1.diff.gz",
+  "diff_bytes": 3139,
+  "diff_sha256": "28eb6fbd329c80f56c498516a3de3360c785bd7a53c102161071946d08a5d1c5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:17.381008+00:00",
+  "url": "https://github.com/u-boot/u-boot.git"
+}

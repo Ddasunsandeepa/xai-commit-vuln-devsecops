@@ -1,0 +1,16 @@
+{
+  "repo": "muttmua___mutt",
+  "commit_id": "31eef6c766f47df8281942d19f76e35f475c781d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Selectively cache headers.\n\nThanks to NeoMutt and Jeriko One for the patch, which was slightly\nmodified to apply to the Mutt code.",
+  "patch_path": "reports/codejit_extraction_v1/records/34493136133cfb5ecde8c3b0.diff.gz",
+  "diff_bytes": 827,
+  "diff_sha256": "fbb10875560316b8c868e9bac24ffbabb47fd187763d54ee993daf35f397c8f6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:00.263487+00:00",
+  "url": "https://github.com/muttmua/mutt.git"
+}

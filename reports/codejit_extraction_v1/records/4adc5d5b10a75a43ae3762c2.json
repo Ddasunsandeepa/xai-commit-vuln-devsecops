@@ -1,0 +1,16 @@
+{
+  "repo": "wbx-github___uclibc-ng",
+  "commit_id": "0f822af0445e5348ce7b7bd8ce1204244f31d174",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libc/inet/resolv.c: add __hnbad to check DNS entries for validity…\n\n… using the same rules glibc does\n\nalso call __hnbad in some places to check answers",
+  "patch_path": "reports/codejit_extraction_v1/records/4adc5d5b10a75a43ae3762c2.diff.gz",
+  "diff_bytes": 4017,
+  "diff_sha256": "59fed7bf1570f0e86a33479b7f7e7583c3743fbf305895323759c449a02e4386",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:04.900649+00:00",
+  "url": "https://github.com/wbx-github/uclibc-ng.git"
+}

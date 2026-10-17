@@ -1,0 +1,16 @@
+{
+  "repo": "videolan___vlc",
+  "commit_id": "60a8fefa7f9f3768e5f4cf12b9c2aa95fd3b659c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "RTP sout: handle base64 decoding error",
+  "patch_path": "reports/codejit_extraction_v1/records/14a8f9ffbd36ee1c989f59f5.diff.gz",
+  "diff_bytes": 517,
+  "diff_sha256": "31a0876badb4d324155789b97105990f764939278b4313087b27bd2dedf89c90",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:03.055276+00:00",
+  "url": "https://github.com/videolan/vlc.git"
+}

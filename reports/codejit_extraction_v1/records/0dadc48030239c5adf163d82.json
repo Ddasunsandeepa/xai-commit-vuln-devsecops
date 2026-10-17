@@ -1,0 +1,16 @@
+{
+  "repo": "wesnoth___wesnoth",
+  "commit_id": "b2738ffb2fdd2550ececb74f76f75583c43c8b59",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use looks_like_pbl() to disallow .pbl file inclusion (bug #23504)\n\nThis function is implemented using case-insensitive pattern matching,\nunlike filesystem::ends_with(). I missed this when writing my original\nfix, so the vulnerability still applied to .pbl files on a\ncase-insensitive filesystem (e.g. NTFS and FAT* on Windows) by using\ndifferent case to bypass the check.",
+  "patch_path": "reports/codejit_extraction_v1/records/0dadc48030239c5adf163d82.diff.gz",
+  "diff_bytes": 1820,
+  "diff_sha256": "de0e000ff375d0eec295d41c7be97fe50ae62ce8eae4b2e53cb9ed74d15b9df9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:10.048885+00:00",
+  "url": "https://github.com/wesnoth/wesnoth.git"
+}

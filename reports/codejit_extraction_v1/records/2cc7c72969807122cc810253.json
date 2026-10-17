@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "ffab15eb80630dc799eb410855c93525b75233c3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bit stream access to make sure that it is not read beyond the allocated size.\n\nBug: 25765591\n\nChange-Id: I98c23a3c3f84f6710f29bffe5ed73adcf51d47f6",
+  "patch_path": "reports/codejit_extraction_v1/records/2cc7c72969807122cc810253.diff.gz",
+  "diff_bytes": 7496,
+  "diff_sha256": "218bc00864f5d7d0f92915a6f88f7cb1ca943511dc27962da4c0b008053bf184",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:30.456071+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

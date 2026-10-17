@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "15bb719c03cc70f14c36a843dcb16ed69b405707",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Error out in rfbProcessFileTransferReadBuffer if length can not be allocated\n\nre #273",
+  "patch_path": "reports/codejit_extraction_v1/records/88ec54228a96dcd4b7087a97.diff.gz",
+  "diff_bytes": 1178,
+  "diff_sha256": "3ab55ccccf0182a95c7463e1eeb0f389d80438f883d17f5400af9ec728260bda",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:34.471531+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "sddm___sddm",
+  "commit_id": "4cfed6b0a625593fb43876f04badc4dd99799d86",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Disable greeters from loading KDE's debug hander\n\nSome themes may use KDE components which will automatically load KDE's\ncrash handler.\n\nIf the greeter were to then somehow crash, that would leave a crash\nhandler allowing other actions, albeit as the locked down SDDM user.\n\nOnly SDDM users using the breeze theme from plasma-workspace are\naffected. Safest and simplest fix is to handle this inside SDDM\ndisabling kcrash via an environment variable for all future themes that\nmay use these libraries.\n\nCVE-2015-0856",
+  "patch_path": "reports/codejit_extraction_v1/records/62478b47c489cfccfe475a3b.diff.gz",
+  "diff_bytes": 806,
+  "diff_sha256": "6a3a4ea874fe1728fc618a074f62c4fd733fc86c41332d36c6aed73d41bd566b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:41.685100+00:00",
+  "url": "https://github.com/sddm/sddm.git"
+}

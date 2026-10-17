@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "b749ebde2c6a55569e4e480abda3a4ee3afe2d72",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use unary operator instead of == bool\n\nAutomatically generated with coccinelle:\n\n@@\nexpression e1;\n@@\n\n-e1 == false\n+!e1\n\n@@\nexpression e1;\n@@\n\n-false == e1\n+!e1\n\n@@\nexpression e1;\n@@\n\n-e1 == true\n+e1\n\n@@\nexpression e1;\n@@\n\n-true == e1\n+e1\n\nTest: build\nChange-Id: Ic7df0dc43b550594855e457466b6bccd8f3443a3",
+  "patch_path": "reports/codejit_extraction_v1/records/cc403c553d0f54d0a34cc038.diff.gz",
+  "diff_bytes": 73230,
+  "diff_sha256": "8f1741b3bca4a2eee0abd2f358e3b9f405f55ecd7c2a3a935a3f869a62d0e21a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:20.665860+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "troglobit___uftpd",
+  "commit_id": "ce1c9234c78eb3b939f465bcb40c19cd5141eab7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Update compose_path() to new non-chdir() world, fix mgmt of directories\n\nSigned-off-by: Joachim Nilsson <troglobit@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/b667ab58e0ab539621f66e52.diff.gz",
+  "diff_bytes": 2376,
+  "diff_sha256": "f47c5d1cb3d6e1956acf026f5717cc5ed367ccc394fab0540acad132060e512b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:11.971411+00:00",
+  "url": "https://github.com/troglobit/uftpd.git"
+}

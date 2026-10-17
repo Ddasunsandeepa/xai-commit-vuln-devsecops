@@ -1,0 +1,16 @@
+{
+  "repo": "gost-engine___engine",
+  "commit_id": "7df766124f87768b43b9e8947c5a01e17545772c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix buffer overrun in creating key transport blob according to RFC 9189, 4.2.4.2\n\nResolves: CVE-2022-29242",
+  "patch_path": "reports/codejit_extraction_v1/records/c002df1cfb0c6e2a2822613f.diff.gz",
+  "diff_bytes": 1341,
+  "diff_sha256": "76333104959d60446fc926b00d5e2d15f8e96f68f233a99249c14a01caaee9f4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:28.012782+00:00",
+  "url": "https://github.com/gost-engine/engine.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "d1d858637411db8f903de14fcc543999adeb9b7a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed #6200: Arraysize check",
+  "patch_path": "reports/codejit_extraction_v1/records/e32d44662ab886436d91185f.diff.gz",
+  "diff_bytes": 553,
+  "diff_sha256": "9d6fbc3bdd78a664055b4f7c23bbd2e054ca91243eed132fd819ff3babe6f1ab",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:43.909767+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

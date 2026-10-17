@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "612562bc1ea38f1708b044e7a079c47a05b1291d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix: index entry label not being zero-terminated with corrupt input",
+  "patch_path": "reports/codejit_extraction_v1/records/c3318208f46467b4289b5516.diff.gz",
+  "diff_bytes": 2675,
+  "diff_sha256": "962e564508cd3c85f9a816d22495915c94f171f5357b46fc5d5570f1e0d84c87",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:19.302200+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

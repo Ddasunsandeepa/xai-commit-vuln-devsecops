@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "b9579fbe7dd408200ef03cbe20efddb624b73885",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "detect: avoid needless recursive scanning\n\nDon't recursively inspect a detect list if the recursion\ndoesn't increase chance of success.",
+  "patch_path": "reports/codejit_extraction_v1/records/15dd0dc5ecc4aa0b29541958.diff.gz",
+  "diff_bytes": 3187,
+  "diff_sha256": "0cd1c128598d0dbda6fe04e65fad6b863c85ad4318b0a4e7b4a9d8b3f0dfb93b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:51.913836+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

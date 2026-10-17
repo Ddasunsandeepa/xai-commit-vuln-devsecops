@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "6df98f2121f22efa4afe438a7d3d0db3ac841557",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve regexp engine\n\nThis commit implements two new opcodes for regular expressions and replaces _yr_scan_fast_re_exec with a cleaner implementation in yr_re_fast_scan, as the existing implementation used some hacks that were hard to maintain.",
+  "patch_path": "reports/codejit_extraction_v1/records/0026bb574f7b87d1aac7d92a.diff.gz",
+  "diff_bytes": 166820,
+  "diff_sha256": "6c55ff132ce51c70e20e02b7f5a6e312e3f52799ec02a737cfa9d56d10bbefa5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:42.490793+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

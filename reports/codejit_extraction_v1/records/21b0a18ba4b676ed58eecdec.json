@@ -1,0 +1,16 @@
+{
+  "repo": "openrc___openrc",
+  "commit_id": "bb8334104baf4d5a4a442a8647fb9204738f2204",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "checkpath: fix allocation size of path buffer\n\nstrlen's return value isn't enough to be used\ndirectly for (x)malloc; it doesn't include\nthe null byte at the end of the string.\n\nX-Gentoo-Bug: 816900\nX-Gentoo-Bug-URL: https://bugs.gentoo.org/816900\nFixes: #459\nFixes: #462",
+  "patch_path": "reports/codejit_extraction_v1/records/21b0a18ba4b676ed58eecdec.diff.gz",
+  "diff_bytes": 336,
+  "diff_sha256": "e55147304a65c5691396b59c953e3afdf0a42bc7b6dab0d1cd0d78895d6fa159",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:55.746866+00:00",
+  "url": "https://github.com/openrc/openrc.git"
+}

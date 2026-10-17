@@ -1,0 +1,16 @@
+{
+  "repo": "osgeo___gdal",
+  "commit_id": "f956a3c6ff43a877a63ee1199c5e0092c11a8c31",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "netCDF: allow Reading from CF-1.8 Encoded Geometries (#1287) (#1541)",
+  "patch_path": "reports/codejit_extraction_v1/records/da6e44773c8d883239547d8c.diff.gz",
+  "diff_bytes": 417761,
+  "diff_sha256": "e00d6633a78191e271404c5fa1a7cd86887a38e72747ef4ae0664bcee6d87df3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:39.150599+00:00",
+  "url": "https://github.com/osgeo/gdal.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "4f8e26f2a40ffaa3a5b77be6a49989a1a42e2b83",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix #290: TGA RLE decoding is broken\n\nWe make it work only, for now. Actually, it doesn't make sense that\n`oTga::bitmap` is an `int *` as we're storing only bytes there. If this\nwill be changed, we can even get rid of the `conversion_buffer` in\n`read_image_tga` altogether, and read the image data into the\n`decompression_buffer` (if RLE'd) or the `tga->bitmap` (if uncompressed)\ndirectly.",
+  "patch_path": "reports/codejit_extraction_v1/records/8368c77ec8aa1a37b1c79f65.diff.gz",
+  "diff_bytes": 14946,
+  "diff_sha256": "a8dacec29c96afb7e1aaeea181f879ee9931c3d774de6b68e95f44b72129c6f8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:56.927765+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

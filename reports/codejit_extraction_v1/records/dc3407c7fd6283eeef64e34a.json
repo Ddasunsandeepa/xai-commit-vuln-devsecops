@@ -1,0 +1,16 @@
+{
+  "repo": "ckolivas___cgminer",
+  "commit_id": "58873c1dfa5a44476b56323412d53c77f6648794",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Get detailed addressinfo from the parsed URL for future raw socket usage when possible. IPV4 only for now.",
+  "patch_path": "reports/codejit_extraction_v1/records/dc3407c7fd6283eeef64e34a.diff.gz",
+  "diff_bytes": 2731,
+  "diff_sha256": "30972919d3c4022009818ad4ff355884aae053c18f8047ff641427ace2f03bc9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:50.173755+00:00",
+  "url": "https://github.com/ckolivas/cgminer.git"
+}

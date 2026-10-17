@@ -1,0 +1,16 @@
+{
+  "repo": "curl___curl",
+  "commit_id": "39ce47f219b09c380b81f89fe54ac586c8db6bde",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "telnet: check sscanf() for correct number of matches\n\nCVE-2021-22898\n\nBug: https://curl.se/docs/CVE-2021-22898.html",
+  "patch_path": "reports/codejit_extraction_v1/records/6cba5e95090e707d77d428c4.diff.gz",
+  "diff_bytes": 639,
+  "diff_sha256": "d83079b3934ca1fe2367fa2dbd6eb659ba763f29d55945c2548c049d4ca499ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:56.297904+00:00",
+  "url": "https://github.com/curl/curl.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "afcd94a63b46ae0f3d5e249c2a696ffe3234916d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a C++ friendly sparse->dense constructor for FormatConverter.\n\nThe existing constructor uses the C API TfLiteSparsity struct, which needs to\nbe freed with TfLiteSparsityFree() and allocated with malloc(). The\nTfLiteSparsity struct itself is then converted to C++ vectors.\n\nFor C++ users, the TfLiteSparsity-based interface is neither easy to use or\nefficient.\n\nPiperOrigin-RevId: 390042122\nChange-Id: Iae6c00cabd6f1fbb84cdbe849823489097edeb40",
+  "patch_path": "reports/codejit_extraction_v1/records/f9fce013dbaf60fa34d1521f.diff.gz",
+  "diff_bytes": 7832,
+  "diff_sha256": "48ac32bd6c3473fa1c32df6fbd5b0d2d72ef1efa774d9502b3f11a453acd663c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:33:57.902645+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

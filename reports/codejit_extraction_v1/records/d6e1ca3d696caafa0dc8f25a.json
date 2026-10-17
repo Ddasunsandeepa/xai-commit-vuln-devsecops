@@ -1,0 +1,16 @@
+{
+  "repo": "monkey___monkey",
+  "commit_id": "c67696609c3a73287a93f4a3480aae6eb4e6fc0a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "HTTP: Pipelining fix #145 and improvements.\n\nThis patch fix a problem where Pipelining requests were not being\nprocessed correctly and also do some improvements about how they are\nhandled internally.\n\nSigned-off-by: Eduardo Silva <eduardo@monkey.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/d6e1ca3d696caafa0dc8f25a.diff.gz",
+  "diff_bytes": 8525,
+  "diff_sha256": "2d22511d08aa2b628731f02e0dedcb13490f2c569465a80c97a6adae187e4a82",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:39.942114+00:00",
+  "url": "https://github.com/monkey/monkey.git"
+}

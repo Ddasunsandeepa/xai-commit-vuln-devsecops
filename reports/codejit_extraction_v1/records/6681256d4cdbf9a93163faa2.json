@@ -1,0 +1,16 @@
+{
+  "repo": "qt___qtbase",
+  "commit_id": "6b400e3147dcfd8cc3a393ace1bd118c93762e0c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve fix for avoiding huge number of tiny dashes\n\nSome pathological cases were not caught by the previous fix.\n\nFixes: QTBUG-95239\nPick-to: 6.2 6.1 5.15\nChange-Id: I0337ee3923ff93ccb36c4d7b810a9c0667354cc5\nReviewed-by: Robert Löhning <robert.loehning@qt.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/6681256d4cdbf9a93163faa2.diff.gz",
+  "diff_bytes": 718,
+  "diff_sha256": "d467613d769e2858471a76b200321c5316f373c379c8b4ce40cb278381ab187d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:40.512999+00:00",
+  "url": "https://github.com/qt/qtbase.git"
+}

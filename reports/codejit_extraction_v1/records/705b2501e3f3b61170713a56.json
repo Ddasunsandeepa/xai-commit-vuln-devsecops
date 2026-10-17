@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___imageworsener",
+  "commit_id": "ca3356eb49fee03e2eaf6b6aff826988c1122d93",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a GIF decoding bug (divide by zero)\n\nFixes issue #15",
+  "patch_path": "reports/codejit_extraction_v1/records/705b2501e3f3b61170713a56.diff.gz",
+  "diff_bytes": 504,
+  "diff_sha256": "2891ef000bee066d34e5311377ba703bc2ef8fb0dc29255634b9eb0fa9d72024",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:04.358687+00:00",
+  "url": "https://github.com/jsummers/imageworsener.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "abrt___libreport",
+  "commit_id": "4b683ff098f65057e31b7f8203717896dc331d2d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "don't update the selected event while processing it\n\n- If user wrote a comment or added a file, the selected event was\n  updated to the post-create event\n- closes rhbz#861973\n\nSigned-off-by: Jakub Filak <jfilak@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/69862ee9f85498809150c8fa.diff.gz",
+  "diff_bytes": 3091,
+  "diff_sha256": "7176b5a087c9f9bedb2b70dae5900b190dad7676a77e4de1555480ed9fa44e66",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:01.343361+00:00",
+  "url": "https://github.com/abrt/libreport.git"
+}

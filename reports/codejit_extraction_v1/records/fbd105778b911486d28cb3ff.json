@@ -1,0 +1,16 @@
+{
+  "repo": "resiprocate___resiprocate",
+  "commit_id": "c6e91cd00ec65098c3bc3c020de5f16f86a5ec40",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Initial revision\n\n\ngit-svn-id: https://svn.resiprocate.org/rep/resiprocate/main@1479 ddefafc4-47db-0310-ae44-fa13212b10f2",
+  "patch_path": "reports/codejit_extraction_v1/records/fbd105778b911486d28cb3ff.diff.gz",
+  "diff_bytes": 298015,
+  "diff_sha256": "e95617bc0b483b7eb29bbcc206e25d586fa4f4a538cf4a1f0cf224f1e55d57ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:07.007875+00:00",
+  "url": "https://github.com/resiprocate/resiprocate.git"
+}

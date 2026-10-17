@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "f0ed8226c9c65f2a324610258418258229e77fbe",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add custom memory allocator to MinGW and MacOS builds\n\nThe standard allocator on Windows is pretty bad prior\nto Windows Vista, and nedmalloc is better than the\nmodified dlmalloc provided with newer versions of the\nMinGW libc.\n\nNedMalloc stats in Git\n----------------------\n  All results are the best result out of 3 runs. The\n  benchmarks have been done on different hardware, so\n  the repack times are not comparable.\n\n  These benchmarks are all based on 'git repack -adf'\n  on the Linux kernel.\n\n  XP\n  -----------------------------------------------\n  MinGW               Threads  Total Time   Speed\n  -----------------------------------------------\n  3.4.2                  (1T)  00:12:28.422\n  3.4.2     + nedmalloc  (1T)  00:07:25.437 1.68x\n\n  3.4.5                  (1T)  00:12:20.718\n  3.4.5     + nedmalloc  (1T)  00:07:24.809 1.67x\n\n  4.3.3-tdm              (1T)  00:12:01.843\n  4.3.3-tdm + nedmalloc  (1T)  00:07:16.468 1.65x\n\n  4.3.3-tdm              (2T)  00:07:35.062\n  4.3.3-tdm + nedmalloc  (2T)  00:04:57.874 1.54x\n\n  Vista\n  -----------------------------------------------\n  MinGW               Threads  Total Time   Speed\n  -----------------------------------------------\n  4.3.3-tdm              (1T)  00:07:40.844\n  4.3.3-tdm + nedmalloc  (1T)  00:07:17.548 1.05x\n\n  4.3.3-tdm              (2T)  00:05:33.746\n  4.3.3-tdm + nedmalloc  (2T)  00:05:27.334 1.02x\n\n  Mac Mini\n  -----------------------------------------------\n  GCC                 Threads  Total Time   Speed\n  -----------------------------------------------\n  i686-darwin9-4.0.1     (2T)  00:09:57.346\n  i686-darwin9-4.0.1+ned (2T)  00:08:51.072 1.12x\n\nSigned-off-by: Marius Storm-Olsen <marius@trolltech.com>\nSigned-off-by: Steffen Prohaska <prohaska@zib.de>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/49c5108aedc4d8a342727c31.diff.gz",
+  "diff_bytes": 245435,
+  "diff_sha256": "0d017cd06d808187954bea8a7e95e4b4a9308bbaa472a1eb2ea87d373a0a020c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:14.303023+00:00",
+  "url": "https://github.com/git/git.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "bagder___curl",
+  "commit_id": "30c9799f72f3275f806a296e1100ad04c942706c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "compiler warning: fix\n\nFix compiler warning: expression has no effect",
+  "patch_path": "reports/codejit_extraction_v1/records/00c1d141c381fd3521607b67.diff.gz",
+  "diff_bytes": 2892,
+  "diff_sha256": "087515c933ef8cc86c57d0fd83e9b7f5f8921b392db1007a4d04dd23f2051502",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:06.795677+00:00",
+  "url": "https://github.com/bagder/curl.git"
+}

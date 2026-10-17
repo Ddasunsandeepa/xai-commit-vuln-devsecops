@@ -1,0 +1,16 @@
+{
+  "repo": "spiderlabs___modsecurity",
+  "commit_id": "f8d441cd25172fdfe5b613442fedfc0da3cc333d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix Chunked string case sensitive issue - CVE-2013-5705",
+  "patch_path": "reports/codejit_extraction_v1/records/9ea4d9450815e67a7bb208e0.diff.gz",
+  "diff_bytes": 709,
+  "diff_sha256": "d27aac0760881ce831e0b2de69ab312512585b6100854ce918c10c2063cad92e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:26.464310+00:00",
+  "url": "https://github.com/spiderlabs/modsecurity.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "vslavik___winsparkle",
+  "commit_id": "07fe601a231a58a940c73aa1308deaa60855021a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix CleanLeftovers can't handle unicode path",
+  "patch_path": "reports/codejit_extraction_v1/records/69227bd6368337b18af5adb1.diff.gz",
+  "diff_bytes": 963,
+  "diff_sha256": "01053e30392f8d7b1238c9dcb654497b7203f89f2b12c8abcda67469bdb41f1e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:03.567941+00:00",
+  "url": "https://github.com/vslavik/winsparkle.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___pam_p11",
+  "commit_id": "d150b60e1e14c261b113f55681419ad1dfa8a76c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use EVP_PKEY_size() to allocate correct size of signature buffer. (#18)\n\nDo not use fixed buffer size for signature, EVP_SignFinal() requires\nbuffer for signature at least  EVP_PKEY_size(pkey) bytes in size.\n\nFixes crash when using 4K RSA signatures (https://github.com/OpenSC/pam_p11/issues/16, https://github.com/OpenSC/pam_p11/issues/15)",
+  "patch_path": "reports/codejit_extraction_v1/records/919304299078be4f1c25eab7.diff.gz",
+  "diff_bytes": 1266,
+  "diff_sha256": "7e7bb839853205e7c4b34708e81426156e33ae14cf315f8f07374f6445287dc6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:05.599875+00:00",
+  "url": "https://github.com/opensc/pam_p11.git"
+}

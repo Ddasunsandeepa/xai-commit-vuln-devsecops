@@ -1,0 +1,16 @@
+{
+  "repo": "opencv___opencv",
+  "commit_id": "d1615ba11a93062b1429fce9f0f638d1572d3418",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "video:fixed DISOpticalFlow segfault from small img",
+  "patch_path": "reports/codejit_extraction_v1/records/d29c0a7ec31805303170d7df.diff.gz",
+  "diff_bytes": 5999,
+  "diff_sha256": "d2ce06e6fcb20ebe7716fbc7935b1628ace2eef4d05e084b56dbafb3bc703ce9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:44.863747+00:00",
+  "url": "https://github.com/opencv/opencv.git"
+}

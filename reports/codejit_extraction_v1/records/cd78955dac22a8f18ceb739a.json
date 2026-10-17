@@ -1,0 +1,16 @@
+{
+  "repo": "ultravnc___ultravnc",
+  "commit_id": "04ad89062cfbcc9f927ca0b5fae3b4dc2365c030",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "viewer Dialog , bug fix, cleanup",
+  "patch_path": "reports/codejit_extraction_v1/records/cd78955dac22a8f18ceb739a.diff.gz",
+  "diff_bytes": 121955,
+  "diff_sha256": "dab8a72919de7bc5746a171180183c164f45ba707495d27965d5efaaa0f4e864",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:29.270359+00:00",
+  "url": "https://github.com/ultravnc/ultravnc.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "freifunk-gluon___ecdsautils",
+  "commit_id": "1d4b091abdf15ad7b2312535b5b95ad70f6dbd08",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "verify: fix signature verification (CVE-2022-24884)\n\nVerify that r and s are non-zero. Without these checks, an all-zero\nsignature is always considered valid.\n\nWhile it would be nicer to error out in ecdsa_verify_prepare_legacy()\nalready, that would require users of libecdsautil to check a return value\nof the prepare step. To be safe, implement the fix in an API/ABI-compatible\nway that doesn't need changes to the users.",
+  "patch_path": "reports/codejit_extraction_v1/records/71aae5b5538c19bc32c49177.diff.gz",
+  "diff_bytes": 1008,
+  "diff_sha256": "f3222a14940a8eb14fef7d02cd010eba35f9b2b71ce01f84bbaa7e761663477c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:48.355640+00:00",
+  "url": "https://github.com/freifunk-gluon/ecdsautils.git"
+}

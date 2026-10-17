@@ -1,0 +1,16 @@
+{
+  "repo": "hoene___libmysofa",
+  "commit_id": "4b1828139db46fc0dd52864c45fd25ca27fa334f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Made it a bit more windows and C90 friendly",
+  "patch_path": "reports/codejit_extraction_v1/records/466be8ef0493eb3c0d351582.diff.gz",
+  "diff_bytes": 59822,
+  "diff_sha256": "65f694565acc1e48aaf13099c96c57b83618097d966708e07649715c67337b07",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:44.240920+00:00",
+  "url": "https://github.com/hoene/libmysofa.git"
+}

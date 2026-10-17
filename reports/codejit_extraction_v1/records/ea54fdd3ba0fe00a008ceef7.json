@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___mcrouter",
+  "commit_id": "97e033b3bb0cb16b61bf49f0dc7f311a3e0edd1b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Attempt to make CarbonProtocolReader::skip tail recursive\n\nReviewed By: edenzik\n\nDifferential Revision: D17967570\n\nfbshipit-source-id: fdc32e190a521349c7c8f4d6081902fa18eb0284",
+  "patch_path": "reports/codejit_extraction_v1/records/ea54fdd3ba0fe00a008ceef7.diff.gz",
+  "diff_bytes": 1562,
+  "diff_sha256": "12fd31ade17708e2a6baf5362e0510cfe8bc6abde15ba3940c7529bb101632d2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:19.230987+00:00",
+  "url": "https://github.com/facebook/mcrouter.git"
+}

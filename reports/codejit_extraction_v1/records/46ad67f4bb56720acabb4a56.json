@@ -1,0 +1,16 @@
+{
+  "repo": "pingidentity___mod_auth_openidc",
+  "commit_id": "e81822a7d5f5bdf04ba03ca92680821893303850",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "security fix: scrub headers on `OIDCUnAuthAction pass`; closes #222\n\nOn accessing paths protected with `OIDCUnAuthAction pass` no headers\nwould be scrubbed when a user is not authenticated so malicious\nsoftware/users could set OIDC_CLAIM_ and OIDCAuthNHeader headers that\napplications would interpret as set by mod_auth_openidc. Thanks\n@wouterhund.\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/46ad67f4bb56720acabb4a56.diff.gz",
+  "diff_bytes": 3598,
+  "diff_sha256": "c18af58a55f3e26235eb151bbab7154ea28e4f3059bfd6cd6060ba01a0efac1e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:33.280042+00:00",
+  "url": "https://github.com/pingidentity/mod_auth_openidc.git"
+}

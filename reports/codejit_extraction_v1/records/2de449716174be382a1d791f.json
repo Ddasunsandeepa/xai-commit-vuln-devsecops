@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "223d996aaf9f1668c28519d3d7eb756e6cdf3fcf",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a possibly exploitable buffer overflow.\n\nOriginally committed as revision 18640 to svn://svn.ffmpeg.org/ffmpeg/trunk",
+  "patch_path": "reports/codejit_extraction_v1/records/2de449716174be382a1d791f.diff.gz",
+  "diff_bytes": 480,
+  "diff_sha256": "08903fb6f6055491707518d8cadbbac038e62990290b9317a8da26cb23a4a790",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:36.400653+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

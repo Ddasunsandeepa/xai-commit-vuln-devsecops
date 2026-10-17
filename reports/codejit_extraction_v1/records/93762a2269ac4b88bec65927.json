@@ -1,0 +1,16 @@
+{
+  "repo": "lawngnome___php-radius",
+  "commit_id": "a766e62e2ab779a36fdfcfadad225ac5b0e8dcb3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Quiet signedness warnings by using or casting to the correct types.",
+  "patch_path": "reports/codejit_extraction_v1/records/93762a2269ac4b88bec65927.diff.gz",
+  "diff_bytes": 991,
+  "diff_sha256": "d0e95c6539163df1246cd711cef58795dd71f1c7e9d92386baa4a74fe34584b1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:37.692622+00:00",
+  "url": "https://github.com/lawngnome/php-radius.git"
+}

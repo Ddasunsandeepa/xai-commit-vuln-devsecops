@@ -1,0 +1,16 @@
+{
+  "repo": "u-boot___u-boot",
+  "commit_id": "6f3c2d8aa5e6cbd80b5e869bbbddecb66c329d01",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "image: Add an option to do a full check of the FIT\n\nSome strange modifications of the FIT can introduce security risks. Add an\noption to check it thoroughly, using libfdt's fdt_check_full() function.\n\nEnable this by default if signature verification is enabled.\n\nCVE-2021-27097\n\nSigned-off-by: Simon Glass <sjg@chromium.org>\nReported-by: Bruce Monroe <bruce.monroe@intel.com>\nReported-by: Arie Haenel <arie.haenel@intel.com>\nReported-by: Julien Lenoir <julien.lenoir@intel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/18ed4f3a3832fb6e3159376d.diff.gz",
+  "diff_bytes": 2596,
+  "diff_sha256": "c69efdcf9354a4c85f6d76112522f84b32b482e39e14d3bdd882f2ab7934fa84",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:26.221631+00:00",
+  "url": "https://github.com/u-boot/u-boot.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "eclipse___mosquitto",
+  "commit_id": "9097577b49b7fdcf45d30975976dd93808ccc0c4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix acl_file being ignore for default listener if with per_listener_settings\n\nClose #1073. Thanks to Jef Driesen.\n\nBug: https://github.com/eclipse/mosquitto/issues/1073",
+  "patch_path": "reports/codejit_extraction_v1/records/586cd62686b22d3d11c40abf.diff.gz",
+  "diff_bytes": 1566,
+  "diff_sha256": "23f498dab3438f46a34917131522d87cd378fc4f384f2bc7f5123da426ee37d9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:23.003553+00:00",
+  "url": "https://github.com/eclipse/mosquitto.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "bluez___bluez",
+  "commit_id": "2f63eb8b12da740d2bee1f61c7835c48be937302",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "adapter: Check whether adapter is pending powered\n\nThe powered setting of adapter is frequently being checked, but the\ncheck only accounts for whether it currently is powered. When powering\noff the adapter, there is a brief moment when the adapter is already\noff kernel-wise, but powered property is still true.\n\nIf powered property is accessed at this time, some problems might\noccur. For example, if RemoveDevice DBus API is called, we would still\ncarry out the request and remove the device from the user space, but\nwe would fail to remove it from the kernel, therefore resulting an\nerror when we want to re-pair the device.\n\nThis patch addresses this issue by also checking whether adapter is\nbeing powered off when checking for powered.\n\nReviewed-by: Sonny Sasaka <sonnysasaka@chromium.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/d99d57cbb0b9823985593891.diff.gz",
+  "diff_bytes": 5439,
+  "diff_sha256": "f2abddc01a24c4580f030e96a69d4acd758184303e70268353e69170f06e290a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:27.856648+00:00",
+  "url": "https://github.com/bluez/bluez.git"
+}

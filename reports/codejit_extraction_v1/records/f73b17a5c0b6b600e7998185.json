@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "1e84674d95353c64e5c4c0e7232ae86fd6ea813b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Changed the JPC bitstream code to more gracefully handle a request\nfor a larger sized integer than what can be handled (i.e., return\nwith an error instead of failing an assert).",
+  "patch_path": "reports/codejit_extraction_v1/records/f73b17a5c0b6b600e7998185.diff.gz",
+  "diff_bytes": 2406,
+  "diff_sha256": "39fd8cd325d12ea66df4a4a378e0dbf601498c2a488eb8e1d9846969817c3991",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:39.178311+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

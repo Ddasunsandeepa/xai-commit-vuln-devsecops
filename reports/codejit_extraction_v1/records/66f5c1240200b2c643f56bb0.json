@@ -1,0 +1,16 @@
+{
+  "repo": "tryghost___node-sqlite3",
+  "commit_id": "de8888ef5ff76a42ceaf75f298fe127d4be4d673",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Convert NAN to N-API using tool",
+  "patch_path": "reports/codejit_extraction_v1/records/66f5c1240200b2c643f56bb0.diff.gz",
+  "diff_bytes": 87387,
+  "diff_sha256": "151dd5e540acc09b34b7dfe53696769946cbcd7acc5ca84664d8734fd5c773f5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:12.605727+00:00",
+  "url": "https://github.com/tryghost/node-sqlite3.git"
+}

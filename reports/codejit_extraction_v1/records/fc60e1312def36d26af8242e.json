@@ -1,0 +1,16 @@
+{
+  "repo": "wireapp___wire-avs",
+  "commit_id": "f2529807164bd590f54526199ff202fa966c71d4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Release 6.6",
+  "patch_path": "reports/codejit_extraction_v1/records/fc60e1312def36d26af8242e.diff.gz",
+  "diff_bytes": 103785,
+  "diff_sha256": "b7a517860980000b7126faf8efc3c8b2988accebc565a9d614f90affdd05eb54",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:12.971603+00:00",
+  "url": "https://github.com/wireapp/wire-avs.git"
+}

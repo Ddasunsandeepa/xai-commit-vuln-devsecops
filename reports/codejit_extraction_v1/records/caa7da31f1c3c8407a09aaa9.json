@@ -1,0 +1,16 @@
+{
+  "repo": "sidhpurwala-huzaifa___freerdp",
+  "commit_id": "e2745807c4c3e0a590c0f69a9b655dc74ebaa03e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix possible integer overflow in license_read_scope_list()",
+  "patch_path": "reports/codejit_extraction_v1/records/caa7da31f1c3c8407a09aaa9.diff.gz",
+  "diff_bytes": 572,
+  "diff_sha256": "c6e16f8c795e89be53384cef6471764ff707b26f73d6bf4d3bd78fb208094976",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:00.192429+00:00",
+  "url": "https://github.com/sidhpurwala-huzaifa/freerdp.git"
+}
