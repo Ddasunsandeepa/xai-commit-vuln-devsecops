@@ -1,0 +1,19 @@
+{
+  "train": 1263,
+  "val": 323,
+  "train_repositories": 326,
+  "val_repositories": 63,
+  "train_label_counts": {
+    "0": 632,
+    "1": 631
+  },
+  "val_label_counts": {
+    "0": 159,
+    "1": 164
+  },
+  "train_manifest_sha256": "22fe1a4a193865c47ab1276752d82f4c4b7ca65c9128882a363df938be124981",
+  "val_manifest_sha256": "1e284c9c6647b615fce51a9bb33a9da7112edf0fca33bdbb72d866e818ab15c1",
+  "max_patch_bytes": 32768,
+  "smoke_test": false,
+  "heldout_test_accessed": false
+}

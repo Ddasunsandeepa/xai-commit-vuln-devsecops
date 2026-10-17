@@ -1,0 +1,49 @@
+{
+  "purpose": "E07 exploratory CodeJIT v3 development-validation paired analysis",
+  "test_cohort_accessed": false,
+  "n_validation": 323,
+  "n_repositories": 63,
+  "label_counts": {
+    "1": 164,
+    "0": 159
+  },
+  "train_manifest_sha256": "22fe1a4a193865c47ab1276752d82f4c4b7ca65c9128882a363df938be124981",
+  "val_manifest_sha256": "1e284c9c6647b615fce51a9bb33a9da7112edf0fca33bdbb72d866e818ab15c1",
+  "prediction_sources": {
+    "codebert_message": {
+      "path": "reports/codejit_codebert_v3/message/message/validation_predictions.csv",
+      "sha256": "037cc895bd36afaacbb5cadf9c370eb58ce13e07aa6f7dae069dee178ff02496"
+    },
+    "codebert_code": {
+      "path": "reports/codejit_codebert_v3/code/code/validation_predictions.csv",
+      "sha256": "95676378d9aac53cb236bd70988a09cf313ad5604533f72c0eaa51502864fc3b"
+    },
+    "codebert_combined": {
+      "path": "reports/codejit_codebert_v3/combined/combined/validation_predictions.csv",
+      "sha256": "025f2766712ff48543b49b2529f10a6971f0e8d8b22742bf93fbf2710bf033c2"
+    },
+    "graphcodebert_message": {
+      "path": "reports/codejit_graphcodebert_v3/message/message/validation_predictions.csv",
+      "sha256": "1cf1ab717a8bcf90dae36b22c14552aa52dd22584359aeff057cccdc24e60606"
+    },
+    "graphcodebert_code": {
+      "path": "reports/codejit_graphcodebert_v3/code/code/validation_predictions.csv",
+      "sha256": "5c533205fda62e43f45b142e3e17da95c7bfe522789f42f5102478eaea0510eb"
+    },
+    "graphcodebert_combined": {
+      "path": "reports/codejit_graphcodebert_v3/combined/combined/validation_predictions.csv",
+      "sha256": "cb8e34a86167b62a779e1728c8355b26d4917c0a7b6fb6d15e8b3a6e7f3df998"
+    }
+  },
+  "bootstrap_method": "repository cluster bootstrap; percentile 95% confidence interval",
+  "bootstrap_replicates": 2000,
+  "seed": 42,
+  "threshold": 0.5,
+  "mcnemar_method": "exact two-sided binomial on discordant correctness",
+  "notes": [
+    "Validation was used for training checkpoint selection; intervals are exploratory.",
+    "Multiple comparisons are unadjusted; do not claim confirmatory significance.",
+    "CodeJIT label zero is not representative of arbitrary benign pull requests.",
+    "GraphCodeBERT uses a sequence classifier, not graph/dataflow architecture."
+  ]
+}

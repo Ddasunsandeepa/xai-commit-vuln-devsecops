@@ -1,0 +1,54 @@
+{
+  "validation_rows": 323,
+  "validation_repositories": 63,
+  "model_files": {
+    "codebert_message": {
+      "predictions": "reports/codejit_codebert_v3/message/message/validation_predictions.csv",
+      "coverage": "reports/codejit_codebert_v3/message/message/token_coverage.csv",
+      "coverage_total_rows": 1586,
+      "validation_rows": 323,
+      "model_token_min": 4,
+      "model_token_max": 256
+    },
+    "codebert_code": {
+      "predictions": "reports/codejit_codebert_v3/code/code/validation_predictions.csv",
+      "coverage": "reports/codejit_codebert_v3/code/code/token_coverage.csv",
+      "coverage_total_rows": 1586,
+      "validation_rows": 323,
+      "model_token_min": 142,
+      "model_token_max": 256
+    },
+    "codebert_combined": {
+      "predictions": "reports/codejit_codebert_v3/combined/combined/validation_predictions.csv",
+      "coverage": "reports/codejit_codebert_v3/combined/combined/token_coverage.csv",
+      "coverage_total_rows": 1586,
+      "validation_rows": 323,
+      "model_token_min": 210,
+      "model_token_max": 256
+    },
+    "graphcodebert_message": {
+      "predictions": "reports/codejit_graphcodebert_v3/message/message/validation_predictions.csv",
+      "coverage": "reports/codejit_graphcodebert_v3/message/message/token_coverage.csv",
+      "coverage_total_rows": 1586,
+      "validation_rows": 323,
+      "model_token_min": 4,
+      "model_token_max": 256
+    },
+    "graphcodebert_code": {
+      "predictions": "reports/codejit_graphcodebert_v3/code/code/validation_predictions.csv",
+      "coverage": "reports/codejit_graphcodebert_v3/code/code/token_coverage.csv",
+      "coverage_total_rows": 1586,
+      "validation_rows": 323,
+      "model_token_min": 142,
+      "model_token_max": 256
+    },
+    "graphcodebert_combined": {
+      "predictions": "reports/codejit_graphcodebert_v3/combined/combined/validation_predictions.csv",
+      "coverage": "reports/codejit_graphcodebert_v3/combined/combined/token_coverage.csv",
+      "coverage_total_rows": 1586,
+      "validation_rows": 323,
+      "model_token_min": 210,
+      "model_token_max": 256
+    }
+  }
+}
