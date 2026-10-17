@@ -1,0 +1,246 @@
+{
+  "experiment": "CodeJIT CodeBERT repository-disjoint validation-only",
+  "input_mode": "combined",
+  "model_name": "microsoft/codebert-base",
+  "data_audit": {
+    "train": 937,
+    "val": 237,
+    "train_repositories": 240,
+    "val_repositories": 60,
+    "train_label_counts": {
+      "0": 463,
+      "1": 474
+    },
+    "val_label_counts": {
+      "0": 116,
+      "1": 121
+    },
+    "train_manifest_sha256": "25c4b1029628ba5d20148b8103cae9141279b67bab8a26feecdd8d801050259e",
+    "val_manifest_sha256": "007e6adb0ff5778dd02717daaf7b856543bed2f3b822afc9ec5ddbdc41d0c7b3",
+    "max_patch_bytes": 32768,
+    "smoke_test": false,
+    "heldout_test_accessed": false
+  },
+  "selected_epoch": 3,
+  "threshold_tuned_on_validation": 0.26,
+  "validation_default_05": {
+    "n": 237,
+    "threshold": 0.5,
+    "accuracy": 0.6751054852320675,
+    "balanced_accuracy": 0.6803932744371616,
+    "precision": 0.8666666666666667,
+    "recall": 0.4297520661157025,
+    "f1": 0.574585635359116,
+    "macro_f1": 0.6558935002734146,
+    "roc_auc": 0.7961669991450555,
+    "pr_auc": 0.8084000690573527,
+    "confusion_matrix": [
+      [
+        108,
+        8
+      ],
+      [
+        69,
+        52
+      ]
+    ]
+  },
+  "validation_tuned": {
+    "n": 237,
+    "threshold": 0.26,
+    "accuracy": 0.7468354430379747,
+    "balanced_accuracy": 0.7460102593331434,
+    "precision": 0.7364341085271318,
+    "recall": 0.7851239669421488,
+    "f1": 0.76,
+    "macro_f1": 0.7460714285714285,
+    "roc_auc": 0.7961669991450555,
+    "pr_auc": 0.8084000690573527,
+    "confusion_matrix": [
+      [
+        82,
+        34
+      ],
+      [
+        26,
+        95
+      ]
+    ]
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "loss": 0.6917438259784211,
+      "tuned_threshold": 0.41,
+      "validation_tuned": {
+        "n": 237,
+        "threshold": 0.41,
+        "accuracy": 0.6708860759493671,
+        "balanced_accuracy": 0.6693146195497293,
+        "precision": 0.656934306569343,
+        "recall": 0.743801652892562,
+        "f1": 0.6976744186046512,
+        "macro_f1": 0.66828165374677,
+        "roc_auc": 0.7308706184098034,
+        "pr_auc": 0.749434278334494,
+        "confusion_matrix": [
+          [
+            69,
+            47
+          ],
+          [
+            31,
+            90
+          ]
+        ]
+      },
+      "validation_default_05": {
+        "n": 237,
+        "threshold": 0.5,
+        "accuracy": 0.5316455696202531,
+        "balanced_accuracy": 0.5411442006269592,
+        "precision": 0.9166666666666666,
+        "recall": 0.09090909090909091,
+        "f1": 0.16541353383458646,
+        "macro_f1": 0.419950168676824,
+        "roc_auc": 0.7308706184098034,
+        "pr_auc": 0.749434278334494,
+        "confusion_matrix": [
+          [
+            115,
+            1
+          ],
+          [
+            110,
+            11
+          ]
+        ]
+      }
+    },
+    {
+      "epoch": 2,
+      "loss": 0.6413438526873892,
+      "tuned_threshold": 0.35,
+      "validation_tuned": {
+        "n": 237,
+        "threshold": 0.35,
+        "accuracy": 0.7426160337552743,
+        "balanced_accuracy": 0.7415218010829296,
+        "precision": 0.7272727272727273,
+        "recall": 0.7933884297520661,
+        "f1": 0.758893280632411,
+        "macro_f1": 0.7414375905424498,
+        "roc_auc": 0.7791037332573383,
+        "pr_auc": 0.7969595582570983,
+        "confusion_matrix": [
+          [
+            80,
+            36
+          ],
+          [
+            25,
+            96
+          ]
+        ]
+      },
+      "validation_default_05": {
+        "n": 237,
+        "threshold": 0.5,
+        "accuracy": 0.6919831223628692,
+        "balanced_accuracy": 0.6958535195212311,
+        "precision": 0.8157894736842105,
+        "recall": 0.512396694214876,
+        "f1": 0.6294416243654822,
+        "macro_f1": 0.682951859114149,
+        "roc_auc": 0.7791037332573383,
+        "pr_auc": 0.7969595582570983,
+        "confusion_matrix": [
+          [
+            102,
+            14
+          ],
+          [
+            59,
+            62
+          ]
+        ]
+      }
+    },
+    {
+      "epoch": 3,
+      "loss": 0.566815692313174,
+      "tuned_threshold": 0.26,
+      "validation_tuned": {
+        "n": 237,
+        "threshold": 0.26,
+        "accuracy": 0.7468354430379747,
+        "balanced_accuracy": 0.7460102593331434,
+        "precision": 0.7364341085271318,
+        "recall": 0.7851239669421488,
+        "f1": 0.76,
+        "macro_f1": 0.7460714285714285,
+        "roc_auc": 0.7961669991450555,
+        "pr_auc": 0.8084000690573527,
+        "confusion_matrix": [
+          [
+            82,
+            34
+          ],
+          [
+            26,
+            95
+          ]
+        ]
+      },
+      "validation_default_05": {
+        "n": 237,
+        "threshold": 0.5,
+        "accuracy": 0.6751054852320675,
+        "balanced_accuracy": 0.6803932744371616,
+        "precision": 0.8666666666666667,
+        "recall": 0.4297520661157025,
+        "f1": 0.574585635359116,
+        "macro_f1": 0.6558935002734146,
+        "roc_auc": 0.7961669991450555,
+        "pr_auc": 0.8084000690573527,
+        "confusion_matrix": [
+          [
+            108,
+            8
+          ],
+          [
+            69,
+            52
+          ]
+        ]
+      }
+    }
+  ],
+  "seconds": 55.50099015235901,
+  "config": {
+    "train": "reports/codejit_train_val_v2/train_manifest.csv",
+    "val": "reports/codejit_train_val_v2/val_manifest.csv",
+    "extraction": "reports/codejit_extraction_v1",
+    "out": "reports/codejit_codebert_v1",
+    "input_mode": "combined",
+    "model_name": "microsoft/codebert-base",
+    "max_patch_bytes": 32768,
+    "max_length": 256,
+    "message_budget": 64,
+    "batch_size": 4,
+    "grad_accum": 4,
+    "epochs": 3,
+    "patience": 2,
+    "learning_rate": 2e-05,
+    "seed": 42,
+    "smoke_test": false,
+    "check_data_only": false
+  },
+  "limitations": [
+    "Curated CodeJIT negatives do not represent ordinary CI commits.",
+    "No chronological split; repositories can share code/forks.",
+    "Patch prefix and tokenizer truncation may omit evidence.",
+    "Validation-based checkpoint/threshold selection is exploratory.",
+    "Held-out test cohort never accessed."
+  ]
+}

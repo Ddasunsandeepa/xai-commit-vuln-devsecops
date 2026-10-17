@@ -1,0 +1,19 @@
+{
+  "representation": "changed-line-priority with diff/file/hunk markers",
+  "label_blind": true,
+  "heldout_test_accessed": false,
+  "max_patch_bytes": 32768,
+  "max_length": 256,
+  "model_family": "codebert",
+  "input_mode": "code",
+  "train_manifest": "reports/codejit_train_val_v2/train_manifest.csv",
+  "val_manifest": "reports/codejit_train_val_v2/val_manifest.csv",
+  "selection_rows": 1174,
+  "fallback_rows": 0,
+  "limitations": [
+    "Preserves changed lines in original order; later hunks can still be truncated.",
+    "Diff metadata/header context is reduced.",
+    "Not a causal explanation or explicit graph processing.",
+    "Validation checkpoint selection remains exploratory."
+  ]
+}
