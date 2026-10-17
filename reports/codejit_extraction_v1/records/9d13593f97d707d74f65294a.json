@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "60d6922a011fe18c111b8d30fb6ef1f655b6b15e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libsgui: Change Rect default constructor\n\nThe current Rect default constructor initializes to all zeroes. Change\nit to initialize to an invalid Rect.\n\nModify all of the existing invocations of the default constructor to\nmaintain the existing behavior.\n\nBug 18173359\n\nChange-Id: Ibbad076f1550a94f56d7b1cf5350071f2022e09a",
+  "patch_path": "reports/codejit_extraction_v1/records/9d13593f97d707d74f65294a.diff.gz",
+  "diff_bytes": 9348,
+  "diff_sha256": "8e6bdfeca51c828101934ab65177e25d063ddbc9b953f5e9fa2b44f1e876679a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:45.317630+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

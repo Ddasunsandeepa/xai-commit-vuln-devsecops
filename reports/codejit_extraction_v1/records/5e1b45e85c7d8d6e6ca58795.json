@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "bd36c5dc9fb6d90c46fbfed8c2d67516fc571ec8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Validate and require subkey binding signatures on PGP public keys\n\nAll subkeys must be followed by a binding signature by the primary key\nas per the OpenPGP RFC, enforce the presence and validity in the parser.\n\nThe implementation is as kludgey as they come to work around our\nsimple-minded parser structure without touching API, to maximise\nbackportability. Store all the raw packets internally as we decode them\nto be able to access previous elements at will, needed to validate ordering\nand access the actual data. Add testcases for manipulated keys whose\nimport previously would succeed.\n\nDepends on the two previous commits:\n7b399fcb8f52566e6f3b4327197a85facd08db91 and\n236b802a4aa48711823a191d1b7f753c82a89ec5\n\nFixes CVE-2021-3521.",
+  "patch_path": "reports/codejit_extraction_v1/records/5e1b45e85c7d8d6e6ca58795.diff.gz",
+  "diff_bytes": 10133,
+  "diff_sha256": "a9e926e0fbeba5094f0bd842546d988b0eebdbe12c9d56bb30dc328da687e206",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:25.048523+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "pingidentity___mod_auth_openidc",
+  "commit_id": "612e309bfffd6f9b8ad7cdccda3019fc0865f3b4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "don't echo query params on invalid requests to redirect URI; closes #212\n\nthanks @LukasReschke; I'm sure there's some OWASP guideline that warns\nagainst this",
+  "patch_path": "reports/codejit_extraction_v1/records/9341d3115cf184ffacfbb4a4.diff.gz",
+  "diff_bytes": 1006,
+  "diff_sha256": "28d31925e0e703b16aa588f105e080f90ca40482889ff0fc1e3c8fa35ae1f782",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:32.992010+00:00",
+  "url": "https://github.com/pingidentity/mod_auth_openidc.git"
+}

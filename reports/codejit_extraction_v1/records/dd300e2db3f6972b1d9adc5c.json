@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "7e26e2bd726f48836be289400c7d82cb8b067dc1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Create files with with 000 permissions to avoid leaking yet unchecked data\n\nAs we are calculating the check sum while writing we only know the file\ncontent is correct after it being written comletely. CVE-2013-6435",
+  "patch_path": "reports/codejit_extraction_v1/records/dd300e2db3f6972b1d9adc5c.diff.gz",
+  "diff_bytes": 488,
+  "diff_sha256": "da693a88370d74070153d7d17850f211242d2ee3fe7565cf4828e03ba477428d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:22.906298+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

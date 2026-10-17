@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "9f03f42e2614a68f589f9db8fe76287146522c0c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor pgpDigParams construction to helper function\n\nNo functional changes, just to reduce code duplication and needed by\nthe following commits.",
+  "patch_path": "reports/codejit_extraction_v1/records/e61c427ffe99f20f73dd2c1d.diff.gz",
+  "diff_bytes": 1172,
+  "diff_sha256": "3994267e4228806be7fd8da2ab37c90a2336e48b2298bf7819cbe0a961994f13",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:23.626448+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

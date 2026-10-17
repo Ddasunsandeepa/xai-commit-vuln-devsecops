@@ -1,0 +1,16 @@
+{
+  "repo": "libexpat___libexpat",
+  "commit_id": "d248bbd940014d5ef98c97e4733022275e087901",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Mass-apply clang-format 9 using ./apply-clang-format.sh",
+  "patch_path": "reports/codejit_extraction_v1/records/987da91578e2898f6817e186.diff.gz",
+  "diff_bytes": 1376055,
+  "diff_sha256": "b14aaa80b150ac683ba9b013a9bec50fae7dc910d3515e84da567610ccba3a5a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:50.117239+00:00",
+  "url": "https://github.com/libexpat/libexpat.git"
+}

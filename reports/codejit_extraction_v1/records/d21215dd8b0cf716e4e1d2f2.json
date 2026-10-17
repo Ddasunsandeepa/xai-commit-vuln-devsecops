@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "baef1ffd73db183ca50c854e1779ed7f6e5100a8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Revert 144993 - gdata: Remove invalid files in the cache directories\n\nBroke linux_chromeos_valgrind:\nhttp://build.chromium.org/p/chromium.memory.fyi/builders/Chromium%20OS%20%28valgrind%29%285%29/builds/8628/steps/memory%20test%3A%20unit/logs/stdio\n\nIn theory, we shouldn't have any invalid files left in the\ncache directories, but things can go wrong and invalid files\nmay be left if the device shuts down unexpectedly, for instance.\nBesides, it's good to be defensive.\n\nBUG=134862\nTEST=added unit tests\n\nReview URL: https://chromiumcodereview.appspot.com/10693020\n\nTBR=satorux@chromium.org\n\ngit-svn-id: svn://svn.chromium.org/chrome/trunk/src@145029 0039d316-1c4b-4281-b951-d872f2087c98",
+  "patch_path": "reports/codejit_extraction_v1/records/d21215dd8b0cf716e4e1d2f2.diff.gz",
+  "diff_bytes": 35405,
+  "diff_sha256": "0dcb8a5e128579150ce033bf2f06526eb3c97ba96215234986a6be54cd770e8b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:48:50.742384+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

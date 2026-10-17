@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "81898a7718f6c5dd8a7fed38a761f0306f7a3fcf",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add support for reconstructing inflections index entries",
+  "patch_path": "reports/codejit_extraction_v1/records/fb2cdb3d1c5ae60958b0c945.diff.gz",
+  "diff_bytes": 20663,
+  "diff_sha256": "62dcbfce887a64e1e745f7d79039c3840ab0976ec894e395e9c5fe66723fd805",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:20.785743+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

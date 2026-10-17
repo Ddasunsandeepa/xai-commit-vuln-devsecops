@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "3c2b605d72e8b080dace1d98a6e50b46c1d12186",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "bug #248, fix Out-Of-Bounds Read in read_image_tga",
+  "patch_path": "reports/codejit_extraction_v1/records/93bfc65f240e65904457ac15.diff.gz",
+  "diff_bytes": 1977,
+  "diff_sha256": "abb4a3ad648d8bd60e0f361ab8d8b2b0157146ca083f58aaeaf2f4b31febb1e1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:54.323525+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

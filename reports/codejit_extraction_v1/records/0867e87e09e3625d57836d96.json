@@ -1,0 +1,16 @@
+{
+  "repo": "sipa___bitcoin",
+  "commit_id": "a206b0ea12eb4606b93323268fc81a4f1f952531",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not allow overwriting unspent transactions (BIP 30)\n\nIntroduce the following network rule:\n * a block is not valid if it contains a transaction whose hash\n   already exists in the block chain, unless all that transaction's\n   outputs were already spent before said block.\n\nWarning: this is effectively a network rule change, with potential\nrisk for forking the block chain. Leaving this unfixed carries the\nsame risk however, for attackers that can cause a reorganisation\nin part of the network.\n\nThanks to Russell O'Connor and Ben Reeves.",
+  "patch_path": "reports/codejit_extraction_v1/records/0867e87e09e3625d57836d96.diff.gz",
+  "diff_bytes": 2108,
+  "diff_sha256": "11a5240acfc79756b6ef8eece35e6c7994624122e5112e509ec40b5fb40a2072",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:16.711177+00:00",
+  "url": "https://github.com/sipa/bitcoin.git"
+}

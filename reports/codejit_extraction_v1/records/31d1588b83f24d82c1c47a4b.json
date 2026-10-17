@@ -1,0 +1,16 @@
+{
+  "repo": "open5gs___open5gs",
+  "commit_id": "a0f2535cb5a29bba6dbbccdb90c74ccd770cc700",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "A crafted packet from UE can crash SGW-U/UPF",
+  "patch_path": "reports/codejit_extraction_v1/records/31d1588b83f24d82c1c47a4b.diff.gz",
+  "diff_bytes": 2053,
+  "diff_sha256": "99e1276149d4d1910fb2973afca805b0ebc00263b2025a2103bc22266f3b293b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:25.657432+00:00",
+  "url": "https://github.com/open5gs/open5gs.git"
+}

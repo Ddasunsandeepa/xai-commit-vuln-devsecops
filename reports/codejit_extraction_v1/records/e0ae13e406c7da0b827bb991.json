@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "1888810e77b446a79a7674784d5f139fcfa605e2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix infinite recursion in wddx\n\nSummary:\nIt wasn't checking for infinite recursion due to references or self-referential\nobjects. As it turns out closures always return themselves when converted to an\narray. Raising a warning and returning is how PHP-src deals with this problem,\nnothing special is done for closures.\n\nReviewed By: alexmalyshev\n\nDifferential Revision: D3465655\n\nfbshipit-source-id: a42bc34d30cf4825faf33596139c0c05f8e4f5f1",
+  "patch_path": "reports/codejit_extraction_v1/records/e0ae13e406c7da0b827bb991.diff.gz",
+  "diff_bytes": 4513,
+  "diff_sha256": "2633fcbe5b5c4b0941946f822881e6fb399d87aaceef71d2fe16c62d03de0650",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:35.165668+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

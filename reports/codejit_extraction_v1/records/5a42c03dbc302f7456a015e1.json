@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "50e2b973eeec7172991bf8f544ab06fb782b97df",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream/tcp: handle RST with MD5 or AO header\n\nSpecial handling for RST packets if they have an TCP MD5 or AO header option.\nThe options hash can't be validated. The end host might be able to validate\nit, as it can have a key/password that was communicated out of band.\n\nThe sender could use this to move the TCP state to 'CLOSED', leading to\na desync of the TCP session.\n\nThis patch builds on top of\n843d0b7a10bb (\"stream: support RST getting lost/ignored\")\n\nIt flags the receiver as having received an RST and moves the TCP state\ninto the CLOSED state. It then reverts this if the sender continues to\nsend traffic. In this case it sets the following event:\n\n    stream-event:suspected_rst_inject;\n\nBug: #4710.",
+  "patch_path": "reports/codejit_extraction_v1/records/5a42c03dbc302f7456a015e1.diff.gz",
+  "diff_bytes": 4134,
+  "diff_sha256": "75b32d9dab789857c3390b59763560bd2ff61bf85188d43d3aca2b43f1d451d2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:46.244311+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "jpirko___libndp",
+  "commit_id": "8650eb29d63afb88a73a9ec5c874894ea856aa2f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lib: use in6_addr instead od sockaddr_in6 in function params\n\nSigned-off-by: Jiri Pirko <jiri@resnulli.us>",
+  "patch_path": "reports/codejit_extraction_v1/records/e8c061fbf4e212e7789c743d.diff.gz",
+  "diff_bytes": 2935,
+  "diff_sha256": "64ee6b123a356744f7b6755cd1a8850ff3198208cde1403d2d03e420b191510a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:00.310463+00:00",
+  "url": "https://github.com/jpirko/libndp.git"
+}

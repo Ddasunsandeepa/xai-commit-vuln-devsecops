@@ -1,0 +1,16 @@
+{
+  "repo": "saschahauer___barebox",
+  "commit_id": "ec4f9699718054f2b4e49ed441f3420c257f5f26",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "digest: add verify callback\n\nthis will allow to compare a md with the original one\n\nWhen calling this do not call final\n\nFor RSA_SIGN verification final does not exist only verify\nas final will be for signing\n\nSigned-off-by: Jean-Christophe PLAGNIOL-VILLARD <plagnioj@jcrosoft.com>\nSigned-off-by: Sascha Hauer <s.hauer@pengutronix.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/b5bae271ccc0490d8d5e3598.diff.gz",
+  "diff_bytes": 4437,
+  "diff_sha256": "1db6b36ae8a0e1c2a4e4f243f2d830ac0b1ed8b44105ea1babd120408dc61331",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:38.828874+00:00",
+  "url": "https://github.com/saschahauer/barebox.git"
+}

@@ -1,0 +1,17 @@
+family,mode,representation,field,n,truncated_n
+codebert,code,prefix,code_tokens_truncated,237,227
+codebert,code,prefix,message_tokens_truncated,237,0
+codebert,code,hunk,code_tokens_truncated,237,190
+codebert,code,hunk,message_tokens_truncated,237,0
+codebert,combined,prefix,code_tokens_truncated,237,232
+codebert,combined,prefix,message_tokens_truncated,237,98
+codebert,combined,hunk,code_tokens_truncated,237,197
+codebert,combined,hunk,message_tokens_truncated,237,91
+graphcodebert,code,prefix,code_tokens_truncated,237,227
+graphcodebert,code,prefix,message_tokens_truncated,237,0
+graphcodebert,code,hunk,code_tokens_truncated,237,190
+graphcodebert,code,hunk,message_tokens_truncated,237,0
+graphcodebert,combined,prefix,code_tokens_truncated,237,232
+graphcodebert,combined,prefix,message_tokens_truncated,237,98
+graphcodebert,combined,hunk,code_tokens_truncated,237,197
+graphcodebert,combined,hunk,message_tokens_truncated,237,91

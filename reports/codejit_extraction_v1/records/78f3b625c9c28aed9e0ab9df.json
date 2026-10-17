@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "6058483d9fbc1b904d5ae7cfea47bfcde5c5b559",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Reject replies to DNS PTR requests that contain invalid characters\n\nFixes issue #1033 reported by @ping86",
+  "patch_path": "reports/codejit_extraction_v1/records/78f3b625c9c28aed9e0ab9df.diff.gz",
+  "diff_bytes": 634,
+  "diff_sha256": "422f745e30c2ca0c8f7079d2f4cd7c1411f5dbef0915bb32f31686337e77c991",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:38.039503+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

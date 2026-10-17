@@ -1,0 +1,16 @@
+{
+  "repo": "tildeslash___monit",
+  "commit_id": "d5d85f494a89cb422c0db9b18a2e849bb59b4960",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "refactor: add length parameter to StringBuffer_toCompressedString() and drop StringBuffer_compressedLength()",
+  "patch_path": "reports/codejit_extraction_v1/records/a7810d56faf7355b743018b2.diff.gz",
+  "diff_bytes": 7637,
+  "diff_sha256": "306806562df94161df2d985ae3aee212fa087991d49a5459dcfd16db98b2c0fc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:40.307358+00:00",
+  "url": "https://github.com/tildeslash/monit.git"
+}

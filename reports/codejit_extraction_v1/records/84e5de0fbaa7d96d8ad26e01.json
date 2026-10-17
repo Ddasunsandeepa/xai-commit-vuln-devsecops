@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "1abc2e5a401a4bf1d5ca4df91358ce5df111f495",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed an array overflow problem in the JPC decoder.",
+  "patch_path": "reports/codejit_extraction_v1/records/84e5de0fbaa7d96d8ad26e01.diff.gz",
+  "diff_bytes": 449,
+  "diff_sha256": "85878f66bb143bb0ccd30c70d08f0dbd331c80966bd55d8965d0af70b35790bc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:38.781804+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

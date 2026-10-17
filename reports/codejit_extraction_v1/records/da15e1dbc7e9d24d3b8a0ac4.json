@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "be3c8cbbc05f703574c9c9d2539c16a6ef7701ac",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Cleaned up floating-point rescaling code.\n\nThese changes improve readability without negatively affecting\ncorrectness or performance.\n\n1) The code to do horizontal and vertical scaling were mostly\nidentical.  This change merges them.\n\n2) The case where the original and result sizes were identical were\nhandled inefficiently (and probably incorrectly) by copying the source\nto the destination with memcpy.  This change makes a simple copy if\nboth dimensions are the same (i.e. no resizing is requested) and skips\nresizing in the unchanged dimension if only one dimension is\ndifferent.\n\n3) Other cleanups: removed dead code, improved variable names, added\nassertions to document expections, etc.",
+  "patch_path": "reports/codejit_extraction_v1/records/da15e1dbc7e9d24d3b8a0ac4.diff.gz",
+  "diff_bytes": 10479,
+  "diff_sha256": "3f272b96d4f9c7c4b734fe0c55c18518b751737b2dfaff42f6a25649d1ae4d7d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:00.502445+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

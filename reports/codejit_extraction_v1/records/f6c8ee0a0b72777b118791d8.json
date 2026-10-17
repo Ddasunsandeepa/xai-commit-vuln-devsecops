@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "e2a4f1a9eb2c1ef3feed4a4f04db7629f2b61084",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avcodec/mpeg4videodec: Fix runtime error: signed integer overflow: -135088512 * 16 cannot be represented in type 'int'\n\nFixes: 736/clusterfuzz-testcase-5580263943831552\n\nFound-by: continuous fuzzing process https://github.com/google/oss-fuzz/tree/master/targets/ffmpeg\nSigned-off-by: Michael Niedermayer <michael@niedermayer.cc>",
+  "patch_path": "reports/codejit_extraction_v1/records/f6c8ee0a0b72777b118791d8.diff.gz",
+  "diff_bytes": 1485,
+  "diff_sha256": "f68a566a12fe27c03c0117ae9a5b158f0adafa4c519dd5eecf0ad81642eb3980",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:15.378937+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "openvswitch___ovs",
+  "commit_id": "117d72495467efaa3eb7e7e4f7d110cd1223b967",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "types: Change ofp_port_t from uint16_t to uint32_t.\n\nThis fixes several tests that failed on big-endian systems because \"union\nflow_in_port\" overlays an ofp_port_t and odp_port_t and in some cases it\nis not easy to determine which one is in use.\n\nThis commit also fixes up a few places where this broke other code.\n\nSigned-off-by: Ben Pfaff <blp@ovn.org>\nAcked-by: Aaron Conole <aconole@redhat.com>\nAcked-by: Gerhard Stenzel <gstenzel@linux.vnet.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/be7c71193e920980d607113f.diff.gz",
+  "diff_bytes": 3015,
+  "diff_sha256": "7c66136c6cf300c9d09b371ae5e88bd0c16ff407ee92a9fd0cc7dc0baeec4ebc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:21.504908+00:00",
+  "url": "https://github.com/openvswitch/ovs.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "dmlc___ps-lite",
+  "commit_id": "4be817e8b03e7e92517e91f2dfcc50865e91c6ea",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid listening on all interfaces by default",
+  "patch_path": "reports/codejit_extraction_v1/records/fcf7730f9ea76401af101ff3.diff.gz",
+  "diff_bytes": 642,
+  "diff_sha256": "f5c8d3b2fece7243fd1037179e54013c96b6597cb1ade13b17089633a7f0102e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:04.114090+00:00",
+  "url": "https://github.com/dmlc/ps-lite.git"
+}

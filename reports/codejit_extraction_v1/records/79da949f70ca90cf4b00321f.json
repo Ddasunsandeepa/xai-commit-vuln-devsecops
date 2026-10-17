@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "3cdc490bf4bdf275a65933a908984d1660941340",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libfreerdp-cache: refactor glyph cache and add logging",
+  "patch_path": "reports/codejit_extraction_v1/records/79da949f70ca90cf4b00321f.diff.gz",
+  "diff_bytes": 17316,
+  "diff_sha256": "fdc6264e68b87662e677bfff0971c103b9599d8dc0e3612de69ef4b9bf70d2a9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:33.313696+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

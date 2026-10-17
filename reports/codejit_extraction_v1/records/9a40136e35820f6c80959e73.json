@@ -1,0 +1,16 @@
+{
+  "repo": "wolfssl___wolfmqtt",
+  "commit_id": "84d4b53122e0fa0280c7872350b89d5777dabbb2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix wolfmqtt-fuzzer: Null-dereference WRITE in MqttProps_Free",
+  "patch_path": "reports/codejit_extraction_v1/records/9a40136e35820f6c80959e73.diff.gz",
+  "diff_bytes": 766,
+  "diff_sha256": "b21417a66f8467e00ef6ebff143f04ed70a1de6cac888d15bbe2496afd2bd8c8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:14.565532+00:00",
+  "url": "https://github.com/wolfssl/wolfmqtt.git"
+}

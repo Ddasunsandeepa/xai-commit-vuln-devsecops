@@ -1,0 +1,16 @@
+{
+  "repo": "libxmljs___libxmljs",
+  "commit_id": "d4c79b96ef97e5338823b8b11916cf1294a7695e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[nan2] Start migration",
+  "patch_path": "reports/codejit_extraction_v1/records/e0f754126c00135c49a99a3d.diff.gz",
+  "diff_bytes": 95809,
+  "diff_sha256": "c53fd78647caa8abe5e057349934e3d0c30b112bcd7279c1f7aed2fb85599814",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:39.000106+00:00",
+  "url": "https://github.com/libxmljs/libxmljs.git"
+}

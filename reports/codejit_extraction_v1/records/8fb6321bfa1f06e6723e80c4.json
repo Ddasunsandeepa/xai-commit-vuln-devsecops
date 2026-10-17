@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "a86eb798d077b9b25c8f8c77e3c02c2f287c1ce7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix in handling header decode errors\n\nIf header decode was unsuccessful, do not try decoding a frame\n\nAlso, initialize pic_wd, pic_ht for reinitialization when\ndecoder is created with smaller dimensions\n\nBug: 28886651\nBug: 35219737\nChange-Id: I8c06d9052910e47fce2e6fe25ad318d4c83d2c50\n(cherry picked from commit 2b9fa9ace2dbedfbac026fc9b6ab6cdac7f68c27)\n(cherry picked from commit c2395cd7cc0c286a66de674032dd2ed26500aef4)",
+  "patch_path": "reports/codejit_extraction_v1/records/8fb6321bfa1f06e6723e80c4.diff.gz",
+  "diff_bytes": 2208,
+  "diff_sha256": "26225efebaa77fd504a0c838cad20c3f25ff82f8c42378434ae5238b146de514",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:29.305872+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

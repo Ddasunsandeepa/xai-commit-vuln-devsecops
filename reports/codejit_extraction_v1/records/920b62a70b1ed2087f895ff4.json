@@ -1,0 +1,16 @@
+{
+  "repo": "ioquake___ioq3",
+  "commit_id": "d2b1d124d4055c2fcbe5126863487c52fd58cca1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix/improve buffer overflow in MSG_ReadBits/MSG_WriteBits\n\nPrevent reading past end of message in MSG_ReadBits. If read past\nend of msg->data buffer (16348 bytes) the engine could SEGFAULT.\nMake MSG_WriteBits use an exact buffer overflow check instead of\npossibly failing with a few bytes left.",
+  "patch_path": "reports/codejit_extraction_v1/records/920b62a70b1ed2087f895ff4.diff.gz",
+  "diff_bytes": 6108,
+  "diff_sha256": "f10a7afdaf34780740cdf0f7ddc4179e2cbe92513d47613eb9efcffe2625a31e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:45.673898+00:00",
+  "url": "https://github.com/ioquake/ioq3.git"
+}

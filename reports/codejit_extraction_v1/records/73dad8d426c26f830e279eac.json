@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___fbthrift",
+  "commit_id": "c5d6e07588cd03061bc54d451a7fa6e84883d62b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Throw on bad types during skipping data\n\nSummary:\nThe current code silently returns on bad types. In case when we have an invalid data, we may get a container of a large size with a bad type, this would lead to us running long loop doing nothing (though we already can say that the data is invalid).\n\nThe new code would throw an exception as soon as we try to skip a value of invalid type.\n\nFixes CVE-2019-3552\n\nReviewed By: yfeldblum, stevegury\n\nDifferential Revision: D8344920\n\nfbshipit-source-id: f12e8f3442f7ad5e1a81d822380701e929b80f0d",
+  "patch_path": "reports/codejit_extraction_v1/records/73dad8d426c26f830e279eac.diff.gz",
+  "diff_bytes": 4949,
+  "diff_sha256": "f4d827394c4211dd861791b25c450a64f8904637ebfe2ad8731103c37bec9804",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:24.935541+00:00",
+  "url": "https://github.com/facebook/fbthrift.git"
+}

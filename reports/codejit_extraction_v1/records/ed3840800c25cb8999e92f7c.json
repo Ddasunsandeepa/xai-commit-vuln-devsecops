@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "198888b8e0163bab7a417161c63e483804ae8e31",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add packet length check in smp_proc_master_id\n\nBug: 111937027\nTest: manual\n\nChange-Id: I1144c9879e84fa79d68ad9d5fece4f58e2a3b075\n(cherry picked from commit c8294662d07a98e9b8b1cab1ab681ec0805ce4e8)",
+  "patch_path": "reports/codejit_extraction_v1/records/ed3840800c25cb8999e92f7c.diff.gz",
+  "diff_bytes": 661,
+  "diff_sha256": "44390838c79619afcf55bfa87eb7b5af8cd0dfeded9603ada492388090cb98bf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:03.947228+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "kmatheussen___das_watchdog",
+  "commit_id": "beadc94e99fa1bff805e147317ce2aebbe2fd63b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "first commit",
+  "patch_path": "reports/codejit_extraction_v1/records/564d45fe9641c2e648bbaeea.diff.gz",
+  "diff_bytes": 63480,
+  "diff_sha256": "b29c7875ef71b19d0362268066b1b171162186d2d975ad9dcc984ac68dd99dca",
+  "parent_count": 0,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:29.348887+00:00",
+  "url": "https://github.com/kmatheussen/das_watchdog.git"
+}

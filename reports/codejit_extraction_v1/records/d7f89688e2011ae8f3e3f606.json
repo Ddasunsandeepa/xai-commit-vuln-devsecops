@@ -1,0 +1,16 @@
+{
+  "repo": "luke-jr___bfgminer",
+  "commit_id": "ff7f30129f15f7a2213f8ced0cd65c9a331493d9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bugfix: initiate_stratum: Ensure extranonce2 size is not negative (which could lead to exploits later as too little memory gets allocated)\n\nThanks to Mick Ayzenberg <mick@dejavusecurity.com> for finding this!",
+  "patch_path": "reports/codejit_extraction_v1/records/d7f89688e2011ae8f3e3f606.diff.gz",
+  "diff_bytes": 332,
+  "diff_sha256": "13332fe9142f732d3d90ad4c99b8db945a1dd23d42c2e13262ef3c3a122f975f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:50.416465+00:00",
+  "url": "https://github.com/luke-jr/bfgminer.git"
+}

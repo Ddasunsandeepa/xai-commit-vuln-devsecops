@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "bd64516aca4d4e22acb33c71429d293a14d355cf",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "list-objects: drop name_path entirely\n\nIn the previous commit, we left name_path as a thin wrapper\naround a strbuf. This patch drops it entirely. As a result,\nevery show_object_fn callback needs to be adjusted. However,\nnone of their code needs to be changed at all, because the\nonly use was to pass it to path_name(), which now handles\nthe bare strbuf.\n\nSigned-off-by: Jeff King <peff@peff.net>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/193a89219f76793e899e96a0.diff.gz",
+  "diff_bytes": 6772,
+  "diff_sha256": "65de2cd9e7b9a1478210d8f8e3a4dca81a472f85a5c415670bfcbec4dda043e0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:07.889375+00:00",
+  "url": "https://github.com/git/git.git"
+}

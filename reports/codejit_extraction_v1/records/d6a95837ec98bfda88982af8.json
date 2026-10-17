@@ -1,0 +1,16 @@
+{
+  "repo": "spiderlabs___modsecurity",
+  "commit_id": "3901128f17e0763ac1a260106b79859d2aad6d90",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Revert \"Fix Chuncked string case sensitive issue\"\n\nThis reverts commit 16a815a3c2735f62238ef99af26090a2b8430d3d.",
+  "patch_path": "reports/codejit_extraction_v1/records/d6a95837ec98bfda88982af8.diff.gz",
+  "diff_bytes": 709,
+  "diff_sha256": "2dfff922ff6ad4bdefa9b4a51b44fecb9185ed8dc038ac032203c25986ae5098",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:25.721280+00:00",
+  "url": "https://github.com/spiderlabs/modsecurity.git"
+}

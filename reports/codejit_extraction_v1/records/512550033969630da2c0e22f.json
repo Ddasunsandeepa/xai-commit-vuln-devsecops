@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "ea39e3cba652bcc4b11bb0d5c62b017e584d2e5a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "jwt_authn: fix a bug where JWT with wrong issuer is allowed in allow_missing case (#15194)\n\n[jwt] When allow_missing is used inside RequiresAny, the requests with JWT with wrong issuer are accepted. This is a bug, allow_missing should only allow requests without any JWT. This change fixed the above issue by preserving JwtUnknownIssuer in allow_missing case.\n\nSigned-off-by: Wayne Zhang <qiwzhang@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/512550033969630da2c0e22f.diff.gz",
+  "diff_bytes": 6523,
+  "diff_sha256": "13e5de1d6dc7888d144003cfc4fb8608a5152e6cb147bbd8942a8d1a53be474a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:57.260126+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

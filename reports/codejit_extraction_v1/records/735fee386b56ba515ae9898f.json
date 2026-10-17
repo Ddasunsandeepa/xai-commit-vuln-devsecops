@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "9a5e32f141fdb43edc1bb31ceacec781b35281b3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add support for decoding UTF16 to UTF8\n\nThis is helpful because many native service developers use std::string\ninternally, and String16 doesn't work very well with many C++\nprimitives.\n\nBug: 26729450\nTest: Integration test appears to show this is correct.\n\nChange-Id: Ib75068881da28fd8515685bcbcbe864ba3b7ec23",
+  "patch_path": "reports/codejit_extraction_v1/records/735fee386b56ba515ae9898f.diff.gz",
+  "diff_bytes": 6331,
+  "diff_sha256": "650a8cad7d5267f7cc1072d5f549ab019a5b6f3a1736d9a12f90438428881a4b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:48.851060+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

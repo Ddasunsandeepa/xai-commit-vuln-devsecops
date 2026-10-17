@@ -1,0 +1,16 @@
+{
+  "repo": "open-power___skiboot",
+  "commit_id": "5be38b672c1410e2f10acd3ad2eecfdc81d5daf7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "secvar: fix endian conversion\n\nunpack_timestamp() calls le32_to_cpu() for endian conversion of\nuint16_t \"year\" value. This patch fixes the code to use le16_to_cpu().\n\nSigned-off-by: Nayna Jain <nayna@linux.ibm.com>\nReviewed-by: Daniel Axtens <dja@axtens.net>\nSigned-off-by: Vasant Hegde <hegdevasant@linux.vnet.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/2cf8c8e31c5ead416adb9692.diff.gz",
+  "diff_bytes": 649,
+  "diff_sha256": "eec525b4051316ab3a0526baa6098d38035cf2ebce08a1a279ce2d21f71ca4a4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:23.652590+00:00",
+  "url": "https://github.com/open-power/skiboot.git"
+}

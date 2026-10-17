@@ -1,0 +1,16 @@
+{
+  "repo": "mono___mono",
+  "commit_id": "677a2cf5da0492b37a22c15bbae722cc43c46a7e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "2009-09-25  Mark Probst  <mark.probst@gmail.com>\n\n\t* object-internals.h: The Thread class is split up into Thread and\n\tInternalThread now.  We have exactly one InternalThread per\n\tthread, and at most one Thread per appdomain per thread.  Most\n\tdata is stored in InternalThread.  All InternalThread objects live\n\tin the root domain.\n\n\t* class-internals.h: Add internal_thread_class to MonoDefaults.\n\n\t* appdomain.c (mono_domain_unload), attach.c (receiver_thread),\n\tdomain.c, gc.c, icall-def.h, monitor.c, object.c, sgen-gc.c,\n\tsocket-io.c, threadpool.c, thread-types.h, threads.c: Changes\n\tresulting from the split of the Thread class.\n\n\t* gc-internal.h: Prototype for new function for checking whether a\n\tthread is the finalizer thread.\n\n\t* appdomain.c: Corlib version bump.\n\n2009-09-25  Mark Probst  <mark.probst@gmail.com>\n\n\t* method-to-ir.c, mini.h, mini-alpha.c, mini-amd64.c, mini-arm.c,\n\tmini-hppa.c, mini-ia64.c, mini-mips.c, mini-ppc.c, mini-s390.c,\n\tmini-s390x.c, mini-sparc.c, mini-x86.c: Thread.get_CurrentThread\n\tworks differently now and we don't handle it in the JIT anymore.\n\n\t* mini.c, mini-exceptions.c, mini-posix.c, debug-debugger.c,\n\tdebug-mini.c, tramp-amd64.c, tramp-x86.c: Changes resulting from\n\tthe Thread class split.\n\n2009-09-25  Mark Probst  <mark.probst@gmail.com>\n\n\t* xdomain-threads.c: Test for checking whether Thread is correctly\n\tseparated between appdomains.\n\n\t* Makefile.am: Test added.\n\nsvn path=/trunk/mono/; revision=142662",
+  "patch_path": "reports/codejit_extraction_v1/records/12d89647cc36bbb8137a68a6.diff.gz",
+  "diff_bytes": 110114,
+  "diff_sha256": "7a6abc4ff2071a9ba5ec6c85f7c1600788a0d25f38207a3ec22afbb89f96ba02",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:46.596732+00:00",
+  "url": "https://github.com/mono/mono.git"
+}

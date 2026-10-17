@@ -1,0 +1,16 @@
+{
+  "repo": "python-pillow___pillow",
+  "commit_id": "c22af89ef0fee353b8f5b496147845e79b2dec26",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "optimize memory usage",
+  "patch_path": "reports/codejit_extraction_v1/records/98fb7e549933a948e78b883f.diff.gz",
+  "diff_bytes": 8088,
+  "diff_sha256": "dc7a03bd1496aae9299833db4c03c65ae2c0016da0604d62d614b3b57e1cbebf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:12.396874+00:00",
+  "url": "https://github.com/python-pillow/pillow.git"
+}

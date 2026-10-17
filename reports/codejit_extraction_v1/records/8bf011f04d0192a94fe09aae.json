@@ -1,0 +1,16 @@
+{
+  "repo": "plougher___squashfs-tools",
+  "commit_id": "f95864afe8833fe3ad782d714b41378e860977b1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "unsquashfs-4: Add more sanity checks + fix CVE-2015-4645/6\n\nAdd more filesystem table sanity checks to Unsquashfs-4 and\nalso properly fix CVE-2015-4645 and CVE-2015-4646.\n\nThe CVEs were raised due to Unsquashfs having variable\noveflow and stack overflow in a number of vulnerable\nfunctions.\n\nThe suggested patch only \"fixed\" one such function and fixed\nit badly, and so it was buggy and introduced extra bugs!\n\nThe suggested patch was not only buggy, but, it used the\nessentially wrong approach too.  It was \"fixing\" the\nsymptom but not the cause.  The symptom is wrong values\ncausing overflow, the cause is filesystem corruption.\nThis corruption should be detected and the filesystem\nrejected *before* trying to allocate memory.\n\nThis patch applies the following fixes:\n\n1. The filesystem super-block tables are checked, and the values\n   must match across the filesystem.\n\n   This will trap corrupted filesystems created by Mksquashfs.\n\n2. The maximum (theorectical) size the filesystem tables could grow\n   to, were analysed, and some variables were increased from int to\n   long long.\n\n   This analysis has been added as comments.\n\n3. Stack allocation was removed, and a shared buffer (which is\n   checked and increased as necessary) is used to read the\n   table indexes.\n\nSigned-off-by: Phillip Lougher <phillip@squashfs.org.uk>",
+  "patch_path": "reports/codejit_extraction_v1/records/8bf011f04d0192a94fe09aae.diff.gz",
+  "diff_bytes": 13779,
+  "diff_sha256": "e7cc463b136ff8297d2cc21ad1a426a697b0779e4fe6174dc4f9e5e071da73eb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:41.298645+00:00",
+  "url": "https://github.com/plougher/squashfs-tools.git"
+}

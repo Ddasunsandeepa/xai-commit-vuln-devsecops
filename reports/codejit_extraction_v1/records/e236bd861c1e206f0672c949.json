@@ -1,0 +1,16 @@
+{
+  "repo": "open-iscsi___tcmu-runner",
+  "commit_id": "266c0c77cf0628c32e1d875597405e28a6a84519",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tcmu-runner: Implement TCMUService1.HandlerManager1 interface\n\nSigned-off-by: Fam Zheng <famz@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/e236bd861c1e206f0672c949.diff.gz",
+  "diff_bytes": 5975,
+  "diff_sha256": "b70a0d4351fe8953a3a4f22d7b83dbf78c615f5fc76989af8c1763eae33f6289",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:22.676146+00:00",
+  "url": "https://github.com/open-iscsi/tcmu-runner.git"
+}

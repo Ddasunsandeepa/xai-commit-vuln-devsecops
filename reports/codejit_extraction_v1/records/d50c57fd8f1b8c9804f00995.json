@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "e2ca99c907a783f6c347af0c25507839c5cac0e9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Begin reengineering the EXPLAIN QUERY PLAN function to provide more\nintuitive output.\n\nFossilOrigin-Name: 70b48a7972dfbb44af3ccd8ccd830e984bec88d80a78b3566a5de86a16e7fc14",
+  "patch_path": "reports/codejit_extraction_v1/records/d50c57fd8f1b8c9804f00995.diff.gz",
+  "diff_bytes": 31741,
+  "diff_sha256": "a7ba1f4ad745d94bd25a5bad01caa264aefbf7de096201aeca4aa546356ee56a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:19.694672+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "45a367d8cf3692389c49058731503c54ec5c70df",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "cryp: ensure that mode is AE in syscall_authenc_ functions\n\nWhen doing calls to syscall_authenc_xyz functions (all of them except\nsyscall_authenc_init) there is no check being done that the state coming\nfrom the TA has been initialized to a valid authenticated encryption\nstate. As a consequence of that it's possible to redirect execution to\nother functions. Doing like that will make TEE core end up with a data\nabort.\n\nFixes: OP-TEE-2019-0019\n\nSigned-off-by: Joakim Bech <joakim.bech@linaro.org>\nReported-by: Martijn Bogaard <bogaard@riscure.com>\nAcked-by: Jerome Forissier <jerome.forissier@linaro.org>\nReviewed-by: Jens Wiklander <jens.wiklander@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/d28c637bce36a5672a318b98.diff.gz",
+  "diff_bytes": 1584,
+  "diff_sha256": "25afd4f0ea6fd632ab0b0bd3bade3eecfa22753f8c35ada83aecbe3252098aa2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:18.367805+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

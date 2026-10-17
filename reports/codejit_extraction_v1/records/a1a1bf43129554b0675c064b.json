@@ -1,0 +1,16 @@
+{
+  "repo": "veyon___veyon",
+  "commit_id": "f231ec511b9a09f43f49b2c7bb7c60b8046276b1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "WindowsServiceControl: quote service binary path\n\nFix unquoted service path vulnerability.\n\nCloses #657.",
+  "patch_path": "reports/codejit_extraction_v1/records/a1a1bf43129554b0675c064b.diff.gz",
+  "diff_bytes": 1182,
+  "diff_sha256": "1d7ab1bff22ab451cf0cff46b1211bed20bce6d8feb6e86b53f76fac477375b4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:42:28.405620+00:00",
+  "url": "https://github.com/veyon/veyon.git"
+}

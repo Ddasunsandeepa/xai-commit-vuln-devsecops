@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "e87ab394f383acd43076ee1127f1b403882263db",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do LRU-bumps while already holding item lock\n\nitem_get() would hash, item_lock, fetch item.\nconsumers which can bump the LRU would then call item_update(),\nwhich would hash, item_lock, then update the item.\n\nGood performance bump by inlining the LRU bump when it's necessary.",
+  "patch_path": "reports/codejit_extraction_v1/records/0b928923d846f99bed1d31a8.diff.gz",
+  "diff_bytes": 7775,
+  "diff_sha256": "5db3f16a5773e6c687a829c821a010b951aa50bf4c892eb29bd91db9b4e6d6c8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:53.230121+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

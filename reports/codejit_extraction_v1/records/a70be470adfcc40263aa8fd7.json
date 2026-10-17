@@ -1,0 +1,16 @@
+{
+  "repo": "linux4sam___at91bootstrap",
+  "commit_id": "a52b20bab49331bf282dcd7815b206df0b380d45",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "driver: secure: fix decrypt length for secure_decrypt()\n\nThis bug is reported and fixed by Ridwan Syed <rsyed@edge-net.net>\n\nSigned-off-by: Wenyou Yang <wenyou.yang@atmel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/a70be470adfcc40263aa8fd7.diff.gz",
+  "diff_bytes": 382,
+  "diff_sha256": "b5af2a764c2ef570f02d0c86bee3e6b891c0c0353556c6de1f306c9c22a24cbe",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:41.679297+00:00",
+  "url": "https://github.com/linux4sam/at91bootstrap.git"
+}

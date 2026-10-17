@@ -1,0 +1,16 @@
+{
+  "repo": "simsong___tcpflow",
+  "commit_id": "a4e1cd14eb5ccc51ed271b65b3420f7d692c40eb",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed buffer overflow",
+  "patch_path": "reports/codejit_extraction_v1/records/14e64c90ce1b568927f972fe.diff.gz",
+  "diff_bytes": 2064,
+  "diff_sha256": "7a6e579aeb63b042e1631e1e2f75baf9876173195a36931ba41cee4b467836bc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:15.907280+00:00",
+  "url": "https://github.com/simsong/tcpflow.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "40fa50bac02b7cef95f5390f1dc2c1baeb3447da",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Create staticEmptyString to speed up empty string\n\nSummary: Create a parallel to staticEmptyArray() to speed up uses of the\nempty string.\n\nReviewed By: @markw65\n\nDifferential Revision: D1356274",
+  "patch_path": "reports/codejit_extraction_v1/records/cff9cbea216b2d716c3859e6.diff.gz",
+  "diff_bytes": 96517,
+  "diff_sha256": "f6fb3a8a23930f1073db00fb2252c054d295f57e91b388562ad7ef5b21f504a6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:04.186013+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

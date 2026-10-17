@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "a07f616895ab5b2aee82b1d5e3f2f60845296098",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libwinpr-sspi: improve link interface",
+  "patch_path": "reports/codejit_extraction_v1/records/4147dfbbeb739a7f1e9b5616.diff.gz",
+  "diff_bytes": 28259,
+  "diff_sha256": "5a68055798d5956ccede42944ea05185d302a3081de36d1fb0bff60b36ce849b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:40.293186+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

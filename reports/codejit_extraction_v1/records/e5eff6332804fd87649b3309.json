@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "6249b9009f44f2127670eda4d5aa6d5fd3e26e02",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make sdcard daemon multi-threaded.\n\nThe essential idea here is that a handler thread only needs to\nhold a lock on the global node table while it is manipulating\nnodes.  The actual I/O operation is then performed without\nholding any locks.\n\nBy default, we use 2 threads but this can be configured on the\ncommand-line.  Work is sheduled somewhat arbitrarily by the\nhandler threads.  Whichever thread happens to read() the next\nrequest first wins the right process it.  This policy is very\nsimple but potentially wastes threads when there isn't much\nwork to be done.  We can always improve this later if needed.\n\nChange-Id: Id27a27c2c9b40d4f8e35a6bef9dd84f0dfacf337",
+  "patch_path": "reports/codejit_extraction_v1/records/e5eff6332804fd87649b3309.diff.gz",
+  "diff_bytes": 58762,
+  "diff_sha256": "6886629a2f744698285f4d00033861e44321a4da716c34198ab14874cb9d3014",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:29.719828+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

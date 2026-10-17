@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "fe9ed49dafa993e3af96b6a5a589efeea9bfb36f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix DOS vulnerability in gdImageCreateFromGd2Ctx()\n\nWe must not pretend that there are image data if there are none. Instead\nwe fail reading the image file gracefully.",
+  "patch_path": "reports/codejit_extraction_v1/records/08b551e704d9b1fce9dbea38.diff.gz",
+  "diff_bytes": 2925,
+  "diff_sha256": "0c5356c850ad41c29dbc1f0d59092c4f9a7f403ce9b30bbd3071c646f99f16f9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:02.347548+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "jedisct1___pure-ftpd",
+  "commit_id": "a35359a7b63aefeff1f526481417c766a605be45",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rename readen as readnb as \"readen\" is a terrible English mistake.",
+  "patch_path": "reports/codejit_extraction_v1/records/0c88b393804f543e5417a75b.diff.gz",
+  "diff_bytes": 15738,
+  "diff_sha256": "c76347e89164522e8b1fb8659a1cc62c97c0172bcbc095c829c77247460d18ef",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:57.078167+00:00",
+  "url": "https://github.com/jedisct1/pure-ftpd.git"
+}

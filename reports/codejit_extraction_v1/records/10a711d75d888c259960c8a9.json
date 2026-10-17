@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "89b48b56812a1a2d5b7edc927a7853d952e7fb38",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add assertions on the owner of a QemuMutex\n\nThese are already present in the Win32 implementation, add them to\nthe pthread wrappers as well.  Use PTHREAD_MUTEX_ERRORCHECK for mutex\noperations. Later we'll add tracking of the owner for cond_signal/broadcast.\n\nSigned-off-by: Paolo Bonzini <pbonzini@redhat.com>\nSigned-off-by: Blue Swirl <blauwirbel@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/10a711d75d888c259960c8a9.diff.gz",
+  "diff_bytes": 620,
+  "diff_sha256": "391dbdb3d828773f12b1b3592e785c7ed4da027883d88382ace392d2edca14eb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:08.464579+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

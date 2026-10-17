@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick6",
+  "commit_id": "5ba0181b0c3ae378fa0ddc18259e807b117b94b9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=6200",
+  "patch_path": "reports/codejit_extraction_v1/records/1242c5445ce6559523162d10.diff.gz",
+  "diff_bytes": 12854,
+  "diff_sha256": "3e42a96262aa795a3631c3faa0cfb0e8670fbc5f3e12570c176e37cba4ff6edb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:11.732442+00:00",
+  "url": "https://github.com/imagemagick/imagemagick6.git"
+}

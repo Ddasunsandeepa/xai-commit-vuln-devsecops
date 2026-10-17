@@ -1,0 +1,16 @@
+{
+  "repo": "gopro___gpmf-parser",
+  "commit_id": "341f12cd5b97ab419e53853ca00176457c9f1681",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed many security issues with the too crude mp4 reader",
+  "patch_path": "reports/codejit_extraction_v1/records/04957b4f4d3021201d4fa2ad.diff.gz",
+  "diff_bytes": 46885,
+  "diff_sha256": "10fbe503a209789283c937e8e7f2f89aa90f99ddfee39c25fb99993c1ccf64bf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:25.415916+00:00",
+  "url": "https://github.com/gopro/gpmf-parser.git"
+}

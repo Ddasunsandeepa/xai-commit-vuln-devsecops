@@ -1,0 +1,16 @@
+{
+  "repo": "hoene___libmysofa",
+  "commit_id": "f53b37f8c1013597000d2f0d37af2bcadabeea3f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Removed some gcov lines",
+  "patch_path": "reports/codejit_extraction_v1/records/261e645ca97654a3f53a848e.diff.gz",
+  "diff_bytes": 23571,
+  "diff_sha256": "c94c18668f41e598aab369227627c765db480f9f2ae7685573efae5c799d7e92",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:58.000777+00:00",
+  "url": "https://github.com/hoene/libmysofa.git"
+}

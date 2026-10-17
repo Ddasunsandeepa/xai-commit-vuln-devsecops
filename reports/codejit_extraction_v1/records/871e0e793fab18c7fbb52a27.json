@@ -1,0 +1,16 @@
+{
+  "repo": "libass___libass",
+  "commit_id": "c946ae4fba7fd2215470991de060ddfb08bcb856",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix decode_font when size % 4 != 0 or data contains illegal bytes\n\nWhen given a byte c, decode_chars expects that 0 <= c - 33 <= 63,\ni. e. that only the six lowest bits of c - 33 are possibly set.\nWith this assumption, it shifts and adds together multiple c - 33 values.\n\nWhen c > 96, c - 33 has high nonzero bits, which interferes with other\nshifted terms. c < 33 is even worse: c - 33 is negative (if unsigned char\nfits in int), and left-shifting negative numbers has undefined behavior.\nEven before the shift, on common platforms with a two's complement\nrepresentation of negative integers (or if unsigned char does not fit in\nint and is promoted to unsigned int), c - 33 has high nonzero bits, which\nagain interfere with other shifted terms.\n\nTo make matters worse, even perfectly valid encoded data is affected when\nsize % 4 != 0, as decode_font calls decode_chars with '\\0', which leads\ndecode_chars to shift and add -33, causing undefined behavior and/or\nincorrect output.\n\nTake our cue from VSFilter and bit-mask c - 33 to keep only the six\nrelevant bits. To ensure that we get the same bits as VSFilter when\nc < 33 and to avoid the undefined behavior of left-shifting negative\nnumbers, convert the number to unsigned before masking and shifting.\n\nWhile we are at it, rewrite decode_chars entirely\nto get rid of any GPL code from mkvtoolnix.\n\nRelated mkvtoolnix bug: https://github.com/mbunkus/mkvtoolnix/issues/1003\n\nFixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=516.\n\nAlso allocate exactly the right amount of memory for the font,\nbecause why not.",
+  "patch_path": "reports/codejit_extraction_v1/records/871e0e793fab18c7fbb52a27.diff.gz",
+  "diff_bytes": 2286,
+  "diff_sha256": "053828390f10d81ba712074efdd785061895c6ef7ae5774c5a0e5b46480c1593",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:49.362838+00:00",
+  "url": "https://github.com/libass/libass.git"
+}

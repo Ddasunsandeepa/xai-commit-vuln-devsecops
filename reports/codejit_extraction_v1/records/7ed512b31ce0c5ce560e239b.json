@@ -1,0 +1,16 @@
+{
+  "repo": "bluez___bluez",
+  "commit_id": "1cd644db8c23a2f530ddb93cebed7dacc5f5721a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "shared/att: Fix possible crash on disconnect\n\nIf there are pending request while disconnecting they would be notified\nbut clients may endup being freed in the proccess which will then be\ncalling bt_att_cancel to cancal its requests causing the following\ntrace:\n\nInvalid read of size 4\n   at 0x1D894C: enable_ccc_callback (gatt-client.c:1627)\n   by 0x1D247B: disc_att_send_op (att.c:417)\n   by 0x1CCC17: queue_remove_all (queue.c:354)\n   by 0x1D47B7: disconnect_cb (att.c:635)\n   by 0x1E0707: watch_callback (io-glib.c:170)\n   by 0x48E963B: g_main_context_dispatch (in /usr/lib/libglib-2.0.so.0.6400.4)\n   by 0x48E9AC7: ??? (in /usr/lib/libglib-2.0.so.0.6400.4)\n   by 0x48E9ECF: g_main_loop_run (in /usr/lib/libglib-2.0.so.0.6400.4)\n   by 0x1E0E97: mainloop_run (mainloop-glib.c:79)\n   by 0x1E13B3: mainloop_run_with_signal (mainloop-notify.c:201)\n   by 0x12BC3B: main (main.c:770)\n Address 0x7d40a28 is 24 bytes inside a block of size 32 free'd\n   at 0x484A2E0: free (vg_replace_malloc.c:540)\n   by 0x1CCC17: queue_remove_all (queue.c:354)\n   by 0x1CCC83: queue_destroy (queue.c:73)\n   by 0x1D7DD7: bt_gatt_client_free (gatt-client.c:2209)\n   by 0x16497B: batt_free (battery.c:77)\n   by 0x16497B: batt_remove (battery.c:286)\n   by 0x1A0013: service_remove (service.c:176)\n   by 0x1A9B7B: device_remove_gatt_service (device.c:3691)\n   by 0x1A9B7B: gatt_service_removed (device.c:3805)\n   by 0x1CC90B: queue_foreach (queue.c:220)\n   by 0x1DE27B: notify_service_changed.isra.0.part.0 (gatt-db.c:369)\n   by 0x1DE387: notify_service_changed (gatt-db.c:361)\n   by 0x1DE387: gatt_db_service_destroy (gatt-db.c:385)\n   by 0x1DE3EF: gatt_db_remove_service (gatt-db.c:519)\n   by 0x1D674F: discovery_op_complete (gatt-client.c:388)\n   by 0x1D6877: discover_primary_cb (gatt-client.c:1260)\n   by 0x1E220B: discovery_op_complete (gatt-helpers.c:628)\n   by 0x1E249B: read_by_grp_type_cb (gatt-helpers.c:730)\n   by 0x1D247B: disc_att_send_op (att.c:417)\n   by 0x1CCC17: queue_remove_all (queue.c:354)\n   by 0x1D47B7: disconnect_cb (att.c:635)",
+  "patch_path": "reports/codejit_extraction_v1/records/7ed512b31ce0c5ce560e239b.diff.gz",
+  "diff_bytes": 2679,
+  "diff_sha256": "eac0e6e536ae11548a322d196bf328a30d94f8c8c96cc9c41946d5741674564b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:27.170515+00:00",
+  "url": "https://github.com/bluez/bluez.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "005c80b645cc6ab5f30cbc3e10ab66a15dfd107e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "MS Screen 1 decoder",
+  "patch_path": "reports/codejit_extraction_v1/records/76e74501cd8234b317b121e5.diff.gz",
+  "diff_bytes": 27509,
+  "diff_sha256": "df157274317ca4b41a2c8b728af3f7cd4b6cc0117e82d90bd8046e48ac1f3d02",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:29.108857+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

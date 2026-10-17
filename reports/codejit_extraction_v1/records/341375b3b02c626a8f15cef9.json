@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "2c7bfeb83c0f247b9f6ee9678a681658eaf8535b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Issue 92: stats cachedump should respond CLIENT_ERROR for illegal slab ids",
+  "patch_path": "reports/codejit_extraction_v1/records/341375b3b02c626a8f15cef9.diff.gz",
+  "diff_bytes": 3546,
+  "diff_sha256": "0166b42119714c504eab097fc51c4d13a189cdc2adfb8f708c8e46fd9ada804e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:50.161212+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

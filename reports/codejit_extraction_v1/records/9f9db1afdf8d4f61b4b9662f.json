@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "938154dfe060f7ab519f5fe88622b6ac1859faab",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add server address to the \"stats conns\" output\n\nthis is helpful when it's required to identify which clients are\nconnected to which server address when memcached listens on\nmultiple addresses",
+  "patch_path": "reports/codejit_extraction_v1/records/9f9db1afdf8d4f61b4b9662f.diff.gz",
+  "diff_bytes": 9148,
+  "diff_sha256": "0d8c14fba3c59067d6b2dc75892c5b60bd4134f15ffb460b253ef4cd4e759f34",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:51.593604+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

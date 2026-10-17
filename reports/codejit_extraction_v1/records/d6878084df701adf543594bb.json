@@ -1,0 +1,16 @@
+{
+  "repo": "rizinorg___rizin",
+  "commit_id": "fa60048914793de19fb09e42c22b941473a89175",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove all remaining SDB from Dwarf (#869)",
+  "patch_path": "reports/codejit_extraction_v1/records/d6878084df701adf543594bb.diff.gz",
+  "diff_bytes": 27276,
+  "diff_sha256": "bdb41e8d9e7f11edd0cc3c3c6c4bc17de7ee4d0743d5c1a2314843c60c4d59b4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:17.976637+00:00",
+  "url": "https://github.com/rizinorg/rizin.git"
+}

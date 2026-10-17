@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "dc07fb6f7b8fe0f7febdd89e21d23ac50ae920ec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lavfi: add join audio filter.\n\nIt joins multiple input streams into one multi-channel output.",
+  "patch_path": "reports/codejit_extraction_v1/records/d3b25a46c0dc032efa5625db.diff.gz",
+  "diff_bytes": 19644,
+  "diff_sha256": "366d43c826ccd1485552214102b3c845e295db460e0abd5a0d4e2281d615d925",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:11.572464+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

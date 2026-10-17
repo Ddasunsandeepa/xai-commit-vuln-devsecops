@@ -1,0 +1,16 @@
+{
+  "repo": "kde___kdeconnect-kde",
+  "commit_id": "93e68756bcfceeff7e033e3709501c4027185277",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Port away from deprecated error signal",
+  "patch_path": "reports/codejit_extraction_v1/records/90bb0d3697f0e723182d86f8.diff.gz",
+  "diff_bytes": 2880,
+  "diff_sha256": "9d061b8a264b56aecda51d668a3166c01f01c2408e9ed090ddc59f020074bf87",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:23.725062+00:00",
+  "url": "https://github.com/kde/kdeconnect-kde.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "flexpaper___pdf2json",
+  "commit_id": "80bf71f16c804108fd933e267fe31692aaa509b4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for heap vulnerability",
+  "patch_path": "reports/codejit_extraction_v1/records/a0dab9a1709c29a1d49c01d6.diff.gz",
+  "diff_bytes": 1698,
+  "diff_sha256": "e006138c6066afa06fa77dd20758e0eed563eb9ad17ef56ed4a43cd2f01ba513",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:20.798099+00:00",
+  "url": "https://github.com/flexpaper/pdf2json.git"
+}

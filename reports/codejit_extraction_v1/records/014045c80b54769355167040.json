@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "d4a34fefbf292d1e02336e4e272da3ef1e3eef85",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a wrong check in rfc_parse_data\n\nBug: 78288018\nBug: 111436796\nTest: manual\nChange-Id: I16e6026acbaac230fe1453bbac040d1b75bcea2a\n(cherry picked from commit d1ced302cd1066087588c891027b1756be31db46)",
+  "patch_path": "reports/codejit_extraction_v1/records/014045c80b54769355167040.diff.gz",
+  "diff_bytes": 612,
+  "diff_sha256": "3482501fe0d667d3f248ae26e8ae8c44f706e9b70657872b3c2f0c65875cd4d8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:22.108881+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

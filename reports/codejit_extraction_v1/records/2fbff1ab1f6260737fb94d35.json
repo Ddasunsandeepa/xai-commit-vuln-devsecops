@@ -1,0 +1,16 @@
+{
+  "repo": "kde___kdeconnect-kde",
+  "commit_id": "97705c3c76237e1536577b2c2624db305d04ac85",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Retry the network packet if it failed to unserialize\n\nThis happens if the network packet is big enough to not transfer in one\ngo.",
+  "patch_path": "reports/codejit_extraction_v1/records/2fbff1ab1f6260737fb94d35.diff.gz",
+  "diff_bytes": 821,
+  "diff_sha256": "57c8c64db337b9ebf7e7a058ffaaa740d95551b33691d347d0dab7955d8311a1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:24.087730+00:00",
+  "url": "https://github.com/kde/kdeconnect-kde.git"
+}

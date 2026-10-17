@@ -1,0 +1,16 @@
+{
+  "repo": "gns3___ubridge",
+  "commit_id": "8e1f1f59cd21b07542d488cc6b0c33c7e88c1be3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Base ubridge",
+  "patch_path": "reports/codejit_extraction_v1/records/657425e26281fb3fe300b57a.diff.gz",
+  "diff_bytes": 89440,
+  "diff_sha256": "700a55a5b4b2801607d2e04a70d0f9c8016fc9ca5dff018a37c88d9988e6b695",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:16.624995+00:00",
+  "url": "https://github.com/gns3/ubridge.git"
+}

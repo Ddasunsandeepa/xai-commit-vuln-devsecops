@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "c2639afac631f5c1ffddf70ee8a6fe943d0bedf9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "SoftMP3: memset safely\n\nBug: 29422022\nChange-Id: I70c9e33269d16bf8c163815706ac24e18e34fe97",
+  "patch_path": "reports/codejit_extraction_v1/records/8f23673cc65c542bbc981aa9.diff.gz",
+  "diff_bytes": 2595,
+  "diff_sha256": "e6667a9ad02cc22f621d435d281601fab8f020b3805536640671352309898626",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:11.957122+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

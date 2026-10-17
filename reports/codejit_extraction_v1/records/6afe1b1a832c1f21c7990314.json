@@ -1,0 +1,16 @@
+{
+  "repo": "minetest___minetest",
+  "commit_id": "b5956bde259faa240a81060ff4e598e25ad52dae",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Sanitize ItemStack meta text",
+  "patch_path": "reports/codejit_extraction_v1/records/6afe1b1a832c1f21c7990314.diff.gz",
+  "diff_bytes": 1252,
+  "diff_sha256": "858560f510e208c796c66939e7d0413468b1e03f4bc4a7c355186faef70ac573",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:03.223393+00:00",
+  "url": "https://github.com/minetest/minetest.git"
+}

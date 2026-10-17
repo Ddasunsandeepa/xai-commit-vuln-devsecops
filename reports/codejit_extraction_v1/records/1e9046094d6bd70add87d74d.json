@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "f15bb32866ccd413090594aa364b54d259099534",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder : Fix memory leak when sps changes.\n\nih264d_allocate_dynamic_bufs is now called only once\nafter every ih264d_init_decoder call. This is possible\nsince we support only identical( all the critical\nparameters will be same) sps in our sps array.\n\nSignal resolution change when u1_frame_mbs_only_flag\nin SPS changes.\n\nBug: 62897300\nTest: compilation, boot\nChange-Id: I0cf71fe9de72b5dadca2d1daf881d821786f94e3",
+  "patch_path": "reports/codejit_extraction_v1/records/1e9046094d6bd70add87d74d.diff.gz",
+  "diff_bytes": 2731,
+  "diff_sha256": "6777c9b1d9b4a2e1c2273955a5535b278f381fb41f410655f91c4e504aa32948",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:26.091183+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

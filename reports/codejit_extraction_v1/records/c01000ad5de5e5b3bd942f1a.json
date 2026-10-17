@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___folly",
+  "commit_id": "eadcf5ebdb9d39ffd413c2f0a699d0731c1a410d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add TakeOwnershipOption::STORE_SIZE\n\nSummary: Add TakeOwnershipOption::STORE_SIZE\n\nReviewed By: simpkins\n\nDifferential Revision: D28663081\n\nfbshipit-source-id: 5f2b0cd5c9ebdb9a8475b35f8741bc0b17717441",
+  "patch_path": "reports/codejit_extraction_v1/records/c01000ad5de5e5b3bd942f1a.diff.gz",
+  "diff_bytes": 2570,
+  "diff_sha256": "cf0c17220c6c09439e567700d66354c5771672669e1f249896cba565d010914d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:28.263023+00:00",
+  "url": "https://github.com/facebook/folly.git"
+}

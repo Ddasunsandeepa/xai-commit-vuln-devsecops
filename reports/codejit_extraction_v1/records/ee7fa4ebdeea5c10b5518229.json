@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___media",
+  "commit_id": "d1cecc16420d1e210b0643530e552e3427b2bab2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "camera_metadata: add validation function to ensure structural sanity\n\nThis is particularly useful when accepting copied metadata from another process,\nsince it could put whatever it want into the binder parcel.\n\nBug: 8713951\nChange-Id: I72b25b2bf96230eb995bb32e3bbd68de16e122cd",
+  "patch_path": "reports/codejit_extraction_v1/records/ee7fa4ebdeea5c10b5518229.diff.gz",
+  "diff_bytes": 21471,
+  "diff_sha256": "196d5dc69f8996450ad6a145500d9d29c19b626213c50ced2be5a43927649add",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:37.460488+00:00",
+  "url": "https://android.googlesource.com/platform/system/media"
+}

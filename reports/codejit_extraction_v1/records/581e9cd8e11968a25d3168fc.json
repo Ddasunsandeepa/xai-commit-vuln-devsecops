@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "e8bbf5b0889790cf8616f4004867f0ff656f0551",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE Fix OOB read before buffer length check\n\nBug: 111936834\nTest: manual\nChange-Id: Ib98528fb62db0d724ebd9112d071e367f78e369d\n(cherry picked from commit 4548f34c90803c6544f6bed03399f2eabeab2a8e)",
+  "patch_path": "reports/codejit_extraction_v1/records/581e9cd8e11968a25d3168fc.diff.gz",
+  "diff_bytes": 754,
+  "diff_sha256": "b3ecd86d39308a5d746ce4d517cfb0feca729e0ebae7c70dbfef772ebddf5223",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:24.351287+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

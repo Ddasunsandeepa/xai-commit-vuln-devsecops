@@ -1,0 +1,16 @@
+{
+  "repo": "pgbouncer___pgbouncer",
+  "commit_id": "18f4e290b19418f837e3b3b50b8545269fd5e349",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "big pkt code reorg.\n\nin old code the 'pkt' contained whateved data was available\nfrom SBuf, which made sanity checks complex.\n\nthis patch creates wrapper structure for passing current packet\ninfo around.",
+  "patch_path": "reports/codejit_extraction_v1/records/deda2fd2cc6fe7e890f96435.diff.gz",
+  "diff_bytes": 25711,
+  "diff_sha256": "a8cea5bce3c0daf6bbfa98aeaae4d08af03aceed146da5413b9e4aa9231ea319",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:01.221610+00:00",
+  "url": "https://github.com/pgbouncer/pgbouncer.git"
+}

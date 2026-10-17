@@ -1,0 +1,16 @@
+{
+  "repo": "c-ares___c-ares",
+  "commit_id": "dbd4c441fb7babad5c56f455d720af38e20546bc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Parallel A and AAAA lookups in `ares_getaddrinfo` (#290)\n\nA and AAAA lookups for ares_getaddrinfo() are now performed in parallel.\n\nFor this change `ares_search` was removed from `ares_getaddrinfo`.\nInstead `ares_query` in combination with `next_dns_lookup` are\ndoing the suffix search.\n\nAdding support for `.onion` addresses which are tested by\n`TEST_F(DefaultChannelTest, GetAddrinfoOnionDomain)`\n\nFix By: Christian Ammer (@ChristianAmmer)",
+  "patch_path": "reports/codejit_extraction_v1/records/55d241273f1b63c5daac9319.diff.gz",
+  "diff_bytes": 9139,
+  "diff_sha256": "93c9314e476b1f80d14ffdac64eddd450ee7ce20f6655c947f8cc365e1660de3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:55.705989+00:00",
+  "url": "https://github.com/c-ares/c-ares.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "251b007eccf5a0ddac897ce27de88d3901bc5d00",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Reduced memory requirements\n\nMemory allocations are now done based on contents of SPS\nAPI changed to move allocations inside the library\n\nAlso changed strlen to strnlen\n\nBug: 24221026\n\nChange-Id: I9130457f564cddb4da7ec6399cc9fe88ee871217",
+  "patch_path": "reports/codejit_extraction_v1/records/5ba4541bbab2ac843b99ee3a.diff.gz",
+  "diff_bytes": 243947,
+  "diff_sha256": "5837149959ae29abf47b8458884917163a89195ac7b91ae544336a06a459c26d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:17.067739+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

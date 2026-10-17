@@ -1,0 +1,16 @@
+{
+  "repo": "dovecot___core",
+  "commit_id": "0f5dc4da3982053036be65190e44bf28a67b1ca2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lib: API change - var_expand*() now returns error string.\n\nThis allows callers to fail properly if the format string is invalid.",
+  "patch_path": "reports/codejit_extraction_v1/records/64dc1b561915018e6a506f45.diff.gz",
+  "diff_bytes": 118318,
+  "diff_sha256": "c06d7caf9d3733e80b8c601cdc109e4bb55d7059fef0d9fa5c396accc98cff44",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:13.508435+00:00",
+  "url": "https://github.com/dovecot/core.git"
+}

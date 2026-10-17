@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "befb46ae3385fa13975521e9a2281e35805b339e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "2009-10-23  Chris Evans  <cevans@chromium.org>\n\n        Reviewed by Adam Barth.\n\n        Added test for bug 27239 (ignore Refresh for view source mode).\n        https://bugs.webkit.org/show_bug.cgi?id=27239\n\n        * http/tests/security/view-source-no-refresh.html: Added\n        * http/tests/security/view-source-no-refresh-expected.txt: Added\n        * http/tests/security/resources/view-source-no-refresh.php: Added\n2009-10-23  Chris Evans  <cevans@chromium.org>\n\n        Reviewed by Adam Barth.\n\n        Ignore the Refresh header if we're in view source mode.\n\n        https://bugs.webkit.org/show_bug.cgi?id=27239\n\n        Test: http/tests/security/view-source-no-refresh.html\n\n        * loader/FrameLoader.cpp: ignore Refresh in view-source mode.\n\ngit-svn-id: svn://svn.chromium.org/blink/trunk@50018 bbb929c8-8fbe-4397-9dbb-9b2b20218538",
+  "patch_path": "reports/codejit_extraction_v1/records/a0bfb3416d9c99594f1981a6.diff.gz",
+  "diff_bytes": 4026,
+  "diff_sha256": "dbffb864d7f87db03828a59fe429dcddbef745ae95f30b5baae4216c78152fd4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:49:08.049025+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

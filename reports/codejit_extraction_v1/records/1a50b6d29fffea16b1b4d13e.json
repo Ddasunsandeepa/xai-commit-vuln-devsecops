@@ -1,0 +1,16 @@
+{
+  "repo": "ceph___ceph",
+  "commit_id": "94b1ca198115c867691babdae7e7ac046689a749",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "mon,msg: implement cephx_*_require_version options\n\nAdd a new set of options that are parallel to\n\n cephx_require_signatures\n cephx_cluster_require_signatures\n cephx_service_require_signatures\n\nthat indicate which version of cephx is required to be supported.\n\nSigned-off-by: Sage Weil <sage@redhat.com>\n(cherry picked from commit 9bcbc2a3621f9ee4558c9748ab7c73c6e1b22510)",
+  "patch_path": "reports/codejit_extraction_v1/records/1a50b6d29fffea16b1b4d13e.diff.gz",
+  "diff_bytes": 6595,
+  "diff_sha256": "e76d521b15b8dd856c9251aecb02a0fc09e57b46a4c3a6ce98ca03ab303ab645",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:04.024767+00:00",
+  "url": "https://github.com/ceph/ceph.git"
+}

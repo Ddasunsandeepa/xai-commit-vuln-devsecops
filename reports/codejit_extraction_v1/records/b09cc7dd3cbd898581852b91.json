@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "4e396d733339fd5938ac3937ca26a59d579eb957",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- Backported from 5.4 branch: \n  * enhanced log messages\n  * code cosmetic",
+  "patch_path": "reports/codejit_extraction_v1/records/b09cc7dd3cbd898581852b91.diff.gz",
+  "diff_bytes": 34415,
+  "diff_sha256": "f6aceeb69c854cbaf77c83710d3aa7b04ce6a8440dc5f0b3f212bd79fe829844",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:23.519073+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

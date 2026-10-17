@@ -1,0 +1,16 @@
+{
+  "repo": "juce-framework___juce",
+  "commit_id": "2e874e80cba0152201aff6a4d0dc407997d10a7f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ZipFile:  Add path checks to uncompressEntry()",
+  "patch_path": "reports/codejit_extraction_v1/records/60d835a71af5acd6d5dff29f.diff.gz",
+  "diff_bytes": 7994,
+  "diff_sha256": "dc29e4907142b25af0da248cd42b353fd2e515086ab13d7218b886917163127a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:05.142505+00:00",
+  "url": "https://github.com/juce-framework/juce.git"
+}

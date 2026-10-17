@@ -1,0 +1,16 @@
+{
+  "repo": "keepkey___keepkey-firmware",
+  "commit_id": "9899d458263651deef8bc2ade95b22d4e609c9a8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "recovery: don't force auto-completion when not using the wordlist",
+  "patch_path": "reports/codejit_extraction_v1/records/3145b9e4c12c9be74aa921cb.diff.gz",
+  "diff_bytes": 433,
+  "diff_sha256": "aa12eb1e364fb27fd5e090dc8a4f214564d81221e9185f463a5172519d3fd456",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:24.764114+00:00",
+  "url": "https://github.com/keepkey/keepkey-firmware.git"
+}

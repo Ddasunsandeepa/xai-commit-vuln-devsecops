@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "60a835d80f4b6c12dbe2d38fe4ca2de16f3302dc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "clean K&R style up in function declarations a bit\n\nThe function body should have its opening brace on the next line.",
+  "patch_path": "reports/codejit_extraction_v1/records/6fbc14849ac19c988ffffd41.diff.gz",
+  "diff_bytes": 40808,
+  "diff_sha256": "f1346bcad6135b585007c869393b6d6baa6bd19e5bbfb3d2a659e77a4789fc5f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:34.851001+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

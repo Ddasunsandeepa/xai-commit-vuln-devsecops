@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "7950bf47b6944546a0aff11a7184947de9591b51",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix in returning end of bitstream error for MBAFF\n\nIn case of MBAFF streams, slices should terminate on\neven MB boundary. If bytes are exhausted with odd number\nof MBs decoded for MBAff, then treat that as error.\n\nBug: 33933140\n\nChange-Id: Ifc26b66ff8ebdb3aec5c0d6c512e4cac3f54c5b7",
+  "patch_path": "reports/codejit_extraction_v1/records/a6068b854163aea3ee4bb758.diff.gz",
+  "diff_bytes": 1350,
+  "diff_sha256": "12858abb76ec0d1fc48fa4d0d311db8abfc0c84cabf13054634427aa4c069f21",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:20.895476+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

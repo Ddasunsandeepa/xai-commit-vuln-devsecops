@@ -1,0 +1,16 @@
+{
+  "repo": "cisco___thor",
+  "commit_id": "65bbc73ae47983ad8307e68b2485060080a053ae",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "New functions: read_sequence_header() and read_frame_header()",
+  "patch_path": "reports/codejit_extraction_v1/records/4c6d9e8ed6a4c6da8917c19c.diff.gz",
+  "diff_bytes": 6203,
+  "diff_sha256": "1a60720ca35f89677d35c8c2ab36c150413152d533228143f12d8360039ff110",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:48.630211+00:00",
+  "url": "https://github.com/cisco/thor.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "electron___electron",
+  "commit_id": "b5d5eca224b7a76dacb5219ad247a6bfc4ab50cf",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make use of sorted order to speed up searching",
+  "patch_path": "reports/codejit_extraction_v1/records/2a032aac0021e4a56ada76cd.diff.gz",
+  "diff_bytes": 20317,
+  "diff_sha256": "b398ead2c10f397f2076be521fac576d81dd86e405e8ddb01efb9ba08e20d8c4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:25.611859+00:00",
+  "url": "https://github.com/electron/electron.git"
+}

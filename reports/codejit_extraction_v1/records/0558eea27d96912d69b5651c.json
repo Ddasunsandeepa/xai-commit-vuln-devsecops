@@ -1,0 +1,16 @@
+{
+  "repo": "libsdl-org___sdl_ttf",
+  "commit_id": "09a2294338d7907ae955b07affdac229546f9cc9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug #187 - Arbitrary memory overwrite occurs when loading glyphs and rendering text with a malformed TTF\nPitch/size isn't calculated with 64 bits precisions",
+  "patch_path": "reports/codejit_extraction_v1/records/0558eea27d96912d69b5651c.diff.gz",
+  "diff_bytes": 1352,
+  "diff_sha256": "a21b9c1ea2cff61a322dfa12d11baa89631193f9d0193d682fc2268d4495331f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:12.490197+00:00",
+  "url": "https://github.com/libsdl-org/sdl_ttf.git"
+}

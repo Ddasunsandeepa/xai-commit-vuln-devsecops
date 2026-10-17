@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "4ffe5e2aa5241f8da9afd2c8fbc854dcc916c5f9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "huffyuv: add padding to classic (v1) huffman tables.\n\nWe slightly overread the input buffer, so we require\npadding at the end of the buffer, as is documented in the\nget_bits API. Without padding, we'll read uninitialized\ndata or beyond the end of the .rodata, which may crash.\n\nFound-by: Mateusz \"j00ru\" Jurczyk and Gynvael Coldwind\nCC: libav-stable@libav.org",
+  "patch_path": "reports/codejit_extraction_v1/records/f7631b4e0947e0fbda52f0b3.diff.gz",
+  "diff_bytes": 1552,
+  "diff_sha256": "6c5bb0517945642ce0f3f64e2255580079170aa8d360373d13f6f801e3bc8b35",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:41.866339+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

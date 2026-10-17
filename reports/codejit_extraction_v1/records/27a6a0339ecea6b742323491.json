@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "24e1116e0f0d1e0a6db4dbac8a1d58e4a2eff164",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Generalize the constant propagation optimization so that it applies on every\nWHERE close, not just those that contain a subquery.  This then demonstrates\nthat the current implementation is inadequate since it does not take into\naccount collating sequences.\n\nFossilOrigin-Name: 57eb2abd5b270d65be5e0f138f0d46899fa6091df3ba20b0ea7ef04244a15d48",
+  "patch_path": "reports/codejit_extraction_v1/records/27a6a0339ecea6b742323491.diff.gz",
+  "diff_bytes": 6923,
+  "diff_sha256": "37085fa22eb23582c52e432f723f660cf1ca80d3b380e15d594f1a66977a0959",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:40.507925+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

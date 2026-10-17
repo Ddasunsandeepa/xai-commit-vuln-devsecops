@@ -1,0 +1,16 @@
+{
+  "repo": "zyantific___zydis",
+  "commit_id": "55dd08c210722aed81b38132f5fd4a04ec1943b5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix struct initialization in formatter",
+  "patch_path": "reports/codejit_extraction_v1/records/06e883eebf9bcc8c2e272f12.diff.gz",
+  "diff_bytes": 2903,
+  "diff_sha256": "1c17bcf355bac758e89459d23d7da6bd6cdddc7b951bf806ae42769bef874d00",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:22.819655+00:00",
+  "url": "https://github.com/zyantific/zydis.git"
+}

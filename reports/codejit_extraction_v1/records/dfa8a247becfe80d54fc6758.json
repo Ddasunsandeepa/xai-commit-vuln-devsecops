@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "525f3c4793a6026cc314a706ff68e18d9bba5b24",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "MFH: General sync. WS / CS / etc. crap some people didn't bother to merge\nMFH: before this commit..bunnies thank you all..\n[DOC] - Added ext/hash support to ext/session's ID generator. (Sara)\n[DOC] Ask Sara for explanation..",
+  "patch_path": "reports/codejit_extraction_v1/records/dfa8a247becfe80d54fc6758.diff.gz",
+  "diff_bytes": 99238,
+  "diff_sha256": "586a96a0f6368802b39d9d8736d6adff5d53867920058120d5e800502ca12f0d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:26.170964+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "openssl___openssl",
+  "commit_id": "3b1fb1a0226e29c9d7c79ff7fbde21ef9cac4deb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "s3_srvr.c: fix typo.\nPR: 2538",
+  "patch_path": "reports/codejit_extraction_v1/records/6574b23d1b0bc4f5e777ac36.diff.gz",
+  "diff_bytes": 470,
+  "diff_sha256": "5aeb66de4b88fca682401339db9890cacd79d420f9b2db5e23673c9ea77c49b9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:09.954897+00:00",
+  "url": "https://github.com/openssl/openssl.git"
+}

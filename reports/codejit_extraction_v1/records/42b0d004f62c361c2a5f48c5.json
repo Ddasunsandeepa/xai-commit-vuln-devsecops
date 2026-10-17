@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "943323f1d9d3dd5c2634deb26cbe72343ca6b3db",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Return error when there are more mmco params than allocated size\n\nBug: 25818142\n\nChange-Id: I5c1b23985eeca5192b42703c627ca3d060e4e13d",
+  "patch_path": "reports/codejit_extraction_v1/records/42b0d004f62c361c2a5f48c5.diff.gz",
+  "diff_bytes": 3432,
+  "diff_sha256": "045e4a9617996cf31dace85f99b59d728989379d10b82ca2ad20d2f5fafe4d06",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:22.398473+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

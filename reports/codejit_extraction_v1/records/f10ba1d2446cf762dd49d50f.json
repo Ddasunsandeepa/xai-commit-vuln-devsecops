@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "6d9e74cd4179f42a8fa860f2e08d370c7c36325f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "proresenc: Write the full value in one put_bits call\n\nPreviously, the put_bits call writing the value wrote a value\nlarger than the number of bits specified, failing asserts\nin debug mode. There was no actual bitstream writer corruption,\nsince the overwritten bit already always was set to 1.\n\nSigned-off-by: Martin Storsjö <martin@martin.st>",
+  "patch_path": "reports/codejit_extraction_v1/records/f10ba1d2446cf762dd49d50f.diff.gz",
+  "diff_bytes": 514,
+  "diff_sha256": "980ae80feb5c33661333e96620f99992cbac14e6772de65f980c4ff543ad5f79",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:48.707820+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

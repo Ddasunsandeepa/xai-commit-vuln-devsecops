@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "2c9a8fcc73a151608634d3e712973d192027c271",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix integer overflow in StringUtil::implode\n\nReviewed By: ricklavoie\n\nDifferential Revision: D3623922\n\nfbshipit-source-id: 136d124a850c07cc6c63535afc11d36499d576fc",
+  "patch_path": "reports/codejit_extraction_v1/records/73cba7a7dbd94ac8b887d47c.diff.gz",
+  "diff_bytes": 1388,
+  "diff_sha256": "2a87d52fea72014d3991cff10d32f26fbdce462a9475aee9f1c608a8e9d75d19",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:55.167362+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

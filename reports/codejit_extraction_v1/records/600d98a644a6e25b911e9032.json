@@ -1,0 +1,16 @@
+{
+  "repo": "exiv2___exiv2",
+  "commit_id": "d73dd0874dda6eaffe6326f10c0a4c540243753b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix icc_test which is failing on Linux:\n\nluis@ryzenLinux:/media/linuxDev/programming/exiv2/buildReleaseSanitizers$ cp large.icc Reagan2.icc\nluis@ryzenLinux:/media/linuxDev/programming/exiv2/buildReleaseSanitizers$ bin/exiv2 -iC /tmp/Reagan2.jp2\n/media/linuxDev/programming/exiv2/src/jp2image.cpp:661:28: runtime error: reference binding to misaligned address 0x61f000002a9e for type 'const struct Jp2BoxHeader', which requires 4 byte alignment\n0x61f000002a9e: note: pointer points here\n 07 07 01 00 00 00  0c 53 63 6f 6c 72 02 00  00 00 00 0c 48 4c 69 6e  6f 02 10 00 00 6d 6e 74  72 52",
+  "patch_path": "reports/codejit_extraction_v1/records/600d98a644a6e25b911e9032.diff.gz",
+  "diff_bytes": 558,
+  "diff_sha256": "c800d8d98d75376416b857c3492d5f29b937ae36c772308643ec5c700677a621",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:18.243457+00:00",
+  "url": "https://github.com/exiv2/exiv2.git"
+}

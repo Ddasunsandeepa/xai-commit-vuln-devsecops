@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "7f875fa28da77dbf9565306ffb7e005238a54575",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix build failure on Windows.",
+  "patch_path": "reports/codejit_extraction_v1/records/aaa37766e5a4c14aedb9acfa.diff.gz",
+  "diff_bytes": 5652,
+  "diff_sha256": "a5ce58dffe6320de1ad42e42cb9c5ff15c6a7842665ea3935d143c816ef9d5a6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:42.996552+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

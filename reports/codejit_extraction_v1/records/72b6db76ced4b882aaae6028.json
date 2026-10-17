@@ -1,0 +1,16 @@
+{
+  "repo": "sgminer-dev___sgminer",
+  "commit_id": "bac5831b355f916e0696b7bbcccfc51c057b729a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bugfix: initiate_stratum: Ensure extranonce2 size is not negative (which could lead to exploits later as too little memory gets allocated)\n\nThanks to Mick Ayzenberg <mick@dejavusecurity.com> for finding this!",
+  "patch_path": "reports/codejit_extraction_v1/records/72b6db76ced4b882aaae6028.diff.gz",
+  "diff_bytes": 332,
+  "diff_sha256": "7a0bfca6804afbc6567fa89ecec625697ed65f62e89784d7c498804d26d9ef1d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:59.624393+00:00",
+  "url": "https://github.com/sgminer-dev/sgminer.git"
+}

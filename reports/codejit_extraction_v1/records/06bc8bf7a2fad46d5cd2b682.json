@@ -1,0 +1,16 @@
+{
+  "repo": "jpirko___libndp",
+  "commit_id": "2af9a55b38b55abbf05fd116ec097d4029115839",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libndb: reject redirect and router advertisements from non-link-local\n\nRFC4861 suggests that these messages should only originate from\nlink-local addresses in 6.1.2 (RA) and 8.1. (redirect):\n\nMitigates CVE-2016-3698.\n\nSigned-off-by: Lubomir Rintel <lkundrak@v3.sk>\nSigned-off-by: Jiri Pirko <jiri@mellanox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/06bc8bf7a2fad46d5cd2b682.diff.gz",
+  "diff_bytes": 1612,
+  "diff_sha256": "f222bf0d1ced39c1a7144ca3188606a1d59f7b893343865cec912286fc734176",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:00.096252+00:00",
+  "url": "https://github.com/jpirko/libndp.git"
+}

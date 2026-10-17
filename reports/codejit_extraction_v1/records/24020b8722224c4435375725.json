@@ -1,0 +1,16 @@
+{
+  "repo": "stedolan___jq",
+  "commit_id": "52487ff81258ed65992065a2a6ffa1286064f6eb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove globals from parser, use explicit structure.",
+  "patch_path": "reports/codejit_extraction_v1/records/24020b8722224c4435375725.diff.gz",
+  "diff_bytes": 11852,
+  "diff_sha256": "edddbc1b8c4960412487a5abbaa830c5d38fced228dfc0f9b1a6f778d3d5a385",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:37.842767+00:00",
+  "url": "https://github.com/stedolan/jq.git"
+}

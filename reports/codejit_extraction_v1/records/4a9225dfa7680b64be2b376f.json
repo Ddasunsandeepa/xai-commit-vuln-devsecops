@@ -1,0 +1,16 @@
+{
+  "repo": "latchset___mod_auth_mellon",
+  "commit_id": "dbe2f97de38ff0e80758de80136cd8407108c2ed",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make sure that redirect URLs doesn't contain control characters.\n\ngit-svn-id: https://modmellon.googlecode.com/svn/trunk@69 a716ebb1-153a-0410-b759-cfb97c6a1b53",
+  "patch_path": "reports/codejit_extraction_v1/records/4a9225dfa7680b64be2b376f.diff.gz",
+  "diff_bytes": 2892,
+  "diff_sha256": "a5c148bb5b2c326cff3b05e066fd58bb1cf8cde02d8d020243fc650cda597928",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:35.992898+00:00",
+  "url": "https://github.com/latchset/mod_auth_mellon.git"
+}

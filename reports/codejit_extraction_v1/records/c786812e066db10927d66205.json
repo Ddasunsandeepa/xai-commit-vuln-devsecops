@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "cc676ebd95247646e67907ccab150fb77a847335",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix slice params for interlaced video\n\nBug: 28165661\nChange-Id: I912a86bd78ebf0617fd2bc6eb2b5a61afc17bf53",
+  "patch_path": "reports/codejit_extraction_v1/records/c786812e066db10927d66205.diff.gz",
+  "diff_bytes": 1204,
+  "diff_sha256": "f37f5f2c0910b064f5e14e8e5b3d01d720114448da412a95150dbce48c1e4396",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:24.495849+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

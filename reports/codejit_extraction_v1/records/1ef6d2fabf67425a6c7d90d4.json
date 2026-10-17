@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick",
+  "commit_id": "65d195e5b3cdbf4a62270f403597af41a5d4b1b3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CopyCompositeOp should set the alpha channel to opaque if the source image has no alpha channel.",
+  "patch_path": "reports/codejit_extraction_v1/records/1ef6d2fabf67425a6c7d90d4.diff.gz",
+  "diff_bytes": 1396,
+  "diff_sha256": "53f2ba0dc4b341a4051921de0c4982aaa5f8b3f08c4bcc5b625d3b03934eea80",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:15.421986+00:00",
+  "url": "https://github.com/imagemagick/imagemagick.git"
+}

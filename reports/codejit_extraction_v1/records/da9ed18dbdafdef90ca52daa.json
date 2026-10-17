@@ -1,0 +1,16 @@
+{
+  "repo": "pgbouncer___pgbouncer",
+  "commit_id": "35a8a5768c68da946689fb31bc6a0867e62edfc6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "auth_user support\n\nquery the database's pg_shadow table for user information,\ninstead of using a local userlist.txt.  Brings transparent support\nfor Postgres 9.0+ which no longer has a compatible file format.\n\nTested with trust and md5 auth_types only.",
+  "patch_path": "reports/codejit_extraction_v1/records/da9ed18dbdafdef90ca52daa.diff.gz",
+  "diff_bytes": 25150,
+  "diff_sha256": "255b00e9f39a6584863c1d8deb15ce196d21da5f12d24c50a774ad52df12c120",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:01.751527+00:00",
+  "url": "https://github.com/pgbouncer/pgbouncer.git"
+}

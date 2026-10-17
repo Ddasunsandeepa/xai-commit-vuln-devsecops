@@ -1,0 +1,16 @@
+{
+  "repo": "onlyoffice___core",
+  "commit_id": "88cf60a3ed4a2b40d71a1c2ced72fa3902a30967",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix 25 errors",
+  "patch_path": "reports/codejit_extraction_v1/records/ab475650f6a76222a2eed08a.diff.gz",
+  "diff_bytes": 32662,
+  "diff_sha256": "a660e2bc1ea3439e0b9e7c3e79a7e7f9678adca2296fe9643c611713494bbe7d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:02.937653+00:00",
+  "url": "https://github.com/onlyoffice/core.git"
+}

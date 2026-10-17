@@ -1,0 +1,16 @@
+{
+  "repo": "bittorrent___bootstrap-dht",
+  "commit_id": "bbc0b7191e3f48461ca6e5b1b34bdf4b3f1e79a9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "update version of lazy_bdecode from libtorrent",
+  "patch_path": "reports/codejit_extraction_v1/records/a2bcb722bd06ab6d269957b7.diff.gz",
+  "diff_bytes": 13377,
+  "diff_sha256": "229a4747a8e5dc98507b556c8a86d0db3bd0414dd09f8474f426f270d3195469",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:24.744136+00:00",
+  "url": "https://github.com/bittorrent/bootstrap-dht.git"
+}

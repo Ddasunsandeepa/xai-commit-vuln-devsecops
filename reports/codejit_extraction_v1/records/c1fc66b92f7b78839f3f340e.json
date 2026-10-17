@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "f60ec7a546499f9446063a4dbe755be9523d8232",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix possible OOB or OOM in gdImageScale, reported by Secunia (CVE 2016-6207)",
+  "patch_path": "reports/codejit_extraction_v1/records/c1fc66b92f7b78839f3f340e.diff.gz",
+  "diff_bytes": 389,
+  "diff_sha256": "4a571a4b1cadd772d4e0024b006c46946ac3ce9e4fd29fc645e3730174a41f08",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:01.182440+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

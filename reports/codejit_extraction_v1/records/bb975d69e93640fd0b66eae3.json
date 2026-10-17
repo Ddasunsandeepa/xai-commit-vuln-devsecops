@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___ex",
+  "commit_id": "a3ac0a2df64dcfb8b0b01f1cf05e9afd1439e1f4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Import FrameSequence\n\nChange-Id: I09b668925366a22e8e7e80e4abeae24b3a98c639\n(cherry picked from commit a1265c3d8a20e805e0c45083d5c7d728d4b70009)",
+  "patch_path": "reports/codejit_extraction_v1/records/bb975d69e93640fd0b66eae3.diff.gz",
+  "diff_bytes": 172013,
+  "diff_sha256": "f3080dd61c56a2396df77607acaaf87be199ff2c9ea9ca50986e9ef80832e70d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:33.643229+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/ex"
+}

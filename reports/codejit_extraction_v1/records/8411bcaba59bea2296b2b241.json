@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "e16baef4d2f59c0b5f78e66c838d6c5e7d9b7363",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libsysutils: Get rid of warnings\n\n- UNUSED argument warnings\n- Remove LOG_NDEBUG define\n\n(cherry picked from commit 696f267ff5a1e6227c2f5784dae60c190e0228b8)\n\nChange-Id: I48b0942adfdb7a46a7693e580bc6ed5a685b0d5b",
+  "patch_path": "reports/codejit_extraction_v1/records/8411bcaba59bea2296b2b241.diff.gz",
+  "diff_bytes": 1986,
+  "diff_sha256": "8c16085aa58c71fc03fdf42692908ec83c39ac44c883dfc5fb5fcd4e8e88d44b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:34.835438+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

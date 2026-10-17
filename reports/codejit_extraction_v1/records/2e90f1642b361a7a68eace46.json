@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "bc2267f131b85e34a7513d7f1a3d708e4c3a8e6e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream/tcp: support TCP fast open",
+  "patch_path": "reports/codejit_extraction_v1/records/2e90f1642b361a7a68eace46.diff.gz",
+  "diff_bytes": 4974,
+  "diff_sha256": "69ef0b1c44a72fee6f1062beff7493250ceb4c3912df742f3afb4b09e955bce1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:53.296403+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

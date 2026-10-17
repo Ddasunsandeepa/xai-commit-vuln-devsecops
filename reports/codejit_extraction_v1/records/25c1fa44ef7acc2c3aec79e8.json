@@ -1,0 +1,16 @@
+{
+  "repo": "vim___vim",
+  "commit_id": "dffa5b8ecfa2091495b77ab487c07792646d0633",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "updated for version 7.4.519\nProblem:    Crash when using syntax highlighting.\nSolution:   When regprog is freed and replaced, store the result.",
+  "patch_path": "reports/codejit_extraction_v1/records/25c1fa44ef7acc2c3aec79e8.diff.gz",
+  "diff_bytes": 19321,
+  "diff_sha256": "d0459fd29dd67b7ddf09b82687853c732cd144fada9098ae21176fe4e70b4a9f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:32.955829+00:00",
+  "url": "https://github.com/vim/vim.git"
+}

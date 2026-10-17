@@ -1,0 +1,16 @@
+{
+  "repo": "blosc___c-blosc2",
+  "commit_id": "c4c6470e88210afc95262c8b9fcc27e30ca043ee",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed asan heap buffer overflow when not enough space to write compressed block size.",
+  "patch_path": "reports/codejit_extraction_v1/records/cbd1a531e66301ebb52827d8.diff.gz",
+  "diff_bytes": 2127,
+  "diff_sha256": "e8275d4bf7fce1a6933f03c33990e37138dad053ac51813257be7fdb027f5e96",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:25.814204+00:00",
+  "url": "https://github.com/blosc/c-blosc2.git"
+}

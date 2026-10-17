@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "6296f7153f0c9d5e5cd3aaf08f9731e56621bdd3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Set length modifiers for group and desc\n\nnntp_add_group parses a line controlled by the connected nntp server.\nRestrict the maximum lengths read into the stack buffers group, and\ndesc.",
+  "patch_path": "reports/codejit_extraction_v1/records/de42d6db106ddb07d89da858.diff.gz",
+  "diff_bytes": 903,
+  "diff_sha256": "f493e8c6125b4e756b9327f98d25ad347e9c6a6e3f589873558529dc94fead1c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:32.460929+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

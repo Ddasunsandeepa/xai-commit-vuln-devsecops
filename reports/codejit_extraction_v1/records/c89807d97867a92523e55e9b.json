@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "9a00f562a612d56e7b2b989d168647db900ba6cf",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Return correct error code for slice header errors\n\nReturn ERROR_INV_SLICE_HDR_T instead of ERROR_INV_SPS_PPS_T for slice\nheader errors.\n\nBug: 34097915\nChange-Id: I45d14a71f2322ff349058baaf65fb0f3c1140fba",
+  "patch_path": "reports/codejit_extraction_v1/records/c89807d97867a92523e55e9b.diff.gz",
+  "diff_bytes": 2808,
+  "diff_sha256": "541a7a0596fdc9f7dd87982e58d9fd9fb9f862973258c678343a0d591f79fe9d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:22.648310+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "maekitalo___tntnet",
+  "commit_id": "9bd3b14042e12d84f39ea9f55731705ba516f525",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix possible information leak",
+  "patch_path": "reports/codejit_extraction_v1/records/82ffb6d3df3ea3483c6a5e18.diff.gz",
+  "diff_bytes": 760,
+  "diff_sha256": "d1683ab3b9e6d1dc51a783949d5a94c9ad2a3b1d8571696ba4fbeb7732a94462",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:57.605122+00:00",
+  "url": "https://github.com/maekitalo/tntnet.git"
+}

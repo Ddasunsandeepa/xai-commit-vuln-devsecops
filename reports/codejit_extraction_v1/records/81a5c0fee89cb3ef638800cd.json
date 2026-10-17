@@ -1,0 +1,16 @@
+{
+  "repo": "winscp___winscp",
+  "commit_id": "faa96e8144e6925a380f94a97aa382c9427f688d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug 1943: Prevent loading session settings that can lead to remote code execution from handled URLs\n\nhttps://winscp.net/tracker/1943\n(cherry picked from commit ec584f5189a856cd79509f754722a6898045c5e0)\n\nSource commit: 0f4be408b3f01132b00682da72d925d6c4ee649b",
+  "patch_path": "reports/codejit_extraction_v1/records/81a5c0fee89cb3ef638800cd.diff.gz",
+  "diff_bytes": 14527,
+  "diff_sha256": "3d7d904dec9fd3cf707078442ab7a986d45689b5322ff4d781b7fd0046f684da",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:08.411450+00:00",
+  "url": "https://github.com/winscp/winscp.git"
+}

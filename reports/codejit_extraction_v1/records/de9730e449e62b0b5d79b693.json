@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "363247929c35104b3e5ee9e637e9dcf579080aee",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Region: Detect malicious overflow in unflatten\n\nBug 29983260\n\nChange-Id: Ib6e1cb8ae279010c5e9960aaa03513f55b7d873b",
+  "patch_path": "reports/codejit_extraction_v1/records/de9730e449e62b0b5d79b693.diff.gz",
+  "diff_bytes": 511,
+  "diff_sha256": "3b6cfa0f117b71688922fb99822cbe51db62b4918bd3a35e2187b0aaf19809d2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:39.236936+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

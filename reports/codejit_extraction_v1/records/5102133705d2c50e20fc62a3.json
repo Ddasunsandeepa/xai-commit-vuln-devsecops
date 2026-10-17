@@ -1,0 +1,16 @@
+{
+  "repo": "lavv17___lftp",
+  "commit_id": "a27e07d90a4608ceaf928b1babb27d4d803e1992",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "mirror: prepend ./ to rm and chmod arguments to avoid URL recognition (fix #452)",
+  "patch_path": "reports/codejit_extraction_v1/records/5102133705d2c50e20fc62a3.diff.gz",
+  "diff_bytes": 1896,
+  "diff_sha256": "a8ecfed627e32297da58598194ee55704b75823157607af66c342a3f40e60c9e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:36.982145+00:00",
+  "url": "https://github.com/lavv17/lftp.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "8ef4c3f6142028732a155cbfc1febd6ef5da72fd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Multithreading changes and better error resilience\n\nFixed the following bugs\nIssue 21145276\nIssue 21144884\nIssue 21181133\nIssue 21181134\n\nDecoder now returns error if the level in stream is higher than level at init\n\nChange-Id: I8892c62bd98f7854d046510330c05a1e9ca826b2",
+  "patch_path": "reports/codejit_extraction_v1/records/14ba44b4f68e5ba9038ae86d.diff.gz",
+  "diff_bytes": 1860169,
+  "diff_sha256": "dcc2e9b1b40d0326d8c0c3a9112d7d7b7145f90725e0c40c417244e5cc3e5e9e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:21.507061+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

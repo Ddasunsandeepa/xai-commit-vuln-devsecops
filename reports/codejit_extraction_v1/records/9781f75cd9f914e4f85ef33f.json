@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "a6da1472c0c5e05ff249325f979531ad51533110",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug: barriers cannot be active during sweep\n\nBarriers cannot be active during sweep, even in generational mode.\n(Although gen. mode is not incremental, it can hit a barrier when\ndeleting a thread and closing its upvalues.)  The colors of objects are\nbeing changed during sweep and, therefore, cannot be trusted.",
+  "patch_path": "reports/codejit_extraction_v1/records/9781f75cd9f914e4f85ef33f.diff.gz",
+  "diff_bytes": 7369,
+  "diff_sha256": "45182149d790d79b8585483d2dd8a8157ced87eab7b74d4e8303db1c46054458",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:48.337368+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

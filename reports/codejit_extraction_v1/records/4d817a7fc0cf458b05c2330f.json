@@ -1,0 +1,16 @@
+{
+  "repo": "postgres___postgres",
+  "commit_id": "b0b39f72b9904bcb80f97b35837ccff1578aa4b8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "GSSAPI encryption support\n\nOn both the frontend and backend, prepare for GSSAPI encryption\nsupport by moving common code for error handling into a separate file.\nFix a TODO for handling multiple status messages in the process.\nEliminate the OIDs, which have not been needed for some time.\n\nAdd frontend and backend encryption support functions.  Keep the\ncontext initiation for authentication-only separate on both the\nfrontend and backend in order to avoid concerns about changing the\nrequested flags to include encryption support.\n\nIn postmaster, pull GSSAPI authorization checking into a shared\nfunction.  Also share the initiator name between the encryption and\nnon-encryption codepaths.\n\nFor HBA, add \"hostgssenc\" and \"hostnogssenc\" entries that behave\nsimilarly to their SSL counterparts.  \"hostgssenc\" requires either\n\"gss\", \"trust\", or \"reject\" for its authentication.\n\nSimilarly, add a \"gssencmode\" parameter to libpq.  Supported values are\n\"disable\", \"require\", and \"prefer\".  Notably, negotiation will only be\nattempted if credentials can be acquired.  Move credential acquisition\ninto its own function to support this behavior.\n\nAdd a simple pg_stat_gssapi view similar to pg_stat_ssl, for monitoring\nif GSSAPI authentication was used, what principal was used, and if\nencryption is being used on the connection.\n\nFinally, add documentation for everything new, and update existing\ndocumentation on connection security.\n\nThanks to Michael Paquier for the Windows fixes.\n\nAuthor: Robbie Harwood, with changes to the read/write functions by me.\nReviewed in various forms and at different times by: Michael Paquier,\n   Andres Freund, David Steele.\nDiscussion: https://www.postgresql.org/message-id/flat/jlg1tgq1ktm.fsf@thriss.redhat.com",
+  "patch_path": "reports/codejit_extraction_v1/records/4d817a7fc0cf458b05c2330f.diff.gz",
+  "diff_bytes": 115507,
+  "diff_sha256": "4e106c3f35db9a96bff13fbfb4c5267aff6fb8759d56d51ec207ea507aeb1187",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:50.441744+00:00",
+  "url": "https://github.com/postgres/postgres.git"
+}

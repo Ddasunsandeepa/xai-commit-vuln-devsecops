@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "ef27433ca86c4084f0cff3e284f9e799c3fdfbec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Fix in checking first_mb_in_slice\n\nAlso, increment slice header only if previous slice had atleast one MB\nThis is to ensure there is no out of bound read for streams with 1 MB, and\ndue to error 2 slices were being accessed.\n\nBug: 33982658\nChange-Id: I5f1918c09e922ca39f495f6059dfea3fa1d49448",
+  "patch_path": "reports/codejit_extraction_v1/records/db55b27fe94b15b7455f5a30.diff.gz",
+  "diff_bytes": 1699,
+  "diff_sha256": "c17e48d054574ce1238a0093078948fa069ad448b11873a753ec00cd82d2e238",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:25.816090+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

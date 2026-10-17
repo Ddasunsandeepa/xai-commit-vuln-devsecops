@@ -1,0 +1,16 @@
+{
+  "repo": "jasper-software___jasper",
+  "commit_id": "49174ab592cdfa6f1a929a2ee3d4b4976f9459fd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixes #259",
+  "patch_path": "reports/codejit_extraction_v1/records/47eaebf633e1ef21cdaca1c7.diff.gz",
+  "diff_bytes": 2108,
+  "diff_sha256": "a52cdce22b45f7662b6c4b33a265f2bbc8e569f9e3271ec04074922822cd7385",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:55.642490+00:00",
+  "url": "https://github.com/jasper-software/jasper.git"
+}

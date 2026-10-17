@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "e24bdc716c3327b067c551bc6cfb97fd2370358d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a bug that resulted in the destruction of JP2 box data that had never\nbeen constructed in the first place.",
+  "patch_path": "reports/codejit_extraction_v1/records/c8df1d9dce44abb5234d1e50.diff.gz",
+  "diff_bytes": 1373,
+  "diff_sha256": "5212b8d7d49a80bd98acc830ac42e42c18c1d639b820d0223853079e238c04ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:47.964520+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "85f05cc57ffa0a863d9d9b23e73acea9410b2937",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Detect xref pointer infinite loop (fixes #149)",
+  "patch_path": "reports/codejit_extraction_v1/records/b327ed2b631ce123e19007b8.diff.gz",
+  "diff_bytes": 3789,
+  "diff_sha256": "3f3b0d88032e606c8d6edd6258037a4bec5f7b4869b1eecdb0c8064601bd8a3c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:33.950383+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

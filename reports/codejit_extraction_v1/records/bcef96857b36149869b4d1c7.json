@@ -1,0 +1,16 @@
+{
+  "repo": "lighttpd___lighttpd1.4",
+  "commit_id": "3eb7902e10ba75b3f2eb159e244d0d8e5037ccd2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[core] server.http-parseopts URL normalization opt (fixes #1720)\n\nserver.http-parseopts = ( ... ) URL normalization options\n\nNote: *not applied* to CONNECT method\n\nNote: In a future release, URL normalization likely enabled by default\n  (normalize URL, reject control chars, remove . and .. path segments)\n  To prepare for this change, lighttpd.conf configurations should\n  explicitly select desired behavior by enabling or disabling:\n    server.http-parseopts = ( \"url-normalize\" => \"enable\", ... )\n    server.http-parseopts = ( \"url-normalize\" => \"disable\" )\n\nx-ref:\n  \"lighttpd ... compares URIs to patterns in the (1) url.redirect and (2) url.rewrite configuration settings before performing URL decoding, which might allow remote attackers to bypass intended access restrictions, and obtain sensitive information or possibly modify data.\"\n  https://www.cvedetails.com/cve/CVE-2008-4359/\n  \"Rewrite/redirect rules and URL encoding\"\n  https://redmine.lighttpd.net/issues/1720",
+  "patch_path": "reports/codejit_extraction_v1/records/bcef96857b36149869b4d1c7.diff.gz",
+  "diff_bytes": 51516,
+  "diff_sha256": "9f61ff1f96feb866eb151720ef643ffdf13312497b09d8b2dc878290c4797599",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:40.463512+00:00",
+  "url": "https://github.com/lighttpd/lighttpd1.4.git"
+}

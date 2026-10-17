@@ -1,0 +1,16 @@
+{
+  "repo": "perl___perl5",
+  "commit_id": "34716e2a6ee2af96078d62b065b7785c001194be",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Perl_my_setenv(); handle integer wrap\n\nRT #133204\n\nWean this function off int/I32 and onto UV/Size_t.\nAlso, replace all malloc-ish calls with a wrapper that does\noverflow checks,\n\nIn particular, it was doing (nlen + vlen + 2) which could wrap when\nthe combined length of the environment variable name and value\nexceeded around 0x7fffffff.\n\nThe wrapper check function is probably overkill, but belt and braces...\n\nNB this function has several variant parts, #ifdef'ed by platform\ntype; I have blindly changed the parts that aren't compiled under linux.",
+  "patch_path": "reports/codejit_extraction_v1/records/831a598626376689eec70960.diff.gz",
+  "diff_bytes": 4957,
+  "diff_sha256": "d609ef30fb47b0cc092c60176495d1a117ee486b384b13ab92f664c981e40195",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:57.371478+00:00",
+  "url": "https://github.com/perl/perl5.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "c44088ecc4b0722636e0a305f9608d3047197282",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "credential: treat URL without scheme as invalid\n\nlibcurl permits making requests without a URL scheme specified.  In\nthis case, it guesses the URL from the hostname, so I can run\n\n\tgit ls-remote http::ftp.example.com/path/to/repo\n\nand it would make an FTP request.\n\nAny user intentionally using such a URL is likely to have made a typo.\nUnfortunately, credential_from_url is not able to determine the host and\nprotocol in order to determine appropriate credentials to send, and\nuntil \"credential: refuse to operate when missing host or protocol\",\nthis resulted in another host's credentials being leaked to the named\nhost.\n\nTeach credential_from_url_gently to consider such a URL to be invalid\nso that fsck can detect and block gitmodules files with such URLs,\nallowing server operators to avoid serving them to downstream users\nrunning older versions of Git.\n\nThis also means that when such URLs are passed on the command line, Git\nwill print a clearer error so affected users can switch to the simpler\nURL that explicitly specifies the host and protocol they intend.\n\nOne subtlety: .gitmodules files can contain relative URLs, representing\na URL relative to the URL they were cloned from.  The relative URL\nresolver used for .gitmodules can follow \"..\" components out of the path\npart and past the host part of a URL, meaning that such a relative URL\ncan be used to traverse from a https://foo.example.com/innocent\nsuperproject to a https::attacker.example.com/exploit submodule.\nFortunately a leading ':' in the first path component after a series of\nleading './' and '../' components is unlikely to show up in other\ncontexts, so we can catch this by detecting that pattern.\n\nReported-by: Jeff King <peff@peff.net>\nSigned-off-by: Jonathan Nieder <jrnieder@gmail.com>\nReviewed-by: Jeff King <peff@peff.net>",
+  "patch_path": "reports/codejit_extraction_v1/records/a473bda83ae57651807dd515.diff.gz",
+  "diff_bytes": 4639,
+  "diff_sha256": "354a752ac07f16392a35e73056dfee23aeaa64c36f83cdd788df7655979367c8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:09.247257+00:00",
+  "url": "https://github.com/git/git.git"
+}

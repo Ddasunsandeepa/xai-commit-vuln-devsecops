@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "f634481e940421020e52f511c1fb34aac1db4b2f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Initialize default reference buffers for all pictures\n\nReference buffer is now initialized to default value for\neach pic before decoding the first slice in the pic\n\nBug: 34097866\nChange-Id: Id64b123af2188217ce833f11db0e6c0681d41dfd",
+  "patch_path": "reports/codejit_extraction_v1/records/42818ca5e0b65cba14aac303.diff.gz",
+  "diff_bytes": 716,
+  "diff_sha256": "c4f796050067ca4a46274a089068443067a39495678f745f890e1c546d795412",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:26.341288+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

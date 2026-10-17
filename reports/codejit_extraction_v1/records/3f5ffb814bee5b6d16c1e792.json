@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "92bab75eabec8b601065494ff4540dc3c0be13ea",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a bug in the row/column split operations for QMFBs.",
+  "patch_path": "reports/codejit_extraction_v1/records/3f5ffb814bee5b6d16c1e792.diff.gz",
+  "diff_bytes": 1764,
+  "diff_sha256": "930dba8efbeeebedc373187cbf4e52653d0b223b7df11278b132fbd89b950544",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:43.696697+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

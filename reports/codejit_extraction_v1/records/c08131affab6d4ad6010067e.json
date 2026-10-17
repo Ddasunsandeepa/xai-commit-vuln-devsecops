@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "481cad48e5e655746893e001af31c161f4587a02",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "block: add bdrv_co_drain_end callback\n\nBlockDriverState has a bdrv_co_drain() callback but no equivalent for\nthe end of the drain. The throttle driver (block/throttle.c) needs a way\nto mark the end of the drain in order to toggle io_limits_disabled\ncorrectly, thus bdrv_co_drain_end is needed.\n\nSigned-off-by: Manos Pitsidianakis <el13635@mail.ntua.gr>\nReviewed-by: Stefan Hajnoczi <stefanha@redhat.com>\nReviewed-by: Fam Zheng <famz@redhat.com>\nSigned-off-by: Stefan Hajnoczi <stefanha@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c08131affab6d4ad6010067e.diff.gz",
+  "diff_bytes": 5739,
+  "diff_sha256": "57977c0b7bf9187f0fd86e686f9830091e16affb6820feb608e4129c0aca75b2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:45.164054+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "9a6bbee8006c24b46a85d29e7b38cfa79e9ab21b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "credential: avoid writing values with newlines\n\nThe credential protocol that we use to speak to helpers can't represent\nvalues with newlines in them. This was an intentional design choice to\nkeep the protocol simple, since none of the values we pass should\ngenerally have newlines.\n\nHowever, if we _do_ encounter a newline in a value, we blindly transmit\nit in credential_write(). Such values may break the protocol syntax, or\nworse, inject new valid lines into the protocol stream.\n\nThe most likely way for a newline to end up in a credential struct is by\ndecoding a URL with a percent-encoded newline. However, since the bug\noccurs at the moment we write the value to the protocol, we'll catch it\nthere. That should leave no possibility of accidentally missing a code\npath that can trigger the problem.\n\nAt this level of the code we have little choice but to die(). However,\nsince we'd not ever expect to see this case outside of a malicious URL,\nthat's an acceptable outcome.\n\nReported-by: Felix Wilhelm <fwilhelm@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/1c691fc3027da896182be12f.diff.gz",
+  "diff_bytes": 794,
+  "diff_sha256": "c6ddf5c6317813b1473fdff1db80d053cc2e7180eb94f25ee2c765540ce28be9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:00.678265+00:00",
+  "url": "https://github.com/git/git.git"
+}

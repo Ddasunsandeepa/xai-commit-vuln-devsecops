@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___deark",
+  "commit_id": "62acb7753b0e3c0d3ab3c15057b0a65222313334",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "pict,macrsrc: Fixed a bug that could cause division by 0\n\nFound by F. Çelik.",
+  "patch_path": "reports/codejit_extraction_v1/records/61cb85938a46e8e057be830e.diff.gz",
+  "diff_bytes": 571,
+  "diff_sha256": "b22726dfd05bb24c61a966987cbafba1d7a54362852542567fcf44e708448421",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:02.265248+00:00",
+  "url": "https://github.com/jsummers/deark.git"
+}

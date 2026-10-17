@@ -1,0 +1,16 @@
+{
+  "repo": "arangodb___arangodb",
+  "commit_id": "d9b7f019d2435f107b19a59190bf9cc27d5f34dd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[APM-78] Disable installation from remote URL (#15292)",
+  "patch_path": "reports/codejit_extraction_v1/records/98e8be6fa7c8709e69c8b40e.diff.gz",
+  "diff_bytes": 19229,
+  "diff_sha256": "ebc2d9da6d847640ee476c19a3e8a7c6d6a1e258fe269aabdd73920fe2e9c86a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:56.659310+00:00",
+  "url": "https://github.com/arangodb/arangodb.git"
+}

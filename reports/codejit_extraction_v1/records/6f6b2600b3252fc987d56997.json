@@ -1,0 +1,16 @@
+{
+  "repo": "perl5-dbi___dbd-mysql",
+  "commit_id": "a56ae87a4c1c1fead7d09c3653905841ccccf1cc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix use-after-free crash in RT #97625",
+  "patch_path": "reports/codejit_extraction_v1/records/6f6b2600b3252fc987d56997.diff.gz",
+  "diff_bytes": 1464,
+  "diff_sha256": "4beab9da72c9ef7290e47d071a80619e6286ab76826d386420210c98b1ba2992",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:57.114786+00:00",
+  "url": "https://github.com/perl5-dbi/dbd-mysql.git"
+}

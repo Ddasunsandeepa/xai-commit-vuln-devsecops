@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "66fe2e9ee30bcb4161bc487ec63d2ae4a05f4051",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "64-bit: Correction to OMX_U32 and OMX_S32\n\nChange-Id: I9c41bb34c35595ac19a7ab8faaacde8cb4fa9a15",
+  "patch_path": "reports/codejit_extraction_v1/records/2749bfa6c96e5dcd75aff8a4.diff.gz",
+  "diff_bytes": 8724,
+  "diff_sha256": "eb6a8ba4929b65feda27732023e56fabac4df7cd03b63af39bc0e656382143e5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:58.655735+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ocaml___ocaml",
+  "commit_id": "659615c7b100a89eafe6253e7a5b9d84d0e8df74",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix PR#7003 and a few other bugs caused by misuse of Int_val\n\ngit-svn-id: http://caml.inria.fr/svn/ocaml/trunk@16525 f963ae5c-01c2-4b8c-9fe0-0dff7051ff02",
+  "patch_path": "reports/codejit_extraction_v1/records/13ad9b0f3c74275e8ace1def.diff.gz",
+  "diff_bytes": 3063,
+  "diff_sha256": "fae0c42a51d548ce55d2699e00e9ce83e843b460081e4c9c0695fda8a081ba38",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:42.306271+00:00",
+  "url": "https://github.com/ocaml/ocaml.git"
+}

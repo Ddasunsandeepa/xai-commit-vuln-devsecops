@@ -1,0 +1,16 @@
+{
+  "repo": "rawstudio___rawstudio",
+  "commit_id": "1bdce427dcccf9c857b079009b3a577a9674c9f4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Updated dcraw to v8.90 from v8.88.",
+  "patch_path": "reports/codejit_extraction_v1/records/36285dc120b5edc46a338247.diff.gz",
+  "diff_bytes": 31382,
+  "diff_sha256": "f77e26a49161fbad093ac0cf6b9e27fb26b6eb38e8f5f67fde32c5a8aba50159",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:03.396819+00:00",
+  "url": "https://github.com/rawstudio/rawstudio.git"
+}

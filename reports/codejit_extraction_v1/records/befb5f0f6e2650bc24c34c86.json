@@ -1,0 +1,16 @@
+{
+  "repo": "ioquake___ioq3",
+  "commit_id": "fe111df610236923d7ad23b36209f5f9962fa0e3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[qcommon/msg.c] Remove dead code (which had undefined behaviour)",
+  "patch_path": "reports/codejit_extraction_v1/records/befb5f0f6e2650bc24c34c86.diff.gz",
+  "diff_bytes": 2542,
+  "diff_sha256": "12da62b8017c40f3b7165f5a6e5d37fcca3e2e02a542fcd36ff87c1987527bf2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:47.896936+00:00",
+  "url": "https://github.com/ioquake/ioq3.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___ex",
+  "commit_id": "ede8f95361dcbf9757aaf6d25ce59fa3767344e3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Skip composition of frames lacking a color map\n\nBug:68399117\n\nChange-Id: I32f1d6856221b8a60130633edb69da2d2986c27c\n(cherry picked from commit 0dc887f70eeea8d707cb426b96c6756edd1c607d)",
+  "patch_path": "reports/codejit_extraction_v1/records/1583edc275bde6ac5f81760a.diff.gz",
+  "diff_bytes": 1805,
+  "diff_sha256": "27f3ca95416d08866854bbf2f4000fe78ad7368cc8ede6ecbfd31589f693824f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:34.052095+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/ex"
+}

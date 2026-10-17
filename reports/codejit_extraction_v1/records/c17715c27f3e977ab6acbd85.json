@@ -1,0 +1,16 @@
+{
+  "repo": "pingidentity___mod_auth_openidc",
+  "commit_id": "21e3728a825c41ab41efa75e664108051bb9665e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "release 2.1.6 : security fix: scrub headers for \"AuthType oauth20\"\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/c17715c27f3e977ab6acbd85.diff.gz",
+  "diff_bytes": 2441,
+  "diff_sha256": "e849ffae3f10a4ce95b89096b33c7529c74c1e94b5192e6d44a297449e6f5d0f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:32.701522+00:00",
+  "url": "https://github.com/pingidentity/mod_auth_openidc.git"
+}

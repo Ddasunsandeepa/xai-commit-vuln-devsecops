@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "ad98074625cc23623bd6336eab96c4ba2d8cc6c4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for a null-dereference READ in tensorflow::SparseCount.\n\nPiperOrigin-RevId: 374542392\nChange-Id: Ie98a91fbf9e26cd557a57312eeee37e8b44a9641",
+  "patch_path": "reports/codejit_extraction_v1/records/3a1b128c6b530a68cfa61cfa.diff.gz",
+  "diff_bytes": 1048,
+  "diff_sha256": "16fdc704e19c07f0d8eb262b1d4bffb868dcc19af0e82ad49f758022e84a4c80",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:33:47.199646+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

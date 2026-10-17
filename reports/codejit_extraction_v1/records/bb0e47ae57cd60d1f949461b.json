@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "97837bb6cbac21ea679843a0037779d3834bed64",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "OMXCodec: check IMemory::pointer() before using allocation\n\nBug: 29421811\nChange-Id: I0a73ba12bae4122f1d89fc92e5ea4f6a96cd1ed1",
+  "patch_path": "reports/codejit_extraction_v1/records/bb0e47ae57cd60d1f949461b.diff.gz",
+  "diff_bytes": 602,
+  "diff_sha256": "4e8acd51a38a9e02413ab18e523fe0fbd32588a2dce89f88ebca47c14ab8e757",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:07.691463+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "2fdf638b0c66c22357d56f7cb205dd241b4a8c58",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "New demuxers: Sega FILM/CPK, Westwood VQA & AUD; new decoders: MS RLE &\nVideo-1, Apple RPZA, Cinepak, Westwood IMA ADPCM\n\nOriginally committed as revision 2324 to svn://svn.ffmpeg.org/ffmpeg/trunk",
+  "patch_path": "reports/codejit_extraction_v1/records/3ff5585d299dc0da982355a7.diff.gz",
+  "diff_bytes": 77698,
+  "diff_sha256": "9ee575be2bf71f3a5b4cc5ff5e10ac5964154e3b9a36df23e994dd536d17d539",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:39.028911+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

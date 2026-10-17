@@ -1,0 +1,16 @@
+{
+  "repo": "locutusofborg___ettercap",
+  "commit_id": "7a327bf645a122fec17a3b0e6eb1cc463341b2b2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Revert \"Try to switch to USR_MSG\"\n\nThis reverts commit 515c67e79f62d47f1f63fb4b7eac38bfcf3a522e.",
+  "patch_path": "reports/codejit_extraction_v1/records/22c07581d75fe59942d3059f.diff.gz",
+  "diff_bytes": 18153,
+  "diff_sha256": "13cb7482f872d9801b892fd0ae46489a8eb1d73a7863bb5fb8ef65bfdea398c3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:43.919532+00:00",
+  "url": "https://github.com/locutusofborg/ettercap.git"
+}

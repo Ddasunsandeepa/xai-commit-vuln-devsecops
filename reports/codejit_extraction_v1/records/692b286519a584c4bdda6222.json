@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "ed8b10f631c9a71df3351d46187bf7f3fa4f9b7e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fsck: check .gitmodules content\n\nThis patch detects and blocks submodule names which do not\nmatch the policy set forth in submodule-config. These should\nalready be caught by the submodule code itself, but putting\nthe check here means that newer versions of Git can protect\nolder ones from malicious entries (e.g., a server with\nreceive.fsckObjects will block the objects, protecting\nclients which fetch from it).\n\nAs a side effect, this means fsck will also complain about\n.gitmodules files that cannot be parsed (or were larger than\ncore.bigFileThreshold).\n\nSigned-off-by: Jeff King <peff@peff.net>",
+  "patch_path": "reports/codejit_extraction_v1/records/692b286519a584c4bdda6222.diff.gz",
+  "diff_bytes": 2461,
+  "diff_sha256": "7cb36b7c600d29fa95a3bb7b81932fbaf34cf0eac8f27eb1abdef23baba2dca1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:12.409122+00:00",
+  "url": "https://github.com/git/git.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "4a09b4efa053a26e187119a540da4b41dd8a24d8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added TLS issuerDN and subjectDN",
+  "patch_path": "reports/codejit_extraction_v1/records/5d3a80c430242d8abe64ec9a.diff.gz",
+  "diff_bytes": 438996,
+  "diff_sha256": "322ce1e5b33edf908cdc437d5b460fd89dcfff74408027272fd1536412b7c29e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:17.076417+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "trgil___gilcc",
+  "commit_id": "925f1c706a040193274589a786fbbdf71b743820",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add basic source parser flow",
+  "patch_path": "reports/codejit_extraction_v1/records/5fa6a44219ac94228d8dd2b3.diff.gz",
+  "diff_bytes": 9564,
+  "diff_sha256": "c07bf0fb80ca43f6205a1300f8696b9b5f61e1b0345ec348182ae5d285120022",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:10.663406+00:00",
+  "url": "https://github.com/trgil/gilcc.git"
+}

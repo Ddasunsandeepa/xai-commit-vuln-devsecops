@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "0fa04b7fde614c4d1778ecfc60bfbdb8c3ac8b1e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "pktdumper debugging utility for demuxers. This tool dumps each AVPacket demuxed to a stamped file.\nmake pktdumper LDFLAGS='-Llibavformat/ -lavformat'\n\nOriginally committed as revision 4044 to svn://svn.ffmpeg.org/ffmpeg/trunk",
+  "patch_path": "reports/codejit_extraction_v1/records/4885dd038fe6e9207ccc967a.diff.gz",
+  "diff_bytes": 2372,
+  "diff_sha256": "9cbf13b59b3053c5390f514aa1b33f5c15fb3380d45c8aab9d638e33ba0b17ea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:32.864791+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

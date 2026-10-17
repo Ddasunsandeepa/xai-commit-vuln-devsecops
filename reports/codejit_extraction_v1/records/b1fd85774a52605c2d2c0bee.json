@@ -1,0 +1,16 @@
+{
+  "repo": "videolan___vlc",
+  "commit_id": "204291467724867b79735c0ee3aeb0dbc2200f97",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream_out: rtp: don't use VLA for user controlled data\n\nIt should fix a possible invalid memory access\n\nWhen streaming ogg-files via rtp, an ogg-file can trigger an invalid\nwrite access using an overly long 'configuration' string.\n\nThe original code attemps to allocate space to hold the string on the stack\nand hence, cannot verify if allocation succeeds. Instead, we now allocate the\nbuffer on the heap and return if allocation fails.\n\nIn detail, rtp_packetize_xiph_config allocates a buffer on the stack at (1) where\nthe size depends on the local variable 'len'. The variable 'len' is\ncalculated at (0) to be the length of a string contained in a specially\ncrafted Ogg Vorbis file, and therefore, it is attacker-controlled.\n\nSigned-off-by: Jean-Baptiste Kempf <jb@videolan.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/b1fd85774a52605c2d2c0bee.diff.gz",
+  "diff_bytes": 752,
+  "diff_sha256": "99c3b707bd0aacafaba4943dca34e3473f902b42daee82e5cfd74f64423facf9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:42:40.406962+00:00",
+  "url": "https://github.com/videolan/vlc.git"
+}

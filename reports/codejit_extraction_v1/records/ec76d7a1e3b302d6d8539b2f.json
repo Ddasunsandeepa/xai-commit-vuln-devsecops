@@ -1,0 +1,16 @@
+{
+  "repo": "gssapi___gssproxy",
+  "commit_id": "6ba484340198fe12f645cf768ed1bb39a195217a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Organize workers in free and busy lists\n\nThis avoids going through an array to chase free threads, so that assigning\nwork is O(1) instead of O(n).\nWill also make easier to later change the number of available workers\ndynamically.",
+  "patch_path": "reports/codejit_extraction_v1/records/ec76d7a1e3b302d6d8539b2f.diff.gz",
+  "diff_bytes": 8067,
+  "diff_sha256": "786c5315e608e9e6ddeeb89d60448b13e65f59a3fd547cd5dfaa9a33f85d6f2c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:34.472948+00:00",
+  "url": "https://github.com/gssapi/gssproxy.git"
+}

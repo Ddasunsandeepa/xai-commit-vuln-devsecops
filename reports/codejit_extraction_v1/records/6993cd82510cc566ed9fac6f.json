@@ -1,0 +1,16 @@
+{
+  "repo": "madler___zlib",
+  "commit_id": "f6194ef39af5864f792412460c354cc339dde7d1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "zlib 1.2.3.4",
+  "patch_path": "reports/codejit_extraction_v1/records/6993cd82510cc566ed9fac6f.diff.gz",
+  "diff_bytes": 251776,
+  "diff_sha256": "aca68dcc55ee645790839bebc07ba0c611a6690b7799fa24f53f33f0aff33fc7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:56.734912+00:00",
+  "url": "https://github.com/madler/zlib.git"
+}

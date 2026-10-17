@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "e5b9b3db87a55d3430f881ba59ba95f7d6ae41d0",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stagefright: add SoftAVCDec using libavc\n\nChange-Id: Ie808aa82c624dbbcaeb6b41662c9b7770bc80bd9",
+  "patch_path": "reports/codejit_extraction_v1/records/f69a5c2b5b44be3f0eab69e9.diff.gz",
+  "diff_bytes": 38661,
+  "diff_sha256": "aec8953a476b8da781b6e34e7b9edb65a1fe043633f878d367f533d44965ae60",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:18.553806+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

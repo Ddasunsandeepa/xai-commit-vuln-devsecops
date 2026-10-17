@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "93fc5148a068e2c743f486d7bbb2789d06d8ad93",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add client authentication to the revocation endpoint\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/ad3ec05c228df9b6d5dc3c44.diff.gz",
+  "diff_bytes": 13736,
+  "diff_sha256": "520742e65c513ac4ac53c1c0cd980fbe724924ab7627f5fb16498e6a5b347dd0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:21.062253+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

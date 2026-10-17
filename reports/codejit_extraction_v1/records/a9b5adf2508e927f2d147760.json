@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "220564530697d33696d665779321436f378e6265",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix number_format() to deal with very large precisions/very large numbers\n\nSummary: Max output width of number_format() was constrained to 64 characters\nwhich isn't necessarily the case with double-precision floating point\nnumbers which can go out to a few hundred decimal places.\n\nAlso fixed php_math_round() implementation to use doubles all the way\nthrough rather than single-precision float for `f1`.\n\nCloses #4202\n\nReviewed By: @paulbiss\n\nDifferential Revision: D1670982\n\nSignature: t1:1670982:1415662449:f3a3b694a43347f1e4ca8a39a18e333780a63153",
+  "patch_path": "reports/codejit_extraction_v1/records/a9b5adf2508e927f2d147760.diff.gz",
+  "diff_bytes": 2430,
+  "diff_sha256": "b245b746367c142708251c87ec11338e0a4e262b29e610a6270d1595cea85738",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:51.231474+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

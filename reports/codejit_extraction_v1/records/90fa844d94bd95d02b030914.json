@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "8759da8db6ec9e866cb8eb143313f397f925bb4f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid returning CHM file entries that are \"blank\" because they have embedded null bytes",
+  "patch_path": "reports/codejit_extraction_v1/records/90fa844d94bd95d02b030914.diff.gz",
+  "diff_bytes": 1489,
+  "diff_sha256": "d9e88efd3144537724d8d04ffa99996be425a75b9708701550a1bcb7d6ff277b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:34.866427+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

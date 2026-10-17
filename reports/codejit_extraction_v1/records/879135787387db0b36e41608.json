@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "a3576a73593987b26cd3eff346f8f7c11f713cbd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug fix: handle generation > 0 when generating object streams\n\nRework QPDFWriter to always track old object IDs and QPDFObjGen\ninstead of int, thus not discarding the generation number.  Switch to\nQPDF::getCompressibleObjGen() to properly handle the case of an old\nobject eligible for compression that has a generation of other than\nzero.",
+  "patch_path": "reports/codejit_extraction_v1/records/879135787387db0b36e41608.diff.gz",
+  "diff_bytes": 26732,
+  "diff_sha256": "072ea4b3827ca8ed33258fd3bde3190e82b78eb25e24fc283155c7430ee4265f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:34.427948+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

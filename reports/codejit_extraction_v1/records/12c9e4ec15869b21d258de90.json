@@ -1,0 +1,16 @@
+{
+  "repo": "opensips___opensips",
+  "commit_id": "2d322be656338b17ef4ad22f36d2641a80cfc3dc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added GRUU support according to RFC 5627\n\n\n\ngit-svn-id: svn+ssh://svn.code.sf.net/p/opensips/svn/trunk@8406 689a6050-402a-0410-94f2-e92a70836424",
+  "patch_path": "reports/codejit_extraction_v1/records/12c9e4ec15869b21d258de90.diff.gz",
+  "diff_bytes": 43851,
+  "diff_sha256": "13dbbf1bb1bc274e38df0494ef6dd082b2f8959c0a6efd0856e465445e30bf70",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:05.795788+00:00",
+  "url": "https://github.com/opensips/opensips.git"
+}

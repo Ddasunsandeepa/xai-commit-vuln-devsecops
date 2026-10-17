@@ -1,0 +1,16 @@
+{
+  "repo": "nih-at___libzip",
+  "commit_id": "a84aef49660fa8803a72a0109135ef146d5352f5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "whitespace",
+  "patch_path": "reports/codejit_extraction_v1/records/f9738ed5ca503677a35a8858.diff.gz",
+  "diff_bytes": 563,
+  "diff_sha256": "f173aed764fc27caf9db31fa7693e44400fa9f1024181d850d77a92bc9bacba3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:01.169298+00:00",
+  "url": "https://github.com/nih-at/libzip.git"
+}

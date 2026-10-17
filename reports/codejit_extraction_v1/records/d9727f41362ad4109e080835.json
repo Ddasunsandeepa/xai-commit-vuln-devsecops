@@ -1,0 +1,16 @@
+{
+  "repo": "reddit___snudown",
+  "commit_id": "1ac2c130b210539ee1e5d67a7bac93f9d8007c0e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Hash-collision denial-of-service vulnerabilities (#87)\n\n* Add case insensitive SipHash implementation\n* Replace ref hash function with SipHash\n* Add label to link_ref struct.\n* Update find_link_ref to compare link labels as well as hashes\n* Update add_link_ref to disallow duplicate entries.\n* cast to char from uint8_t for strncasecmp\n* update README markdown, remove TODO\n* add py2 wheel generation\n* fix: add logic for older glibc not having getrandom, impacting staging\n\nCo-authored-by: Nicolaas <nweidema@usc.edu>",
+  "patch_path": "reports/codejit_extraction_v1/records/d9727f41362ad4109e080835.diff.gz",
+  "diff_bytes": 21916,
+  "diff_sha256": "bd807f685b681d84e1cc612bc2986ae444561eb95880a3da84672503f2e38491",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:03.774775+00:00",
+  "url": "https://github.com/reddit/snudown.git"
+}

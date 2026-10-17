@@ -1,0 +1,16 @@
+{
+  "repo": "ruven___iipsrv",
+  "commit_id": "7cf3457461ffd403d5d8cd8b1b5f82e808cb95bb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added support for PNG output. Functionality available through the CVT command (CVT=png) as well as through IIIF API. PNG encoder supports alpha channels, 8 or 16 bit output, ICC profiles and XMP metadata.",
+  "patch_path": "reports/codejit_extraction_v1/records/dbc014fbb6bf4f10433b94ed.diff.gz",
+  "diff_bytes": 51014,
+  "diff_sha256": "adb0b07b637784e2e2753d4fb6293336f4ec47252d63bd6fe8de97c850b49628",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:26.971300+00:00",
+  "url": "https://github.com/ruven/iipsrv.git"
+}

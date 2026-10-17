@@ -1,0 +1,16 @@
+{
+  "repo": "taglib___taglib",
+  "commit_id": "463e8f313a030056dad0cc6705579690f1239977",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Append TIME to TDRC, adjusted test_id3v2.cpp as appropriate.",
+  "patch_path": "reports/codejit_extraction_v1/records/f6419175977b29fc8ebce225.diff.gz",
+  "diff_bytes": 2587,
+  "diff_sha256": "0e4adedd8af3806378aeea8a1b8e8655b49b31f1ac488c698e4e99fc2d96c1d8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:47.121261+00:00",
+  "url": "https://github.com/taglib/taglib.git"
+}

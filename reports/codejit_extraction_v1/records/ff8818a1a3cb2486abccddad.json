@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "988f8365f7d8ad8073b6786e433d34c553ecf568",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed an integer overflow problem.",
+  "patch_path": "reports/codejit_extraction_v1/records/ff8818a1a3cb2486abccddad.diff.gz",
+  "diff_bytes": 2384,
+  "diff_sha256": "91aef4351343d43edb3299cdeb674d666c609e44fb1a57bf408c3338754d4c46",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:44.951528+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

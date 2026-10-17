@@ -1,0 +1,16 @@
+{
+  "repo": "electron___electron",
+  "commit_id": "b37982987ace111819e85cd0deda5036cea2db79",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "chore: remove unused sendToAll + related APIs (#26771)\n\n* chore: remove unused sendToAll + related APIs\n\n* refactor: no need to args.ShallowClone() anymore",
+  "patch_path": "reports/codejit_extraction_v1/records/95354456776c137221ceff67.diff.gz",
+  "diff_bytes": 17811,
+  "diff_sha256": "ce7f966eeb5e936e508191989935697eaecb6b7b38000257c321bd27df9ab693",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:24.687221+00:00",
+  "url": "https://github.com/electron/electron.git"
+}

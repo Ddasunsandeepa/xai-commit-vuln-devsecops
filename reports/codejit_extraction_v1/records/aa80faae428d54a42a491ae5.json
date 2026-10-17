@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick",
+  "commit_id": "3b48d20df53ad048af05107aa1850c344466b082",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix rare but potential memory-leak",
+  "patch_path": "reports/codejit_extraction_v1/records/aa80faae428d54a42a491ae5.diff.gz",
+  "diff_bytes": 27657,
+  "diff_sha256": "30c1a878966c422653c8254caecafa44b91fe0007e5036e567290c8d7c94d2df",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:10.890268+00:00",
+  "url": "https://github.com/imagemagick/imagemagick.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "784dba7c83043c2220e3daa2ebfdc9c44aefe54a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Update grammars",
+  "patch_path": "reports/codejit_extraction_v1/records/3d1542d2a73bbac46a0feb4a.diff.gz",
+  "diff_bytes": 38041,
+  "diff_sha256": "a28f54f13e8fb92082b167516d24eeec13e9ebad46bc170c7c040aa80ebf7040",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:44.204410+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

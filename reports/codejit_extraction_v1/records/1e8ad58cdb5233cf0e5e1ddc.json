@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "72700d7e733948fa7fbb735ccdf2209931c88476",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "spapr_pci: (Mostly) remove spapr-pci-vfio-host-bridge\n\nNow that the regular spapr-pci-host-bridge can handle EEH, there are only\ntwo things that spapr-pci-vfio-host-bridge does differently:\n    1. automatically sizes its DMA window to match the host IOMMU\n    2. checks if the attached VFIO container is backed by the\n       VFIO_SPAPR_TCE_IOMMU type on the host\n\n(1) is not particularly useful, since the default window used by the\nregular host bridge will work with the host IOMMU configuration on all\ncurrent systems anyway.\n\nPlus, automatically changing guest visible configuration (such as the DMA\nwindow) based on host settings is generally a bad idea.  It's not\ndefinitively broken, since spapr-pci-vfio-host-bridge is only supposed to\nsupport VFIO devices which can't be migrated anyway, but still.\n\n(2) is not really useful, because if a guest tries to configure EEH on a\ndifferent host IOMMU, the first call will fail and that will be that.\n\nIt's possible there are scripts or tools out there which expect\nspapr-pci-vfio-host-bridge, so we don't remove it entirely.  This patch\nreduces it to just a stub for backwards compatibility.\n\nSigned-off-by: David Gibson <david@gibson.dropbear.id.au>\nReviewed-by: Alexey Kardashevskiy <aik@ozlabs.ru>",
+  "patch_path": "reports/codejit_extraction_v1/records/1e8ad58cdb5233cf0e5e1ddc.diff.gz",
+  "diff_bytes": 4765,
+  "diff_sha256": "fcf8d54f6a33df0c6c0f106a4eec79828046ba73b1c0e7a3aa410377b4c9ed76",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:59.351113+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libreswan___libreswan",
+  "commit_id": "471a3e41a449d7c753bc4edbba4239501bb62ba8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "security: Fix for CVE-2020-1763\n\npluto will crash on a null pointer dereference when trying to log an error\nfor an IKEv1 packet containing bogus information and/or flags.\n\nSigned-off-by: Paul Wouters <pwouters@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/14329f9897e3adaa091e695c.diff.gz",
+  "diff_bytes": 522,
+  "diff_sha256": "123619da014d782972c0360adb06b9974a75275b4b5781d0e448bb534af845e1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:10.295400+00:00",
+  "url": "https://github.com/libreswan/libreswan.git"
+}

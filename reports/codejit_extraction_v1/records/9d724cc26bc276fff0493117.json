@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "a6a57e36193cf3690c2fd7d54ef4498733513de7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prefer dynamic logger in dynamic channel.",
+  "patch_path": "reports/codejit_extraction_v1/records/9d724cc26bc276fff0493117.diff.gz",
+  "diff_bytes": 20718,
+  "diff_sha256": "836044d0597fc76e253e163f50ab5c83865abbc1708af8ce34eaf56798ebd001",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:41.060220+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

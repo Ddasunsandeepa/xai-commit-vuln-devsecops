@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "103b40f51e4012b3b0ad20f615562a1806d7f49a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scsi-disk: commonize iovec creation between reads and writes\n\nAlso, consistently use qiov.size instead of iov.iov_len.\n\nSigned-off-by: Paolo Bonzini <pbonzini@redhat.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/ed4e7c52459d02c71e96ab58.diff.gz",
+  "diff_bytes": 3513,
+  "diff_sha256": "50096cdeecd5e7491d8910d5115a8b73ae1949754b0309e2a0bc2e4dfbfaf25e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:35.183523+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

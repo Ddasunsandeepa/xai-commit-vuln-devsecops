@@ -1,0 +1,16 @@
+{
+  "repo": "ritt___elog",
+  "commit_id": "6a67f991e29b8badcc812ff620342318b74e3329",
+  "label": 1,
+  "split": "train",
+  "status": "failed",
+  "error": "RuntimeError: fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+  "message": "",
+  "patch_path": "",
+  "diff_bytes": 0,
+  "diff_sha256": "",
+  "parent_count": null,
+  "is_merge": null,
+  "attempted_at_utc": "2026-10-17T17:15:09.700136+00:00",
+  "url": "https://github.com/ritt/elog.git"
+}

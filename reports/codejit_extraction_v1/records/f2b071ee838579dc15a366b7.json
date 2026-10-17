@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "472271b153c5dc53c28beac55480a8d8434b2d5c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE Fix potential DoS caused by delivering signal to BT process\n\nBug: 28885210\nChange-Id: I63866d894bfca47464d6e42e3fb0357c4f94d360\n\n Conflicts:\n\tbtif/co/bta_hh_co.c\n\tbtif/src/btif_core.c\nMerge conflict resolution of ag/1161415 (referencing ag/1164670)\n- Directly into mnc-mr2-release",
+  "patch_path": "reports/codejit_extraction_v1/records/f2b071ee838579dc15a366b7.diff.gz",
+  "diff_bytes": 54343,
+  "diff_sha256": "0066cd33f0b38bffc01206b3fe8c00614ad49d2815789a517c91f4124ddcbccd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:12.224883+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "jeromerobert___k4dirstat",
+  "commit_id": "1ad2e96d73fa06cd9be0f3749b337c03575016aa",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Properly escape %p and %n in cleaning actions",
+  "patch_path": "reports/codejit_extraction_v1/records/5185e6eb8e731b41433aaf87.diff.gz",
+  "diff_bytes": 887,
+  "diff_sha256": "327227eefde8cd7662c7c16c3c8d1ae536e4269dd65c8da4c2694f0fd940d308",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:57.400993+00:00",
+  "url": "https://github.com/jeromerobert/k4dirstat.git"
+}

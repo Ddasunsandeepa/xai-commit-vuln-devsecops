@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "c8cda4f965064a9c4621d8d9f889eb7037fe72bb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "AES_PDF: switch to pluggable crypto",
+  "patch_path": "reports/codejit_extraction_v1/records/e93e40621e0889a66766fc69.diff.gz",
+  "diff_bytes": 9164,
+  "diff_sha256": "9eb96cea3dcde6e54e331b93200669e95db5e9515ab936a159e69d94796418f6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:35.932714+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

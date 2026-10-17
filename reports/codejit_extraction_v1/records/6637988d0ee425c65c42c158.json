@@ -1,0 +1,16 @@
+{
+  "repo": "cisco___thor",
+  "commit_id": "18de8f9f0762c3a542b1122589edb8af859d9813",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix possible stack overflows in decoder for illegal bit streams\n\nFixes CVE-2018-0429\nA vulnerability in the Thor decoder (available at:\nhttps://github.com/cisco/thor) could allow an authenticated, local\nattacker to cause segmentation faults and stack overflows when using a\nnon-conformant Thor bitstream as input.\nThe vulnerability is due to lack of input validation when parsing the\nbitstream. A successful exploit could allow the attacker to cause a\nstack overflow and potentially inject and execute arbitrary code.",
+  "patch_path": "reports/codejit_extraction_v1/records/6637988d0ee425c65c42c158.diff.gz",
+  "diff_bytes": 1261,
+  "diff_sha256": "b1b1d48bc5ffdfcb9b6850bf17090925b5a8183236b4886c84405edc428dd148",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:48.286593+00:00",
+  "url": "https://github.com/cisco/thor.git"
+}

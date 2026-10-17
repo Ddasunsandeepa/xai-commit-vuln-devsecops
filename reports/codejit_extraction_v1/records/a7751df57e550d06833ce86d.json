@@ -1,0 +1,16 @@
+{
+  "repo": "laverdet___isolated-vm",
+  "commit_id": "c95b3da54258ce8993fc7ed475fe18e7f321c72c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Disallow access to inherited properties on Reference. Adds option to allow them",
+  "patch_path": "reports/codejit_extraction_v1/records/a7751df57e550d06833ce86d.diff.gz",
+  "diff_bytes": 10130,
+  "diff_sha256": "25095c7d8d9cab0e57876ecb8bb52aa6c65f1151044f0f33f34a5c938bb8f811",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:36.489603+00:00",
+  "url": "https://github.com/laverdet/isolated-vm.git"
+}

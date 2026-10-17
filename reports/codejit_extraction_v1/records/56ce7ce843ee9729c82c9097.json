@@ -1,0 +1,16 @@
+{
+  "repo": "tigervnc___tigervnc",
+  "commit_id": "3c5be39e92ef06902a5c502616ec052381345f7a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[Development] Rename CSecurityTLSBase class to CSecurityTLS.\n\n\ngit-svn-id: svn://svn.code.sf.net/p/tigervnc/code/trunk@4110 3789f03b-4d11-0410-bbf8-ca57d06f2519",
+  "patch_path": "reports/codejit_extraction_v1/records/56ce7ce843ee9729c82c9097.diff.gz",
+  "diff_bytes": 5271,
+  "diff_sha256": "88b550117fb940d7dd16cb1dd69b1139c44944611a57a2f8e513246829227de0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:38.173953+00:00",
+  "url": "https://github.com/tigervnc/tigervnc.git"
+}

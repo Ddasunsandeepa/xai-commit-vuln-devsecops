@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "554b56687a19300a75ec24184746b5512580c819",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix strncpy call to avoid ASAN violation\n\nEnsure we're only reading to the size of the smallest buffer, since\nthey're both on the stack and could potentially overlap. Overlapping is\ndefined as ... undefined behavior. I've looked through all available\nimplementations of strncpy and they still only copy from the first \\0\nfound.\n\nWe'll also never read past the end of sun_path since we _supply_\nsun_path with a proper null terminator.",
+  "patch_path": "reports/codejit_extraction_v1/records/ec1403a6c7ef310ff3d5f33b.diff.gz",
+  "diff_bytes": 1845,
+  "diff_sha256": "5a03b1be71acf63911c55c1a7ec7d8cf45c654b0970cfd317d12e67a6e6dc13f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:50.712626+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

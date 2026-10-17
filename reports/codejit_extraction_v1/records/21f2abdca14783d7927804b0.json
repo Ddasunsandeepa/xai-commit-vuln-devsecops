@@ -1,0 +1,16 @@
+{
+  "repo": "kde___kdeconnect-kde",
+  "commit_id": "542d94a70c56aa386c8d4d793481ce181b0422e8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Limit number of connected sockets from unpaired devices\n\nThanks Matthias Gerstner <mgerstner@suse.de> for reporting this.",
+  "patch_path": "reports/codejit_extraction_v1/records/21f2abdca14783d7927804b0.diff.gz",
+  "diff_bytes": 1424,
+  "diff_sha256": "ef10805dd916b9b4ae822a67c1d0db67c6ed6e8b5253c123ee1179e537fe9e1b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:22.847294+00:00",
+  "url": "https://github.com/kde/kdeconnect-kde.git"
+}

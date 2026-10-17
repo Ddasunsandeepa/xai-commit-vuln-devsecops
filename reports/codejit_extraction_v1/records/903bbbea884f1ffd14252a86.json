@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "33ef7de9ddc8ea7eb9cbc440d1cf89957a0c267b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Fixes an out of bound write in bitstream buffer\n\n[for mnc-dr-dev and later;  mnc-dev gets a different patch]\n\nAfter emulation prevention, data is written as an int,\nso at least 3 additional bytes should be available.\nAnd since bitstream functions read 8 bytes ahead, 8 extra bytes\nshould be available in the bitstream buffer.\n\nBug: 33934721\n\nChange-Id: I444ec6f85d01b0bade9f827e15c4b476779d6c69",
+  "patch_path": "reports/codejit_extraction_v1/records/903bbbea884f1ffd14252a86.diff.gz",
+  "diff_bytes": 737,
+  "diff_sha256": "a51ecb32d458c0d6d567a649f03ea3e2888adebeda6993611afb259f1892402c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:18.194302+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

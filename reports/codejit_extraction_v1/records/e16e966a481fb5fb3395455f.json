@@ -1,0 +1,16 @@
+{
+  "repo": "libass___libass",
+  "commit_id": "017137471d0043e0321e377ed8da48e45a3ec632",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "decode_font: fix subtraction broken by change to unsigned type\n\nThis caused a one-byte buffer overwrite and an assertion failure.\n\nRegression in commit 910211f1c0078e37546f73e95306724358b89be2.\n\nDiscovered by OSS-Fuzz.\n\nFixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=26674.\nFixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=26678.",
+  "patch_path": "reports/codejit_extraction_v1/records/e16e966a481fb5fb3395455f.diff.gz",
+  "diff_bytes": 817,
+  "diff_sha256": "391d1fdb0a4723de6abc3c1ef79da86a254c9637856477ad3ae1d43c8d78ce62",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:48.005820+00:00",
+  "url": "https://github.com/libass/libass.git"
+}

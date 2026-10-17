@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "4afba631206d302303499edc22a8f3fc7a1816ee",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "vhost: use error_report() instead of fprintf(stderr,...)\n\nLet's use qemu proper error reporting API, this ensures the error is\nreported at the right place (stderr or monitor), with a conventional\nformat.\n\nSigned-off-by: Marc-André Lureau <marcandre.lureau@redhat.com>\nReviewed-by: Michael S. Tsirkin <mst@redhat.com>\nSigned-off-by: Michael S. Tsirkin <mst@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/034002959d59ea5cf2e0739c.diff.gz",
+  "diff_bytes": 3043,
+  "diff_sha256": "3b6132e91edb0469641a1dc430b93dddcc177da4814df409f5d1f7d5340b76e7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:48.374453+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

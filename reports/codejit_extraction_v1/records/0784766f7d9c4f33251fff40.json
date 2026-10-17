@@ -1,0 +1,16 @@
+{
+  "repo": "openssl___openssl",
+  "commit_id": "7832d6ab1c56d1096a23c18a3b56fa3bfd3bed3b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "PR: 2506\nSubmitted by: Robin Seggelmann <seggelmann@fh-muenster.de>\nReviewed by: steve\n\nFully implement SSL_clear for DTLS.",
+  "patch_path": "reports/codejit_extraction_v1/records/0784766f7d9c4f33251fff40.diff.gz",
+  "diff_bytes": 2615,
+  "diff_sha256": "336b907d0751210ab6a34501de63a70a732cf6fa147b9049756220d7849ba630",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:13.232187+00:00",
+  "url": "https://github.com/openssl/openssl.git"
+}

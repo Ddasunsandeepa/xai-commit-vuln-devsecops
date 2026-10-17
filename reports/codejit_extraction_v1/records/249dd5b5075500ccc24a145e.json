@@ -1,0 +1,16 @@
+{
+  "repo": "pcre2project___pcre2",
+  "commit_id": "a5da70b28ca003ae48d011ec7bb712fd0f70087c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support (*ACCEPT) inside recurse in JIT.",
+  "patch_path": "reports/codejit_extraction_v1/records/249dd5b5075500ccc24a145e.diff.gz",
+  "diff_bytes": 16157,
+  "diff_sha256": "bda685fd2a7087e98d741c78315a8dcd07d4a46d04d0f18f02d25c40bb1c7c16",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:54.984170+00:00",
+  "url": "https://github.com/pcre2project/pcre2.git"
+}

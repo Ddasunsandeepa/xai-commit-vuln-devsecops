@@ -1,0 +1,16 @@
+{
+  "repo": "hpjansson___chafa",
+  "commit_id": "404470ca9d34aa7aa691a3bf22680d2ec8bf0e8d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libnsgif: Bundle libnsgif version 0.2.1.",
+  "patch_path": "reports/codejit_extraction_v1/records/5b581790b577aa10f23cb24a.diff.gz",
+  "diff_bytes": 76922,
+  "diff_sha256": "9b0e638639d1b6cf6c3e55ee6d31a22bfc9e3a7394d4ff890be0440948799e1c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:03.031537+00:00",
+  "url": "https://github.com/hpjansson/chafa.git"
+}

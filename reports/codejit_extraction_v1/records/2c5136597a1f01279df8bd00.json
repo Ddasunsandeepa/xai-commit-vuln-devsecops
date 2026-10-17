@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "40f00122b811ca5c8788856f5baf4e5e088926eb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Convert object parsing errors to warnings\n\nQPDFObjectHandle::parseInternal now issues warnings instead of\nthrowing exceptions for all error conditions that it finds (except\ninternal logic errors) and has stronger recovery for things like\ninvalid tokens and malformed dictionaries. This should improve qpdf's\nability to recover from a wide range of broken files that currently\ncause it to fail.",
+  "patch_path": "reports/codejit_extraction_v1/records/2c5136597a1f01279df8bd00.diff.gz",
+  "diff_bytes": 30960,
+  "diff_sha256": "633cd8e7357fff5d8e3d342a653965a42c27158f5e4054eec50478c2390f5232",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:32.373413+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

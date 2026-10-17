@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "97e2bcd76021b31c5064fd3f669bc3f450b4c952",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rewrite battery history storage.\n\nWe now write battery history directly into a buffer, instead of\ncreating objects.  This allows for more efficient storage; later\nit can be even better because we can only write deltas.\n\nThe old code is still there temporarily for validation.\n\nChange-Id: I9707d4d8ff30855be8ebdc93bc078911040d8e0b",
+  "patch_path": "reports/codejit_extraction_v1/records/442025622851ae84023b2ae3.diff.gz",
+  "diff_bytes": 1449,
+  "diff_sha256": "8b8aa8df44f68afddaa35acf6add9caeb790a0c61066eac0f2aaa1cafb5b83a2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:48.345242+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

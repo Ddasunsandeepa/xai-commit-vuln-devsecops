@@ -1,0 +1,16 @@
+{
+  "repo": "libraw___libraw",
+  "commit_id": "19ffddb0fe1a4ffdb459b797ffcf7f490d28b5a6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "prevent double-free() on broken full-color images error handling",
+  "patch_path": "reports/codejit_extraction_v1/records/eebf73dee4d6dd41442e62d7.diff.gz",
+  "diff_bytes": 1195,
+  "diff_sha256": "dbed5731a5d6c9fd030a485a28a51ace3a470f99d319a4b7082846fa2357a667",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:08.704508+00:00",
+  "url": "https://github.com/libraw/libraw.git"
+}

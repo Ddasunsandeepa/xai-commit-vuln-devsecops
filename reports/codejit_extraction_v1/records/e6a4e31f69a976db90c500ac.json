@@ -1,0 +1,16 @@
+{
+  "repo": "vadz___libtiff",
+  "commit_id": "5c080298d59efa53264d7248bbe3a04660db6ef7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "* tools/tiffcp.c: error out cleanly in cpContig2SeparateByRow and\ncpSeparate2ContigByRow if BitsPerSample != 8 to avoid heap based overflow.\nFixes http://bugzilla.maptools.org/show_bug.cgi?id=2656 and\nhttp://bugzilla.maptools.org/show_bug.cgi?id=2657",
+  "patch_path": "reports/codejit_extraction_v1/records/e6a4e31f69a976db90c500ac.diff.gz",
+  "diff_bytes": 2481,
+  "diff_sha256": "f0c1878d229225b8a0e0fb577a4e293b4d14f653a50b73b678dcccd31aebbb44",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:44.090288+00:00",
+  "url": "https://github.com/vadz/libtiff.git"
+}

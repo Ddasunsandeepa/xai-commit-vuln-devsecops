@@ -1,0 +1,16 @@
+{
+  "repo": "libass___libass",
+  "commit_id": "b1680ade5f3aec40562830cdb40156aa34536fdb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove several dead stores\n\nReported by clang scan-build static analysis.",
+  "patch_path": "reports/codejit_extraction_v1/records/8a212f5a6fb6e26e2e52fa76.diff.gz",
+  "diff_bytes": 2563,
+  "diff_sha256": "4bcc2b682b63d5eb228e74e77a29ad63e27b15e4d71e3890ae931464b4e6a9e6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:49.113535+00:00",
+  "url": "https://github.com/libass/libass.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___ril",
+  "commit_id": "95610818918f6f11fe7d23aca1380e6c0fac2af0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Replace variable-length arrays on stack with malloc.\n\nBug: 30202619\nChange-Id: Ib95e08a1c009d88a4b4fd8d8fdba0641c6129008\n(cherry picked from commit 943905bb9f99e3caa856b42c531e2be752da8834)",
+  "patch_path": "reports/codejit_extraction_v1/records/360af70ca1d4b13b60467739.diff.gz",
+  "diff_bytes": 2123,
+  "diff_sha256": "ba01fdedf4c44c0ab55585cffe3dafe932ef7e66f7d782a42526bcc01c5e2154",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:59.679723+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/ril"
+}

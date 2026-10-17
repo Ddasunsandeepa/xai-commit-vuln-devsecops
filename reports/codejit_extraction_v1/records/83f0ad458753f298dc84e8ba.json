@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "30cec963095366536ca0b1306089154e09bfe1a9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check packet length in bta_av_proc_meta_cmd\n\nBug: 111893951\nTest: manual - connect A2DP\nChange-Id: Ibbf347863dfd29ea3385312e9dde1082bc90d2f3\n(cherry picked from commit ed51887f921263219bcd2fbf6650ead5ec8d334e)",
+  "patch_path": "reports/codejit_extraction_v1/records/83f0ad458753f298dc84e8ba.diff.gz",
+  "diff_bytes": 1151,
+  "diff_sha256": "e7727919433b5ca4f80155c9f8b2bd088c01d19ff6296c29f58a7fc67b244d08",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:08.187526+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

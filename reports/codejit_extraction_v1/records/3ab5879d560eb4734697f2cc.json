@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "309b42d51db502720dfaf19f3782b9d8b5e1c9e6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Adjust buffer length to fit in sdp_copy_raw_data()\n\nAlign copy length with source buffer offset so that copy length will be\nin boundary of the allocated buffer size\n\nTest: Manual tested with DECK speaker.\nFixes: 35864526\nChange-Id: If1a49e46e2948346226fbc96d7c2b56244cd60cc",
+  "patch_path": "reports/codejit_extraction_v1/records/3ab5879d560eb4734697f2cc.diff.gz",
+  "diff_bytes": 1062,
+  "diff_sha256": "4d4360dc632481b9d532aa2c948cfd23f1f8ae98d216aef81f100884e6a81f55",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:05.118427+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

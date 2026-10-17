@@ -1,0 +1,16 @@
+{
+  "repo": "sigil-ebook___sigil",
+  "commit_id": "db35fb5b79c5b0822f0350fc69413c566bf04177",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Provide warning when files missing from manifest on import",
+  "patch_path": "reports/codejit_extraction_v1/records/17ee702e3d94bd4512e77ef7.diff.gz",
+  "diff_bytes": 5348,
+  "diff_sha256": "cd4ba6220ff26d81740be7933d95060e49257761770f76fadb7dc1c561a2c435",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:11.457636+00:00",
+  "url": "https://github.com/sigil-ebook/sigil.git"
+}

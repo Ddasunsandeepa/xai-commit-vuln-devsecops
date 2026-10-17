@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "eda079cd2c8ac1217574cd372c7bbcf6f651ccab",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Combine the Expr.pTab and Expr.pWin fields into a union named \"y\".  Add a new\nEP_WinFunc property that is only true if Expr.y.pWin is a valid pointer.\nThis reduces the size of the Expr object by 8 bytes, reduces the overall\namount of code, and shaves over 1 million cycles off of the speed test.\n\nFossilOrigin-Name: ad130bb86e74e6ce165fdbdce3a19699510f0e62071c1c7923b5a4538d888c7c",
+  "patch_path": "reports/codejit_extraction_v1/records/180555bf1eb087c24267977a.diff.gz",
+  "diff_bytes": 35873,
+  "diff_sha256": "9827f65a2c769ef3f3e3be1b76da4910370a04df3af5bcbe72d15998c6c75556",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:25.672136+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "nmap___nmap",
+  "commit_id": "350bbe0597d37ad67abe5fef8fba984707b4e9ad",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid a crash (double-free) when SSH connection fails",
+  "patch_path": "reports/codejit_extraction_v1/records/d57c72ff4bd39beec39052f4.diff.gz",
+  "diff_bytes": 814,
+  "diff_sha256": "2111eca239c1c4196f57afcfe2101efce599a4235c841e09f82d9c6c2d5f39ee",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:01.498403+00:00",
+  "url": "https://github.com/nmap/nmap.git"
+}

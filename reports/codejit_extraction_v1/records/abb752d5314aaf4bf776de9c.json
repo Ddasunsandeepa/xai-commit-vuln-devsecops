@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "ba604d336b40fd4bde1622f64d67135bdbd61301",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for handling streams which resulted in negative num_mbs_left\n\nBug: 26070014\nChange-Id: Id9f063a2c72a802d991b92abaf00ec687db5bb0f",
+  "patch_path": "reports/codejit_extraction_v1/records/abb752d5314aaf4bf776de9c.diff.gz",
+  "diff_bytes": 1538,
+  "diff_sha256": "644bc79862e33f4e49814af81b12a9012ca6c2bfa95927ae8d9db8d565f34890",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:29.544626+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

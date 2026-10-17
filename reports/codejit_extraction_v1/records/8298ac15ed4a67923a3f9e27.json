@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "591f95a849776aba2a6a9e42fbdd27754a2818b0",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Export file verification as a rpmfiles/rpmfi method\n\nTurn rpmVerifyFile() into indexed rpmfilesVerify() method but\ndrop the unnecessary double return code which also \"fixes\" the\noddball argument order where return value is not last, add\nthin wrapper for rpmfi iteration. Mark rpmVerifyFile() deprecated\ndue to the strange calling conventions and unused arguments.\nLeaving the code in verify.c to make it clearer what changed, looks\na bit out of place but doesn't matter as it doesn't need access\nto rpmfi(les) internals.\n\nVerification functionality as such is supposed to be unchanged by this.",
+  "patch_path": "reports/codejit_extraction_v1/records/8298ac15ed4a67923a3f9e27.diff.gz",
+  "diff_bytes": 6495,
+  "diff_sha256": "c1c855b42afb7a2b848b7bd3bd8a86a57366bec6ad18e7fe7f75a469686158e9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:22.230450+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

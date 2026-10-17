@@ -1,0 +1,16 @@
+{
+  "repo": "opensuse___libsolv",
+  "commit_id": "fea6ed32547a74aa5c841af661a2d0cd5f02982b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix memset calls in sha2.c",
+  "patch_path": "reports/codejit_extraction_v1/records/e11f100671ece6c7c509fb8f.diff.gz",
+  "diff_bytes": 2209,
+  "diff_sha256": "782d0567b0844b0443a1d6801d857d8275b8ea5fbec2e06b06beee216f1db7c5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:17.718791+00:00",
+  "url": "https://github.com/opensuse/libsolv.git"
+}

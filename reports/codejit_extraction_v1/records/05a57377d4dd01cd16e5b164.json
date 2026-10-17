@@ -1,0 +1,16 @@
+{
+  "repo": "netdata___netdata",
+  "commit_id": "92327c9ec211bd1616315abcb255861b130b97ca",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed vulnerabilities identified by red4sec.com (#4521)",
+  "patch_path": "reports/codejit_extraction_v1/records/05a57377d4dd01cd16e5b164.diff.gz",
+  "diff_bytes": 1836,
+  "diff_sha256": "56f0f4d917c4318495eede5f6e2f4f8c3112e21e8a42eb7719dd6f6af782fd69",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:57.992228+00:00",
+  "url": "https://github.com/netdata/netdata.git"
+}

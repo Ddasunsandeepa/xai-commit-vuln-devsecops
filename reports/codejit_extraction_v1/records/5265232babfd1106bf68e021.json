@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "55ea0a085290cd2c8cdfdd960a230cbc38ba8b56",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a function to escape Javascript characters",
+  "patch_path": "reports/codejit_extraction_v1/records/5265232babfd1106bf68e021.diff.gz",
+  "diff_bytes": 4433,
+  "diff_sha256": "bb5b22f8a2bdebd23278119fa0f71beaf80bf14d8131cf880984ccc51791b45b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:20.462146+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

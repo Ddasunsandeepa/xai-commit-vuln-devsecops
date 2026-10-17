@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "25eb00ce913452c2e614548d7df93070bf0d066f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "clamp index values to fix index overflow in IMA.cpp\n\nThis fixes #33\n(also reported at https://bugzilla.opensuse.org/show_bug.cgi?id=1026981\nand https://blogs.gentoo.org/ago/2017/02/20/audiofile-global-buffer-overflow-in-decodesample-ima-cpp/)",
+  "patch_path": "reports/codejit_extraction_v1/records/354ed264d8c6365e74f69992.diff.gz",
+  "diff_bytes": 804,
+  "diff_sha256": "d3f3288ff224dc1c73ed62a3a364a2f79e56e7446e38a7cfd44a2c5927bf6abf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:27.842123+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

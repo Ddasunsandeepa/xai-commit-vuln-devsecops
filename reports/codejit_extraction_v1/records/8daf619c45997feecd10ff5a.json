@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "ae07445e9793724324b93bb593fe20be2a386707",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rename LOG_ASSERT to ALOG_ASSERT  DO NOT MERGE\n\nSee https://android-git.corp.google.com/g/157519\n\nBug: 5449033\nChange-Id: I8ceb2dba1b031a0fd68d15d146960d9ced62bbf3",
+  "patch_path": "reports/codejit_extraction_v1/records/8daf619c45997feecd10ff5a.diff.gz",
+  "diff_bytes": 8328,
+  "diff_sha256": "4e62fa209144b2eba31ad9924822b634d86a53c81edbe8b7910f15794f5c8c9e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:33.134141+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

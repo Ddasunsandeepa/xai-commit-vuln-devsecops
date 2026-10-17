@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___imageworsener",
+  "commit_id": "fdc425f0cec01d5077fe8650b703ef4e40c6c696",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor background color code",
+  "patch_path": "reports/codejit_extraction_v1/records/d5336a52002c91222066c463.diff.gz",
+  "diff_bytes": 5067,
+  "diff_sha256": "e6b94e9d64d25b23821d04b671cc2aa7ed875a7b000db9464817babbde5e4031",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:04.890904+00:00",
+  "url": "https://github.com/jsummers/imageworsener.git"
+}

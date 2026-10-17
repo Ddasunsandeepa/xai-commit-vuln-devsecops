@@ -1,0 +1,16 @@
+{
+  "repo": "hoene___libmysofa",
+  "commit_id": "e37e773eba56cf3c7464ec234c79089f22ac864f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "First try",
+  "patch_path": "reports/codejit_extraction_v1/records/369ea55fc87d3a12acc0b98d.diff.gz",
+  "diff_bytes": 13189,
+  "diff_sha256": "07791819ad99e960ce3c251363b18f560a588023ce8b2be978854d0b0e59d6ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:55.705154+00:00",
+  "url": "https://github.com/hoene/libmysofa.git"
+}

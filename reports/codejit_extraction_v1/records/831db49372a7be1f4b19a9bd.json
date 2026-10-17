@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "63760409ad833cf803482e098367f49741b5f6d3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "adb: clang-format sockets.cpp.\n\nBug: http://b/28347842\nChange-Id: Ie3748b6c803d4e8056e9d7abd065a8b99d945a5b\n(cherry picked from commit 52bd8526aaaf10511177fb42c55c26bc722b0833)",
+  "patch_path": "reports/codejit_extraction_v1/records/831db49372a7be1f4b19a9bd.diff.gz",
+  "diff_bytes": 30685,
+  "diff_sha256": "38cfc0a009ff29743e53e5e954b964cb5e252ad4f89bf78c6284d4527ecc5127",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:30.193333+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

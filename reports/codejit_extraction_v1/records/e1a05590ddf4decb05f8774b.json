@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "2674a7218eaa3c87f2ee26d26da5b9170e10f859",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent integer overflow when processing covr MPEG4 atoms\n\nIf the 'chunk_data_size' value is SIZE_MAX, an integer overflow will occur\nand cause an undersized buffer to be allocated. The following processing\nthen overfills the resulting memory and creates a potentially exploitable\ncondition. Ensure that integer overflow does not occur.\n\nBug: 20923261\nChange-Id: I75cce323aec04a612e5a230ecd7c2077ce06035f",
+  "patch_path": "reports/codejit_extraction_v1/records/e1a05590ddf4decb05f8774b.diff.gz",
+  "diff_bytes": 812,
+  "diff_sha256": "2f16446413b316bcdca13b5a8fe9f3508c4eec6db136b478e944a3d36aa78385",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:51.489609+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

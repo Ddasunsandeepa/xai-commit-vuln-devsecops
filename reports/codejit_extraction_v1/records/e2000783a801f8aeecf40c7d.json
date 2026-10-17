@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "1b6d66745ac1768adb387c2227cdcf4452271149",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Split MPEG-1/2 decoder code off from MPEG-1/2 common code",
+  "patch_path": "reports/codejit_extraction_v1/records/e2000783a801f8aeecf40c7d.diff.gz",
+  "diff_bytes": 195080,
+  "diff_sha256": "04d6aebd6ef7b7422b3318d6c057ea8a648cb3e9f71e1cd03ea564eb828cfaeb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:34.489119+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

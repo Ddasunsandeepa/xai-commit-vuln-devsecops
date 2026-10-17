@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___aac",
+  "commit_id": "b9774f90651be61065ae40171fc321f6ced60e49",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decode dynamic range control improvements\n\n* AAC-Decoder\n\n   - Only set the program reference level if it has changed compared to the\n     previous value. This allows setting it on a frame-by-frame basis without\n     limitations.\n     Modified file(s):\n        libAACdec/src/aacdec_drc.cpp\n        libAACdec/src/aacdec_drc.h\n\n   - Add expiry counter for the program reference level.\n     Modified file(s):\n        libAACdec/src/aacdec_drc.cpp\n        libAACdec/src/aacdec_drc_types.h\n\n   - Disable scaling of light compression gain values when heavy compression\n     mode is enabled to have the full light compression as fallback if no heavy\n     values are available.\n     Modified file(s):\n        libAACdec/src/aacdec_drc.cpp\n        libAACdec/src/aacdecoder_lib.cpp\n        libAACdec/src/aacdec_drc_types.h\n\n   - Change initialization and channel disabling to improve start-up behavior in\n     SBR decoder.\n     Modified file(s):\n        libSBRdec/src/sbrdecoder.cpp\n        libSBRdec/src/sbrdec_drc.cpp\n\nBug 9428126\n\nChange-Id: Ie1d3949c53910506da2547d32fe3bf6ee7606eb4",
+  "patch_path": "reports/codejit_extraction_v1/records/b8a3a3a1747492a78a289b80.diff.gz",
+  "diff_bytes": 9402,
+  "diff_sha256": "975d68f508490dbbebd15d29413b2cb6d99fab38cea8adaa096ac7dad8623fd8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:15.210150+00:00",
+  "url": "https://android.googlesource.com/platform/external/aac"
+}

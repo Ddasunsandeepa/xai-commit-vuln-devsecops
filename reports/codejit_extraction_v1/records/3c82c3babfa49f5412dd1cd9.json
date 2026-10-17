@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "29a78a11844fc027fa44be7f8bd8dc1cf8bf89f6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Adding Error Check for f_code Parameters\n\nIn MPEG1, the valid range for the forward and backward f_code parameters\nis [1, 7]. Adding a check to enforce this. Without the check, the value\ncould be 0. We read (f_code - 1) bits from the stream and reading a\nnegative number of bits from the stream is undefined.\n\nBug: 64550583\nTest: monitored temp ALOGD() output\nChange-Id: Ia452cd43a28e9d566401f515947164635361782f\n(cherry picked from commit 71d734b83d72e8a59f73f1230982da97615d2689)",
+  "patch_path": "reports/codejit_extraction_v1/records/3c82c3babfa49f5412dd1cd9.diff.gz",
+  "diff_bytes": 1391,
+  "diff_sha256": "dfb0c60c15591a8b31831b43c72f08a564fd2c93c70f2f331b235cbf6337a4e8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:28.507226+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

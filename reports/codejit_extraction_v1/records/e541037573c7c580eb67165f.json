@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "c0d38778f1bd6ab8b19aeb73e4cf4a8680a1ad48",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed length sanity check.",
+  "patch_path": "reports/codejit_extraction_v1/records/e541037573c7c580eb67165f.diff.gz",
+  "diff_bytes": 973,
+  "diff_sha256": "2e4f54db6a864b30c1b050fbdf47c5d92498cd880ea1c64dc011050cb33bc6e8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:42.926351+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

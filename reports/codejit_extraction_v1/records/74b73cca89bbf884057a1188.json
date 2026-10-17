@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "91425cf5975f73984b63910d4b5bdc0d13a3e9ec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make TensorList objects Refcounted.\n\nThis drastically reduces the amount of refcounting of individual tensors inside\nTensorList when a TensorList variant is copied to a Variable or\nMutableDenseHashTable (and back).  Same for operations like tf.stack that\noperate on Variant tensors and perform Variant copies implicitly.\n\nWhile this change adds a level of indirection into the TensorList object\nby adding a heap-allocated RefCounted object to contain the vector,\nit also reduces the size of the TensorList below the tf::Variant inlining\nthreshold.  This in turn removes a level of heap indirection and\nshould cancel out any performance regressions for existing\nTensorList operations and small-size lists.\n\nPiperOrigin-RevId: 259464769",
+  "patch_path": "reports/codejit_extraction_v1/records/74b73cca89bbf884057a1188.diff.gz",
+  "diff_bytes": 39776,
+  "diff_sha256": "5a5e1023a5ff682354a34e51d9179a81a2f07852ef256d451d41f49bad06521d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:33:19.482982+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

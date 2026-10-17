@@ -1,0 +1,16 @@
+{
+  "repo": "squid-cache___squid",
+  "commit_id": "81ab22b6ffbdc7786558c0ca34f7348da3b2b349",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor HttpHeader into gperf-generated perfect hash",
+  "patch_path": "reports/codejit_extraction_v1/records/1e8db01d9b2f185b58d46919.diff.gz",
+  "diff_bytes": 105539,
+  "diff_sha256": "2de57da8fafacee0f7ee619efcf45b84a177011b03fc4dd50421f3423391684c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:28.703702+00:00",
+  "url": "https://github.com/squid-cache/squid.git"
+}

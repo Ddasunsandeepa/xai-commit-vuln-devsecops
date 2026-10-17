@@ -1,0 +1,16 @@
+{
+  "repo": "espruino___espruino",
+  "commit_id": "a81fc1c08b93e566a3c8b88e4e4464c320c47ec1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Allow deletion of function properties (fix #1549)",
+  "patch_path": "reports/codejit_extraction_v1/records/77993abdf10e99ad846479b9.diff.gz",
+  "diff_bytes": 1098,
+  "diff_sha256": "a78b3b75e1b547aa228484c3bb6cad74877456e9f053dba2304d472e1ed2f871",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:02.474661+00:00",
+  "url": "https://github.com/espruino/espruino.git"
+}

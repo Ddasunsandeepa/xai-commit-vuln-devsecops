@@ -1,0 +1,16 @@
+{
+  "repo": "ntp-project___ntp",
+  "commit_id": "ccbd6fe02cdf7b4e036da003ead98d68c089d8e5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[Bug 1277] provide, use O(1) FIFOs, esp. config tree.",
+  "patch_path": "reports/codejit_extraction_v1/records/8dfca4f56bac913cc47ac723.diff.gz",
+  "diff_bytes": 401570,
+  "diff_sha256": "5e0929b3f940759123379103b374de2052490bf2830ad275bab9b034f5f4c9aa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:41.444324+00:00",
+  "url": "https://github.com/ntp-project/ntp.git"
+}

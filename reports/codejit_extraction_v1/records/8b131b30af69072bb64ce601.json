@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "711bdde6a884354ddae8da2fcb495b2a9364cc90",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "netfilter: x_tables: remove XT_TABLE_INFO_SZ and a dereference.\n\nAfter Florian patches, there is no need for XT_TABLE_INFO_SZ anymore :\nOnly one copy of table is kept, instead of one copy per cpu.\n\nWe also can avoid a dereference if we put table data right after\nxt_table_info. It reduces register pressure and helps compiler.\n\nThen, we attempt a kmalloc() if total size is under order-3 allocation,\nto reduce TLB pressure, as in many cases, rules fit in 32 KB.\n\nSigned-off-by: Eric Dumazet <edumazet@google.com>\nCc: Florian Westphal <fw@strlen.de>\nSigned-off-by: Pablo Neira Ayuso <pablo@netfilter.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/8b131b30af69072bb64ce601.diff.gz",
+  "diff_bytes": 4459,
+  "diff_sha256": "98fe7b9c56cef80f60366dc81464032ee096c0d9a56ed3e91dc88d500bbac9b9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:38:04.660846+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "df67ab549bcc2cd53519f309110c58c00f2c935b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not use the result of the dns cache when the query type of the result is different from the type of the query. #66",
+  "patch_path": "reports/codejit_extraction_v1/records/4c479ed97a37f0eeff0a310e.diff.gz",
+  "diff_bytes": 4347,
+  "diff_sha256": "bbb5b0f7852dd6cd973077f787ff29f8364816d04835efe44d123f723ce4e6d6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:40.768368+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

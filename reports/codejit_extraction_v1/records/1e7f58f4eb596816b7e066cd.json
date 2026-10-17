@@ -1,0 +1,16 @@
+{
+  "repo": "hoene___libmysofa",
+  "commit_id": "2e6fac6ab6156dae8e8c6f417741388084b70d6f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed recursive function calls",
+  "patch_path": "reports/codejit_extraction_v1/records/1e7f58f4eb596816b7e066cd.diff.gz",
+  "diff_bytes": 1730,
+  "diff_sha256": "cedaeee2b5da4619d3ef92c889d917b69ca14ef79f6a94f28850512fa7bf5b75",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:42.260390+00:00",
+  "url": "https://github.com/hoene/libmysofa.git"
+}

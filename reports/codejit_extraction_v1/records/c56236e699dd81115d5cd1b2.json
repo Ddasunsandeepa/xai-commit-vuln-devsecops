@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "aa5dbdc190644cf36e4e7fbd68b4e40e13209039",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scsi-disk: restruct emulation: core + TEST_UNIT_READY.\n\nAdd new scsi_disk_emulate_command() function, which will -- when\nfinished -- handle all scsi disk command emulation except actual I/O\n(READ+WRITE commands) which goes to the block layer.  The function\nbuilds on top of the new SCSIRequest struct.\n\nSCSI command emulation code is moved over from scsi_send_command() in\nsteps to ease review and make it easier to pin down regressions (if any)\nusing bisect.  This patch moves over TEST_UNIT_READY only.\n\nSigned-off-by: Gerd Hoffmann <kraxel@redhat.com>\nSigned-off-by: Anthony Liguori <aliguori@us.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c56236e699dd81115d5cd1b2.diff.gz",
+  "diff_bytes": 2650,
+  "diff_sha256": "05f44a8cadb05a714181a25de84be93c49666f44276b6f0280182c80418891ec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:46.123142+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

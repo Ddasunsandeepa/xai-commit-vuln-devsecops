@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "e37b620fe8f14535d737e89a4dcabaed4517bf1a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Issue #767:  Buffer overflow printing a filename\n\nThe safe_fprintf function attempts to ensure clean output for an\narbitrary sequence of bytes by doing a trial conversion of the\nmultibyte characters to wide characters -- if the resulting wide\ncharacter is printable then we pass through the corresponding bytes\nunaltered, otherwise, we convert them to C-style ASCII escapes.\n\nThe stack trace in Issue #767 suggest that the 20-byte buffer\nwas getting overflowed trying to format a non-printable multibyte\ncharacter.  This should only happen if there is a valid multibyte\ncharacter of more than 5 bytes that was unprintable.  (Each byte\nwould get expanded to a four-charcter octal-style escape of the form\n\"\\123\" resulting in >20 characters for the >5 byte multibyte character.)\n\nI've not been able to reproduce this, but have expanded the conversion\nbuffer to 128 bytes on the belief that no multibyte character set\nhas a single character of more than 32 bytes.",
+  "patch_path": "reports/codejit_extraction_v1/records/9cf96870eea3d63fe5a065cf.diff.gz",
+  "diff_bytes": 375,
+  "diff_sha256": "35e3d56210854b5b623bd646cefae8996dd9eb7220778d50642888812b1ae47c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:46.050032+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

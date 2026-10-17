@@ -1,0 +1,16 @@
+{
+  "repo": "ioquake___ioq3",
+  "commit_id": "b173ac05993f634a42be3d3535e1b158de0c3372",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge some file writing extension checks from OpenJK.\n\nThanks Ensiform.\nhttps://github.com/JACoders/OpenJK/commit/05928a57f9e4aae15a3bd0\nhttps://github.com/JACoders/OpenJK/commit/ef124fd0fc48af164581176",
+  "patch_path": "reports/codejit_extraction_v1/records/66e4da3560116bc2f0fbf181.diff.gz",
+  "diff_bytes": 1088,
+  "diff_sha256": "910dc9b9a5274b727b32108611f08ed855534763ab51115110ceb5d7872eb97c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:44.312885+00:00",
+  "url": "https://github.com/ioquake/ioq3.git"
+}

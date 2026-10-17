@@ -1,0 +1,16 @@
+{
+  "repo": "sigil-ebook___sigil",
+  "commit_id": "04e2f280cc4a0766bedcc7b9eb56449ceecc2ad4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "further harden against malicious epubs and produce error message",
+  "patch_path": "reports/codejit_extraction_v1/records/f707b67b6d15d667c3f91c98.diff.gz",
+  "diff_bytes": 2629,
+  "diff_sha256": "09961545dc0d3ad68562ef64fb109f329447efe6ae17eb56c7f7a52b3984a168",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:00.867341+00:00",
+  "url": "https://github.com/sigil-ebook/sigil.git"
+}

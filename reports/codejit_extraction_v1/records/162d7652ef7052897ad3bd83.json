@@ -1,0 +1,16 @@
+{
+  "repo": "apache___httpd",
+  "commit_id": "78eb3b9235515652ed141353d98c239237030410",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "*) SECURITY: CVE-2015-0228 (cve.mitre.org)\n     mod_lua: A maliciously crafted websockets PING after a script\n     calls r:wsupgrade() can cause a child process crash.\n     [Edward Lu <Chaosed0 gmail.com>]\n\nDiscovered by Guido Vranken <guidovranken gmail.com>\n\nSubmitted by: Edward Lu\nCommitted by: covener\n\n\n\ngit-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@1657261 13f79535-47bb-0310-9956-ffa450edef68",
+  "patch_path": "reports/codejit_extraction_v1/records/162d7652ef7052897ad3bd83.diff.gz",
+  "diff_bytes": 1658,
+  "diff_sha256": "e007f1f9ea59e4b177c44a1b49ea8aaa0e9eb93ef8f6a90a3452f6a86ede85c9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:32.062373+00:00",
+  "url": "https://github.com/apache/httpd.git"
+}

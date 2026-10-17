@@ -1,0 +1,295 @@
+{
+  "scope": "frozen validation only; test never read",
+  "n_validation": 237,
+  "n_repositories": 60,
+  "seed": 42,
+  "bootstrap_draws": 2000,
+  "max_length": 256,
+  "source_sha256": {
+    "message": {
+      "predictions": "ee60b15a60e1a51e93da244ae94abf6c68ae9252c4b5da0868d08bd40c5c6444",
+      "coverage": "250f3f35a09b33f59009ebc1cb56b214f7054b3d84afac430829d40e95e8ce53"
+    },
+    "code": {
+      "predictions": "ceabbd8471b79b93b73ea9ed773f00842e6b1bdd93653287f6cbe419914898d2",
+      "coverage": "e1ce7ea34fa8de94521c323cec1305b61f57411e258e0a3e69451184d1165f34"
+    },
+    "combined": {
+      "predictions": "b27f93592f5850fc67bdb489ab520760f38705b941ed93471303a6b24c4757ae",
+      "coverage": "cb37cf2786cc7545535e72ab5a8495dbca9d7d9f198e95ecf0e9e7340fa667bf"
+    }
+  },
+  "models": {
+    "message": {
+      "validation_fixed_05": {
+        "n": 237,
+        "accuracy": 0.7805907172995781,
+        "f1": 0.7815126050420168,
+        "confusion_matrix": [
+          [
+            92,
+            24
+          ],
+          [
+            28,
+            93
+          ]
+        ],
+        "roc_auc": 0.8177187232829867,
+        "pr_auc": 0.8179092842344693
+      },
+      "validation_tuned_predictions_descriptive": {
+        "n": 237,
+        "accuracy": 0.7805907172995781,
+        "f1": 0.7868852459016393,
+        "confusion_matrix": [
+          [
+            89,
+            27
+          ],
+          [
+            25,
+            96
+          ]
+        ],
+        "roc_auc": 0.8177187232829867,
+        "pr_auc": 0.8179092842344693
+      }
+    },
+    "code": {
+      "validation_fixed_05": {
+        "n": 237,
+        "accuracy": 0.6877637130801688,
+        "f1": 0.6837606837606838,
+        "confusion_matrix": [
+          [
+            83,
+            33
+          ],
+          [
+            41,
+            80
+          ]
+        ],
+        "roc_auc": 0.7219293245939015,
+        "pr_auc": 0.7543437881880846
+      },
+      "validation_tuned_predictions_descriptive": {
+        "n": 237,
+        "accuracy": 0.6919831223628692,
+        "f1": 0.7114624505928854,
+        "confusion_matrix": [
+          [
+            74,
+            42
+          ],
+          [
+            31,
+            90
+          ]
+        ],
+        "roc_auc": 0.7219293245939015,
+        "pr_auc": 0.7543437881880846
+      }
+    },
+    "combined": {
+      "validation_fixed_05": {
+        "n": 237,
+        "accuracy": 0.6751054852320675,
+        "f1": 0.574585635359116,
+        "confusion_matrix": [
+          [
+            108,
+            8
+          ],
+          [
+            69,
+            52
+          ]
+        ],
+        "roc_auc": 0.7961669991450555,
+        "pr_auc": 0.8084000690573527
+      },
+      "validation_tuned_predictions_descriptive": {
+        "n": 237,
+        "accuracy": 0.7468354430379747,
+        "f1": 0.76,
+        "confusion_matrix": [
+          [
+            82,
+            34
+          ],
+          [
+            26,
+            95
+          ]
+        ],
+        "roc_auc": 0.7961669991450555,
+        "pr_auc": 0.8084000690573527
+      }
+    }
+  },
+  "pairs": {
+    "message_vs_code": {
+      "a_only_correct": 50,
+      "b_only_correct": 28,
+      "both_correct": 135,
+      "both_wrong": 24,
+      "mcnemar_exact_p": 0.016853089894602595,
+      "point_differences_a_minus_b": {
+        "f1": 0.09775192128133303,
+        "roc_auc": 0.0957893986890852,
+        "pr_auc": 0.06356549604638473
+      },
+      "repository_cluster_bootstrap_95ci": {
+        "f1": [
+          0.02154186496626368,
+          0.18083679942373815
+        ],
+        "roc_auc": [
+          -0.0001990375089905737,
+          0.18619899980754534
+        ],
+        "pr_auc": [
+          -0.022830364926477383,
+          0.15889275304793277
+        ]
+      }
+    },
+    "message_vs_combined": {
+      "a_only_correct": 45,
+      "b_only_correct": 20,
+      "both_correct": 140,
+      "both_wrong": 32,
+      "mcnemar_exact_p": 0.0026263768106840374,
+      "point_differences_a_minus_b": {
+        "f1": 0.2069269696829008,
+        "roc_auc": 0.02155172413793116,
+        "pr_auc": 0.009509215177116559
+      },
+      "repository_cluster_bootstrap_95ci": {
+        "f1": [
+          0.11404944878871412,
+          0.31140045525320975
+        ],
+        "roc_auc": [
+          -0.04217274947718181,
+          0.08674121096059584
+        ],
+        "pr_auc": [
+          -0.06789993765111534,
+          0.08582107247776645
+        ]
+      }
+    },
+    "code_vs_combined": {
+      "a_only_correct": 30,
+      "b_only_correct": 27,
+      "both_correct": 133,
+      "both_wrong": 47,
+      "mcnemar_exact_p": 0.7913664277791806,
+      "point_differences_a_minus_b": {
+        "f1": 0.10917504840156778,
+        "roc_auc": -0.07423767455115404,
+        "pr_auc": -0.05405628086926817
+      },
+      "repository_cluster_bootstrap_95ci": {
+        "f1": [
+          0.034942939030998973,
+          0.1730357982847732
+        ],
+        "roc_auc": [
+          -0.12915937356900054,
+          -0.025208333333333277
+        ],
+        "pr_auc": [
+          -0.1040881162017016,
+          -0.01454715098127015
+        ]
+      }
+    }
+  },
+  "limitations": [
+    "All estimates are exploratory and conditional on the observed validation repositories.",
+    "Checkpoint selection and threshold tuning used validation labels; tuned scores are optimistic.",
+    "Truncation associations are descriptive and confounded by patch size, labels and repositories.",
+    "TF-IDF and CodeBERT have different token/character budgets; architecture-only claims are unsupported.",
+    "CodeJIT curated negative class is not representative of ordinary CI traffic.",
+    "A 256-token limit does not establish which omitted patch regions contain security-relevant evidence."
+  ],
+  "token_coverage_summary": [
+    {
+      "mode": "message",
+      "subset": "train",
+      "n": 937,
+      "message_truncated_n": 48,
+      "message_truncated_rate": 0.051227321237993596,
+      "code_truncated_n": 0,
+      "code_truncated_rate": 0.0,
+      "at_max_length_n": 50,
+      "at_max_length_rate": 0.05336179295624333,
+      "mean_model_tokens": 62.64034151547492
+    },
+    {
+      "mode": "message",
+      "subset": "val",
+      "n": 237,
+      "message_truncated_n": 9,
+      "message_truncated_rate": 0.0379746835443038,
+      "code_truncated_n": 0,
+      "code_truncated_rate": 0.0,
+      "at_max_length_n": 9,
+      "at_max_length_rate": 0.0379746835443038,
+      "mean_model_tokens": 71.24894514767932
+    },
+    {
+      "mode": "code",
+      "subset": "train",
+      "n": 937,
+      "message_truncated_n": 0,
+      "message_truncated_rate": 0.0,
+      "code_truncated_n": 865,
+      "code_truncated_rate": 0.9231590181430096,
+      "at_max_length_n": 866,
+      "at_max_length_rate": 0.9242262540021344,
+      "mean_model_tokens": 252.6776947705443
+    },
+    {
+      "mode": "code",
+      "subset": "val",
+      "n": 237,
+      "message_truncated_n": 0,
+      "message_truncated_rate": 0.0,
+      "code_truncated_n": 227,
+      "code_truncated_rate": 0.9578059071729957,
+      "at_max_length_n": 227,
+      "at_max_length_rate": 0.9578059071729957,
+      "mean_model_tokens": 254.0337552742616
+    },
+    {
+      "mode": "combined",
+      "subset": "train",
+      "n": 937,
+      "message_truncated_n": 298,
+      "message_truncated_rate": 0.31803628601921025,
+      "code_truncated_n": 901,
+      "code_truncated_rate": 0.9615795090715048,
+      "at_max_length_n": 906,
+      "at_max_length_rate": 0.9669156883671292,
+      "mean_model_tokens": 254.81216648879402
+    },
+    {
+      "mode": "combined",
+      "subset": "val",
+      "n": 237,
+      "message_truncated_n": 98,
+      "message_truncated_rate": 0.41350210970464135,
+      "code_truncated_n": 232,
+      "code_truncated_rate": 0.9789029535864979,
+      "at_max_length_n": 232,
+      "at_max_length_rate": 0.9789029535864979,
+      "mean_model_tokens": 255.49367088607596
+    }
+  ],
+  "false_negatives_all_three": 18
+}

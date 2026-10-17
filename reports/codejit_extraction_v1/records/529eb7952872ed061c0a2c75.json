@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "2c43cff01d1271be451671567955158629b23670",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor the code.\n\nThe object hierarchy was confusing and convoluted. This removes\na lot of unnecessary code, and consolidates the BacktraceCurrent\nand BacktraceThread code into BacktraceCurrent.\n\nChange-Id: I01c8407d493712a48169df49dd3ff46db4a7c3ae",
+  "patch_path": "reports/codejit_extraction_v1/records/529eb7952872ed061c0a2c75.diff.gz",
+  "diff_bytes": 61693,
+  "diff_sha256": "fb01d1a7fd23717f9526052207179d1e7760d51e5e17c0885611ef373f313933",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:28.323337+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

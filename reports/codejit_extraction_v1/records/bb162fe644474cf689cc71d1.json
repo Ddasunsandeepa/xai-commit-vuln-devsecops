@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "f1b6ebaa4ee049d966a9094428096b8f72cd492a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Coverity-CHECKED_RETURN",
+  "patch_path": "reports/codejit_extraction_v1/records/bb162fe644474cf689cc71d1.diff.gz",
+  "diff_bytes": 3562,
+  "diff_sha256": "32a1288cbd8bcc4e4e96f3c8669612d68e9855f81cf4b22a3eb578e06c90c0a7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:48.694040+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

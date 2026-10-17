@@ -1,0 +1,16 @@
+{
+  "repo": "darold___squidclamav",
+  "commit_id": "fa008ead912b97c657491ea8ed44d8d24b7987ca",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug where trustclient was not checked if dnslookup was not enabled.",
+  "patch_path": "reports/codejit_extraction_v1/records/aeb85b99f2a67f682a4aa744.diff.gz",
+  "diff_bytes": 4998,
+  "diff_sha256": "de88b37847505da6a1f17d5ddeb8217298a5463d05a44ad7a18d5a5897d48817",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:03.684439+00:00",
+  "url": "https://github.com/darold/squidclamav.git"
+}

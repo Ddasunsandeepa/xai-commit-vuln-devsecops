@@ -1,0 +1,16 @@
+{
+  "repo": "troglobit___uftpd",
+  "commit_id": "0fb2c031ce0ace07cc19cd2cb2143c4b5a63c9dd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "FTP: Fix buffer overflow in PORT parser, reported by Aaron Esau\n\nSigned-off-by: Joachim Nilsson <troglobit@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/a10ac29278eaf423af508385.diff.gz",
+  "diff_bytes": 523,
+  "diff_sha256": "b7d19a1c3eae6741b2bf55b119b4adcc57885f9b25448954cc573d08799249cc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:11.276229+00:00",
+  "url": "https://github.com/troglobit/uftpd.git"
+}

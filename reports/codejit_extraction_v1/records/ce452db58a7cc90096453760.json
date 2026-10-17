@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxc",
+  "commit_id": "5c3fcae78b63ac9dd56e36075903921bd9461f9e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2015-1334: Don't use the container's /proc during attach\n\nA user could otherwise over-mount /proc and prevent the apparmor profile\nor selinux label from being written which combined with a modified\n/bin/sh or other commonly used binary would lead to unconfined code\nexecution.\n\nReported-by: Roman Fiedler\nSigned-off-by: Stéphane Graber <stgraber@ubuntu.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/ce452db58a7cc90096453760.diff.gz",
+  "diff_bytes": 4550,
+  "diff_sha256": "56706da68486279dc38c3a49c8ceb6c64d0bde8902b6459c0b897cecfbfdc3fd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:52.281222+00:00",
+  "url": "https://github.com/lxc/lxc.git"
+}

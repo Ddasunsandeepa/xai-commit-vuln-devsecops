@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "020ca151321a9692a28e63c88f1dbbe9deca9813",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "cleanup of exp-golomb read for safer eos detection",
+  "patch_path": "reports/codejit_extraction_v1/records/17d3a0ef0c02b61a3ccf4b67.diff.gz",
+  "diff_bytes": 3369,
+  "diff_sha256": "f22c93ac73dfad7ad6596362cb115abd46850e49e84f4beb18d8f512785fd912",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:31.908319+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

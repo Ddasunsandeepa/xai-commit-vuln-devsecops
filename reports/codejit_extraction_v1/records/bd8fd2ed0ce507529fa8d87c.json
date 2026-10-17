@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "e8c62fb484151f76ab88b1d5130f38de24ac8c14",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent integer overflow when allocating native_handle_t\n\nUser specified values of numInts and numFds can overflow\nand cause malloc to allocate less than we expect, causing\nheap corruption in subsequent operations on the allocation.\n\nBug: 19334482\nChange-Id: I43c75f536ea4c08f14ca12ca6288660fd2d1ec55",
+  "patch_path": "reports/codejit_extraction_v1/records/bd8fd2ed0ce507529fa8d87c.diff.gz",
+  "diff_bytes": 845,
+  "diff_sha256": "51ac08bb7821a1e6a3e258d5c33143ae0d969b60c9ed41cb85bcca1748dd5643",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:35.214030+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

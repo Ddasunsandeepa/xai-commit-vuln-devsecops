@@ -1,0 +1,16 @@
+{
+  "repo": "upx___upx",
+  "commit_id": "8be9da8280dfa69d5df4417d4d81bda1cab78010",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid bogus values in PT_DYNAMIC segment.\n\nDetect duplicate DT_*.\nDetect out-of-bounds hashtab and gashtab.\nDetect missing DT_REL, DT_RELA.\nDetect out-of-bounds d_val.\nhttps://github.com/upx/upx/issues/317\n\tmodified:   p_lx_elf.cpp",
+  "patch_path": "reports/codejit_extraction_v1/records/59c426f72d22d281ca674499.diff.gz",
+  "diff_bytes": 5736,
+  "diff_sha256": "ddea4cbbe3d4535e2b1d41cdb2160e033095c0f11e025aaafcf0b71dac2a684f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:40.264610+00:00",
+  "url": "https://github.com/upx/upx.git"
+}

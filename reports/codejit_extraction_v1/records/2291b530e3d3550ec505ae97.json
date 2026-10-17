@@ -1,0 +1,16 @@
+{
+  "repo": "u-boot___u-boot",
+  "commit_id": "64045a6a173e6cf74a9c30bbe21a93d105be289e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libfdt: split fdt_region declarations out to <fdt_region.h>\n\nfdt_region APIs are not part of libfdt. They are U-Boot extension\nfor the verified boot. Split the declarations related to fdt_region\nout of <fdt_region.h>. This allows <linux/libfdt.h> to become a\nsimple wrapper file, like Linux does.\n\nSigned-off-by: Masahiro Yamada <masahiroy@kernel.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/2291b530e3d3550ec505ae97.diff.gz",
+  "diff_bytes": 47760,
+  "diff_sha256": "25ab94717de883417c7ef78d25aca42e970af183a612041ddffc9cfdd1d636aa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:22.997484+00:00",
+  "url": "https://github.com/u-boot/u-boot.git"
+}

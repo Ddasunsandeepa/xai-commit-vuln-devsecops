@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "0bc3fc905c55fceb7a8a00c033e1679de1d1de15",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tls: separate out cert validation logic from ContextImpl (#14757)\n\nSigned-off-by: mathetake <takeshi@tetrate.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/fab2b1d78ac90740d94912af.diff.gz",
+  "diff_bytes": 91812,
+  "diff_sha256": "b068a603fefc1482e70cc96ffff2f60e5f255013bce16ba8994bd526f5701450",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:27.296008+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

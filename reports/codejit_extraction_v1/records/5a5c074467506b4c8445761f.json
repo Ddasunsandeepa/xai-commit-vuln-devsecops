@@ -1,0 +1,16 @@
+{
+  "repo": "pgbouncer___pgbouncer",
+  "commit_id": "7ca3e5279d05fceb1e8a043c6f5b6f58dea3ed38",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove too early set of auth_user\n\nWhen query returns 0 rows (user not found),\nthis user stays as login user...\n\nShould fix #69.",
+  "patch_path": "reports/codejit_extraction_v1/records/5a5c074467506b4c8445761f.diff.gz",
+  "diff_bytes": 403,
+  "diff_sha256": "31fbaf36eb706f5d56acf7322e616ba03931db2885a372ba0e74eaefeeb528ae",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:02.283763+00:00",
+  "url": "https://github.com/pgbouncer/pgbouncer.git"
+}

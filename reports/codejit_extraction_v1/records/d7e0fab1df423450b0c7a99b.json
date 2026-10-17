@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "e45a29099ffe0e59a7272b5d9c324439e5cd4723",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Factor out fixed-size block codec functionality common to IMA and MS ADPCM.",
+  "patch_path": "reports/codejit_extraction_v1/records/d7e0fab1df423450b0c7a99b.diff.gz",
+  "diff_bytes": 17101,
+  "diff_sha256": "b755825e35bbbc69d55086c753dcdfe878cfe77e44594eea4b51331a04d88a48",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:30.415294+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___tremolo",
+  "commit_id": "659030a2e80c38fb8da0a4eb68695349eec6778b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check partword is in range for # of partitions\n\nand reformat tabs->spaces for readability.\n\nBug: 28556125\nChange-Id: Id02819a6a5bcc24ba4f8a502081e5cb45272681c",
+  "patch_path": "reports/codejit_extraction_v1/records/c997c45307298f2a20f85c78.diff.gz",
+  "diff_bytes": 6056,
+  "diff_sha256": "6f6fde82e28fe369b3bd10f8a44d07bf98529a8e9c6e060952579995a461b002",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:38.525152+00:00",
+  "url": "https://android.googlesource.com/platform/external/tremolo"
+}

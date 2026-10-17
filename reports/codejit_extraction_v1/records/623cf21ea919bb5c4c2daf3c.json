@@ -1,0 +1,16 @@
+{
+  "repo": "freeradius___pam_radius",
+  "commit_id": "c2c2b9c4b0571f4e6050de78ae8fd813d1be7431",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Commit of version 1.3.17",
+  "patch_path": "reports/codejit_extraction_v1/records/623cf21ea919bb5c4c2daf3c.diff.gz",
+  "diff_bytes": 105196,
+  "diff_sha256": "ac1e2810e66fa3f5b1080956bb732b61932eb915eb58061cc1d82dfd1462cd23",
+  "parent_count": 0,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:30.029302+00:00",
+  "url": "https://github.com/freeradius/pam_radius.git"
+}

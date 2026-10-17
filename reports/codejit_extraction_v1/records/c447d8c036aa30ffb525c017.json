@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "d45bbc0502ea651dcfc71091d67363b7651b5cd5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "removed audio BPS pid cap, use audio fmt instead",
+  "patch_path": "reports/codejit_extraction_v1/records/c447d8c036aa30ffb525c017.diff.gz",
+  "diff_bytes": 23506,
+  "diff_sha256": "2b4b27209172266511f9e92b67458caec53cbddf3124c47ec052eeab10fc8a1d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:18.220641+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

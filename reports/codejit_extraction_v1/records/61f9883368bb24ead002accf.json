@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "211124b972e74f0da66bc8b16f181f78793e2f66",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "(for 4.9.3) CVE-2018-16229/DCCP: Fix printing \"Timestamp\" and \"Timestamp Echo\" options\n\nAdd some comments.\n\nMoreover:\nPut a function definition name at the beginning of the line.\n\n(This change was ported from commit 6df4852 in the master branch.)\n\nRyan Ackroyd had independently identified this buffer over-read later by\nmeans of fuzzing and provided the packet capture file for the test.",
+  "patch_path": "reports/codejit_extraction_v1/records/61f9883368bb24ead002accf.diff.gz",
+  "diff_bytes": 6938,
+  "diff_sha256": "9a4e8e0c6c6a6cf5e4a2fedd83cd086c7e1d04f1f2774254d78766ab5a2bd99c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:33.006026+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

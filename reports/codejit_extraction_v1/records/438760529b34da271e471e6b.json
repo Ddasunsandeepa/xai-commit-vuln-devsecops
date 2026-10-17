@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "542eff653586ab62088f612845edcd9005719ad2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix warning caused by uninitalized array",
+  "patch_path": "reports/codejit_extraction_v1/records/438760529b34da271e471e6b.diff.gz",
+  "diff_bytes": 6299,
+  "diff_sha256": "bfe6fd0c8a4aab2cdb68e0e0112995bff84210e51ef12126506529476df213b4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:41.606867+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

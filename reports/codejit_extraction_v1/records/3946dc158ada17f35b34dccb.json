@@ -1,0 +1,16 @@
+{
+  "repo": "plutinosoft___platinum",
+  "commit_id": "9a4ceaccb1585ec35c45fd8e2585538fff6a865e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix vulnerability around urls crafter as http://host/../secret.foo (#24)",
+  "patch_path": "reports/codejit_extraction_v1/records/3946dc158ada17f35b34dccb.diff.gz",
+  "diff_bytes": 634,
+  "diff_sha256": "b1f9af89c34d9fc4ffafe1fd9f24fdb7e859ad8298499df5dd0befa09fa94ea4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:41.586650+00:00",
+  "url": "https://github.com/plutinosoft/platinum.git"
+}

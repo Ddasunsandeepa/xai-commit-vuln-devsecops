@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "8d43ea1c97d0d611f9cf868fe78b17f2a1031298",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "target-ppc: Add POWER8 v1.0 CPU model\n\nThis patch adds CPU PVR definition for POWER8,\nand enables QEMU to launch guests on POWER8 hardware.\n\nSigned-off-by: Prerna Saxena <prerna@linux.vnet.ibm.com>\nSigned-off-by: Alexey Kardashevskiy <aik@ozlabs.ru>\nReviewed-by: Paul Mackerras <paulus@samba.org>\nReviewed-by: Andreas Farber <afaerber@suse.de>\nSigned-off-by: Alexander Graf <agraf@suse.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/0933a2df7e085cca3efb0b99.diff.gz",
+  "diff_bytes": 3227,
+  "diff_sha256": "e49a0132003fa1bd2012ab1231465fb80b495565a730abc162ece6555873859c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:09.966055+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

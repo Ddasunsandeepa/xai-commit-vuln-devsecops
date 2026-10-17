@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "7dcd0ec9c91688cfa3f679804ba6e132f9811254",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Verify that the native handle was created\n\nThe inputs to native_handle_create can cause an overflowed allocation,\nso check the return value of native_handle_create before accessing\nthe memory it returns.\n\nBug:19334482\nChange-Id: I1f489382776c2a1390793a79dc27ea17baa9b2a2\n(cherry picked from commit eaac99a7172da52a76ba48c26413778a74951b1a)",
+  "patch_path": "reports/codejit_extraction_v1/records/d1c65f8041008d863f21eaf0.diff.gz",
+  "diff_bytes": 514,
+  "diff_sha256": "e4ab8b39310e6701564e22335cf2836befcc738ce938a1187b90ed690fdb8b79",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:46.031344+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

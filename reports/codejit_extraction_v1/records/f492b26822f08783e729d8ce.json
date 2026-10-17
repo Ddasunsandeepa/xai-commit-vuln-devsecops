@@ -1,0 +1,16 @@
+{
+  "repo": "osquery___osquery",
+  "commit_id": "c3f9a3dae22d43ed3b4f6a403cbf89da4cba7c3c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge pull request from GHSA-4g56-2482-x7q8\n\n* Proposed fix for attach tables vulnerability\n\n* Add authorizer to ATC tables and cleanups\n\n- Add unit test for authorizer function",
+  "patch_path": "reports/codejit_extraction_v1/records/f492b26822f08783e729d8ce.diff.gz",
+  "diff_bytes": 5806,
+  "diff_sha256": "cb287c457dd4997432fe49b29badaa4cd666e3c55615bb1a32ec7be59584dac1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:45.601298+00:00",
+  "url": "https://github.com/osquery/osquery.git"
+}

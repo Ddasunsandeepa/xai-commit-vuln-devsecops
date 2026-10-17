@@ -1,0 +1,16 @@
+{
+  "repo": "jedisct1___pure-ftpd",
+  "commit_id": "8509d01a1d4065e799a8ce478b51544fd3a7f397",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "MAXPATHLEN -> PATH_MAX",
+  "patch_path": "reports/codejit_extraction_v1/records/b3da15b7974d9e57e83477ce.diff.gz",
+  "diff_bytes": 23569,
+  "diff_sha256": "70b060e0465d3ee58aaf9e77e1280a643a941346784fbc3ff1bae7841533b739",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:56.762381+00:00",
+  "url": "https://github.com/jedisct1/pure-ftpd.git"
+}

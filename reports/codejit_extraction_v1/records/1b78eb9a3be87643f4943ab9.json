@@ -1,0 +1,16 @@
+{
+  "repo": "wolfssl___wolfmqtt",
+  "commit_id": "237f693c5731dcbd6adc9de69d9f575421c4414e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added support for returning publish reason code with MQTT 5.",
+  "patch_path": "reports/codejit_extraction_v1/records/1b78eb9a3be87643f4943ab9.diff.gz",
+  "diff_bytes": 2462,
+  "diff_sha256": "cd315c2c4f6e9094efbe00f91dc27756c330f27ad481a4c4a9883a692dedaa75",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:14.268615+00:00",
+  "url": "https://github.com/wolfssl/wolfmqtt.git"
+}

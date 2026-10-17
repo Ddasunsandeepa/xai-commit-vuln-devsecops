@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "6cfabb0064cab52bbbab59974e53dc0fa1954da7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Hide the server name/desc better when <options:hideserver> is set.",
+  "patch_path": "reports/codejit_extraction_v1/records/0445af07761b0844e823ccc7.diff.gz",
+  "diff_bytes": 15935,
+  "diff_sha256": "025ece89995b7767e9e2cb038dad201a343e93f3a5eafdf0b68ee344705ef78b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:38.476051+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

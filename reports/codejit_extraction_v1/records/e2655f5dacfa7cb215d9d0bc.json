@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "78bf446852a7e5e8aa52c7ca9889632e167b665f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avcodec/ra144: Fix runtime error: left shift of negative value -798\n\nFixes: 1388/clusterfuzz-testcase-minimized-6680800936329216\n\nFound-by: continuous fuzzing process https://github.com/google/oss-fuzz/tree/master/targets/ffmpeg\nSigned-off-by: Michael Niedermayer <michael@niedermayer.cc>",
+  "patch_path": "reports/codejit_extraction_v1/records/e2655f5dacfa7cb215d9d0bc.diff.gz",
+  "diff_bytes": 414,
+  "diff_sha256": "1af9796800ab0ec72ffde9fbcdcc191ad23920c4e7d757677023b705b03d5f0d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:50.545962+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

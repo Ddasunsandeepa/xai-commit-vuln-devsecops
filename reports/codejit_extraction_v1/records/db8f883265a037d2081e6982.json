@@ -1,0 +1,16 @@
+{
+  "repo": "upx___upx",
+  "commit_id": "eb90eab6325d009004ffb155e3e33f22d4d3ca26",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Detect bogus DT_SYMENT.\n\nhttps://github.com/upx/upx/issues/331\n\tmodified:   p_lx_elf.cpp",
+  "patch_path": "reports/codejit_extraction_v1/records/db8f883265a037d2081e6982.diff.gz",
+  "diff_bytes": 1603,
+  "diff_sha256": "992d071f2ef6cb22a11dfe8e136a37a5eb4936cd9e315339b623dfe47b0f35d8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:42.837599+00:00",
+  "url": "https://github.com/upx/upx.git"
+}

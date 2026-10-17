@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___v8",
+  "commit_id": "a24543157ae2cdd25da43e20f4e48a07481e6ceb",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Backport: Fix Object.entries/values with changing elements\n\nBug: 111274046\nTest: m -j proxy_resolver_v8_unittest && adb sync && adb shell \\\n/data/nativetest64/proxy_resolver_v8_unittest/proxy_resolver_v8_unittest\nChange-Id: I705fc512cc5837e9364ed187559cc75d079aa5cb\n(cherry picked from commit d8be9a10287afed07705ac8af027d6a46d4def99)",
+  "patch_path": "reports/codejit_extraction_v1/records/38e0e777f27a912b157bb0ce.diff.gz",
+  "diff_bytes": 10044,
+  "diff_sha256": "1a9c2c254ad737e1ca494452d2fd8c6b6edbcd0a6a248f9d5b635087b40df3a7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:38.893631+00:00",
+  "url": "https://android.googlesource.com/platform/external/v8"
+}

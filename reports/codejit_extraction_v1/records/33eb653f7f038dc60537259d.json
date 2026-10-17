@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___zstd",
+  "commit_id": "7b74405150643f8002ced136d56c77977fef3d07",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "refactor HUF_compress_internal for clarity\n\nchanged workspace parameter convention\nto always provide workspaceSize,\nso that size can be explicitly checked.\n\nAlso, use more enum to make the meaning of some parameters more explicit.",
+  "patch_path": "reports/codejit_extraction_v1/records/33eb653f7f038dc60537259d.diff.gz",
+  "diff_bytes": 27729,
+  "diff_sha256": "ac8a58675630f4b2fdc06ef9e7091bf20bea197fa912bdc11a57e161261b81ba",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:20.778806+00:00",
+  "url": "https://github.com/facebook/zstd.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "ae18eb014609948a40e22192b87b10efc680daa7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix scanf %s in lsof.\n\nBug: http://b/28175237\nChange-Id: Ief0ba299b09693ad9afc0e3d17a8f664c2fbb8c2",
+  "patch_path": "reports/codejit_extraction_v1/records/cf94aa950de36da12ff99c6f.diff.gz",
+  "diff_bytes": 838,
+  "diff_sha256": "fa9a58ffaf0766bba5e051309523565aa25bebb95a0936da2adeba98a372e39a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:33.440432+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

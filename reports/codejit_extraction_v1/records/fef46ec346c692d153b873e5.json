@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___fbthrift",
+  "commit_id": "bfda1efa547dce11a38592820916db01b05b9339",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix handling of invalid union data in table-based serializer\n\nSummary:\nFix handling of invalid union data in the table-based serializer. Previously if the input contained duplicate union data, previous active member of the union was overwritten without calling the destructor of the old object, potentially causing a memory leak. In addition to that, if the second piece of data was incomplete the wrong destructor would be called during stack unwinding causing a segfault, data corruption or other undesirable effects.\n\nFix the issue by clearing the union if there is an active member.\n\nAlso fix the type of the data member that holds the active field id (it's `int`, not `FieldID`).\n\nReviewed By: yfeldblum\n\nDifferential Revision: D26440248\n\nfbshipit-source-id: fae9ab96566cf07e14dabe9663b2beb680a01bb4",
+  "patch_path": "reports/codejit_extraction_v1/records/fef46ec346c692d153b873e5.diff.gz",
+  "diff_bytes": 4685,
+  "diff_sha256": "c690bc53c2d1dd604ad0d5e308ace0b85254c344702a66cea81ecd86b6674d63",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:23.455429+00:00",
+  "url": "https://github.com/facebook/fbthrift.git"
+}

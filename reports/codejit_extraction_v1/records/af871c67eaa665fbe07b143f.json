@@ -1,0 +1,16 @@
+{
+  "repo": "ckolivas___cgminer",
+  "commit_id": "6a0882f05b84f6866d6af86c34456f382c9a9bc1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use the sessionid as passed on stratum connect to attempt to resume a connection once and then clear it if it fails, to use a new connection.",
+  "patch_path": "reports/codejit_extraction_v1/records/af871c67eaa665fbe07b143f.diff.gz",
+  "diff_bytes": 3316,
+  "diff_sha256": "18b3649db47cbc1e1c652e9a539f85ba4eaf7775264863368a93099abd460324",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:51.172116+00:00",
+  "url": "https://github.com/ckolivas/cgminer.git"
+}

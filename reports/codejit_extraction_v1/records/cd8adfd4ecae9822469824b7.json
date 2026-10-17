@@ -1,0 +1,16 @@
+{
+  "repo": "quassel___quassel",
+  "commit_id": "b2c1609b21f5a3e4eb4385ee7f89cefcc4042ec1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Small optimization\n\nNo need to copy the list around.",
+  "patch_path": "reports/codejit_extraction_v1/records/cd8adfd4ecae9822469824b7.diff.gz",
+  "diff_bytes": 1178,
+  "diff_sha256": "933f9c7383f302a2c14fb6da13da9c51e0ff3a201a49a6da7fe495a4bd1c5315",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:59.020121+00:00",
+  "url": "https://github.com/quassel/quassel.git"
+}

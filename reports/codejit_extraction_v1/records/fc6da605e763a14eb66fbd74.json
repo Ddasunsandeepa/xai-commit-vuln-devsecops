@@ -1,0 +1,16 @@
+{
+  "repo": "mysql___mysql-server",
+  "commit_id": "3bd5589e1a5a93f9c224badf983cd65c45215390",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "WL#6791 : Redefine client --ssl option to imply enforced encryption\n\n# Changed the meaning of the --ssl=1 option of all client binaries\nto mean force ssl, not try ssl and fail over to eunecrypted\n# Added a new MYSQL_OPT_SSL_ENFORCE mysql_options()\noption to specify that an ssl connection is required.\n# Added a new macro SSL_SET_OPTIONS() to the client\nSSL handling headers that sets all the relevant SSL options at \nonce.\n# Revamped all of the current native clients to use the new macro\n# Removed some Windows line endings.\n# Added proper handling of the new option into the ssl helper\nheaders.\n# If SSL is mandatory assume that the media is secure enough \nfor the sha256 plugin to do unencrypted password exchange even\nbefore establishing a connection.\n# Set the default ssl cipher to DHE-RSA-AES256-SHA if none is \nspecified.\n# updated test cases that require a non-default cipher to spawn \na mysql command line tool binary since mysqltest has no support\nfor specifying ciphers.\n# updated the replication slave connection code to always enforce\nSSL if any of the SSL config options is present.\n# test cases added and updated.\n# added a mysql_get_option() API to return mysql_options() \nvalues. Used the new API inside the sha256 plugin.\n# Fixed compilation warnings because of unused variables.\n# Fixed test failures (mysql_ssl and bug13115401)\n# Fixed whitespace issues.\n# Fully implemented the mysql_get_option() function.\n# Added a test case for mysql_get_option()\n# fixed some trailing whitespace issues\n# fixed some uint/int warnings in mysql_client_test.c\n# removed shared memory option from non-windows get_options\n tests\n# moved MYSQL_OPT_LOCAL_INFILE to the uint options",
+  "patch_path": "reports/codejit_extraction_v1/records/fc6da605e763a14eb66fbd74.diff.gz",
+  "diff_bytes": 43584,
+  "diff_sha256": "4321c69463e0a8ccff1570afb18e7705d18bbdddf2b1967122be7704876704a6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:09.775134+00:00",
+  "url": "https://github.com/mysql/mysql-server.git"
+}

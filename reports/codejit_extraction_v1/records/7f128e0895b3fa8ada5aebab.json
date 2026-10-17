@@ -1,0 +1,16 @@
+{
+  "repo": "sgminer-dev___sgminer",
+  "commit_id": "8ede407df7b3b2dedfcb7546d1380bcd9bf070af",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make extract_sockaddr set variables passed to it rather than pool struct members.",
+  "patch_path": "reports/codejit_extraction_v1/records/7f128e0895b3fa8ada5aebab.diff.gz",
+  "diff_bytes": 2615,
+  "diff_sha256": "a44bb9f7e0625fa1270a95d04e19cbc544842e5650f3eb599ca12ee65b466047",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:58.354995+00:00",
+  "url": "https://github.com/sgminer-dev/sgminer.git"
+}

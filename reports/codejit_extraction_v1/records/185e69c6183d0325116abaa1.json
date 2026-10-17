@@ -1,0 +1,16 @@
+{
+  "repo": "kohler___t1utils",
+  "commit_id": "fcf9868a54412f3190c9d6f257c1ed7b0eb989fd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "t1utils: Avoid compiler warnings.\n\nBased on a patch by Peter Breitenlohner.",
+  "patch_path": "reports/codejit_extraction_v1/records/185e69c6183d0325116abaa1.diff.gz",
+  "diff_bytes": 8735,
+  "diff_sha256": "11b9f6e5043825ed681c3898fa28db4da7b59de5b99aaf0b2f40cd556b84c49b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:31.480623+00:00",
+  "url": "https://github.com/kohler/t1utils.git"
+}

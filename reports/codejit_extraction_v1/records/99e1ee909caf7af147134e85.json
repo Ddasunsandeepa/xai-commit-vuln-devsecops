@@ -1,0 +1,16 @@
+{
+  "repo": "iortcw___iortcw",
+  "commit_id": "11a83410153756ae350a82ed41b08d128ff7f998",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "All: Merge some file writing extension checks",
+  "patch_path": "reports/codejit_extraction_v1/records/99e1ee909caf7af147134e85.diff.gz",
+  "diff_bytes": 2342,
+  "diff_sha256": "2ecefe404f0f35aabe45d7f88175b266598321d28dbdd662eaed4f95a08771bd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:49.265652+00:00",
+  "url": "https://github.com/iortcw/iortcw.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "tryghost___node-sqlite3",
+  "commit_id": "593c9d498be2510d286349134537e3bf89401c4a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "bug: fix segfault of invalid toString() object (#1450)\n\n* bug: verify toString() returns valid data\n* test: faulty toString test",
+  "patch_path": "reports/codejit_extraction_v1/records/ef65e99fd3eb9c321b4dd574.diff.gz",
+  "diff_bytes": 1219,
+  "diff_sha256": "d7c0bebb589f229d482fed3761286c29af12c281ac3c36cec1c8777c3dc0a841",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:12.203754+00:00",
+  "url": "https://github.com/tryghost/node-sqlite3.git"
+}

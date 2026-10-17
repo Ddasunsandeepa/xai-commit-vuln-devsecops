@@ -1,0 +1,16 @@
+{
+  "repo": "libass___libass",
+  "commit_id": "aa54e0b59200a994d50a346b5d7ac818ebcf2d4b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "shaper: fix reallocation\n\nUpdate the variable that tracks the allocated size. This potentially\nimproves performance and avoid some side effects, which lead to\nundefined behavior in some cases.\n\nFixes fuzzer test case id:000051,sig:11,sync:fuzzer3,src:004221.",
+  "patch_path": "reports/codejit_extraction_v1/records/8c343b012546de6fa378a321.diff.gz",
+  "diff_bytes": 438,
+  "diff_sha256": "3bb7ad9ab9aceff48eb0ccfb29da79015322f08d2ba30d901460c9b15e77bed6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:48.848936+00:00",
+  "url": "https://github.com/libass/libass.git"
+}

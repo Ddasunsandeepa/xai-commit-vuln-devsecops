@@ -1,0 +1,16 @@
+{
+  "repo": "curl___curl",
+  "commit_id": "1890d59905414ab84a35892b2e45833654aa5c13",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tool_writeout: fixed a buffer read overrun on --write-out\n\nIf a % ended the statement, the string's trailing NUL would be skipped\nand memory past the end of the buffer would be accessed and potentially\ndisplayed as part of the --write-out output. Added tests 1440 and 1441\nto check for this kind of condition.\n\nReported-by: Brian Carpenter",
+  "patch_path": "reports/codejit_extraction_v1/records/1575afa4ef8c8c74c1a991a8.diff.gz",
+  "diff_bytes": 2157,
+  "diff_sha256": "64e2bd40c343ff5eaa8fcd074999e722a3b0215fdcc050fa39fe76275a251e53",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:55.430717+00:00",
+  "url": "https://github.com/curl/curl.git"
+}

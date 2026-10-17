@@ -1,0 +1,16 @@
+{
+  "repo": "lawngnome___php-radius",
+  "commit_id": "13c149b051f82b709e8d7cc32111e84b49d57234",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a security issue in radius_get_vendor_attr().\n\nThe underlying rad_get_vendor_attr() function assumed that it would always be\ngiven valid VSA data. Indeed, the buffer length wasn't even passed in; the\nassumption was that the length field within the VSA structure would be valid.\n\nThis could result in denial of service by providing a length that would be\nbeyond the memory limit, or potential arbitrary memory access by providing a\nlength greater than the actual data given.\n\nrad_get_vendor_attr() has been changed to require the raw data length be\nprovided, and this is then used to check that the VSA is valid.\n\nConflicts:\n\tradlib_vs.h",
+  "patch_path": "reports/codejit_extraction_v1/records/4c144eb5552609701b643869.diff.gz",
+  "diff_bytes": 2370,
+  "diff_sha256": "72aa47917d9dc2f450665dbfc7ba01e4cf3aca5ca47d2e7b94b288a59f493593",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:37.452060+00:00",
+  "url": "https://github.com/lawngnome/php-radius.git"
+}

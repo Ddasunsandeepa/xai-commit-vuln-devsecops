@@ -1,0 +1,16 @@
+{
+  "repo": "kravietz___pam_tacplus",
+  "commit_id": "1119da92c3c47a2cb2a48d494f98ff10a6c32619",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "server is a struct { address, key }",
+  "patch_path": "reports/codejit_extraction_v1/records/48e7c8570faaaa8a12aa16ab.diff.gz",
+  "diff_bytes": 11547,
+  "diff_sha256": "6a7e48cd5e3218dba43d9ae114b4e342c6884a2e10919320c9751f28fdac1c8a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:32.508627+00:00",
+  "url": "https://github.com/kravietz/pam_tacplus.git"
+}

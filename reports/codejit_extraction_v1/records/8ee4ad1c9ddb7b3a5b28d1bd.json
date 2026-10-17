@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "2305742b2a0fd64cccbdfe12c9e90555c8bb798e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "sunrast: Check for invalid/corrupted bitstream\n\nSigned-off-by: Janne Grunau <janne-libav@jannau.net>",
+  "patch_path": "reports/codejit_extraction_v1/records/8ee4ad1c9ddb7b3a5b28d1bd.diff.gz",
+  "diff_bytes": 1365,
+  "diff_sha256": "73c8fdc8fc9744c6f5e3492c3ea09c6b44151ff96350373ec58887c540a995b6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:37.426636+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

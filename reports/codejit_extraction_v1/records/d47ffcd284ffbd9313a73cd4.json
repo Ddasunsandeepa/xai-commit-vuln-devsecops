@@ -1,0 +1,16 @@
+{
+  "repo": "wavm___wavm",
+  "commit_id": "b15e29f2ee361379742957d764aca655ef2a9e48",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a wavm-compile program that compiles object code for a WebAssembly module and saves it to a WASM file in a user section, and a '--precompiled' command-line option to WAVM that uses that precompiled object code to skip recompiling a module.",
+  "patch_path": "reports/codejit_extraction_v1/records/d47ffcd284ffbd9313a73cd4.diff.gz",
+  "diff_bytes": 25324,
+  "diff_sha256": "60fa8f3c47725a3b8080afbadbae01d9d479a34317cb907e8861cc5d12e10aed",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:04.358777+00:00",
+  "url": "https://github.com/wavm/wavm.git"
+}

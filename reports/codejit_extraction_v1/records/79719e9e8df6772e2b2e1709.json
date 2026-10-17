@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "d8c2604cd438c41ec72aff52c16ebd8183068020",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added range check on XRsiz and YRsiz fields of SIZ marker segment.",
+  "patch_path": "reports/codejit_extraction_v1/records/79719e9e8df6772e2b2e1709.diff.gz",
+  "diff_bytes": 734,
+  "diff_sha256": "cb858e8493e96ccf62e3caf5e600f048f84cd74a5fe68c7dba0e6446fbbb9cf7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:46.872814+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

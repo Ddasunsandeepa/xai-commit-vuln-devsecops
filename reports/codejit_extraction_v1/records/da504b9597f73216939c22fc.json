@@ -1,0 +1,16 @@
+{
+  "repo": "libass___libass",
+  "commit_id": "d787615845d78d8f8e6d1a4ffc3dc3eecd8a92f6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement cascade gaussian blur\n\nThat's complete version with SSE2/AVX2 assembly.\nShould be much faster than old algorithm even in pure C.\n\nAlgorithm description can be found in this article (PDF):\nhttps://github.com/MrSmile/CascadeBlur/releases\n\nClose #9",
+  "patch_path": "reports/codejit_extraction_v1/records/da504b9597f73216939c22fc.diff.gz",
+  "diff_bytes": 91146,
+  "diff_sha256": "4506ff9124346e3642a7a69121ab25d34da18844a10e66871bef613dc48f2e6d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:49.619506+00:00",
+  "url": "https://github.com/libass/libass.git"
+}

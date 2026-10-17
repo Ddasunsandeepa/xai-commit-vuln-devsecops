@@ -1,0 +1,16 @@
+{
+  "repo": "univention___univention-corporate-server",
+  "commit_id": "a28053045bd2e778c50ed1acaf4e52e1e34f6e34",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug #48427 UDN: Forbid vulnerable GET_DN for VERSION >= 3\n\nUDL using PROTOCOL_3 must no longer use GET_DN but WAIT_DN - if it is\nstill used this is a protocol violation. UDL simply will not get an\nanswer.\n\nWhen UCRV 'notifier/protocol/version is set to 3, any old client still\nusing PROTOCOL_2 will get rejected while negotiating the protocol\nversion, so it is asserted that \"version >= network_procotol_version\".",
+  "patch_path": "reports/codejit_extraction_v1/records/9bb76eb3d76d8b0cba160d9d.diff.gz",
+  "diff_bytes": 1367,
+  "diff_sha256": "3be08eaf1d87a50162d364654c232c335404bfd2964c52a99eb0e3273088e94d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:32.240647+00:00",
+  "url": "https://github.com/univention/univention-corporate-server.git"
+}

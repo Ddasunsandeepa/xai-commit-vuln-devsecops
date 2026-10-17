@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "991f051a63ee6433a043e652320e66b2a79dd05a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed stream release for transport_write",
+  "patch_path": "reports/codejit_extraction_v1/records/5ee93a56e33573697d236c2c.diff.gz",
+  "diff_bytes": 79387,
+  "diff_sha256": "9551fc1a46972a9d7858deff7cada507f24364d62aed430615623184587ffa8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:37.904229+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

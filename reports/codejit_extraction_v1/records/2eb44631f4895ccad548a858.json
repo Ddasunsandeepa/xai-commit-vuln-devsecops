@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "8b5fd8f24eba5dd19ab2f80ea11a9125aa882ae2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Treat first slice in a picture as part of new picture always\n\nThis is needed to decode streams with consecutive IDRs.\n\nBug: 34097231\nTest: successful run of POC in security bug\nChange-Id: Ib737a4ef4b8c5bb7a57c90292102dd28af0615fe",
+  "patch_path": "reports/codejit_extraction_v1/records/2eb44631f4895ccad548a858.diff.gz",
+  "diff_bytes": 1974,
+  "diff_sha256": "bda5cad566d2f13426b01b9c6b09a8854cc04fbb92762a0c631d87cca3e67ea9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:21.132259+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

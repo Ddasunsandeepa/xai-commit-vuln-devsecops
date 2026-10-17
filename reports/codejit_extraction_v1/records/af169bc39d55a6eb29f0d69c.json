@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "494561291a503840f385fbcd11d9bc5f4dc502b8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Moved end of pic processing to end of decode call\n\nih264d_end_of_pic() was called after parsing slice of a new picture.\nThis is now being done at the end of decode of the current picture.\ndecode_gaps_in_frame_num which needs frame_num of new slice is now\ndone after decoding frame_num in new slice.\n\nThis helps in handling errors in picaff streams with gaps in frames\n\nBug: 33588051\nBug: 33641588\nBug: 34097231\nChange-Id: I1a26e611aaa2c19e2043e05a210849bd21b22220",
+  "patch_path": "reports/codejit_extraction_v1/records/af169bc39d55a6eb29f0d69c.diff.gz",
+  "diff_bytes": 11326,
+  "diff_sha256": "cf85e5625a0f65652e289548e8b060919ac31ae7a1c8a3c12e54df1896bf8fb3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:18.845418+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "aa0b0f79ade5eef8b0e7a214c03f5af54b36ba7d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed numerous integer overflow problems in the code for packet iterators\nin the JPC decoder.",
+  "patch_path": "reports/codejit_extraction_v1/records/15899e23d579302f8c1b8f6c.diff.gz",
+  "diff_bytes": 11909,
+  "diff_sha256": "58837897eaf3e5fb42e2ec8954b8d960b2593f7b8788d469ff944536657b9bc0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:45.312602+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

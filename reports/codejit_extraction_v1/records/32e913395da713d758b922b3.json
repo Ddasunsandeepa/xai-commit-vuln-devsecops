@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "da16002ff50c2ef7df8ea1547747da5d37fea39d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Modify ppmd7 code to minimize symbols leaked into the global name space.\nOnly one extra symbol is add, __archive_ppmd7_functions, which is a global\nstruct carrying function pointers to ppmd7 functions.\n\nSVN-Revision: 3573",
+  "patch_path": "reports/codejit_extraction_v1/records/32e913395da713d758b922b3.diff.gz",
+  "diff_bytes": 26585,
+  "diff_sha256": "d410a5260ce46a9ed8dadb4208fc2dcd9f8528fff74b787a5199b254b20c3247",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:45.529525+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

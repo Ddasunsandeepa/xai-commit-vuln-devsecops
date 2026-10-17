@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "abca927dbef2c310056b8a1a8be5561212b3243a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "introduce credentials API\n\nThere are a few places in git that need to get a username\nand password credential from the user; the most notable one\nis HTTP authentication for smart-http pushing.\n\nRight now the only choices for providing credentials are to\nput them plaintext into your ~/.netrc, or to have git prompt\nyou (either on the terminal or via an askpass program). The\nformer is not very secure, and the latter is not very\nconvenient.\n\nUnfortunately, there is no \"always best\" solution for\npassword management. The details will depend on the tradeoff\nyou want between security and convenience, as well as how\ngit can integrate with other security systems (e.g., many\noperating systems provide a keychain or password wallet for\nsingle sign-on).\n\nThis patch provides an abstract notion of credentials as a\ndata item, and provides three basic operations:\n\n  - fill (i.e., acquire from external storage or from the\n    user)\n\n  - approve (mark a credential as \"working\" for further\n    storage)\n\n  - reject (mark a credential as \"not working\", so it can\n    be removed from storage)\n\nThese operations can be backed by external helper processes\nthat interact with system- or user-specific secure storage.\n\nSigned-off-by: Jeff King <peff@peff.net>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/d1f3639f8b1bac6d61042f24.diff.gz",
+  "diff_bytes": 21428,
+  "diff_sha256": "a8dee909bc15f1ad68643e2bf1963b36a537d755c3867ac0943a98b5e5bacc80",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:06.849266+00:00",
+  "url": "https://github.com/git/git.git"
+}

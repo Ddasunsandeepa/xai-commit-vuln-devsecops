@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "5ce0ab909f1a3e45ff2a8c420860f9d2a43ecd65",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "shadow_server: allow specifying IP addresses to listen on (#6050)\n\n* shadow_server: allow specifying IP addresses to listen on\n\nThis allows using IPv6 as well as listening only on specific\ninterfaces. Additionally, it enables listening on local and TCP\nsockets simultaneously.\n\n* listener: log address with square brackets\n\nThis disambiguates IPv6 addresses.\n\n* shadow_server: check error on each socket binding\n\n* Refactored shadow /bind-address for 2.0 compiatibility.\n\n* Made /ipc-socket and /bind-address incompatible arguments.\n\n* Fixed shadow /bind-address handling and description\n\n* Allow multiple bind addresses for shadow server.\n\nCo-authored-by: akallabeth <akallabeth@posteo.net>",
+  "patch_path": "reports/codejit_extraction_v1/records/7573d9f9d7cb2e7c10d490c5.diff.gz",
+  "diff_bytes": 5886,
+  "diff_sha256": "59d80663197797ff32cf128993cbbc0a9a3b1e8a6abfc88194f5286e92e390a1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:34.197935+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

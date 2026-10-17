@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___media",
+  "commit_id": "4ed06d14080d8667d5be14eed200e378cba78345",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE mm-video-v4l2: venc: Avoid processing ETBs/FTBs in invalid states\n\n(per the spec) ETB/FTB should not be handled in states other than\nExecuting, Paused and Idle. This avoids accessing invalid buffers.\nAlso add a lock to protect the private-buffers from being deleted\nwhile accessing from another thread.\n\nBug: 27903498\nSecurity Vulnerability - Heap Use-After-Free and Possible LPE in\nMediaServer (libOmxVenc problem #3)\n\nCRs-Fixed: 1010088\n\nChange-Id: I898b42034c0add621d4f9d8e02ca0ed4403d4fd3",
+  "patch_path": "reports/codejit_extraction_v1/records/2965e1bf41efd8803f27e333.diff.gz",
+  "diff_bytes": 3210,
+  "diff_sha256": "7b6ee70c2bf5b6f7bc959f1404e5485566862814aae0be13ccde9d865e0d7905",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:58.080098+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/media"
+}

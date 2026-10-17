@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "344711d5afb202ddd767939edcfe60bbf532fc92",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add support for lha/lzh archive format.\n\nSVN-Revision: 2831",
+  "patch_path": "reports/codejit_extraction_v1/records/dc02afc0e07dfed3864a9420.diff.gz",
+  "diff_bytes": 102642,
+  "diff_sha256": "caf46293cedd3ffba464fcb9a30674d29a1137adb8452b28110c6ad4727862de",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:39.305884+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

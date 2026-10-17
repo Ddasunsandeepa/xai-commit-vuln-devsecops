@@ -1,0 +1,16 @@
+{
+  "repo": "muttmua___mutt",
+  "commit_id": "3287534daa3beac68e2e83ca4b4fe8a3148ff870",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't overflow tmp in msg_parse_fetch.\n\nEnsure INTERNALDATE and RFC822.SIZE field sizes fit temp buffer.\n\nThanks to Jeriko One for the bug report and patch, which this patch is\nbased upon.",
+  "patch_path": "reports/codejit_extraction_v1/records/a8ade369e378ed8920844c57.diff.gz",
+  "diff_bytes": 1054,
+  "diff_sha256": "3887cbd91e358de01fea629df3c941f14ff2940d2ee9f5f73ae2b579dad47839",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:00.864657+00:00",
+  "url": "https://github.com/muttmua/mutt.git"
+}

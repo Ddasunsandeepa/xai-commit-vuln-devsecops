@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "ce76025aa6f93ad464257b4ed2ec5f3cba363898",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "release 2.4.4; avoid GCC 9 compiler warnings\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/303803304d6df46e40e832c6.diff.gz",
+  "diff_bytes": 2613,
+  "diff_sha256": "381f57d500139653b013eb843a88b25da42a9a7a51e6dfc1a32578d632e36384",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:22.515675+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

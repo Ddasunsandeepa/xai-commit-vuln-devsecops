@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "42d40581dd919fb134c07027ca1ce0844c670daf",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Save stack space while handling errors\n\nBecause error handling (luaG_errormsg) uses slots from EXTRA_STACK,\nand some errors can recur (e.g., string overflow while creating an\nerror message in 'luaG_runerror', or a C-stack overflow before calling\nthe message handler), the code should use stack slots with parsimony.\n\nThis commit fixes the bug \"Lua-stack overflow when C stack overflows\nwhile handling an error\".",
+  "patch_path": "reports/codejit_extraction_v1/records/7ebdcfc026ebe0cf139bfb2b.diff.gz",
+  "diff_bytes": 1681,
+  "diff_sha256": "4d89d7233c90a4d64c01b1146524124db352211edae41e88b49e56b66e8906d5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:46.858933+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

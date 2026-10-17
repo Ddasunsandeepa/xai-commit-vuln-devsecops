@@ -1,0 +1,16 @@
+{
+  "repo": "redis___hiredis",
+  "commit_id": "8e0264cfd6889b73c241b60736fe96ba1322ee6e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Allow users to replace allocator and handle OOM everywhere. (#800)\n\n* Adds an indirection to every allocation/deallocation to allow users to \n  plug in ones of their choosing (use custom functions, jemalloc, etc).\n\n* Gracefully handle OOM everywhere in hiredis.  This should make it possible\n  for users of the library to have more flexibility in how they handle such situations.\n\n* Changes `redisReaderTask->elements` from an `int` to a `long long` to prevent\n  a possible overflow when transferring the task elements into a `redisReply`.\n\n* Adds a configurable `max elements` member to `redisReader` that defaults to\n  2^32 - 1.  This can be set to \"unlimited\" by setting the value to zero.",
+  "patch_path": "reports/codejit_extraction_v1/records/1313a9b3c374bef29f11d641.diff.gz",
+  "diff_bytes": 53846,
+  "diff_sha256": "deac96e6865aa1b0e9e32f9491ca0c032283a6f73ab787ee686b898b31b8dc3e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:04.987331+00:00",
+  "url": "https://github.com/redis/hiredis.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "65d64a5b60a4a3883f2cd799d92c6091d8854f23",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check for int underflow in imap_quote_string",
+  "patch_path": "reports/codejit_extraction_v1/records/7c3934404cf102f38382a4ef.diff.gz",
+  "diff_bytes": 388,
+  "diff_sha256": "4979ff4d612b8b3c39f395bd1204ba45312a23bafa02f0df986d40e580e18d03",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:33.463260+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "sddm___sddm",
+  "commit_id": "147cec383892d143b5e02daa70f1e7def50f5d98",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix authentication when reusing an existing session\n\n- Check the success value before unlocking the session\n- Don't attempt to use the nonexistant \"sddm-check\" PAM service",
+  "patch_path": "reports/codejit_extraction_v1/records/7e29b1ec21ab867c3cb7aec8.diff.gz",
+  "diff_bytes": 1488,
+  "diff_sha256": "59cc2b5a470d6ab57741206ab7bdce6ebfc630ffb884faef84a987aef90f40c4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:40.911845+00:00",
+  "url": "https://github.com/sddm/sddm.git"
+}

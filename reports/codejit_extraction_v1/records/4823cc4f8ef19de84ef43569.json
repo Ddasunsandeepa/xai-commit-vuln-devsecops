@@ -1,0 +1,16 @@
+{
+  "repo": "taglib___taglib",
+  "commit_id": "b3646a07348ffa276ea41a9dae03ddc63ea6c532",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Be more careful when parsing Vorbis Comments",
+  "patch_path": "reports/codejit_extraction_v1/records/4823cc4f8ef19de84ef43569.diff.gz",
+  "diff_bytes": 1262,
+  "diff_sha256": "ab6163c477bd872ae1def89b5bc137fb4e85b11a0dc991faa82710331adfe633",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:48.243715+00:00",
+  "url": "https://github.com/taglib/taglib.git"
+}

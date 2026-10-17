@@ -1,0 +1,16 @@
+{
+  "repo": "open-iscsi___tcmu-runner",
+  "commit_id": "bb80e9c7a798f035768260ebdadffb6eb0786178",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "only allow dynamic UnregisterHandler for external handlers, thereby fixing DoS\n\nTrying to unregister an internal handler ended up in a SEGFAULT, because\nthe tcmur_handler->opaque was NULL. Way to reproduce:\n\ndbus-send --system --print-reply --dest=org.kernel.TCMUService1 /org/kernel/TCMUService1/HandlerManager1 org.kernel.TCMUService1.HandlerManager1.UnregisterHandler string:qcow\n\nwe use a newly introduced boolean in struct tcmur_handler for keeping\ntrack of external handlers. As suggested by mikechristie adjusting the\npublic data structure is acceptable.",
+  "patch_path": "reports/codejit_extraction_v1/records/ace7a8cd6130d152c9faa882.diff.gz",
+  "diff_bytes": 2941,
+  "diff_sha256": "166ab40decc261e1d2b98bed42805cf9c617c352fcf6d44a5a83d458db3c273a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:23.398075+00:00",
+  "url": "https://github.com/open-iscsi/tcmu-runner.git"
+}

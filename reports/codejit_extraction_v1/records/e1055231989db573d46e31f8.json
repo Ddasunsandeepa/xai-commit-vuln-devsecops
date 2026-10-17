@@ -1,0 +1,16 @@
+{
+  "repo": "tildeslash___monit",
+  "commit_id": "f12d0cdb42d4e74dffe1525d4062c815c48ac57a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed: Buffer overrun vulnerability in URL decoding. Thanks to Zack Flack for report.",
+  "patch_path": "reports/codejit_extraction_v1/records/e1055231989db573d46e31f8.diff.gz",
+  "diff_bytes": 2965,
+  "diff_sha256": "24cd5c9ee94dee58c5d3b058ae35ecc3862c112cb838ef872ec7501314d3aef9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:40.692226+00:00",
+  "url": "https://github.com/tildeslash/monit.git"
+}

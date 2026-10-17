@@ -1,0 +1,16 @@
+{
+  "repo": "weidai11___cryptopp",
+  "commit_id": "07dbcc3d9644b18e05c1776db2a57fe04d780965",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add Inflator::BadDistanceErr exception (Issue 414)\nThe improved validation and excpetion clears the Address Sanitizer and Undefined Behavior Sanitizer findings",
+  "patch_path": "reports/codejit_extraction_v1/records/5758de2068a6686ebf5cbbae.diff.gz",
+  "diff_bytes": 2678,
+  "diff_sha256": "7646abe6da389a8b78c14d78e1dfb7404057eb3010d632d7fdade433db0b039e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:07.185838+00:00",
+  "url": "https://github.com/weidai11/cryptopp.git"
+}

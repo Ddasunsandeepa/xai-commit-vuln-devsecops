@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "3119b232c9c453c98d8fa8b6ae4e37ba18117cd4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "re_lexer: Make reading escape sequences more robust (#586)\n\n* Add test for issue #503\n\n* re_lexer: Make reading escape sequences more robust\n\nThis commit fixes parsing incomplete escape sequences at the end of a\nregular expression and parsing things like \\xxy (invalid hex digits)\nwhich before were silently turned into (char)255.\n\nClose #503\n\n* Update re_lexer.c",
+  "patch_path": "reports/codejit_extraction_v1/records/a9f32377063e6179e8b6e8d3.diff.gz",
+  "diff_bytes": 6198,
+  "diff_sha256": "bd479c5ed1f5333608757e6cf8b2e0cd3c7d01ce7c4e8e86cd5ae93c3aa01bea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:39.605537+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

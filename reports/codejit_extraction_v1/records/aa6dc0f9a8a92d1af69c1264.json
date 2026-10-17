@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "b1cc5e5a50e7cee09f2c6eb48eb40ee9c4125025",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix `tf.raw_ops.SparseCross` failing CHECK.\n\nPiperOrigin-RevId: 368701671\nChange-Id: Id805729dd9ba0bda36e4bb309408129b55fb649d",
+  "patch_path": "reports/codejit_extraction_v1/records/aa6dc0f9a8a92d1af69c1264.diff.gz",
+  "diff_bytes": 6641,
+  "diff_sha256": "003e2c33c33d00f7ce1d1b8596dfcbb4c915a7c4c389742485f787908a2f9641",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:34:08.391527+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

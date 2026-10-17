@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "17dbaa8639505c9ad1a9946591f5960123fbd741",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improvements in the handling of signals\n\nAdded 'volatile' to 'l_signalT' variables plus some minor changes.",
+  "patch_path": "reports/codejit_extraction_v1/records/1b90c51be4975c684801287d.diff.gz",
+  "diff_bytes": 5353,
+  "diff_sha256": "86a368bdff7ced6adf8e61a70654fb4580b6c5ee4db4126c7655fb4bef6c430b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:45.865032+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

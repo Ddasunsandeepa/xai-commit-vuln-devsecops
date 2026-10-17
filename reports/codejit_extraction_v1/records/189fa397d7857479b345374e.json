@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick",
+  "commit_id": "280215b9936d145dd5ee91403738ccce1333cab1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rewrite reading pixel values.",
+  "patch_path": "reports/codejit_extraction_v1/records/189fa397d7857479b345374e.diff.gz",
+  "diff_bytes": 5444,
+  "diff_sha256": "ad02e646aab54f320689ceafebfb135c9808fa2126aced9404e91cfde4b54c34",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:06.556214+00:00",
+  "url": "https://github.com/imagemagick/imagemagick.git"
+}

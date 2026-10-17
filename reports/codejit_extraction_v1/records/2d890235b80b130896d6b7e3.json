@@ -1,0 +1,16 @@
+{
+  "repo": "paulusmack___ppp",
+  "commit_id": "d741a3b912f17d84dc8dc87474e0b989c775de50",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added EAP support with MD5-Challenge and SRP-SHA1 methods.  Tested\non Linux (with both methods) and on Solaris (just MD5-Challenge).\nFixed several Makefiles that were missing references to required\nmodules such as tty.o.",
+  "patch_path": "reports/codejit_extraction_v1/records/2d890235b80b130896d6b7e3.diff.gz",
+  "diff_bytes": 150382,
+  "diff_sha256": "e3c3768ddd20392e73348f298b7fc5be940a73331f575e0c50770a165566404b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:53.268279+00:00",
+  "url": "https://github.com/paulusmack/ppp.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "b7e666e465f138ae48ab81976726e67deed12701",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added fix to avoid potential heap buffer overflow in H.323 dissector\nModified HTTP report information to make it closer to the HTTP field names",
+  "patch_path": "reports/codejit_extraction_v1/records/a2c13c6034cd4677ca6a4d2b.diff.gz",
+  "diff_bytes": 986191,
+  "diff_sha256": "5ddf5d90ee4dbb62c3fa07a84995f1d003060234e1d6f1f95c9edf06d43badb5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:29.910606+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

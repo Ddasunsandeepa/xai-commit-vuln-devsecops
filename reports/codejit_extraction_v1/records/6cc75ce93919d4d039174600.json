@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___miniupnp",
+  "commit_id": "c7d7efd2302b561e0d321c7e9c426396174bf6cc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix realloc failure issues detected thanks to cppcheck",
+  "patch_path": "reports/codejit_extraction_v1/records/6cc75ce93919d4d039174600.diff.gz",
+  "diff_bytes": 14982,
+  "diff_sha256": "3001ca739456ff5364626a063f36517c393cf579db7adb4e2db8ff66590ad3b6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:07.008836+00:00",
+  "url": "https://github.com/miniupnp/miniupnp.git"
+}

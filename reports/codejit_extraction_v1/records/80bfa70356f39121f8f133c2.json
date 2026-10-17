@@ -1,0 +1,16 @@
+{
+  "repo": "dovecot___core",
+  "commit_id": "7c849dbc7be089175c1a83a84ee7249ed695810d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "login: Differentiate between auth failure and auth process communication failure.\nLog a warning if auth connection dies.",
+  "patch_path": "reports/codejit_extraction_v1/records/80bfa70356f39121f8f133c2.diff.gz",
+  "diff_bytes": 3657,
+  "diff_sha256": "77e1aeaffe67cb8da23d9a3753d2ca36ff217202cfcc538afc47c1aa1c99f7e4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:16.240211+00:00",
+  "url": "https://github.com/dovecot/core.git"
+}

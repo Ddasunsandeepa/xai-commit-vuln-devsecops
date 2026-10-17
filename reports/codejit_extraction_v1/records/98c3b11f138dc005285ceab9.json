@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "819bcef03907c8df8fc0fa78c0d43db98279ffa9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ogg Opus: handle cases where first sample has non 0 time\n\nBug: 19286916\nChange-Id: I660daae57e7b7e793f55154c74347e9d53627324",
+  "patch_path": "reports/codejit_extraction_v1/records/98c3b11f138dc005285ceab9.diff.gz",
+  "diff_bytes": 2868,
+  "diff_sha256": "8fc80721688a8910a50a7c67c9209bb0f224b6400e3a25bfab40fff312921de0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:03.080669+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

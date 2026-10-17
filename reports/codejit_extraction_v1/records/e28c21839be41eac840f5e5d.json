@@ -1,0 +1,16 @@
+{
+  "repo": "mariadb___server",
+  "commit_id": "0b5a5258abbeaf8a0c3a18c7e753699787fdf46e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "MW-416 DDL replication moved after acl checking\n\ngalera_events test shows a regression with the original fix for MW-416\nReason was that Events::drop_event() can be called also from inside event\nexecution, and there we have a speacial treatment for event, which executes\n\"DROP EVENT\" statement, and runs TOI replication inside the event processing body.\nThis resulted in executing WSREP_TO_ISOLATION two times for such DROP EVENT statement.\nFix is to call WSREP_TO_ISOLATION_BEGIN only in Events::drop_event()",
+  "patch_path": "reports/codejit_extraction_v1/records/e28c21839be41eac840f5e5d.diff.gz",
+  "diff_bytes": 1686,
+  "diff_sha256": "7fc9b5b53d38e09d0fb2ca70fb691a2be6d4ee3640ea12bb1d36696ba0428e43",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:00.302970+00:00",
+  "url": "https://github.com/mariadb/server.git"
+}

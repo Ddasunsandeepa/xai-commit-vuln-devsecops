@@ -1,0 +1,16 @@
+{
+  "repo": "curl___curl",
+  "commit_id": "f3a24d7916b9173c69a3e0ee790102993833d6c5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Curl_auth_create_plain_message: fix too-large-input-check\n\nCVE-2018-16839\nReported-by: Harry Sintonen\nBug: https://curl.haxx.se/docs/CVE-2018-16839.html",
+  "patch_path": "reports/codejit_extraction_v1/records/5381b86a52000930f91938b9.diff.gz",
+  "diff_bytes": 509,
+  "diff_sha256": "fb0a42b450e3b928d3b21b68961735764d8b40cf2995001762a91a0ad76ac1f4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:02.382693+00:00",
+  "url": "https://github.com/curl/curl.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "c2e8ffe451e2a78161037ca09a3516e65c80675c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix in the case of invalid SPS PPS\n\nBug: 31092462\nChange-Id: I0e2ab5a1088717bbf36f6b0cf859b5a6e0f59c5d",
+  "patch_path": "reports/codejit_extraction_v1/records/072efe49a6fa6e7bb4c666f6.diff.gz",
+  "diff_bytes": 1908,
+  "diff_sha256": "ae752fcab2e915535639dc2cd8ac2997dc0ab8e11e7151a04ca89a1e7d5aba9b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:24.256920+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

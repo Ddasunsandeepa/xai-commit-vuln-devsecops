@@ -1,0 +1,16 @@
+{
+  "repo": "weidai11___cryptopp",
+  "commit_id": "837bc18cba61043c59a6f46654fba82642592601",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "added blinding and error checking for RW private key operation",
+  "patch_path": "reports/codejit_extraction_v1/records/4dccb1cd1847b7e52c73c4fe.diff.gz",
+  "diff_bytes": 1826,
+  "diff_sha256": "980b1ef434badc05646bb4ec71d7614665215970a4736e267bf73a6e5c08720d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:08.251443+00:00",
+  "url": "https://github.com/weidai11/cryptopp.git"
+}

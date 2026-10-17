@@ -1,0 +1,16 @@
+{
+  "repo": "plougher___squashfs-tools",
+  "commit_id": "79b5a555058eef4e1e7ff220c344d39f8cd09646",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Unsquashfs: fix write outside destination directory exploit\n\nAn issue on Github (https://github.com/plougher/squashfs-tools/issues/72)\nshows how some specially crafted Squashfs filesystems containing\ninvalid file names (with '/' and ..) can cause Unsquashfs to write\nfiles outside of the destination directory.\n\nThis commit fixes this exploit by checking all names for\nvalidity.\n\nIn doing so I have also added checks for '.' and for names that\nare shorter than they should be (names in the file system should\nnot have '\\0' terminators).\n\nSigned-off-by: Phillip Lougher <phillip@squashfs.org.uk>",
+  "patch_path": "reports/codejit_extraction_v1/records/4d3e0c1e560b8d7fafb5abf4.diff.gz",
+  "diff_bytes": 8204,
+  "diff_sha256": "c3ce444682b04244f8f6cf9822930961abd55f94ff54338a8804f49051ed4f34",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:40.425833+00:00",
+  "url": "https://github.com/plougher/squashfs-tools.git"
+}

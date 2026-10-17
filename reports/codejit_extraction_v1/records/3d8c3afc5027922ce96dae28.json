@@ -1,0 +1,16 @@
+{
+  "repo": "thorfdbg___libjpeg",
+  "commit_id": "ef4a29a62ab48b8dc235f4af52cfd6319eda9a6a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added out-of-bounds checks for lossless symbol decoding and AC context\nindices. Worked around some gcc warnings. Bumped to 1.64.",
+  "patch_path": "reports/codejit_extraction_v1/records/3d8c3afc5027922ce96dae28.diff.gz",
+  "diff_bytes": 9430,
+  "diff_sha256": "4ab28c13ee0012ef9059ca1f61b3122546f0aa982b36d606d95edb295c2b6474",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:37.759301+00:00",
+  "url": "https://github.com/thorfdbg/libjpeg.git"
+}

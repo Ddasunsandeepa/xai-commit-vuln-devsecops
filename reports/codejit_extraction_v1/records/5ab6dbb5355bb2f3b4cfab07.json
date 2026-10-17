@@ -1,0 +1,16 @@
+{
+  "repo": "monkey___monkey",
+  "commit_id": "15f72c1ee5e0afad20232bdf0fcecab8d62a5d89",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Mandril: check decoded URI (fix #92)\n\nSigned-off-by: Eduardo Silva <eduardo@monkey.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/5ab6dbb5355bb2f3b4cfab07.diff.gz",
+  "diff_bytes": 590,
+  "diff_sha256": "cc9d45d252fc1e0e328ac84c2a6d589d8aa33eee915f8d5c5842ba6000402aec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:39.188995+00:00",
+  "url": "https://github.com/monkey/monkey.git"
+}

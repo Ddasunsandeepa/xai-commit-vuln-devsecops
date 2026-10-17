@@ -1,0 +1,16 @@
+{
+  "repo": "opencv___opencv",
+  "commit_id": "797030aa901f3ddc64440b90e7ec1a270d988c93",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Solution to issue #7408",
+  "patch_path": "reports/codejit_extraction_v1/records/37a4b08c26b07a64938528d4.diff.gz",
+  "diff_bytes": 526,
+  "diff_sha256": "18393c9d2761d8a64bfbf966763308f9d66f2b0911717f0a7a0c7280536175c7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:31.270777+00:00",
+  "url": "https://github.com/opencv/opencv.git"
+}

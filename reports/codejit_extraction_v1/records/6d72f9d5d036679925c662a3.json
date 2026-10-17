@@ -1,0 +1,16 @@
+{
+  "repo": "h2o___h2o",
+  "commit_id": "1c0808d580da09fdec5a9a74ff09e103ea058dd4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "h2: use after free on premature connection close #920\n\nlib/http2/connection.c:on_read() calls parse_input(), which might free\n`conn`. It does so in particular if the connection preface isn't\nthe expected one in expect_preface(). `conn` is then used after the free\nin `if (h2o_timeout_is_linked(&conn->_write.timeout_entry)`.\nWe fix this by adding a return value to close_connection that returns a\nnegative value if `conn` has been free'd and can't be used anymore.\n\nCredits for finding the bug to Tim Newsham.",
+  "patch_path": "reports/codejit_extraction_v1/records/6d72f9d5d036679925c662a3.diff.gz",
+  "diff_bytes": 2946,
+  "diff_sha256": "a0576c5d5b394a3d299488d4e084f17fe9e3864309e4e129ad2de23cc399f1b7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:34.979554+00:00",
+  "url": "https://github.com/h2o/h2o.git"
+}

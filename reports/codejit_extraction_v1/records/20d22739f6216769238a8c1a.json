@@ -1,0 +1,16 @@
+{
+  "repo": "jktjkt___trojita",
+  "commit_id": "25fffa3e25cbad85bbca804193ad336b090a9ce1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "IMAP: refuse to work when STARTTLS is required but server sends PREAUTH\n\nOops, we cannot send STARTTLS when the connection is already authenticated.\nThis is serious enough to warrant an error; an attacker might be going after a\nplaintext of a message we're going to APPEND, etc.\n\nThanks to Arnt Gulbrandsen on the imap-protocol ML for asking what happens when\nwe're configured to request STARTTLS and a PREAUTH is received, and to Michael M\nSlusarz for starting that discussion.\n\nHope the error message is readable enough.\n\nCVE: CVE-2014-2567",
+  "patch_path": "reports/codejit_extraction_v1/records/20d22739f6216769238a8c1a.diff.gz",
+  "diff_bytes": 2913,
+  "diff_sha256": "cb50279fd7033040b15b3c9168be0cda3c19c0f138662290e7d7db77bce2ac25",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:57.950484+00:00",
+  "url": "https://github.com/jktjkt/trojita.git"
+}

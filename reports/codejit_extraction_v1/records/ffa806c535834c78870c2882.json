@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "eb41999461b6f428186c55abd95f4ce1a76217d5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bugs of stack reallocation x GC\n\nMacro 'checkstackGC' was doing a GC step after resizing the stack;\nthe GC could shrink the stack and undo the resize. Moreover, macro\n'checkstackp' also does a GC step, which could remove the preallocated\nCallInfo when calling a function. (Its name has been changed to\n'checkstackGCp' to emphasize that it calls the GC.)",
+  "patch_path": "reports/codejit_extraction_v1/records/ffa806c535834c78870c2882.diff.gz",
+  "diff_bytes": 4383,
+  "diff_sha256": "5dd071ce12c22d815d4bd47920431e8fccff762681c354c2aa22be98798d7274",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:49.355142+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

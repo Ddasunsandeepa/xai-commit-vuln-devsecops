@@ -1,0 +1,16 @@
+{
+  "repo": "vim___vim",
+  "commit_id": "f417f2b6af7926edf70c6a95f6972a2dec63bdf0",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "updated for version 7.0091",
+  "patch_path": "reports/codejit_extraction_v1/records/8291c6e565e4e92f97b03fa1.diff.gz",
+  "diff_bytes": 35956,
+  "diff_sha256": "2ef8b2c267b7b5ad5e017bf5d537797c7254bddc1ccdffd057723554a495d4dd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:35.343378+00:00",
+  "url": "https://github.com/vim/vim.git"
+}

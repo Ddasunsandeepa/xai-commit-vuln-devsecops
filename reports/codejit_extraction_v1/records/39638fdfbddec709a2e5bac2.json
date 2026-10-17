@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "8fb0f92e0fe3c286ebb120bae9e1570ee109fa12",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "servicemanager: log pid and uid on selinux denial\n\nThe audit logs for servicemanager were missing the pid and uid of the source.\nThis is useful for debugging.\n\nBefore:\n... SELinux : avc:  denied  { find } for service=android.security.keystore scontext=u:r:system_app:s0 ...\nAfter:\n... SELinux : avc:  denied  { find } for service=android.security.keystore pid=1252 uid=1000 scontext=u:r:system_app:s0 ...\n\nChange-Id: Id1a6f38b99f11a31315439620ead2f01108b18b2\nSigned-off-by: William Roberts <william.c.roberts@intel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/39638fdfbddec709a2e5bac2.diff.gz",
+  "diff_bytes": 4727,
+  "diff_sha256": "52d55e43044728824dd5044bd740565ce885ac3f692cff5747c6bcf568c1949c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:47.790715+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

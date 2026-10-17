@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "7c88b498fda1c2b608a9dd73960a2fd4d7b7e3f7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "IOMX: allow configuration after going to loaded state\n\nThis was disallowed recently but we still use it as MediaCodcec.stop\nonly goes to loaded state, and does not free component.\n\nBug: 31450460\nChange-Id: I72e092e4e55c9f23b1baee3e950d76e84a5ef28d\n(cherry picked from commit e03b22839d78c841ce0a1a0a1ee1960932188b0b)",
+  "patch_path": "reports/codejit_extraction_v1/records/7fe4b0416f931a941eac9a45.diff.gz",
+  "diff_bytes": 1134,
+  "diff_sha256": "9fcfd25e7071b29442092540fc56a563687f8e2e13eaacb84ff1be609e53ea5a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:01.670779+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "naviserver___naviserver",
+  "commit_id": "a5c3079f1d8996d5f34c9384a440acf3519ca3bb",
+  "label": 0,
+  "split": "train",
+  "status": "failed",
+  "error": "RuntimeError: fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+  "message": "",
+  "patch_path": "",
+  "diff_bytes": 0,
+  "diff_sha256": "",
+  "parent_count": null,
+  "is_merge": null,
+  "attempted_at_utc": "2026-10-17T17:07:20.364713+00:00",
+  "url": "https://github.com/naviserver/naviserver.git"
+}

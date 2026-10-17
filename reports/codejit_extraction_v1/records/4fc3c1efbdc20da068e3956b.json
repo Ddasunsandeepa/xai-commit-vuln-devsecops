@@ -1,0 +1,16 @@
+{
+  "repo": "taglib___taglib",
+  "commit_id": "fc8c7d357b9fd53940d6ced8aebea04cd4ac6aa5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do a bounds check before trying to find the mid.\n\nCCMAIL:Felix Hupfeld <hupfeld@zib.de>\n\n\ngit-svn-id: svn://anonsvn.kde.org/home/kde/trunk/kdesupport/taglib@415196 283d02a7-25f6-0310-bc7c-ecb5cbfe19da",
+  "patch_path": "reports/codejit_extraction_v1/records/4fc3c1efbdc20da068e3956b.diff.gz",
+  "diff_bytes": 372,
+  "diff_sha256": "f38f80523445adbbf226f3a21b71ab2153282ee58440c063020c8ebab0c7497c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:49.340223+00:00",
+  "url": "https://github.com/taglib/taglib.git"
+}

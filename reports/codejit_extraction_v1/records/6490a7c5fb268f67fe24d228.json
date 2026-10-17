@@ -1,0 +1,16 @@
+{
+  "repo": "upx___upx",
+  "commit_id": "90279abdfcd235172eab99651043051188938dcc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "PackLinuxElf::canUnpack must checkEhdr() for ELF input\n\nhttps://github.com/upx/upx/issues/485\n\tmodified:   p_lx_elf.cpp",
+  "patch_path": "reports/codejit_extraction_v1/records/6490a7c5fb268f67fe24d228.diff.gz",
+  "diff_bytes": 1310,
+  "diff_sha256": "d6670049b95d97a12f361b4a6bfe59c0d9131cf1f13e4d63bb307edef702ae1c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:41.102359+00:00",
+  "url": "https://github.com/upx/upx.git"
+}

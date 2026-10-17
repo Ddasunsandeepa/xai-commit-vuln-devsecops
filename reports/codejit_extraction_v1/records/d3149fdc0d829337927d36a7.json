@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "c79ce737478bbc419bd107c0bb369c473effef1e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "virtio-9p: Implement server side of setattr for 9P2000.L protocol.\n\nSYNOPSIS\n\n      size[4] Tsetattr tag[2] attr[n]\n\n      size[4] Rsetattr tag[2]\n\n   DESCRIPTION\n\n      The setattr command changes some of the file status information.\n      attr resembles the iattr structure used in Linux kernel. It\n      specifies which status parameter is to be changed and to what\n      value. It is laid out as follows:\n\n         valid[4]\n            specifies which status information is to be changed. Possible\n            values are:\n            ATTR_MODE       (1 << 0)\n            ATTR_UID        (1 << 1)\n            ATTR_GID        (1 << 2)\n            ATTR_SIZE       (1 << 3)\n            ATTR_ATIME      (1 << 4)\n            ATTR_MTIME      (1 << 5)\n            ATTR_CTIME      (1 << 5)\n            ATTR_ATIME_SET  (1 << 7)\n            ATTR_MTIME_SET  (1 << 8)\n\n            The last two bits represent whether the time information\n            is being sent by the client's user space. In the absense\n            of these bits the server always uses server's time.\n\n         mode[4]\n            File permission bits\n\n         uid[4]\n            Owner id of file\n\n         gid[4]\n            Group id of the file\n\n         size[8]\n            File size\n\n         atime_sec[8]\n            Time of last file access, seconds\n\n         atime_nsec[8]\n            Time of last file access, nanoseconds\n\n         mtime_sec[8]\n            Time of last file modification, seconds\n\n         mtime_nsec[8]\n            Time of last file modification, nanoseconds\n\nExplanation of the patches:\n--------------------------\n\n*) The kernel just copies relevent contents of iattr structure to p9_iattr_dotl\n   structure and passes it down to the client. The only check it has is calling\n   inode_change_ok()\n*) The p9_iattr_dotl structure does not have ctime and ia_file parameters because\n   I don't think these are needed in our case. The client user space can request\n   updating just ctime by calling chown(fd, -1, -1). This is handled on server\n   side without a need for putting ctime on the wire.\n*) The server currently supports changing mode, time, ownership and size of the\n   file.\n*) 9P RFC says \"Either all the changes in wstat request happen, or none of them\n   does: if the request succeeds, all changes were made; if it fails, none were.\"\n   I have not done anything to implement this specifically because I don't see\n   a reason.\n\n[jvrao@linux.vnet.ibm.com: Parts of code for handling chown(-1,-1)\n\nSigned-off-by: Sripathi Kodi <sripathik@in.ibm.com>\nSigned-off-by: Venkateswararao Jujjuri <jvrao@linux.vnet.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/d3149fdc0d829337927d36a7.diff.gz",
+  "diff_bytes": 6721,
+  "diff_sha256": "92229728c6160e8ff75df4dadc5aafa81b2079801cc8e0af2b7645b316009b2c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:25.794917+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

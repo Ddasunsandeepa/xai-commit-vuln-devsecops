@@ -1,0 +1,16 @@
+{
+  "repo": "snapcore___snapd",
+  "commit_id": "bc463e228508034cbd1fe14ee30d7c7a301dbb4e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Split off mount support functions to dedicated module\n\nNote that unlike what was there before, all functions are always defined,\nregardless of STRICT_CONFINEMENT. The body of some functions ends up being\nempty but they are always there.\n\nSigned-off-by: Zygmunt Krynicki <zkrynicki@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/8a9af28ae262d854f1c49a4e.diff.gz",
+  "diff_bytes": 12070,
+  "diff_sha256": "d9ea7275df51207c525140ae1a0183752191f28cd5f6ab9e7bf32a63b77bcba3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:20.645625+00:00",
+  "url": "https://github.com/snapcore/snapd.git"
+}

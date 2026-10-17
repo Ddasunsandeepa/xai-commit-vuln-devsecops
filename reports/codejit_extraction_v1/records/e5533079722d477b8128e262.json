@@ -1,0 +1,16 @@
+{
+  "repo": "alandekok___freeradius-server",
+  "commit_id": "a9224bc2fe79ddf66ed94631e1382fe820627a42",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use new radlog_request function",
+  "patch_path": "reports/codejit_extraction_v1/records/e5533079722d477b8128e262.diff.gz",
+  "diff_bytes": 2445,
+  "diff_sha256": "123f1765d234664f03b3098ac1e38a5bdf2bce0701dbaf3392b93ad051ae1296",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:16.745180+00:00",
+  "url": "https://github.com/alandekok/freeradius-server.git"
+}

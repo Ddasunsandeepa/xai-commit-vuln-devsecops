@@ -1,0 +1,16 @@
+{
+  "repo": "maekitalo___tntnet",
+  "commit_id": "3b2543ece9baa0437d3262ee191db1d4b22dcb0c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "optimization: use fixed size buffer of 4k for message header to reduce allocations\nadd some unit tests\n\n\ngit-svn-id: svn://svn.code.sf.net/p/tntnet/code/trunk@1147 8dd45c8f-be11-0410-86c3-e0da43b70fc1",
+  "patch_path": "reports/codejit_extraction_v1/records/93d20d0636130a668f8f980b.diff.gz",
+  "diff_bytes": 34161,
+  "diff_sha256": "85dda7090ae1887a7a7ce0654b8dda3797b7bbb113433225f89d61da5e217394",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:57.099474+00:00",
+  "url": "https://github.com/maekitalo/tntnet.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "46b32337ac848597706c3e612ea7b18614a96ae8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "core: entry_std: free/put by mobj in call cleanup\n\nUse the mobj pointer instead of a shm_ref when  cleaning up parameters\nin cleanup_shm_refs() at the end of a call.\n\nReviewed-by: Etienne Carriere <etienne.carriere@linaro.org>\nSigned-off-by: Jens Wiklander <jens.wiklander@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/bd5c7fac8f5108d208c06096.diff.gz",
+  "diff_bytes": 5054,
+  "diff_sha256": "f23916541e8bada340d11eddddc7777796d0667d51534c84ebbde5b2f00ab82d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:19.009505+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

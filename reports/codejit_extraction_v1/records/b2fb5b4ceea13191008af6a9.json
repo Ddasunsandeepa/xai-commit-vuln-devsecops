@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "03f146e955e099c24f7a49eff461645e1c0a0fd7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix minimize_writes not minimizing writes since 4.15 regression\n\nCommit 13f70e3710b2df49a923cc6450ff4a8f86e65666 caused minimize_writes\nto actually not minimize anything since fsmVerify() only \"verifies\"\nthe thing does NOT exist anymore when it exist. Sigh.\n\nFA_TOUCH needs different kind of verification, stat the file instead\nto see if it needs creating afterall. This is all soooo broken...\n\nFixes: #1881",
+  "patch_path": "reports/codejit_extraction_v1/records/b2fb5b4ceea13191008af6a9.diff.gz",
+  "diff_bytes": 508,
+  "diff_sha256": "85d357d223719a31a197b0fdeee4e77fc40c9b2c276c3e9840b59d218bdcee62",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:19.531122+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

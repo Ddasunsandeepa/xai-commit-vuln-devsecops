@@ -1,0 +1,16 @@
+{
+  "repo": "neoraider___fastd",
+  "commit_id": "b89a0ec3d33015c7ebbd63b9282ac30378afe553",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "buffer: turn buffer descriptor into buffer header\n\nPreparation for const buffers.",
+  "patch_path": "reports/codejit_extraction_v1/records/41485fcc2f25c58e87bb6a1d.diff.gz",
+  "diff_bytes": 46801,
+  "diff_sha256": "b36ccd1e05b62f4ffee58427078b9d4955344f5ec4bf3579b7e7f5c2039f6d0e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:54.045736+00:00",
+  "url": "https://github.com/neoraider/fastd.git"
+}

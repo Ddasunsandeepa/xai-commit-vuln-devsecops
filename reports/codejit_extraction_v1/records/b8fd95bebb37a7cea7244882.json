@@ -1,0 +1,16 @@
+{
+  "repo": "mariadb___server",
+  "commit_id": "d627d00b13ab2f2c0954ea7b77202470cb102944",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "MDEV-26556 An improper locking bug(s) due to unreleased lock.\n\nGet rid of the global big_buffer.",
+  "patch_path": "reports/codejit_extraction_v1/records/b8fd95bebb37a7cea7244882.diff.gz",
+  "diff_bytes": 11924,
+  "diff_sha256": "df31eb342d60fbd6ae2e7cd491b9ed77aab09ea46cb284854eff8dce3808e9b0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:27.048374+00:00",
+  "url": "https://github.com/mariadb/server.git"
+}

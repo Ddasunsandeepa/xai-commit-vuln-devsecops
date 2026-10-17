@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "51b6a8354ce6c2cff10064f2f7b59ca14d7e1350",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "http: reduce delay-close issues for HTTP/1.1 and below (#19863)\n\nskipping delay close for HTTP/1.0 framed by connection close (as it simply reduces time to end-framing) as well as HTTP/1.1 iff the request is fully read (so there's no FIN-RST race)\n\nAddresses the Envoy-specific parts of #19821 \n\nSigned-off-by: Alyssa Wilk <alyssar@chromium.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/91b47545f85604e865b8d6f4.diff.gz",
+  "diff_bytes": 9295,
+  "diff_sha256": "c31735970cfa9eac6ee5d39986acb7668983a645070a975403290afd4c43854b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:39.639299+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

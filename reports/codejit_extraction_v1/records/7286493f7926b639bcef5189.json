@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxcfs",
+  "commit_id": "a8b6c3e0537e90fba3c55910fd1b7229d54a60a7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix checking of parent directories\n\nTaken from the justification in the launchpad bug:\n\nTo a task in freezer cgroup /a/b/c/d, it should appear that there are no\ncgroups other than its descendents. Since this is a filesystem, we must have\nthe parent directories, but each parent cgroup should only contain the child\nwhich the task can see.\n\nSo, when this task looks at /a/b, it should see only directory 'c' and no\nfiles. Attempt to create /a/b/x should result in -EPERM, whether /a/b/x already\nexists or not. Attempts to query /a/b/x should result in -ENOENT whether /a/b/x\nexists or not. Opening /a/b/tasks should result in -ENOENT.\n\nThe caller_may_see_dir checks specifically whether a task may see a cgroup\ndirectory - i.e. /a/b/x if opening /a/b/x/tasks, and /a/b/c/d if doing\nopendir('/a/b/c/d').\n\ncaller_is_in_ancestor() will return true if the caller in /a/b/c/d looks at\n/a/b/c/d/e. If the caller is in a child cgroup of the queried one - i.e. if the\ntask in /a/b/c/d queries /a/b, then *nextcg will container the next (the only)\ndirectory which he can see in the path - 'c'.\n\nBeyond this, regular DAC permissions should apply, with the\nroot-in-user-namespace privilege over its mapped uids being respected. The\nfc_may_access check does this check for both directories and files.\n\nThis is CVE-2015-1342 (LP: #1508481)\n\nSigned-off-by: Serge Hallyn <serge.hallyn@ubuntu.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/7286493f7926b639bcef5189.diff.gz",
+  "diff_bytes": 19512,
+  "diff_sha256": "c734a9d5f618d291a1a045be6cb9a6b0b617b13786e83fb532cb8851a75af710",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:54.787796+00:00",
+  "url": "https://github.com/lxc/lxcfs.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "7d65f89defb092b63bcbc5d98349fb222ca73b3c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check for multiplication overflow in sfconvert\n\nChecks that a multiplication doesn't overflow when\ncalculating the buffer size, and if it overflows,\nreduce the buffer size instead of failing.\n\nThis fixes the 00192-audiofile-signintoverflow-sfconvert case\nin #41",
+  "patch_path": "reports/codejit_extraction_v1/records/2dd0a43b16e48ca8963cb2a0.diff.gz",
+  "diff_bytes": 1508,
+  "diff_sha256": "916ea637642a3deee273c62f7322aa2c9816e62677b214636eef5417c3a0d005",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:28.525367+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "sddm___sddm",
+  "commit_id": "3349d1d84dd2ab317ba4fa15eac2e62fa906f9cd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Inherit path environment variables from parent\n\nMake themes installed in non-standard locations work.\n\nIssue: #410\n\n[ChangeLog][Daemon][Greater] Inherit path environment variables from\nparent so that themes installed in non-standard paths will work.",
+  "patch_path": "reports/codejit_extraction_v1/records/cebc71a4169140d9b9befb01.diff.gz",
+  "diff_bytes": 1314,
+  "diff_sha256": "668aa17133c89a9d1c974146417b81fee754d0b7187a1968713d95053411bf24",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:41.311183+00:00",
+  "url": "https://github.com/sddm/sddm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "ddb2dd7edbccc5596d8e3c039133be8444cb1d02",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avcodec/lagarith: Fix runtime error: left shift of negative value -1\n\nFixes: 1424/clusterfuzz-testcase-minimized-6088327159611392\n\nFound-by: continuous fuzzing process https://github.com/google/oss-fuzz/tree/master/targets/ffmpeg\nSigned-off-by: Michael Niedermayer <michael@niedermayer.cc>",
+  "patch_path": "reports/codejit_extraction_v1/records/169afe6628ca3c63a4cd2f4c.diff.gz",
+  "diff_bytes": 411,
+  "diff_sha256": "920995f2f0d5b6db3223e9ad4e6e7675dc4224a9dd5a032a7abd75d66b24effa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:13.352462+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

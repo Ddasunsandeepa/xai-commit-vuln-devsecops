@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "8649f2f9b2d83b627199babc52b454db136e253c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "migration: use bdrv_drain_all_begin/end() instead bdrv_drain_all()\n\nblk/bdrv_drain_all() only takes effect for a single instant and then\nresumes block jobs, guest devices, and other external clients like the\nNBD server.  This can be handy when performing a synchronous drain\nbefore terminating the program, for example.\n\nMonitor commands usually need to quiesce I/O across an entire code\nregion so blk/bdrv_drain_all() is not suitable.  They must use\nbdrv_drain_all_begin/end() to mark the region.  This prevents new I/O\nrequests from slipping in or worse - block jobs completing and modifying\nthe graph.\n\nI audited other blk/bdrv_drain_all() callers but did not find anything\nthat needs a similar fix.  This patch fixes the savevm/loadvm commands.\nAlthough I haven't encountered a read world issue this makes the code\nsafer.\n\nSuggested-by: Kevin Wolf <kwolf@redhat.com>\nSigned-off-by: Stefan Hajnoczi <stefanha@redhat.com>\nReviewed-by: Eric Blake <eblake@redhat.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/54de73a17974aef76761f8e3.diff.gz",
+  "diff_bytes": 1865,
+  "diff_sha256": "1ec0868c07277b50fb70acb4572a8c202a64eedef06a9e092c50d057a905b818",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:05.329196+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

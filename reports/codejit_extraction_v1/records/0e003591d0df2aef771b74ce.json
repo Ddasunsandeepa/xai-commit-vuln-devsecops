@@ -1,0 +1,16 @@
+{
+  "repo": "uriparser___uriparser",
+  "commit_id": "864f5d4c127def386dd5cc926ad96934b297f04e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "UriQuery.c: Fix out-of-bounds-write in ComposeQuery and ...Ex\n\nReported by Google Autofuzz team",
+  "patch_path": "reports/codejit_extraction_v1/records/0e003591d0df2aef771b74ce.diff.gz",
+  "diff_bytes": 2171,
+  "diff_sha256": "00db1743b5192b68c26f45eb5b015e9b8ca349380401b69b5bdb8c197381ff22",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:43.032202+00:00",
+  "url": "https://github.com/uriparser/uriparser.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "accel-ppp___accel-ppp",
+  "commit_id": "e9d369aa0054312b7633e964e9f7eb323f1f3d69",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "radius: sanity check for vendor attribute length",
+  "patch_path": "reports/codejit_extraction_v1/records/bc93d2e05aa768b09ff17aa0.diff.gz",
+  "diff_bytes": 699,
+  "diff_sha256": "a0bd423dc7796549c3ff78cdf8c7662078d93eaf7ee4bcd5ea8495c1a6740180",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:12.554135+00:00",
+  "url": "https://github.com/accel-ppp/accel-ppp.git"
+}

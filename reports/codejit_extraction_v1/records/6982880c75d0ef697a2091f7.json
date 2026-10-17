@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "6d74ca5aa83b83fb52332f7735c61ecb7a5328c1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "virtio: verify features on load\n\nmigrating between hosts which have different features\nmight break silently, if the migration destination\ndoes not support some features supported by source.\n\nPrevent this from happening by comparing acked feature\nbits with the mask supported by the device.\n\nSigned-off-by: Michael S. Tsirkin <mst@redhat.com>\nSigned-off-by: Anthony Liguori <aliguori@us.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/6982880c75d0ef697a2091f7.diff.gz",
+  "diff_bytes": 4438,
+  "diff_sha256": "9ad097f34ebb0723e16e6e0c62e3d65ab565dc36ff5494a41aef0c9e76ea09b8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:55.267628+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

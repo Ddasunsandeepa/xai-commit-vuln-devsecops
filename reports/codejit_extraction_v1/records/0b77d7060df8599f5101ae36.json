@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "704866eabe03a9aeda044ec91a8d0c83fc1ebdbe",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix overflow CHECK issue with `tf.raw_ops.UnsortedSegmentJoin`.\n\nPiperOrigin-RevId: 370766155\nChange-Id: I33e7c6626224e1060a8a4ab51ad5d861c6d4c63e",
+  "patch_path": "reports/codejit_extraction_v1/records/0b77d7060df8599f5101ae36.diff.gz",
+  "diff_bytes": 725,
+  "diff_sha256": "87c5a61ff6d42c43cfdb0efa2fdbe6b53e841b16c9e57e3bbcdcd1d55aee7cb0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:32:56.782533+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "openrc___openrc",
+  "commit_id": "8400e7d3025a2957960e3f4ee3cb37a376235886",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "style fix",
+  "patch_path": "reports/codejit_extraction_v1/records/205889b6b7571a4fd7818dc6.diff.gz",
+  "diff_bytes": 752,
+  "diff_sha256": "9475133facad7320a4afc69c267b7874eab1c43199e4a6145cb893f0ed240bf0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:55.566497+00:00",
+  "url": "https://github.com/openrc/openrc.git"
+}

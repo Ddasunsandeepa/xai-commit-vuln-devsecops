@@ -1,0 +1,16 @@
+{
+  "repo": "gssapi___gssproxy",
+  "commit_id": "cb761412e299ef907f22cd7c4146d50c8a792003",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Unlock cond_mutex before pthread exit in gp_worker_main()\n\nSigned-off-by: GuiYao <guiyao@huawei.com>\n[rharwood@redhat.com: whitespace, tweak commit message]\nReviewed-by: Robbie Harwood <rharwood@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/d72f4a9d5410001e36380f10.diff.gz",
+  "diff_bytes": 444,
+  "diff_sha256": "2a395dda0ec3d73b14f0ef3993a2c1ddda73b5d06e68cb1d203e74165285455f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:34.693229+00:00",
+  "url": "https://github.com/gssapi/gssproxy.git"
+}

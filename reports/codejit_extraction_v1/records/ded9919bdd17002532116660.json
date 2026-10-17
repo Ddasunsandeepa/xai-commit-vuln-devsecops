@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "03e6bfb446f4e3f27c003d30d6a433e5dd8e2b3d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "apply OIDCRedirectURLsAllowed setting to target_link_uri\n\ncloses #672; thanks @Meheni\nrelease 2.4.9.4\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/ded9919bdd17002532116660.diff.gz",
+  "diff_bytes": 10211,
+  "diff_sha256": "c440babe61839319a8f698f1b958a59ad7cdfc710e35442a9f2b16ef6113bc8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:19.561080+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

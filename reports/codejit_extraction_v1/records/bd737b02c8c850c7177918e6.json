@@ -1,0 +1,16 @@
+{
+  "repo": "mtrojnar___stunnel",
+  "commit_id": "0e158f6f007242e1ad0309d743390e8362d79d3f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stunnel-5.56",
+  "patch_path": "reports/codejit_extraction_v1/records/bd737b02c8c850c7177918e6.diff.gz",
+  "diff_bytes": 188380,
+  "diff_sha256": "910f039b7da40da4e1051127d67c6e8950ac1f913560a0c65da7202a90a12616",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:57.664462+00:00",
+  "url": "https://github.com/mtrojnar/stunnel.git"
+}

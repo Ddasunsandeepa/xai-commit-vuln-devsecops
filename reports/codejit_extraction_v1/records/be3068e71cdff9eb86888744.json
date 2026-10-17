@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___ngiflib",
+  "commit_id": "b588a2249c7abbfc52173e32ee11d6facef82f89",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "check GIF image position and dimensions\n\nfixes #1",
+  "patch_path": "reports/codejit_extraction_v1/records/be3068e71cdff9eb86888744.diff.gz",
+  "diff_bytes": 1030,
+  "diff_sha256": "01cb2b2741f04541a9b7f8f0af43344bdc6d381955c751dd44d1317882b3b3dc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:08.141296+00:00",
+  "url": "https://github.com/miniupnp/ngiflib.git"
+}

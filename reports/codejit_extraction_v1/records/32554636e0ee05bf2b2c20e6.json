@@ -1,0 +1,16 @@
+{
+  "repo": "perl5-dbi___dbd-mysql",
+  "commit_id": "8a11b95256176bac523735d04829aa9d0e95edf2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add support for fetching columns of BIT type with mysql_server_prepare=1\n\nBIT type without mysql_server_prepare=1 is already stored as binary string.\nAccess to binary bits can be achieved by perl's vec(), pack() or unpack()\nfunctions.\n\nThis patch adds support for fetching BIT type with mysql_server_prepare=1.\nValue is stored as perl binary string too. This patch also extend unit test\nfor usage of BIT type.\n\nFixes bug: https://rt.cpan.org/Public/Bug/Display.html?id=88006",
+  "patch_path": "reports/codejit_extraction_v1/records/32554636e0ee05bf2b2c20e6.diff.gz",
+  "diff_bytes": 5668,
+  "diff_sha256": "c0c8af483f35ed9d0e4f074d7dc281270c2358867ec31b6fa3c6d6281cc30a83",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:56.871957+00:00",
+  "url": "https://github.com/perl5-dbi/dbd-mysql.git"
+}

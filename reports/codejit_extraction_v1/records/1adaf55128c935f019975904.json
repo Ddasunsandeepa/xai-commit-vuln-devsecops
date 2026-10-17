@@ -1,0 +1,16 @@
+{
+  "repo": "belledonnecommunications___bzrtp",
+  "commit_id": "acf9c0099ee0e39cacb4eb25e1101fc57043d8d2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Switch to bctoolbox instead of direct usage of crypto library",
+  "patch_path": "reports/codejit_extraction_v1/records/1adaf55128c935f019975904.diff.gz",
+  "diff_bytes": 115409,
+  "diff_sha256": "c036e7a7ce0b2085f34f97430e4e8eb2cd35f2f1417b9e660450085167a52449",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:15.564035+00:00",
+  "url": "https://github.com/belledonnecommunications/bzrtp.git"
+}

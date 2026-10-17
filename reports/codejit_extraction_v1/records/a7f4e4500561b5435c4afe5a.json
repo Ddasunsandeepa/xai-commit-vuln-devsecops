@@ -1,0 +1,16 @@
+{
+  "repo": "videolan___vlc",
+  "commit_id": "9bb0353a5c63a7f8c6fc853faa3df4b4df1f5eb5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "codec: schroedinger: fix potential buffer overflow.\n\nThe variable len is a raw 32 bit value read using GetDWBE. If this\nvalue is larger than UINT32_MAX - sizeof(eos), this will cause an\ninteger overflow in the subsequent call to malloc, and finally a\nbuffer overflow when calling memcpy. We fix this by checking len\naccordingly.\n\nSigned-off-by: Jean-Baptiste Kempf <jb@videolan.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/a7f4e4500561b5435c4afe5a.diff.gz",
+  "diff_bytes": 734,
+  "diff_sha256": "b93963cb43b36d2244f26a130d334b44467617701b5b4d05a5ebf926e9b02c94",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:15.713373+00:00",
+  "url": "https://github.com/videolan/vlc.git"
+}

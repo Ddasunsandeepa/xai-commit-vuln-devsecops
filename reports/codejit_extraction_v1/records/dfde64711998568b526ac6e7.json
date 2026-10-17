@@ -1,0 +1,16 @@
+{
+  "repo": "osgeo___gdal",
+  "commit_id": "8f1af4e2891781852293e271348148a7350ff0aa",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Internal libtiff: resync with CVS head. Avoids excessive memory alloation. Fixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=2433. Credit to OSS Fuzz\n\ngit-svn-id: https://svn.osgeo.org/gdal/trunk@39402 f0d54148-0727-0410-94bb-9a71ac55c965",
+  "patch_path": "reports/codejit_extraction_v1/records/dfde64711998568b526ac6e7.diff.gz",
+  "diff_bytes": 9907,
+  "diff_sha256": "898b05999b461e13e056f0d163d8c4ac0b55625b4a216977a29bd09fc07d0700",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:34.042085+00:00",
+  "url": "https://github.com/osgeo/gdal.git"
+}

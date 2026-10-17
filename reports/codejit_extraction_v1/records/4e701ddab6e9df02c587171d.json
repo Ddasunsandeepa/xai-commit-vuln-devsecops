@@ -1,0 +1,16 @@
+{
+  "repo": "fbb-git___yodl",
+  "commit_id": "fd85f8c94182558ff1480d06a236d6fb927979a3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed invalid memory reads detected by the address sanitizer",
+  "patch_path": "reports/codejit_extraction_v1/records/4e701ddab6e9df02c587171d.diff.gz",
+  "diff_bytes": 1934,
+  "diff_sha256": "22c51229aecd70852851871ce7d808cc5822d7f69b256ecb6ba6cebf1b4cc3ed",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:22.100338+00:00",
+  "url": "https://github.com/fbb-git/yodl.git"
+}

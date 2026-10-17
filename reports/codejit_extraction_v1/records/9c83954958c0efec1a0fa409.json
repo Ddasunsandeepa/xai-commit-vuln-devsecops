@@ -1,0 +1,16 @@
+{
+  "repo": "kravietz___pam_tacplus",
+  "commit_id": "57acc34493caede512da9d24d83a0471970601d4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix minor signedness issue reported by LGTM",
+  "patch_path": "reports/codejit_extraction_v1/records/9c83954958c0efec1a0fa409.diff.gz",
+  "diff_bytes": 1002,
+  "diff_sha256": "57e578f10c49d68bcd2a1bb27f7549f0a67d0a55f2eab2f1a9d7aa7f2f40ff8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:32.748845+00:00",
+  "url": "https://github.com/kravietz/pam_tacplus.git"
+}

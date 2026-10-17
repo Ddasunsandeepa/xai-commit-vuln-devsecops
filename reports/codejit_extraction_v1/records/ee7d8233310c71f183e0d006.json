@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___wangle",
+  "commit_id": "5b3bceca875e4ea4ed9d14c20b20ce46c92c13c6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Peek for \\n in LineBasedFrameDecoder.\n\nSummary:\nPreviously this could underflow if there was not a following \\n.\n\nCVE-2019-3563\n\nReviewed By: siyengar\n\nDifferential Revision: D14935715\n\nfbshipit-source-id: 25c3eecf373f89efa1232456aeeb092f13b7fa06",
+  "patch_path": "reports/codejit_extraction_v1/records/ee7d8233310c71f183e0d006.diff.gz",
+  "diff_bytes": 2120,
+  "diff_sha256": "11560343e143b2bcdfc4cbd526b053938e4c3db80888b962446883f235927ed3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:19.951795+00:00",
+  "url": "https://github.com/facebook/wangle.git"
+}

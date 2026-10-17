@@ -1,0 +1,16 @@
+{
+  "repo": "libimobiledevice___libplist",
+  "commit_id": "2731ec0c476eb8ecf2413b9a6c209fcf24ab4f39",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "plistutil: Plug some memory leaks",
+  "patch_path": "reports/codejit_extraction_v1/records/30684416133d2df05ba9d323.diff.gz",
+  "diff_bytes": 855,
+  "diff_sha256": "eb3c295b6862de312823635a69dc6ca916da6ce18561706592c258cf87a46d8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:04.367245+00:00",
+  "url": "https://github.com/libimobiledevice/libplist.git"
+}

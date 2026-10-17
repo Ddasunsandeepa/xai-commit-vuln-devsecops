@@ -1,0 +1,16 @@
+{
+  "repo": "verdammelt___tnef",
+  "commit_id": "8dccf79857ceeb7a6d3e42c1e762e7b865d5344d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check types to avoid invalid reads/writes.",
+  "patch_path": "reports/codejit_extraction_v1/records/5fb6cdb742a294b99986ae29.diff.gz",
+  "diff_bytes": 2643,
+  "diff_sha256": "2691ec180a29803c2f492b80eff9465fb7e9e5df27219ea0cebc0d07a00199e6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:49.449531+00:00",
+  "url": "https://github.com/verdammelt/tnef.git"
+}

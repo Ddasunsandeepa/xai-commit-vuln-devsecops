@@ -1,0 +1,16 @@
+{
+  "repo": "accel-ppp___accel-ppp",
+  "commit_id": "3f148920318c8eb169d88b800c64272bd1518880",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "radius: extended support for freeradius dictionaries",
+  "patch_path": "reports/codejit_extraction_v1/records/e0a42a60a4ba93c666b0ce8e.diff.gz",
+  "diff_bytes": 32640,
+  "diff_sha256": "d3419c60d0117e76bda93d1749933e11cd6c529f7b726823b7a39e07dc4257ad",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:12.134414+00:00",
+  "url": "https://github.com/accel-ppp/accel-ppp.git"
+}

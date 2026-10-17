@@ -1,0 +1,16 @@
+{
+  "repo": "ilanschnell___bsdiff4",
+  "commit_id": "49a4cee2feef7deaf9d89e5e793a8824930284d7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "apply patch from Robert Scott to fix - shifting some bounds checking",
+  "patch_path": "reports/codejit_extraction_v1/records/30002fdf81cd291885e248ab.diff.gz",
+  "diff_bytes": 1203,
+  "diff_sha256": "88c429fc85f5c8e14523ba7b67bec2f605935d7a82ea3c2ad4eabe300387ce07",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:04.089529+00:00",
+  "url": "https://github.com/ilanschnell/bsdiff4.git"
+}

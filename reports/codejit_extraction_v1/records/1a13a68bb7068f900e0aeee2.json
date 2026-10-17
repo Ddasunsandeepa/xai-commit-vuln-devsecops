@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "9693801580c0cf7c70e862d305270a16b52826a7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Provide ISO 28500:2009 reader (aka warc, aka web archive)",
+  "patch_path": "reports/codejit_extraction_v1/records/1a13a68bb7068f900e0aeee2.diff.gz",
+  "diff_bytes": 17514,
+  "diff_sha256": "e6b9fda951ff4ccfe576911836a9b9cd00d2cf9466c07d0134f9f013c55b2fa8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:43.659491+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

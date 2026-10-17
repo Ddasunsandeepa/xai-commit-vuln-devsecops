@@ -1,0 +1,16 @@
+{
+  "repo": "wesnoth___wesnoth",
+  "commit_id": "f8914468182e8d0a1551b430c0879ba236fe4d6d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Disallow inclusion of .pbl files from WML (bug #23504)\n\nNote that this will also cause Lua wesnoth.have_file() to return false\non .pbl files.",
+  "patch_path": "reports/codejit_extraction_v1/records/3f8cedd6285d9546fb73a067.diff.gz",
+  "diff_bytes": 1338,
+  "diff_sha256": "fc4edc4406c65364fcbfe886a971309e2063c5895ceee0192bb319c89d232809",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:45:21.426046+00:00",
+  "url": "https://github.com/wesnoth/wesnoth.git"
+}

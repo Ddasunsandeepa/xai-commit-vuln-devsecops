@@ -1,0 +1,16 @@
+{
+  "repo": "zhaozg___lua-openssl",
+  "commit_id": "a6dc186dd4b6b9e329a93cca3e7e3cfccfdf3cca",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix security: GSL-2020-026",
+  "patch_path": "reports/codejit_extraction_v1/records/d75e2208e50f206f916aff20.diff.gz",
+  "diff_bytes": 4805,
+  "diff_sha256": "bea1a86e8ea823fb7e2862574d373874d58074f2c049ca14daf6fac33151d8d8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:18.943731+00:00",
+  "url": "https://github.com/zhaozg/lua-openssl.git"
+}

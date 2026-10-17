@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "a21bd93ef5223ce585985e3b426ff5f07c9f4499",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Print the build id of shared libraries if present.\n\nFor every map that has a name, and if it's a mapped in shared library,\nprint the build id.\n\nRefactor the way dump_all_maps logs data.\n\nRefactor the way stack segments are dumped.\n\nBug: 19371018\nChange-Id: Ic08d05a4b13f128925743936fb84d8059f7cb56f",
+  "patch_path": "reports/codejit_extraction_v1/records/abed2fce36829e23a3ab88d1.diff.gz",
+  "diff_bytes": 13627,
+  "diff_sha256": "b1cb1215e8cc006ee7172cd8398305dc17eac62228cebbb18192e3ac3862027c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:32.164416+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

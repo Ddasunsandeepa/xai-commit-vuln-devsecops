@@ -1,0 +1,16 @@
+{
+  "repo": "nanopb___nanopb",
+  "commit_id": "2210cd92a6237a9ff82b58cfbe0c58da25ce1e11",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Big refactoring to better separate field descriptor encoding from logic.\n\nThis will enable further development of the field descriptor encoding.",
+  "patch_path": "reports/codejit_extraction_v1/records/0d740d81301da2a89b1c61f1.diff.gz",
+  "diff_bytes": 109931,
+  "diff_sha256": "db58d180153540dd87bbdc2e9ed445f206b1ba4165495663b5dbb19a54d76d5c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:20.067400+00:00",
+  "url": "https://github.com/nanopb/nanopb.git"
+}

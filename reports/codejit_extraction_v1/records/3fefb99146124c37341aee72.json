@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "423c9393917a9d1233fe163a45a0791da306b109",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add new interpolation method, affine methods, scale and rotation",
+  "patch_path": "reports/codejit_extraction_v1/records/3fefb99146124c37341aee72.diff.gz",
+  "diff_bytes": 174774,
+  "diff_sha256": "7fe6391e86448554d7c0baff8054ef1c7db289dd4c5738abe36c3a7a813f6de4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:55.237290+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

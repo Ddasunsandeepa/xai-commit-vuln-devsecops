@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "148de954ed3585d8b4298b424aa24916d0de6136",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2021-43825\n\nResponse filter manager crash\n\nSigned-off-by: Yan Avlasov <yavlasov@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/4e167e6c92cc08c87e39b1c1.diff.gz",
+  "diff_bytes": 13902,
+  "diff_sha256": "ddd27727dcdb28499d22df0e114dddcd8e7fa5924b23fd7c21bb5c6332f50e82",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:29.557497+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "9785a8b9672f6f35f5a401a86251c4109eda4175",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[AW] Add Variations.RestartsWithStaleSeed metric.\n\nThis metric records the number of consecutive times the WebView browser\nprocess starts with a stale seed. It's written when a fresh seed is\nloaded after previously loading a stale seed.\n\nTest: Manually verified with logging that the metric was written.\nBug: 1010625\nChange-Id: Iadedb45af08d59ecd6662472670f848e8e99a8d9\nReviewed-on: https://chromium-review.googlesource.com/c/chromium/src/+/1851126\nCommit-Queue: Robbie McElrath <rmcelrath@chromium.org>\nReviewed-by: Nate Fischer <ntfschr@chromium.org>\nReviewed-by: Ilya Sherman <isherman@chromium.org>\nReviewed-by: Changwan Ryu <changwan@chromium.org>\nCr-Commit-Position: refs/heads/master@{#709417}",
+  "patch_path": "reports/codejit_extraction_v1/records/139d0ed4b3626980055715a3.diff.gz",
+  "diff_bytes": 9928,
+  "diff_sha256": "8e8938f78b14737f2da3701414d24848b2e93641c3af642bdf23210ec7cc6547",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:47:16.845902+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

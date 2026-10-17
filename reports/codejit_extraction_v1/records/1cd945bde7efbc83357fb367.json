@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "eac05f8d05ce2e3878ac4a51675b11e64831adac",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "dns: cleanup ResultIsReady() prototype",
+  "patch_path": "reports/codejit_extraction_v1/records/1cd945bde7efbc83357fb367.diff.gz",
+  "diff_bytes": 1976,
+  "diff_sha256": "aa5a0626f254f35b2ebdde6a32d110de37730f0088f96ba4f843c00da0353d6a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:41.241267+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

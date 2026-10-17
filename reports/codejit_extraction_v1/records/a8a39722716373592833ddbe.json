@@ -1,0 +1,16 @@
+{
+  "repo": "apache___httpd",
+  "commit_id": "be0f5335e3e73eb63253b050fdc23f252f5c8ae3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "*) SECURITY: CVE-2015-0253 (cve.mitre.org)\n     core: Fix a crash introduced in with ErrorDocument 400 pointing\n     to a local URL-path with the INCLUDES filter active, introduced\n     in 2.4.11. PR 57531. [Yann Ylavic]\n\n\nSubmitted By: ylavic\nCommitted By: covener\n\n\n\n\n\ngit-svn-id: https://svn.apache.org/repos/asf/httpd/httpd/trunk@1664205 13f79535-47bb-0310-9956-ffa450edef68",
+  "patch_path": "reports/codejit_extraction_v1/records/a8a39722716373592833ddbe.diff.gz",
+  "diff_bytes": 1658,
+  "diff_sha256": "9d4d63b40e7927c288eb790089926314347e8f19a122867afd3ad02d402933a7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:37.516973+00:00",
+  "url": "https://github.com/apache/httpd.git"
+}

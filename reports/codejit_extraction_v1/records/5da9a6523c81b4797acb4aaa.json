@@ -1,0 +1,16 @@
+{
+  "repo": "accel-ppp___accel-ppp",
+  "commit_id": "2324bcd5ba12cf28f47357a8f03cd41b7c04c52b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "l2tp: fix RCE through buffer overflow & fix LE/BE compatibility\n\nUnsufficent checks of valid l2tp header & avp length cause possible\nRCE through buffer overflow, reported by https://github.com/WinMin\nswings & leommxj, Chaitin Security Research Lab. Add missed header\nlength and avp length validation to fix the issue.\n\nOrder of struct bitfields is implementation-defined so current code\ndoesn't play well with big-endian arch. switch to explicit flag bit\nchecking/gathering to fix the issue.\n\nRFC 2661 and 3931 requires that length, seqeuence flags must be set\nand offset flag must not be set, so avp-premissive can't help in\nthis cases.",
+  "patch_path": "reports/codejit_extraction_v1/records/5da9a6523c81b4797acb4aaa.diff.gz",
+  "diff_bytes": 12892,
+  "diff_sha256": "9186372a14da866f5ad41ef362dc97e09186956de49e81ff8d41ef0233a3952d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:11.689437+00:00",
+  "url": "https://github.com/accel-ppp/accel-ppp.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "mpv-player___mpv",
+  "commit_id": "cd09ea92bec55ee0faf31c5a1e27d52dddf057b5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "demux_mf: use stream API to open list files\n\nmf:// has an obscure feature that lets you pass a list of filenames\nseparated by newlines. Who knows whether anyone is using that. It opened\nthese listfiles with fopen(), so the recent stream origin bullshit\ndoesn't operate on it. Fix this by using the mpv internal stream API\ninstead. Unfortunately there is no fgets(), so write an ad-hoc one. (An\nimplementation of line reading via \"stream\" is still in demux_playlist,\nbut it's better to keep it quarantined there.)",
+  "patch_path": "reports/codejit_extraction_v1/records/bc0e5f300c9490b5f49e9bba.diff.gz",
+  "diff_bytes": 3042,
+  "diff_sha256": "a0e9861c7187433752352e729958275d9932e1b2bf07768290381cd19d4caa0f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:55.393962+00:00",
+  "url": "https://github.com/mpv-player/mpv.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "7a29c8f38677d1c7474c979836562488f6bbadec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "MFH Update fileinfo to libmagic 5.00 and remove dependency on dirent.h on Windows",
+  "patch_path": "reports/codejit_extraction_v1/records/24310501d69117c5db5f0bcc.diff.gz",
+  "diff_bytes": 14239326,
+  "diff_sha256": "0ec0de7709303c0f28dceb80c3da5e9dc466b7758e56b90df2764aac6f0c486c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:00.617442+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

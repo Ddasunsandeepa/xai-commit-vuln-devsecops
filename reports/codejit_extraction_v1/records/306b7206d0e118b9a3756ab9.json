@@ -1,0 +1,16 @@
+{
+  "repo": "strukturag___libde265",
+  "commit_id": "b780d82e296aeace6bb8491efe86c73123cd52ee",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add support for hrd parameters in Video usability information",
+  "patch_path": "reports/codejit_extraction_v1/records/306b7206d0e118b9a3756ab9.diff.gz",
+  "diff_bytes": 10645,
+  "diff_sha256": "4313e8363c7960993c8ffb66a9bf9460c109d839ef4c5449faa68097266dd4a6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:44.859141+00:00",
+  "url": "https://github.com/strukturag/libde265.git"
+}

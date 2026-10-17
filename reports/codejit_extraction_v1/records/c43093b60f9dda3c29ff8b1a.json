@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "82cab8d5b36df0cbdad504b0a68602264c4ff9a3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement IMA ADPCM encoding and decoding for AIFF-C, CAF, and WAVE files.",
+  "patch_path": "reports/codejit_extraction_v1/records/c43093b60f9dda3c29ff8b1a.diff.gz",
+  "diff_bytes": 47754,
+  "diff_sha256": "eb4308b39e4c5b4bb0e920f8baf49c1427287b10bb80a0ce4e2ce60db0d73a9d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:28.838399+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

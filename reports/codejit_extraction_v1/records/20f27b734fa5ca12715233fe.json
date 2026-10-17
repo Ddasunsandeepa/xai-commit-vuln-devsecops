@@ -1,0 +1,16 @@
+{
+  "repo": "gopro___gpmf-parser",
+  "commit_id": "3e7d6eace490c87e7caf7e7e1153fc4879e8e08d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix warning appearing with gcc7.3",
+  "patch_path": "reports/codejit_extraction_v1/records/20f27b734fa5ca12715233fe.diff.gz",
+  "diff_bytes": 376,
+  "diff_sha256": "9b3e1e36f23bc74897c7adde473527c482f65b6293b47a47596a80f4067bb742",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:27.386923+00:00",
+  "url": "https://github.com/gopro/gpmf-parser.git"
+}

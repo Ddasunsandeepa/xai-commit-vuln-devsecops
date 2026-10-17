@@ -1,0 +1,16 @@
+{
+  "repo": "knik0___faad2",
+  "commit_id": "79b9ff97f8c809f0bdd7e02ff8053aeb4e6b498b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stszin: add check for allocation error and integer overflow\n\nFixes (the second part of) #49.",
+  "patch_path": "reports/codejit_extraction_v1/records/ffbfe82444a10475329df205.diff.gz",
+  "diff_bytes": 864,
+  "diff_sha256": "51dc9774bacba5830c97725e98d7fa16b2f89b085bc983fc2de3fbc83e891261",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:30.331812+00:00",
+  "url": "https://github.com/knik0/faad2.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "1107228a5128d3ca1c4add8ac1635d933cbbe2e9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2020-1899\n\nVariableUnserializer should only recognize type 'S' in APCSerialization mode",
+  "patch_path": "reports/codejit_extraction_v1/records/c44cc30f17a0b171ceeb94c0.diff.gz",
+  "diff_bytes": 1484,
+  "diff_sha256": "ddb33490cbda4eb81eebc311354ec16ae4fca9fa469c144483a4c2d05930f128",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:29.216086+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "31423d2a7a3a993a6ad343429c50d6ae334a462a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "added logging to avparsers and exposed them in inspect analyse mode",
+  "patch_path": "reports/codejit_extraction_v1/records/e331c6ba0bbde01592674504.diff.gz",
+  "diff_bytes": 288434,
+  "diff_sha256": "b4a378386d1f7cf447c0706bed0e83639a153a67b56288ebbffaa08ab26c4bd4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:40.938013+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

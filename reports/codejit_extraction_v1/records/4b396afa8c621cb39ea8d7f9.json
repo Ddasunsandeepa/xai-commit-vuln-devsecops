@@ -1,0 +1,16 @@
+{
+  "repo": "serenityos___serenity",
+  "commit_id": "e42c3b4fd7637225a65d0d61a80365f4118af8fa",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Kernel: Rename LinearAddress => VirtualAddress.",
+  "patch_path": "reports/codejit_extraction_v1/records/4b396afa8c621cb39ea8d7f9.diff.gz",
+  "diff_bytes": 77841,
+  "diff_sha256": "796392e4d664923e6ae1726ea2962d003c777ba948f18769c5d604fbb6d522a6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:56.446237+00:00",
+  "url": "https://github.com/serenityos/serenity.git"
+}

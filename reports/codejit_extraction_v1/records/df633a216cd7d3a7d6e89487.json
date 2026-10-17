@@ -1,0 +1,16 @@
+{
+  "repo": "gnutls___gnutls",
+  "commit_id": "49be4f7b82eba2363bb8d4090950dad976a77a3a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "opencdk: added error checking in the stream reading functions\n\nThis addresses an out of memory error. Issue found using oss-fuzz:\n  https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=337\n\nSigned-off-by: Nikos Mavrogiannopoulos <nmav@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/df633a216cd7d3a7d6e89487.diff.gz",
+  "diff_bytes": 2646,
+  "diff_sha256": "6425aeba76732051c4e892dd744056e53d2889f6fa8b85b4ffd8a62dd217b7b5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:19.012871+00:00",
+  "url": "https://github.com/gnutls/gnutls.git"
+}

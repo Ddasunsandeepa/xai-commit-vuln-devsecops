@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxcfs",
+  "commit_id": "35482f9149cb4fd6810f5e896cc225e5cbd09439",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "convert to using cgfs instead of cgmanager\n\nremove lxcfs_mkdir - it is not needed since we don't need a clean dbus connection\n\nSigned-off-by: Serge Hallyn <serge.hallyn@ubuntu.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/dd718b3bcc69cd4a16c42ce2.diff.gz",
+  "diff_bytes": 52092,
+  "diff_sha256": "ba9b517cc4434e1ed9cac3a7728880dc2a0de2c3e890ab3692105954703cf6ea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:54.355638+00:00",
+  "url": "https://github.com/lxc/lxcfs.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "nagiosenterprises___nagioscore",
+  "commit_id": "1b197346d490df2e2d3b1dcce5ac6134ad0c8752",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "halfway revert hack/configure changes - switch order of daemon_init/drop_privileges",
+  "patch_path": "reports/codejit_extraction_v1/records/1a211a32ba06ab5d2438138a.diff.gz",
+  "diff_bytes": 3216,
+  "diff_sha256": "4a8ec9a7fcb256f6ae8a0eac089170ffeffc3248c70bb60fcb90de266708c1fe",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:18.233833+00:00",
+  "url": "https://github.com/nagiosenterprises/nagioscore.git"
+}

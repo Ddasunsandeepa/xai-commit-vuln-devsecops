@@ -1,0 +1,16 @@
+{
+  "repo": "linux4sam___at91bootstrap",
+  "commit_id": "ef803bb363d95f44233adb7592ce43620f55916f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "secure: add first implementation of secure boot\n\nThis version doesn't support Linux or Android image yet.\n\nSigned-off-by: Cyrille Pitchen <cyrille.pitchen@atmel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/52d1f3bc0eed120c49e7d940.diff.gz",
+  "diff_bytes": 11206,
+  "diff_sha256": "bcc78c5849dcdf45234499d9840282ed6c6c623e97c6b691d33bdbec725b26e2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:42.014151+00:00",
+  "url": "https://github.com/linux4sam/at91bootstrap.git"
+}

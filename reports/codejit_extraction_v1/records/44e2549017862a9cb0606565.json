@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "6298903e35217ab69c279056f925fb72900ce0b7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Keep minimum size when shrinking a stack\n\nWhen shrinking a stack (during GC), do not make it smaller than the\ninitial stack size.",
+  "patch_path": "reports/codejit_extraction_v1/records/44e2549017862a9cb0606565.diff.gz",
+  "diff_bytes": 854,
+  "diff_sha256": "3839dbc77ca0fe297ed8b2b703f0fdc8c2a42d33ee577467d3a633d1331854a8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:47.179955+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

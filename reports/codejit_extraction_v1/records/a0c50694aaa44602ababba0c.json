@@ -1,0 +1,16 @@
+{
+  "repo": "serenityos___serenity",
+  "commit_id": "4317db7498eaa5a37068052bb0310fbc6a5f78e4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "LibArchive: Make bounds checks stricter in the Zip parser\n\nWe now also check we have enough space in the incoming buffer for the\nvarious signatures and optional (length specified) fields. This helps\nprevents a possible heap overflow read.",
+  "patch_path": "reports/codejit_extraction_v1/records/a0c50694aaa44602ababba0c.diff.gz",
+  "diff_bytes": 2989,
+  "diff_sha256": "412c1ba5e07792a342e0bc79f0b452d02334ba2a95ac9285b472e73b1ef2b2d8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:49.337797+00:00",
+  "url": "https://github.com/serenityos/serenity.git"
+}

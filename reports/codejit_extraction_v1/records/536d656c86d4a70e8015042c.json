@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "88ba84fa7d972a04aa5088fe5832c196332f275c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- Fixed bug #61326 (ArrayObject comparison).",
+  "patch_path": "reports/codejit_extraction_v1/records/536d656c86d4a70e8015042c.diff.gz",
+  "diff_bytes": 2256,
+  "diff_sha256": "acfcf107ccd5642f1fcd7a231381105b46f9a0d81deb74044ad61f714e8b2523",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:11.373472+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

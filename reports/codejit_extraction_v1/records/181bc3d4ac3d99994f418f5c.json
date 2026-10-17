@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libvpx",
+  "commit_id": "fdb1b40e7bb147c07bda988c9501ad223795d12d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE libvpx: Cherry-pick 8b4c315 from upstream\n\nDescription from upstream:\nvp9_alloc_context_buffers: clear cm->mi* on failure\n\nthis fixes a crash in vp9_dec_setup_mi() via\nvp9_init_context_buffers() should decoding continue and the decoder\nresyncs on a smaller frame\n\nBug: 30593752\nChange-Id: Iafbf1c4114062bf796f51a6b03be71328f7bcc69\n(cherry picked from commit 737c8493693243838128788fe9c3abc51f17338e)\n(cherry picked from commit 3e88ffac8c80b76e15286ef8a7b3bd8fa246c761)",
+  "patch_path": "reports/codejit_extraction_v1/records/181bc3d4ac3d99994f418f5c.diff.gz",
+  "diff_bytes": 392,
+  "diff_sha256": "8195b4531ab576b66e64d96118745ad4441f9810e1be2954bd2b9cad91ae80e7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:37.434679+00:00",
+  "url": "https://android.googlesource.com/platform/external/libvpx"
+}

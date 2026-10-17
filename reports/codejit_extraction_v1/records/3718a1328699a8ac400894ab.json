@@ -1,0 +1,16 @@
+{
+  "repo": "vrtadmin___clamav-devel",
+  "commit_id": "8cb851480d1e8b4de5c8b9546a4ed44b0090200d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libclamav: print section hashes in debug",
+  "patch_path": "reports/codejit_extraction_v1/records/3718a1328699a8ac400894ab.diff.gz",
+  "diff_bytes": 4737,
+  "diff_sha256": "d4e286ed88ca54c73ba8aa0a940c85140e09a5011102586dd21a54d884d67fbf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:53.236988+00:00",
+  "url": "https://github.com/vrtadmin/clamav-devel.git"
+}

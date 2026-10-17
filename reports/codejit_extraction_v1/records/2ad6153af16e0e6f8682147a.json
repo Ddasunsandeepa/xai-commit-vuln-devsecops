@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___media",
+  "commit_id": "560ccdb509a7b86186fac0fce1b25bd9a3e6a6e8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE mm-video-v4l2: vidc: validate omx param/config data\n\nCheck the sanity of config/param strcuture objects\npassed to get/set _ config()/parameter() methods.\n\nBug: 27533317\nSecurity Vulnerability in MediaServer\nomx_vdec::get_config() Can lead to arbitrary write\n\nChange-Id: I6c3243afe12055ab94f1a1ecf758c10e88231809\n\nConflicts:\n\tmm-core/inc/OMX_QCOMExtns.h\n\tmm-video-v4l2/vidc/vdec/src/omx_vdec_msm8974.cpp\n\tmm-video-v4l2/vidc/venc/src/omx_video_base.cpp\n\tmm-video-v4l2/vidc/venc/src/omx_video_encoder.cpp",
+  "patch_path": "reports/codejit_extraction_v1/records/2ad6153af16e0e6f8682147a.diff.gz",
+  "diff_bytes": 70413,
+  "diff_sha256": "1fa18198e4ed4fead92ede804402a6679627b7a145994a65cbceaf0254c17dcd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:58.594734+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/media"
+}

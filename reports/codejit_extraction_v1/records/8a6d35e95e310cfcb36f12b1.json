@@ -1,0 +1,16 @@
+{
+  "repo": "axiomatic-systems___bento4",
+  "commit_id": "1aa96d3ea9d5c61c73d99a137d7f36799153e9d6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added support for a sample duration field",
+  "patch_path": "reports/codejit_extraction_v1/records/8a6d35e95e310cfcb36f12b1.diff.gz",
+  "diff_bytes": 29828,
+  "diff_sha256": "4aae01f81fd6f345165a3bfb1797de65982891d36f56239541988d1413a55635",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:56.118604+00:00",
+  "url": "https://github.com/axiomatic-systems/bento4.git"
+}

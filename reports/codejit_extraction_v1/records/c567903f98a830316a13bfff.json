@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "2c1885adcf0312da80c7317b09f9adad97fa0fc6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "dmg: coding style and indentation cleanup\n\nClean up the mix of tabs and spaces, as well as the coding style\nviolations in block/dmg.c.  There are no semantic changes since this\npatch simply reformats the code.\n\nThis patch is necessary before we can make meaningful changes to this\nfile, due to the inconsistent formatting and confusing indentation.\n\nSigned-off-by: Stefan Hajnoczi <stefanha@redhat.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>\nReviewed-by: Max Reitz <mreitz@redhat.com>\nSigned-off-by: Stefan Hajnoczi <stefanha@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c567903f98a830316a13bfff.diff.gz",
+  "diff_bytes": 10449,
+  "diff_sha256": "291ea44b928f39b1b9ffe64ed3adaa32e712a05cdf3a467f3349820ed4ff1050",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:27.598066+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "troglobit___uftpd",
+  "commit_id": "9e9843b44848812ec22b9d9f49b634e5352b6c2f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Massive cleanup, refactor and renaming of internals.\n\nSigned-off-by: Joachim Nilsson <troglobit@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/5d7a3cb3cb4a427209fa8176.diff.gz",
+  "diff_bytes": 36134,
+  "diff_sha256": "573333e3fe1e5fb7e93909bdb008428e9df161b5b99fa72c96e85e4a73e76d3a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:11.715318+00:00",
+  "url": "https://github.com/troglobit/uftpd.git"
+}

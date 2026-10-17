@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___ril",
+  "commit_id": "cd5f15f588a5d27e99ba12f057245bfe507f8c42",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE\nFix security vulnerability in pre-O rild code.\n\nRemove wrong code for setup_data_call.\nAdd check for max address for RIL_DIAL.\n\nBug: 37896655\nTest: Manual.\nChange-Id: I05c027140ae828a2653794fcdd94e1b1a130941b\n(cherry picked from commit dda24c6557911aa1f4708abbd6b2f20f0e205b9e)",
+  "patch_path": "reports/codejit_extraction_v1/records/4209fb4a1042a4ff18b770f3.diff.gz",
+  "diff_bytes": 1825,
+  "diff_sha256": "9551d29634fc6e32310f67a2eb3d4a3f40b6dcb779cc4f8f934830e1baa41396",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:59.934805+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/ril"
+}

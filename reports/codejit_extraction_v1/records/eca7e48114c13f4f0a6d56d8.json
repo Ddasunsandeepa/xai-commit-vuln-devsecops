@@ -1,0 +1,16 @@
+{
+  "repo": "f-zhaoyang___jhead",
+  "commit_id": "10d20c89ef13444e875cad98a93e2dc65023f3f5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Combine thumbnail insert and thumbnail delete code into one function.",
+  "patch_path": "reports/codejit_extraction_v1/records/eca7e48114c13f4f0a6d56d8.diff.gz",
+  "diff_bytes": 6351,
+  "diff_sha256": "1a0bc14cbce3f9ce6a35b0e78a5a04bdf312c3375d5b73d058cb99be545ce2ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:20.534656+00:00",
+  "url": "https://github.com/f-zhaoyang/jhead.git"
+}

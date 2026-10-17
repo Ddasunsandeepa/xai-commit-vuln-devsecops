@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "aa9efbc7b64aa1c3bf6682d06e6970b874d55d08",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[media] dw2102: return error if su3000_power_ctrl() fails\n\nInstead of silently ignoring the error, return it.\n\nSigned-off-by: Mauro Carvalho Chehab <mchehab@s-opensource.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/71a69978f945e22c9f30b95c.diff.gz",
+  "diff_bytes": 486,
+  "diff_sha256": "0e3232d27d0dc40aa908d0e599dd1eb8b3a7d0622d04dd9cbe39a7d37d0c69c7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:39:23.247626+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "7cadd489698be117c47efcadd742651594429e6d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add anti \"../\" and leading slash protection to chmextract",
+  "patch_path": "reports/codejit_extraction_v1/records/50956e83c3496d6cae4bf7ef.diff.gz",
+  "diff_bytes": 5914,
+  "diff_sha256": "d2fc152c932fc3096bb44278e3fb3527794ba2b4da60709814dff8867c67c196",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:34.575299+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

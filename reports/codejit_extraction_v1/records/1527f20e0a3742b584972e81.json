@@ -1,0 +1,16 @@
+{
+  "repo": "plougher___squashfs-tools",
+  "commit_id": "80b8441a37fcf8bf07dacf24d9d6c6459a0f6e36",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "unsquashfs: use squashfs_closedir() to delete directory\n\nSigned-off-by: Phillip Lougher <phillip@squashfs.org.uk>",
+  "patch_path": "reports/codejit_extraction_v1/records/1527f20e0a3742b584972e81.diff.gz",
+  "diff_bytes": 2759,
+  "diff_sha256": "b47e9f9390ac114dea3b739ce49c42e777b08d4bb7b264694dc0f7f6d6285871",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:40.707035+00:00",
+  "url": "https://github.com/plougher/squashfs-tools.git"
+}

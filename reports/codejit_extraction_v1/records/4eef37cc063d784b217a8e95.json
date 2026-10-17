@@ -1,0 +1,16 @@
+{
+  "repo": "vadz___libtiff",
+  "commit_id": "787c0ee906430b772f33ca50b97b8b5ca070faec",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "* tools/tiffcp.c: fix uint32 underflow/overflow that can cause heap-based\nbuffer overflow.\nReported by Agostino Sarubbo.\nFixes http://bugzilla.maptools.org/show_bug.cgi?id=2610",
+  "patch_path": "reports/codejit_extraction_v1/records/4eef37cc063d784b217a8e95.diff.gz",
+  "diff_bytes": 1417,
+  "diff_sha256": "e469b31e3b6d6f463434eb158a500082426874e89745c911ae04e8cd59408709",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:44.686897+00:00",
+  "url": "https://github.com/vadz/libtiff.git"
+}

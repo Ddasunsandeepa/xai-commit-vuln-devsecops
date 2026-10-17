@@ -1,0 +1,16 @@
+{
+  "repo": "gnome___libxml2",
+  "commit_id": "a8f09ce8d33dbadd398efe5af36ec7984de31e4c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "cleanup entity pushing error handling based on a patch from Ashwin daniel\n\n* include/libxml/parserInternals.h parser.c: cleanup entity\n  pushing error handling based on a patch from Ashwin\ndaniel\n\nsvn path=/trunk/; revision=3779",
+  "patch_path": "reports/codejit_extraction_v1/records/b7f32d2957ee37d6c07fd83e.diff.gz",
+  "diff_bytes": 7595,
+  "diff_sha256": "02ed666db13a81974c908786620a81719da3b6c9559731596eb9f776091404c4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:15.226120+00:00",
+  "url": "https://github.com/gnome/libxml2.git"
+}

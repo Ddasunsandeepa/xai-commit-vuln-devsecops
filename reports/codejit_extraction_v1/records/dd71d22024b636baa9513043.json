@@ -1,0 +1,16 @@
+{
+  "repo": "babelouest___glewlwyd",
+  "commit_id": "b1fdf283fbe3649e65c7a8d4f85705cd637a5d3c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Partially implement packed format, added certificate chain validation on fido2 and packed formats",
+  "patch_path": "reports/codejit_extraction_v1/records/dd71d22024b636baa9513043.diff.gz",
+  "diff_bytes": 21584,
+  "diff_sha256": "58910200286935240c97e4714cede4b974097b8bb0dd44c2f1df8d7c39d1502f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:03.048812+00:00",
+  "url": "https://github.com/babelouest/glewlwyd.git"
+}

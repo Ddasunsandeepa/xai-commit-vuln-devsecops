@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "634ce8e8a5accc0fa05dd2c20d42b4749d4b2735",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Made some changes to the I/O stream library for memory streams.\nThere were a number of potential problems due to the possibility\nof integer overflow.\nChanged some integral types to the larger types size_t or ssize_t.\nFor example, the function mem_resize now takes the buffer size parameter\nas a size_t.\nAdded a new function jas_stream_memopen2, which takes a\nbuffer size specified as a size_t instead of an int.\nThis can be used in jas_image_cmpt_create to avoid potential\noverflow problems.\n\nAdded a new function jas_deprecated to warn about reliance on\ndeprecated library behavior.",
+  "patch_path": "reports/codejit_extraction_v1/records/2a1255f50b5400679c165805.diff.gz",
+  "diff_bytes": 10879,
+  "diff_sha256": "bbc1e8bffd4a874ebbc8ce2891413b3afbb6e7f5654a866b9fc9c3d8964f4754",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:42.950995+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

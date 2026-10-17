@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___deark",
+  "commit_id": "97b815ca4de5763efdd23932ba25fc285414c517",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "pict: Support -padpix",
+  "patch_path": "reports/codejit_extraction_v1/records/830966df0c29ab0d7533853d.diff.gz",
+  "diff_bytes": 8347,
+  "diff_sha256": "61c5a0dc4c2c467483d8654bb7b477221e03848b31913611b7a537f95bc2d73a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:02.759531+00:00",
+  "url": "https://github.com/jsummers/deark.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "2670641432683c15529d93f3ec2e09fed220b53c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Client Independent Server Side Scaling is now supported\nBoth PalmVNC and UltraVNC SetScale messages are supported",
+  "patch_path": "reports/codejit_extraction_v1/records/05adc90b0f60f5bddcd4285c.diff.gz",
+  "diff_bytes": 43871,
+  "diff_sha256": "fb25d797e466dbc8f07a12212f72fbe881eb6685d2307a8cc1723c83c3950465",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:35.266458+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

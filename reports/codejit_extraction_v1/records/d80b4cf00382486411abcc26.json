@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "524d2e60cfe910406ec6109e4286d7edd545ab36",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ext_mbstring: Fix invalid free() in php_mb_parse_encoding\n\nSummary:\nA chunk of memory allocated by 'req::calloc_noptrs' was being freed by 'free'. The former internally calls 'calloc' and returns a pointer at an index sizeof(MallocNode) inside the allocated buffer. This led to freeing invalid memory.\n\nCVE-2019-11930\n\nReviewed By: jjergus\n\nDifferential Revision: D18179908\n\nfbshipit-source-id: 0e3fe77628e0b9dee8361e712b8abac59ae5ed22",
+  "patch_path": "reports/codejit_extraction_v1/records/d80b4cf00382486411abcc26.diff.gz",
+  "diff_bytes": 1189,
+  "diff_sha256": "f0697b31c8580b3cb0423b446468ed10e2b4e049a0820e81deb2e9f83cdda1ef",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:15.595610+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

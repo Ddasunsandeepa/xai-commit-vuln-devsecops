@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "afc39bea36fd436e54262f150c009e8d72db5014",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Track byteSize of HeaderMap internally.\n\nIntroduces a cached byte size updated internally in HeaderMap. The value\nis stored as an optional, and is cleared whenever a non-const pointer or\nreference to a HeaderEntry is accessed. The cached value can be set with\nrefreshByteSize() which performs an iteration over the HeaderMap to sum\nthe size of each key and value in the HeaderMap.\n\nSigned-off-by: Asra Ali <asraa@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/3a54037b6c9aa919cba5efd8.diff.gz",
+  "diff_bytes": 55319,
+  "diff_sha256": "1e27b42ac19857bab863c4e0257cef750615dd668ee00b23136168e6dbdf690d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:52.657020+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

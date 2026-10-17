@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "1746dfb11fc0048366f34669e74318b8278a684c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2020-1898\n\nDon't allow for unlimited nesting in FBUnserialize or fb_compact_unserialize",
+  "patch_path": "reports/codejit_extraction_v1/records/f2f90a84ba7dc9e11f6331f3.diff.gz",
+  "diff_bytes": 15901,
+  "diff_sha256": "3a5e8a8a2d59fda17078ed07f5af10c42476abd6503026ebc323891e270100cd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:34.812764+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

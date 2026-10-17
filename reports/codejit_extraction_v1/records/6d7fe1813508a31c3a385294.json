@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "dee11ec440d7908d1daf69f40a3324b27cf213ba",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "The component domains must be the same for the ICT/RCT in the JPC codec.\nThis was previously enforced with an assertion.\nNow, it is handled in a more graceful manner.",
+  "patch_path": "reports/codejit_extraction_v1/records/6d7fe1813508a31c3a385294.diff.gz",
+  "diff_bytes": 2917,
+  "diff_sha256": "9f9860eed1dac2a03b7da0f061cb8a1057e8af1f1b7cc2823519c5b65b3f3a2a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:47.422031+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

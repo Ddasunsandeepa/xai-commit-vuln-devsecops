@@ -1,0 +1,16 @@
+{
+  "repo": "muttmua___mutt",
+  "commit_id": "e0131852c6059107939893016c8ff56b6e42865d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix imap_quote_string() length check errors.\n\nThe function wasn't properly checking for dlen<2 before quoting, and\nwasn't properly pre-adjusting dlen to include the initial quote.\n\nThanks to Jeriko One for reporting these issues.",
+  "patch_path": "reports/codejit_extraction_v1/records/4b5481eeb757d7773daab2ef.diff.gz",
+  "diff_bytes": 745,
+  "diff_sha256": "4fb0319515c8168ad6b8ce8c4e66217d3714178450a5758e5badbc7978d1579a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:03.279343+00:00",
+  "url": "https://github.com/muttmua/mutt.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "tbeu___matio",
+  "commit_id": "ae82712960ed5c0b44edbafce23c9f2f29f097d8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix reading variables from v5 MAT file\n\n* Check read success\n* Check allocation success\n* Be silent on read errors, but reset file position, such that the caller (Mat_VarReadInfo or Mat_GetDir) can detect read errors by checking for EOF\n* As reported by https://github.com/tbeu/matio/issues/119",
+  "patch_path": "reports/codejit_extraction_v1/records/5a9aace1dce53d8119611e45.diff.gz",
+  "diff_bytes": 5213,
+  "diff_sha256": "8b03e6cde4b095eb8796a7ca5dea4e5efbcd27fe9433dce5eb0e332ea9d1b261",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:49.993098+00:00",
+  "url": "https://github.com/tbeu/matio.git"
+}

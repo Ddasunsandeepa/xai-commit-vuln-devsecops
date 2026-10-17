@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "00c315cb0c8ab77c67be4a2ac08a71a83ac58751",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avoid XSS vulnerability when using OIDCPreservePost On\n\nand supplying URLs that contain single quotes; thanks @oss-aimoto\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/5d242f12bf838a660c771dfe.diff.gz",
+  "diff_bytes": 1017,
+  "diff_sha256": "7102c7608f309c612eb5b2c47eff4a1cf8e1c3f550ee6bb8e0839f69f26b7afd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:19.252172+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

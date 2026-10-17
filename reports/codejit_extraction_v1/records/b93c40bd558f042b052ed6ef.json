@@ -1,0 +1,16 @@
+{
+  "repo": "openssh___openssh-portable",
+  "commit_id": "4f9f42a9bb6a6aa8f6100d873dc6344f2f9994de",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- (djm) Merge FreeBSD PAM code: replaces PAM password auth kludge with\n   proper challenge-response module",
+  "patch_path": "reports/codejit_extraction_v1/records/b93c40bd558f042b052ed6ef.diff.gz",
+  "diff_bytes": 51129,
+  "diff_sha256": "f0fc9b802c9706408642f3b689813ea0e0bb094f719428f5be753b816fe99fbc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:07.867686+00:00",
+  "url": "https://github.com/openssh/openssh-portable.git"
+}

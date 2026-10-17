@@ -1,0 +1,16 @@
+{
+  "repo": "ruven___iipsrv",
+  "commit_id": "35636d8f8efc49a8cf62d4962968a58ccb01d38b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Update to OpenJPEG code to fix problem when re-using codec structures more than once in the same request (for example when calculating histogram)",
+  "patch_path": "reports/codejit_extraction_v1/records/25d4d42dba79f5148c6f549b.diff.gz",
+  "diff_bytes": 2411,
+  "diff_sha256": "292c720eddb8926033ece812f50d25a4de386686466b32485035a46d4c89051f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:26.302974+00:00",
+  "url": "https://github.com/ruven/iipsrv.git"
+}

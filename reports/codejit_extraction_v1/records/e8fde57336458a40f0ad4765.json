@@ -1,0 +1,16 @@
+{
+  "repo": "winscp___winscp",
+  "commit_id": "49d876f2c5fc00bcedaa986a7cf6dedd6bf16f54",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug 1675: Prevent SCP server sending files that were not requested\n\nhttps://winscp.net/tracker/1675\n\nSource commit: 4aa587620973bf793fb6e783052277c0f7be4b55",
+  "patch_path": "reports/codejit_extraction_v1/records/e8fde57336458a40f0ad4765.diff.gz",
+  "diff_bytes": 1825,
+  "diff_sha256": "d38726a2cd7b79f0ed938a7e00cb23ece8e4bf40c4d3a9958781d5bc5d967bd0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:02.461655+00:00",
+  "url": "https://github.com/winscp/winscp.git"
+}

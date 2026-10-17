@@ -1,0 +1,16 @@
+{
+  "repo": "babelouest___ulfius",
+  "commit_id": "1dc9ca32822325a6a78d31b390bd45c518dbb41c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add ulfius_start_framework_with_mhd_options, fix #131",
+  "patch_path": "reports/codejit_extraction_v1/records/466f79dde7b7a5c1a0198239.diff.gz",
+  "diff_bytes": 5752,
+  "diff_sha256": "60a750fd39686908a4ad723aee432c263800b7211a6c8a9b64223b426d1635eb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:04.583066+00:00",
+  "url": "https://github.com/babelouest/ulfius.git"
+}

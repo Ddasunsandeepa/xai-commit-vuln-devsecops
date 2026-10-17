@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "177d608155ba8b11598b9bbf8240e90d8c350682",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2022-21655\n\nCrash with direct_response\n\nSigned-off-by: Yan Avlasov <yavlasov@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/46f34757d15880f435c2f9bb.diff.gz",
+  "diff_bytes": 7958,
+  "diff_sha256": "44f2ac94c6c938ae89f4b7409dee6244d4d7f534406d35089e02d1566020946a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:32.130961+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

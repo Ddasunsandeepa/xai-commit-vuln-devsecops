@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxc",
+  "commit_id": "bd4307f0c154ace6560082cf449b08f2f567c98c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tools: fix lxc-attach regression with -s USER\n\nSigned-off-by: Christian Brauner <christian.brauner@canonical.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/070303e53e2c039c2559acd8.diff.gz",
+  "diff_bytes": 2850,
+  "diff_sha256": "48e3af492395a003e8764ea4deb79b36b862594bc5930d030c653b2e65c63746",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:53.537030+00:00",
+  "url": "https://github.com/lxc/lxc.git"
+}

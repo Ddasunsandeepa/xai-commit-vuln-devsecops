@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "42fb5b2e937d68f731e8e01a49f0da0760772674",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "rename 'static TA' into 'pseudo TA'\n\nThis renaming prevents confusion of what is a static TA: static\nTAs are NOT Trusted Application operating at OP-TEE core privilege\nexecution level. There are rather OP-TEE core services that offer\nan invocation API based on GP TEE specified invocation API:\nopen session, invoke command and close session.\n\nThis change renames all 'static TA' references into 'pseudo TA'\nreferences.\n\nSigned-off-by: Etienne Carriere <etienne.carriere@linaro.org>\nAcked-by: Jerome Forissier <jerome.forissier@linaro.org>\nReviewed-by: Jens Wiklander <jens.wiklander@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/7ed7687c67be5ea41b01aa74.diff.gz",
+  "diff_bytes": 20256,
+  "diff_sha256": "fb3c2f6c422522dbe1914602fa04c98399c1c0cea111b258ca1c0ff60f7b4338",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:17.063541+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

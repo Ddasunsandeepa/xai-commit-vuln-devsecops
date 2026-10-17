@@ -1,0 +1,16 @@
+{
+  "repo": "bitlbee___bitlbee",
+  "commit_id": "ea902752503fc5b356d6513911081ec932d804f2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "purple: fix file transfer memory management\n\nThis means cancelling transfers on logout to avoid crashes, keeping\ntrack of timeouts, reffing and unreffing the xfers, listening to the\ncallbacks from UI and purple more carefully and using the correct\nfunctions to free the correct things at the correct moments.\n\nOriginally intended to fix a crash triggered when the dcc stall timeout\nkicks in after the account is offline, which is apparently very frequent\nwith telegram (it sends file transfers while fetching history, and\nrandomly disconnects a while later).\n\nTrying to fix that meant opening a can of worms, but after three days of\nwork on this bug I'm pretty sure I've finished dealing with the\nresulting mess and tested all the typical edge cases.",
+  "patch_path": "reports/codejit_extraction_v1/records/e95f366e5968d4b1f4860f58.diff.gz",
+  "diff_bytes": 6157,
+  "diff_sha256": "013b16f375c294a07156f3ee51d2834456531e4af7cca43c0e2ffc58560caa18",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:24.334480+00:00",
+  "url": "https://github.com/bitlbee/bitlbee.git"
+}

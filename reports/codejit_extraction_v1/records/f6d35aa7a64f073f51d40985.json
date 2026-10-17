@@ -1,0 +1,16 @@
+{
+  "repo": "opencv___opencv",
+  "commit_id": "7bbe1a53cfc097b82b1589f7915a2120de39274c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "imgcodecs(pxm): fix memcpy size",
+  "patch_path": "reports/codejit_extraction_v1/records/f6d35aa7a64f073f51d40985.diff.gz",
+  "diff_bytes": 540,
+  "diff_sha256": "b8f402ae358961b31856806f7a55e2281ba5a99763f6c5f72334bede3bf003b4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:35.197530+00:00",
+  "url": "https://github.com/opencv/opencv.git"
+}

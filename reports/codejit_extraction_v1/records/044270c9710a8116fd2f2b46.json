@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "9b6c627ba121f2db25b16ec7e59cf152adb1f783",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "remove obsolescent C library tests",
+  "patch_path": "reports/codejit_extraction_v1/records/044270c9710a8116fd2f2b46.diff.gz",
+  "diff_bytes": 23286,
+  "diff_sha256": "580f028f53ad158bd4500c168cbdcdd31f0cfaa62723968326c177392a10c93f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:35.161876+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

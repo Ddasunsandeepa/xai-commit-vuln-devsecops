@@ -1,0 +1,16 @@
+{
+  "repo": "kmackay___micro-ecc",
+  "commit_id": "778effd96739f3bb85b4bcbe8af8e9b8315fac9a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a new uECC_VLI_NATIVE_LITTLE_ENDIAN compile-time macro that enables\nfully native little endian platforms interfacing with little endian byte\nstreams to avoid using additional stack space and pre and post byte\nreversals",
+  "patch_path": "reports/codejit_extraction_v1/records/853d3a061b3c999cc7cbb2a4.diff.gz",
+  "diff_bytes": 11667,
+  "diff_sha256": "cf63d0c10169207b733cdbbc0b346daf870a92e36852d495a12f675080880574",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:28.862733+00:00",
+  "url": "https://github.com/kmackay/micro-ecc.git"
+}

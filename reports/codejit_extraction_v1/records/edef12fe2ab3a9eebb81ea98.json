@@ -1,0 +1,16 @@
+{
+  "repo": "leesavide___abcm2ps",
+  "commit_id": "2f56e1179cab6affeb8afa9d6c324008fe40d8e3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix: array overflow when wrong duration in voice overlay\n\nIssue #83,",
+  "patch_path": "reports/codejit_extraction_v1/records/edef12fe2ab3a9eebb81ea98.diff.gz",
+  "diff_bytes": 595,
+  "diff_sha256": "b7e499ab34ff0f94227385f8e558c97379623661cf34b9ca994ec45681a57e3c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:37.884550+00:00",
+  "url": "https://github.com/leesavide/abcm2ps.git"
+}

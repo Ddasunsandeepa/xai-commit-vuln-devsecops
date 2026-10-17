@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "c2707f249ef6870acb76d4bb967a727902d55b65",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed many compiler warnings (including two uninitialized variables).\nMany of these changes were manually merged from:\n    https://github.com/mdadams/jasper/pull/40\nAlso, disabled warnings for unused variables.",
+  "patch_path": "reports/codejit_extraction_v1/records/dd8927767e123ce322c75f8d.diff.gz",
+  "diff_bytes": 21886,
+  "diff_sha256": "ba07dbc855377ef32c6797e968e1ff02637eb69fd82a12f46e97141e838cc153",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:46.507683+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "526bc968451e1ec83386c93f2c1f5a74ac65e649",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix some memleaks",
+  "patch_path": "reports/codejit_extraction_v1/records/c8f8c289fd680f6c7db36b45.diff.gz",
+  "diff_bytes": 2158,
+  "diff_sha256": "7f6704c72750f90b93e77f252695797a09d746ccdafaeabcd898828107f89881",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:44.990940+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

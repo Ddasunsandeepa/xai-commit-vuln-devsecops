@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "8745660fcdac7c1b80c94cfc0ff60928cd4dd4b7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Initialise and deallocate the MySQL library correctly.",
+  "patch_path": "reports/codejit_extraction_v1/records/1d36f4ce435bd8cb0eea8940.diff.gz",
+  "diff_bytes": 740,
+  "diff_sha256": "30b08552585410bfa69331e59b21ec8943bde072656daf9dd72d49be426ecd37",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:39.432914+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

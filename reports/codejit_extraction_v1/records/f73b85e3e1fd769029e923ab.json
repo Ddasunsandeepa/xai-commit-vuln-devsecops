@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "6e06b1c89dd0d16f74894eac4cfc1327a06ee4a0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a potential crash issue discovered by Alexander Cherepanov:\n\nIt seems bsdtar automatically handles stacked compression. This is a\nnice feature but it could be problematic when it's completely\nunlimited.  Most clearly it's illustrated with quines:\n\n$ curl -sRO http://www.maximumcompression.com/selfgz.gz\n$ (ulimit -v 10000000 && bsdtar -tvf selfgz.gz)\nbsdtar: Error opening archive: Can't allocate data for gzip decompression\n\nWithout ulimit, bsdtar will eat all available memory. This could also\nbe a problem for other applications using libarchive.",
+  "patch_path": "reports/codejit_extraction_v1/records/f73b85e3e1fd769029e923ab.diff.gz",
+  "diff_bytes": 5211,
+  "diff_sha256": "fce03aef46dcc815ce34ed2fe105597752c49475864a2e518593445bb72fdd0f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:42.295292+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "b75c002cfb1fd61cd20ec938ff4937d7b1a94278",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "cac1: Correctly handle the buffer limits\n\nFound by oss-fuzz\n\nhttps://bugs.chromium.org/p/oss-fuzz/issues/detail?id=18618\nand others",
+  "patch_path": "reports/codejit_extraction_v1/records/aff4c4f1877c2cb9a30a7259.diff.gz",
+  "diff_bytes": 1532,
+  "diff_sha256": "b18e5c4cff6e2f1afc606f43dcb9952f834ea36fe89c3371723cf747e4205f43",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:02.636775+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

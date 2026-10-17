@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxcfs",
+  "commit_id": "8ee2a503e102b1a43ec4d83113dc275ab20a869a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement privilege check when moving tasks\n\nWhen writing pids to a tasks file in lxcfs, lxcfs was checking\nfor privilege over the tasks file but not over the pid being\nmoved.  Since the cgm_movepid request is done as root on the host,\nnot with the requestor's credentials, we must copy the check which\ncgmanager was doing to ensure that the requesting task is allowed\nto change the victim task's cgroup membership.\n\nThis is CVE-2015-1344\nhttps://bugs.launchpad.net/ubuntu/+source/lxcfs/+bug/1512854\n\nSigned-off-by: Serge Hallyn <serge.hallyn@ubuntu.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/a1bf90036e32b988943485c6.diff.gz",
+  "diff_bytes": 3120,
+  "diff_sha256": "84b7485573af1cfb754fcf7680e58a6833ee24e3046c20808dfa456affb57958",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:54.592440+00:00",
+  "url": "https://github.com/lxc/lxcfs.git"
+}

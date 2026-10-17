@@ -1,0 +1,16 @@
+{
+  "repo": "oetiker___rrdtool-1.x",
+  "commit_id": "64ed5314af1255ab6dded45f70b39cdeab5ae2ec",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "a proper fix to the bad_format checking misery\n\nConflicts:\n\n\tsrc/rrd_graph.c",
+  "patch_path": "reports/codejit_extraction_v1/records/7b946435eb3478bd4c2c4321.diff.gz",
+  "diff_bytes": 6694,
+  "diff_sha256": "d5911c6c93753b5237795e0501b8cf47915ae52d38e0f362ee97587f61290ade",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:44.244245+00:00",
+  "url": "https://github.com/oetiker/rrdtool-1.x.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxc",
+  "commit_id": "5d04811edfe9b9ef9aac6fb645560202575b96b8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lxc_user_nic: use lxc_preserve_ns()\n\nSigned-off-by: Christian Brauner <christian.brauner@canonical.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/a6648b8dd21ecd8361ea4708.diff.gz",
+  "diff_bytes": 1188,
+  "diff_sha256": "f8572a740b0cdc4047cc238c801b5e74fb98963230c65fa9045aa49cb8334cbb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:52.756457+00:00",
+  "url": "https://github.com/lxc/lxc.git"
+}

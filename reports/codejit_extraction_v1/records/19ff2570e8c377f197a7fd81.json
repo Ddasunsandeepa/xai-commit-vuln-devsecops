@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "48a91f1ec2b1705494880a9d1adc0f7651588a07",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "core: tee_mmu_check_access_rights() use ADD_OVERFLOW()\n\nReplaces the integer overflow check in tee_mmu_check_access_rights()\nwith ADD_OVERFLOW()\n\nReviewed-by: Etienne Carriere <etienne.carriere@linaro.org>\nTested-by: Jens Wiklander <jens.wiklander@linaro.org> (QEMU)\nSigned-off-by: Jens Wiklander <jens.wiklander@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/19ff2570e8c377f197a7fd81.diff.gz",
+  "diff_bytes": 515,
+  "diff_sha256": "08a0f8d648608e36304a92ef33fc5f7aa8f5341541e1692e8c6f96a2ae840b1f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:19.650459+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "att___ast",
+  "commit_id": "15b061e757e32c55b1f4bae90d841c0c64779b8d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove legacy, pre 2012, APIs\n\nWe cannot reasonably support binary plugins built for ksh93u+ or earlier\nreleases. This is due to a variety of factors such as removing the AST\nvmalloc subsystem. Consequently there is no need to retain the pre 2012\nAPIs. So eliminate them and rename the post 2012 APIs.\n\nResolves #983",
+  "patch_path": "reports/codejit_extraction_v1/records/c92158c2167e1c309430f043.diff.gz",
+  "diff_bytes": 35212,
+  "diff_sha256": "66af376131ca798ea238e8eec3b7f8aca3d81172bd1828c57f23920fbd31f9d5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:51.939387+00:00",
+  "url": "https://github.com/att/ast.git"
+}

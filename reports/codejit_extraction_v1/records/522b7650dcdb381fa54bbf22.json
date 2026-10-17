@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libhevc",
+  "commit_id": "87fb7909c49e6a4510ba86ace1ffc83459c7e1b9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix slice decrement for skipped slices\n\nTest: run the poc with and without the patch\nBug: 63045918\nChange-Id: I27804d42c55480c25303d1a5dbb43b1d86d7fa94\n(cherry picked from commit 272f2c23c8ba8579adb0618b4124163b9bf086fb)",
+  "patch_path": "reports/codejit_extraction_v1/records/522b7650dcdb381fa54bbf22.diff.gz",
+  "diff_bytes": 538,
+  "diff_sha256": "47d2af2be5b2ea08715ec750da2d739659cfe2618e8d92cea04fe4740b9ae5fc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:27.353826+00:00",
+  "url": "https://android.googlesource.com/platform/external/libhevc"
+}

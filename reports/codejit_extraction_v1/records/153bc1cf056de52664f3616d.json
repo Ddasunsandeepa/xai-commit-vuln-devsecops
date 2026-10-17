@@ -1,0 +1,16 @@
+{
+  "repo": "puma___puma",
+  "commit_id": "50185aec02e4f44967e8bc65035b019d38cf2b1a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fail build if compiling extensions raises warnings (#1953) (#2494)\n\n* Fail build if compiling extensions raises warnings (#1953)\n\nMake warning into errors and also fix all compiler warnings reported in\nmini_ssl source code.\n\n* Fix some compiler warnings and errors reported by checks\n\n* Add MAKE_WARNINGS_INTO_ERRORS env variable\n\nMAKE_WARNINGS_INTO_ERRORS environment variable toggles whether a build should\ntreat all warnings into errors or not.\n\nMove appending WERRORFLAG to cflags after OpenSSL methods verification because\non some specifics builds this causes mkmf to wrongly detect methods in OpenSSL\nheaders.\n\n* Add noentry to write date to avoid unused variables\n\n* Ignore implicit-fallthrough warnings\n\nThose warnings are related to ragel state machine generated code.\n\n* Enforce no warnings on GH Actions\n\n* Update History.md file reflecting latest changes",
+  "patch_path": "reports/codejit_extraction_v1/records/153bc1cf056de52664f3616d.diff.gz",
+  "diff_bytes": 13827,
+  "diff_sha256": "733052a25c663fcdcd8ca820e285f6e95e7c366507f3dffd5afdba9f38fdfc97",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:11.791142+00:00",
+  "url": "https://github.com/puma/puma.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "9e6f1bbfa62bec589a3b15cfea93dd32d298f2df",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tidy: rearrange code to avoid forward declarations\n\nThis change, though huge, is quite simple.\n\nIt simply rearranges functions, within files, to remove the need to\nforward-declare them.  There were ~90 such declarations.\n\nForward declarations are rarely *needed* and just add to the cruft that\nneeds to be maintained.",
+  "patch_path": "reports/codejit_extraction_v1/records/5cbb53521e733b69149afe12.diff.gz",
+  "diff_bytes": 328589,
+  "diff_sha256": "bec3f0f399125865bba6eb9159b88a2512793365c4dc0d287b5f769d0095ac44",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:43.419427+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

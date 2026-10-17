@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "97efff4e9008021515070c8434f7a6264fd50e48",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactored order stream manipulation\n\n* Use stream seek instead of setting pointer directly\n* Add log messages in case of inconsistencies\n* Fixed missing stream advance in update_decompress_brush",
+  "patch_path": "reports/codejit_extraction_v1/records/7612e6e285a335e26eb75c01.diff.gz",
+  "diff_bytes": 3697,
+  "diff_sha256": "a0db058b21d4346d17e89da8873e56e2904ade4bf1d6c26aa284f23b46bec19e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:36.753519+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

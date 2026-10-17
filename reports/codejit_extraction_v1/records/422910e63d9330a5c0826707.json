@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "60bfb401ad5a4a8ae995dcd36372fe15c71e1a35",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix potential unsigned underflow\n\nNo need to decrease `u`, so we don't do it. While we're at it, we also factor\nout the overflow check of the loop, what improves performance and readability.\n\nThis issue has been reported by Stefan Esser to security@libgd.org.",
+  "patch_path": "reports/codejit_extraction_v1/records/422910e63d9330a5c0826707.diff.gz",
+  "diff_bytes": 1246,
+  "diff_sha256": "d882a952aac897b60ad7c1e365ae3666197e41b2411bd8413e4e35964a346c73",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:59.190389+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

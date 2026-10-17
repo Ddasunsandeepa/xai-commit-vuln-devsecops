@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "a78887bcffbc2995cf9ed72e0697acf560875e9e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Fix slice number increment for error clips\n\nBug: 28673410",
+  "patch_path": "reports/codejit_extraction_v1/records/cd4e2a30768e9cc0bc30d12e.diff.gz",
+  "diff_bytes": 3713,
+  "diff_sha256": "ffe611e979e83fc8112bd692371b4a95712dcadf9ab4f4445c3dd24db98d385c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:23.699904+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

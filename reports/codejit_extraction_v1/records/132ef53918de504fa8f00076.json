@@ -1,0 +1,16 @@
+{
+  "repo": "mariadb-corporation___mariadb-connector-c",
+  "commit_id": "1218ffac1a9adefd6428e68b6154bc54a04343aa",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for CONC-452 and CONC-453:\n\nVarious coverity scan fixes, including CONC-452 and CONC-453.\nSpecial thanks to Lukas Javorsky for fixing numerous covscan\nissues (This patch includes part of his pull request #126).\n\nCoverity scan build was using the following cmake parameters:\n-WITH_EXTERNAL_ZLIB=ON -DWITH_UNIT_TESTS=OFF.\n\nCWE-416 (use after free) in dtoa.c (from netlib) is still open.",
+  "patch_path": "reports/codejit_extraction_v1/records/132ef53918de504fa8f00076.diff.gz",
+  "diff_bytes": 20845,
+  "diff_sha256": "2d7b9892322054f88e09fb84939aa05d1286dca9f95da72d9d2e6e28c5b58c5f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:58.775624+00:00",
+  "url": "https://github.com/mariadb-corporation/mariadb-connector-c.git"
+}

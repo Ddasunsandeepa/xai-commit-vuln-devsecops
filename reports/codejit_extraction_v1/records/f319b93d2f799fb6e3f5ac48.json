@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___base",
+  "commit_id": "866dc26ad4a98cc835d075b627326e7d7e52ffa1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add bound checks to utf16_to_utf8\n\nTest: ran libaapt2_tests64\nBug: 29250543\nChange-Id: I1ebc017af623b6514cf0c493e8cd8e1d59ea26c3\n(cherry picked from commit 4781057e78f63e0e99af109cebf3b6a78f4bfbb6)",
+  "patch_path": "reports/codejit_extraction_v1/records/f319b93d2f799fb6e3f5ac48.diff.gz",
+  "diff_bytes": 1261,
+  "diff_sha256": "d6569b02b21df02a75a4f2267c3b98d755364099cda1cd488dd1e42abfb3165e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:56.001298+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/base"
+}

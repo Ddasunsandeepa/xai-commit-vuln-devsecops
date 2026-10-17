@@ -1,0 +1,16 @@
+{
+  "repo": "mono___mono",
+  "commit_id": "21f6f5ee74f4aba612d2e7a5dfc8252278f22b45",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Mon Oct 29 21:02:53 CET 2007 Paolo Molaro <lupus@ximian.com>\n\n\t* gc.c: code cleanup and removed old untested option of not creating the\n\tfinalizer thread.\n\n\nsvn path=/trunk/mono/; revision=88405",
+  "patch_path": "reports/codejit_extraction_v1/records/411d525b494179d359f316cb.diff.gz",
+  "diff_bytes": 5413,
+  "diff_sha256": "4ba74cea62b6d13c235acc3f79437727ed15905c3d4d22fadacde99a54736474",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:40.316782+00:00",
+  "url": "https://github.com/mono/mono.git"
+}

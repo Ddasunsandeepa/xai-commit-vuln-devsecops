@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___flac",
+  "commit_id": "b499389da21d89d32deff500376c5ee4f8f0b04c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid free-before-initialize vulnerability in heap\n\nBug: 27211885\nChange-Id: Ib9c93bd9ffdde2a5f8d31a86f06e267dc9c152db",
+  "patch_path": "reports/codejit_extraction_v1/records/b89466ceef8f45c61d7b60c6.diff.gz",
+  "diff_bytes": 605,
+  "diff_sha256": "d8215e0b97a5fbfa460e8c31e9210972494865c92ea8d7217b352d94cb1b3258",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:15.551094+00:00",
+  "url": "https://android.googlesource.com/platform/external/flac"
+}

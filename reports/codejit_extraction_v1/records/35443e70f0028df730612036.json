@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "c3f23b836e5a1766c36617fe1da30d22f7b63de2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed  UNKNOWN READ\n\nReported by OSS-Fuzz\nhttps://oss-fuzz.com/testcase-detail/5681169970757632",
+  "patch_path": "reports/codejit_extraction_v1/records/35443e70f0028df730612036.diff.gz",
+  "diff_bytes": 428,
+  "diff_sha256": "8de6306211b150ec2d7885aed266aaaf60891ad57f7c62008fa49bde28745f8f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:03.353699+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "b1363d37fc6a661508fad106eb7698c5850a6c17",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add unique ID to GraphicBuffer\n\nAdds a globally-unique ID (PID + sequence number) to every\nGraphicBuffer, which will remain the same while crossing Binder,\neven if the underlying handles change.\n\nChange-Id: Ib11330a4c5e99621b82204e0adb31b9a88658426",
+  "patch_path": "reports/codejit_extraction_v1/records/a437860048a1de2a82b53614.diff.gz",
+  "diff_bytes": 5270,
+  "diff_sha256": "0981572cae2fcb6ae085826e84492a48297e26a1968caac428e9cc07f0af743b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:52.374726+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

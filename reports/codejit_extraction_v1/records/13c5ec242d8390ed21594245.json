@@ -1,0 +1,16 @@
+{
+  "repo": "taglib___taglib",
+  "commit_id": "dcdf4fd954e3213c355746fa15b7480461972308",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid uint overflow in case the length + index is over UINT_MAX",
+  "patch_path": "reports/codejit_extraction_v1/records/13c5ec242d8390ed21594245.diff.gz",
+  "diff_bytes": 455,
+  "diff_sha256": "49087e4320e98eba5cecb08ae7eb9feea02a7ac4bd46a7b63bf88a4962043eee",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:48.988129+00:00",
+  "url": "https://github.com/taglib/taglib.git"
+}

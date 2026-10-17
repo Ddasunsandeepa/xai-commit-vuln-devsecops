@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "02a08fef079469c005d48fe2d181f0e0eb5752ae",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "net: inet_connect(), inet_connect_opts(): add in_progress argument\n\nIt's used to indicate the special case where a valid file-descriptor\nis returned (ie. success) but the connection can't be completed\nw/o blocking.\n\nThis is needed because QERR_SOCKET_CONNECT_IN_PROGRESS is not\ntreated like an error and a future commit will drop it.\n\nSigned-off-by: Luiz Capitulino <lcapitulino@redhat.com>\nReviewed-by: Markus Armbruster <armbru@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/2650a46115fbf2be5dc260ef.diff.gz",
+  "diff_bytes": 4184,
+  "diff_sha256": "7080bfe85bf9a24f857fede6e6ae670b1b22ead866560b8908f462dc12cb2be1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:23.464159+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

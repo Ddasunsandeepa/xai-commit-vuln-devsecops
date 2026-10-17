@@ -1,0 +1,16 @@
+{
+  "repo": "e2guardian___e2guardian",
+  "commit_id": "7b71c9999d13f03c2e208e4111d42df33dcb4f09",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge changes from v3 develop and baseline new queue functions",
+  "patch_path": "reports/codejit_extraction_v1/records/16bfa42652dcdc5485cfe8d6.diff.gz",
+  "diff_bytes": 47563,
+  "diff_sha256": "67b87dcc1e192d40acfe8c568acb72055347010e12bc7d2ad0cef97bde0f92a9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:22.619198+00:00",
+  "url": "https://github.com/e2guardian/e2guardian.git"
+}

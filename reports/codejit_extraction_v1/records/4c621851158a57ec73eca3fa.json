@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "edc23801091f1a909efe130e0dba8abab3329eb5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Set groups before dropping privileges.\n\nThe code for dumping tombstones tries to read the log data. This was\nsilently failing after the change to drop root privileges. Fix this\nby explicitly setting the groups allowed before dropping privileges.\n\nBug: 28590884\nChange-Id: Iaccb1d2928268fc9fc855f6e3814c31ce019badf",
+  "patch_path": "reports/codejit_extraction_v1/records/4c621851158a57ec73eca3fa.diff.gz",
+  "diff_bytes": 1075,
+  "diff_sha256": "d0aee44361c727b25e58f5f06dc377c1ba38c829cc1914796ad07c45dbe49efa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:35.988921+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

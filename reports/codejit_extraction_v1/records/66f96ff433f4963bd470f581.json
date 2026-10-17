@@ -1,0 +1,16 @@
+{
+  "repo": "ioquake___ioq3",
+  "commit_id": "3041eee0cf1e09350da5e000bebe3d306c56d3d1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "condump improvements\n\nDefault output file extension to \".txt\"\nShow output filename in error message.\nUse Windows line endings on Windows.\nDynamically allocate line buffer. (by ZTM)",
+  "patch_path": "reports/codejit_extraction_v1/records/66f96ff433f4963bd470f581.diff.gz",
+  "diff_bytes": 1618,
+  "diff_sha256": "3d241e238e0b1e822b14a76aa1fb9d5ad3fdd2eb858652f9708151ececd7893f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:42.074659+00:00",
+  "url": "https://github.com/ioquake/ioq3.git"
+}

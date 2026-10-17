@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "511ce8ba87df1cfb262b5809f3dab772595c4b0a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix SQL modules not all using AddService, noticed by Morpheus\n\ngit-svn-id: http://svn.inspircd.org/repository/trunk/inspircd@12595 e03df62e-2008-0410-955e-edbf42e46eb7",
+  "patch_path": "reports/codejit_extraction_v1/records/c39c9b7a50c4fa491fe0dd35.diff.gz",
+  "diff_bytes": 2731,
+  "diff_sha256": "ab0b13dd29476a3ce1a0da94c23d04295b5c31b3f541b8790dd751602914078d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:37.606268+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "kde___ark",
+  "commit_id": "8bf8c5ef07b0ac5e914d752681e470dea403a5bd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Pass the ARCHIVE_EXTRACT_SECURE_SYMLINKS flag to libarchive\n\nThere are archive types which allow to first create a symlink and then\nlater on dereference it. If the symlink points outside of the archive,\nthis results in writing outside of the destination directory.\n\nWith the ARCHIVE_EXTRACT_SECURE_SYMLINKS option set, libarchive avoids\nthis situation by verifying that none of the target path components are\nsymlinks before writing.\n\nRemove the commented out code in the method, which would actually\nmisbehave if enabled again.\n\nSigned-off-by: Fabian Vogt <fabian@ritter-vogt.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/5f34b03e5b3722cbee43298e.diff.gz",
+  "diff_bytes": 965,
+  "diff_sha256": "60f93262879149708830a82662a8683a4e29c803e796749e5fcf7cc2bfd87adf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:21.251861+00:00",
+  "url": "https://github.com/kde/ark.git"
+}

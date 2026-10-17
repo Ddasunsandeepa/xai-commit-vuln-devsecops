@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "e8dc63704c88007ee4713076605c90188d66f3d2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add BuildTensorSlice for building from unvalidated TensorSliceProtos.\n\nThis avoids several sources of crashes and undefined behavior when loading\ninvalid checkpoints.\n\nPiperOrigin-RevId: 392785704\nChange-Id: Icd9713c768b882f3b58b427eddac376060696833",
+  "patch_path": "reports/codejit_extraction_v1/records/a9c933bf94139dc5c4829440.diff.gz",
+  "diff_bytes": 7114,
+  "diff_sha256": "4fcc7c856826d13a6c7fb4b7e41a9514f8f7f9a115b7151a40f8ea4a1e7851b1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:02.311438+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

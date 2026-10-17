@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "d96f4ca736151632282572003ccf916b88134c71",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added ALPN and elliptic curve in JA3S+",
+  "patch_path": "reports/codejit_extraction_v1/records/ef12e8ed75249da900625ecf.diff.gz",
+  "diff_bytes": 1361,
+  "diff_sha256": "da06417d9dbfc2025f5c076c00df609a7b3da48f42ca37e9f5a24bea003d046b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:33.825051+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

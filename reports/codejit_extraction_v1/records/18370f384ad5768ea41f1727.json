@@ -1,0 +1,16 @@
+{
+  "repo": "ned14___nedmalloc",
+  "commit_id": "2965eca30c408c13473c4146a9d47d547d288db1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid overflowing allocation size in calloc()",
+  "patch_path": "reports/codejit_extraction_v1/records/18370f384ad5768ea41f1727.diff.gz",
+  "diff_bytes": 759,
+  "diff_sha256": "a81222718ad87afa192f6feb3e9f8a9ad68ea61ff4b8c1910b1de745ec512a6f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:26.972476+00:00",
+  "url": "https://github.com/ned14/nedmalloc.git"
+}

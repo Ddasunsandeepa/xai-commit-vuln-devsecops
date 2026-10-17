@@ -1,0 +1,16 @@
+{
+  "repo": "mkj___dropbear",
+  "commit_id": "8f8a3dff705fad774a10864a2e3dbcfa9779ceff",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scp.c: Port OpenSSH CVE-2018-20685 fix (#80)",
+  "patch_path": "reports/codejit_extraction_v1/records/fb93b1c508b607e5754ab54a.diff.gz",
+  "diff_bytes": 460,
+  "diff_sha256": "f72c33380f1dc5d36d4a24f18b225325c038266f59bc1f4d834628539c387165",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:36.145122+00:00",
+  "url": "https://github.com/mkj/dropbear.git"
+}

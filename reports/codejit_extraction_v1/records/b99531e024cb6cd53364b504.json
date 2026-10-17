@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxc",
+  "commit_id": "ced03a017b2d72b44bd76ee195fd2c953120f49b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "attach: mount a sane prox for LSM setup\n\nTo set lsm labels, a namespace-local proc mount is needed.\n\nIf a container does not have a lxc.mount.auto = proc set, then\ntasks in the container do not have a correct /proc mount until\ninit feels like doing the mount.  At startup we handlie this\nby mounting a temporary /proc if needed.  We weren't doing this\nat attach, though, so that\n\nlxc-start -n $container\nlxc-wait -t 5 -s RUNNING -n $container\nlxc-attach -n $container -- uname -a\n\ncould in a racy way fail with something like\n\nlxc-attach: lsm/apparmor.c: apparmor_process_label_set: 183 No such file or directory - failed to change apparmor profile to lxc-container-default\n\nThanks to Chris Townsend for finding this bug at\nhttps://bugs.launchpad.net/ubuntu/+source/lxc/+bug/1452451\n\nSigned-off-by: Serge Hallyn <serge.hallyn@ubuntu.com>\nAcked-by: Stéphane Graber <stgraber@ubuntu.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/b99531e024cb6cd53364b504.diff.gz",
+  "diff_bytes": 4281,
+  "diff_sha256": "2c424dd676ed8267dd4b7fdb1b252de5e85dc45e1b23accac5203393e7deda89",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:53.973765+00:00",
+  "url": "https://github.com/lxc/lxc.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "stoth68000___media-tree",
+  "commit_id": "354dd3924a2e43806774953de536257548b5002c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[PATCH] saa7164: Bug - Double fetch PCIe access condition\n\nAvoid a double fetch by reusing the values from the prior transfer.\n\nOriginally reported via https://bugzilla.kernel.org/show_bug.cgi?id=195559\n\nThanks to Pengfei Wang <wpengfeinudt@gmail.com> for reporting.\n\nSigned-off-by: Steven Toth <stoth@kernellabs.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/30e2158a03f58ca58b3319c4.diff.gz",
+  "diff_bytes": 2296,
+  "diff_sha256": "b36ee027b872223252295ca4e7d0eb5692b9b0343f78e33b0f0fdc4dcaf174da",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:12.392538+00:00",
+  "url": "https://github.com/stoth68000/media-tree.git"
+}

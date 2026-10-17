@@ -1,0 +1,16 @@
+{
+  "repo": "strukturag___libde265",
+  "commit_id": "8e89fe0e175d2870c39486fdd09250b230ec10b8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "error on out-of-range cpb_cnt_minus1 (oss-fuzz issue 27590)",
+  "patch_path": "reports/codejit_extraction_v1/records/981de22153fc5b24dbf0e7ef.diff.gz",
+  "diff_bytes": 1185,
+  "diff_sha256": "b8e95b3fe58f175835d3e487925cf3ee87c906b6fc5a0c64af5f12e8a0ccad61",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:44.491718+00:00",
+  "url": "https://github.com/strukturag/libde265.git"
+}

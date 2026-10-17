@@ -1,0 +1,16 @@
+{
+  "repo": "minetest___minetest",
+  "commit_id": "da71e86633d0b27cd02d7aac9fdac625d141ca13",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Protect a few more settings from being set from mods\n\nOf those settings main_menu_script has concrete security impact, the rest are added out of abundance of caution.",
+  "patch_path": "reports/codejit_extraction_v1/records/82402812702ea51673d5c15f.diff.gz",
+  "diff_bytes": 1559,
+  "diff_sha256": "074381287c79df9f564b54ed8e0752ed31c2d0f8e5a21691b4fa8d576e518a65",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:04.876981+00:00",
+  "url": "https://github.com/minetest/minetest.git"
+}

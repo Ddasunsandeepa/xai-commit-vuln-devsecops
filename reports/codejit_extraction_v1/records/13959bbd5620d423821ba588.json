@@ -1,0 +1,16 @@
+{
+  "repo": "lurcher___unixodbc",
+  "commit_id": "4f9f77fb4204659ec9b7be8745d9e05a539c80b9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Assorted fixes to DM, see ChangeLog\n\ngit-svn-id: svn+ssh://svn.code.sf.net/p/unixodbc/code/trunk@136 ab163d8d-7830-4be3-ba5a-e01213c9a3c2",
+  "patch_path": "reports/codejit_extraction_v1/records/13959bbd5620d423821ba588.diff.gz",
+  "diff_bytes": 69907,
+  "diff_sha256": "d92a99f40379e694a26093a6ff016972f7dd2d0ebde2e667aeeb162daa7d0a9b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:51.008848+00:00",
+  "url": "https://github.com/lurcher/unixodbc.git"
+}

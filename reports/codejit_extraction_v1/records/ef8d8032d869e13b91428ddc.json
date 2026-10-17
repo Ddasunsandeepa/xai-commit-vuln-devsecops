@@ -1,0 +1,16 @@
+{
+  "repo": "torproject___tor",
+  "commit_id": "79b59a2dfcb68897ee89d98587d09e55f07e68d7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "TROVE-2017-004: Fix assertion failure in relay_send_end_cell_from_edge_\n\nThis fixes an assertion failure in relay_send_end_cell_from_edge_() when an\norigin circuit and a cpath_layer = NULL were passed.\n\nA service rendezvous circuit could do such a thing when a malformed BEGIN cell\nis received but shouldn't in the first place because the service needs to send\nan END cell on the circuit for which it can not do without a cpath_layer.\n\nFixes #22493\n\nReported-by: Roger Dingledine <arma@torproject.org>\nSigned-off-by: David Goulet <dgoulet@torproject.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/ef8d8032d869e13b91428ddc.diff.gz",
+  "diff_bytes": 3880,
+  "diff_sha256": "a0fb4a8b8b23075dfc0c7acd9688ea2550b359db89c98ab9b1c10874c67d1e28",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:41.431481+00:00",
+  "url": "https://github.com/torproject/tor.git"
+}

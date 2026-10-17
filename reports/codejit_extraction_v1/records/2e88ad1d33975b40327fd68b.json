@@ -1,0 +1,16 @@
+{
+  "repo": "hpjansson___chafa",
+  "commit_id": "e6ce3746cdcf0836b9dae659a5aed15d73a080d8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libnsgif: fix oob in lzw_decode",
+  "patch_path": "reports/codejit_extraction_v1/records/2e88ad1d33975b40327fd68b.diff.gz",
+  "diff_bytes": 430,
+  "diff_sha256": "950e77e1c3ac95dc97f3599a46741a65848b96b4a1b5542e3de21ed2665af5b6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:03.406935+00:00",
+  "url": "https://github.com/hpjansson/chafa.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "22159fb7b7324c3d4bb9fe00d3d2ce575a15743d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- add new interpolation method\n  . imagescale\n  . imageaffine\n  . replace imagerotate with new generic and optimized new implementations\n  . imagesetinterpolationmethod, to set the default interpolation to be\n    used with the new functions\n  . add imagepalettetotruecolor",
+  "patch_path": "reports/codejit_extraction_v1/records/0bc7258631928d48f1b85dae.diff.gz",
+  "diff_bytes": 413674,
+  "diff_sha256": "5a649bbc12bf11bfb07efe05282d6acc50c3a17cb7dfe6433fee3fdb8379fd4a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:07.088743+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

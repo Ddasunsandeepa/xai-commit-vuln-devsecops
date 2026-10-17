@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "2f5a189caefe2ecbd32faf528a0fbf8c915dfa08",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ppc: Move load and store helpers, switch to AREG0 free mode\n\nAdd an explicit CPUPPCState parameter instead of relying on AREG0\nand rename op_helper.c (which only contains load and store helpers)\nto mem_helper.c. Remove AREG0 swapping in\ntlb_fill().\n\nSwitch to AREG0 free mode. Use cpu_ld{l,uw}_code in translation\nand interrupt handling, cpu_{ld,st}{l,uw}_data in loads and stores.\n\nSigned-off-by: Blue Swirl <blauwirbel@gmail.com>\nSigned-off-by: Alexander Graf <agraf@suse.de>\nSigned-off-by: Andreas Färber <afaerber@suse.de>\nSigned-off-by: Alexander Graf <agraf@suse.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/b95cdfbc2e244d247c40d5bb.diff.gz",
+  "diff_bytes": 19968,
+  "diff_sha256": "3eb93da4d9d02d086f166abf14834f50f358a9168ae92f5ff187daca10195392",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:31.693865+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "c59c37e7b2d563967da813fa50fe20b21f4da683",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent array write out-of-bounds.\n\nIf user passes an invalid axis, then we copy one too many dimensions to the output in the loop below these checks. Even if we didn't do that, there will be further issues with an invalid axis, so we check for that right now.\n\nPiperOrigin-RevId: 371023299\nChange-Id: I9eca37ffc2b29e8e48710f500701270ef0790224",
+  "patch_path": "reports/codejit_extraction_v1/records/80d2d950e1d7e500971f4761.diff.gz",
+  "diff_bytes": 636,
+  "diff_sha256": "7fd0f249702e595deeae6e994200b6a847aac4d5bd77a8cecff67b961a27544e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:34:19.011675+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

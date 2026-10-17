@@ -1,0 +1,16 @@
+{
+  "repo": "osquery___osquery",
+  "commit_id": "5cd2d6cbd3f86ffd9c272d98dba561a7ea310484",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "detangle: Move platform setup and teardown out of Initializer",
+  "patch_path": "reports/codejit_extraction_v1/records/79699fd03b73ec83ee3755d3.diff.gz",
+  "diff_bytes": 25362,
+  "diff_sha256": "d4325b20b3a318d671da13244ee7906ddec823c426087deddc226cab13aa872d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:44.877011+00:00",
+  "url": "https://github.com/osquery/osquery.git"
+}

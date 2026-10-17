@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "a3e658626eb3a06c5d8fc6a1bb805772689483c7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement unicode support.\n\nSVN-Revision: 3491",
+  "patch_path": "reports/codejit_extraction_v1/records/633e9f4e0fd4480bf5746804.diff.gz",
+  "diff_bytes": 7542,
+  "diff_sha256": "81dee04b16b5f6c9761c136c601166c7f5f336fc32b974f727b264a248bcad42",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:44.292167+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

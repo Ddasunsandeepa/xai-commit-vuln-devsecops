@@ -1,0 +1,16 @@
+{
+  "repo": "randombit___botan",
+  "commit_id": "48fc8df51d99f9d8ba251219367b3d629cc848e3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Address DSA/ECDSA side channel",
+  "patch_path": "reports/codejit_extraction_v1/records/5a7dcd0ec80eddf98dce38aa.diff.gz",
+  "diff_bytes": 9991,
+  "diff_sha256": "610ea193dca70dcd1ac39d37989ee9f990ee93974955e7ede84f84feba04db4f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:02.418760+00:00",
+  "url": "https://github.com/randombit/botan.git"
+}

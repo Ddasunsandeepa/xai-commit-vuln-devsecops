@@ -1,0 +1,16 @@
+{
+  "repo": "skvadrik___re2c",
+  "commit_id": "c4603ba5ce229db83a2a4fb93e6d4b4e3ec3776a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix crash in lexer refill (reported by Agostino Sarubbo).\n\nThe crash happened in a rare case of a very long lexeme that doen't fit\ninto the buffer, forcing buffer reallocation.\n\nThe crash was caused by an incorrect calculation of the shift offset\n(it was smaller than necessary). As a consequence, the data from buffer\nstart and up to the beginning of the current lexeme was not discarded\n(as it should have been), resulting in less free space for new data than\nexpected.",
+  "patch_path": "reports/codejit_extraction_v1/records/4a36323b5d0bef1cb4780623.diff.gz",
+  "diff_bytes": 562,
+  "diff_sha256": "7c84d832943518e58aab3edfc1fa591a0a9cc6ace9e7b566f7c1f5ca2a18fec9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:18.887418+00:00",
+  "url": "https://github.com/skvadrik/re2c.git"
+}

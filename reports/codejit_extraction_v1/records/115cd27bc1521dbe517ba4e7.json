@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "4485ac1a25e9919b5911a0db2ad7bed58be143d6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "The previous fix was incomplete.  It is also necessary to disable the\nExpr.y.pTab field when making the translation.\n\nFossilOrigin-Name: b99d5701312f7472e6b606bd824f9273617e2655920485bf50aa96d408064721",
+  "patch_path": "reports/codejit_extraction_v1/records/115cd27bc1521dbe517ba4e7.diff.gz",
+  "diff_bytes": 2710,
+  "diff_sha256": "d608adecdba573b6178713accd97d0ee9796e3550e511b60d15f407e5005b2d8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:42.555711+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "59acbe2b82b2678d5614c7bfdd8684521bed23fc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid size_t overflow in base64 decoding once again\n\nSwitch to foundation base64 function in OggExtractor and fix the\nissue there.\n\nBug: 23707088\nChange-Id: I999ae911177c88dc13f9ee9796ca93c5928b20b0",
+  "patch_path": "reports/codejit_extraction_v1/records/3c6177f1c95fe65d29843c67.diff.gz",
+  "diff_bytes": 5778,
+  "diff_sha256": "f8456485796a6094fd1c8790ffd300f105fa93ba9e71c076b2495ab859c0a305",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:55.509174+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "f25486c3d4aa472fec79150f2c41ed4333395d3d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a bug in the packet iterator code.\nAdded a new regression test case.",
+  "patch_path": "reports/codejit_extraction_v1/records/5a68ff752e297d4680cd5ae6.diff.gz",
+  "diff_bytes": 1424,
+  "diff_sha256": "162f94cc8559d1665bcc42661bba2f7bad8ad76111cdcf08fe62886553f48c16",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:49.100626+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "nothings___stb",
+  "commit_id": "70b33e99f0487d7d8665b483aff3cf2e70a4148f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix crash from invalid file",
+  "patch_path": "reports/codejit_extraction_v1/records/cdb3f42bcfd45626ff5411f8.diff.gz",
+  "diff_bytes": 1064,
+  "diff_sha256": "650a32d2afb5fd5ce96e7fab5c82e5a52becae9ca7a5d470e5b18a2e85e1e4c5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:05.060447+00:00",
+  "url": "https://github.com/nothings/stb.git"
+}

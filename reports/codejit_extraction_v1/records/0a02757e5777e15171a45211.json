@@ -1,0 +1,16 @@
+{
+  "repo": "vadz___libtiff",
+  "commit_id": "5ad9d8016fbb60109302d558f7edb2cb2a3bb8e3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "* tools/tiffcp.c: fix out-of-bounds write on tiled images with odd\ntile width vs image width. Reported as MSVR 35103\nby Axel Souchet and Vishal Chauhan from the MSRC Vulnerabilities &\nMitigations team.",
+  "patch_path": "reports/codejit_extraction_v1/records/0a02757e5777e15171a45211.diff.gz",
+  "diff_bytes": 1261,
+  "diff_sha256": "20380b2532226d5e28275abb8cc0dc1c607ea28d0889f89df37912140f418341",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:43.540536+00:00",
+  "url": "https://github.com/vadz/libtiff.git"
+}

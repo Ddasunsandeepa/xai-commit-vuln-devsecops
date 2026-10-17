@@ -1,0 +1,16 @@
+{
+  "repo": "quassel___quassel",
+  "commit_id": "b5e38970ffd55e2dd9f706ce75af9a8d7730b1b8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve the message-splitting algorithm for PRIVMSG and CTCP\n\nThis introduces a new message splitting algorithm based on\nQTextBoundaryFinder.  It works by first starting with the entire\nmessage to be sent, encoding it, and checking to see if it is over\nthe maximum message length.  If it is, it uses QTBF to find the\nword boundary most immediately preceding the maximum length.  If no\nsuitable boundary can be found, it falls back to searching for\ngrapheme boundaries.  It repeats this process until the entire\nmessage has been sent.\n\nUnlike what it replaces, the new splitting code is not recursive\nand cannot cause stack overflows.  Additionally, if it is unable\nto split a string, it will give up gracefully and not crash the\ncore or cause a thread to run away.\n\nThis patch fixes two bugs.  The first is garbage characters caused\nby accidentally splitting the string in the middle of a multibyte\ncharacter.  Since the new code splits at a character level instead\nof a byte level, this will no longer be an issue.  The second is\nthe core crash caused by sending an overlength CTCP query (\"/me\")\ncontaining only multibyte characters.  This bug was caused by the\nold CTCP splitter using the byte index from lastParamOverrun() as\na character index for a QString.",
+  "patch_path": "reports/codejit_extraction_v1/records/6deef6a653649c2c574ad18c.diff.gz",
+  "diff_bytes": 14995,
+  "diff_sha256": "45e88401403ba4a9eeec1f58079874a95a2e1668373fd2bb683a58751a2368ad",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:59.878848+00:00",
+  "url": "https://github.com/quassel/quassel.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "karelzak___util-linux",
+  "commit_id": "c62a6311ee95556bdaf12106a6a1f8c353322ccd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libblkid: use new debug functions\n\nSigned-off-by: Karel Zak <kzak@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/8bc3a66d8f8d884d11e56b39.diff.gz",
+  "diff_bytes": 65633,
+  "diff_sha256": "55855194a670b9e6d0a4c8d338741c3d10d6b1026a62fcf153cf763048ced3dd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:18.840679+00:00",
+  "url": "https://github.com/karelzak/util-linux.git"
+}

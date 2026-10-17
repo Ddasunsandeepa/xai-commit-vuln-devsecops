@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "abd159cce48f3e34f08e4751c568e09677d5ec9c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #72114 - int/size_t confusion in fread",
+  "patch_path": "reports/codejit_extraction_v1/records/55527307298816036276cc53.diff.gz",
+  "diff_bytes": 1100,
+  "diff_sha256": "bbd943574f92e0d741f234fd76c1bb0950b692de8ba082e6c953020ca7c39991",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:23.880154+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

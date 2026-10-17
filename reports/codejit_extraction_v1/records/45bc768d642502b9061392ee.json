@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "bbbc5fdbae79c72dbe157e02dfee4ef9f18014b5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added memory boundary checks",
+  "patch_path": "reports/codejit_extraction_v1/records/45bc768d642502b9061392ee.diff.gz",
+  "diff_bytes": 625,
+  "diff_sha256": "cbfab7ce9e5e3ea8b680b655658155e210a2b4f28089cae684d5af241b1527b1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:31.960986+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "a40b30f5c43726120bfe69d41ff5aeb31fe1d02a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add SN logging\n\nBug 27046057\n\nChange-Id: Iede7c92e59e60795df1ec7768ebafd6b090f1c27",
+  "patch_path": "reports/codejit_extraction_v1/records/b50e558c73f737d15b82f27d.diff.gz",
+  "diff_bytes": 613,
+  "diff_sha256": "08c6bde8ff10853d891df9dd2af450b396f3e1fe15240e2736132e1278b1529e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:50.719941+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

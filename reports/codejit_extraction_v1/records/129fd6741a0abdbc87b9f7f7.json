@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "8f05139460eb8844cbaf426bf1c6e68201cc1789",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix Zend strrpos compatibility\n\nFixes Zend strrpos compatibility and adds test.\n\nCloses #1564\nCloses #1632\n\nReviewed By: @bertmaher\n\nDifferential Revision: D1142139\n\nPulled By: @scannell",
+  "patch_path": "reports/codejit_extraction_v1/records/129fd6741a0abdbc87b9f7f7.diff.gz",
+  "diff_bytes": 3167,
+  "diff_sha256": "ffb7eaa8d6683e05907c026f42c3eaa731ae49ae721bb447163694f76a8de165",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:32.514916+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

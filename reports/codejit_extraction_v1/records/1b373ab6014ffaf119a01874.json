@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "6e4b8e505173f803a5fc05abc09f64eef89dc308",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Checks the SMP length to fix OOB read\n\nBug: 111937065\nTest: manual\nChange-Id: I330880a6e1671d0117845430db4076dfe1aba688\nMerged-In: I330880a6e1671d0117845430db4076dfe1aba688\n(cherry picked from commit fceb753bda651c4135f3f93a510e5fcb4c7542b8)",
+  "patch_path": "reports/codejit_extraction_v1/records/1b373ab6014ffaf119a01874.diff.gz",
+  "diff_bytes": 1567,
+  "diff_sha256": "f45d5b7121477c77e221df61f2c2b35802caf8819b20a2512d9034c2fa990549",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:14.676204+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

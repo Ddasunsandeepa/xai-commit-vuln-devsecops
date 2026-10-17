@@ -1,0 +1,16 @@
+{
+  "repo": "freertos___freertos-kernel",
+  "commit_id": "c7a9a01c94987082b223d3e59969ede64363da63",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve heap2 bounds checking (#224)\n\n* Improve heap bounds checking in pvPortMalloc",
+  "patch_path": "reports/codejit_extraction_v1/records/3831c56f08cdfd3e7fea1419.diff.gz",
+  "diff_bytes": 9656,
+  "diff_sha256": "fcb231b1cd3423b28a830a8e291bb780fb059b073d0b0f47cadfb6569c4132e8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:46.812157+00:00",
+  "url": "https://github.com/freertos/freertos-kernel.git"
+}

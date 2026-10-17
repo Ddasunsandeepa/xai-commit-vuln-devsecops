@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "de1e67d0703894cb6ea782e36abb63976ab07e60",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "list-objects: pass full pathname to callbacks\n\nWhen we find a blob at \"a/b/c\", we currently pass this to\nour show_object_fn callbacks as two components: \"a/b/\" and\n\"c\". Callbacks which want the full value then call\npath_name(), which concatenates the two. But this is an\ninefficient interface; the path is a strbuf, and we could\nsimply append \"c\" to it temporarily, then roll back the\nlength, without creating a new copy.\n\nSo we could improve this by teaching the callsites of\npath_name() this trick (and there are only 3). But we can\nalso notice that no callback actually cares about the\nbroken-down representation, and simply pass each callback\nthe full path \"a/b/c\" as a string. The callback code becomes\neven simpler, then, as we do not have to worry about freeing\nan allocated buffer, nor rolling back our modification to\nthe strbuf.\n\nThis is theoretically less efficient, as some callbacks\nwould not bother to format the final path component. But in\npractice this is not measurable. Since we use the same\nstrbuf over and over, our work to grow it is amortized, and\nwe really only pay to memcpy a few bytes.\n\nSigned-off-by: Jeff King <peff@peff.net>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/a8a2e0664dc3c58a379cc510.diff.gz",
+  "diff_bytes": 7889,
+  "diff_sha256": "de1b0d85e4124932057f538f575a3fe588ac227ce394da5f06b8aec02f5bda4b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:11.107397+00:00",
+  "url": "https://github.com/git/git.git"
+}

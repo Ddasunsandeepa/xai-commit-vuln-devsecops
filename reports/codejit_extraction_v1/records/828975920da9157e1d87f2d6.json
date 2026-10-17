@@ -1,0 +1,16 @@
+{
+  "repo": "laverdet___isolated-vm",
+  "commit_id": "2646e6c1558bac66285daeab54c7d490ed332b15",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't invoke accessors or proxies via Reference functions",
+  "patch_path": "reports/codejit_extraction_v1/records/828975920da9157e1d87f2d6.diff.gz",
+  "diff_bytes": 22820,
+  "diff_sha256": "e3f353ca1c27512f09417fb52ab403aaac2c8fd8f00a64217c57ae5d74cec501",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:36.215204+00:00",
+  "url": "https://github.com/laverdet/isolated-vm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "d63b69b8a2fe0afbc62ffb850b7f17d4862244fa",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ensure that an ALWAYS() in the rename logic really is always true, even\nfor faulty inputs.\n\nFossilOrigin-Name: 54410f0e7710542d5159d0449898598d2b7f7676bfd993644ca47da1bf1fcdac",
+  "patch_path": "reports/codejit_extraction_v1/records/29a31ac1d50e9b11d6a61cb7.diff.gz",
+  "diff_bytes": 4056,
+  "diff_sha256": "3f57cd28f760961bcec25e248bd3f3eee15e8bd70e8b88845dbb2fdcec68da39",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:15.903021+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

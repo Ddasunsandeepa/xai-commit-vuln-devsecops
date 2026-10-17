@@ -1,0 +1,16 @@
+{
+  "repo": "drogonframework___drogon",
+  "commit_id": "3c785326c63a34aa1799a639ae185bc9453cb447",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent malformed upload path causing arbitrary write (#1174)",
+  "patch_path": "reports/codejit_extraction_v1/records/b97c9d66480c5dca9c3ff96c.diff.gz",
+  "diff_bytes": 8863,
+  "diff_sha256": "bc0c75a77ff27f7bd14f9c2c671b00d6d7076feb8f28ee0baf68ff2aaecd3cef",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:21.042892+00:00",
+  "url": "https://github.com/drogonframework/drogon.git"
+}

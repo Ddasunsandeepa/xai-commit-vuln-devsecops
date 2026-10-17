@@ -1,0 +1,16 @@
+{
+  "repo": "powerdns___pdns",
+  "commit_id": "6cf71cf4d7b55a780c8bb8f35cb22c4be585757e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Limit the maximum length of a qname",
+  "patch_path": "reports/codejit_extraction_v1/records/1f3d12d0fe5ccd4c25be5e84.diff.gz",
+  "diff_bytes": 365,
+  "diff_sha256": "48c055bd6b6dd243afebee3be575fe2aa47069a127b2dc19b77f557185585804",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:00.647068+00:00",
+  "url": "https://github.com/powerdns/pdns.git"
+}

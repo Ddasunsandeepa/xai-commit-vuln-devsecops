@@ -1,0 +1,16 @@
+{
+  "repo": "microsoft___chakracore",
+  "commit_id": "d1f986f6bd56dc8a1753187a8f2984df154bbce1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Change naming IsMissingItemForUnkownArrayTypeAt to be consistent with other Array functions",
+  "patch_path": "reports/codejit_extraction_v1/records/7d969ed46f8c9359a64b9250.diff.gz",
+  "diff_bytes": 1581,
+  "diff_sha256": "676acccca4bb6d199747929ff93b5aa0b31476ed11e42d76958c8663716c3d79",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:56.282069+00:00",
+  "url": "https://github.com/microsoft/chakracore.git"
+}

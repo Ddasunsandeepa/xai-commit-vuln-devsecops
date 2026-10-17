@@ -1,0 +1,16 @@
+{
+  "repo": "umlaeute___v4l2loopback",
+  "commit_id": "e4cd225557486c420f6a34411f98c575effd43dd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add explicit format specifier to printf() invocations\n\nCWE-134",
+  "patch_path": "reports/codejit_extraction_v1/records/b36c33d4c58ea1d1c53a64af.diff.gz",
+  "diff_bytes": 822,
+  "diff_sha256": "4d8e99fc7a69cc742776d8cab7b5b5e5055b4a13d761f0dd70cbcf9c46283fbb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:31.668633+00:00",
+  "url": "https://github.com/umlaeute/v4l2loopback.git"
+}

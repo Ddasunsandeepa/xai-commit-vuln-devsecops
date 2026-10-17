@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "7737780815fe523ad7b0e49456eb75d27a30818a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed Memory Overflow Errors\n\nIn function impeg2d_dec_p_b_slice, there was no check for num_mbs_left ==\n0 after skip_mbs function call. Hence, even though it should have returned\nas an error, it goes ahead to decode the frame and writes beyond the\nbuffer allocated for output. Put a check for the same.\n\nBug: 38207066\nTest: before/after execution of PoC on angler/nyc-mr2-dev\nChange-Id: If4b7bea51032bf2fe2edd03f64a68847aa4f6a00\n(cherry picked from commit 2df080153464bf57084d68ba3594e199bc140eb4)",
+  "patch_path": "reports/codejit_extraction_v1/records/4178ebfd3bd885bf1ee82da3.diff.gz",
+  "diff_bytes": 537,
+  "diff_sha256": "2ab795d0115ae8136d3b9b3ec2414437e09a349d04c20af7d06cf9130ce16720",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:28.926702+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

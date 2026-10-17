@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "3159f943aafdbacb2f94c38fdaadabf2bbde2a14",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "xarray: Replace exceptional entries\n\nIntroduce xarray value entries and tagged pointers to replace radix\ntree exceptional entries.  This is a slight change in encoding to allow\nthe use of an extra bit (we can now store BITS_PER_LONG - 1 bits in a\nvalue entry).  It is also a change in emphasis; exceptional entries are\nintimidating and different.  As the comment explains, you can choose\nto store values or pointers in the xarray and they are both first-class\ncitizens.\n\nSigned-off-by: Matthew Wilcox <willy@infradead.org>\nReviewed-by: Josef Bacik <jbacik@fb.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/328a69f60c168efc18325c25.diff.gz",
+  "diff_bytes": 48600,
+  "diff_sha256": "64e8894a2bee59c07170356931361c6d2d117bb3a11aa2a3e50dbae1d02a3993",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:36:16.745375+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

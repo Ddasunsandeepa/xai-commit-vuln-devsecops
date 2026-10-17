@@ -1,0 +1,16 @@
+{
+  "repo": "vim___vim",
+  "commit_id": "cd929f7ba8cc5b6d6dcf35c8b34124e969fed6b8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "patch 8.1.0633: crash when out of memory while opening a terminal window\n\nProblem:    Crash when out of memory while opening a terminal window.\nSolution:   Handle out-of-memory more gracefully.",
+  "patch_path": "reports/codejit_extraction_v1/records/7210940c3c5215747a7de03d.diff.gz",
+  "diff_bytes": 8357,
+  "diff_sha256": "6d42700e6a815757b1b72ed3783981a31327b649044d4226e9d82f3b5af895d8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:29.957196+00:00",
+  "url": "https://github.com/vim/vim.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "mkj___dropbear",
+  "commit_id": "c5b77e1b4926757c1cd54d05eb16ab6658829f96",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "explicitly initialization of static variables",
+  "patch_path": "reports/codejit_extraction_v1/records/d8989e71a82cdd92672c73e3.diff.gz",
+  "diff_bytes": 702,
+  "diff_sha256": "589d0c0c3206fbfaa5f0697c374402fa0d2eafa5f34d930760b97bdc61d25bc8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:36.685952+00:00",
+  "url": "https://github.com/mkj/dropbear.git"
+}

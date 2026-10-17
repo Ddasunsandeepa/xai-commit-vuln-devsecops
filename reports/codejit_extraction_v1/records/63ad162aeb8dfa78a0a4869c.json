@@ -1,0 +1,16 @@
+{
+  "repo": "sgminer-dev___sgminer",
+  "commit_id": "1f7b7ef26e9ad0e577055554fc8cf24afadf50f5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stratum: move log warning under opt_disable_client_reconnect clause.",
+  "patch_path": "reports/codejit_extraction_v1/records/63ad162aeb8dfa78a0a4869c.diff.gz",
+  "diff_bytes": 647,
+  "diff_sha256": "41f9ebbb050151506b23279f484636b52f0f8afd4beee8dbb31cdeb688df87f9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:56.974786+00:00",
+  "url": "https://github.com/sgminer-dev/sgminer.git"
+}

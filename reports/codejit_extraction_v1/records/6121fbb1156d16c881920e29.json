@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "ad2d30f79d3b0812f02c741be2189796b788d6d7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scsi: reference-count requests\n\nWith the next patch, a device may hold SCSIRequest for an indefinite\ntime.  Split a rather big patch, and protect against access errors,\nby reference counting them.\n\nThere is some ugliness in scsi_send_command implementation due to\nthe need to unref the request when it fails.  This will go away\nwith the next patches, which move the unref'ing to the devices.\n\nSigned-off-by: Paolo Bonzini <pbonzini@redhat.com>\nCc: Christoph Hellwig <hch@lst.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/6121fbb1156d16c881920e29.diff.gz",
+  "diff_bytes": 10153,
+  "diff_sha256": "687c87e272df58cd124f25e8b0da3ff73423b7dc5d47fb8614db87f6283ce578",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:47.389827+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

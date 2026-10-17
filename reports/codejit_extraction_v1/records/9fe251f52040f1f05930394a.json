@@ -1,0 +1,16 @@
+{
+  "repo": "antonkueltz___fastecdsa",
+  "commit_id": "e592f106edd5acf6dacedfab2ad16fe6c735c9d1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Properly handle the point at infinity",
+  "patch_path": "reports/codejit_extraction_v1/records/9fe251f52040f1f05930394a.diff.gz",
+  "diff_bytes": 2562,
+  "diff_sha256": "a84f38259369f27b90d6b7078ebb29d847533179f40755e7e55f8f9852441839",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:30.957048+00:00",
+  "url": "https://github.com/antonkueltz/fastecdsa.git"
+}

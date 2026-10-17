@@ -1,0 +1,16 @@
+{
+  "repo": "python___cpython",
+  "commit_id": "dcfcd146f8e6fc5c2fc16a4c192a0c5f5ca8c53c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "bpo-35766: Merge typed_ast back into CPython (GH-11645)",
+  "patch_path": "reports/codejit_extraction_v1/records/1481fa254f46d4476182b95c.diff.gz",
+  "diff_bytes": 188324,
+  "diff_sha256": "eb3df2bda114ceb977e66f44065a69e8de99913de1e50587a7d23f8299e4c266",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:12.964891+00:00",
+  "url": "https://github.com/python/cpython.git"
+}

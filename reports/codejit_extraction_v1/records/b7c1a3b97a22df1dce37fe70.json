@@ -1,0 +1,16 @@
+{
+  "repo": "curl___curl",
+  "commit_id": "81d135d67155c5295b1033679c606165d4e28f3f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Curl_close: clear data->multi_easy on free to avoid use-after-free\n\nRegression from b46cfbc068 (7.59.0)\nCVE-2018-16840\nReported-by: Brian Carpenter (Geeknik Labs)\n\nBug: https://curl.haxx.se/docs/CVE-2018-16840.html",
+  "patch_path": "reports/codejit_extraction_v1/records/b7c1a3b97a22df1dce37fe70.diff.gz",
+  "diff_bytes": 646,
+  "diff_sha256": "3d9c59742d83a0a2c99780caadeabe79544f8c6da0c10c98c2c5df41ba7deacd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:59.494272+00:00",
+  "url": "https://github.com/curl/curl.git"
+}

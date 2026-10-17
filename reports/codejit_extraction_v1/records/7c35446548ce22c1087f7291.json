@@ -1,0 +1,16 @@
+{
+  "repo": "ntp-project___ntp",
+  "commit_id": "553f2fa65865c31c5e3c48812cfd46176cffdd27",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[Bug 1593] ntpd abort in free() with logconfig syntax error.",
+  "patch_path": "reports/codejit_extraction_v1/records/7c35446548ce22c1087f7291.diff.gz",
+  "diff_bytes": 10962,
+  "diff_sha256": "c48df89a0321b485b232336bf056f3eeb696abc59b8a5dd95f1e60dc2aa9d47b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:40.701915+00:00",
+  "url": "https://github.com/ntp-project/ntp.git"
+}

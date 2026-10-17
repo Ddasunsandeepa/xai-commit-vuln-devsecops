@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "eeb2061dfb03ea11ba028b33037fa0805d22e6a4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "API change: Bool, KeySym, Pixel get prefix \"rfb\"; constants in rfbconfig.h get prefix \"LIBVNCSERVER_\"",
+  "patch_path": "reports/codejit_extraction_v1/records/b273c13d4e986e97594df381.diff.gz",
+  "diff_bytes": 535348,
+  "diff_sha256": "a330d4e15151d7bce43610109f271e3c4c2818c5c9bf0480541e71c77b715b73",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:38.648230+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

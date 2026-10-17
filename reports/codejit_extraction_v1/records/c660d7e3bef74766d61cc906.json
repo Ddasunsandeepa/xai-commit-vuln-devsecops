@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "2b8852dececd0ff681e08fe2127d3defb4f73578",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix native_handle_create to check if malloc fails\n\nBug: 18076253\nChange-Id: I8dbe3af88f52f18f74a3ab857fea53ae7585e2f7",
+  "patch_path": "reports/codejit_extraction_v1/records/c660d7e3bef74766d61cc906.diff.gz",
+  "diff_bytes": 592,
+  "diff_sha256": "13698a2edf5274b8d070a4dfb2dc87fd792fe0be6c99115815ad7385314cc2d4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:27.854809+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

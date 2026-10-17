@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "4bb823621629e82d0546c0941de1f543d0815e69",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "router/jwt_authn: remove support for v2 deprecated regex and cors. (#16517)\n\nRisk level: Low\nTesting: Unit tests modified.\n\nSigned-off-by: Harvey Tuch <htuch@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/319e8b31ad8e2cf90b936788.diff.gz",
+  "diff_bytes": 56836,
+  "diff_sha256": "fcccd87ec8bd494051b56fb87a19599db0945f96c9bd394c307a1a3c6f6471e2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:37.218501+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

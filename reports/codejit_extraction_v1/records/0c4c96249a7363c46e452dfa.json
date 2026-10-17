@@ -1,0 +1,16 @@
+{
+  "repo": "leesavide___abcm2ps",
+  "commit_id": "3169ace6d63f6f517a64e8df0298f44a490c4a15",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix: crash when accidental without a note at start of line after K:\n\nIssue #84.",
+  "patch_path": "reports/codejit_extraction_v1/records/0c4c96249a7363c46e452dfa.diff.gz",
+  "diff_bytes": 1192,
+  "diff_sha256": "0873b58cbc772953ce2c90b5574a9575de1a8ad9e91223cc49aafd9251b585cc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:38.208381+00:00",
+  "url": "https://github.com/leesavide/abcm2ps.git"
+}

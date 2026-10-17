@@ -1,0 +1,16 @@
+{
+  "repo": "jktjkt___trojita",
+  "commit_id": "fa009c90ac12f984711d30c01cfaea154bb4974a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor the connection establishing process\n\nThis change brings us better IMAP compliance through requesting capabilities\nafter a LOGIN.",
+  "patch_path": "reports/codejit_extraction_v1/records/96207df05d1bd3476f02902d.diff.gz",
+  "diff_bytes": 33945,
+  "diff_sha256": "03d2c2127a728d2b42a8a5d0cf20b22804ab0af67ccf6eaf7032df90735b131c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:58.503268+00:00",
+  "url": "https://github.com/jktjkt/trojita.git"
+}

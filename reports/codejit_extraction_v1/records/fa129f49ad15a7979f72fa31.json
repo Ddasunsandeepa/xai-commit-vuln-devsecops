@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "c9108bba25ca634df2c9c06b11639baf8c24f0df",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- Simplify code (only implement handlers that are necessary)\n- Fix handling of read only property 'queryString'\n- Fix overloading\n- Move class init code to their defining .c files for simplification\n- Mark class PDORow as final until there's a need to inherit this and\n  someone implements the handlers correct then.",
+  "patch_path": "reports/codejit_extraction_v1/records/fa129f49ad15a7979f72fa31.diff.gz",
+  "diff_bytes": 14705,
+  "diff_sha256": "f60408160f33c83b45fa6804083ff5331e13c89edd543d1a8e15e33fe38ffced",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:27.302116+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

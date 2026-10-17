@@ -1,0 +1,16 @@
+{
+  "repo": "tildeslash___monit",
+  "commit_id": "328f60773057641c4b2075fab9820145e95b728c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed: HTML escape the log file content when viewed via Monit GUI.",
+  "patch_path": "reports/codejit_extraction_v1/records/839878727024b5af970c5c46.diff.gz",
+  "diff_bytes": 1108,
+  "diff_sha256": "9f2ebffd59133ea41892edeee9f02f56880ff39da65136c48bddb27c73862e86",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:39.532844+00:00",
+  "url": "https://github.com/tildeslash/monit.git"
+}

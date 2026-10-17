@@ -1,0 +1,16 @@
+{
+  "repo": "mpv-player___mpv",
+  "commit_id": "d0c530919d8cd4d7a774e38ab064e0fabdae34e6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "demux_mf: improve format string processing\n\nBefore this commit, the user could specify a printf format string\nwhich wasn't verified, and could result in:\n- Undefined behavior due to missing or non-matching arguments.\n- Buffer overflow due to untested result length.\n\nThe offending code was added at commit 103a9609 (2002, mplayer svn):\ngit-svn-id: svn://svn.mplayerhq.hu/mplayer/trunk@4566 b3059339-0415-0410-9bf9-f77b7e298cf2\n\nIt moved around but was not modified meaningfully until now.\n\nNow we reject all conversion specifiers at the format except %%\nand a simple subset of the valid specifiers. Also, we now use\nsnprintf to avoid buffer overflow.\n\nThe format string is provided by the user as part of mf:// URI.\n\nReport and initial patch by Stefan Schiller.\nPatch reviewed by @jeeb, @sfan5, Stefan Schiller.",
+  "patch_path": "reports/codejit_extraction_v1/records/bceee47c0df8cb56b04c66f1.diff.gz",
+  "diff_bytes": 2176,
+  "diff_sha256": "2487485f3510b7d53bdfdab8be93e23707690d120577741e444ad329e59634e9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:56.428675+00:00",
+  "url": "https://github.com/mpv-player/mpv.git"
+}

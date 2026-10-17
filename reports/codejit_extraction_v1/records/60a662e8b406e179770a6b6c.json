@@ -1,0 +1,16 @@
+{
+  "repo": "stachenov___quazip",
+  "commit_id": "fd0e81adf81cee858c69e45e8159efbfee874402",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "New JlCompress methods (QIODevice*-based API by Lukasz Kwiecinski)",
+  "patch_path": "reports/codejit_extraction_v1/records/60a662e8b406e179770a6b6c.diff.gz",
+  "diff_bytes": 9477,
+  "diff_sha256": "6aeb5eb9fa5cc7e715439f6a6472f3aff0070c8757f262d4d9b22fd22b02f86f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:37.565962+00:00",
+  "url": "https://github.com/stachenov/quazip.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "tigervnc___tigervnc",
+  "commit_id": "8aa4bc53206c2430bbf0c8f4b642f59a379ee649",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Proper global init/deinit of GnuTLS\n\nThese are reference counted so it is important to retain symmetry\nbetween the calls. Failure to do so will result in bad memory access\nand crashes.",
+  "patch_path": "reports/codejit_extraction_v1/records/3f99c19787910169fe3c0a9b.diff.gz",
+  "diff_bytes": 3678,
+  "diff_sha256": "bf1013aabaaea1a13d1ea1e3253de29b02f77b1c212ec3d78dd55e46f9fde526",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:38.632328+00:00",
+  "url": "https://github.com/tigervnc/tigervnc.git"
+}

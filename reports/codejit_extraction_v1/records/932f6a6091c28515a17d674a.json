@@ -1,0 +1,16 @@
+{
+  "repo": "ccxvii___mujs",
+  "commit_id": "00d4606c3baf813b7b1c176823b2729bf51002a2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug 700937: Limit recursion in regexp matcher.\n\nAlso handle negative return code as an error in the JS bindings.",
+  "patch_path": "reports/codejit_extraction_v1/records/932f6a6091c28515a17d674a.diff.gz",
+  "diff_bytes": 7431,
+  "diff_sha256": "d4b0a8e056c0ad76c342898cacfa9f3c92b25b245010f2a6a57031eae8026f7a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:58.424607+00:00",
+  "url": "https://github.com/ccxvii/mujs.git"
+}

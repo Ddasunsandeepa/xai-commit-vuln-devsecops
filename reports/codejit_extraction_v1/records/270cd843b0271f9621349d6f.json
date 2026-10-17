@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "526604545fb1cc0c11af356fbffd5cddf8cdc95f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lavf: add avformat_close_input().\n\nIt sets the supplied AVFormatContext pointer to NULL after freeing it,\nwhich is safer and its name is consistent with other lavf functions.\n\nAlso deprecate av_close_input_file().",
+  "patch_path": "reports/codejit_extraction_v1/records/270cd843b0271f9621349d6f.diff.gz",
+  "diff_bytes": 2601,
+  "diff_sha256": "479821b6bcf2920bc7c69e4f628268b678336dd668c827a2fee8399754b4e57c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:43.566666+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

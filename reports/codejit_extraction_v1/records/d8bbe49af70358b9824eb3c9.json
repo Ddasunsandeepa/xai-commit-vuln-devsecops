@@ -1,0 +1,16 @@
+{
+  "repo": "gost-engine___engine",
+  "commit_id": "2883c9c20b26688f648fc14db1637890f96cab35",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "keyx: Add OPENSSL_cleanse for internal buffers\n\nOnly stack buffers are considered.",
+  "patch_path": "reports/codejit_extraction_v1/records/d8bbe49af70358b9824eb3c9.diff.gz",
+  "diff_bytes": 1370,
+  "diff_sha256": "2533d3ac5c62f9b07de2a1496ec1e80e95c952d21f26bd68673a5b44e81170aa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:27.584259+00:00",
+  "url": "https://github.com/gost-engine/engine.git"
+}
