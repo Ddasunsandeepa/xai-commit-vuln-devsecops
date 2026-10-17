@@ -120,7 +120,8 @@ def main():
                 raise FileNotFoundError(f'Missing verified patch: {path}')
             with gzip.open(path, 'rb') as handle:
                 raw = handle.read()
-            patch, stats = selected_patch(raw, max_patch_bytes)
+            source_window = raw[:max_patch_bytes]
+            patch, stats = selected_patch(source_window, max_patch_bytes)
             transformed.append(patch)
             reports.append({'repo': row.repo, 'commit_id': row.commit_id,
                             'label': int(row.label), **stats})
