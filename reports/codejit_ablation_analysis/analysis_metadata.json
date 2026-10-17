@@ -1,0 +1,32 @@
+{
+  "timestamp_utc": "2026-10-17T16:36:56.253242+00:00",
+  "python": "3.13.15",
+  "numpy": "2.1.3",
+  "pandas": "2.3.3",
+  "prediction_files_sha256": {
+    "message_only_predictions.csv": "75675ecdc4a28fd0996f9c530b690ef5ecef00aea40ec12dfe83af1ac1dd991c",
+    "code_only_predictions.csv": "09c2234c9f4dc020e4bf1b3e5f311eba4cddf4c964a2cc812dd8aa22572fa74d",
+    "message_plus_code_predictions.csv": "5ddc8003845dcd5bc8e119a6d73b311cc124028b332e579c529437d90bcda6ee"
+  },
+  "pilot_csv": "reports/codejit_pilot_200/pilot_commits.csv",
+  "n_commits": 183,
+  "label_counts": {
+    "0": 94,
+    "1": 89
+  },
+  "bootstrap": {
+    "method": "paired stratified row bootstrap of OOF predictions",
+    "resamples": 3000,
+    "seed": 42,
+    "ci": "percentile 95%"
+  },
+  "mcnemar": "exact two-sided binomial test of discordant paired correctness",
+  "limitations": [
+    "Nonrepresentative pilot; results are exploratory.",
+    "Bootstrap resamples fixed out-of-fold predictions; it does not refit models or capture training variability.",
+    "P-values and confidence intervals are conditional on the selected sample; not proof of cross-project generalization.",
+    "Multiple metrics/comparisons are exploratory; no multiple-testing correction.",
+    "Truncated patches excluded, disproportionately removing positive-label commits.",
+    "CodeJIT label provenance and operational validity require independent verification."
+  ]
+}

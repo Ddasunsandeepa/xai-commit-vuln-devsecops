@@ -1,0 +1,31 @@
+{
+  "purpose": "Exploratory development v3; held-out test untouched",
+  "frozen_cohort_sha256": "bbc366fe19aa1311f382b68a0378c6500f66ff6c7baf819f54c6c60e64cd87f3",
+  "v2_train_manifest_sha256": "25c4b1029628ba5d20148b8103cae9141279b67bab8a26feecdd8d801050259e",
+  "v2_val_manifest_sha256": "007e6adb0ff5778dd02717daaf7b856543bed2f3b822afc9ec5ddbdc41d0c7b3",
+  "v3_train_manifest_sha256": "22fe1a4a193865c47ab1276752d82f4c4b7ca65c9128882a363df938be124981",
+  "v3_val_manifest_sha256": "1e284c9c6647b615fce51a9bb33a9da7112edf0fca33bdbb72d866e818ab15c1",
+  "frozen_development_rows": 1615,
+  "valid_rows": 1586,
+  "rejected_counts": {
+    "extraction_failed": 19,
+    "empty_message": 10
+  },
+  "train_rows": 1263,
+  "val_rows": 323,
+  "train_label_counts": {
+    "0": 632,
+    "1": 631
+  },
+  "val_label_counts": {
+    "1": 164,
+    "0": 159
+  },
+  "train_repositories": 326,
+  "val_repositories": 63,
+  "new_repositories_assigned": 89,
+  "v2_train_rows_preserved": 937,
+  "v2_val_rows_preserved": 237,
+  "train_val_repository_overlap": 0,
+  "development_test_repository_overlap": 0
+}

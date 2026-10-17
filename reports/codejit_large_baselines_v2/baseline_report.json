@@ -1,0 +1,106 @@
+{
+  "experiment": "CodeJIT repository-disjoint matched-input TF-IDF logistic baseline",
+  "evaluation": "frozen validation only; held-out test not accessed",
+  "source_sha256": {
+    "train_manifest": "25c4b1029628ba5d20148b8103cae9141279b67bab8a26feecdd8d801050259e",
+    "val_manifest": "007e6adb0ff5778dd02717daaf7b856543bed2f3b822afc9ec5ddbdc41d0c7b3"
+  },
+  "configuration": {
+    "seed": 42,
+    "max_patch_bytes": 32768,
+    "max_features": 15000,
+    "vectorizer": "word TF-IDF 1-2grams, sublinear_tf",
+    "classifier": "class-weighted logistic regression, liblinear, max_iter=2000",
+    "threshold": 0.5,
+    "patch_selection": "first N raw bytes decoded with replacement"
+  },
+  "sample_counts": {
+    "train": 937,
+    "val": 237,
+    "train_repositories": 240,
+    "val_repositories": 60,
+    "train_label0": 463,
+    "train_label1": 474,
+    "val_label0": 116,
+    "val_label1": 121
+  },
+  "input_coverage": {
+    "truncated_train": 127,
+    "truncated_val": 34,
+    "truncated_total": 161,
+    "max_full_patch_bytes": 14239326
+  },
+  "validation_metrics": {
+    "message": {
+      "n": 237,
+      "accuracy": 0.7383966244725738,
+      "balanced_accuracy": 0.7393488173268737,
+      "precision": 0.7706422018348624,
+      "recall": 0.6942148760330579,
+      "f1": 0.7304347826086957,
+      "macro_f1": 0.738168210976479,
+      "roc_auc": 0.7994442861214022,
+      "pr_auc": 0.8120360508300832,
+      "confusion_matrix": [
+        [
+          91,
+          25
+        ],
+        [
+          37,
+          84
+        ]
+      ]
+    },
+    "code": {
+      "n": 237,
+      "accuracy": 0.6919831223628692,
+      "balanced_accuracy": 0.6926474779139355,
+      "precision": 0.7142857142857143,
+      "recall": 0.6611570247933884,
+      "f1": 0.6866952789699571,
+      "macro_f1": 0.6918953573273021,
+      "roc_auc": 0.7563408378455401,
+      "pr_auc": 0.8109516680170433,
+      "confusion_matrix": [
+        [
+          84,
+          32
+        ],
+        [
+          41,
+          80
+        ]
+      ]
+    },
+    "combined": {
+      "n": 237,
+      "accuracy": 0.7257383966244726,
+      "balanced_accuracy": 0.7264177828441152,
+      "precision": 0.75,
+      "recall": 0.6942148760330579,
+      "f1": 0.721030042918455,
+      "macro_f1": 0.7256602496749951,
+      "roc_auc": 0.7889712168709034,
+      "pr_auc": 0.8320734227060125,
+      "confusion_matrix": [
+        [
+          88,
+          28
+        ],
+        [
+          37,
+          84
+        ]
+      ]
+    }
+  },
+  "limitations": [
+    "CodeJIT negative class is curated, not representative of normal CI traffic.",
+    "Group-disjoint is not chronological and may share code across forks.",
+    "Raw patch prefix truncation may omit security-relevant hunks.",
+    "TF-IDF coefficients are correlational and not causal explanations.",
+    "Validation comparison is exploratory; no statistical significance asserted.",
+    "Original 18 unrecovered commits excluded; selection bias possible."
+  ]
+}

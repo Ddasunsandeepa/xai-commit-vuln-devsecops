@@ -1,0 +1,181 @@
+model,direction,rank,term,coefficient
+message,positive,1,support,2.0134102420296447
+message,positive,2,add,1.1625359664905648
+message,positive,3,support for,0.9392813669832417
+message,positive,4,refactor,0.8067351024182663
+message,positive,5,remove,0.7053553699455678
+message,positive,6,security fixes,0.7037307012954885
+message,positive,7,functions,0.6835987460989089
+message,positive,8,warnings,0.666201314596499
+message,positive,9,compiler,0.6629363978808566
+message,positive,10,where,0.6004696507110092
+message,positive,11,zlib,0.5811818605344476
+message,positive,12,messages,0.5764651056873152
+message,positive,13,cleanup,0.5704762704892585
+message,positive,14,from,0.5566029515082241
+message,positive,15,style,0.5454059250127063
+message,positive,16,rename,0.5380100898419181
+message,positive,17,warning,0.5265881409431041
+message,positive,18,usage,0.5124653452564533
+message,positive,19,new,0.5050615201679305
+message,positive,20,decoder,0.5040691393890178
+message,positive,21,import,0.49354341736414326
+message,positive,22,6200,0.4922999899162342
+message,positive,23,into,0.4875162245784217
+message,positive,24,codec,0.4847338304231091
+message,positive,25,variables,0.4833327583576716
+message,positive,26,split,0.4809615919998393
+message,positive,27,more,0.47831449291514483
+message,positive,28,instead,0.47490788072221796
+message,positive,29,first,0.47452607072339476
+message,positive,30,native,0.47393081623559413
+message,negative,1,buffer,-1.9041389845641634
+message,negative,2,fix,-1.8678049172681936
+message,negative,3,overflow,-1.65221669657948
+message,negative,4,cve,-1.5553320872434175
+message,negative,5,fixed,-1.4909734190108554
+message,negative,6,in,-1.2116017614454175
+message,negative,7,check,-1.1052456862418494
+message,negative,8,bug,-1.0290873299092933
+message,negative,9,an,-0.9889648139795271
+message,negative,10,when,-0.9529520602613277
+message,negative,11,buffer overflow,-0.9067241098064674
+message,negative,12,thanks,-0.9057045400835926
+message,negative,13,security,-0.8389618565726662
+message,negative,14,https,-0.8346027269427545
+message,negative,15,was,-0.7949973206748328
+message,negative,16,security fix,-0.7918927340319294
+message,negative,17,by,-0.7479602957377534
+message,negative,18,vulnerability,-0.742222426020396
+message,negative,19,the,-0.7366829524802843
+message,negative,20,size,-0.7312852330211004
+message,negative,21,thanks to,-0.7279525895028995
+message,negative,22,stack,-0.7196848170418417
+message,negative,23,chromium,-0.716516165190635
+message,negative,24,overflow in,-0.693012829429671
+message,negative,25,bounds,-0.6847845213283439
+message,negative,26,fuzz,-0.6817151075637804
+message,negative,27,could,-0.6803844137487493
+message,negative,28,case,-0.6607808553953255
+message,negative,29,fix for,-0.6360764627407675
+message,negative,30,github,-0.6236014720539095
+code,positive,1,type,0.9336473428496661
+code,positive,2,else,0.7771969737585752
+code,positive,3,support,0.717648973867528
+code,positive,4,item,0.6863031805379026
+code,positive,5,enum,0.6616024351352975
+code,positive,6,flags,0.6498463814964179
+code,positive,7,for,0.6379117786399057
+code,positive,8,length,0.6233946761987592
+code,positive,9,bool,0.612457773879355
+code,positive,10,tmp,0.5933003126464825
+code,positive,11,tag,0.5922332789933161
+code,positive,12,include,0.5885052743021255
+code,positive,13,key,0.5805391637618584
+code,positive,14,free,0.5726499543975999
+code,positive,15,uint32,0.5587198046972403
+code,positive,16,continue,0.5415000543092066
+code,positive,17,else if,0.537820388126986
+code,positive,18,typedef,0.5346488548636749
+code,positive,19,endif,0.5317450159853361
+code,positive,20,sd,0.5216114394811043
+code,positive,21,libfreerdp,0.5213459429051154
+code,positive,22,rc,0.5196784515400714
+code,positive,23,return if,0.5181886743475986
+code,positive,24,const char,0.5088357835491422
+code,positive,25,null,0.5014251063012473
+code,positive,26,gf_box,0.5011822541442693
+code,positive,27,image,0.4988914197805309
+code,positive,28,18,0.49867195517857127
+code,positive,29,set,0.4873010870394793
+code,positive,30,server,0.48608034514684567
+code,negative,1,git,-0.8106765208782153
+code,negative,2,100644,-0.8037350908648997
+code,negative,3,diff git,-0.7947802002090357
+code,negative,4,imap,-0.7680789852973804
+code,negative,5,test,-0.763715203796347
+code,negative,6,diff,-0.7633446152892543
+code,negative,7,index,-0.7384242492920128
+code,negative,8,if,-0.6762639675287317
+code,negative,9,libavcodec,-0.6659208843174761
+code,negative,10,src,-0.6202498792818196
+code,negative,11,cc,-0.6076928970082973
+code,negative,12,tests,-0.5147550785411487
+code,negative,13,lua_state,-0.4778615825424918
+code,negative,14,goto err,-0.4691440783428976
+code,negative,15,cpp,-0.4594193172618033
+code,negative,16,util,-0.44842508440319634
+code,negative,17,overflow,-0.4417247196118209
+code,negative,18,result,-0.43617587224350834
+code,negative,19,chrome,-0.43345153361878896
+code,negative,20,vm,-0.42617358344975353
+code,negative,21,return,-0.4062597523817365
+code,negative,22,2019,-0.4026179128399765
+code,negative,23,ptmp,-0.39580339688293836
+code,negative,24,verify,-0.39084843664437496
+code,negative,25,renderer,-0.3753344752069001
+code,negative,26,corrupt,-0.36856276018786593
+code,negative,27,2017,-0.36739158848920594
+code,negative,28,base,-0.3578832044298056
+code,negative,29,2022,-0.3522722327704111
+code,negative,30,cc index,-0.347829764980699
+combined,positive,1,support,0.8555789008394472
+combined,positive,2,type,0.795889285686637
+combined,positive,3,else,0.7596188295850995
+combined,positive,4,flags,0.6468997211918994
+combined,positive,5,item,0.6390191746532209
+combined,positive,6,enum,0.6240193642046593
+combined,positive,7,bool,0.5980410712745392
+combined,positive,8,continue,0.5928004794138237
+combined,positive,9,include,0.591411950933259
+combined,positive,10,tmp,0.5699109002244577
+combined,positive,11,const char,0.5651828366557329
+combined,positive,12,key,0.5494411638545322
+combined,positive,13,endif,0.5434085684794842
+combined,positive,14,typedef,0.5295118740185787
+combined,positive,15,uint32,0.529433266040494
+combined,positive,16,tag,0.5244998260422968
+combined,positive,17,failed,0.5240276814643905
+combined,positive,18,static void,0.5233746862383842
+combined,positive,19,rc,0.5220304074757245
+combined,positive,20,else if,0.5195819934770493
+combined,positive,21,libfreerdp,0.5162520198839027
+combined,positive,22,return if,0.5147890526154524
+combined,positive,23,16,0.5111349969119754
+combined,positive,24,sd,0.48859048059095883
+combined,positive,25,add,0.48778838017991366
+combined,positive,26,uint32_t,0.4855336675729525
+combined,positive,27,gf_box,0.4820774503001818
+combined,positive,28,unsigned int,0.47987723388476455
+combined,positive,29,image,0.4653350445715485
+combined,positive,30,void,0.46033688523013355
+combined,negative,1,overflow,-1.3511012661727608
+combined,negative,2,fix,-1.194286998077506
+combined,negative,3,cve,-1.1142671283155985
+combined,negative,4,https,-0.8495681448402426
+combined,negative,5,code,-0.8157918681480485
+combined,negative,6,imap,-0.7983149570476833
+combined,negative,7,bug,-0.7907514020003101
+combined,negative,8,test,-0.7781557622686981
+combined,negative,9,the,-0.7698510727428108
+combined,negative,10,message fix,-0.7657055412611392
+combined,negative,11,code diff,-0.7518338073032493
+combined,negative,12,was,-0.740618053528396
+combined,negative,13,message,-0.7150476855058597
+combined,negative,14,by,-0.6845159153742137
+combined,negative,15,buffer overflow,-0.6766598878855978
+combined,negative,16,src,-0.6722461819882006
+combined,negative,17,thanks,-0.6715373709726499
+combined,negative,18,fixed,-0.6422824393181435
+combined,negative,19,in,-0.641875512647539
+combined,negative,20,when,-0.6350444582920437
+combined,negative,21,reported,-0.6165992691172265
+combined,negative,22,message fixed,-0.6024290645714016
+combined,negative,23,security,-0.5954162400024983
+combined,negative,24,overflow in,-0.569653257753927
+combined,negative,25,stack,-0.5570129120529561
+combined,negative,26,check,-0.5568327458983582
+combined,negative,27,100644,-0.5479843424438423
+combined,negative,28,cc,-0.5479721277018876
+combined,negative,29,git,-0.5438999210187389
+combined,negative,30,diff git,-0.5333093477228609

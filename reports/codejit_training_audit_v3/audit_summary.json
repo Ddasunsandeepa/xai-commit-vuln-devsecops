@@ -1,0 +1,38 @@
+{
+  "manifest_sha256": "bbc366fe19aa1311f382b68a0378c6500f66ff6c7baf819f54c6c60e64cd87f3",
+  "index_sha256": "f05093e4f436af6db8237412ce1dea094bb53b4a02979b11c3bf41624fede4c2",
+  "training_selected": 1615,
+  "test_metadata_rows_not_inspected": 385,
+  "training_attempted": 1400,
+  "status_counts": {
+    "ok": 1184,
+    "failed": 216,
+    "not_attempted": 215
+  },
+  "verified_patches": 1184,
+  "failed_or_missing_or_corrupt": 431,
+  "integrity_issues": 0,
+  "verified_label_counts": {
+    "0": 580,
+    "1": 604
+  },
+  "selected_label_counts": {
+    "0": 801,
+    "1": 814
+  },
+  "repositories_selected": 396,
+  "repositories_with_verified_patch": 300,
+  "patch_bytes": {
+    "p50": 3616.0,
+    "p90": 50833.40000000003,
+    "p95": 110296.74999999999,
+    "p99": 453929.9900000064
+  },
+  "patch_bytes_max": 14239326,
+  "notes": [
+    "This audits patch integrity, not ground-truth vulnerability label correctness.",
+    "The original CodeJIT negative class is curated; results are not representative of everyday CI traffic.",
+    "Do not use the held-out test cohort for feature selection or tuning.",
+    "Do not treat verified patches as an unbiased sample without checking failure patterns."
+  ]
+}

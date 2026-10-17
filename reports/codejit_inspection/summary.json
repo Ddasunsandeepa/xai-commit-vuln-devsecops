@@ -1,0 +1,25 @@
+{
+  "source_csv": "data/raw/jit_candidate/CodeJIT/Data/CodeJIT_Dataset_Commit_Hash.csv",
+  "sha256": "d5b07fac7399dce2aba10406c3033cb9bd004e5c3d32c4f5d3f1f6626712fa1f",
+  "rows": 20274,
+  "unique_repositories": 506,
+  "label_counts": {
+    "0": 11299,
+    "1": 8975
+  },
+  "duplicate_repo_commit_rows": 0,
+  "conflicting_repo_commit_pairs": 0,
+  "invalid_timestamps": 0,
+  "earliest_commit_utc": "1998-08-26 09:10:50+00:00",
+  "latest_commit_utc": "2022-08-03 13:09:17+00:00",
+  "readme_files": [
+    "data/raw/jit_candidate/CodeJIT/Readme.md"
+  ],
+  "matched_python_files": 15,
+  "cautions": [
+    "Label meaning must be verified from the source paper or dataset construction documentation.",
+    "Commit diffs and messages are not present in the metadata CSV.",
+    "Repository identifiers are not verified clone URLs.",
+    "Do not use future commit information to predict earlier commits."
+  ]
+}

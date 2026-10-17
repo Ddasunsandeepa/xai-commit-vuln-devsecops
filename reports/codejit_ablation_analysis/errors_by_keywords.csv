@@ -1,0 +1,13 @@
+keyword,present,model,n,error_rate
+mentions_fix,False,message_only,109,0.3577981651376147
+mentions_fix,False,code_only,109,0.26605504587155965
+mentions_fix,False,message_plus_code,109,0.27522935779816515
+mentions_fix,True,message_only,74,0.22972972972972974
+mentions_fix,True,code_only,74,0.32432432432432434
+mentions_fix,True,message_plus_code,74,0.25675675675675674
+mentions_security,False,message_only,145,0.3310344827586207
+mentions_security,False,code_only,145,0.296551724137931
+mentions_security,False,message_plus_code,145,0.2827586206896552
+mentions_security,True,message_only,38,0.21052631578947367
+mentions_security,True,code_only,38,0.2631578947368421
+mentions_security,True,message_plus_code,38,0.21052631578947367

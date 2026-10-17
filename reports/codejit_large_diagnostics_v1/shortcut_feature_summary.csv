@@ -1,0 +1,7 @@
+model,direction,top_terms,shortcut_terms
+code,negative,30,1
+code,positive,30,0
+combined,negative,30,9
+combined,positive,30,0
+message,negative,30,10
+message,positive,30,1
