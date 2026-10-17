@@ -1,0 +1,16 @@
+{
+  "repo": "nghttp2___nghttp2",
+  "commit_id": "2ec585518e83bec7de8deb0d429cd744d99fc72b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix receiving stream data stall\n\nPreviously, if automatic window update is enabled (which is default),\nafter window size is set to 0 by\nnghttp2_session_set_local_window_size, once the receiving window is\nexhausted, even after window size is increased by\nnghttp2_session_set_local_window_size, no more data cannot be\nreceived.  This is because nghttp2_session_set_local_window_size does\nnot submit WINDOW_UPDATE.  It is only triggered when new data arrives\nbut since window is filled up, no more data cannot be received, thus\ndead lock happens.\n\nThis commit fixes this issue.  nghttp2_session_set_local_window_size\nsubmits WINDOW_UPDATE if necessary.\n\nhttps://github.com/curl/curl/issues/4939",
+  "patch_path": "reports/codejit_extraction_v1/records/4fd6639be146e65f65e4aa29.diff.gz",
+  "diff_bytes": 12193,
+  "diff_sha256": "7c2989858295520f47407838b1f322b3427bb19abac665f0c67c8a710bcbc0d4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:58.684358+00:00",
+  "url": "https://github.com/nghttp2/nghttp2.git"
+}

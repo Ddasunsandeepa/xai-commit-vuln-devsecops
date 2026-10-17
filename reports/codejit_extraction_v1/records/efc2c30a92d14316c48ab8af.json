@@ -1,0 +1,16 @@
+{
+  "repo": "libjxl___libjxl",
+  "commit_id": "7dfa400ded53919d986c5d3d23446a09e0cf481b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix handling of APNG with 0 delay_den (#313)",
+  "patch_path": "reports/codejit_extraction_v1/records/efc2c30a92d14316c48ab8af.diff.gz",
+  "diff_bytes": 837,
+  "diff_sha256": "e0ba9233320d06b0492401d4a606901e6c138fd5e81b19663ff3a4446eb95f5e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:05.960998+00:00",
+  "url": "https://github.com/libjxl/libjxl.git"
+}

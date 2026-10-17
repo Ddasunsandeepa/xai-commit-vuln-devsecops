@@ -1,0 +1,16 @@
+{
+  "repo": "gost-engine___engine",
+  "commit_id": "b2b4d629f100eaee9f5942a106b1ccefe85b8808",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "On unpacking key blob output buffer size should be fixed\n\nRelated: CVE-2022-29242",
+  "patch_path": "reports/codejit_extraction_v1/records/28c83d7f3ff9cdd9814a4817.diff.gz",
+  "diff_bytes": 2109,
+  "diff_sha256": "d36cfe35042f3f213ea536b9062c2c442d82de30c09eb5b2db8aed2adcbac141",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:28.697515+00:00",
+  "url": "https://github.com/gost-engine/engine.git"
+}

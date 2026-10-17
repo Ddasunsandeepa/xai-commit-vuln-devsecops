@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "5f691ff91d323b6f97c6600405a7f9dc115a0ad1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "hw/pci/pcie_aer.c: fix buffer overruns on invalid state load\n\n4) CVE-2013-4529\nhw/pci/pcie_aer.c    pcie aer log can overrun the buffer if log_num is\n                     too large\n\nThere are two issues in this file:\n1. log_max from remote can be larger than on local\nthen buffer will overrun with data coming from state file.\n2. log_num can be larger then we get data corruption\nagain with an overflow but not adversary controlled.\n\nFix both issues.\n\nReported-by: Anthony Liguori <anthony@codemonkey.ws>\nReported-by: Michael S. Tsirkin <mst@redhat.com>\nSigned-off-by: Michael S. Tsirkin <mst@redhat.com>\nReviewed-by: Dr. David Alan Gilbert <dgilbert@redhat.com>\nSigned-off-by: Juan Quintela <quintela@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/08409eb242c455d6f9433680.diff.gz",
+  "diff_bytes": 1013,
+  "diff_sha256": "44185920af31e4a394f8fd1e35dfda738a7446d66fd68e197015063ff2aa1d65",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:52.833488+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

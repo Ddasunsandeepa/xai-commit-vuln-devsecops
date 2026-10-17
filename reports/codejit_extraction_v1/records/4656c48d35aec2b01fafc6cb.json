@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "d06421fd37fbb7fd07002e6738fac3a223cb1a62",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "IGraphicBufferProducer: fix QUEUE_BUFFER info leak\n\nBug: 26338109\nChange-Id: I8a979469bfe1e317ebdefa43685e19f9302baea8",
+  "patch_path": "reports/codejit_extraction_v1/records/4656c48d35aec2b01fafc6cb.diff.gz",
+  "diff_bytes": 647,
+  "diff_sha256": "d39f5422116eb1d5a57d8dcbbd29f6ec4aa46ccba4162c65d75a361e618b35d4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:52.862352+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

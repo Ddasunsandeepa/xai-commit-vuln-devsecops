@@ -1,0 +1,16 @@
+{
+  "repo": "opencontainers___runc",
+  "commit_id": "0a8e4117e7f715d5fbeef398405813ce8e88558b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "nsenter: clone /proc/self/exe to avoid exposing host binary to container\n\nThere are quite a few circumstances where /proc/self/exe pointing to a\npretty important container binary is a _bad_ thing, so to avoid this we\nhave to make a copy (preferably doing self-clean-up and not being\nwriteable).\n\nWe require memfd_create(2) -- though there is an O_TMPFILE fallback --\nbut we can always extend this to use a scratch MNT_DETACH overlayfs or\ntmpfs. The main downside to this approach is no page-cache sharing for\nthe runc binary (which overlayfs would give us) but this is far less\ncomplicated.\n\nThis is only done during nsenter so that it happens transparently to the\nGo code, and any libcontainer users benefit from it. This also makes\nExtraFiles and --preserve-fds handling trivial (because we don't need to\nworry about it).\n\nFixes: CVE-2019-5736\nCo-developed-by: Christian Brauner <christian.brauner@ubuntu.com>\nSigned-off-by: Aleksa Sarai <asarai@suse.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/e729221bc87787495eba80bb.diff.gz",
+  "diff_bytes": 7605,
+  "diff_sha256": "23a52a9f1e1a7ac9868147d620c95c86bd79456b7e0baa8e0f5e7d6ef667d8e9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:29.045228+00:00",
+  "url": "https://github.com/opencontainers/runc.git"
+}

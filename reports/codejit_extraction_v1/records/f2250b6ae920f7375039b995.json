@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "fb1ab50e448ddbed746fd27ae07469bc506d838b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix array boundary check when parsing inflections which could result in buffer over-read with corrupt input",
+  "patch_path": "reports/codejit_extraction_v1/records/f2250b6ae920f7375039b995.diff.gz",
+  "diff_bytes": 1817,
+  "diff_sha256": "fcaba0a7a1dcf3c6b4938ae2594e9f2abb30000076661237d45bbb92ce6e9012",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:22.920991+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

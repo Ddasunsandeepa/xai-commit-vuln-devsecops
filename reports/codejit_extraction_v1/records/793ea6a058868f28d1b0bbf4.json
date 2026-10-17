@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "2b0b06c144c49f647ddf1db74010f5a7b8cc34dd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve error handling in sfconvert.",
+  "patch_path": "reports/codejit_extraction_v1/records/793ea6a058868f28d1b0bbf4.diff.gz",
+  "diff_bytes": 3122,
+  "diff_sha256": "ac0104b8bae04b1f4ecf46cb2e60cd81d179b5bb2f19e85f51f9bf87e7f4dde2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:28.230200+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libguestfs___hivex",
+  "commit_id": "3e7c039799cddc45517350cc917eb10715f33fec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lib: Split up the large file lib/hivex.c into multiple small source files.",
+  "patch_path": "reports/codejit_extraction_v1/records/67482cc1e0864527bf3246fb.diff.gz",
+  "diff_bytes": 173591,
+  "diff_sha256": "ac28afbf77eb6bdcbb8e1e5273d48bc80fe47cf8b33299d8984ada2932333cf2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:02.548532+00:00",
+  "url": "https://github.com/libguestfs/hivex.git"
+}

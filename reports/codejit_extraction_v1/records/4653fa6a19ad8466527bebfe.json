@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "5a710936251a14adf28316d68f9be599aa27750f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix tf.bincount errors in eager mode\n\nPiperOrigin-RevId: 323718056\nChange-Id: Ic454b2b76a313d68b18e22e705cd7cbe9ae107b7",
+  "patch_path": "reports/codejit_extraction_v1/records/4653fa6a19ad8466527bebfe.diff.gz",
+  "diff_bytes": 3923,
+  "diff_sha256": "54aea3b75abaadaf54e19b589c489c70573882b3580fd955f36696bd7d63e9fa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:32:20.229187+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

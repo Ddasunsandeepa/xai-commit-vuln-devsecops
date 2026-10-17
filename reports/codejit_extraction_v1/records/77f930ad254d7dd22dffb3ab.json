@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "be6d58f35e66b9e57cf4978be68840cbc8ac2fc9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix GKI exception of calling free on an already freed buffer\n\nVarious parts of btif_hh.c were creating GKI buffers and\nkeeping references to them and freeing them in odd and\nunnecessary ways.  The buffer is freed by lower levels\nof the stack once the buffer has been sent to the chip\nat the l2c layer and shouldn't be freed by btif_hh itself\nsince it's possible to double free, and there could\nalso be race conditions with other threads already processing\nthe buffer while the reference is freed if the API calls\nare invoked again before the previous invocation was completely\nprocessed.\n\nAlso added a helper routine to simplify buffer creation and\ninitialization.\n\nChange-Id: Ia6039983502e2670b2325d90310244edf843b692\nSigned-off-by: Mike J. Chen <mjchen@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/77f930ad254d7dd22dffb3ab.diff.gz",
+  "diff_bytes": 8714,
+  "diff_sha256": "e43affac0bcb97572e87437cec3557b9ab63412a5679f39848bfa91bdb647e8c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:21.572203+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

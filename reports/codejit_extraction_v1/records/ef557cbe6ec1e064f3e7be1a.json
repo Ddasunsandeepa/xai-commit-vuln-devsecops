@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "7ce478a58b4dd29a8d1e6f4e9df2f778613d9202",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ssh: fixing unsigned overflow leading to heap overflow\n\ncf GHSL-2020-051",
+  "patch_path": "reports/codejit_extraction_v1/records/ef557cbe6ec1e064f3e7be1a.diff.gz",
+  "diff_bytes": 4919,
+  "diff_sha256": "187f45cb0cb57f410c06b423496200811d5b73484e4aefe36cb6fb60e6174cf8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:22.741137+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

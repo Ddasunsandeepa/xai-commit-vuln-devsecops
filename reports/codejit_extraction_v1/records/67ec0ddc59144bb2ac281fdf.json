@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "83d799804648c2a0895d40a19835d9b757c6fa4e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix issue #646 (#648)\n\n* Fix issue #646 and some edge cases with wide regexps using \\b and \\B\n\n* Rename function IS_WORD_CHAR to _yr_re_is_word_char",
+  "patch_path": "reports/codejit_extraction_v1/records/67ec0ddc59144bb2ac281fdf.diff.gz",
+  "diff_bytes": 12152,
+  "diff_sha256": "94e01a401296c9702668d9bde52b6371a7c5f9a20ba93661054473452fcdb87a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:45.031640+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

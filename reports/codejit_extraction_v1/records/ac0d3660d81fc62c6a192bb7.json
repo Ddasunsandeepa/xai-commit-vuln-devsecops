@@ -1,0 +1,16 @@
+{
+  "repo": "ceph___ceph",
+  "commit_id": "b5acef206c94142464f7ff314bb11c843c5420e8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "auth: extend CryptoKey with no-bl encrypt/decrypt.\n\nSigned-off-by: Radoslaw Zarzynski <rzarzyns@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/ac0d3660d81fc62c6a192bb7.diff.gz",
+  "diff_bytes": 6487,
+  "diff_sha256": "26601af30be902eb266b8898f5d1204b23be5ed62a293f3fac90abcc7561c0c7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:06.558571+00:00",
+  "url": "https://github.com/ceph/ceph.git"
+}

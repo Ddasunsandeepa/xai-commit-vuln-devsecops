@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "ce37080c6aea30aabae8b4a9b4eea7808445cc8e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "2.4.0.2 oops\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/0ca55bebd2d0c00394d6c2be.diff.gz",
+  "diff_bytes": 1248,
+  "diff_sha256": "ee8ea6a4b67d777501282c5f35d94d02bcc1854beb8e14ed04268aa380a1df53",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:22.247372+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

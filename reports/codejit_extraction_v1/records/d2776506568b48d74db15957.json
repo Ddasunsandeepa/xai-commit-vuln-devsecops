@@ -1,0 +1,16 @@
+{
+  "repo": "libidn___libidn2",
+  "commit_id": "57433b75e66847824e9a17a371c1a462bb8c8ae7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Revamp punycode implementation.",
+  "patch_path": "reports/codejit_extraction_v1/records/d2776506568b48d74db15957.diff.gz",
+  "diff_bytes": 29930,
+  "diff_sha256": "47306c55a729ca09daae47c813ed92f207696b68b97b76bb3a1684b6aeda0c07",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:03.185379+00:00",
+  "url": "https://github.com/libidn/libidn2.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "0fcc87a719cfd2aa0d387a3fa05a60351ba76971",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Unique names for internal functions to avoid confilicts with static linking",
+  "patch_path": "reports/codejit_extraction_v1/records/f69a6890ea90f24126a90a43.diff.gz",
+  "diff_bytes": 124293,
+  "diff_sha256": "b9f34085250216bc4c53d93e8b8e75de5a53fd1fefab959c3d3d94de55242232",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:17.624645+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

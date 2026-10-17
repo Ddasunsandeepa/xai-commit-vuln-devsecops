@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "771ab014c24a682b32990da08e87e2f0ab765bd2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix vold vulnerability in FrameworkListener\n\nModify FrameworkListener to ignore commands that exceed the maximum\nbuffer length and send an error message.\n\nBug: 29831647\nChange-Id: I9e57d1648d55af2ca0191bb47868e375ecc26950\nSigned-off-by: Connor O'Brien <connoro@google.com>\n(cherry picked from commit baa126dc158a40bc83c17c6d428c760e5b93fb1a)\n(cherry picked from commit 470484d2a25ad432190a01d1c763b4b36db33c7e)",
+  "patch_path": "reports/codejit_extraction_v1/records/86f89c8d1aee94329df37bee.diff.gz",
+  "diff_bytes": 2030,
+  "diff_sha256": "e205c5504c976167fc7fc0c635bbfafa1ca4c2ec7c3435cf423a3b97ec21dc54",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:30.619812+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

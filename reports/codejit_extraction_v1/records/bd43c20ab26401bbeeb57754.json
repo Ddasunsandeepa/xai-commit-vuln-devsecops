@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___folly",
+  "commit_id": "4f304af1411e68851bdd00ef6140e9de4616f7d3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[folly] Add additional overflow checks to IOBuf - CVE-2021-24036\n\nSummary:\nAs per title\n\nCVE-2021-24036\n\nReviewed By: jan\n\nDifferential Revision: D27938605\n\nfbshipit-source-id: 7481c54ae6fbb7b67b15b3631d5357c2f7043f9c",
+  "patch_path": "reports/codejit_extraction_v1/records/bd43c20ab26401bbeeb57754.diff.gz",
+  "diff_bytes": 3980,
+  "diff_sha256": "6ae78e425383709c7d6e6d7d1f94962e63a9aad4acf7b147da1ac4e3aceab2cc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:26.255208+00:00",
+  "url": "https://github.com/facebook/folly.git"
+}

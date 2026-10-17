@@ -1,0 +1,16 @@
+{
+  "repo": "clusterlabs___booth",
+  "commit_id": "da79b8ba28ad4837a0fee13e5f8fb6f89fe0e24c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor: main: substitute is_auth_req macro",
+  "patch_path": "reports/codejit_extraction_v1/records/c39316d63b7f386fbafb802c.diff.gz",
+  "diff_bytes": 301,
+  "diff_sha256": "f20e7f4f5f4dd360c0045f14a02b3bbf0f14cf7f70be65d946209917f3e3e527",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:52.340426+00:00",
+  "url": "https://github.com/clusterlabs/booth.git"
+}

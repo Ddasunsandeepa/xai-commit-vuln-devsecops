@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "72e70a921f0f07fee748aec2274b30784e1d312a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix off-by-one bounds check on CHM PMGI/PMGL chunk numbers and\nreject empty filenames. Thanks to Hanno Böck for reporting",
+  "patch_path": "reports/codejit_extraction_v1/records/8f9172dd67c53d6953ea940e.diff.gz",
+  "diff_bytes": 2406,
+  "diff_sha256": "ac43c78b0d47acee4bc27b374869f06b39ade332ec16947d59bb6c89fba17e8d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:34.230978+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

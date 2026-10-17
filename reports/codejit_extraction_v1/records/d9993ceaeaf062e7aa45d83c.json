@@ -1,0 +1,16 @@
+{
+  "repo": "andrerenaud___pdfgen",
+  "commit_id": "0a4972714daa4c2d85c577f900e30ea57f3c9ee9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent heap overflow when checking .jpg files\n\nFixes #6",
+  "patch_path": "reports/codejit_extraction_v1/records/d9993ceaeaf062e7aa45d83c.diff.gz",
+  "diff_bytes": 940,
+  "diff_sha256": "8579496f28d54c3915dda13ad5336ba3f155851a3c94fe8f159995a854af174f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:27.367074+00:00",
+  "url": "https://github.com/andrerenaud/pdfgen.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "8da8b2e80ccdb10ff2445f503829f803d3a6ab9f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fail more gracefully on allocation failure\n\nCheck allocations when the size is read from a file and might therefore\nbe invalid.\n\nb/14388161\n\nChange-Id: Ia08cc0a6107f275a70e793ef3b50c0ce16ceeee0",
+  "patch_path": "reports/codejit_extraction_v1/records/05845aa1945b1fafaf0c87e2.diff.gz",
+  "diff_bytes": 3204,
+  "diff_sha256": "59f97d0182f2d46b90d747a5420f3624f8ea6a2bbaa74f720c24de7d4ceb2d4f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:05.686674+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

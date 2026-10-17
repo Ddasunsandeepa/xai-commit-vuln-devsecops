@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "c48e4c6503f7dabd41f11d4c9c7b7f8960e7f2c0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Always check the number of coefficients\n\nWhen building the library with NDEBUG, asserts are eliminated\nso it's better to always check that the number of coefficients\nis inside the array range.\n\nThis fixes the 00191-audiofile-indexoob issue in #41",
+  "patch_path": "reports/codejit_extraction_v1/records/0d53c433830318e2cf14d691.diff.gz",
+  "diff_bytes": 542,
+  "diff_sha256": "518e2041aef835746a47e21a9a3336d31bb7601ac42c280b7c8e97713980c93b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:30.233675+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

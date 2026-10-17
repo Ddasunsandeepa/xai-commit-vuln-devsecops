@@ -1,0 +1,16 @@
+{
+  "repo": "libimobiledevice___libimobiledevice",
+  "commit_id": "df1f5c4d70d0c19ad40072f5246ca457e7f9849e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "common: [security fix] Make sure sockets only listen locally",
+  "patch_path": "reports/codejit_extraction_v1/records/2c3f8afc317f8b5f5d162d72.diff.gz",
+  "diff_bytes": 725,
+  "diff_sha256": "0008f99622528c3afc43f8c9720d102d4333b92cde0e27613a0766e3bdaae476",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:04.047459+00:00",
+  "url": "https://github.com/libimobiledevice/libimobiledevice.git"
+}

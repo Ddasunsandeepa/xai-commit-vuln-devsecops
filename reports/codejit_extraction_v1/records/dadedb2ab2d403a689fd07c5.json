@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "df5d2867e8004e51e18b89865bc4aa69229227b3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2015-5221",
+  "patch_path": "reports/codejit_extraction_v1/records/dadedb2ab2d403a689fd07c5.diff.gz",
+  "diff_bytes": 479,
+  "diff_sha256": "b3781fbcae7b7b87b828e7beeefdb03bec21527d4fc1d9b2f92649ffb93ee3f0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:47.608711+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

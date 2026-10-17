@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "dd3ca4d6b81a9ae2ddf358b7b93d2f8c010921f5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix edge case when applying id3 unsynchronization\n\nBug: 63100526\nTest: opened poc, other files\nChange-Id: I0a51a2a11d0ea84ede0c075de650a7118f0e00c5\n(cherry picked from commit 3e70296461c5f260988ab21854a6f43fdafea764)",
+  "patch_path": "reports/codejit_extraction_v1/records/07fab577ab4fc6bb57513ef7.diff.gz",
+  "diff_bytes": 916,
+  "diff_sha256": "3e92f3762179405b0b70f577e15087b344be19837bf33c121fc36996ecec1096",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:17.173093+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

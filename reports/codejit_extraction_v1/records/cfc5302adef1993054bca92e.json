@@ -1,0 +1,16 @@
+{
+  "repo": "opencontainers___runc",
+  "commit_id": "9c444070ec7bb83995dbc0185da68284da71c554",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Open bind mount sources from the host userns\n\nThe source of the bind mount might not be accessible in a different user\nnamespace because a component of the source path might not be traversed\nunder the users and groups mapped inside the user namespace. This caused\nerrors such as the following:\n\n  # time=\"2020-06-22T13:48:26Z\" level=error msg=\"container_linux.go:367:\n  starting container process caused: process_linux.go:459:\n  container init caused: rootfs_linux.go:58:\n  mounting \\\"/tmp/busyboxtest/source-inaccessible/dir\\\"\n  to rootfs at \\\"/tmp/inaccessible\\\" caused:\n  stat /tmp/busyboxtest/source-inaccessible/dir: permission denied\"\n\nTo solve this problem, this patch performs the following:\n\n1. in nsexec.c, it opens the source path in the host userns (so we have\n   the right permissions to open it) but in the container mntns (so the\n   kernel cross mntns mount check let us mount it later:\n   https://github.com/torvalds/linux/blob/v5.8/fs/namespace.c#L2312).\n\n2. in nsexec.c, it passes the file descriptors of the source to the\n   child process with SCM_RIGHTS.\n\n3. In runc-init in Golang, it finishes the mounts while inside the\n   userns even without access to the some components of the source\n   paths.\n\nPassing the fds with SCM_RIGHTS is necessary because once the child\nprocess is in the container mntns, it is already in the container userns\nso it cannot temporarily join the host mntns.\n\nThis patch uses the existing mechanism with _LIBCONTAINER_* environment\nvariables to pass the file descriptors from runc to runc init.\n\nThis patch uses the existing mechanism with the Netlink-style bootstrap\nto pass information about the list of source mounts to nsexec.c.\n\nRootless containers don't use this bind mount sources fdpassing\nmechanism because we can't setns() to the target mntns in a rootless\ncontainer (we don't have the privileges when we are in the host userns).\n\nThis patch takes care of using O_CLOEXEC on mount fds, and close them\nearly.\n\nFixes: #2484.\n\nSigned-off-by: Alban Crequy <alban@kinvolk.io>\nSigned-off-by: Rodrigo Campos <rodrigo@kinvolk.io>\nCo-authored-by: Rodrigo Campos <rodrigo@kinvolk.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/cfc5302adef1993054bca92e.diff.gz",
+  "diff_bytes": 26246,
+  "diff_sha256": "f1336aac0d1b3064452225bc4e25d71b693104385c42393adee0582106acbda1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:30.115101+00:00",
+  "url": "https://github.com/opencontainers/runc.git"
+}

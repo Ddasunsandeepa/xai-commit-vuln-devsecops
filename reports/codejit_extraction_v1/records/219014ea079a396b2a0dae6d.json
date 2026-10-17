@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "4931bb5259d10c1fa01e7405fb7aaef58a8ffb22",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make sure timestamps attached to encoded media are composition timestamps.\n\nnot decoding timestamps. Obviously there is no difference between them if the\ncontent in question does not involve frame reordering.\n\nChange-Id: Iac4d06cfeb8a136f735c1148e98cac340d3ef893\nrelated-to-bug: 3398314",
+  "patch_path": "reports/codejit_extraction_v1/records/219014ea079a396b2a0dae6d.diff.gz",
+  "diff_bytes": 5701,
+  "diff_sha256": "546130df4c3bd705e867d8dfcd82d7bbc25453322049b54e3d23ab858d250c70",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:54.792166+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

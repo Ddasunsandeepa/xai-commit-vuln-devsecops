@@ -1,0 +1,16 @@
+{
+  "repo": "cesanta___mongoose",
+  "commit_id": "c65c8fdaaa257e0487ab0aaae9e8f6b439335945",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Protect against the directory traversal in mg_upload()",
+  "patch_path": "reports/codejit_extraction_v1/records/75e192eba97ab9a8f0b73af9.diff.gz",
+  "diff_bytes": 6882,
+  "diff_sha256": "84906f78a8eddde826048b5d62d974bb1828da47899eaed4e799854aad836ea7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:10.874024+00:00",
+  "url": "https://github.com/cesanta/mongoose.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "10e8bd3071677dd1fa76beeef4bc2fc427cea5e7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix issue #674 for hex strings.",
+  "patch_path": "reports/codejit_extraction_v1/records/0882d613b617e067e4dde1f1.diff.gz",
+  "diff_bytes": 13508,
+  "diff_sha256": "26d0229ffe0fff04981fdbed95c358ba8f576588e1e8180664195189555404fe",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:38.466437+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

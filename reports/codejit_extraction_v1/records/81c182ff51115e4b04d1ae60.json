@@ -1,0 +1,16 @@
+{
+  "repo": "op-tee___optee_os",
+  "commit_id": "b60e1cee406a1ff521145ab9534370dfb85dd592",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "svc: check for allocation overflow in syscall_cryp_obj_populate\n\nWithout checking for overflow there is a risk of allocating a buffer\nwith size smaller than anticipated and as a consequence of that it might\nlead to a heap based overflow with attacker controlled data written\noutside the boundaries of the buffer.\n\nFixes: OP-TEE-2018-0009: \"Integer overflow in crypto system calls\"\n\nSigned-off-by: Joakim Bech <joakim.bech@linaro.org>\nTested-by: Joakim Bech <joakim.bech@linaro.org> (QEMU v7, v8)\nReviewed-by: Jens Wiklander <jens.wiklander@linaro.org>\nReported-by: Riscure <inforequest@riscure.com>\nReported-by: Alyssa Milburn <a.a.milburn@vu.nl>\nAcked-by: Etienne Carriere <etienne.carriere@linaro.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/81c182ff51115e4b04d1ae60.diff.gz",
+  "diff_bytes": 822,
+  "diff_sha256": "f3255fc91dec2e92ab78d525e6d041dc5b183c36194bd01943017ad0b5cbe1ff",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:21.450712+00:00",
+  "url": "https://github.com/op-tee/optee_os.git"
+}

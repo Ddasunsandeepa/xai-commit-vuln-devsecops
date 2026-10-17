@@ -1,0 +1,16 @@
+{
+  "repo": "netdata___netdata",
+  "commit_id": "1958a34558a2874bb771a9d92dd121f1118e45dc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "added rrd memory mode \"none\" to allow netdata act as a proxy to forward metrics to another netdata",
+  "patch_path": "reports/codejit_extraction_v1/records/1a8c6e1262836d4e764e97b7.diff.gz",
+  "diff_bytes": 98118,
+  "diff_sha256": "51fbcfe5db7b5597f0fe1e26d307aa33c116366b6bbfebc4541f73a0abd9f842",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:57.414024+00:00",
+  "url": "https://github.com/netdata/netdata.git"
+}

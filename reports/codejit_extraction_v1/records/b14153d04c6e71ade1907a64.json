@@ -1,0 +1,16 @@
+{
+  "repo": "gpg___libgcrypt",
+  "commit_id": "1374254c2904ab5b18ba4a890856824a102d4705",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prefetch GCM look-up tables\n\n* cipher/cipher-gcm.c (prefetch_table, do_prefetch_tables)\n(prefetch_tables): New.\n(ghash_internal): Call prefetch_tables.\n--\n\nSigned-off-by: Jussi Kivilinna <jussi.kivilinna@iki.fi>",
+  "patch_path": "reports/codejit_extraction_v1/records/b14153d04c6e71ade1907a64.diff.gz",
+  "diff_bytes": 1884,
+  "diff_sha256": "84efb7b2102c7b784f464689fc619dfdea5f0113c93594799f58cbf977b9d86e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:32.383726+00:00",
+  "url": "https://github.com/gpg/libgcrypt.git"
+}

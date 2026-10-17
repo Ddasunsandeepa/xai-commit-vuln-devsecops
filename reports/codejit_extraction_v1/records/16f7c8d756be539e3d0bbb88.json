@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "2e82fa00466ae525339754bb3ab0a0474a31d4bd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed an integral type promotion problem by adding a JAS_CAST.\nModified the jpc_tsfb_synthesize function so that it will be a noop for\nan empty sequence (in order to avoid dereferencing a null pointer).",
+  "patch_path": "reports/codejit_extraction_v1/records/16f7c8d756be539e3d0bbb88.diff.gz",
+  "diff_bytes": 3624,
+  "diff_sha256": "73f40e04924dcfbb9c5ed62327e23447a85979b45bb2084f9bc319c2a9e956de",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:40.317519+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

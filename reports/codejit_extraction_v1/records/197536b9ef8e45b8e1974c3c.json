@@ -1,0 +1,16 @@
+{
+  "repo": "espruino___espruino",
+  "commit_id": "dbe0d63ac6528bf89e068065052a4a5eef8e5ae6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Speed improvements for ArrayBuffer Graphics",
+  "patch_path": "reports/codejit_extraction_v1/records/197536b9ef8e45b8e1974c3c.diff.gz",
+  "diff_bytes": 11334,
+  "diff_sha256": "6a85d2a3265cb64696949bdd79a870d218f728484e186e5be66aaa64f24679ea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:05.909285+00:00",
+  "url": "https://github.com/espruino/espruino.git"
+}

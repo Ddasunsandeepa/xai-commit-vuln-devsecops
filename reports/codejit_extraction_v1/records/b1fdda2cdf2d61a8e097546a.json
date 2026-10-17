@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "59e3c3919b66cc1f1a59a9c32307befe015f40e8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support extracting NFSv4 ACLs from Solaris tar archives\nFix read of default ACLs from Solaris tar archives\nUpdate Solaris tar ACL test to test all ACL types",
+  "patch_path": "reports/codejit_extraction_v1/records/b1fdda2cdf2d61a8e097546a.diff.gz",
+  "diff_bytes": 31646,
+  "diff_sha256": "19031ea9cf2b006afccd175885de64c29c9a0d775efafff98cb1b651a52aceeb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:40.456749+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

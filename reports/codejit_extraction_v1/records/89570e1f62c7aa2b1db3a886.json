@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "10ef1dca63d62433fda13309b4a228782db823f7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Unsupported TGA bpp/alphabit combinations should error gracefully\n\nCurrently, only 24bpp without alphabits and 32bpp with 8 alphabits are\nreally supported. All other combinations will be rejected with a warning.",
+  "patch_path": "reports/codejit_extraction_v1/records/89570e1f62c7aa2b1db3a886.diff.gz",
+  "diff_bytes": 2908,
+  "diff_sha256": "e2d349de178e676e86f32c93d33b471fd5028e57b5099eb127483e0f91c97542",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:52.565348+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

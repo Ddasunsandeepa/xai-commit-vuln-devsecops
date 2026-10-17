@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "4d74d8a00b07441cba090a02e0dd9ed385145bf4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix crash in softmax-xent when some input dimensions are 1.\n\nBefore, tf.nn.softmax_cross_entropy_with_logits would fail a CHECK if one input tensor had shape (1, 1) and the other did not.\n\nIn particular, the call to ToIndexArray<2> here https://github.com/tensorflow/tensorflow/blob/1f3da84a89702d3b4f234ee83762d738caffe098/tensorflow/core/kernels/xent_op.cc#L99 would fail, since the call assumed the array had two dimensions. If both dimensions were 1, BCast would merge the two dimensions into a single dimension. Passing fewer_dims_optimization=false stops this optimization\n\nPiperOrigin-RevId: 384844496\nChange-Id: Ifb02dc74964132c3ed3f3bc98b0858dbe4e258b7",
+  "patch_path": "reports/codejit_extraction_v1/records/eb76492f9c03bb58011bf997.diff.gz",
+  "diff_bytes": 3901,
+  "diff_sha256": "10db37a8a94f2f8492a16b786d7ce62d648bfd429456dea8fd781c2673db725c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:32:03.069498+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

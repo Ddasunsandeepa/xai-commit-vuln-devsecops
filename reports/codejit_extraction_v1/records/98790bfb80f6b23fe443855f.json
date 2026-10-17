@@ -1,0 +1,16 @@
+{
+  "repo": "academysoftwarefoundation___openexr",
+  "commit_id": "700e4996ce619743d5bebe07b4158ccc4547e9ad",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "use static_cast in error test",
+  "patch_path": "reports/codejit_extraction_v1/records/98790bfb80f6b23fe443855f.diff.gz",
+  "diff_bytes": 605,
+  "diff_sha256": "6004698db40d0ad3ec20fa3d9ad82406d021a3fa4c63b4fb153ad04d79c5a006",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:06.938443+00:00",
+  "url": "https://github.com/academysoftwarefoundation/openexr.git"
+}

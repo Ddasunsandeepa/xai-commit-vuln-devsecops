@@ -1,0 +1,16 @@
+{
+  "repo": "babelouest___glewlwyd",
+  "commit_id": "e3f7245c33897bf9b3a75acfcdb8b7b93974bf11",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix file access check for directory traversal, and fix call for callback_static_file_uncompressed if header not set",
+  "patch_path": "reports/codejit_extraction_v1/records/d03c9ced9d9ba90cf31e8d54.diff.gz",
+  "diff_bytes": 20336,
+  "diff_sha256": "8238937f00d53245424103e1f9fb32afb1a2e4e8eb1b38cbd92fa2fea306ff52",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:03.695844+00:00",
+  "url": "https://github.com/babelouest/glewlwyd.git"
+}

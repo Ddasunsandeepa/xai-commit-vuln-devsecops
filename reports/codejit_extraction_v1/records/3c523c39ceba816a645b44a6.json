@@ -1,0 +1,16 @@
+{
+  "repo": "projectacrn___acrn-hypervisor",
+  "commit_id": "7bfcc673a67906c54ec9762cbb440763d1d4b1f9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "hv: ptirq: associate an irte with ptirq_remapping_info entry\n\nFor a ptirq_remapping_info entry, when build IRTE:\n- If the caller provides a valid IRTE, use the IRET\n- If the caller doesn't provide a valid IRTE, allocate a IRET when the\nentry doesn't have a valid IRTE, in this case, the IRET will be freed\nwhen free the entry.\n\nTracked-On:#4831\nSigned-off-by: Binbin Wu <binbin.wu@intel.com>\nAcked-by: Eddie Dong <eddie.dong@intel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/3c523c39ceba816a645b44a6.diff.gz",
+  "diff_bytes": 10655,
+  "diff_sha256": "6893c916cad57ca970e5331961e5b17aaa71b4aef6cf0cd93378bcb601628c24",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:07.664787+00:00",
+  "url": "https://github.com/projectacrn/acrn-hypervisor.git"
+}

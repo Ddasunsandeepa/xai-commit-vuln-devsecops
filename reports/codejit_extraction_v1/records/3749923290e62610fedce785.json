@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "8a3a2f6ea7defe1a81bb32b3c9f3537f84749b9d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Skip track if verification fails\n\nBug: 62187433\nTest: ran poc, CTS\nChange-Id: Ib9b0b6de88d046d8149e9ea5073d6c40ffec7b0c\n(cherry picked from commit ef8c7830d838d877e6b37b75b47294b064c79397)",
+  "patch_path": "reports/codejit_extraction_v1/records/3749923290e62610fedce785.diff.gz",
+  "diff_bytes": 1652,
+  "diff_sha256": "6c3cc1b773e49c7f90f6d07f833d1f4b0012ec1cf9a2107b5515a6755898077f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:04.533306+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

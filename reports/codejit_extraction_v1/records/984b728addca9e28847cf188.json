@@ -1,0 +1,16 @@
+{
+  "repo": "pbatard___rufus",
+  "commit_id": "c3c39f7f8a11f612c4ebf7affce25ec6928eb1cb",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[pki] fix https://www.kb.cert.org/vuls/id/403768\n\n* This commit effectively fixes https://www.kb.cert.org/vuls/id/403768 (CVE-2017-13083) as\n  it is described per its revision 11, which is the latest revision at the time of this commit,\n  by disabling Windows prompts, enacted during signature validation, that allow the user to\n  bypass the intended signature verification checks.\n* It needs to be pointed out that the vulnerability (\"allow(ing) the use of a self-signed\n  certificate\"), which relies on the end-user actively ignoring a Windows prompt that tells\n  them that the update failed the signature validation whilst also advising against running it,\n  is being fully addressed, even as the update protocol remains HTTP.\n* It also need to be pointed out that the extended delay (48 hours) between the time the\n  vulnerability was reported and the moment it is fixed in our codebase has to do with\n  the fact that the reporter chose to deviate from standard security practices by not\n  disclosing the details of the vulnerability with us, be it publicly or privately,\n  before creating the cert.org report. The only advance notification we received was a\n  generic note about the use of HTTP vs HTTPS, which, as have established, is not\n  immediately relevant to addressing the reported vulnerability.\n* Closes #1009\n* Note: The other vulnerability scenario described towards the end of #1009, which\n  doesn't have to do with the \"lack of CA checking\", will be addressed separately.",
+  "patch_path": "reports/codejit_extraction_v1/records/984b728addca9e28847cf188.diff.gz",
+  "diff_bytes": 5468,
+  "diff_sha256": "63b4b3134b8dfdf59ee309315b13b9a5f863726931a73e94fc8d54ee1ac968c1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:53.715104+00:00",
+  "url": "https://github.com/pbatard/rufus.git"
+}

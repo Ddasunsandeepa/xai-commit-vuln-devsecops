@@ -1,0 +1,16 @@
+{
+  "repo": "qt___qtbase",
+  "commit_id": "f4d791b330d02777fcaf02938732892eb3167e9b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid processing-intensive painting of high number of tiny dashes\n\nWhen stroking a dashed path, an unnecessary amount of processing would\nbe spent if there is a huge number of dashes visible, e.g. because of\nscaling. Since the dashes are too small to be indivdually visible\nanyway, just replace with a semi-transparent solid line for such\ncases.\n\nPick-to: 6.1 6.0 5.15\nChange-Id: I9e9f7861257ad5bce46a0cf113d1a9d7824911e6\nReviewed-by: Allan Sandfeld Jensen <allan.jensen@qt.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/ef842e3da500ff020ba5771b.diff.gz",
+  "diff_bytes": 3731,
+  "diff_sha256": "e8dac2cd1bb000df77c748cc084f55ac7464b39d0465053329cdf5c36b6ea089",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:48.834661+00:00",
+  "url": "https://github.com/qt/qtbase.git"
+}

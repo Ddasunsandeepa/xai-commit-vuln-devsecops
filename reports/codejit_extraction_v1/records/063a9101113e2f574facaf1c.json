@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "0a4178692c2375a4516da7b71629bd08ee8697ee",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "spapr: Move memory hotplug to RTAS_LOG_V6_HP_ID_DRC_COUNT type\n\nTill now memory hotplug used RTAS_LOG_V6_HP_ID_DRC_INDEX hotplug type\nwhich meant that we generated one hotplug type of EPOW event for every\n256MB (SPAPR_MEMORY_BLOCK_SIZE). This quickly overruns the kernel\nrtas log buffer thus resulting in loss of memory hotplug events. Switch\nto RTAS_LOG_V6_HP_ID_DRC_COUNT hotplug type for memory so that we\ngenerate only one event per hotplug request.\n\nSigned-off-by: Bharata B Rao <bharata@linux.vnet.ibm.com>\nReviewed-by: Michael Roth <mdroth@linux.vnet.ibm.com>\nReviewed-by: David Gibson <david@gibson.dropbear.id.au>\nSigned-off-by: David Gibson <david@gibson.dropbear.id.au>",
+  "patch_path": "reports/codejit_extraction_v1/records/063a9101113e2f574facaf1c.diff.gz",
+  "diff_bytes": 594,
+  "diff_sha256": "faa55a41e65eb03f63f0f602ccc59d1364b2d6e2eb282053b3dcbe06d60acf05",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:25.016117+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

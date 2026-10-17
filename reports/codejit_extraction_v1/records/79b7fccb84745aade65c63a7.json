@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "a917d384ac0d09cd68266a6f2ca5c94212c8f81e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "SCSI TCQ support.\n\n\ngit-svn-id: svn://svn.savannah.nongnu.org/qemu/trunk@2139 c046a42c-6fe2-441c-8c8c-71466251a162",
+  "patch_path": "reports/codejit_extraction_v1/records/79b7fccb84745aade65c63a7.diff.gz",
+  "diff_bytes": 67187,
+  "diff_sha256": "1f4d69b892d4fb6677bed88138898a8244f3f7a3c826bb152d9664fa1115e1f5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:45.356108+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

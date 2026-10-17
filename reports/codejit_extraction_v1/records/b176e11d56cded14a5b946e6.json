@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "6841e522a3e7d48706a02e8819836e809f738682",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent division by 0\n\nPiperOrigin-RevId: 370995582\nChange-Id: I670ffaf52d1ff8823ec31ea5f438f9125b402223",
+  "patch_path": "reports/codejit_extraction_v1/records/b176e11d56cded14a5b946e6.diff.gz",
+  "diff_bytes": 607,
+  "diff_sha256": "d04cd9b473429da3ecca3b5b0a5c1bbcc3b0aa9f0744e5a540ad92f21c15fed6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:32:46.307984+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

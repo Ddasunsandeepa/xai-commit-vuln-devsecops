@@ -1,0 +1,16 @@
+{
+  "repo": "clusterlabs___pacemaker",
+  "commit_id": "a438c1e5a10e3615899cfa74cef6d4cc67aac84e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Medium: Ensure shared memory for blackboxes are removed from disk before exit",
+  "patch_path": "reports/codejit_extraction_v1/records/d6253c35090abc4db7ca80d4.diff.gz",
+  "diff_bytes": 35445,
+  "diff_sha256": "06ce77a878653e959d821f0ec5da8cf752d19f4a5fc6670b325a6d16466509bc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:52.609171+00:00",
+  "url": "https://github.com/clusterlabs/pacemaker.git"
+}

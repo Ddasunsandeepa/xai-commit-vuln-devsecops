@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "6fec64e1c92d5c715c6d0f50786daa7708266bde",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "posix-timers: Make forward callback return s64\n\nThe posix timer ti_overrun handling is broken because the forwarding\nfunctions can return a huge number of overruns which does not fit in an\nint. As a consequence timer_getoverrun(2) and siginfo::si_overrun can turn\ninto random number generators.\n\nAs a first step to address that let the timer_forward() callbacks return\nthe full 64 bit value.\n\nCast it to (int) temporarily until k_itimer::ti_overrun is converted to\n64bit and the conversion to user space visible values is sanitized.\n\nReported-by: Team OWL337 <icytxw@gmail.com>\nSigned-off-by: Thomas Gleixner <tglx@linutronix.de>\nAcked-by: John Stultz <john.stultz@linaro.org>\nCc: Peter Zijlstra <peterz@infradead.org>\nCc: Michael Kerrisk <mtk.manpages@gmail.com>\nLink: https://lkml.kernel.org/r/20180626132704.922098090@linutronix.de",
+  "patch_path": "reports/codejit_extraction_v1/records/20069c7ac6aeaa2d118e54cc.diff.gz",
+  "diff_bytes": 2415,
+  "diff_sha256": "7feb00f3c36e5881b3b3373671d5a659b141afd4c5124358af4b3f634391e969",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:37:44.864087+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

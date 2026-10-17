@@ -1,0 +1,16 @@
+{
+  "repo": "perl5-dbi___dbd-mysql",
+  "commit_id": "7c164a0c86cec6ee95df1d141e67b0e85dfdefd2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not use unsafe sprintf w/variable length input\n\nThis can cause a  buffer overflow to occur when reporting error\nmessage about validation of (untrusted) user input parameters.",
+  "patch_path": "reports/codejit_extraction_v1/records/ae3667e0faa793ace0ceb426.diff.gz",
+  "diff_bytes": 805,
+  "diff_sha256": "9dad879147e9124c0b1a1941d25d9337a445a07c2379f25e017e920ea78c2436",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:56.628884+00:00",
+  "url": "https://github.com/perl5-dbi/dbd-mysql.git"
+}

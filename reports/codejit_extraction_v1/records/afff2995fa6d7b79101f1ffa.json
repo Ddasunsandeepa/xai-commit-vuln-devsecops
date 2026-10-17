@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___imageworsener",
+  "commit_id": "a4f247707f08e322f0b41e82c3e06e224240a654",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a bug that could cause invalid memory to be accessed\n\nThe bug could happen when transparency is removed from an image.\nAlso fixed a semi-related BMP error handling logic bug.\nFixes issue #21",
+  "patch_path": "reports/codejit_extraction_v1/records/afff2995fa6d7b79101f1ffa.diff.gz",
+  "diff_bytes": 2117,
+  "diff_sha256": "bc3818049e2c3a2a635de9e51a070ed92cf22f26b318dc0c476507c661900f32",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:04.090856+00:00",
+  "url": "https://github.com/jsummers/imageworsener.git"
+}

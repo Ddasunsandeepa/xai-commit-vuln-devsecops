@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "7beb290caa2adb0a399e735a1e175db9aae0523a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "xen/events: use a common cpu hotplug hook for event channels\n\nToday only fifo event channels have a cpu hotplug callback. In order\nto prepare for more percpu (de)init work move that callback into\nevents_base.c and add percpu_init() and percpu_deinit() hooks to\nstruct evtchn_ops.\n\nThis is part of XSA-332.\n\nCc: stable@vger.kernel.org\nSigned-off-by: Juergen Gross <jgross@suse.com>\nReviewed-by: Jan Beulich <jbeulich@suse.com>\nReviewed-by: Wei Liu <wl@xen.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/128a84c062d817ea68682fa5.diff.gz",
+  "diff_bytes": 4236,
+  "diff_sha256": "37b90d6e9189ad0ef99969240a66f793cfb3b69676a225fee90751f6985a005b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:38:23.185671+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "5c6c0e513600ba57c3e73b7151d3c0664438f7b5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scsi: Use 'SCSIRequest' directly\n\nCurrently the SCSIRequest structure is abstracted away and cannot accessed\ndirectly from the driver. This requires the handler to do a lookup on\nan abstract 'tag' which identifies the SCSIRequest structure.\n\nWith this patch the SCSIRequest structure is exposed to the driver. This\nallows use to use it directly as an argument to the SCSIDeviceInfo\ncallback functions and remove the lookup.\n\nA new callback function 'alloc_req' is introduced matching 'free\nreq'; unref'ing to free up resources after use is moved into the\nscsi_command_complete callbacks.\n\nThis temporarily introduces a leak of requests that are cancelled,\nwhen they are removed from the queue and not from the driver.  This\nis fixed later by introducing scsi_req_cancel.  That patch in turn\ndepends on this one, because the argument to scsi_req_cancel is a\nSCSIRequest.\n\nSigned-off-by: Hannes Reinecke <hare@suse.de>\nSigned-off-by: Paolo Bonzini <pbonzini@redhat.com>\nReviewed-by: Christoph Hellwig <hch@lst.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/a8949d3fd16538c352310f4b.diff.gz",
+  "diff_bytes": 40141,
+  "diff_sha256": "1d00c815d36d1fcdd868ecf993eb3e1af8d17db05f516fc54099961b99dc0232",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:38.353903+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

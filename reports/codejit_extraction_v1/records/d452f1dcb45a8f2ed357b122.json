@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___deark",
+  "commit_id": "287f5ac31dfdc074669182f51ece637706070eeb",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "pict: Fixed a bug with ICC profile extraction\n\nCould cause a NULL pointer dereference.\n\nFound by F. Çelik.",
+  "patch_path": "reports/codejit_extraction_v1/records/d452f1dcb45a8f2ed357b122.diff.gz",
+  "diff_bytes": 537,
+  "diff_sha256": "6f22ee2897e2c432ee2db4908197e5ae34c6addf2143e5ca2c70d74f6f686e56",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:01.769959+00:00",
+  "url": "https://github.com/jsummers/deark.git"
+}

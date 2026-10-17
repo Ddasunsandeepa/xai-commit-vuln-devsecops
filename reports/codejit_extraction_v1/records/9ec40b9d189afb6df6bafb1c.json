@@ -1,0 +1,16 @@
+{
+  "repo": "spiderlabs___modsecurity",
+  "commit_id": "d4d80b38aa85eccb26e3c61b04d16e8ca5de76fe",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added SecXmlExternalEntity",
+  "patch_path": "reports/codejit_extraction_v1/records/9ec40b9d189afb6df6bafb1c.diff.gz",
+  "diff_bytes": 4275,
+  "diff_sha256": "6c268dea2925f2746cb2eac29d21c61d934b3308ed2e053fbd0add700e8d0ec6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:26.120873+00:00",
+  "url": "https://github.com/spiderlabs/modsecurity.git"
+}

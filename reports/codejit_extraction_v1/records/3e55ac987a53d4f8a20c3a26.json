@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "85faec9d3acd8bb20e26e2d3386f7d3708d02fca",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Win32: Unicode file name support (except dirent)\n\nReplaces Windows \"ANSI\" APIs dealing with file- or path names with their\nUnicode equivalent, adding UTF-8/UTF-16LE conversion as necessary.\n\nThe dirent API (opendir/readdir/closedir) is updated in a separate commit.\n\nAdds trivial wrappers for access, chmod and chdir.\n\nAdds wrapper for mktemp (needed for both mkstemp and mkdtemp).\n\nThe simplest way to convert a repository with legacy-encoded (e.g. Cp1252)\nfile names to UTF-8 ist to checkout with an old msysgit version and\n\"git add --all & git commit\" with the new version.\n\nIncludes a fix for bug reported by John Chen:\nOn Windows XP (not Win7), directories cannot be deleted while a find handle\nis open, causing \"Deletion of directory '...' failed. Should I try again?\"\nprompts.\n\nPrior to this commit, these failures were silently ignored due to\nstrbuf_free in is_dir_empty resetting GetLastError to ERROR_SUCCESS.\n\nClose the find handle in is_dir_empty so that git doesn't block deletion\nof the directory even after all other applications have released it.\n\nReported-by: John Chen <john0312@gmail.com>\nSigned-off-by: Karsten Blees <blees@dcon.de>\nSigned-off-by: Stepan Kasal <kasal@ucw.cz>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/3e55ac987a53d4f8a20c3a26.diff.gz",
+  "diff_bytes": 12789,
+  "diff_sha256": "9bc632b7caadff7a71a897e4462e9d6721f4dc419adaa7dcfb831e25b9d7e32f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:59.697187+00:00",
+  "url": "https://github.com/git/git.git"
+}

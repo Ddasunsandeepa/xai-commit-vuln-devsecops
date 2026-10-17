@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "227c1f829127405e21dab1664393050c652ef71e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Error Check for VLD Symbols Read\n\nThe maximum number of lead zeros in a VLD symbol (17 bits long) is 11.\n\nBug: 34093073\nChange-Id: Ifd3f64a3a5199d6e4c33ca65449fc396cfb2f3fc\n(cherry picked from commit 75e0ad5127752ce37e3fc78a156652e5da435f14)",
+  "patch_path": "reports/codejit_extraction_v1/records/35dc304d855591f77ab181e5.diff.gz",
+  "diff_bytes": 1521,
+  "diff_sha256": "7a052bc278ee2816d60c12406c3b673bca9dca43356b11d605666df4972625fb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:28.372613+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

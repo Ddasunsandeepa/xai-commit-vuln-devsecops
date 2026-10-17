@@ -1,0 +1,16 @@
+{
+  "repo": "fontforge___fontforge",
+  "commit_id": "626f751752875a0ddd74b9e217b6f4828713573c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Warn users before discarding their unsaved scripts (#3852)\n\n* Warn users before discarding their unsaved scripts\n\nThis closes #3846.",
+  "patch_path": "reports/codejit_extraction_v1/records/08cd2465b8c28b1196e12500.diff.gz",
+  "diff_bytes": 6703,
+  "diff_sha256": "54b4047c2ad29664aee80de2b9f4e9b316cef8c80525d49569079d4ea3d26fbf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:25.390985+00:00",
+  "url": "https://github.com/fontforge/fontforge.git"
+}

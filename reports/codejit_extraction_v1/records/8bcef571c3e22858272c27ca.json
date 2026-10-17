@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "c2cb01d418dd18e1cf997c038d37378d773121be",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "lavf: introduce AVFMT_TS_NEGATIVE\n\nMost formats do not support negative timestamps, shift them to avoid\nunexpected behaviour and a number of bad crashes.\n\nCC:libav-stable@libav.org\n\nSigned-off-by: Anton Khirnov <anton@khirnov.net>\nSigned-off-by: Luca Barbato <lu_zero@gentoo.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/8bcef571c3e22858272c27ca.diff.gz",
+  "diff_bytes": 28934,
+  "diff_sha256": "88c34e154c17ee8c41872a231fd4cb87e3a93cfe869800229d3c5ea746bba32f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:06.390217+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

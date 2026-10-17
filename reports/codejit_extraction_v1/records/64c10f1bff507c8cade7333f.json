@@ -1,0 +1,16 @@
+{
+  "repo": "libjxl___libjxl",
+  "commit_id": "131592184e806fcd517a1f1395028b787c740954",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Get rid of fmemopen in codec_apng.\n\nOn windows it was emulated by creating temporary file (which was never deleted).\nDrive-by: remove local defines.",
+  "patch_path": "reports/codejit_extraction_v1/records/64c10f1bff507c8cade7333f.diff.gz",
+  "diff_bytes": 7224,
+  "diff_sha256": "368e0b24e0e9f6909c3feed5fab0c8135eb944359349f3aba97d9aa64061b056",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:05.079357+00:00",
+  "url": "https://github.com/libjxl/libjxl.git"
+}

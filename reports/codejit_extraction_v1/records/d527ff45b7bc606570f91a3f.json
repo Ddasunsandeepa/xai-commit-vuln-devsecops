@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "61c7a06e7c19d9b408db1129efa0959a0acbf0b1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix memory leak",
+  "patch_path": "reports/codejit_extraction_v1/records/d527ff45b7bc606570f91a3f.diff.gz",
+  "diff_bytes": 582,
+  "diff_sha256": "de288db901e059778060324b45f13964e7970cc30da65809515d2967461c2dce",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:34.509629+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

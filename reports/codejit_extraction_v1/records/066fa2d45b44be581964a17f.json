@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "614b15a7e12789a8a14960ca29fca6600c319e28",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[ShapeAnalysis] Rename functions and rephrase comments in the presence of scalar analysis\n\nThe shape analysis looks at shapes and values simultaneously and returns a list\nof symbolic expressions. For values (e.g., a shape tensor), these correspond to\nthe individual element values, for shapes (e.g., the shape of a tensor), these\ncorrespond to the individual dimensions.\n\nThis CL is an attempt at distinguishing more clearly between the value and the\nshape analysis. It also considers the fact that scalar values have become\nsubject to this analysis.\n\nPiperOrigin-RevId: 412289108\nChange-Id: Iadf931687050f42cd421345f015d9072d41559f4",
+  "patch_path": "reports/codejit_extraction_v1/records/066fa2d45b44be581964a17f.diff.gz",
+  "diff_bytes": 61313,
+  "diff_sha256": "00a057d8f1b197ea324e93c9b17239eaf9581b312ed641e7c16bf890161822dc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:32:36.444362+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

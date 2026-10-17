@@ -1,0 +1,16 @@
+{
+  "repo": "phaag___nfdump",
+  "commit_id": "3b006ededaf351f1723aea6c727c9edd1b1fff9b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix potential unsigned integer underflow",
+  "patch_path": "reports/codejit_extraction_v1/records/e58b01a0bd216cd50498f30c.diff.gz",
+  "diff_bytes": 1185,
+  "diff_sha256": "fbefa4d65ab0bd3b3dbf4ed39b338e703aa3289071f667900b9e83b33c85783b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:02.801254+00:00",
+  "url": "https://github.com/phaag/nfdump.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "af5605f1a0f6ff56b2bea0d2896056bb4eed5976",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Get rid of silly pointer to local struct\n\n- Leftover from commit e44d02a14e5a8454ff8defba21d49aea907e42c7 where\n  the pointer was used to avoid excessive unrelated changes, this\n  is just a trivial rename.",
+  "patch_path": "reports/codejit_extraction_v1/records/c286db0f4c50e6f72b113ac1.diff.gz",
+  "diff_bytes": 1973,
+  "diff_sha256": "a77a8397a0697eb357e4d0c7b44718c2dd1b100536aabed8806cdd4b48798a49",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:24.379710+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libimobiledevice___libimobiledevice",
+  "commit_id": "d09e25b69d2744ba7a6a88cc58d9cc8fc4810d2a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add new idevicedebugserverproxy tool",
+  "patch_path": "reports/codejit_extraction_v1/records/c8f5b7a6eb6351719b75b667.diff.gz",
+  "diff_bytes": 26115,
+  "diff_sha256": "96596921131437b6165f80e5480aee3d5659dba2e10b80290ff336f12fe8516a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:03.778509+00:00",
+  "url": "https://github.com/libimobiledevice/libimobiledevice.git"
+}

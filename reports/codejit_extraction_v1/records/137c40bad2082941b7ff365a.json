@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "a2195644d89812e5b157ce7bac35543e06db05e3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug: invalid 'oldpc' when returning to a function\n\nThe field 'L->oldpc' is not always updated when control returns to a\nfunction; an invalid value can seg. fault when computing 'changedline'.\n(One example is an error in a finalizer; control can return to\n'luaV_execute' without executing 'luaD_poscall'.) Instead of trying to\nfix all possible corner cases, it seems safer to be resilient to invalid\nvalues for 'oldpc'. Valid but wrong values at most cause an extra call\nto a line hook.",
+  "patch_path": "reports/codejit_extraction_v1/records/137c40bad2082941b7ff365a.diff.gz",
+  "diff_bytes": 6621,
+  "diff_sha256": "43c545cb8851052d90461a4d445fb30e53acb29f24d91509ce059e3fc3a3980a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:47.833466+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

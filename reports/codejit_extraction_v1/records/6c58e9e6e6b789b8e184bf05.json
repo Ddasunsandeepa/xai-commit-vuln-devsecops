@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "075913803d76dcb25d5285d96a072fa960d5e3bb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add initial write and metadata editing support. Add mobimeta tool.",
+  "patch_path": "reports/codejit_extraction_v1/records/6c58e9e6e6b789b8e184bf05.diff.gz",
+  "diff_bytes": 190879,
+  "diff_sha256": "e2868e29fc84b43a77bfaf5886430f34b62e630006a42be25dbed5f9648582de",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:16.140877+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

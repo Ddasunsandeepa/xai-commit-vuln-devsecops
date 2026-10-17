@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "2f084136cfe0d05e5bf5703f3e83c6d955234b4d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "length checks when looking for control files",
+  "patch_path": "reports/codejit_extraction_v1/records/8d641e0e03344c32f300c1e8.diff.gz",
+  "diff_bytes": 2026,
+  "diff_sha256": "fa5d8043f828d7bbb1f4e61e8af49e2ec4ee1782f438c4196c47d2b041bd4f98",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:33.946541+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

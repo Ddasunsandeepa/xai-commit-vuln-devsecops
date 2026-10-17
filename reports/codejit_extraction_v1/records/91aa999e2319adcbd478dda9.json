@@ -1,0 +1,16 @@
+{
+  "repo": "knik0___faad2",
+  "commit_id": "1b71a6ba963d131375f5e489b3b25e36f19f3f24",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix heap-buffer-overflow in mp4read.c\n\nThis originated from an integer overflow: If mp4config.frame.ents\nwould be read-in with a value of (uint32t)(-1), it would overflow to 0\nin the size calculation for the allocation in the next line. The\nmalloc() function would then successfully return a pointer to a memory\nregion of size 0, which will cause a segfault when written to.\n\nFixes #57.",
+  "patch_path": "reports/codejit_extraction_v1/records/91aa999e2319adcbd478dda9.diff.gz",
+  "diff_bytes": 491,
+  "diff_sha256": "aa744158c5c64bcb0cec98a21709b9022bb6de48bdd718e8c04ed695b84e3208",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:29.535483+00:00",
+  "url": "https://github.com/knik0/faad2.git"
+}

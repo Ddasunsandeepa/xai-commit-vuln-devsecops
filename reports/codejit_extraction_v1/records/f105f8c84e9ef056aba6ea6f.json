@@ -1,0 +1,16 @@
+{
+  "repo": "cesanta___mongoose",
+  "commit_id": "b3e0f780c34cea88f057a62213c012aa88fe2deb",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix heap-based overflow in parse_mqtt\n\nPUBLISHED_FROM=3306592896298597fff5269634df0c1a1555113b",
+  "patch_path": "reports/codejit_extraction_v1/records/f105f8c84e9ef056aba6ea6f.diff.gz",
+  "diff_bytes": 2983,
+  "diff_sha256": "7dda7bc04b4f9dcd2ba74cd10e2ff6d832946ace3ed83ab97e66d36ac18e3911",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:10.236344+00:00",
+  "url": "https://github.com/cesanta/mongoose.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "fd0928df98b9578be8a786ac0cb78a47a5e17a20",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ioprio: move io priority from task_struct to io_context\n\nThis is where it belongs and then it doesn't take up space for a\nprocess that doesn't do IO.\n\nSigned-off-by: Jens Axboe <jens.axboe@oracle.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/20d8ef2cddb63b690147c6dc.diff.gz",
+  "diff_bytes": 16071,
+  "diff_sha256": "681f784d70c45272b0d77147f90ce635185c3962bb7d76f4f906688127e2ef36",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:00.492453+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

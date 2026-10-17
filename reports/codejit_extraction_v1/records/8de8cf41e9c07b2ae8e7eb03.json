@@ -1,0 +1,16 @@
+{
+  "repo": "open-iscsi___tcmu-runner",
+  "commit_id": "61bd03e600d2abf309173e9186f4d465bb1b7157",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "glfs: discard glfs_check_config\n\nSigned-off-by: Prasanna Kumar Kalever <prasanna.kalever@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/8de8cf41e9c07b2ae8e7eb03.diff.gz",
+  "diff_bytes": 1568,
+  "diff_sha256": "5131502a00b0311e73ff2f1dea010857638528b72af6987b7009e6bfad7897db",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:23.179007+00:00",
+  "url": "https://github.com/open-iscsi/tcmu-runner.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "a59b827869a2ea04022dd225007f29af8d61837a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix issue #27252896: Security Vulnerability -- weak binder\n\nSending transaction to freed BBinder through weak handle\ncan cause use of a (mostly) freed object.  We need to try to\nsafely promote to a strong reference first.\n\nChange-Id: Ic9c6940fa824980472e94ed2dfeca52a6b0fd342\n(cherry picked from commit c11146106f94e07016e8e26e4f8628f9a0c73199)",
+  "patch_path": "reports/codejit_extraction_v1/records/0fbf90d4b906cb6bc570b65b.diff.gz",
+  "diff_bytes": 1264,
+  "diff_sha256": "386b5ab3e2a0e14885b9b8ed245ec3cdbd1a60c41cfdc25d6cdd2ddf283fded5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:51.858207+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

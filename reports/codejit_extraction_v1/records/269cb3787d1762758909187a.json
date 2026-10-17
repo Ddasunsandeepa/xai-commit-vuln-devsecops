@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "9371333230b1a6e1be2eccf4868771e11af6253a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2021-43824\n\njwt_atuhn: fixed the crash when a CONNECT request is sent to JWT filter\nconfigured with regex match.\n\nSigned-off-by: Yan Avlasov <yavlasov@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/269cb3787d1762758909187a.diff.gz",
+  "diff_bytes": 5305,
+  "diff_sha256": "f3e60b6d8812eed24f098ffb58debf49f1e4ee609227c1943c0c61adbc7e8f30",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:50.007653+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

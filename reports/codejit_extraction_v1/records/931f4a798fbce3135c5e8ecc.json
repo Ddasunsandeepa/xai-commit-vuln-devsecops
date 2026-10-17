@@ -1,0 +1,16 @@
+{
+  "repo": "aawc___unrar",
+  "commit_id": "0ff832d31470471803b175cfff4e40c1b08ee779",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "5.6.1.4: Use in-memory archive instead of file IO",
+  "patch_path": "reports/codejit_extraction_v1/records/931f4a798fbce3135c5e8ecc.diff.gz",
+  "diff_bytes": 17505,
+  "diff_sha256": "4703473dc8af65322e9b0d268505b13c1595f6ffd96e7b8246fae6a3d80f0cc0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:00.084614+00:00",
+  "url": "https://github.com/aawc/unrar.git"
+}

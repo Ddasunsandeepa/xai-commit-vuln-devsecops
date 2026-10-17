@@ -1,0 +1,16 @@
+{
+  "repo": "weidai11___cryptopp",
+  "commit_id": "9b383e8a07ca323d95f1bd378698d1f2e2c37db9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Clear out-of-bounds read when fuzzing\nzinflate.cpp:553:41: runtime error: index 30 out of bounds for type 'unsigned int [30]'\nzinflate.cpp:553:11: runtime error: load of address 0x0000011806b8 with insufficient space for an object of type 'const unsigned int'\nzinflate.cpp:32:32: runtime error: shift exponent 64 is too large for 64-bit type 'long unsigned int'",
+  "patch_path": "reports/codejit_extraction_v1/records/c83c29928a1edd8ca464503b.diff.gz",
+  "diff_bytes": 568,
+  "diff_sha256": "de409564859d4a1322ba55c178bc28cd80b418a6d02246f82204a641fdbe6199",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:08.987365+00:00",
+  "url": "https://github.com/weidai11/cryptopp.git"
+}

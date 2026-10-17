@@ -1,0 +1,16 @@
+{
+  "repo": "libimobiledevice___libusbmuxd",
+  "commit_id": "9cc128a83cb590c249c11914297fb5a0c6c0549b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Replace socket implementation and fix indentation in iproxy sources",
+  "patch_path": "reports/codejit_extraction_v1/records/493da90546c2731ad5f71620.diff.gz",
+  "diff_bytes": 30054,
+  "diff_sha256": "6cba7f9973204d1423c0910db0a8bd558a567b6a52ac5c7d54c590a535c60b5a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:04.860614+00:00",
+  "url": "https://github.com/libimobiledevice/libusbmuxd.git"
+}

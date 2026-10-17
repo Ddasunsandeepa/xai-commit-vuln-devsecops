@@ -1,0 +1,16 @@
+{
+  "repo": "opensips___opensips",
+  "commit_id": "54e027adfa486cfcf993828512b2e273aeb163c2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "backport from 1.9 (rev #9980)\nfixed temporary GRUU bug that lead to infinite loop\nCredits to Tolga Tarhan\n\n\n\ngit-svn-id: svn+ssh://svn.code.sf.net/p/opensips/svn/trunk@9982 689a6050-402a-0410-94f2-e92a70836424",
+  "patch_path": "reports/codejit_extraction_v1/records/1769b7ec85c16954e5b96770.diff.gz",
+  "diff_bytes": 280,
+  "diff_sha256": "4a7b700d52003e6401501f72306df0b1c4eead1b2319787ef56fe3f1760a3bae",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:06.749969+00:00",
+  "url": "https://github.com/opensips/opensips.git"
+}

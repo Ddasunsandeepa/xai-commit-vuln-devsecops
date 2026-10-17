@@ -1,0 +1,16 @@
+{
+  "repo": "axiomatic-systems___bento4",
+  "commit_id": "aeaf040ef9ebfd7885be6e09ec7174ed8fd26a65",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "basic dolby vision support",
+  "patch_path": "reports/codejit_extraction_v1/records/84a5ab33d43cb035b46fbd29.diff.gz",
+  "diff_bytes": 32395,
+  "diff_sha256": "9034306aede5cc719336566ab7ba7ec05e5b25fde16c169cd4b07d101d957f4c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:59.769516+00:00",
+  "url": "https://github.com/axiomatic-systems/bento4.git"
+}

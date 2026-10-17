@@ -1,0 +1,16 @@
+{
+  "repo": "karelzak___util-linux",
+  "commit_id": "b5504a3d4b318ef30600749b490c06b89f99349e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ipcs: make individual semaphore id printing to use /proc\n\nAnd reindent the print_shm() function.\n\n[kzak@redhat.com: move semctl(GET*...) calls to ipcutils.c]\n\nSigned-off-by: Sami Kerola <kerolasa@iki.fi>\nSigned-off-by: Karel Zak <kzak@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/42cbf84a43d310b66ccae0ae.diff.gz",
+  "diff_bytes": 5387,
+  "diff_sha256": "740239e831254b2f0eba0b592ed7a998e31002ec079173980f68845a6757d6d2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:14.607363+00:00",
+  "url": "https://github.com/karelzak/util-linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "01org___tpm2.0-tools",
+  "commit_id": "a351091921c8b7d73a7193eaa56933f16c5dfb7f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix build warning\n\nFixes #184\n\nSigned-off-by: William Roberts <william.c.roberts@intel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/6d1f76b48cdba5da5e7e7640.diff.gz",
+  "diff_bytes": 17337,
+  "diff_sha256": "982e6c32b93e8ca04a79e5399eecde7c56edc3b9096f0d31fd76f8de4c22a55b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:36:59.410116+00:00",
+  "url": "https://github.com/01org/tpm2.0-tools.git"
+}

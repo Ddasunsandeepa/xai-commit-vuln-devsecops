@@ -1,0 +1,16 @@
+{
+  "repo": "u-boot___u-boot",
+  "commit_id": "63656b762e50b2f11e228d94fdbb025a84900c71",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "dm: i2c: Implement driver model support in the i2c command\n\nThe concept of a 'current bus' is now implemented in the command line\nrather than in the uclass. Also the address length does not need to\nbe specified with each command - really we should consider dropping\nthis from most commands but it works OK for now.\n\nSigned-off-by: Simon Glass <sjg@chromium.org>\nAcked-by: Heiko Schocher <hs@denx.de>\nReviewed-by: Masahiro Yamada <yamada.m@jp.panasonic.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/63ce10d8f8892cb8daba49be.diff.gz",
+  "diff_bytes": 19369,
+  "diff_sha256": "6b2cd3306928558425897eb232ec25d6bdc8a14585e3e8f19ede8a8d5cd9986c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:20.175743+00:00",
+  "url": "https://github.com/u-boot/u-boot.git"
+}

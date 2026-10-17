@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "7469c7e7d0cee78abfaeeb087be494939bee82a9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug #61221 - imagegammacorrect function loses alpha channel\n\nWhen applying imagegammacorrect() the alpha channel is now fully retained, instead of being completely lost.",
+  "patch_path": "reports/codejit_extraction_v1/records/f050aa9f08caea68871e7a0b.diff.gz",
+  "diff_bytes": 1651,
+  "diff_sha256": "81521dab623a808d530670e62adf09a599c12164b939f882b58c3b0c9071ab40",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:57.373706+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

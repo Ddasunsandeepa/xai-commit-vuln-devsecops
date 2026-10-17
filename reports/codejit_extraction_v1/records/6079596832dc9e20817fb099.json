@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___jhead",
+  "commit_id": "bae671597d47b9e5955c4cb742e468cebfd7ca6b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix possible out of bounds access\n\nBug: 28868315\nChange-Id: I2b416c662f9ad7f9b3c6cf973a39c6693c66775a",
+  "patch_path": "reports/codejit_extraction_v1/records/6079596832dc9e20817fb099.diff.gz",
+  "diff_bytes": 652,
+  "diff_sha256": "199a75125cf59b1e8064133aa4d1d7e9cd91f61c18eaf3e51cf931afee8bc3fd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:16.096187+00:00",
+  "url": "https://android.googlesource.com/platform/external/jhead"
+}

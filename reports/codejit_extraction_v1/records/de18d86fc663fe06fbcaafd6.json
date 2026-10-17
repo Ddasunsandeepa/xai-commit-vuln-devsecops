@@ -1,0 +1,16 @@
+{
+  "repo": "keszybz___systemd",
+  "commit_id": "cb31827d62066a04b02111df3052949fda4b6888",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "nss-mymachines: do not allow overlong machine names\n\nhttps://github.com/systemd/systemd/issues/2002",
+  "patch_path": "reports/codejit_extraction_v1/records/de18d86fc663fe06fbcaafd6.diff.gz",
+  "diff_bytes": 838,
+  "diff_sha256": "071159575e25c821d14b5afa1022ffb805dd76e1cb057f9cdbf0223c1511e017",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:27.281963+00:00",
+  "url": "https://github.com/keszybz/systemd.git"
+}

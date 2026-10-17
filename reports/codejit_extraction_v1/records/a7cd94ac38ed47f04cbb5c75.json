@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "a3fc7693f3a035a8a7921cffb98432944bb42740",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed out of bounds access in ASN.1 Octet string\n\nCredit to OSS-Fuzz",
+  "patch_path": "reports/codejit_extraction_v1/records/a7cd94ac38ed47f04cbb5c75.diff.gz",
+  "diff_bytes": 430,
+  "diff_sha256": "e38d5a495a6081fecfe9359ae55679c17129843ad60f80d2ecfd7e95e5ac623e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:01.266317+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

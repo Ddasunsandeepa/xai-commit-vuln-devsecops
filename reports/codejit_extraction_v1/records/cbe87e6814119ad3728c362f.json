@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "128011a25846785a472f7c60c082693583f83df5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a zipfile problem with adding new directories to an archive.\n\nFossilOrigin-Name: 5fed67033c9dd4492bf8cfcf98874284581f448d8cc84fa5470dde239f218375",
+  "patch_path": "reports/codejit_extraction_v1/records/cbe87e6814119ad3728c362f.diff.gz",
+  "diff_bytes": 7662,
+  "diff_sha256": "9c8b2d5da188b550197600f8769c7837ed52d9c854fa448ded94ad4402e1aef2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:38.353742+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

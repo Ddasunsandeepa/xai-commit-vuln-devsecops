@@ -1,0 +1,16 @@
+{
+  "repo": "espruino___espruino",
+  "commit_id": "e6a19a7d77a6e1374a7adb4e56a6563a2222a332",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "remove strncpy - turns out it'll have been padding out whole buffers with 0",
+  "patch_path": "reports/codejit_extraction_v1/records/8e5a267f853ece563d5d73db.diff.gz",
+  "diff_bytes": 881,
+  "diff_sha256": "28a6226fc2d507e3e8ecc7f09264cf1d07ce6a1e815d1db05c44427207cb39a8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:09.725275+00:00",
+  "url": "https://github.com/espruino/espruino.git"
+}

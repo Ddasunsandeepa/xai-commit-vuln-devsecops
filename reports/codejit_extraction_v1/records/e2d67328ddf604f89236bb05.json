@@ -1,0 +1,16 @@
+{
+  "repo": "serenityos___serenity",
+  "commit_id": "c9f25bca048443e317f1994ba9b106f2386688c3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "LibTextCodec: Make UTF16BEDecoder read only up to an even offset\n\nReading up to the end of the input string of odd length results in\nan out-of-bounds read",
+  "patch_path": "reports/codejit_extraction_v1/records/e2d67328ddf604f89236bb05.diff.gz",
+  "diff_bytes": 701,
+  "diff_sha256": "4d6c57408c5091cc0952a8c07dbed8f1fde7d96f94148ea1a7635084cc2e2db1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:52.683349+00:00",
+  "url": "https://github.com/serenityos/serenity.git"
+}

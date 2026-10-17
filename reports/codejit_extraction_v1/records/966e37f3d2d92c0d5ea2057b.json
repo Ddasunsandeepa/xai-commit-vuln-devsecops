@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "8428b3b437569338a9d1e10c4cd8154acbe33089",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Continuation of [e2bddcd4c55ba3cb]: Add another spot where it is necessary\nto abort early due to prior errors in sqlite3WindowRewrite().\n\nFossilOrigin-Name: cba2a2a44cdf138a629109bb0ad088ed4ef67fc66bed3e0373554681a39615d2",
+  "patch_path": "reports/codejit_extraction_v1/records/966e37f3d2d92c0d5ea2057b.diff.gz",
+  "diff_bytes": 2685,
+  "diff_sha256": "9f01dc4e3e551c6f74379511fb4d3b406011c263c3af2852cb9625a1624c768d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:57.041726+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

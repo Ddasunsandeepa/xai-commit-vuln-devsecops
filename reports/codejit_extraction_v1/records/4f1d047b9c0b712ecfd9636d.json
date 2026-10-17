@@ -1,0 +1,16 @@
+{
+  "repo": "axdoomer___doom-vanille",
+  "commit_id": "8a6d9a02fa991a91ff90ccdc73b5ceabaa6cb9ec",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix buffer overflow in M_LoadDefaults\n\nToo much data will most likely result in a crash or freeze, but you can overwrite the stack which can be used to do an arbitrary code execution. (https://twitter.com/notrevenant/status/1268654123903340544)",
+  "patch_path": "reports/codejit_extraction_v1/records/4f1d047b9c0b712ecfd9636d.diff.gz",
+  "diff_bytes": 344,
+  "diff_sha256": "8f6800c509c6868a97e44c643ede6809edb44a7c57acdbffd9e49886470b8617",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:54.531654+00:00",
+  "url": "https://github.com/axdoomer/doom-vanille.git"
+}

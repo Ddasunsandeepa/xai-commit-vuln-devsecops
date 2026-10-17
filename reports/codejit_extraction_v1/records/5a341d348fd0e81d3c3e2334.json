@@ -1,0 +1,16 @@
+{
+  "repo": "domoticz___domoticz",
+  "commit_id": "cc83cf857107adc4d3154c4537299a23277e732c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "replace all special chars for safe html",
+  "patch_path": "reports/codejit_extraction_v1/records/5a341d348fd0e81d3c3e2334.diff.gz",
+  "diff_bytes": 999,
+  "diff_sha256": "ee10c25dffd71241949c711330478a1abcaa7e9625991ac2c34db7b7f632c168",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:04.371370+00:00",
+  "url": "https://github.com/domoticz/domoticz.git"
+}

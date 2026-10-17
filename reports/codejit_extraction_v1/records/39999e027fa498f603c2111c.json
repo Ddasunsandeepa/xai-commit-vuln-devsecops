@@ -1,0 +1,16 @@
+{
+  "repo": "veracrypt___veracrypt",
+  "commit_id": "f30f9339c9a0b9bbcc6f5ad38804af39db1f479e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Windows: fix low severity vulnerability in driver that allowed reading 3 bytes of kernel stack memory (with a rare possibility of 25 additional bytes). Reported by Tim Harrison.",
+  "patch_path": "reports/codejit_extraction_v1/records/39999e027fa498f603c2111c.diff.gz",
+  "diff_bytes": 5690,
+  "diff_sha256": "802763145d0f2e7ba883ae84c7ef2acfacae5c1a7ddc3c14fa83196ba848f84b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:46.865433+00:00",
+  "url": "https://github.com/veracrypt/veracrypt.git"
+}

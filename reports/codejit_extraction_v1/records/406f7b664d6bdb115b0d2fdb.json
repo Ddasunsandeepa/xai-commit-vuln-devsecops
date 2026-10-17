@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "7b8db6083b34520688dbc71f341f7aeaf156bf17",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement grouped convolution on CPU\n\nTo get better compute resources utilization group-compute loop has to be parallelized, but it involves a lot of changes in Conv2D primitives. Will address that later if it will be critical for some of the users.\n\nFix for: https://github.com/tensorflow/tensorflow/issues/29005\n\nPiperOrigin-RevId: 363991782\nChange-Id: I97f375b1133833c4de5181199316be7cbf4ebee0",
+  "patch_path": "reports/codejit_extraction_v1/records/406f7b664d6bdb115b0d2fdb.diff.gz",
+  "diff_bytes": 13906,
+  "diff_sha256": "984dbbe036e560ccf9a59e3617c02063d53864841aa15024f278effe1852e3cb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:33:07.541114+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "vadz___libtiff",
+  "commit_id": "9657bbe3cdce4aaa90e07d50c1c70ae52da0ba6a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "* tools/tiffcrop.c: fix readContigStripsIntoBuffer() in -i (ignore) mode so\nthat the output buffer is correctly incremented to avoid write outside bounds.\nReported by Agostino Sarubbo.\nFixes http://bugzilla.maptools.org/show_bug.cgi?id=2620",
+  "patch_path": "reports/codejit_extraction_v1/records/d5202db9183ba7f954c57ea4.diff.gz",
+  "diff_bytes": 1007,
+  "diff_sha256": "28de6b643ca54700b1acd1ceb52e0a903e7b5844be187d707330bd9d9247e8b9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:45.767458+00:00",
+  "url": "https://github.com/vadz/libtiff.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "qpdf___qpdf",
+  "commit_id": "d0e99f195a987c483bbb6c5449cf39bee34e08a1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "More robust handling of type errors\n\nGive objects descriptions and context so it is possible to issue\nwarnings instead of fatal errors for attempts to access objects of the\nwrong type.",
+  "patch_path": "reports/codejit_extraction_v1/records/210cbcfd36690f125a023d94.diff.gz",
+  "diff_bytes": 89292,
+  "diff_sha256": "4f7c49fbe6d4c80b430d282442751e7c32434025644a8e07bf39928b8889a6d9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:37.153754+00:00",
+  "url": "https://github.com/qpdf/qpdf.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___miniupnp",
+  "commit_id": "c183a72c46cae9e37ddf635318dfb0bdcd56ed9d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added miniupnpc",
+  "patch_path": "reports/codejit_extraction_v1/records/ff44039cfceb87ea5217f9e2.diff.gz",
+  "diff_bytes": 283921,
+  "diff_sha256": "e3ab421a199d3d826d251f2f263feb39728c564b2083ca2bc9cd1f94d715e706",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:06.775036+00:00",
+  "url": "https://github.com/miniupnp/miniupnp.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "bluez___bluez",
+  "commit_id": "76d63c91b27ab27e28267b6e5ff252252efd537f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "shared/gatt-client: Add support for EATT features\n\nThis enables EATT in the Client Features if the EATT characteristic is\npresent in the database.",
+  "patch_path": "reports/codejit_extraction_v1/records/5228ab35643c898b2a44dfa0.diff.gz",
+  "diff_bytes": 52269,
+  "diff_sha256": "5394b2ca254f40e00615ceb98e029443eb55536b41f82035466478492d3dc1b7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:29.759728+00:00",
+  "url": "https://github.com/bluez/bluez.git"
+}

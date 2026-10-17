@@ -1,0 +1,16 @@
+{
+  "repo": "curl___curl",
+  "commit_id": "d530e92f59ae9bb2d47066c3c460b25d2ffeb211",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "voutf: fix bad arethmetic when outputting warnings to stderr\n\nCVE-2018-16842\nReported-by: Brian Carpenter\nBug: https://curl.haxx.se/docs/CVE-2018-16842.html",
+  "patch_path": "reports/codejit_extraction_v1/records/fa4f7b8371be78b907601012.diff.gz",
+  "diff_bytes": 438,
+  "diff_sha256": "40b4ddc6c703e07e5feec60f07df80ee61700fea4a5a6eaea884736c6463c0ae",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:01.404110+00:00",
+  "url": "https://github.com/curl/curl.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "e58ec44597f9d9d2ff237f5878a22e658bd80434",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add support for 7-Zip.\nThis new 7Zip reader supports COPY,Deflate,BZ2,LZMA and LZMA2.\nThis also supports BCJ + LZMA2, DELTA + LZMA and DELTA + LZMA2.\n(BCJ + LZMA is not supported, there is some problems to support it.)\n\nThis 7Zip reader cannot work on stream because of its format:\nits header is placed at the bottom of the archive file, so we\nhave to call seek().\n\nSVN-Revision: 3844",
+  "patch_path": "reports/codejit_extraction_v1/records/f37f634e4b7b4746f021412d.diff.gz",
+  "diff_bytes": 155725,
+  "diff_sha256": "af47fc6b11618184ad88ca2367ad81bfedceaf1ab4b40436e484d81e07b2c913",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:46.739040+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

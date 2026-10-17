@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "8fe377e93b4b56060e5bbfb6f3142ceaeca744fa",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fixed out of bounds reads\n\nThanks to Eric Sesterhenn from X41 D-SEC GmbH\nfor reporting and suggesting security fixes.",
+  "patch_path": "reports/codejit_extraction_v1/records/900c65be66b7167c4d468852.diff.gz",
+  "diff_bytes": 17192,
+  "diff_sha256": "f416f2fb543fc38012330ec4df5d0e6e1964397dbfbc23f7752c3aeccbcb1c4d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:00.306625+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

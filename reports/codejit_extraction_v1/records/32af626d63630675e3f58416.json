@@ -1,0 +1,16 @@
+{
+  "repo": "zmartzone___mod_auth_openidc",
+  "commit_id": "bc122ae0df1c033dac6b979e54084304c08d8afa",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix `OIDCOAuthAcceptTokenAs post`; see #443\n\n- propagate - and do not lose - POST data\n- bump to 2.4.0rc19\n\nSigned-off-by: Hans Zandbelt <hans.zandbelt@zmartzone.eu>",
+  "patch_path": "reports/codejit_extraction_v1/records/32af626d63630675e3f58416.diff.gz",
+  "diff_bytes": 14396,
+  "diff_sha256": "8ff26c7e83db6de6f21005f5b74482ad85d946174386971c72da7b7c7c8a261b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:21.673021+00:00",
+  "url": "https://github.com/zmartzone/mod_auth_openidc.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "c0699c8693c47f14a2e57dec7292e862ac7adf9c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix undefined behavior when passing null to strdup",
+  "patch_path": "reports/codejit_extraction_v1/records/564832b5b3d77d389679d88d.diff.gz",
+  "diff_bytes": 4302,
+  "diff_sha256": "6344e2d4c2a29bab3beae9a8388e20f2bde0645dc8fce79f9313e4d28b3be9b2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:21.259300+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

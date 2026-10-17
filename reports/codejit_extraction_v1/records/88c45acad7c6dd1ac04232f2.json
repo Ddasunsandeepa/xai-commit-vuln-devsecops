@@ -1,0 +1,16 @@
+{
+  "repo": "nghttp2___nghttp2",
+  "commit_id": "336a98feb0d56b9ac54e12736b18785c27f75090",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement max settings option",
+  "patch_path": "reports/codejit_extraction_v1/records/88c45acad7c6dd1ac04232f2.diff.gz",
+  "diff_bytes": 10519,
+  "diff_sha256": "8c048366300989995f51481f1b04aa30c5f1a9c16cc3e918cdc072aea94715c6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:59.234633+00:00",
+  "url": "https://github.com/nghttp2/nghttp2.git"
+}

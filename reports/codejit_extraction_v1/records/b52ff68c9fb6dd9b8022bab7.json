@@ -1,0 +1,16 @@
+{
+  "repo": "ntop___ndpi",
+  "commit_id": "b69177be2fbe01c2442239a61832c44e40136c05",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Adds bound check in oracle protocol\n\nFound by oss-fuzz\nhttps://bugs.chromium.org/p/oss-fuzz/issues/detail?id=21780",
+  "patch_path": "reports/codejit_extraction_v1/records/b52ff68c9fb6dd9b8022bab7.diff.gz",
+  "diff_bytes": 841,
+  "diff_sha256": "741f482e744052e29f1ef58db6278a030415df8016520f01e4fd071c306b81ff",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:28.085856+00:00",
+  "url": "https://github.com/ntop/ndpi.git"
+}

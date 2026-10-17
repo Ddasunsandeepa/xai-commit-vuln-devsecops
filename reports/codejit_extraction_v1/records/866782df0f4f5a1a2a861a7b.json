@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "7554755536019e439433c515eeb44e701fb3bfb2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Do not conceal slices with invalid SPS/PPS\n\nBug: 28835995",
+  "patch_path": "reports/codejit_extraction_v1/records/866782df0f4f5a1a2a861a7b.diff.gz",
+  "diff_bytes": 1171,
+  "diff_sha256": "d1cb78dd6c0ae781781513ff1a5a8beedbc7dc8c8e3e18c017cca18143199dda",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:20.610135+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

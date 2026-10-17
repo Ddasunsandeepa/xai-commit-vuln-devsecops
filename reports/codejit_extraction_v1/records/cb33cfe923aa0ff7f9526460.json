@@ -1,0 +1,16 @@
+{
+  "repo": "ckolivas___cgminer",
+  "commit_id": "6826525bba34382ec5ceea7f793f53e9242a2309",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid allocing and freeing stratum strings that should be fixed length.",
+  "patch_path": "reports/codejit_extraction_v1/records/cb33cfe923aa0ff7f9526460.diff.gz",
+  "diff_bytes": 2170,
+  "diff_sha256": "b1b06b31991351d586f62b96841aa9df09a455585214a5c032affb065e441ea0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:50.735155+00:00",
+  "url": "https://github.com/ckolivas/cgminer.git"
+}

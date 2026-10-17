@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "92dba16749fae36c246bec3f9ba474d9ddeb7662",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent a null-pointer dereference / `CHECK`-fail in grappler.\n\nPiperOrigin-RevId: 409187354\nChange-Id: I369c249cca32e6c56ec193f0ebbf2f2768fc7d43",
+  "patch_path": "reports/codejit_extraction_v1/records/b0789d98959a12efd10f3fd7.diff.gz",
+  "diff_bytes": 852,
+  "diff_sha256": "16cb115999b30a37e44a01ed86480daf84ea3eec63b394567a9ed302662cf2ba",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:33:26.978907+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

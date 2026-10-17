@@ -1,0 +1,16 @@
+{
+  "repo": "psi-im___iris",
+  "commit_id": "02e976d4426a1319a7af7d26d7aba9d8c6077570",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Try to fix XMPP Client User Impersonation Vulnerability",
+  "patch_path": "reports/codejit_extraction_v1/records/4113b99050b38734c98a7fa1.diff.gz",
+  "diff_bytes": 2405,
+  "diff_sha256": "9ece379ec231a6b17341f4e9cd478675df8ee5801db3124c9d9a17b87f4919ba",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:11.083298+00:00",
+  "url": "https://github.com/psi-im/iris.git"
+}

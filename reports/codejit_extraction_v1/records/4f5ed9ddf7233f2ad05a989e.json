@@ -1,0 +1,16 @@
+{
+  "repo": "attorneyonline___akashi",
+  "commit_id": "85cc9af73a9944a1fdcd25e1a3e7f16424ea7246",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Change all accesses to getters",
+  "patch_path": "reports/codejit_extraction_v1/records/4f5ed9ddf7233f2ad05a989e.diff.gz",
+  "diff_bytes": 52197,
+  "diff_sha256": "25d0b7f6e68b65782bbad09965bfd4cfc4c83aa076170ca570ed7e196276f6c7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:54.192014+00:00",
+  "url": "https://github.com/attorneyonline/akashi.git"
+}

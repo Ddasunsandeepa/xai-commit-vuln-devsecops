@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "7cd5e856e55c64ed7109595c7dd154d65861ec03",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix the query flattener optimization so that it preserve the \"SF_Compound\"\nbit when flattening a compound subquery into a non-compound outer query.\nFailure to preserve that bit could allow subsequent flattenings which are\nnot valid. Fix for ticket [c41afac34f15781fe09cd].\n\nFossilOrigin-Name: 523b42371122d9e1b3185425745f1490138bff7f7cc941ee26ee81df7ade5bf4",
+  "patch_path": "reports/codejit_extraction_v1/records/53ef624e700e5fd0fdad61f3.diff.gz",
+  "diff_bytes": 4805,
+  "diff_sha256": "1c4322f4b0cffd8e5d0dc6a8d6c1d6c4502ba3b64005042785924b4c1ea06482",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:52.406118+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

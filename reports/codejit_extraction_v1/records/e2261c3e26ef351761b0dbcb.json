@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "6f163e07ae68654d7ac5268cbb7565f6df79ad85",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check outbuf length in mutt_to_base64()\n\nThe obuf can be overflowed in auth_cram.c, and possibly auth_gss.c.\n\nThanks to Jeriko One for the bug report.",
+  "patch_path": "reports/codejit_extraction_v1/records/e2261c3e26ef351761b0dbcb.diff.gz",
+  "diff_bytes": 4936,
+  "diff_sha256": "528ca0e1714600518984c508e5034b3e4776fbcd6e0899ebae8546ff53e8979f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:35.164904+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

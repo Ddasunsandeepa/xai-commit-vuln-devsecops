@@ -1,0 +1,16 @@
+{
+  "repo": "hfp___libxsmm",
+  "commit_id": "c82389077017c9173d58e56d1f3f01c2d5a4f412",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed issue pointed out by static analysis. The vast majority of issues is related to wider types but arithmetic expressions (address calculation) is performed in original/lower type-width.",
+  "patch_path": "reports/codejit_extraction_v1/records/e5f0be8b59428406cc0dc5a6.diff.gz",
+  "diff_bytes": 253722,
+  "diff_sha256": "983de2b91e59291ac7407dc9d558fb6bdfbf1409525b02e77bd1492b592f1c3e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:39.352531+00:00",
+  "url": "https://github.com/hfp/libxsmm.git"
+}

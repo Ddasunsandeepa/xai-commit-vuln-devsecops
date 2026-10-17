@@ -1,0 +1,16 @@
+{
+  "repo": "kmatheussen___das_watchdog",
+  "commit_id": "bd20bb02e75e2c0483832b52f2577253febfb690",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix memory overflow if the name of an environment is larger than 500 characters. Bug found by Adam Sampson.",
+  "patch_path": "reports/codejit_extraction_v1/records/1638f8caa4298c001968af35.diff.gz",
+  "diff_bytes": 663,
+  "diff_sha256": "9cb431f1ca31d49688e032b374f56b3188a39ea2d906fa8023aace83bd938545",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:29.138599+00:00",
+  "url": "https://github.com/kmatheussen/das_watchdog.git"
+}

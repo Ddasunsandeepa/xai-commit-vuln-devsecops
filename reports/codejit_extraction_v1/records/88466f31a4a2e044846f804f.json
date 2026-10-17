@@ -1,0 +1,16 @@
+{
+  "repo": "sigil-ebook___sigil",
+  "commit_id": "cf45b2f883a9882bf2076a8d71f7ab476e246fe2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Preliminary Python 2.7 Plugin Support for Sigil\n\nPatches add preliminary support for using an already installed Python\n2.7 interpreter to act as a plugin engine for Sigil",
+  "patch_path": "reports/codejit_extraction_v1/records/88466f31a4a2e044846f804f.diff.gz",
+  "diff_bytes": 74579,
+  "diff_sha256": "6712e38ecbceb4233855bf4ccd61ae2afc382eb38acc6a706354a5fe23cad0a5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:09.617861+00:00",
+  "url": "https://github.com/sigil-ebook/sigil.git"
+}

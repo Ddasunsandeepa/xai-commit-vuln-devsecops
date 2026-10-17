@@ -1,0 +1,16 @@
+{
+  "repo": "abrt___abrt",
+  "commit_id": "50ee8130fb4cd4ef1af7682a2c85dd99cb99424e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "a-a-i-d-to-abrt-cache: make own random temporary directory\n\nThe set-user-ID wrapper must use own new temporary directory in order to\navoid security issues with unpacking specially crafted debuginfo\npackages that might be used to create files or symlinks anywhere on the\nfile system as the abrt user.\n\nWithot the forking code the temporary directory would remain on the\nfilesystem in the case where all debuginfo data are already available.\nThis is caused by the fact that the underlying libreport functionality\naccepts path to a desired temporary directory and creates it only if\nnecessary. Otherwise, the directory is not touched at all.\n\nThis commit addresses CVE-2015-5273\n\nSigned-off-by: Jakub Filak <jfilak@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/5e863ca25b40cbf6e5d489d3.diff.gz",
+  "diff_bytes": 2628,
+  "diff_sha256": "be07116571c7dbd979c419621571fd45de14bcecc23ac9da9cd95a74d1530fd0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:00.681603+00:00",
+  "url": "https://github.com/abrt/abrt.git"
+}

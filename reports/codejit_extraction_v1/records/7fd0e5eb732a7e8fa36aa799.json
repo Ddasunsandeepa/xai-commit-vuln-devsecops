@@ -1,0 +1,16 @@
+{
+  "repo": "pgbouncer___pgbouncer",
+  "commit_id": "74d6e5f7de5ec736f71204b7b422af7380c19ac5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check if auth_user is set.\n\nFixes a crash if password packet appears before startup packet (#42).",
+  "patch_path": "reports/codejit_extraction_v1/records/7fd0e5eb732a7e8fa36aa799.diff.gz",
+  "diff_bytes": 530,
+  "diff_sha256": "4d30bda8911509ea3e3504213a16c3f02aa5db3ec9eb5131d053f558eb01c6b8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:02.022714+00:00",
+  "url": "https://github.com/pgbouncer/pgbouncer.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "a124133e1e6ab5c7a9fef6d0e6bcb084e3455b46",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fsck: detect submodule urls starting with dash\n\nUrls with leading dashes can cause mischief on older\nversions of Git. We should detect them so that they can be\nrejected by receive.fsckObjects, preventing modern versions\nof git from being a vector by which attacks can spread.\n\nSigned-off-by: Jeff King <peff@peff.net>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/f95f340d1049a177385f981d.diff.gz",
+  "diff_bytes": 1782,
+  "diff_sha256": "4c6c77f1f0b6681bb9444f407db16164e01ae1f9f6f14b79be3d587394bff54e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:04.755817+00:00",
+  "url": "https://github.com/git/git.git"
+}

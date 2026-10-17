@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "bb95af848c939cfe5b5ee33c5b1770558077e64e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Specify type for matching Subject Alternative Name. (#18628)\n\n\nSigned-off-by: Pradeep Rao <pcrao@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/0c3d54cdb57b26c497f3f696.diff.gz",
+  "diff_bytes": 89419,
+  "diff_sha256": "8f880752bc16d04a1831df11e1b129671f06af05d334cd7302a5be1802c2688f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:54.057990+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

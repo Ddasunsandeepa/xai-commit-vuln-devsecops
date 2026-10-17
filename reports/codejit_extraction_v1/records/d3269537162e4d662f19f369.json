@@ -1,0 +1,16 @@
+{
+  "repo": "pcre2project___pcre2",
+  "commit_id": "f0855fab5c48a419dd9bcbc8f30d31bb0e4d9d93",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Starting commit of the JIT compiler.",
+  "patch_path": "reports/codejit_extraction_v1/records/d3269537162e4d662f19f369.diff.gz",
+  "diff_bytes": 333810,
+  "diff_sha256": "bbdd85eb963590bced923626750cd179fbf8c0ed040eb3c8c909307aad374ae4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:55.688072+00:00",
+  "url": "https://github.com/pcre2project/pcre2.git"
+}

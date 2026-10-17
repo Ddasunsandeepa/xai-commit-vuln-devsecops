@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "3439f9cdd7c51155f412fda95786f145a5001fe8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added initial support for SetCOS 4.4 cards\n\ngit-svn-id: https://www.opensc-project.org/svnp/opensc/trunk@2291 c6295689-39f2-0310-b995-f0e70906c6a9",
+  "patch_path": "reports/codejit_extraction_v1/records/68558699390331166601bc4b.diff.gz",
+  "diff_bytes": 47695,
+  "diff_sha256": "8aae6624cd366951cdf0f00faa3d452b6cba4e6790d57f23cde4b9067a1518cd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:56.043056+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

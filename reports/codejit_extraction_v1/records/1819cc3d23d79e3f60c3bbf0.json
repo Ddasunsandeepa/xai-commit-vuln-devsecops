@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "ad54cfed4516292654c997910839153264ae00a0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't demangle symbol names.\n\nBug: http://b/27299236\nChange-Id: I26ef47f80d4d6048a316ba51e83365ff65d70439",
+  "patch_path": "reports/codejit_extraction_v1/records/1819cc3d23d79e3f60c3bbf0.diff.gz",
+  "diff_bytes": 845,
+  "diff_sha256": "49dcf94ec0d5e48b296a7042392075aacc42e8f4c4304e388a0a3b73eb49a931",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:32.671422+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

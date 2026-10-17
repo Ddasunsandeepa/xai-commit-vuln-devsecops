@@ -1,0 +1,16 @@
+{
+  "repo": "libarchive___libarchive",
+  "commit_id": "b41daecb5ccb4c8e3b2c53fd6147109fc12c3043",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not follow symlinks when processing the fixup list\n\nUse lchmod() instead of chmod() and tell the remaining functions that the\nreal file to be modified is a symbolic link.\n\nFixes #1566",
+  "patch_path": "reports/codejit_extraction_v1/records/fcabba42e3f6274f7081ac08.diff.gz",
+  "diff_bytes": 5849,
+  "diff_sha256": "c296f42665fa1c7bb1ac22899eda95223c7742df15064c3b8f69bbdc147d7af2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:44.752884+00:00",
+  "url": "https://github.com/libarchive/libarchive.git"
+}

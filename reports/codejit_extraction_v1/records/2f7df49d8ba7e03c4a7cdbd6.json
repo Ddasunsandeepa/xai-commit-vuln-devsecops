@@ -1,0 +1,16 @@
+{
+  "repo": "nginx___njs",
+  "commit_id": "6a07c2156a07ef307b6dcf3c2ca8571a5f1af7a6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed recursive async function calls.\n\nPreviously, PromiseCapability record was stored (function->context)\ndirectly in function object during a function invocation.  This is\nnot correct, because PromiseCapability record should be linked to\ncurrent execution context.  As a result, function->context is\noverwritten with consecutive recursive calls which results in\nuse-after-free.\n\nThis closes #451 issue on Github.",
+  "patch_path": "reports/codejit_extraction_v1/records/2f7df49d8ba7e03c4a7cdbd6.diff.gz",
+  "diff_bytes": 8689,
+  "diff_sha256": "f1f839bbf8ab7959716b3ff24f4729f3f8c4584e8d30e587b8daa35fa1beab3f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:00.744504+00:00",
+  "url": "https://github.com/nginx/njs.git"
+}

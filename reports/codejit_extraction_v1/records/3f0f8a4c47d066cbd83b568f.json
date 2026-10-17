@@ -1,0 +1,16 @@
+{
+  "repo": "akrennmair___newsbeuter",
+  "commit_id": "96e9506ae9e252c548665152d1b8968297128307",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Sanitize inputs to bookmark-cmd (#591)\n\nNewsbeuter didn't properly shell-escape the arguments passed to\nbookmarking command, which allows a remote attacker to perform remote\ncode execution by crafting an RSS item whose title and/or URL contain\nsomething interpretable by the shell (most notably subshell\ninvocations.)\n\nThis has been reported by Jeriko One <jeriko.one@gmx.us>, complete with\nPoC and a patch.\n\nThis vulnerability was assigned CVE-2017-12904.",
+  "patch_path": "reports/codejit_extraction_v1/records/3f0f8a4c47d066cbd83b568f.diff.gz",
+  "diff_bytes": 1187,
+  "diff_sha256": "fef922a292688c9fc208ccebb13518869c3ae9a85aca64827d711f908e4d130c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:15.312678+00:00",
+  "url": "https://github.com/akrennmair/newsbeuter.git"
+}

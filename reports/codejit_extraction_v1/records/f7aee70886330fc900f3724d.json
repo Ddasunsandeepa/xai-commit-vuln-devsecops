@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "a6cece9d81990e729c1f9da2a5bff2d29f7df649",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ALSA: usb-audio: Pass direct struct pointer instead of list_head\n\nSome functions in mixer.c and endpoint.c receive list_head instead of\nthe object itself.  This is not obvious and rather error-prone.  Let's\npass the proper object directly instead.\n\nThe functions in midi.c still receive list_head and this can't be\nchanged since the object definition isn't exposed to the outside of\nmidi.c, so left as is.\n\nSigned-off-by: Takashi Iwai <tiwai@suse.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/f7aee70886330fc900f3724d.diff.gz",
+  "diff_bytes": 4316,
+  "diff_sha256": "d1f8fe10f5209b82835a22a6fdbca2f382a9b556b40970bdae5d36955f994f61",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:39:05.232165+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

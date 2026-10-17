@@ -1,0 +1,16 @@
+{
+  "repo": "mongodb___mongo-python-driver",
+  "commit_id": "638bb7fbdc6b565f857462b5533340a8f65af6e7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support Java and C# UUID byte order PYTHON-387",
+  "patch_path": "reports/codejit_extraction_v1/records/b5a2beba3da20dc410d79aed.diff.gz",
+  "diff_bytes": 34875,
+  "diff_sha256": "df0fe63197e44386bd04ec07eb9a745928e90d548cd1e024ea01d85311927759",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:38.509398+00:00",
+  "url": "https://github.com/mongodb/mongo-python-driver.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "kamailio___kamailio",
+  "commit_id": "2fbc66fb8789a9e0749aca301119ab7c046676c5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tmx: t_precheck_tran() - light filtering of retransmissions\n\n- keep track of processed messages per process to catch retransmissions\n  in early phase, to avoid simultaneous processing until transaction is\n  created",
+  "patch_path": "reports/codejit_extraction_v1/records/807aa1861504a72da219ec4d.diff.gz",
+  "diff_bytes": 14316,
+  "diff_sha256": "e009557112fd2c1fc78ff01fbddf48a18d585a7ef87e11bbe8ea3c2dcf6fc2cc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:07.501089+00:00",
+  "url": "https://github.com/kamailio/kamailio.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "2871c70efaaaa0f102557a17c727fd4d5204dd4b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Patch for Heap Buffer Overflow in EscapeShell\n\nProposed patch for bug #71270",
+  "patch_path": "reports/codejit_extraction_v1/records/0dd79c42ed3bf89b9f579700.diff.gz",
+  "diff_bytes": 664,
+  "diff_sha256": "b158592922d8456b5ae9e19ee6c2ca271f5e3c757b566ef15c61d38251822217",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:13.433930+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

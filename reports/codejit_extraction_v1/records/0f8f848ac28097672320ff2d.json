@@ -1,0 +1,16 @@
+{
+  "repo": "freertos___freertos-kernel",
+  "commit_id": "d05b9c123f2bf9090bce386a244fc934ae44db5b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add addition overflow check for stream buffer (#226)",
+  "patch_path": "reports/codejit_extraction_v1/records/0f8f848ac28097672320ff2d.diff.gz",
+  "diff_bytes": 1025,
+  "diff_sha256": "0171892f99b497ee766d64e20fabbe965754f4054269a9e0eb4b529be19283c2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:47.556659+00:00",
+  "url": "https://github.com/freertos/freertos-kernel.git"
+}

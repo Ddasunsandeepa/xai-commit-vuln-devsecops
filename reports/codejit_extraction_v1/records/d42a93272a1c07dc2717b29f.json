@@ -1,0 +1,16 @@
+{
+  "repo": "onlyoffice___core",
+  "commit_id": "4f0d244c05a689940258f9cac2d2863b7a15a6e9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "git-svn-id: svn://fileserver/activex/AVS/Sources/TeamlabOffice/trunk/ServerComponents@63602 954022d7-b5bf-4e40-9824-e11837661b57",
+  "patch_path": "reports/codejit_extraction_v1/records/d42a93272a1c07dc2717b29f.diff.gz",
+  "diff_bytes": 11888,
+  "diff_sha256": "6fc6db1665360e0f1cf6c6910f6f9a2bac1732355b47a2c4756f50f7cf0993c7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:58.041298+00:00",
+  "url": "https://github.com/onlyoffice/core.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "lxc___lxc",
+  "commit_id": "14221cbb7d4bdb6f7ed0fb4ef69cd5dd034d9cb7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Allow autodev without a rootfs\n\nA container without a rootfs is useful for running a collection of\nprocesses in separate namespaces (to provide separate networking as\nan example), while sharing the host filesystem (except for specific\npaths that are re-mounted as needed). For multiple processes to run\nautomatically when such a container is started, it can be launched\nusing lxc-start, and a separate instance of systemd can manage just\nthe processes inside the container. (This assumes that the path to\nthe systemd unit files is re-mounted and only contains the services\nthat should run inside the container.) For this use case, autodev\nshould be permitted for a container that does not have a rootfs.\n\nSigned-off-by: David Ward <david.ward@ll.mit.edu>\nAcked-by: Serge E. Hallyn <serge.hallyn@ubuntu.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/0e2adb985a7c465177f38eb6.diff.gz",
+  "diff_bytes": 3697,
+  "diff_sha256": "cb1671f1a409e98e7a69fca7830787d6bb43449340c084ddbb486c080ef69b78",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:51.485528+00:00",
+  "url": "https://github.com/lxc/lxc.git"
+}

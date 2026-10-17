@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "ce0ae309057a216aba031aff81c445c90c6ef145",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2021-43826\n\nSigned-off-by: Yan Avlasov <yavlasov@google.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/71115d7b476b626823206bf7.diff.gz",
+  "diff_bytes": 7099,
+  "diff_sha256": "f78e26aef58c9628da8e84cf19eff0aa8c8d1e2e3094d1953a2836e19e71d0e4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:56.717357+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

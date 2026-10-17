@@ -1,0 +1,16 @@
+{
+  "repo": "gpg___libgcrypt",
+  "commit_id": "a4c561aab1014c3630bc88faf6f5246fee16b020",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "GCM: move look-up table to .data section and unshare between processes\n\n* cipher/cipher-gcm.c (ATTR_ALIGNED_64): New.\n(gcmR): Move to 'gcm_table' structure.\n(gcm_table): New structure for look-up table with counters before and\nafter.\n(gcmR): New macro.\n(prefetch_table): Handle input with length not multiple of 256.\n(do_prefetch_tables): Modify pre- and post-table counters to unshare\nlook-up table pages between processes.\n--\n\nGnuPG-bug-id: 4541\nSigned-off-by: Jussi Kivilinna <jussi.kivilinna@iki.fi>",
+  "patch_path": "reports/codejit_extraction_v1/records/a8af4f57803b884142fed7d5.diff.gz",
+  "diff_bytes": 6568,
+  "diff_sha256": "3bb9605bf743af2895e6c5658a7d925507d80cc866c795b0b69785747d620b9b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:33.783019+00:00",
+  "url": "https://github.com/gpg/libgcrypt.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "appneta___tcpreplay",
+  "commit_id": "6b830a1640ca20528032c89a4fdd8291a4d2d8b2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug #520 Fix heap overflow on zero or 0xFFFF packet length\n\nAdd check for packets that report zero packet length. Example\nof fix:\n\n    src/tcpprep --auto=bridge --pcap=poc16-get_l2len-heapoverflow --cachefile=/dev/null\n    Warning: poc16-get_l2len-heapoverflow was captured using a snaplen of 17 bytes.  This may mean you have truncated packets.\n    safe_pcap_next ERROR: Invalid packet length in tcpprep.c:process_raw_packets() line 334: packet length=0 capture length=0",
+  "patch_path": "reports/codejit_extraction_v1/records/2c7a4e8efcac4022eeff6d7c.diff.gz",
+  "diff_bytes": 2123,
+  "diff_sha256": "ba70b9db57a836a8d011b5f491e67c4c476116651be6b6c2c7e8fe8cce3523ce",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:40.548955+00:00",
+  "url": "https://github.com/appneta/tcpreplay.git"
+}

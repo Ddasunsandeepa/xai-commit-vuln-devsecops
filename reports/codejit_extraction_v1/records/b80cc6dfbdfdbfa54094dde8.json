@@ -1,0 +1,16 @@
+{
+  "repo": "saschahauer___barebox",
+  "commit_id": "40596b856f61c281fb34f804bf42550c099f26c3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "login: cleanup password code\n\n- make some locally used functions static\n- remove read_passwd which is unused\n- some refactoring to make code pathes clearer\n\nSigned-off-by: Sascha Hauer <s.hauer@pengutronix.de>",
+  "patch_path": "reports/codejit_extraction_v1/records/b80cc6dfbdfdbfa54094dde8.diff.gz",
+  "diff_bytes": 3771,
+  "diff_sha256": "85f9d9019c3ecf3556fecfed62bd73a2308cda6a66edb439183eb9c8c603810f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:32.966716+00:00",
+  "url": "https://github.com/saschahauer/barebox.git"
+}

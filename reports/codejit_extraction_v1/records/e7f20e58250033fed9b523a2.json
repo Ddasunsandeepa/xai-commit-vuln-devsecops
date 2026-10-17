@@ -1,0 +1,16 @@
+{
+  "repo": "madler___zlib",
+  "commit_id": "5c44459c3b28a9bd3283aaceab7c615f8020c531",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a bug that can crash deflate on some input when using Z_FIXED.\n\nThis bug was reported by Danilo Ramos of Eideticom, Inc. It has\nlain in wait 13 years before being found! The bug was introduced\nin zlib 1.2.2.2, with the addition of the Z_FIXED option. That\noption forces the use of fixed Huffman codes. For rare inputs with\na large number of distant matches, the pending buffer into which\nthe compressed data is written can overwrite the distance symbol\ntable which it overlays. That results in corrupted output due to\ninvalid distances, and can result in out-of-bound accesses,\ncrashing the application.\n\nThe fix here combines the distance buffer and literal/length\nbuffers into a single symbol buffer. Now three bytes of pending\nbuffer space are opened up for each literal or length/distance\npair consumed, instead of the previous two bytes. This assures\nthat the pending buffer cannot overwrite the symbol table, since\nthe maximum fixed code compressed length/distance is 31 bits, and\nsince there are four bytes of pending space for every three bytes\nof symbol space.",
+  "patch_path": "reports/codejit_extraction_v1/records/e7f20e58250033fed9b523a2.diff.gz",
+  "diff_bytes": 12860,
+  "diff_sha256": "b253f298520af4b19d2d5e73eca27fd1ca59aa77b1dd8fa22a56e9464cd10f81",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:55.204497+00:00",
+  "url": "https://github.com/madler/zlib.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "a30d7d90c4f718e46fb41a99b3d52800e1011b73",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "BQ: fix some uninitialized variables\n\nBug 27555981\nBug 27556038\n\nChange-Id: I436b6fec589677d7e36c0e980f6e59808415dc0e",
+  "patch_path": "reports/codejit_extraction_v1/records/b9f5ef2046b023427b5e5be2.diff.gz",
+  "diff_bytes": 1284,
+  "diff_sha256": "87a4329a2e89f3d22a749a5f2821a95d447c7720e58821530c5e5341c4e0ab7c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:49.991951+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

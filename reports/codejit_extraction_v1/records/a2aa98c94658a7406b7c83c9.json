@@ -1,0 +1,16 @@
+{
+  "repo": "axiomatic-systems___bento4",
+  "commit_id": "849bd15d60ff4638203706732df537f7064df40a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support for more precise HEVC info (codec strings)",
+  "patch_path": "reports/codejit_extraction_v1/records/a2aa98c94658a7406b7c83c9.diff.gz",
+  "diff_bytes": 11532,
+  "diff_sha256": "f404a74868a00938aaba3dcd496d6c6295a58e197bf56ef61582dd7cbad7325e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:58.695024+00:00",
+  "url": "https://github.com/axiomatic-systems/bento4.git"
+}

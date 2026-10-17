@@ -1,0 +1,16 @@
+{
+  "repo": "accel-ppp___accel-ppp",
+  "commit_id": "faf5bf8a0f40119273b94d8c80bafaaabb3d185e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "l2tp: skip obsolete session data packets from logging\n\n After session is freed on our end, kernel doesn't bother with possible\n incoming data packets and just passes them to userspace, in turn\n they are mistreated as short control packets with corresponding errors.\n Since there's no special data packet handling, just ignore them.",
+  "patch_path": "reports/codejit_extraction_v1/records/12634064c4999b0ce4d882a1.diff.gz",
+  "diff_bytes": 766,
+  "diff_sha256": "5df4ae670ff1bd16b0100943ab8c5a3e5045c25410ad54fc7012d2648897c4c4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:12.984233+00:00",
+  "url": "https://github.com/accel-ppp/accel-ppp.git"
+}

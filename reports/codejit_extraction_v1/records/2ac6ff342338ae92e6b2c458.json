@@ -1,0 +1,16 @@
+{
+  "repo": "gnutls___gnutls",
+  "commit_id": "897cbce62c0263a498088ac3e465aa5f05f8719c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Extended time verification to trusted certificate list as well. Introduced\nthe flag GNUTLS_VERIFY_DISABLE_TRUSTED_TIME_CHECKS that will prevent the\ntrusted certificate list verification.",
+  "patch_path": "reports/codejit_extraction_v1/records/2ac6ff342338ae92e6b2c458.diff.gz",
+  "diff_bytes": 6845,
+  "diff_sha256": "ec4ff4caccac8d3e65bbc9a11acce41ed899c75657da0040b46adbc1f5c8a917",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:23.098702+00:00",
+  "url": "https://github.com/gnutls/gnutls.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "630d6adf32cecaab0ee184618f56497bd50400fb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "pkcs15-prkey: Avoid memory leak\n\nhttps://bugs.chromium.org/p/oss-fuzz/issues/detail?id=16625",
+  "patch_path": "reports/codejit_extraction_v1/records/ccfe4c6431a0a2bc5adfaed8.diff.gz",
+  "diff_bytes": 743,
+  "diff_sha256": "d7f9bda33aa8e81036cb6072f5b0888cd2770b4586fef02e32197bc1ac389e17",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:57.894791+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

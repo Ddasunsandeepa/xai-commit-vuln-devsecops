@@ -1,0 +1,16 @@
+{
+  "repo": "sprinfall___webcc",
+  "commit_id": "26bb6b341a647e42e8fcbe73d14d0740aa314758",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "introduce string_view",
+  "patch_path": "reports/codejit_extraction_v1/records/3bf6d9ba433b966cf5a82cd0.diff.gz",
+  "diff_bytes": 61850,
+  "diff_sha256": "49f94b3d62acb0ed4ebc5344c8debbee8c0c18391f79e2f2ecdc11140c53a06d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:26.824307+00:00",
+  "url": "https://github.com/sprinfall/webcc.git"
+}

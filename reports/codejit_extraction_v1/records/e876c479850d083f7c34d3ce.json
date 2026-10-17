@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libopus",
+  "commit_id": "0d052d64480a30e83fcdda80f4774624e044beb7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ensure that NLSF cannot be negative when computing a min distance between them\n\nb/31607432\n\nSigned-off-by: Jean-Marc Valin <jmvalin@jmvalin.ca>\n(cherry picked from commit d9d5ac4027c5ee1da2ff1c6572ae3b35a845db19)",
+  "patch_path": "reports/codejit_extraction_v1/records/e876c479850d083f7c34d3ce.diff.gz",
+  "diff_bytes": 634,
+  "diff_sha256": "9bb70620e52ff6b58f78e5b73edbe462ab412ee510a4c6a7bb51c2f3d16d0f56",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:30.636477+00:00",
+  "url": "https://android.googlesource.com/platform/external/libopus"
+}

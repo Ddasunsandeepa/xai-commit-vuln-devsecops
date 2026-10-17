@@ -1,0 +1,16 @@
+{
+  "repo": "arangodb___arangodb",
+  "commit_id": "e9c6ee9dcca7b9b4fbcd02a0b323d205bee838d3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Revive startup parameter `--server.session-timeout` (#14118)\n\nCo-authored-by: Tobias Gödderz <tobias@arangodb.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/e17bc1e5c2a2fa3e29628e47.diff.gz",
+  "diff_bytes": 13170,
+  "diff_sha256": "ccf7189c765777b18b57b517bf78ade3e2a13e92a3dc3efb96b64c7219f6cffb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:19.268475+00:00",
+  "url": "https://github.com/arangodb/arangodb.git"
+}

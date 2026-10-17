@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "a9940fc4cba811adfb296fe07b247ee707265f90",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "monitor: add Error * argument to monitor_get_fd\n\nSigned-off-by: Paolo Bonzini <pbonzini@redhat.com>\nSigned-off-by: Luiz Capitulino <lcapitulino@redhat.com>\nReviewed-by: Markus Armbruster <armbru@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/8f98dfdce4862936dce30959.diff.gz",
+  "diff_bytes": 3669,
+  "diff_sha256": "0d9443f4bba6eb2139c1cd47e68a59cdebb5efbce89672079445c4065c8195cf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:17.828937+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "cisco-talos___clamav-devel",
+  "commit_id": "d96a6b8bcc7439fa7e3876207aa0a8e79c8451b6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "bb11588 - fix out of bounds read.",
+  "patch_path": "reports/codejit_extraction_v1/records/acbc059387fc458ecaa9eefe.diff.gz",
+  "diff_bytes": 8983,
+  "diff_sha256": "4154bc7c5109f5e2d998f2ec5c05823726f5ad24bddfbe365117d00670dca349",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:44.853554+00:00",
+  "url": "https://github.com/cisco-talos/clamav-devel.git"
+}

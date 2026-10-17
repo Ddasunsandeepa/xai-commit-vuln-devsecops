@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "8598c3f3b3ed9ff0090dbcb1c83464551300bd18",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "listener: create internal listener (#18104)\n\nThis PR allows creating server connection but the abilitity to connect to such a listener is located in #18105.\n\nSigned-off-by: Yuchen Dai <silentdai@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/dd42061378532e1dbd7adb4a.diff.gz",
+  "diff_bytes": 88393,
+  "diff_sha256": "eddab15184eb4a84e77f6934bdce9ce5bb047f71108537317957133e03de3e01",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:47.415697+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

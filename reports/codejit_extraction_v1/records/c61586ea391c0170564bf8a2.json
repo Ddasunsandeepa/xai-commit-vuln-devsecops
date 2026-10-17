@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "fc6f112b40b9da56286ebc125f109e2889f5ebdb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "NDOize LLDP, PPP and RSVP decoders",
+  "patch_path": "reports/codejit_extraction_v1/records/c61586ea391c0170564bf8a2.diff.gz",
+  "diff_bytes": 164512,
+  "diff_sha256": "ea4f9d54153268e45fa1c706f7840a173faac7ce232d7a176041da87f83e58ff",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:37.293148+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

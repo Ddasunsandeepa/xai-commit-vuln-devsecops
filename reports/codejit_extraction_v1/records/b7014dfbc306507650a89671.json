@@ -1,0 +1,16 @@
+{
+  "repo": "sonicdoe___detect-character-encoding",
+  "commit_id": "181565b9bbe8f06add71e4269df91b5e367ffb32",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added support of nan@2.0.9",
+  "patch_path": "reports/codejit_extraction_v1/records/b7014dfbc306507650a89671.diff.gz",
+  "diff_bytes": 2834,
+  "diff_sha256": "5c03481b1666c17978c7ae6b4a6f03e7af8da180141478c1c889631274b34177",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:21.969928+00:00",
+  "url": "https://github.com/sonicdoe/detect-character-encoding.git"
+}

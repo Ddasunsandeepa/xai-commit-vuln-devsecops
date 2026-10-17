@@ -1,0 +1,16 @@
+{
+  "repo": "ntp-project___ntp",
+  "commit_id": "4b74b30bab91d5f11e6fc9629a2c433483208f5b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove orphan mode startup workaround from ntp_proto.c, it's\n  not needed with the addition of sys_orphwait.\nAdd \"tos orphanwait\" to set sys_orphwait.",
+  "patch_path": "reports/codejit_extraction_v1/records/83af35db48bfa5fc5ab685aa.diff.gz",
+  "diff_bytes": 199736,
+  "diff_sha256": "2d2654c7bbb4d256140c75a3aa1a15cb490b8d53b151e0ef43f77fd9aee85834",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:39.810087+00:00",
+  "url": "https://github.com/ntp-project/ntp.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "506a44194a9016406c752ad8e010c01aeffc18cc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix escaping in LightProcess protocol\n\nThe LightProcess mechanism sends newline terminated commands\nover a pipe, but didn't escape newlines contained in the payload.\n\nReviewed By: otto\n\nDifferential Revision: D1184482",
+  "patch_path": "reports/codejit_extraction_v1/records/d464740a3b4c203627aef7f0.diff.gz",
+  "diff_bytes": 14412,
+  "diff_sha256": "4d9ddfabfbd4fde4aef507052fc817a6a65258b83f086d01ea3d9ccaefa3f285",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:12.486918+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

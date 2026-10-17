@@ -1,0 +1,16 @@
+{
+  "repo": "liyansong2018___elfspirit",
+  "commit_id": "c5b0f5a9a24f2451bbeda4751d67633bc375e608",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix #1 about out-of-bounds",
+  "patch_path": "reports/codejit_extraction_v1/records/288064e459f0c1ac5cdac6be.diff.gz",
+  "diff_bytes": 1538,
+  "diff_sha256": "8cc0966b4bf5e07dd65dd6f9fbace2d4fe15d0a698f174a7874b730297bfd89f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:43.076083+00:00",
+  "url": "https://github.com/liyansong2018/elfspirit.git"
+}

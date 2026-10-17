@@ -1,0 +1,16 @@
+{
+  "repo": "rsyslog___rsyslog",
+  "commit_id": "802f6d8a8f39e5ba578e0183e4500bef8e3a198c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "milestone(BUGGY): batch now pushed down to action\n\nat least in important cases (not for non-direct action queues and some\nother minor things). This version is definitely buggy, but may be tried\nwith success on a non-production system. I will continue to work on the\ncorrectness, but needed to commit now to get a baseline.",
+  "patch_path": "reports/codejit_extraction_v1/records/63c7e81201790b3f4f7ab397.diff.gz",
+  "diff_bytes": 31136,
+  "diff_sha256": "a55e07f6b885122ec2a7b34f7d27f4cc680197886cf992153c28a140bb0ed45e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:25.810030+00:00",
+  "url": "https://github.com/rsyslog/rsyslog.git"
+}

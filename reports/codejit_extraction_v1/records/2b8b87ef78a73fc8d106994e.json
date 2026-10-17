@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "1810bb5cec9026c64fc34fbbb8fafd01263241d2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Disable forwarding tasks to the Blink scheduler\n\nDisable forwarding tasks to the Blink scheduler to avoid some\nregressions which it has introduced.\n\nBUG=391005,415758,415478,412714,416362,416827,417608\nTBR=jamesr@chromium.org\n\nReview URL: https://codereview.chromium.org/609483002\n\nCr-Commit-Position: refs/heads/master@{#296916}",
+  "patch_path": "reports/codejit_extraction_v1/records/2b8b87ef78a73fc8d106994e.diff.gz",
+  "diff_bytes": 713,
+  "diff_sha256": "179722f418941b1137686d9e8eeb71d75e2d99dcfe7d1afe17a3e9ef76afedaf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:41:05.894490+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

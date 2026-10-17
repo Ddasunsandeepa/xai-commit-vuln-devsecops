@@ -1,0 +1,16 @@
+{
+  "repo": "libimobiledevice___libusbmuxd",
+  "commit_id": "4397b3376dc4e4cb1c991d0aed61ce6482614196",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "common: [security fix] Make sure sockets only listen locally",
+  "patch_path": "reports/codejit_extraction_v1/records/0762d63e4287446b6b220fa3.diff.gz",
+  "diff_bytes": 725,
+  "diff_sha256": "e023d9a5aeff92e1af1c1c34baf7974bf3f4c79fe56146afaff0ece4b78794ba",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:04.650512+00:00",
+  "url": "https://github.com/libimobiledevice/libusbmuxd.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___miniupnp",
+  "commit_id": "d535e186786fe24e83a06b3e1c0d7621cff2c8bd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Adding minissdpd",
+  "patch_path": "reports/codejit_extraction_v1/records/71cf0f71f8d5b2fb47572b88.diff.gz",
+  "diff_bytes": 65442,
+  "diff_sha256": "79d680f5805dc291e1657542a187749349a2693b5405068abfd924cf03687e6d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:07.315725+00:00",
+  "url": "https://github.com/miniupnp/miniupnp.git"
+}

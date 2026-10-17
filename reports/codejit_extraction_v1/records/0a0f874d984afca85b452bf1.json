@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "125d624610b77ea11dae166305c96c2ae6e665a9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "optimizing imdct12\n\nOriginally committed as revision 3929 to svn://svn.ffmpeg.org/ffmpeg/trunk",
+  "patch_path": "reports/codejit_extraction_v1/records/0a0f874d984afca85b452bf1.diff.gz",
+  "diff_bytes": 9164,
+  "diff_sha256": "7a300d1908e1c0559ca418f1b615acab1f6c24105da936bd3785fb2076d5ebb8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:33.640426+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

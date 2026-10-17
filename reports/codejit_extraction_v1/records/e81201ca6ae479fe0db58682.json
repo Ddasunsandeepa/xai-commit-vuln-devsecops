@@ -1,0 +1,16 @@
+{
+  "repo": "xelerance___openswan",
+  "commit_id": "af15378f6537a218e31f19bfecdf2549ff20660d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stick with \"s\" variable until the end, and put advancement of padlen before checking for end of padding signature",
+  "patch_path": "reports/codejit_extraction_v1/records/e81201ca6ae479fe0db58682.diff.gz",
+  "diff_bytes": 1916,
+  "diff_sha256": "7d54e07ca050b814febb2cca0e13fa7d56a3be032ae1c6dd9b19d094d7505c86",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:16.031891+00:00",
+  "url": "https://github.com/xelerance/openswan.git"
+}

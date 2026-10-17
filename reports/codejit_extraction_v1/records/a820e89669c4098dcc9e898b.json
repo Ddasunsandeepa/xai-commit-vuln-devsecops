@@ -1,0 +1,16 @@
+{
+  "repo": "kde___ark",
+  "commit_id": "060d23f0992011fa388418ed8b5efff5ba412f3d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Port plugins loading to KPluginLoader\n\nThe ark plugins are now ported to the new KPluingLoader loading mechanism.\nThe main advantage is that we now save a call to the Syscoca service trader,\nsince the plugins are installed in a private 'kerfuffle' subdirectory of the\nsystem plugins folder.\n\nIn order to be found by KPluginLoader, a plugin has to embed its metadata\ndefined in a .json file. We convert the existing .desktop files to .json at build time, when possible.\nOtherwise we use directly .json metadata files (e.g. for clirar or cliunarchiver).\n\nThe libarchive plugin had to be split in two different plugins, one for the\nread-only mimetypes and another one for the read-write ones. This is because\nthe old plugin was using two .desktop files, but the new plugins can only embed\na single .json file.\n\nFor more details, see task T923 on phabricator.",
+  "patch_path": "reports/codejit_extraction_v1/records/a820e89669c4098dcc9e898b.diff.gz",
+  "diff_bytes": 123265,
+  "diff_sha256": "e9300243de5eef8340b78cf0a32ab3ccbaeb34b321b1a82c7ad76f13746c6dba",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:20.836071+00:00",
+  "url": "https://github.com/kde/ark.git"
+}

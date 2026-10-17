@@ -1,0 +1,16 @@
+{
+  "repo": "sigil-ebook___sigil",
+  "commit_id": "369eebe936e4a8c83cc54662a3412ce8bef189e4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "do not allow zip files to have upward relative path sections",
+  "patch_path": "reports/codejit_extraction_v1/records/56040a8b045bced7b1a751c4.diff.gz",
+  "diff_bytes": 1033,
+  "diff_sha256": "006b187b822ec6f2483dca379837bdaa9800dc6e0d079c2df6d6140161f05262",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:06.706099+00:00",
+  "url": "https://github.com/sigil-ebook/sigil.git"
+}

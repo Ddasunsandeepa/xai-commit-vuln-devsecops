@@ -1,0 +1,16 @@
+{
+  "repo": "mongodb___mongo-python-driver",
+  "commit_id": "a060c15ef87e0f0e72974c7c0e57fe811bbd06a2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix null pointer when decoding invalid DBRef PYTHON-532",
+  "patch_path": "reports/codejit_extraction_v1/records/f2c496dfc9d7b029d0b82e1d.diff.gz",
+  "diff_bytes": 2765,
+  "diff_sha256": "da4ae306a4a7f467d2f383dda8c2e814d7d8e977a27d4b45d42e71123021da94",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:38.845729+00:00",
+  "url": "https://github.com/mongodb/mongo-python-driver.git"
+}

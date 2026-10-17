@@ -1,0 +1,16 @@
+{
+  "repo": "vadz___libtiff",
+  "commit_id": "83a4b92815ea04969d494416eaae3d4c6b338e4a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "* tools/tiffcrop.c: fix various out-of-bounds write vulnerabilities\nin heap or stack allocated buffers. Reported as MSVR 35093,\nMSVR 35096 and MSVR 35097. Discovered by Axel Souchet and Vishal\nChauhan from the MSRC Vulnerabilities & Mitigations team.\n* tools/tiff2pdf.c: fix out-of-bounds write vulnerabilities in\nheap allocate buffer in t2p_process_jpeg_strip(). Reported as MSVR\n35098. Discovered by Axel Souchet and Vishal Chauhan from the MSRC\nVulnerabilities & Mitigations team.\n* libtiff/tif_pixarlog.c: fix out-of-bounds write vulnerabilities\nin heap allocated buffers. Reported as MSVR 35094. Discovered by\nAxel Souchet and Vishal Chauhan from the MSRC Vulnerabilities &\nMitigations team.\n* libtiff/tif_write.c: fix issue in error code path of TIFFFlushData1()\nthat didn't reset the tif_rawcc and tif_rawcp members. I'm not\ncompletely sure if that could happen in practice outside of the odd\nbehaviour of t2p_seekproc() of tiff2pdf). The report points that a\nbetter fix could be to check the return value of TIFFFlushData1() in\nplaces where it isn't done currently, but it seems this patch is enough.\nReported as MSVR 35095. Discovered by Axel Souchet & Vishal Chauhan &\nSuha Can from the MSRC Vulnerabilities & Mitigations team.",
+  "patch_path": "reports/codejit_extraction_v1/records/47fe9710d3c0e9a298ad6d96.diff.gz",
+  "diff_bytes": 9673,
+  "diff_sha256": "64faab2961f2c6d93255910ac18edf11d8e8b768faf342c1ea9bb066e803d74a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:45.214411+00:00",
+  "url": "https://github.com/vadz/libtiff.git"
+}

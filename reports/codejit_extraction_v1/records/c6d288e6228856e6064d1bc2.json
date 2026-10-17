@@ -1,0 +1,16 @@
+{
+  "repo": "mjg59___linux",
+  "commit_id": "3482fb5e0c1c20ce0dbcfc5ca3b6558a8c455b10",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ACPI, APEI, EINJ: Changes to the ACPI/APEI/EINJ debugfs interface\n\nWhen I added support for ACPI5 I made the assumption that\ninjected processor errors would just need to know the APICID,\nmemory errors just the address and mask, and PCIe errors just the\nsegment/bus/device/function. So I had the code check the type of injection\nand multiplex the \"param1\" value appropriately.\n\nThis was not a good assumption :-(\n\nThere are injection scenarios where we need to specify more than one of\nthese items. E.g. injecting a cache error we need to specify an APICID\nof the cpu that owns the cache, and also an address (so that we can trip\nthe error by accessing the address).\n\nAdd a \"flags\" file to give the user direct access to specify which items\nare valid in the ACPI SET_ERROR_TYPE_WITH_ADDRESS structure. Also add\nnew files param3 and param4 to hold all these values.\n\nFor backwards compatability with old injection scripts we maintain the\nold behaviour if flags remains set at zero (or is reset to 0).\n\nAcked-by: Naveen N. Rao <naveen.n.rao@linux.vnet.ibm.com>\nSigned-off-by: Tony Luck <tony.luck@intel.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/c6d288e6228856e6064d1bc2.diff.gz",
+  "diff_bytes": 5401,
+  "diff_sha256": "a1be6c8e92319947ca7cee8214fb763df6fe3ea7ef4314574b55574ae67d9d87",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:09.713422+00:00",
+  "url": "https://github.com/mjg59/linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "f57df6d8cf33cb14c40f52287da29360e7003373",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent APC keys with nulls\n\nSummary:\nThis diff prevents storing APC keys that contain the null byte.\nAPC uses a backing data structure ConcurrentTableSharedStore that uses const char* as its key type. This leads to situations where inserting APC keys with null bytes will cause key truncation, like so...\nlocalhost> p apc_clear_cache();\ntrue\nlocalhost> p apc_fetch(\"test\")\nfalse\nlocalhost> p apc_fetch(\"test\\x00suffix\")\nfalse\nlocalhost> p apc_add(\"test\\x00suffix\", 5)\ntrue\nlocalhost> p apc_fetch(\"test\")\n5\nlocalhost> p apc_fetch(\"test\\x00suffix\")\nfalse\nThis change will make APC throw an error if a key containing a null byte is passed to the store/add methods.\n\nReviewed By: markw65\n\nDifferential Revision: D17608626\n\nfbshipit-source-id: 915e179f41e66c99c718364ec4a8639d204c4ea2",
+  "patch_path": "reports/codejit_extraction_v1/records/455d41a4160ba9042cec2172.diff.gz",
+  "diff_bytes": 3886,
+  "diff_sha256": "a468f8e101bf3e02ebd0692091b9eeeb3df219018d71a4aa3f1deed427a4a7aa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:14.232028+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "attorneyonline___akashi",
+  "commit_id": "5566cdfedddef1f219aee33477d9c9690bf2f78b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix out of bounds crash on evidence",
+  "patch_path": "reports/codejit_extraction_v1/records/d5ba41f27255f8a6f57eb932.diff.gz",
+  "diff_bytes": 957,
+  "diff_sha256": "d31973aab30a72e40058cac41b14bb97e5b80d0c66cac243d14f4e41b197d2a8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:53.805976+00:00",
+  "url": "https://github.com/attorneyonline/akashi.git"
+}

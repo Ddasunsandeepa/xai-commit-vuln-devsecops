@@ -1,0 +1,16 @@
+{
+  "repo": "bagder___curl",
+  "commit_id": "192c4f788d48f82c03e9cef40013f34370e90737",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Curl_urldecode: no peeking beyond end of input buffer\n\nSecurity problem: CVE-2013-2174\n\nIf a program would give a string like \"%FF\" to curl_easy_unescape() but\nask for it to decode only the first byte, it would still parse and\ndecode the full hex sequence. The function then not only read beyond the\nallowed buffer but it would also deduct the *unsigned* counter variable\nfor how many more bytes there's left to read in the buffer by two,\nmaking the counter wrap. Continuing this, the function would go on\nreading beyond the buffer and soon writing beyond the allocated target\nbuffer...\n\nBug: http://curl.haxx.se/docs/adv_20130622.html\nReported-by: Timo Sirainen",
+  "patch_path": "reports/codejit_extraction_v1/records/d921633a4c2535bd24d46abe.diff.gz",
+  "diff_bytes": 908,
+  "diff_sha256": "c873fcafe90088b63c2ef13b1da43627d40586cf702a82817e7b3d66ea2e7c40",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:05.201024+00:00",
+  "url": "https://github.com/bagder/curl.git"
+}

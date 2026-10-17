@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "ab51e5b813573dc9f51efa335aebcf2994125ee9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent memory leak in decoding PNG images.\n\nPiperOrigin-RevId: 409300653\nChange-Id: I6182124c545989cef80cefd439b659095920763b",
+  "patch_path": "reports/codejit_extraction_v1/records/6e3bf694f04fe4bd558fd642.diff.gz",
+  "diff_bytes": 1377,
+  "diff_sha256": "1c388346fe246bc79f49c279a7713af6df729dbe998b31c09cc8f5bdb22358a1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:33:37.107680+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

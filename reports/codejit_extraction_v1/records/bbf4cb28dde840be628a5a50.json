@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "54cb02ad733fb71b1bdf78590428817fb780aff8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Correctly handle dup() failure in Parcel::readNativeHandle\n\nbail out if dup() fails, instead of creating an invalid native_handle_t\n\nBug: 28395952\n\nChange-Id: Ia1a6198c0f45165b9c6a55a803e5f64d8afa0572",
+  "patch_path": "reports/codejit_extraction_v1/records/bbf4cb28dde840be628a5a50.diff.gz",
+  "diff_bytes": 660,
+  "diff_sha256": "15ee829b0d2bca0e85464e466b552b886f5756ec93a243b22ac161700da5b0a7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:43.633264+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

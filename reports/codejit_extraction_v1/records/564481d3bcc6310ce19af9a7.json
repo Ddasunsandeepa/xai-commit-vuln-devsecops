@@ -1,0 +1,16 @@
+{
+  "repo": "jmacd___xdelta-devel",
+  "commit_id": "ef93ff74203e030073b898c05e8b4860b5d09ef2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add appheader tests; fix buffer overflow in main_get_appheader",
+  "patch_path": "reports/codejit_extraction_v1/records/564481d3bcc6310ce19af9a7.diff.gz",
+  "diff_bytes": 9547,
+  "diff_sha256": "55c0dd8f65ef0f147e15a387b27ed37f88af69b3507fda76a44630ce3c1814bb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:59.425884+00:00",
+  "url": "https://github.com/jmacd/xdelta-devel.git"
+}

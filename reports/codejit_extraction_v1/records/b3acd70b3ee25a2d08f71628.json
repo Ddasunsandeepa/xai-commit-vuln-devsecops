@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libxaac",
+  "commit_id": "04e8cd58f075bec5892e369c8deebca9c67e855c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for stack corruption in esbr\n\nBug: 110769924\nTest: poc from bug before/after\nChange-Id: I99c6e89902064849ea1310c271064bdeccf7f20e\n(cherry picked from commit 7e90d745c22695236437297cd8167a9312427a4a)\n(cherry picked from commit 5464927f0c1fc721fa03d1c5be77b0b43dfffc50)",
+  "patch_path": "reports/codejit_extraction_v1/records/b3acd70b3ee25a2d08f71628.diff.gz",
+  "diff_bytes": 11045,
+  "diff_sha256": "3be79eb8595da67e9e8430cc8511babe5bab1aab3394ab2f19530673603a49b9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:38.145406+00:00",
+  "url": "https://android.googlesource.com/platform/external/libxaac"
+}

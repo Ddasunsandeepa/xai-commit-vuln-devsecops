@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick6",
+  "commit_id": "17a0a5a2848ba87a42f0acddb2b6c45959eb3443",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Changed \"if (something)\" to \"if (something != 0)\" in coders/png.c",
+  "patch_path": "reports/codejit_extraction_v1/records/883f7fb96879ca18afe9dd04.diff.gz",
+  "diff_bytes": 8857,
+  "diff_sha256": "cd612a35f4b89ba9c402976ad47f746c04b27a8dd0eb5cee6be73f3ee55b4386",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:53.784121+00:00",
+  "url": "https://github.com/imagemagick/imagemagick6.git"
+}

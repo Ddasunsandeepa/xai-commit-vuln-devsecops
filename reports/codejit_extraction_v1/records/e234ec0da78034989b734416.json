@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___base",
+  "commit_id": "1e72dc7a3074cd0b44d89afbf39bbf5000ef7cc3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE: Ensure that unparcelling Region only reads the expected number of bytes\n\nbug: 20883006\nChange-Id: I4f109667fb210a80fbddddf5f1bfb7ef3a02b6ce",
+  "patch_path": "reports/codejit_extraction_v1/records/e234ec0da78034989b734416.diff.gz",
+  "diff_bytes": 626,
+  "diff_sha256": "4286d881e32e36346c51a6f60c65440cadca1e2239b98cd3256d9d577c3a0bf8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:20.711056+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/base"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "pingidentity___mod_auth_openidc",
+  "commit_id": "09ed7a540d4f74a85e9a4c93a63da9c4c30cccab",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "correct expires_in conversion; HTML 4.01 Strict templating",
+  "patch_path": "reports/codejit_extraction_v1/records/60f40de7e2a346d4855531da.diff.gz",
+  "diff_bytes": 26468,
+  "diff_sha256": "6985d923e63704d00d87772af319b19e76ab0d45ee08165fd54c5062ae3d66e2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:32.408981+00:00",
+  "url": "https://github.com/pingidentity/mod_auth_openidc.git"
+}

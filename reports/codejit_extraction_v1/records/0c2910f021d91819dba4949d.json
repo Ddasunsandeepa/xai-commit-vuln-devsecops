@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "650e708afb8c6b20d49dfec794a238eac9c70736",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "preliminary patch to support decoding IKEv2 packets.\n\tOnly payloads commonly seen in PARENT_SAs are presently decoded.\n\tEncrypted payload support will come later, aka print-esp.c",
+  "patch_path": "reports/codejit_extraction_v1/records/0c2910f021d91819dba4949d.diff.gz",
+  "diff_bytes": 1484806,
+  "diff_sha256": "f6e8c8a01b1292f2cd7a8722820ac5b8a685a843ad112dff375c184854a631bc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:35.325403+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

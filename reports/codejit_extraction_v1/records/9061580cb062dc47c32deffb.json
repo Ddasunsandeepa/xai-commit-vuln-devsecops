@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "ecf6c7ce6d5a22d52160698aab44fc234c63291a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Memset few structures to zero to handle error clips\n\nBug: 27907656\nChange-Id: I671d135dd5c324c39b4ede990b7225d52ba882cd",
+  "patch_path": "reports/codejit_extraction_v1/records/9061580cb062dc47c32deffb.diff.gz",
+  "diff_bytes": 1567,
+  "diff_sha256": "291289805d95cc06d170807b6988a6011e5469cd2c3d714e8d7b5a11d952d052",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:25.520795+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

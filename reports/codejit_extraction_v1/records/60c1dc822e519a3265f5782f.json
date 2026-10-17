@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___media",
+  "commit_id": "7558d03e6498e970b761aa44fff6b2c659202d95",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE mm-video-v4l2: venc: add checks before accessing heap pointers\n\nHeap pointers do not point to user virtual addresses in case\nof secure session.\nSet them to NULL and add checks to avoid accesing them\n\nBug: 28815329\nBug: 28920116\n\nChange-Id: I94fd5808e753b58654d65e175d3857ef46ffba26",
+  "patch_path": "reports/codejit_extraction_v1/records/60c1dc822e519a3265f5782f.diff.gz",
+  "diff_bytes": 7200,
+  "diff_sha256": "d4edb83839997a748db92453739e3e8d58de8fc578a83269da6e0deef383b628",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:59.377404+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/media"
+}

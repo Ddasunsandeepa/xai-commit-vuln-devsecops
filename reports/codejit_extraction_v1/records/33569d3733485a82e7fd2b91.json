@@ -1,0 +1,16 @@
+{
+  "repo": "openssl___openssl",
+  "commit_id": "8afb9742aedc07e26f9930c1f859f8c0f204e77f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Disable encrypt_then_mac negotiation for DTLS.\n\nI use the word 'negotiation' advisedly. Because that's all we were doing.\nWe negotiated it, set the TLS1_FLAGS_ENCRYPT_THEN_MAC flag in our data\nstructure, and then utterly ignored it in both dtls_process_record()\nand do_dtls1_write().\n\nTurn it off for 1.1.0; we'll fix it for 1.1.1 and by the time that's\nreleased, hopefully 1.1.0b will be ancient history.\n\nReviewed-by: Rich Salz <rsalz@openssl.org>\nReviewed-by: Matt Caswell <matt@openssl.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/33569d3733485a82e7fd2b91.diff.gz",
+  "diff_bytes": 1460,
+  "diff_sha256": "5235cd634aaa56a67a7651f86f15d35328967d17b9039609100b863f036c774c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:14.584831+00:00",
+  "url": "https://github.com/openssl/openssl.git"
+}

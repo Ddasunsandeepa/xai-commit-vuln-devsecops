@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___flac",
+  "commit_id": "fe03f73d86bb415f5d5145f0de091834d89ae3a9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libFLAC: merge master from Xiph\n\nremote: https://git.xiph.org/flac.git\ncommit: 775eb93\n\nBug: 18872897\nBug: 18910747\nChange-Id: I6e450e44c96b97c3323e428b9e6d420422f24a4e\n(cherry picked from commit 31e4f3166a91a2ebb34f643787122a638d9f1471)",
+  "patch_path": "reports/codejit_extraction_v1/records/076b3b0880024a2a94cd667f.diff.gz",
+  "diff_bytes": 297963,
+  "diff_sha256": "60d8e8155154342270679c66dd13ee511ee281c7d5415ea8c247e9046f6980ec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:15.770521+00:00",
+  "url": "https://android.googlesource.com/platform/external/flac"
+}

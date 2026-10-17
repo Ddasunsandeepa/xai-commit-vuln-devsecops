@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "a8c4a82787b8b6c256d61bd5c42fb7f92d1bae00",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't overflow item refcount on get\n\nCounts as a miss if the refcount is too high. ASCII multigets are the only\ntime refcounts can be held for so long.\n\ndoing a dirty read of refcount. is aligned.\n\ntrying to avoid adding an extra refcount branch for all calls of item_get due\nto performance. might be able to move it in there after logging refactoring\nsimplifies some of the branches.",
+  "patch_path": "reports/codejit_extraction_v1/records/4b0f13ccb3104e686cc1c410.diff.gz",
+  "diff_bytes": 1051,
+  "diff_sha256": "ad0de63e10d907a2e1a2e2454f140715e852fcb8791524db648a093ed20c7de8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:51.785317+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

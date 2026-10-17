@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "ef31bbd6f852726334775f029f3d093633a1469b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "adding WebVTT import/export support to MP4Box\n\ngit-svn-id: http://svn.code.sf.net/p/gpac/code/trunk/gpac@4461 63c20433-aa62-49bd-875c-5a186b69a8fb",
+  "patch_path": "reports/codejit_extraction_v1/records/66144febe0e84c97a0f258b4.diff.gz",
+  "diff_bytes": 1173580,
+  "diff_sha256": "c2df3508cddc0c8aa7cfd232df2a9fde85535f118f8da69178fa227beb991e52",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:26.723301+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

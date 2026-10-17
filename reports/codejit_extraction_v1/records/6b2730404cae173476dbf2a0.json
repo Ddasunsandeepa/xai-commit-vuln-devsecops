@@ -1,0 +1,16 @@
+{
+  "repo": "proftpd___proftpd",
+  "commit_id": "067c38cc7e851e2586804379ae74466bb2328941",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "One simple task pulled on the thread of constification, which rippled throughout\nthe codebase.  I'm sure there'll be more cleanup of warnings in the contrib\nmodules; this is just the first pass.",
+  "patch_path": "reports/codejit_extraction_v1/records/6b2730404cae173476dbf2a0.diff.gz",
+  "diff_bytes": 86926,
+  "diff_sha256": "a7388b38e675db8d615ad2b1e52d16f10abbb8783fa92c99117632bc56e9e90f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:02.101040+00:00",
+  "url": "https://github.com/proftpd/proftpd.git"
+}

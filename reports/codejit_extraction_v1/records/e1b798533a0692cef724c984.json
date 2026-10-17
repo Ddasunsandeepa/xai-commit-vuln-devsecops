@@ -1,0 +1,16 @@
+{
+  "repo": "karelzak___util-linux",
+  "commit_id": "bde91c85bdc77975155058276f99d2e0f5eab5a9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "chsh, chfn, vipw: fix filenames collision\n\nThe utils when compiled WITHOUT libuser then mkostemp()ing\n\"/etc/%s.XXXXXX\" where the filename prefix is argv[0] basename.\n\nAn attacker could repeatedly execute the util with modified argv[0]\nand after many many attempts mkostemp() may generate suffix which\nmakes sense. The result maybe temporary file with name like rc.status\nld.so.preload or krb5.keytab, etc.\n\nNote that distros usually use libuser based ch{sh,fn} or stuff from\nshadow-utils.\n\nIt's probably very minor security bug.\n\nAddresses: CVE-2015-5224\nSigned-off-by: Karel Zak <kzak@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/e1b798533a0692cef724c984.diff.gz",
+  "diff_bytes": 4504,
+  "diff_sha256": "d83ca2724b3fb1a29f2494f8c0eb6df71c29f67d10850bf16bd96398f3e782e8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:16.496279+00:00",
+  "url": "https://github.com/karelzak/util-linux.git"
+}

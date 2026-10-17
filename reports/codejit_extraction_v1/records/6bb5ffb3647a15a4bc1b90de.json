@@ -1,0 +1,16 @@
+{
+  "repo": "karelzak___util-linux",
+  "commit_id": "89e90ae7b2826110ea28c1c0eb8e7c56c3907bdc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libblkid: care about unsafe chars in cache\n\nThe high-level libblkid API uses /run/blkid/blkid.tab cache to\nstore probing results. The cache format is\n\n   <device NAME=\"value\" ...>devname</device>\n\nand unfortunately the cache code does not escape quotation marks:\n\n   # mkfs.ext4 -L 'AAA\"BBB'\n\n   # cat /run/blkid/blkid.tab\n   ...\n   <device ... LABEL=\"AAA\"BBB\" ...>/dev/sdb1</device>\n\nsuch string is later incorrectly parsed and blkid(8) returns\nnonsenses. And for use-cases like\n\n   # eval $(blkid -o export /dev/sdb1)\n\nit's also insecure.\n\nNote that mount, udevd and blkid -p are based on low-level libblkid\nAPI, it bypass the cache and directly read data from the devices.\n\nThe current udevd upstream does not depend on blkid(8) output at all,\nit's directly linked with the library and all unsafe chars are encoded by\n\\x<hex> notation.\n\n   # mkfs.ext4 -L 'X\"`/tmp/foo` \"' /dev/sdb1\n   # udevadm info --export-db | grep LABEL\n   ...\n   E: ID_FS_LABEL=X__/tmp/foo___\n   E: ID_FS_LABEL_ENC=X\\x22\\x60\\x2ftmp\\x2ffoo\\x60\\x20\\x22\n\nSigned-off-by: Karel Zak <kzak@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/6bb5ffb3647a15a4bc1b90de.diff.gz",
+  "diff_bytes": 3216,
+  "diff_sha256": "a443bb1f65c064205f901409de760a36bf17db2cd23bebf09a2012dcf58cd3d3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:12.421679+00:00",
+  "url": "https://github.com/karelzak/util-linux.git"
+}

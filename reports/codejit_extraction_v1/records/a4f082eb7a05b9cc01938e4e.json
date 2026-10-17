@@ -1,0 +1,16 @@
+{
+  "repo": "shellinabox___shellinabox",
+  "commit_id": "4f0ecc31ac6f985e0dd3f5a52cbfc0e9251f6361",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rolling code for version 2.21",
+  "patch_path": "reports/codejit_extraction_v1/records/a4f082eb7a05b9cc01938e4e.diff.gz",
+  "diff_bytes": 1270,
+  "diff_sha256": "b47f76cfebfc1d5911b7767d7b43781277de5c19ff18e8b38e62edbb1269a42e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:59.829080+00:00",
+  "url": "https://github.com/shellinabox/shellinabox.git"
+}

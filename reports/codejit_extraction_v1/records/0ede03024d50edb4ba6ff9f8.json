@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "89e93723fb11a623a42518d5de2c6f5e51243fda",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added support for object references in recursive serialize() calls. FR #36424",
+  "patch_path": "reports/codejit_extraction_v1/records/0ede03024d50edb4ba6ff9f8.diff.gz",
+  "diff_bytes": 34911,
+  "diff_sha256": "b4088cd83c01482884baf28cdd6e74d85af861081531728e0b176c789d08f1e4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:14.092793+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

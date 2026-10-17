@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "95f96e7287effe2fcdfb9a5338d1a7e4f55b083b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix libxml_disable_entity_loader()\n\nThis wasn't calling requestInit and setting the libxml handler no null.\nSo the first time an error came along it would reset the handler from\nno-op to reading again.\n\nThis is a much better fix, we set our custom handler in requestInit and\nwhen libxml_disable_entity_loader we store that state as a member bool\nensuring requestInit is always called to set our own handler.\n\nIf the handler isn't inserted then the behavious is as before. The only\ntime this could go pear shaped is say we wanted to make the default be\noff. In that case we'd need a global requestInit that is always called\nsince there are libxml references everywhere.\n\nReviewed By: @jdelong\n\nDifferential Revision: D1116686",
+  "patch_path": "reports/codejit_extraction_v1/records/21ce0f346be3bbcd70b688b6.diff.gz",
+  "diff_bytes": 4261,
+  "diff_sha256": "ae3962e8f32ca7c85c35ae2049ca216efba4151bcc1914b540414c91b65d6417",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:35.799503+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "16cf35b2bf7b38784b384f1982c7f65bd3fc0142",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use unprefixed b64_* functions in websockets code.",
+  "patch_path": "reports/codejit_extraction_v1/records/4c244a359adb1f8618602aa9.diff.gz",
+  "diff_bytes": 2325,
+  "diff_sha256": "23acb38f5fa89f6f84c450584245fb112745dafdd3ff809629a532f7987c8082",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:34.906135+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ccxvii___mujs",
+  "commit_id": "df8559e7bdbc6065276e786217eeee70f28fce66",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug 704749: Clear jump list after patching jump addresses.\n\nSince we can emit a statement multiple times when compiling try/finally\nwe have to use a new patch list for each instance.",
+  "patch_path": "reports/codejit_extraction_v1/records/2fe6956766b12b2fa922e105.diff.gz",
+  "diff_bytes": 2188,
+  "diff_sha256": "9f3b4485d4ebfa849a4cfa820a44dfcfe89c2ba4bfce355620b819897663bbd1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:59.608301+00:00",
+  "url": "https://github.com/ccxvii/mujs.git"
+}

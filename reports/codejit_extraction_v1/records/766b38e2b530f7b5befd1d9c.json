@@ -1,0 +1,16 @@
+{
+  "repo": "drogonframework___drogon",
+  "commit_id": "f522d2d70efeb5e1e7e027322e4ca1379322de6b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Create path if it doesn't exist (#1095)",
+  "patch_path": "reports/codejit_extraction_v1/records/766b38e2b530f7b5befd1d9c.diff.gz",
+  "diff_bytes": 1367,
+  "diff_sha256": "eb5c1f9fe27b0a187a0dcd4e9668c1aeaae1846bde54c56d0922a68424f0216c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:21.396499+00:00",
+  "url": "https://github.com/drogonframework/drogon.git"
+}

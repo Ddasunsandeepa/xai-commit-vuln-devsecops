@@ -1,0 +1,16 @@
+{
+  "repo": "exiv2___exiv2",
+  "commit_id": "caa4e6745a76a23bb80127cf54c0d65096ae684c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid negative integer overflow when `filesize < io_->tell()`.\n\nThis fixes #791.",
+  "patch_path": "reports/codejit_extraction_v1/records/ab509ea380886f0513e68699.diff.gz",
+  "diff_bytes": 7388,
+  "diff_sha256": "0de2eabe36d688eb1fd21ba800cccd17f141d5b48856c66bf4637b7227f38964",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:16.067685+00:00",
+  "url": "https://github.com/exiv2/exiv2.git"
+}

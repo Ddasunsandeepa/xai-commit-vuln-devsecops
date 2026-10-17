@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "757fdc2454a97890c119cca8662b8d1763265e9a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Initial revision",
+  "patch_path": "reports/codejit_extraction_v1/records/2404eb72e4b1198d64abe97f.diff.gz",
+  "diff_bytes": 784900,
+  "diff_sha256": "a8646f011785378fe7bad3b43f2d706ca9f7e817bf0cfb6c807a7af84ad13f47",
+  "parent_count": 0,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:36.551259+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

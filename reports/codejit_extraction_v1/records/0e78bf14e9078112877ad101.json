@@ -1,0 +1,16 @@
+{
+  "repo": "akrennmair___newsbeuter",
+  "commit_id": "2bde7085bf87bd1571a00c5b2d395b972965c84b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "podbeuter should also handle files with single quote in filename (fixes issue 168).",
+  "patch_path": "reports/codejit_extraction_v1/records/0e78bf14e9078112877ad101.diff.gz",
+  "diff_bytes": 787,
+  "diff_sha256": "a564dcabb2e28f1c1a7daf6470da2ced80d3e65d876eba6cb56ddc5997c6e463",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:14.911876+00:00",
+  "url": "https://github.com/akrennmair/newsbeuter.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "spiderlabs___modsecurity",
+  "commit_id": "0840b13612a0b7ef1ce7441cf811dcfc6b463fba",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed: chuck null pointer when unknown CT is sent and over in-memory limit",
+  "patch_path": "reports/codejit_extraction_v1/records/180f91f47048c8489adf9a3b.diff.gz",
+  "diff_bytes": 555,
+  "diff_sha256": "d72189a85b5fa61cfcbd7c47cd60ca13ceacc13bbafeb3b12f0fcd3e4a3f4a36",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:25.325803+00:00",
+  "url": "https://github.com/spiderlabs/modsecurity.git"
+}

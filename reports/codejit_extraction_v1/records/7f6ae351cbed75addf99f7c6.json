@@ -1,0 +1,16 @@
+{
+  "repo": "plougher___squashfs-tools",
+  "commit_id": "04ce7e5f4f5a87e4b0fb8b8fa9b4287af2bffd07",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "unsquash-4: get fs table start and end points\n\nTo sanity check across the super-block we need to have\nthe start and end points of each filesystem table together\nin one place.\n\nFor the id lookup, and export tables this is a little\nbit tricky.  This is because they are in fact multi-level\ntables.  The super-block points to a index table.  This\nindex table consists of pointers to compressed metadata\nblocks.\n\nThe compressed metadata blocks are stored before the\nindex table (pointed to by the super-block), and\nso the true start of the table is given by index[0] -\nthe first compressed metadata block.\n\nFor xattrs things are more complex, but, it is the\nsame idea.\n\nWe have to read at least part of the table before we\nknow where the start is - and by definition the end of\nthe preceeding table.\n\nUnsquashfs doesn't need the exports table (if it exists),\nand so we never bothered to read it.\n\nBut we now need to partially read it in order to work out\nwhere the preceeding table ends.\n\nSigned-off-by: Phillip Lougher <phillip@squashfs.org.uk>",
+  "patch_path": "reports/codejit_extraction_v1/records/7f6ae351cbed75addf99f7c6.diff.gz",
+  "diff_bytes": 5645,
+  "diff_sha256": "bdf011588a41e32e0229ab04b37df1934dc73516bd8a61360ce21270166bed07",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:40.127445+00:00",
+  "url": "https://github.com/plougher/squashfs-tools.git"
+}

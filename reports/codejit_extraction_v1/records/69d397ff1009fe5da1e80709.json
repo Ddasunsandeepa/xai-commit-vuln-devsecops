@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "ba01634cd393040ade90cf5449e3642663e80699",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ensure that the same subquery does not go through the window-function rewrite\nmore than once, even when that subquery is part of a virtual table constraint\nthat lacks the omit flag.\n\nFossilOrigin-Name: d0bc7db6b0a53edc04815622c46250d26f526f56e59f14875f4e18c75b49000d",
+  "patch_path": "reports/codejit_extraction_v1/records/69d397ff1009fe5da1e80709.diff.gz",
+  "diff_bytes": 7371,
+  "diff_sha256": "7a477a5bb729e6783466f1476f191c84f161c91cb9444df40f8c1ea4647513f7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:04.437353+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

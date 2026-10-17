@@ -1,0 +1,16 @@
+{
+  "repo": "matroska-org___libmatroska",
+  "commit_id": "4457e70466dcc77984202a05525428383cb74fe3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "KaxBlock::ReadData(): use safe/checked memory access\n\nUnchecked reading from memory locations works for cases in which all the\ndata is valid, but if it isn't then this leads to invalid memory access\nand segmentation faults.\n\nSee https://trac.bunkus.org/ticket/1096",
+  "patch_path": "reports/codejit_extraction_v1/records/51e1e9525ea4246dcca06e4d.diff.gz",
+  "diff_bytes": 7434,
+  "diff_sha256": "ea5e972698a5671285c8e013e0438340e46a524ad9fbcbf3ebf1b022ce0b031e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:38.518262+00:00",
+  "url": "https://github.com/matroska-org/libmatroska.git"
+}

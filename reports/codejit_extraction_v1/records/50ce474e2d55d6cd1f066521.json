@@ -1,0 +1,16 @@
+{
+  "repo": "monkey___monkey",
+  "commit_id": "b2d0e6f92310bb14a15aa2f8e96e1fb5379776dd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Request: new request session flag to mark those files opened by FDT\n\nThis patch aims to fix a potential DDoS problem that can be caused\nin the server quering repetitive non-existent resources.\n\nWhen serving a static file, the core use Vhost FDT mechanism, but if\nit sends a static error page it does a direct open(2). When closing\nthe resources for the same request it was just calling mk_vhost_close()\nwhich did not clear properly the file descriptor.\n\nThis patch adds a new field on the struct session_request called 'fd_is_fdt',\nwhich contains MK_TRUE or MK_FALSE depending of how fd_file was opened.\n\nThanks to Matthew Daley <mattd@bugfuzz.com> for report and troubleshoot this\nproblem.\n\nSigned-off-by: Eduardo Silva <eduardo@monkey.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/50ce474e2d55d6cd1f066521.diff.gz",
+  "diff_bytes": 2144,
+  "diff_sha256": "6d929b3fdad11ed4e70bb4fe79d4f2f6e6a309b83bdf4ed08e94e23a0ef3c508",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:39.577194+00:00",
+  "url": "https://github.com/monkey/monkey.git"
+}

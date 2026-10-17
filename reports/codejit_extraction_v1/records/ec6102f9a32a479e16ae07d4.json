@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "065f3bf4f2b3dbef086a32a520e4f15e47c164e4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix various harmless compiler warnings seen with MSVC.\n\nFossilOrigin-Name: 1c0fe5b5763fe5cbace9773dcdab742e126d0bd035ab13d61f9d134afa0afc0c",
+  "patch_path": "reports/codejit_extraction_v1/records/ec6102f9a32a479e16ae07d4.diff.gz",
+  "diff_bytes": 23039,
+  "diff_sha256": "96bf366a15133c5ef8cebe08dad57171f62fd9f65f02a10dd718a16bb708ee61",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:27.509361+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

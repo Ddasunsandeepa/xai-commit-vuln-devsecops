@@ -1,0 +1,16 @@
+{
+  "repo": "babelouest___glewlwyd",
+  "commit_id": "125281f1c0d4b6a8b49f7e55a757205a2ef01fbe",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix update session when auth fail",
+  "patch_path": "reports/codejit_extraction_v1/records/277e087ef6dc9a0ded66364c.diff.gz",
+  "diff_bytes": 1192,
+  "diff_sha256": "d662d9ae8a185f6cd37c23b3cceec390e917486da7ec44b38831ca457d356fe2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:01.473233+00:00",
+  "url": "https://github.com/babelouest/glewlwyd.git"
+}

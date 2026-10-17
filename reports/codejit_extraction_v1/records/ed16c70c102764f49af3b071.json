@@ -1,0 +1,16 @@
+{
+  "repo": "cauldrondevelopmentllc___cbang",
+  "commit_id": "1c1dba62bd3e6fa9d0d0c0aa21926043b75382c7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't allow extraction of tar files outside of the target directory, added tar tests",
+  "patch_path": "reports/codejit_extraction_v1/records/ed16c70c102764f49af3b071.diff.gz",
+  "diff_bytes": 8014174,
+  "diff_sha256": "4a1c57a88a806287dfcbf6bfb959e4259aaa28b50f10294bcbcb4a8a15446be1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:56.083957+00:00",
+  "url": "https://github.com/cauldrondevelopmentllc/cbang.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "osgeo___gdal",
+  "commit_id": "767e3a56144f676ca738ef8f700e0e56035bd05a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "netCDF: avoid buffer overflow. master only. Fixes https://bugs.chromium.org/p/oss-fuzz/issues/detail?id=15143. Credit to OSS Fuzz",
+  "patch_path": "reports/codejit_extraction_v1/records/06942e8719dbe3a7d737d09c.diff.gz",
+  "diff_bytes": 1015,
+  "diff_sha256": "11320c673ab13957a914cdf898718f805ad7ba5d7ab7dfe29227ed0d9227b194",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:28.499314+00:00",
+  "url": "https://github.com/osgeo/gdal.git"
+}

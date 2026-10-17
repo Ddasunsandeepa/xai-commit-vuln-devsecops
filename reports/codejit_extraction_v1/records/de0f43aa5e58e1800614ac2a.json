@@ -1,0 +1,16 @@
+{
+  "repo": "academysoftwarefoundation___openexr",
+  "commit_id": "e08946ade358313859a03fa367f647ef223a192c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug fix: crashes when reading damaged images, caused by buffer\noverruns, or by deleting uninitialized pointers (found by Apple).",
+  "patch_path": "reports/codejit_extraction_v1/records/de0f43aa5e58e1800614ac2a.diff.gz",
+  "diff_bytes": 19972,
+  "diff_sha256": "8dea2b21d908919511634ad92f15da08705b339d25899197d17364282f9dfc4b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:09.795685+00:00",
+  "url": "https://github.com/academysoftwarefoundation/openexr.git"
+}

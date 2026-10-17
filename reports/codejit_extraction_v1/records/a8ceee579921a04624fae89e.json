@@ -1,0 +1,16 @@
+{
+  "repo": "madler___pigz",
+  "commit_id": "b84796614a1791488d8c56436c897a5e812e11f8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add memory allocation tracking to pigz, including yarn and zlib.",
+  "patch_path": "reports/codejit_extraction_v1/records/a8ceee579921a04624fae89e.diff.gz",
+  "diff_bytes": 12555,
+  "diff_sha256": "5107b4d90388b7d4cbf04e6388bd6662831ac079c6a0e52c51a4ea3d833f9b39",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:54.976726+00:00",
+  "url": "https://github.com/madler/pigz.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "uwebsockets___uwebsockets",
+  "commit_id": "37deefd01f0875e133ea967122e3a5e421b8fcd9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't inflate more than ~16mb, drop connection on inflate error",
+  "patch_path": "reports/codejit_extraction_v1/records/4403f5af7cd0aade0d653675.diff.gz",
+  "diff_bytes": 2251,
+  "diff_sha256": "f94ea8dc09cb31e46ba1b598b8e13a6a806add8b1ed1387004a0e5c07d891598",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:43.309495+00:00",
+  "url": "https://github.com/uwebsockets/uwebsockets.git"
+}

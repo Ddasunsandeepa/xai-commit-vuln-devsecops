@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "9e927affe3a021175f354af5fa01d22657c20585",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add alloc fail check in nntp_fetch_headers",
+  "patch_path": "reports/codejit_extraction_v1/records/2ee802cb0907a1bcaab7d0b0.diff.gz",
+  "diff_bytes": 386,
+  "diff_sha256": "aa7807072e8b5a265641e21dede21fe97015aac99f78b3a8fdf72919c024f2ea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:44.714910+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

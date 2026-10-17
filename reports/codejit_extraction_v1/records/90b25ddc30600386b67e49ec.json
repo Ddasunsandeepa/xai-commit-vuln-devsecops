@@ -1,0 +1,16 @@
+{
+  "repo": "bro___bro",
+  "commit_id": "d5513a07575b990a87e994a3ae4873bc02adaf69",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve multipart HTTP/MIME entity file analysis.\n\nSingular CR or LF characters in multipart body content are no longer\nconverted to a full CRLF (thus corrupting the file) and it also no\nlonger considers the CRLF before the multipart boundary as part of the\ncontent.\n\nAddresses BIT-1235.",
+  "patch_path": "reports/codejit_extraction_v1/records/90b25ddc30600386b67e49ec.diff.gz",
+  "diff_bytes": 28849,
+  "diff_sha256": "e9d67f8cb070d328db6fdf94bc02e59dd3b6fa15a15d019eae0079fbb8393dd8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:52.645941+00:00",
+  "url": "https://github.com/bro/bro.git"
+}

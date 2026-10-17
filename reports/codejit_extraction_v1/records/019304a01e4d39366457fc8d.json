@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "eef165b9a434e2292df3d2a2a83d3d44e9d14091",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Move variable definitions to the beginning of code block",
+  "patch_path": "reports/codejit_extraction_v1/records/019304a01e4d39366457fc8d.diff.gz",
+  "diff_bytes": 20113,
+  "diff_sha256": "aa76dd9cfef19dd5fdbfb62ea030d70e92e6449d1f90fe37728720924e0750e4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:49.253744+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

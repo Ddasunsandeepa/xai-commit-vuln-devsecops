@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "527cbd4a104cb93bf3994b3dd3619a6299a78b13",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not allow CREATE TABLE or CREATE VIEW of an object with a name that looks\nlike a shadow table name.\n\nFossilOrigin-Name: 6aef58b629d89955f85f65191ba2be67b2adfac4f0327fe9a7141cb2705dbc00",
+  "patch_path": "reports/codejit_extraction_v1/records/7fb48a2a8576cadd48bf4b73.diff.gz",
+  "diff_bytes": 7411,
+  "diff_sha256": "ae5bb8809859a8ef058e54cd1214fd2ab3156b19545ebde0b54b50b3c705d70c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:46.230945+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

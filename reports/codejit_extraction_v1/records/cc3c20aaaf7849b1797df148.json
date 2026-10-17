@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "9ecbc8009d23267f677dd5a1631f2dd3c4e51a95",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor file parsing and writing. Update VFS interface.",
+  "patch_path": "reports/codejit_extraction_v1/records/cc3c20aaaf7849b1797df148.diff.gz",
+  "diff_bytes": 85742,
+  "diff_sha256": "440f992ba959e6ed043a223f8a8e02f74c72c04d10c2a10cacecbc5c9bad9013",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:29.442505+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

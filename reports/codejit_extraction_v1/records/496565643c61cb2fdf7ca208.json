@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "6ce6152284c47ba9b1d4fe8ff9d2e6a3f5ee02c7",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "pkcs15-prkey: Simplify cleaning memory after failure\n\nhttps://bugs.chromium.org/p/oss-fuzz/issues/detail?id=18478",
+  "patch_path": "reports/codejit_extraction_v1/records/496565643c61cb2fdf7ca208.diff.gz",
+  "diff_bytes": 655,
+  "diff_sha256": "4e0cd87fa1e30a76daa53524a4e334d515ce8e5eb7255fbd9d9ad6fc6698b997",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:58.939588+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

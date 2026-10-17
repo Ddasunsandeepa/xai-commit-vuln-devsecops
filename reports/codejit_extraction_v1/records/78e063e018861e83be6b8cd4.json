@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "158910b4aaf2a72babdb4bf4176377c3de50b017",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "btif: Don't persist remote devices to the config\n\nWe don't need to persist the unpaired devices to NVRAM\nso skip saving them.\n\nThis fixes a regression in a previous patch where the most recent\ninstead of the least recent devices would be removed, making some\ndevices unpairable in extremely busy environments.\n\nThis is a backport of http://r.android.com/210955 and\nhttp://r.android.com/212838 together.\n\nBug: 26071376\n\nChange-Id: If7ee9d960f70c836bf08b78da5f3fc852ba60a85",
+  "patch_path": "reports/codejit_extraction_v1/records/78e063e018861e83be6b8cd4.diff.gz",
+  "diff_bytes": 7075,
+  "diff_sha256": "ea2e3d17c85dfe0fad3075ab91fd085a36d98491460ae1ee27a34cf19e288578",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:03.019106+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

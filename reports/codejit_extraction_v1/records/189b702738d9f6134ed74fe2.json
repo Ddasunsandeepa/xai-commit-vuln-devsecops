@@ -1,0 +1,16 @@
+{
+  "repo": "strukturag___libheif",
+  "commit_id": "5c3dff7cdeff48d7fdeb33c3f563e69e5bc8c363",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix division of smallest possible negative number by -1",
+  "patch_path": "reports/codejit_extraction_v1/records/189b702738d9f6134ed74fe2.diff.gz",
+  "diff_bytes": 1750,
+  "diff_sha256": "e75a2a42fc46d5a6fa885ca80f2524b7a087e16bdf8cbae3daf9b55057b40e9d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:45.626677+00:00",
+  "url": "https://github.com/strukturag/libheif.git"
+}

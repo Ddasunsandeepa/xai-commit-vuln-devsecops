@@ -1,0 +1,16 @@
+{
+  "repo": "samtools___htslib",
+  "commit_id": "29c294e6842a56ba3b9a24a24a5f6de1575b0961",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a raft of integer overflows in VCF land.\n\n- Cast data into size_t before multiplication to avoid wrapping around\n  int32.\n\n- Added checks for return values to align_mem and ks_resize\n\n- Simplified the byzantine calculation in align_mem\n\n- Fixed kroundup_size_t and kroundup32 so they cannot wrap around to\n  zero and turn the realloc into a free.\n\n- Also added a check for ~2Gb on total length of FORMAT fields, which\n  nullifies the need for some of the above.  We may wish to remove\n  this at some point if we want to cope with truely mammoth\n  multi-sample data, and the above fixes means doing so will not\n  expose bugs.\n\n  However for now this check adds protection against malformed data\n  creating excessive memory usage and CPU requirements.\n\nCredit to OSS-Fuzz\nFixes oss-fuzz 21139\nFixes oss-fuzz 20881",
+  "patch_path": "reports/codejit_extraction_v1/records/14338bd67f9cd6c8ed290f3c.diff.gz",
+  "diff_bytes": 7645,
+  "diff_sha256": "d042c0e0ba3d669509acda0a921012351ffa3d423c205dc7393f75cc4ee9b616",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:27.677228+00:00",
+  "url": "https://github.com/samtools/htslib.git"
+}

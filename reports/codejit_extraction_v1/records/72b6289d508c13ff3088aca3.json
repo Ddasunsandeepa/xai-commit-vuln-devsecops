@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "5d996b56499f00f80b02a41bab3d6b7349e36e9d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avcodec/tiff: Check stripsize strippos for overflow\n\nFixes: 861/clusterfuzz-testcase-5688284384591872\n\nFound-by: continuous fuzzing process https://github.com/google/oss-fuzz/tree/master/targets/ffmpeg\nSigned-off-by: Michael Niedermayer <michael@niedermayer.cc>",
+  "patch_path": "reports/codejit_extraction_v1/records/72b6289d508c13ff3088aca3.diff.gz",
+  "diff_bytes": 1021,
+  "diff_sha256": "c5fb27f0fdbd8f332eae24cc0a004de71f49496597ef4678e56c2f8486874fa8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:45.189931+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

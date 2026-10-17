@@ -1,0 +1,16 @@
+{
+  "repo": "civetweb___civetweb",
+  "commit_id": "8fd069f6dedb064339f1091069ac96f3f8bdb552",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check length of memcmp",
+  "patch_path": "reports/codejit_extraction_v1/records/c7c18a724d56383c699d4b84.diff.gz",
+  "diff_bytes": 607,
+  "diff_sha256": "6219a25856087f6063cc13d00966e13f392e195e8509c839b27ac3d00682f5f5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:48.929479+00:00",
+  "url": "https://github.com/civetweb/civetweb.git"
+}

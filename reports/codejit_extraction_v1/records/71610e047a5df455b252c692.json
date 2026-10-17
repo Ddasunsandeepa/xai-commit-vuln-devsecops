@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "a2e9eab8ea87c4ffc494d839ebb4ea145eb9f2e6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Actually fail when error occurs in parseFormat\n\nWhen there's an unsupported number of bits per sample or an invalid\nnumber of samples per block, don't only print an error message using\nthe error handler, but actually stop parsing the file.\n\nThis fixes #35 (also reported at\nhttps://bugzilla.opensuse.org/show_bug.cgi?id=1026983 and\nhttps://blogs.gentoo.org/ago/2017/02/20/audiofile-heap-based-buffer-overflow-in-imadecodeblockwave-ima-cpp/\n)",
+  "patch_path": "reports/codejit_extraction_v1/records/71610e047a5df455b252c692.diff.gz",
+  "diff_bytes": 676,
+  "diff_sha256": "f5010966fcb09c6f83e0eaeadeea144181e62a5109137a003e18a23a5451fdc2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:29.736991+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

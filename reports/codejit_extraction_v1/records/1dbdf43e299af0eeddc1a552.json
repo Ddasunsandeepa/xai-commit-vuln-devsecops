@@ -1,0 +1,16 @@
+{
+  "repo": "armmbed___mbedtls",
+  "commit_id": "31458a18788b0cf0b722acda9bb2f2fe13a3fb32",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Only return VERIFY_FAILED from a single point\n\nEverything else is a fatal error. Also improve documentation about that for\nthe vrfy callback.",
+  "patch_path": "reports/codejit_extraction_v1/records/1dbdf43e299af0eeddc1a552.diff.gz",
+  "diff_bytes": 5853,
+  "diff_sha256": "87ab443093aff81210b2741bbdc6123771ec6ebfc2bc427d7193f9b64a9e7297",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:38:43.736304+00:00",
+  "url": "https://github.com/armmbed/mbedtls.git"
+}

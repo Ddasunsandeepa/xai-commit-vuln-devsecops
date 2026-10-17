@@ -1,0 +1,16 @@
+{
+  "repo": "python___typed_ast",
+  "commit_id": "d498191545e5fcaf0a95985505183498928577df",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Preserve string kind modifiers (#49)\n\nThis will help experimenting with https://github.com/python/mypy/pull/3648\n\nCurrently we preserve only ``b`` string modifier on Python 2, this is a bit arbitrary and for the above mentioned PR we need to keep ``u``. Instead of adding another special-casing I just always preserve all string modifiers in a short string ``kind`` on ``Str`` node, for example:\n```python\n>>> st = ast3.parse(\"u'hi'\")\n>>> st.body[0].value.kind\n'u'\n```",
+  "patch_path": "reports/codejit_extraction_v1/records/458a2f6ea70237b7a0737fbb.diff.gz",
+  "diff_bytes": 12614,
+  "diff_sha256": "9f7a8ff1220f887a0910800e540a20151c23d1ddd1e5fe1189c3bcb8a6589966",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:16.886554+00:00",
+  "url": "https://github.com/python/typed_ast.git"
+}

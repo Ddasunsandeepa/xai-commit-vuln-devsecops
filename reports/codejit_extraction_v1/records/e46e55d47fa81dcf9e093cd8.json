@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "925dad6467cd7a2b79322378eafa43d06371b081",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix content_shell with network service enabled not loading pages.\n\nThis regressed in my earlier cl r528763.\n\nThis is a reland of r547221.\n\nBug: 833612\n\nChange-Id: I4c2649414d42773f2530e1abe5912a04fcd0ed9b\nReviewed-on: https://chromium-review.googlesource.com/1064702\nReviewed-by: Jay Civelli <jcivelli@chromium.org>\nCommit-Queue: John Abd-El-Malek <jam@chromium.org>\nCr-Commit-Position: refs/heads/master@{#560011}",
+  "patch_path": "reports/codejit_extraction_v1/records/e46e55d47fa81dcf9e093cd8.diff.gz",
+  "diff_bytes": 4413,
+  "diff_sha256": "d9ecf72cc6e3d467f5fb2608d158b57f2840447c28bb8b85e5707c2088cc4773",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:46:05.281092+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

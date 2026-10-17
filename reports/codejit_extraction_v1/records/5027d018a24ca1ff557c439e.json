@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "fa692df37a796c3330c81988d15ef1a219afc006",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream: reject broken ACK packets\n\nFix evasion posibility by rejecting packets with a broken ACK field.\nThese packets have a non-0 ACK field, but do not have a ACK flag set.\n\nBug #3324.\n\nReported-by: Nicolas Adba",
+  "patch_path": "reports/codejit_extraction_v1/records/5027d018a24ca1ff557c439e.diff.gz",
+  "diff_bytes": 819,
+  "diff_sha256": "d0b1bcf36751043a8cd9192ea470e6ad8b788dfda18ef98d4cbc72ec688aa537",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:56.745535+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

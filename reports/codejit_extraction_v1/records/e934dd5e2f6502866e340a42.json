@@ -1,0 +1,16 @@
+{
+  "repo": "locutusofborg___ettercap",
+  "commit_id": "626dc56686f15f2dda13c48f78c2a666cb6d8506",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Exit gracefully in case of corrupted filters (Closes issue #782)",
+  "patch_path": "reports/codejit_extraction_v1/records/e934dd5e2f6502866e340a42.diff.gz",
+  "diff_bytes": 1995,
+  "diff_sha256": "e5b3419859032663b1aa1c14791b05513deb4b1c02db28b937ef85f27d90e510",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:43.281525+00:00",
+  "url": "https://github.com/locutusofborg/ettercap.git"
+}

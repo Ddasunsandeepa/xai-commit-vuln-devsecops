@@ -1,0 +1,16 @@
+{
+  "repo": "keszybz___systemd",
+  "commit_id": "c01ff965b48bb9693dcd77cbc748b5d8676766b0",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "nss-mymachines: map userns users of containers to real user names\n\nGiven a container \"foo\", that maps user id $UID to container user, using\nuser namespaces, this NSS module extenstion will now map the $UID to a\nname \"vu-foo-$TUID\" for the translated UID $UID.\n\nSimilar, userns groups are mapped to \"vg-foo-$TGID\" for translated GIDs\nof $GID.\n\nThis simple change should make userns users more discoverable. Also,\ngiven that many tools like \"adduser\" check NSS before allocating a UID,\nshould lower the chance of UID range conflicts between tools.",
+  "patch_path": "reports/codejit_extraction_v1/records/4ff0c043024de448ed20836a.diff.gz",
+  "diff_bytes": 30033,
+  "diff_sha256": "da862199edeeff0ec29ab37212d2991993d28eaafdea1f68ff9b187e9d558888",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:25.930839+00:00",
+  "url": "https://github.com/keszybz/systemd.git"
+}

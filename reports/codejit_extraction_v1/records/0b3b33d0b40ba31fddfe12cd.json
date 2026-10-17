@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "b58c86e1e4cdf59373aad2ec25f99f772766374c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fsdev: Fix potential memory leak\n\nThis leak was reported by cppcheck.\n\nSigned-off-by: Stefan Weil <sw@weilnetz.de>\nReviewed-by: M. Mohan Kumar <mohan@in.ibm.com>\nMessage-id: 1371376960-18192-1-git-send-email-sw@weilnetz.de\nSigned-off-by: Anthony Liguori <aliguori@us.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/0b3b33d0b40ba31fddfe12cd.diff.gz",
+  "diff_bytes": 400,
+  "diff_sha256": "3260a95086a13f24962056ed81822ef39ac643d56be16d4bfe388d85b3a8b53e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:21.382122+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

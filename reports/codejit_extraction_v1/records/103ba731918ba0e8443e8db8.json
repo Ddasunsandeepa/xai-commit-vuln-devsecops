@@ -1,0 +1,16 @@
+{
+  "repo": "plougher___squashfs-tools",
+  "commit_id": "e0485802ec72996c20026da320650d8362f555bd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Unsquashfs: additional write outside destination directory exploit fix\n\nAn issue on github (https://github.com/plougher/squashfs-tools/issues/72)\nshowed how some specially crafted Squashfs filesystems containing\ninvalid file names (with '/' and '..') can cause Unsquashfs to write\nfiles outside of the destination directory.\n\nSince then it has been shown that specially crafted Squashfs filesystems\nthat contain a symbolic link pointing outside of the destination directory,\ncoupled with an identically named file within the same directory, can\ncause Unsquashfs to write files outside of the destination directory.\n\nSpecifically the symbolic link produces a pathname pointing outside\nof the destination directory, which is then followed when writing the\nduplicate identically named file within the directory.\n\nThis commit fixes this exploit by explictly checking for duplicate\nfilenames within a directory.  As directories in v2.1, v3.x, and v4.0\nfilesystems are sorted, this is achieved by checking for consecutively\nidentical filenames.  Additionally directories are checked to\nensure they are sorted, to avoid attempts to evade the duplicate\ncheck.\n\nVersion 1.x and 2.0 filesystems (where the directories were unsorted)\nare sorted and then the above duplicate filename check is applied.\n\nSigned-off-by: Phillip Lougher <phillip@squashfs.org.uk>",
+  "patch_path": "reports/codejit_extraction_v1/records/103ba731918ba0e8443e8db8.diff.gz",
+  "diff_bytes": 8147,
+  "diff_sha256": "8b06432af6d306f8fbcb5f7d208dcc48726099c1ff59852427a1f39b7dda140e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:41.008298+00:00",
+  "url": "https://github.com/plougher/squashfs-tools.git"
+}

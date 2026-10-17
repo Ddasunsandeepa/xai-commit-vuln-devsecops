@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "4350a11c663b0d75f8119743bffb7736d87abd4d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix sending malformed pong messages in some cases.",
+  "patch_path": "reports/codejit_extraction_v1/records/42c580738ec3d32be56cb0b6.diff.gz",
+  "diff_bytes": 1247,
+  "diff_sha256": "eecac80db221558c6428bb03874efba531493c518edb9561307baaf534e9ca54",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:37.086363+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

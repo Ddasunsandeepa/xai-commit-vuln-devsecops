@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "31c94250fcff763e63495d7310b912bca2148117",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Adds a `tf.random.stateless_gamma` sampler for CPU. (Stateless analogue to `tf.random.gamma`.)\n\nPiperOrigin-RevId: 293454705\nChange-Id: I103900822dac37989246eaf7b410157e5563b78b",
+  "patch_path": "reports/codejit_extraction_v1/records/6a2af7efd6028ac28e03da39.diff.gz",
+  "diff_bytes": 30805,
+  "diff_sha256": "3dec173ba002a450c1edbbb6f4b5903336c648a1f685aaca604739f802452432",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:19:01.532097+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

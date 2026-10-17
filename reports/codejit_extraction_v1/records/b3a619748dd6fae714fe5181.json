@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "1a7fd1fb2998002da6e9ff2ee46e1bdd25ee8404",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fsck: detect submodule paths starting with dash\n\nAs with urls, submodule paths with dashes are ignored by\ngit, but may end up confusing older versions. Detecting them\nvia fsck lets us prevent modern versions of git from being a\nvector to spread broken .gitmodules to older versions.\n\nCompared to blocking leading-dash urls, though, this\ndetection may be less of a good idea:\n\n  1. While such paths provide confusing and broken results,\n     they don't seem to actually work as option injections\n     against anything except \"cd\". In particular, the\n     submodule code seems to canonicalize to an absolute\n     path before running \"git clone\" (so it passes\n     /your/clone/-sub).\n\n  2. It's more likely that we may one day make such names\n     actually work correctly. Even after we revert this fsck\n     check, it will continue to be a hassle until hosting\n     servers are all updated.\n\nOn the other hand, it's not entirely clear that the behavior\nin older versions is safe. And if we do want to eventually\nallow this, we may end up doing so with a special syntax\nanyway (e.g., writing \"./-sub\" in the .gitmodules file, and\nteaching the submodule code to canonicalize it when\ncomparing).\n\nSo on balance, this is probably a good protection.\n\nSigned-off-by: Jeff King <peff@peff.net>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/b3a619748dd6fae714fe5181.diff.gz",
+  "diff_bytes": 1348,
+  "diff_sha256": "3a7aed1252309d3babc7983b30f3c2c130d6b8d153532cf0fb6ef2a9c407508a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:52.791443+00:00",
+  "url": "https://github.com/git/git.git"
+}

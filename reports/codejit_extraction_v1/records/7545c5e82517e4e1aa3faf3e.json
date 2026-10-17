@@ -1,0 +1,16 @@
+{
+  "repo": "libidn___libidn2",
+  "commit_id": "241e8f486134793cb0f4a5b0e5817a97883401f5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Perform A-Label roundtrip for lookup functions by default\n\nThis adds another check to avoid unexpected results.\nIt was a longstanding FIXME.\n\nThanks to  Jonathan Birch of Microsoft Corporation,\nFlorian Weimer (GNU glibc) and Nikos Mavrogiannopoulos (GnuTLS)\nfor investigation, discussion and testing.",
+  "patch_path": "reports/codejit_extraction_v1/records/7545c5e82517e4e1aa3faf3e.diff.gz",
+  "diff_bytes": 13484,
+  "diff_sha256": "33889eb0c98083d4ad5d2511ce511e70a99ddfa797099720f421b93231a6cbfa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:02.846985+00:00",
+  "url": "https://github.com/libidn/libidn2.git"
+}

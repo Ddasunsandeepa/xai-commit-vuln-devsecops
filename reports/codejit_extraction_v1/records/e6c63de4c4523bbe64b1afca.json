@@ -1,0 +1,16 @@
+{
+  "repo": "envoyproxy___envoy",
+  "commit_id": "56e8c45b1b340c4a4f8f02ec2488354c31806d59",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tls: allow cert validation by only leaf trusted CA's CRL (#18289)\n\nCommit Message: Allow cert validation by only leaf trusted CAs CRL\nAdditional Description: Close #18268. In the previous implementation, we don't have availability to validate certs when all trusted CAs don't have their own CRLs if any trusted CAs have that. This feature allows validating even if all trusted CAs don't have CRLs.\nRisk Level: Low\nTesting: Unit\nDocs Changes: Required\nRelease Notes: Required\n\nSigned-off-by: Shikugawa <rei@tetrate.io>",
+  "patch_path": "reports/codejit_extraction_v1/records/e6c63de4c4523bbe64b1afca.diff.gz",
+  "diff_bytes": 13395,
+  "diff_sha256": "5721922eb130d8eb343f5446746badab429d9dcdf307a4ebb9798b4895655c8a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:42.260281+00:00",
+  "url": "https://github.com/envoyproxy/envoy.git"
+}

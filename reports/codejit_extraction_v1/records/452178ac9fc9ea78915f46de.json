@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "04ff52bb66284467ccb43d90800013b89ee8db75",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Switching AudioOutputAuthorizationHandler from using AudioManager interface to AudioSystem one.\n\nBUG=672468\nCQ_INCLUDE_TRYBOTS=master.tryserver.chromium.linux:linux_optional_gpu_tests_rel;master.tryserver.chromium.mac:mac_optional_gpu_tests_rel;master.tryserver.chromium.win:win_optional_gpu_tests_rel\n\nReview-Url: https://codereview.chromium.org/2692203003\nCr-Commit-Position: refs/heads/master@{#450939}",
+  "patch_path": "reports/codejit_extraction_v1/records/452178ac9fc9ea78915f46de.diff.gz",
+  "diff_bytes": 29465,
+  "diff_sha256": "342cec0a05887c39954a54e410cd48d3b94085ac751a757eba253f360bce2907",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:11.294783+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "jpirko___libndp",
+  "commit_id": "a4892df306e0532487f1634ba6d4c6d4bb381c7f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libndp: validate the IPv6 hop limit\n\nNone of the NDP messages should ever come from a non-local network; as\nstated in RFC4861's 6.1.1 (RS), 6.1.2 (RA), 7.1.1 (NS), 7.1.2 (NA),\nand 8.1. (redirect):\n\n  - The IP Hop Limit field has a value of 255, i.e., the packet\n    could not possibly have been forwarded by a router.\n\nThis fixes CVE-2016-3698.\n\nReported by: Julien BERNARD <julien.bernard@viagenie.ca>\nSigned-off-by: Lubomir Rintel <lkundrak@v3.sk>\nSigned-off-by: Jiri Pirko <jiri@mellanox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/09b2421634e6a233e389fe29.diff.gz",
+  "diff_bytes": 3032,
+  "diff_sha256": "f5d2f549aa31877f0492542c9b891521b568dae910b71531bddbc98314dee056",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:01.164356+00:00",
+  "url": "https://github.com/jpirko/libndp.git"
+}

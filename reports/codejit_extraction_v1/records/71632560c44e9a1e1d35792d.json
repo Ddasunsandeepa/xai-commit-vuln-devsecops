@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "3c55b399c36ef46befcb21e4ebc4799367f89684",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "At many places in the code, jas_malloc or jas_recalloc was being\ninvoked with the size argument being computed in a manner that would not\nallow integer overflow to be detected.  Now, these places in the code\nhave been modified to use special-purpose memory allocation functions\n(e.g., jas_alloc2, jas_alloc3, jas_realloc2) that check for overflow.\nThis should fix many security problems.",
+  "patch_path": "reports/codejit_extraction_v1/records/71632560c44e9a1e1d35792d.diff.gz",
+  "diff_bytes": 39432,
+  "diff_sha256": "8e825b6ea7ace9e15e59cc4351e176496233f2d0e3acda36d1898d3d508441b9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:41.098030+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

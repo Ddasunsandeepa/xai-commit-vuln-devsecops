@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "d4841f1161bdb5e13cb19e81af42437a634dd6ef",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Set u1_long_term_reference_flag to 0 for error concealment\n\nFor MBs which are in error, set u1_long_term_reference_flag to zero.\nThis ensures latest frame is used for concealment\n\nBug: 28470138\nChange-Id: I58eab5bc1da277823f3dbb4103ba50867f8935dc",
+  "patch_path": "reports/codejit_extraction_v1/records/4776a7060b45b01ac911d6d1.diff.gz",
+  "diff_bytes": 479,
+  "diff_sha256": "b949958f53b92009aca612080b3b71c1e92c13836c6e2a07258914f68b1c45a6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:24.714672+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

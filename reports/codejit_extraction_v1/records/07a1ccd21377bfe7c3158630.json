@@ -1,0 +1,16 @@
+{
+  "repo": "inliniac___suricata",
+  "commit_id": "6f223c6dba2f62550ad6bece750d4dded2041858",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "defrag: stop reassembly at the first packet with more flags not set",
+  "patch_path": "reports/codejit_extraction_v1/records/07a1ccd21377bfe7c3158630.diff.gz",
+  "diff_bytes": 4394,
+  "diff_sha256": "a50d106b0351384993f02200a3953619d3be6ff554bc656edb4eaba5044b4cf1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:35.970111+00:00",
+  "url": "https://github.com/inliniac/suricata.git"
+}

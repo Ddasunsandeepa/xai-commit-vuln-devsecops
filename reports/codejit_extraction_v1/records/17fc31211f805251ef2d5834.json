@@ -1,0 +1,16 @@
+{
+  "repo": "opencv___opencv",
+  "commit_id": "96bf26611e5c512ce39a5ac302fd2a132b7d1df4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge pull request #13084 from vpisarev:shuffle_optflow_algos\n\n* moved DIS optical flow from opencv_contrib to opencv, moved TVL1 from opencv to opencv_contrib\n\n* fixed compile warning\n\n* TVL1 optical flow example moved to opencv_contrib",
+  "patch_path": "reports/codejit_extraction_v1/records/17fc31211f805251ef2d5834.diff.gz",
+  "diff_bytes": 292352,
+  "diff_sha256": "d0ba4b66aec2045c7c59d1a047e59a1a65f36e300a79b31f161802eac3773aec",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:40.088744+00:00",
+  "url": "https://github.com/opencv/opencv.git"
+}

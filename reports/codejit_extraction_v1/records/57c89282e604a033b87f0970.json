@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "f183580d61c054f7f6bb35cfe29e1b342390fbeb",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Attempt to address libxml crash.\n\nBUG=129930\nReview URL: https://chromiumcodereview.appspot.com/10458051\n\ngit-svn-id: svn://svn.chromium.org/chrome/trunk/src@142822 0039d316-1c4b-4281-b951-d872f2087c98",
+  "patch_path": "reports/codejit_extraction_v1/records/57c89282e604a033b87f0970.diff.gz",
+  "diff_bytes": 2545,
+  "diff_sha256": "af660ed2e8ff7cb63d34f0564bba27884b140086d565c9e88409e1cf357edfd2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:27.244019+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

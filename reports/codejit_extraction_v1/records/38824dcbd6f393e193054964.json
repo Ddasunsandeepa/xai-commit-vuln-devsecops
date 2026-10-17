@@ -1,0 +1,16 @@
+{
+  "repo": "phaag___nfdump",
+  "commit_id": "da2a12614623787d3d2236c6e284fb9a6c9f48b1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add ipfix dyn element handling",
+  "patch_path": "reports/codejit_extraction_v1/records/38824dcbd6f393e193054964.diff.gz",
+  "diff_bytes": 41956,
+  "diff_sha256": "658e970ea040710654873f23549f7bf6bbc62d655173d2f90433a5c46a2a02c3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:03.198876+00:00",
+  "url": "https://github.com/phaag/nfdump.git"
+}

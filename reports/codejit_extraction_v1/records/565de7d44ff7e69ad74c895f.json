@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___imageworsener",
+  "commit_id": "a00183107d4b84bc8a714290e824ca9c68dac738",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Trying to fix some invalid left shift operations\n\nFixes issue #16",
+  "patch_path": "reports/codejit_extraction_v1/records/565de7d44ff7e69ad74c895f.diff.gz",
+  "diff_bytes": 1753,
+  "diff_sha256": "cda20a0489e8433906b9520a5b92a4cddda6c000d9eb13db8ec69efde5026c67",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:03.816559+00:00",
+  "url": "https://github.com/jsummers/imageworsener.git"
+}

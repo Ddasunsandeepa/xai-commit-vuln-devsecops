@@ -1,0 +1,16 @@
+{
+  "repo": "resiprocate___resiprocate",
+  "commit_id": "d67a9ca6fd06ca65d23e313bdbad1ef4dd3aa0df",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "ares: Prevent buffer overlow in ares_parse_a_reply (CVE-2017-9454)\n\nThis buffer overflow is in the embedded copy of ares that will be\nused unless the external alternative c-ares is used by specifying\nthe configure argument --with-c-ares.\n\nIt has been found with LibFuzzer from the LLVM project.",
+  "patch_path": "reports/codejit_extraction_v1/records/2d6436934f43cf7e0b8b5d99.diff.gz",
+  "diff_bytes": 574,
+  "diff_sha256": "b83f9f9c39eb6e352e2ef14255f87f06058cc1214780211eca90f07e35d7cd19",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:07.463280+00:00",
+  "url": "https://github.com/resiprocate/resiprocate.git"
+}

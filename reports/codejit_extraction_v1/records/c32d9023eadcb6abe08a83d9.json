@@ -1,0 +1,16 @@
+{
+  "repo": "gnutls___gnutls",
+  "commit_id": "469f8fbead2acb60c215be1ddb6d769cda78d1af",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "allow retrieving extensions in a trust module using GNUTLS_PKCS11_OBJ_FLAG_OVERWRITE_TRUSTMOD_EXT",
+  "patch_path": "reports/codejit_extraction_v1/records/c32d9023eadcb6abe08a83d9.diff.gz",
+  "diff_bytes": 58814,
+  "diff_sha256": "f204aae0431440ddc1f75a0a50b4c2ea4ccb833ea3b091e7e50395c3261ed258",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:58:17.851037+00:00",
+  "url": "https://github.com/gnutls/gnutls.git"
+}

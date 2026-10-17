@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "04c1e531b5913c09aa9b2e59e2b8ed9b4d8a4cba",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Effect for multichannel PCM downmix to stereo\n\nFirst pass at implementing an audio effect whose role is to\n downmix multichannel PCM buffers to stereo.\nThe effect is not handling volume changes.\nThe effect code here handles quad, 4.0, 5.1 and 7.1 input configurations,\n to optimize the most commom configurations, and does not yet handle\n generic multichanel configurations.\n\nChange-Id: I74d04bd961348f3f0e4ae7714b70e620808a0829",
+  "patch_path": "reports/codejit_extraction_v1/records/8ed4cb635c161b8ebd3b9fc7.diff.gz",
+  "diff_bytes": 35427,
+  "diff_sha256": "81dedb05eb1667d8f0dbb62c8283f157fd2352fb2ae0c2d17411c151fd5efa3a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:45.621835+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

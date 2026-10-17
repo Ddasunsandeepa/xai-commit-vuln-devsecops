@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "ef7d8cb8b012e77c9b0c596c5ad4b0ffb7e5dde9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Change UHID socket to be non-blocking\n\nOn some platforms, the logs indicate that the BTU task is stalled by\nUHID driver when writing the HID descriptor to the kernel. This patch\nconverts the UHID socket to non-blocking to avoid stalling the main\nBTU task.\n\nBug: 23978964\nChange-Id: I5a7a3e106fb2c967d68f077faedcd4fe62bbd912",
+  "patch_path": "reports/codejit_extraction_v1/records/a335ce39866b3e70efa9fee1.diff.gz",
+  "diff_bytes": 7672,
+  "diff_sha256": "197c73e1d5b4f6ec9b735317a510b895edc569fe4fb5b433a1d7a61fe55005e0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:25.456743+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

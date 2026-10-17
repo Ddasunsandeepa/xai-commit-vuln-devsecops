@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___minikin",
+  "commit_id": "ed4c8d79153baab7f26562afb8930652dfbf853b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid integer overflows in parsing fonts\n\nA malformed TTF can cause size calculations to overflow. This patch\nchecks the maximum reasonable value so that the total size fits in 32\nbits. It also adds some explicit casting to avoid possible technical\nundefined behavior when parsing sized unsigned values.\n\nBug: 25645298\nChange-Id: Id4716132041a6f4f1fbb73ec4e445391cf7d9616\n(cherry picked from commit 183c9ec2800baa2ce099ee260c6cbc6121cf1274)",
+  "patch_path": "reports/codejit_extraction_v1/records/ee2968577e878f790cfb360d.diff.gz",
+  "diff_bytes": 1646,
+  "diff_sha256": "56a058d8d409acfec0cf1c5e345b1eaa75669c005729a7efe1c5cd2a26fdddb2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:35.037294+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/minikin"
+}

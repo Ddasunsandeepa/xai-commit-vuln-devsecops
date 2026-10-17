@@ -1,0 +1,16 @@
+{
+  "repo": "proftpd___proftpd",
+  "commit_id": "349addc3be4fcdad9bd4ec01ad1ccd916c898ed8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Walk the entire DefaultRoot path, checking for symlinks of any component,\nwhen AllowChrootSymlinks is disabled.",
+  "patch_path": "reports/codejit_extraction_v1/records/7b111e21049495f2537f1207.diff.gz",
+  "diff_bytes": 9219,
+  "diff_sha256": "498c2468502252f9af383c8a1a216b3ff04ca5f732609ac269947895a7a73a8b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:03.835250+00:00",
+  "url": "https://github.com/proftpd/proftpd.git"
+}

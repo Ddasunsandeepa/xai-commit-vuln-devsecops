@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___minikin",
+  "commit_id": "9cc9bbe1461f359f0b27c5e7645c17dda001ab1d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Initial commit of Minikin library\n\nThis is the initial draft of Minikin, a library intended to perform text\nlayout functions. This version does basic weight selection and font runs\nfor scripts, and also has a simple renderer for drawing into bitmaps,\nbut is lacking measurement, line breaking, and a number of other\nimportant features. It also lacks caching and other performance\nrefinements.\n\nChange-Id: I789a2e47d11d71202dc84b4751b51a5e2cd9c451",
+  "patch_path": "reports/codejit_extraction_v1/records/1bb6f53971a40534651f6d3a.diff.gz",
+  "diff_bytes": 59440,
+  "diff_sha256": "dc5f33a216f990f1741bc701332c4aaecd26e5ba2c3996ecec9c71b5974577a4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:34.755832+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/minikin"
+}

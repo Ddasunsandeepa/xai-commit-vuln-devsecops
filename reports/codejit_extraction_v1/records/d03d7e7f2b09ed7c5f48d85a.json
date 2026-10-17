@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "02eb47cf18793effe9fc7ab34e1b0fe9ea6635bc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "SoundTrigger: allow sound model reloading\n\nAllow reloading a sound model without unloading it before.\n\nBug: 18308781.\nChange-Id: I31c83b81a03ee1c1e80f4339ca62e6d06fb1a33b",
+  "patch_path": "reports/codejit_extraction_v1/records/d03d7e7f2b09ed7c5f48d85a.diff.gz",
+  "diff_bytes": 2384,
+  "diff_sha256": "d49f4268e30fddc2e26e0c6e3bb5b59f9cc039e5c535cd1dd129dc29624ec2c6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:41.885135+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

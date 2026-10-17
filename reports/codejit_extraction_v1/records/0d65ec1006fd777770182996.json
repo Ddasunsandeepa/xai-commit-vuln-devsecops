@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "8dfad03dfa4d14a1bfd8fd7ea0c13913a94585da",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Convert ext/bcmath to HNI\n\nConverts ext/bcmath to HNI and adds support for scaling\n\nCloses #1534\n\nReviewed By: @sgolemon\n\nDifferential Revision: D1123805\n\nPulled By: @scannell",
+  "patch_path": "reports/codejit_extraction_v1/records/0d65ec1006fd777770182996.diff.gz",
+  "diff_bytes": 26887,
+  "diff_sha256": "49149139a0ca7e7a8803ddb5ed1f9036222afa4c888af3b658e8affcc03f850a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:29.222083+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "umlaeute___v4l2loopback",
+  "commit_id": "3f8c928bd1c88833a6b39ab60c8418b5f6180363",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "make sure to neither exceed size of cap->card nor dev->card_label",
+  "patch_path": "reports/codejit_extraction_v1/records/d0d9d07d9e073af205a1a8e2.diff.gz",
+  "diff_bytes": 860,
+  "diff_sha256": "19c500192e7bdc60c6e04ffc76ba30306713e681adb0383a29900357f0b1989d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:31.445078+00:00",
+  "url": "https://github.com/umlaeute/v4l2loopback.git"
+}

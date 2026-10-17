@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "ae5b5ba529753c7a653901ffc29b5ea24c3fdf3a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug: line hooks in stripped functions\n\nLine-hook handling was accessing debug info. without checking whether\nit was present.",
+  "patch_path": "reports/codejit_extraction_v1/records/49e2da854c487878f04f694b.diff.gz",
+  "diff_bytes": 1595,
+  "diff_sha256": "d474ef35af06269920390bbddb93a05e0e30e6208775fd3a8751b911e26de6a3",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:48.697490+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

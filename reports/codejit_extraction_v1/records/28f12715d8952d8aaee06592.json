@@ -1,0 +1,16 @@
+{
+  "repo": "akheron___jansson",
+  "commit_id": "49fc708d4c5aeebad570f59a588f7520a4c62f78",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add JSON_REJECT_DUPLICATES decoding flag\n\nWith this flag, a decoding error is issued if any JSON object in the\ninput contains duplicate keys.\n\nFixes GH-3.",
+  "patch_path": "reports/codejit_extraction_v1/records/28f12715d8952d8aaee06592.diff.gz",
+  "diff_bytes": 8975,
+  "diff_sha256": "57c6f1d4d35b517ee282f13a447c0e0473b41263e00cc7d02dada065968334ff",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:13.834645+00:00",
+  "url": "https://github.com/akheron/jansson.git"
+}

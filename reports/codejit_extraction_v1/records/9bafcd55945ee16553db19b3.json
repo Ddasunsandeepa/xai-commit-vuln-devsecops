@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "f7038068550fba0e41e1d0c355787f1dcd5bf330",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added some missing sanity checks on the data in a SIZ marker segment.",
+  "patch_path": "reports/codejit_extraction_v1/records/9bafcd55945ee16553db19b3.diff.gz",
+  "diff_bytes": 2850,
+  "diff_sha256": "a53fc3d0a050674bb5e449197d02aa0ebf3ff31a3283dd0b805ed70e7e57b550",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:49.444762+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

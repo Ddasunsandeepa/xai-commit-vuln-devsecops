@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "75cc83685e103bc8ba380a57468c8f04413033f9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Issue 102: Piping null to the server will crash it",
+  "patch_path": "reports/codejit_extraction_v1/records/7d381e78ad4a48788355efd4.diff.gz",
+  "diff_bytes": 3279,
+  "diff_sha256": "9b6891c532e31639ecf7f535b32161cd194e4932970e328cd066136158d7d25d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:51.027239+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

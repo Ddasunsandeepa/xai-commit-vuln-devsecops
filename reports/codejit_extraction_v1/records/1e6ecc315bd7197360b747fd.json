@@ -1,0 +1,16 @@
+{
+  "repo": "ceph___ceph",
+  "commit_id": "9450abcd0c6b7929ea7bf31321d7e70c7f80901a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "rgw: Correcting the condition in ceph_assert while parsing an AWS Principal.\n\nSigned-off-by: Pritha Srivastava <prsrivas@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/1e6ecc315bd7197360b747fd.diff.gz",
+  "diff_bytes": 511,
+  "diff_sha256": "0338e0fe502092ff5f01ad053ffbd51a44171f149326dce30ae7efdeb5970f04",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:40:01.596310+00:00",
+  "url": "https://github.com/ceph/ceph.git"
+}

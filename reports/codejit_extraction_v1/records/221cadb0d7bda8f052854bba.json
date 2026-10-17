@@ -1,0 +1,16 @@
+{
+  "repo": "curl___curl",
+  "commit_id": "3ab3c16db6a5674f53cf23d56512a405fde0b2c9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "printf: fix floating point buffer overflow issues\n\n... and add a bunch of floating point printf tests",
+  "patch_path": "reports/codejit_extraction_v1/records/221cadb0d7bda8f052854bba.diff.gz",
+  "diff_bytes": 8326,
+  "diff_sha256": "ec75812257f633ba62dc08df1cc0492afd61ea5be4a75e542e27000f230d1da9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:57.380460+00:00",
+  "url": "https://github.com/curl/curl.git"
+}

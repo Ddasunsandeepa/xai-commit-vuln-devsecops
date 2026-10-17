@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "c00fc9d3003eb06226b58b6a48555f1456ee2475",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix buffer overrun due to integer overflow in bcmath\n\nSummary: scale gets passed around as an int inside the library.\n\nReviewed By: mxw\n\nDifferential Revision: D3624520\n\nfbshipit-source-id: d39927413cec24fda2e475a296ad5d9019ccef0a",
+  "patch_path": "reports/codejit_extraction_v1/records/bab9e50b32f8fee413de473c.diff.gz",
+  "diff_bytes": 4519,
+  "diff_sha256": "ffa4b7568c56380ac2a898e020bebfd5df5c1b9ed2ad5399b54949fd561ef747",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:50.324513+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

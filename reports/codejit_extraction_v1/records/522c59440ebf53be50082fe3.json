@@ -1,0 +1,16 @@
+{
+  "repo": "openvswitch___ovs",
+  "commit_id": "bc65c25ac604d5787714c8f16c8df8e392e8dae9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Support decoding of NTR selection method\n\nThis is in preparation for supporting group mod and desc reply\nmessages with an NTR selection method group experimenter property.\n\nCurrently decoding always fails as it only allows properties for known\nselection methods and no selection methods are known yet. A subsequent\npatch will propose a hash selection method.\n\nNTR selection method\nSigned-off-by: Simon Horman <simon.horman@netronome.com>\nSigned-off-by: Ben Pfaff <blp@nicira.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/522c59440ebf53be50082fe3.diff.gz",
+  "diff_bytes": 19123,
+  "diff_sha256": "63ae047eab1c3a9f38e1c8e32adfdc2dd29cea5fc729e71de7687ee35e3cc825",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:27.561075+00:00",
+  "url": "https://github.com/openvswitch/ovs.git"
+}

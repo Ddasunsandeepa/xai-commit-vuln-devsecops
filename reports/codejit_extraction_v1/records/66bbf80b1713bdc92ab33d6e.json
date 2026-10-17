@@ -1,0 +1,16 @@
+{
+  "repo": "appneta___tcpreplay",
+  "commit_id": "68f67b1a3a4d319543692afb5bd5b191ec984287",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug #484 CVE-2018-17582 Check for corrupt PCAP files\n\n* Check for packets that are larger than 262144 bytes\n* Check for capture lengths that are greater than packet length\n\nExample of a corrupt PCAP file ...\n\nsudo src/tcpreplay -i ens33 --unique-ip -t --loop 4 get_next_paket_01\nsafe_pcap_next ERROR: Invalid packet length in send_packets.c:get_next_packet() line 1054: 8388670 is greater than maximum 262144",
+  "patch_path": "reports/codejit_extraction_v1/records/66bbf80b1713bdc92ab33d6e.diff.gz",
+  "diff_bytes": 7676,
+  "diff_sha256": "45f980bd622a99312a73145b93736952862c6733cab3d7d2fddaa6b80fbafc2b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:40.184135+00:00",
+  "url": "https://github.com/appneta/tcpreplay.git"
+}

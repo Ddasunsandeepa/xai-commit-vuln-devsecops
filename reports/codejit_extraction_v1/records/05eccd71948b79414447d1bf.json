@@ -1,0 +1,16 @@
+{
+  "repo": "ettercap___ettercap",
+  "commit_id": "ee0afda2ec899e8ebc3a20bd21eb56f9fa261edb",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement dissector for PostgreSQL authentication traffic",
+  "patch_path": "reports/codejit_extraction_v1/records/05eccd71948b79414447d1bf.diff.gz",
+  "diff_bytes": 7659,
+  "diff_sha256": "7981a67de04740982c2da8527d0304ec3d323ac3648d1d0beaa49158a515f669",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:14.776508+00:00",
+  "url": "https://github.com/ettercap/ettercap.git"
+}

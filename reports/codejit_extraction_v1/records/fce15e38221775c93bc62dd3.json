@@ -1,0 +1,16 @@
+{
+  "repo": "mjg59___linux",
+  "commit_id": "e324de2d053295670f3ba8ef67289835d663aae5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add option to automatically set securelevel when in Secure Boot mode\n\nUEFI Secure Boot provides a mechanism for ensuring that the firmware will\nonly load signed bootloaders and kernels. Certain use cases may also\nrequire that the kernel prevent userspace from inserting untrusted kernel\ncode at runtime. Add a configuration option that enforces this automatically\nwhen enabled.\n\nSigned-off-by: Matthew Garrett <mjg59@srcf.ucam.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/fce15e38221775c93bc62dd3.diff.gz",
+  "diff_bytes": 4191,
+  "diff_sha256": "1c53980d68ed473722954f9d21838e49078d477f33356d92aa58df922e3489f0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:05.900098+00:00",
+  "url": "https://github.com/mjg59/linux.git"
+}

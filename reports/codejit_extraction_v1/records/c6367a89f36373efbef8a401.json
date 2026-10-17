@@ -1,0 +1,16 @@
+{
+  "repo": "eclipse___mosquitto",
+  "commit_id": "d29dac087d42f6a2ac744c446845fe58ca55a683",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add socket_domain option.",
+  "patch_path": "reports/codejit_extraction_v1/records/c6367a89f36373efbef8a401.diff.gz",
+  "diff_bytes": 5517,
+  "diff_sha256": "adb8c9ad3e199bd605222e4580bb5d0ae8ce1bb0c74518470e3cf24f6b949465",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:23.377086+00:00",
+  "url": "https://github.com/eclipse/mosquitto.git"
+}

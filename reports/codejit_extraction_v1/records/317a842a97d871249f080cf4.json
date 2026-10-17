@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "890c3f850293176c0e996a602ffa88b315f4e98f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix issue #575",
+  "patch_path": "reports/codejit_extraction_v1/records/317a842a97d871249f080cf4.diff.gz",
+  "diff_bytes": 50225,
+  "diff_sha256": "d1b1b0d98f3ee05b8f2591a8a02b70103f1b9d608888088670be7a6f2067c264",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:45.222698+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

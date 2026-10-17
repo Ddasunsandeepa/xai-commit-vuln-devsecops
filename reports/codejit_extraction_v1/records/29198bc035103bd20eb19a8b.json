@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "7285477ab11831b1cf56e45878a89170dd06d9b9",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scsi-disk: lazily allocate bounce buffer\n\nIt will not be needed for reads and writes if the HBA provides a sglist.\nIn addition, this lets scsi-disk refuse commands with an excessive\nallocation length, as well as limit memory on usual well-behaved guests.\n\nSigned-off-by: Paolo Bonzini <pbonzini@redhat.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/29198bc035103bd20eb19a8b.diff.gz",
+  "diff_bytes": 4181,
+  "diff_sha256": "20022f445122804b47c60092ee22964c4981b52b14e469edf8087088c6417d7b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:40.072742+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

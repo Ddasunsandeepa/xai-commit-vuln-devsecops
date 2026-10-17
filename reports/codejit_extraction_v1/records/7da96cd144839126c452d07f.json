@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "e7e25e32693b052b29edb8396dbc577e1bf2a09f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scsi-disk: restruct emulation: READ_CAPACITY\n\nMove READ_CAPACITY emulation from scsi_send_command() to\nscsi_disk_emulate_command().\n\nSigned-off-by: Gerd Hoffmann <kraxel@redhat.com>\nSigned-off-by: Anthony Liguori <aliguori@us.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/7da96cd144839126c452d07f.diff.gz",
+  "diff_bytes": 3243,
+  "diff_sha256": "6d6068d68483910879bd7e1d05977474a55d0e00bf56f17dfba85eef095d9f17",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:49.095050+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

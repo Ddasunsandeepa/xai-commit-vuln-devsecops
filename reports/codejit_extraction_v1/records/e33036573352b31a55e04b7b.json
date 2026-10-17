@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "7c1fc0ed42609c6c44d6738e0d8ef1d4425a6758",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix: making lsof show devies and loaded .so file names correctly\n\nChange-Id: I4b6f2e0015f8cfa18400fa4bd08460a07e29a51b",
+  "patch_path": "reports/codejit_extraction_v1/records/e33036573352b31a55e04b7b.diff.gz",
+  "diff_bytes": 511,
+  "diff_sha256": "5f76b0b9c2c8bb4ef549bec7ed0bab0b26d70e88f390595fd52f9c9b2595159f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:31.084894+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "mumble-voip___mumble",
+  "commit_id": "5632c35d6759f5e13a7dfe78e4ee6403ff6a8e3e",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Explicitly remove file permissions for settings and DB",
+  "patch_path": "reports/codejit_extraction_v1/records/9602c22e6cd8a5af3af286b0.diff.gz",
+  "diff_bytes": 1517,
+  "diff_sha256": "f9b6cfab51088c877d7bb2287f5a9e15c25be05fbb81ccecf4c67d8f2906b7bd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:58.567512+00:00",
+  "url": "https://github.com/mumble-voip/mumble.git"
+}

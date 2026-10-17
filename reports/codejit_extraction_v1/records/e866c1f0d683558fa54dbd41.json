@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "fa2b6b881d12d94b8b9a8a8222d27a1bd6824dbd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Address issue with redundant D2H copies when running eager ops as functions on a GPU enabled binary.\n\nPiperOrigin-RevId: 443755192",
+  "patch_path": "reports/codejit_extraction_v1/records/e866c1f0d683558fa54dbd41.diff.gz",
+  "diff_bytes": 5964,
+  "diff_sha256": "d5bfca1ac96bee3d3e8898efc37f648877dbc959f56caf7722b889d452e398cc",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:22.745926+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

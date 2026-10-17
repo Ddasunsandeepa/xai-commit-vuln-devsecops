@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "6d3fa654b702c8762aa80ab795080f5c4464d677",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "prevent invalid color index (palette only), may lead to crash",
+  "patch_path": "reports/codejit_extraction_v1/records/2a14590f2a79d9c4369864ac.diff.gz",
+  "diff_bytes": 1701,
+  "diff_sha256": "2a948264f319b23e0b03d89636044a68e2f1a48b84424702fd5224c02ea79ae1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:48.892158+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

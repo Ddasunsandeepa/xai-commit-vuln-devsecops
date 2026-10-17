@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "11fb7aa03437eccac98d90ca2de1730a02a515e2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix copy length calculation in sdp_copy_raw_data\n\nTest: compilation\nBug: 110216176\nChange-Id: Ic4a19c9f0fe8cd592bc6c25dcec7b1da49ff7459\n(cherry picked from commit 23aa15743397b345f3d948289fe90efa2a2e2b3e)",
+  "patch_path": "reports/codejit_extraction_v1/records/b6d2c60c64a390263e4af023.diff.gz",
+  "diff_bytes": 653,
+  "diff_sha256": "7887f71c30bfbaaf529ca6664c8e83a7d6ed0347bf068681b1422a885214305f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:01.517119+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

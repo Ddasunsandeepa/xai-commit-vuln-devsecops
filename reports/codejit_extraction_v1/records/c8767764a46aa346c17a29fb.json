@@ -1,0 +1,16 @@
+{
+  "repo": "wesnoth___wesnoth",
+  "commit_id": "ca0d21abd9ab3ff4fca43ae11948dfe60e66458f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "always flush filesystem errors (so we can see on travis)",
+  "patch_path": "reports/codejit_extraction_v1/records/c8767764a46aa346c17a29fb.diff.gz",
+  "diff_bytes": 10770,
+  "diff_sha256": "bacf19f4d4e52b8c8c4ca46efc19e22567c11d3761942891dc0a619fdf73eaa2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:46.253875+00:00",
+  "url": "https://github.com/wesnoth/wesnoth.git"
+}

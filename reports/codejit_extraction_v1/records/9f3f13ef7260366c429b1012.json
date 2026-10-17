@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "a1aff5bf6786e6e8478373e4ada869a4ef2a7fc4",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "block: Revert entanglement of bdrv_is_inserted() with tray status\n\nCommit 4be9762a changed bdrv_is_inserted() to fail when the tray is\nopen.  Unfortunately, there are two different kinds of users, with\nconflicting needs.\n\n1. Device models using bdrv_eject(), currently ide-cd and scsi-cd.\nThey expect bdrv_is_inserted() to reflect the tray status.  Commit\n4be9762a makes them happy.\n\n2. Code that wants to know whether a BlockDriverState has media, such\nas find_image_format(), bdrv_flush_all().  Commit 4be9762a makes them\nunhappy.  In particular, it breaks flush on VM stop for media ejected\nby the guest.\n\nRevert the change to bdrv_is_inserted().  Check the tray status in the\ndevice models instead.\n\nNote on IDE: Since only ATAPI devices have a tray, and they don't\naccept ATA commands since the recent commit \"ide: Reject ATA commands\nspecific to drive kinds\", checking in atapi.c suffices.\n\nSigned-off-by: Markus Armbruster <armbru@redhat.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/9f3f13ef7260366c429b1012.diff.gz",
+  "diff_bytes": 4242,
+  "diff_sha256": "016142912946becb08d5585e6357c0663874081805e7f0213fd6c95b6d6e2800",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:41.811099+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

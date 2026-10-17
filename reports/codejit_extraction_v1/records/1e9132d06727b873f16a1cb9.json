@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libhevc",
+  "commit_id": "1ab5ce7e42feccd49e49752e6f58f9097ac5d254",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Handle invalid num_reorder_pics & max_dec_pic_buffering in SPS\n\nBug: 33864300\nChange-Id: I920e45c3420a1a41a366ad45bd4186c5f6af6d6b",
+  "patch_path": "reports/codejit_extraction_v1/records/1e9132d06727b873f16a1cb9.diff.gz",
+  "diff_bytes": 936,
+  "diff_sha256": "14076b51d84ab664d68e2387064159531e80479d22598ff270a0c4dd3c58b3c4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:26.594169+00:00",
+  "url": "https://android.googlesource.com/platform/external/libhevc"
+}

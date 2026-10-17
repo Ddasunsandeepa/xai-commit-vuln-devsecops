@@ -1,0 +1,16 @@
+{
+  "repo": "mariadb___server",
+  "commit_id": "6e4920164426543082d02cde4c60bd29cbd54f99",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix compilation warnings in -DWITH_WSREP=OFF build.",
+  "patch_path": "reports/codejit_extraction_v1/records/2431759bc315a22b84b500d0.diff.gz",
+  "diff_bytes": 1034,
+  "diff_sha256": "b08b4c438fcaf4be922563ba7b863c88bd2c49e554d33eec0eb241734a3aac5b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:18.097574+00:00",
+  "url": "https://github.com/mariadb/server.git"
+}

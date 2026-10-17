@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "9820e3df8aa54aa7ebc9831da7dc30abe3926cd6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a segfault in the new mboxcache hcache lookup.\nidata may not have an associated context, so the cache path must use\nthe account info instead. For harmony with the other hcache callers,\nmake them all canonify the path the same way with imap_hcache_open.",
+  "patch_path": "reports/codejit_extraction_v1/records/771a1061884aa873c8a82b19.diff.gz",
+  "diff_bytes": 3092,
+  "diff_sha256": "6cb69b3ac989b8ea89b32c237e67f0ba0e0a1dcdb15b50f2bcfe44bc8725dd7e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:40.314515+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

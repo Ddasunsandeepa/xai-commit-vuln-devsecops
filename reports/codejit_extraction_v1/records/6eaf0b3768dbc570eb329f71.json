@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "297ae873b471a46929ea39697b121c0b411434ee",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Custom buttons should only handle accelerators when focused.\n\nBUG=541415\n\nReview URL: https://codereview.chromium.org/1437523005\n\nCr-Commit-Position: refs/heads/master@{#360130}",
+  "patch_path": "reports/codejit_extraction_v1/records/6eaf0b3768dbc570eb329f71.diff.gz",
+  "diff_bytes": 5398,
+  "diff_sha256": "905752a2af450034315579eee5257bd5e6ac8667fc7ae17fc6d0097ec7d3b0e9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:41:33.111216+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

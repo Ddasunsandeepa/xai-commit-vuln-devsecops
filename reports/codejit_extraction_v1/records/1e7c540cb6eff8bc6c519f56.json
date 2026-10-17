@@ -1,0 +1,16 @@
+{
+  "repo": "dovecot___core",
+  "commit_id": "000030feb7a30f193197f1aab8a7b04a26b42735",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "auth: Do not double-expand key in passdb dict when authenticating\n\nBroken by 79042f8c",
+  "patch_path": "reports/codejit_extraction_v1/records/1e7c540cb6eff8bc6c519f56.diff.gz",
+  "diff_bytes": 676,
+  "diff_sha256": "6e681610e87899cb3cdd49816e84e2f6f092cdbbace7d352f2eec016b3e92735",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:12.328454+00:00",
+  "url": "https://github.com/dovecot/core.git"
+}

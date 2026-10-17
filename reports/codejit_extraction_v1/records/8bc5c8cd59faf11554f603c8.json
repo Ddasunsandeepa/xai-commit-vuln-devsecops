@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "30d77e2c75c1973f9fb363717af92cf640685da3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix potential buffer overrun\n\nThe \"samples\" parameter indicates the max number of sample tuples, not\nthe max number of samples.\n\nBug: 16183063\nChange-Id: I5347497bbbe65910b8489d354e985ebc90d65516",
+  "patch_path": "reports/codejit_extraction_v1/records/8bc5c8cd59faf11554f603c8.diff.gz",
+  "diff_bytes": 685,
+  "diff_sha256": "8269fe2862c3cda8f1d4b95f7df195d7e5c449542e8e9da41e403606d6fc3a2d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:52.755068+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

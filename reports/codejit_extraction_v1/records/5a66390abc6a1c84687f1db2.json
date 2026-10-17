@@ -1,0 +1,16 @@
+{
+  "repo": "samtools___htslib",
+  "commit_id": "dcd4b7304941a8832fba2d0fc4c1e716e7a4e72c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix check for VCF record size\n\nThe check for excessive record size in vcf_parse_format() only\nlooked at individual fields.  It was therefore possible to\nexceed the limit and overflow fmt_aux_t::offset by having\nmultiple fields with a combined size that went over INT_MAX.\nFix by including the amount of memory used so far in the check.\n\nCredit to OSS-Fuzz\nFixes oss-fuzz 24097",
+  "patch_path": "reports/codejit_extraction_v1/records/5a66390abc6a1c84687f1db2.diff.gz",
+  "diff_bytes": 1061,
+  "diff_sha256": "c521e7d14bc972184e4b7ea53ea3188cf4f4f65b92d34f0c226f57a6a2d017d7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:28.249957+00:00",
+  "url": "https://github.com/samtools/htslib.git"
+}

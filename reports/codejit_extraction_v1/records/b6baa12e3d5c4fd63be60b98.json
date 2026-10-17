@@ -1,0 +1,16 @@
+{
+  "repo": "fluent___fluent-bit",
+  "commit_id": "69def19f264e4ca25c98adedfd141094d40903e2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "json parser: Fix null-dereference (oss-fuzz 27764)\n\nSigned-off-by: davkor <david@adalogics.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/b6baa12e3d5c4fd63be60b98.diff.gz",
+  "diff_bytes": 698,
+  "diff_sha256": "b48f13bef0b67ca34aef2b378dcce14ad83a932e4e995b9664b17efa8c635af5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:23.360949+00:00",
+  "url": "https://github.com/fluent/fluent-bit.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "curl___curl",
+  "commit_id": "ba1dbd78e5f1ed67c1b8d37ac89d90e5e330b628",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "smtp: use the upload buffer size for scratch buffer malloc\n\n... not the read buffer size, as that can be set smaller and thus cause\na buffer overflow! CVE-2018-0500\n\nReported-by: Peter Wu\nBug: https://curl.haxx.se/docs/adv_2018-70a2.html",
+  "patch_path": "reports/codejit_extraction_v1/records/9cfdf49bb53a866c42973f02.diff.gz",
+  "diff_bytes": 630,
+  "diff_sha256": "77e38030ddfcf421ab6592e5f43a5f9a299ffd1a9f7f02113d7ac40feab9db34",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:53:00.451077+00:00",
+  "url": "https://github.com/curl/curl.git"
+}

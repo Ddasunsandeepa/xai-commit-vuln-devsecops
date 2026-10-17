@@ -1,0 +1,16 @@
+{
+  "repo": "minetest___minetest",
+  "commit_id": "ac8ac191691a13162667314358e96f07a65d0d1a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Protect mg_name and mg_flags from being set by Lua (#11010)",
+  "patch_path": "reports/codejit_extraction_v1/records/45363e50ce8bfc990bc19300.diff.gz",
+  "diff_bytes": 3053,
+  "diff_sha256": "63106f30e60b2873baeef53e88ae45a04e5abc78e10173a973cfd673d374fa1a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:01.839056+00:00",
+  "url": "https://github.com/minetest/minetest.git"
+}

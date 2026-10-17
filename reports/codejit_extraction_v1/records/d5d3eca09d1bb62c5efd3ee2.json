@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "7ba1409a1aee5925180de546057ddd84ff267947",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #67716 - Segfault in cdf.c",
+  "patch_path": "reports/codejit_extraction_v1/records/d5d3eca09d1bb62c5efd3ee2.diff.gz",
+  "diff_bytes": 927,
+  "diff_sha256": "a15d65612fb378c3188dd0de61244bd56416ad3a145823ee1f05d19d82fcbc84",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:04.871115+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

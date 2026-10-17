@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "fa1db5785e5cfd9d3cd27b7571b9fe268d2ec2dc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix seqset iterator when it ends in a comma\n\nIf the seqset ended with a comma, the substr_end marker would be just\nbefore the trailing nul.  In the next call, the loop to skip the\nmarker would iterate right past the end of string too.\n\nThe fix is simple: place the substr_end marker and skip past it\nimmediately.",
+  "patch_path": "reports/codejit_extraction_v1/records/a1fa31832ec1a97a1479f0e4.diff.gz",
+  "diff_bytes": 610,
+  "diff_sha256": "4bd6901d68399500d5c57ca4f61da4ac649226975c9a1dd1ca4bd3d1800807d1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:51.099121+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

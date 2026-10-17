@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "b3679121bb3c7017ff04b4c08402ffff5cf59b13",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix buffer overrun in SimpleParser::handleBackslash\n\nSummary:\nIt read 4 chars, then checked for validity, but any of them could have\nbeen the end of the string, so check after each one instead.\n\nReviewed By: oulgen\n\nDifferential Revision: D19611163\n\nfbshipit-source-id: 3da0a39555cb85a93f4fd98048368f17cf37e2e4",
+  "patch_path": "reports/codejit_extraction_v1/records/e4078d4f9ac76472fec2d46b.diff.gz",
+  "diff_bytes": 1557,
+  "diff_sha256": "276b836676c6bd63d3c4360bf11bc01a43cf0b2c3e1b902f73d9bbcd97200bad",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:41.805041+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

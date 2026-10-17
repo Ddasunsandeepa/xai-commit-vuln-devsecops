@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "a15bffd105ac28fd0dd9b596632dbf035238fda3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #73807",
+  "patch_path": "reports/codejit_extraction_v1/records/32f3386e8011e1ae0d5bfdfc.diff.gz",
+  "diff_bytes": 1616,
+  "diff_sha256": "9782b1eff92f597bbd1f47632d6c06f31a4df8c9905c31fbe8f94a2032cd9438",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:20.252753+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

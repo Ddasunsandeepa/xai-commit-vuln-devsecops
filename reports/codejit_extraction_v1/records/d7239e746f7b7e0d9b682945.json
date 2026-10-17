@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "423b4b719afd5ef4e6e19d8447fbf7b6bc0d0a25",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "CVE-2016-1000109: Ignore Proxy HTTP header from fastcgi requests\n\nSummary:\nThe default PHP behavior is to transform a Proxy header from requests\ninto the HTTP_PROXY environment variable in the PHP environment running the\nrequest. Some scripts may use this env var to decide which HTTP proxy to\nconnect to, and we don't want requests to have that kind of control over\nscripts' behavior.\n\nReviewed By: alexmalyshev, Orvid\n\nDifferential Revision: D3579221\n\nfbshipit-source-id: 18a405fd73aee65283aea99ff995f8082b3fc3b5",
+  "patch_path": "reports/codejit_extraction_v1/records/d7239e746f7b7e0d9b682945.diff.gz",
+  "diff_bytes": 753,
+  "diff_sha256": "03a5618775c5e937fa0b6a26f7b8ab6482db871f1edabad87e14ed4308122b0e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:55:07.894473+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

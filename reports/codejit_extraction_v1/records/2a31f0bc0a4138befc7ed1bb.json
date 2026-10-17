@@ -1,0 +1,16 @@
+{
+  "repo": "jeromerobert___k4dirstat",
+  "commit_id": "7764f65081879d8b6c77533d9621f46b102a7552",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix rm -rf call\n\n* Do not delete the whole parent directory when deleting a file containing\n a $ in its name.\n* https://github.com/thomas-joiner/k4dirstat/issues/1\n* Fix 4940714",
+  "patch_path": "reports/codejit_extraction_v1/records/2a31f0bc0a4138befc7ed1bb.diff.gz",
+  "diff_bytes": 1488,
+  "diff_sha256": "7fadd9a9346033ebea3b57c1bf3e3cda0ede58e271e6c23f1bc6947a929c5863",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:57.690003+00:00",
+  "url": "https://github.com/jeromerobert/k4dirstat.git"
+}

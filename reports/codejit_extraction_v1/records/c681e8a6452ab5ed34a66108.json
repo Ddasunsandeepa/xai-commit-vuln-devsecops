@@ -1,0 +1,16 @@
+{
+  "repo": "academysoftwarefoundation___openexr",
+  "commit_id": "6bb36714528a9563dd3b92720c5063a1284b86f8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for #494: validate tile coordinates when doing copyPixels",
+  "patch_path": "reports/codejit_extraction_v1/records/c681e8a6452ab5ed34a66108.diff.gz",
+  "diff_bytes": 670,
+  "diff_sha256": "b18764bfe4e4c26b73a26f3afa30ba45c5dd87dd2f3e86dde542c02fa77abb52",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:05.629876+00:00",
+  "url": "https://github.com/academysoftwarefoundation/openexr.git"
+}

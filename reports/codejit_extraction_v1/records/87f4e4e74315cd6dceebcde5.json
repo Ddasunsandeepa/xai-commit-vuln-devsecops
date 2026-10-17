@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "93a94803ee65469cc882f39d3916b190f8b5ed18",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Added many additional debug log messages in the I/O stream code as well\nas the JPEG decoder.",
+  "patch_path": "reports/codejit_extraction_v1/records/87f4e4e74315cd6dceebcde5.diff.gz",
+  "diff_bytes": 9146,
+  "diff_sha256": "06436adefa09a068d242c3d45c64448aece31fa5ce27c84535b00ca698f7cfb4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:44.158112+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

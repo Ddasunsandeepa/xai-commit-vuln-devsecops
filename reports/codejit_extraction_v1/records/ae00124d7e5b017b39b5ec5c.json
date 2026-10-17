@@ -1,0 +1,16 @@
+{
+  "repo": "perl5-dbi___dbd-mysql",
+  "commit_id": "39ee21c06928bd2b28bea237dd32ded5e05e3d10",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "* Removed all dbis->debug replaced with DBIc_TRACE_LEVEL\n* Test cleanups\n* Removed execess debug code\n* Changed version\n\n\ngit-svn-id: https://svn.perl.org/modules/DBD-mysql/trunk@9626 50811bd7-b8ce-0310-adc1-d9db26280581",
+  "patch_path": "reports/codejit_extraction_v1/records/ae00124d7e5b017b39b5ec5c.diff.gz",
+  "diff_bytes": 86424,
+  "diff_sha256": "8c4303a370329934f7377ff3b0e4a20d96bc697cae2b82918f717740ec43e97c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:56.334738+00:00",
+  "url": "https://github.com/perl5-dbi/dbd-mysql.git"
+}

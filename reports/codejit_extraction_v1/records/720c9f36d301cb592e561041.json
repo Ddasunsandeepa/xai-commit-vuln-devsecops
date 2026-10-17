@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "a9a1105d923912a27546e5a8940ec1ddc19cd1be",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Big endian fixes (#535)\n\n* Use union instead of PTR_TO_INT64 when emitting bytecode\n\nOn big-endian architectures, this fixes pointer dereference problems\n\n* Fix interpretation of SIZED_STRING in module function argument list\n\n* Add macros for mapping BE/LE encoded integers to host byte order\n\nChaange int16, uint32be etc. and legacy entrypoint operations to use\nthose macros -- this fixes YARA's behavior on big-endian architectures.\n\n* Change tests related to PE files\n\nThe pe module is not suitable for big-endian architectures yet.\n\n* Rebuild lexer, parser",
+  "patch_path": "reports/codejit_extraction_v1/records/720c9f36d301cb592e561041.diff.gz",
+  "diff_bytes": 127748,
+  "diff_sha256": "45cfd2aafd0f9fd7f2f5e44bcba4d365478a6e1d3331181f347de0ee452e2dbb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:46.756960+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

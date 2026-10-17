@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "dd28d8ddf2985d654781770c691c60b45d7f32b4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE AVRC: Copy browse.p_browse_data in btif_av_event_deep_copy\n\np_msg_src->browse.p_browse_data is not copied, but used after the\noriginal pointer is freed\n\nBug: 109699112\nTest: manual\nChange-Id: I1d014eb9a8911da6913173a9b11218bf1c89e16e\n(cherry picked from commit 1d9a58768e6573899c7e80c2b3f52e22f2d8f58b)",
+  "patch_path": "reports/codejit_extraction_v1/records/59f720cf21380b3683dc640f.diff.gz",
+  "diff_bytes": 1317,
+  "diff_sha256": "75affd8f487057a348369f1f323de4142c03b9cc6cc78148ad6853e07f9e608c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:23.552145+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

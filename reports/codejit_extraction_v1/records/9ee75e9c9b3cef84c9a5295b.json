@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "60c4d957db5e18da39ec943f15171547b53305d6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Reject Multiple seq_hdr With Different Dimensions\n\nIf the decoder gets multiple sequence headers and there is a change in\nresolution in the second header (after a reset call), the decoder will now\nreturn an error.\n\nBug: 65717533\nTest: poc before/after on mnc-dev/hammerhead\nChange-Id: I4cb9a5f945fc1150f8ae0714bae4a87b07f0945f",
+  "patch_path": "reports/codejit_extraction_v1/records/9ee75e9c9b3cef84c9a5295b.diff.gz",
+  "diff_bytes": 3527,
+  "diff_sha256": "2901c229b12774f1ce646904729e6bab26e73fbd379de1b862a990b35d19e727",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:28.789196+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

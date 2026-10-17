@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "d0ebb538599cc25726b856e0f5deeb8215db8c92",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "audioflinger: add effect config status check\n\nCheck the result of the effect engine configuration command\nand do not attempt to send parameters to, enable, or process\nthe effect if configuration fails.\n\nBug 8512027\n\nChange-Id: I8c78a05d79fba36b1a387aa5cf2700612301ac91",
+  "patch_path": "reports/codejit_extraction_v1/records/b6b868051b566f83a08a57aa.diff.gz",
+  "diff_bytes": 6026,
+  "diff_sha256": "30d1877f2cf0069e5294bf328ccaa564c2144b67f85ed53a226dd3a5ec9c0a3e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:15.612109+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

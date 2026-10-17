@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "6045de69c7dedcba3eadf7c4bba424b19c81d00d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #73331 - do not try to serialize/unserialize objects wddx can not handle\n\nProper soltion would be to call serialize/unserialize and deal with the result,\nbut this requires more work that should be done by wddx maintainer (not me).",
+  "patch_path": "reports/codejit_extraction_v1/records/d242730a3811003cf4b02918.diff.gz",
+  "diff_bytes": 6638,
+  "diff_sha256": "240129f40118e34420b44630c3c71dc54fc639390b852cde053c2216f1f8ed4b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:31.064429+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

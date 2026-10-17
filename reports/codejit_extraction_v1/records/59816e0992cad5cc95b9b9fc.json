@@ -1,0 +1,16 @@
+{
+  "repo": "adrienverge___openfortivpn",
+  "commit_id": "ba14a06fa619e19aff6dc5cca1226aab006acb5b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use X509_check_host instead of explicit CN match. (#242)\n\nUse X509_check_host instead of explicit CN match.\n(This will allow SAN matches as well).",
+  "patch_path": "reports/codejit_extraction_v1/records/59816e0992cad5cc95b9b9fc.diff.gz",
+  "diff_bytes": 2558,
+  "diff_sha256": "2f6fe56d8ee9f16b7dc63804c995fc2fc34c56f5eef34f91560e96bdfa70734e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:13.628453+00:00",
+  "url": "https://github.com/adrienverge/openfortivpn.git"
+}

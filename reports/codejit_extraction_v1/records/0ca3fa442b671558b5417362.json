@@ -1,0 +1,16 @@
+{
+  "repo": "oisf___suricata",
+  "commit_id": "9f0294fadca3dcc18c919424242a41e01f3e8318",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "stream: fix SYN_SENT RST/FIN injection\n\nRST injection during the SYN_SENT state could trick Suricata into marking\na session as CLOSED. The way this was done is: using invalid TSECR value\nin RST+ACK packet. The ACK was needed to force Linux into considering the\nTSECR value and compare it to the TSVAL from the SYN packet.\n\nThe second works only against Windows. The client would not use a TSVAL\nbut the RST packet would. Windows will reject this, but Suricata considered\nthe RST valid and triggered the CLOSED logic.\n\nThis patch addresses both. When the SYN packet used timestamp support\nthe timestamp of incoming packet is validated. Otherwise, packet responding\nshould not have a timestamp.\n\nBug #3286\n\nReported-by: Nicolas Adba",
+  "patch_path": "reports/codejit_extraction_v1/records/0ca3fa442b671558b5417362.diff.gz",
+  "diff_bytes": 1978,
+  "diff_sha256": "7b978357ba26cb2f8e4dd614255fc38c160e5e983c4dc54a858a926cd61da39c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:49.625776+00:00",
+  "url": "https://github.com/oisf/suricata.git"
+}

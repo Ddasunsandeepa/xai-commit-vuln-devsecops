@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___pam_p11",
+  "commit_id": "c3f0f54e148e0866869a2ff67aab20db2a1949af",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add compatibility for cards without certificates\n\ni.e. OpenPGP card in particular",
+  "patch_path": "reports/codejit_extraction_v1/records/861a8e52f79bca839bf4c290.diff.gz",
+  "diff_bytes": 6517,
+  "diff_sha256": "9eaa3db96e4947c768f70f4ceda53d506b06fa19f4f067410f45f1690a27ec1b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:05.383637+00:00",
+  "url": "https://github.com/opensc/pam_p11.git"
+}

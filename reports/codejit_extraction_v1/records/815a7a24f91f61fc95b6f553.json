@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "7a25fcd056ddd34ee7abc906c957d252e2889461",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "block/mirror: Fix use-after-free\n\nIf @bs does not have any parents, the only reference to @mirror_top_bs\nwill be held by the BlockJob object after the bdrv_unref() following\nblock_job_create(). However, if block_job_create() fails, this reference\nwill not exist and @mirror_top_bs will have been deleted when we\ngoto fail.\n\nThe issue comes back at all later entries to the fail label: We delete\nthe BlockJob object before rolling back our changes to the node graph.\nThis means that we will delete @mirror_top_bs in the process.\n\nAll in all, whenever @bs does not have any parents and we go down the\nfail path we will dereference @mirror_top_bs after it has been deleted.\n\nFix this by invoking bdrv_unref() only when block_job_create() was\nsuccessful and by bdrv_ref()'ing @mirror_top_bs in the fail path before\ndeleting the BlockJob object. Finally, bdrv_unref() it at the end of the\nfail path after we actually no longer need it.\n\nSigned-off-by: Max Reitz <mreitz@redhat.com>\nReviewed-by: John Snow <jsnow@redhat.com>\nReviewed-by: Philippe Mathieu-Daudé <f4bug@amsat.org>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/815a7a24f91f61fc95b6f553.diff.gz",
+  "diff_bytes": 1830,
+  "diff_sha256": "86c81f1cae54d134fee133a0967d995e9df7382239aec364c8c231871813a4de",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:02.273286+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

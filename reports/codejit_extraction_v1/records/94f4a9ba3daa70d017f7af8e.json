@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "36a29280448097f34ce9c94606195f2ac643fed1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Handle NO response without message properly",
+  "patch_path": "reports/codejit_extraction_v1/records/94f4a9ba3daa70d017f7af8e.diff.gz",
+  "diff_bytes": 375,
+  "diff_sha256": "95e04b7bb58bcbb661554f230e9fb99d031b63b76de2fca57c661c175a79368f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:28.303265+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

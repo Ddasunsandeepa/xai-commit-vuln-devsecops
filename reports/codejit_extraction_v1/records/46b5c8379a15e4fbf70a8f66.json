@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "53110871935244816bbb9d131da0bccff734bfe9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid potentially dangerous signed to unsigned conversion\n\nWe make sure to never pass a negative `rlen` as size to memcpy(). See\nalso <https://bugs.php.net/bug.php?id=73280>.\n\nPatch provided by Emmanuel Law.",
+  "patch_path": "reports/codejit_extraction_v1/records/46b5c8379a15e4fbf70a8f66.diff.gz",
+  "diff_bytes": 421,
+  "diff_sha256": "8c4d5653f05596a9e2a9556c6c98fedae94e90304cd403ea31d927348514429e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:57.974140+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "openenclave___openenclave",
+  "commit_id": "bcac8e7acb514429fee9e0b5d0c7a0308fd4d76b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge pull request from GHSA-525h-wxcc-f66m\n\nSigned-off-by: Ming-Wei Shih <mishih@microsoft.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/df964c29331f4264f16610c8.diff.gz",
+  "diff_bytes": 46010,
+  "diff_sha256": "fcef24dee6c82076c5e210e11ed6e0a0f33992e5eee600f2ce99a000315eba5e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:52.037098+00:00",
+  "url": "https://github.com/openenclave/openenclave.git"
+}

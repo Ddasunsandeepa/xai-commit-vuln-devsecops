@@ -1,0 +1,16 @@
+{
+  "repo": "mjg59___pupnp-code",
+  "commit_id": "be0a01bdb83395d9f3a5ea09c1308a4f1a972cbd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't allow unhandled POSTs to write to the filesystem by default\n\nIf there's no registered handler for a POST request, the default behaviour\nis to write it to the filesystem. Several million deployed devices appear\nto have this behaviour, making it possible to (at least) store arbitrary\ndata on them. Add a configure option that enables this behaviour, and change\nthe default to just drop POSTs that aren't directly handled.",
+  "patch_path": "reports/codejit_extraction_v1/records/241b3957d4f4ae4a07c256d2.diff.gz",
+  "diff_bytes": 1520,
+  "diff_sha256": "4f4f5f429368e8fcc05aff3cce8aeb1b67476810903b08a06857d6dcd66cbc1d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:35.759345+00:00",
+  "url": "https://github.com/mjg59/pupnp-code.git"
+}

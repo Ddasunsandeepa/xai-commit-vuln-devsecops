@@ -1,0 +1,16 @@
+{
+  "repo": "antonkueltz___fastecdsa",
+  "commit_id": "18fb5e416066ea46fe9ad81e475184fff88cdbcf",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "clean up point multiplication to check bits rather than doing mpz to str conversion",
+  "patch_path": "reports/codejit_extraction_v1/records/2c47454824c4ed430a025778.diff.gz",
+  "diff_bytes": 1574,
+  "diff_sha256": "21f9e8a57cd954e625ae2e82bf872ea1ed35e6a72f2946fe38aa7c39f9e72445",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:30.733679+00:00",
+  "url": "https://github.com/antonkueltz/fastecdsa.git"
+}

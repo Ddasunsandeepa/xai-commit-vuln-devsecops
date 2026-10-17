@@ -1,0 +1,16 @@
+{
+  "repo": "ccxvii___mujs",
+  "commit_id": "1e5479084bc9852854feb1ba9bf68b52cd127e02",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug 700947: Add missing ENDTRY opcode in try/catch/finally byte code.\n\nIn one of the code branches in handling exceptions in the catch block\nwe forgot to call the ENDTRY opcode to pop the inner hidden try.\nThis leads to an unbalanced exception stack which can cause a crash\ndue to us jumping to a stack frame that has already been exited.",
+  "patch_path": "reports/codejit_extraction_v1/records/efbce46d8f94530bddfb103a.diff.gz",
+  "diff_bytes": 443,
+  "diff_sha256": "355502279da9b53432a65e284ea10dc05337a02830dc86b7e8726b02d45ed9e6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:58.706809+00:00",
+  "url": "https://github.com/ccxvii/mujs.git"
+}

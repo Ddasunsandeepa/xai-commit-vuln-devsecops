@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "1f91e076a585118495b976a413c1df40f6fd3d41",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix integer overflow in chunk_split\n\nReviewed By: @ptarjan\n\nDifferential Revision: D1515947",
+  "patch_path": "reports/codejit_extraction_v1/records/006017e3f78fbe74cc149e79.diff.gz",
+  "diff_bytes": 1372,
+  "diff_sha256": "a5ad03504e8f636f8d0c1642f339a9c35315fd43ccddcfbf092e8953bda2c387",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:47.312171+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

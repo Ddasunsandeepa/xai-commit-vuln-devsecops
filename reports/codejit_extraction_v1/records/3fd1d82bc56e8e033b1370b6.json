@@ -1,0 +1,16 @@
+{
+  "repo": "bagder___curl",
+  "commit_id": "a50210710ab6fd772e2762ed36602c15adfb49e1",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix bool variables checking and assignment",
+  "patch_path": "reports/codejit_extraction_v1/records/3fd1d82bc56e8e033b1370b6.diff.gz",
+  "diff_bytes": 41366,
+  "diff_sha256": "a880cf929add452d581f452ac61ad982f101a76ccd9dc055b37322a6189baff5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:08.249627+00:00",
+  "url": "https://github.com/bagder/curl.git"
+}

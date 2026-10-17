@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "4859d69e07504d4b0a4bdf9bcb4d9e3769ca35ae",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix invalid read in gdImageCreateFromTiffPtr()\n\ntiff_invalid_read.tiff is corrupt, and causes an invalid read in\ngdImageCreateFromTiffPtr(), but not in gdImageCreateFromTiff(). The culprit\nis dynamicGetbuf(), which doesn't check for out-of-bound reads. In this case,\ndynamicGetbuf() is called with a negative dp->pos, but also positive buffer\noverflows have to be handled, in which case 0 has to be returned (cf. commit\n75e29a9).\n\nFixing dynamicGetbuf() exhibits that the corrupt TIFF would still create\nthe image, because the return value of TIFFReadRGBAImage() is not checked.\nWe do that, and let createFromTiffRgba() fail if TIFFReadRGBAImage() fails.\n\nThis issue had been reported by Ibrahim El-Sayed to security@libgd.org.\n\nCVE-2016-6911",
+  "patch_path": "reports/codejit_extraction_v1/records/0061bee10dbd35250c2efdd3.diff.gz",
+  "diff_bytes": 7322,
+  "diff_sha256": "b20996923d731a1e6b5ecef1440da2061e1b239d7f5ee5408f4ab5cf72b58e25",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:55.571811+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

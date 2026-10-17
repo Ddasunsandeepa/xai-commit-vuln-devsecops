@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___folly",
+  "commit_id": "c321eb588909646c15aefde035fd3133ba32cdee",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Handle close_notify as standard writeErr in AsyncSSLSocket.\n\nSummary: Fixes CVE-2019-11934\n\nReviewed By: mingtaoy\n\nDifferential Revision: D18020613\n\nfbshipit-source-id: db82bb250e53f0d225f1280bd67bc74abd417836",
+  "patch_path": "reports/codejit_extraction_v1/records/6b6ee0499dc45d1b70244ba3.diff.gz",
+  "diff_bytes": 5227,
+  "diff_sha256": "75da3a70daa04c653aba29b910b06ff1a424c13df976238bbe01b085420997ca",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:54:27.242383+00:00",
+  "url": "https://github.com/facebook/folly.git"
+}

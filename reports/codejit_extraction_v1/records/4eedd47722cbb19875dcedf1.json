@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "85a2dd977cad3e21b475abbedeb795989207b8db",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "NDOize DCCP, Linux socket and RPKI-Router decoders",
+  "patch_path": "reports/codejit_extraction_v1/records/4eedd47722cbb19875dcedf1.diff.gz",
+  "diff_bytes": 29968,
+  "diff_sha256": "8c351a50fd5ee3b4c1f7cfe2cdcf17ef99c6237f2665022701e9f0b0bb4b2ac9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:36.353180+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

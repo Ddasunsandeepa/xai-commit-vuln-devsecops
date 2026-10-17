@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "fceb080490427ddcc2447ccf1339b5099110f05e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Reduce variable scope - pop.c",
+  "patch_path": "reports/codejit_extraction_v1/records/18378010a4bc0ff00d3a140e.diff.gz",
+  "diff_bytes": 3696,
+  "diff_sha256": "ed2ad28fa035052f1dfd1b91654168836a54e2bc8b505099394674cef8ea70a9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:52.900501+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

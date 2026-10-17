@@ -1,0 +1,16 @@
+{
+  "repo": "blosc___c-blosc2",
+  "commit_id": "2d328439f9ea58b7516bc2a8fa37892fd28fed14",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Update code variables and documentation to use compressed data streams terminology where appropriate.",
+  "patch_path": "reports/codejit_extraction_v1/records/ceda468725e565862eaf3217.diff.gz",
+  "diff_bytes": 4531,
+  "diff_sha256": "2a253e9328df9ecd0db07f0d56ea12dfd120386ac065ece480eeafdfdce06b3d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:25.366450+00:00",
+  "url": "https://github.com/blosc/c-blosc2.git"
+}

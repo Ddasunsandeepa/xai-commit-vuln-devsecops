@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "34affe7a63fc5d842580a9f23616d057e17dfe27",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug: 'luaD_callnoyield' called twice in a row\n\nIn luaD_callnoyield, when there is a possible stack overflow, it\nzeros the number of CallInfos to force a check when calling the\nfunction. However, if the \"function\" is not a function, the code will\nraise an error before checking the stack. Then, the error handling calls\nluaD_callnoyield again and nCcalls is decremented again, crossing the\nstack redzone without raising an error. (This loop can only happens\nonce, because the error handler must be a function.  But once is enough\nto cross the redzone.)",
+  "patch_path": "reports/codejit_extraction_v1/records/4eaa0ff3a6b538041a26ddb5.diff.gz",
+  "diff_bytes": 817,
+  "diff_sha256": "f69d4e1becdf154b3bce09d65fd125ee17506e9a32ce60e7ab1c426408987e21",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:46.527822+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

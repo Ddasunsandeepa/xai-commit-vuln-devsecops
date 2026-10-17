@@ -1,0 +1,16 @@
+{
+  "repo": "libreswan___libreswan",
+  "commit_id": "2899351224fe2940aec37d7656e1e392c0fe07f0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "SECURITY: Properly handle IKEv2 I1 notification packet without KE payload",
+  "patch_path": "reports/codejit_extraction_v1/records/c9ef504bea865bbf88c7445c.diff.gz",
+  "diff_bytes": 2568,
+  "diff_sha256": "c03b5b3e580db483f81c8cd7882b767eb29249539ec236a0ee46d7c469a3fbdd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:09.006407+00:00",
+  "url": "https://github.com/libreswan/libreswan.git"
+}

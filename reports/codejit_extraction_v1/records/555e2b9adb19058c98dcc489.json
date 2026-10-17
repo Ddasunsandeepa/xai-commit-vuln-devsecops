@@ -1,0 +1,16 @@
+{
+  "repo": "muttmua___mutt",
+  "commit_id": "e57a8602b45f58edf7b3ffb61bb17525d75dfcb1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Verify IMAP status mailbox literal count size.\n\nEnsure the length isn't bigger than the idata->buf.\n\nThanks to Jeriko One fo the bug report and patch, which this commit is\nbased upon.",
+  "patch_path": "reports/codejit_extraction_v1/records/555e2b9adb19058c98dcc489.diff.gz",
+  "diff_bytes": 459,
+  "diff_sha256": "f5788aa2e489442bf26fc0e138f6e8f05d3367345170be3462ca1785e3720b98",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:04.721432+00:00",
+  "url": "https://github.com/muttmua/mutt.git"
+}

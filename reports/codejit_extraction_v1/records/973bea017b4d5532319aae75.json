@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "ba2b9d000660313af7b692542afbd374c5685865",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Ensure that not all tiles lie outside the image area.",
+  "patch_path": "reports/codejit_extraction_v1/records/973bea017b4d5532319aae75.diff.gz",
+  "diff_bytes": 998,
+  "diff_sha256": "502299c92375945c494444ed5a151d024bfcec91703f6cf3546d64b5ab8cb5e0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:45.675031+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

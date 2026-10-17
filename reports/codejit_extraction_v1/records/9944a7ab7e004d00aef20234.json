@@ -1,0 +1,16 @@
+{
+  "repo": "memcached___memcached",
+  "commit_id": "d9cd01ede97f4145af9781d448c62a3318952719",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Use strncmp when checking for large ascii multigets.",
+  "patch_path": "reports/codejit_extraction_v1/records/9944a7ab7e004d00aef20234.diff.gz",
+  "diff_bytes": 512,
+  "diff_sha256": "8618b4e5715b2f769f09918094dc7368e9b894ba1a09fc667416cdb03c6b32c2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:52.380638+00:00",
+  "url": "https://github.com/memcached/memcached.git"
+}

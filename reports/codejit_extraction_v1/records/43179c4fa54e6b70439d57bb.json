@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "83b356e177deb463d4b00917303947b4ab713be2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't overwrite the destination IPv6 address for routing headers.\n\nIf we have a routing header, instead of overwriting the packet's IPv6\ndestination address in the packet with the final destination, so that\nthe next protocol's checksum routine can use it, we do as we do for\nIPv4, and, in the \"next protocol checksum\" routine, scan the headers\nlooking for a routing header and, if we find one, copy the final\ndestination from it.\n\nWhile we're at it, clean up a few things.",
+  "patch_path": "reports/codejit_extraction_v1/records/43179c4fa54e6b70439d57bb.diff.gz",
+  "diff_bytes": 13357,
+  "diff_sha256": "fa364624872ec7fbc589895b9351cbc295d829d51f868608dfad9f675c5e9d58",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:35.868095+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

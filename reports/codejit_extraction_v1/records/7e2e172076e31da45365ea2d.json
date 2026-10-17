@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "0b06c05979075cbf224724f5ac1a3f4d713ccdd8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "scsi-disk: restruct emulation: INQUIRY\n\nMove INQUIRY emulation from scsi_send_command() to\nscsi_disk_emulate_command().  Also split the longish INQUITY emulation\ncode into the new scsi_disk_emulate_inquiry() function.  Serial number\nhandling is slightly changed, we don't copy it any more but look it up\ndirectly in DriveInfo which we have at hand anyway.\n\nSigned-off-by: Gerd Hoffmann <kraxel@redhat.com>\nSigned-off-by: Anthony Liguori <aliguori@us.ibm.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/7e2e172076e31da45365ea2d.diff.gz",
+  "diff_bytes": 12850,
+  "diff_sha256": "2242ca3a725dbd2a5fb30fe72e14c77171890f7c3e81ff23f0e8cb3223cccecd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:33.781026+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

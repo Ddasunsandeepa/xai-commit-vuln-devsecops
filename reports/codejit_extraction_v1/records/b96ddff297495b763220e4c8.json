@@ -1,0 +1,16 @@
+{
+  "repo": "serenityos___serenity",
+  "commit_id": "b7589ff4b64c460ce5993552f777c067c5603236",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "LibCrypto: Move large functions to cpp file\n\nIf they use up so much stack space, contain (sometimes several) loops, and take\na noticable amount of time anyway, then 'inline' is probably going to be ignored\nby the compiler anyway.",
+  "patch_path": "reports/codejit_extraction_v1/records/b96ddff297495b763220e4c8.diff.gz",
+  "diff_bytes": 26374,
+  "diff_sha256": "6c8cc284c801166811449ada79d638e09e6af1443f9ef743bf145d30d5d0a4ea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:51.215358+00:00",
+  "url": "https://github.com/serenityos/serenity.git"
+}

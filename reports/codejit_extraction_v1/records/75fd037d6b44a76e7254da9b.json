@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "e86605c0a336c088b638da02135ea6f9f6753618",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix FPE in inpace update ops.\n\nPiperOrigin-RevId: 388303197\nChange-Id: Ib48309b6213ffe53eba81004b00e889d653e4b83",
+  "patch_path": "reports/codejit_extraction_v1/records/75fd037d6b44a76e7254da9b.diff.gz",
+  "diff_bytes": 586,
+  "diff_sha256": "cf03b7cdac84aa4f208252d7c670b540431389875620846eb857ee661685f17d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:34:51.723062+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

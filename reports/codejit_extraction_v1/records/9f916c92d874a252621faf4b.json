@@ -1,0 +1,16 @@
+{
+  "repo": "strukturag___libheif",
+  "commit_id": "e89fbbe0705a4b8e755f148fd4c4c84007295d16",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Detect and handle recursive image references.\n\nCredit to OSS-Fuzz\nhttps://bugs.chromium.org/p/oss-fuzz/issues/detail?id=13642",
+  "patch_path": "reports/codejit_extraction_v1/records/9f916c92d874a252621faf4b.diff.gz",
+  "diff_bytes": 2364,
+  "diff_sha256": "14e60d5584eb23431b13d7bf118d70738de14105238bda64703bfa35e0637e44",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:46.306701+00:00",
+  "url": "https://github.com/strukturag/libheif.git"
+}

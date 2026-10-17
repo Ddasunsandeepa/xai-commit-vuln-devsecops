@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "7a282fb64fef25349e9d341f102d9cea3bf75baf",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Also fix out of bounds access for normal read\n\nPrevious fix accidentally only fixed the fragmented read case.\n\nBug: 27208621\nChange-Id: Ie16f1920b84c8aba613842659238fcd5925694ad",
+  "patch_path": "reports/codejit_extraction_v1/records/2f90a7219bbb5549edc9fc2b.diff.gz",
+  "diff_bytes": 944,
+  "diff_sha256": "fcfd1acc4e76dd05aa9fe54a96ee24da58bcb1d545de572649d0059c833bad81",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:59.649418+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "dbe6c320b414d8139c46aaf880d5f154ef4f9af8",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "HDCP: buffer over flow check -- DO NOT MERGE\n\nbug: 20222489\nChange-Id: I3a64a5999d68ea243d187f12ec7717b7f26d93a3\n(cherry picked from commit 532cd7b86a5fdc7b9a30a45d8ae2d16ef7660a72)",
+  "patch_path": "reports/codejit_extraction_v1/records/a9560ca68c4aef5bb7600077.diff.gz",
+  "diff_bytes": 1403,
+  "diff_sha256": "ac2daec60c4feea468a0b43f04d5d87fa2bf75d90904ec95b8641bb03927e324",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:23:16.547149+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

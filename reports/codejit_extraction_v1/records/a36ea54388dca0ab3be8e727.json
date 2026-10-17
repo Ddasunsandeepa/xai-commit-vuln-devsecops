@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___miniupnp",
+  "commit_id": "9e24d3cccb2db5801f80edce94599ad807f135cf",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "minissdpd: add a notification mode. Bump to version 1.5\n\nfixes #139",
+  "patch_path": "reports/codejit_extraction_v1/records/a36ea54388dca0ab3be8e727.diff.gz",
+  "diff_bytes": 19788,
+  "diff_sha256": "65af52253b276394479a761c5d913e8b05b5ddd40563626fb7b8815280a4f04c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:06.462772+00:00",
+  "url": "https://github.com/miniupnp/miniupnp.git"
+}

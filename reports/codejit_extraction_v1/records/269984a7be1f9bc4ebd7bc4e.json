@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "458f3b2c953bdc7110896cb3691251023652523f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "tests: don't check if qtest_spapr_boot() returns NULL\n\nqtest_spapr_boot()/qtest_pc_boot()/qtest_boot() call qtest_vboot()\nand qtest_vboot() calls g_malloc(),\nand g_malloc() never fails:\nif memory allocation fails, the application is terminated.\n\nSigned-off-by: Laurent Vivier <lvivier@redhat.com>\nReviewed-by: Thomas Huth <thuth@redhat.com>\nReviewed-by: Greg Kurz <groug@kaod.org>\nSigned-off-by: David Gibson <david@gibson.dropbear.id.au>",
+  "patch_path": "reports/codejit_extraction_v1/records/269984a7be1f9bc4ebd7bc4e.diff.gz",
+  "diff_bytes": 816,
+  "diff_sha256": "5a875aece0c59dc2a607c564dbd18e71a2f81c6636a513d536c756cdd4bd2026",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:39.245815+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

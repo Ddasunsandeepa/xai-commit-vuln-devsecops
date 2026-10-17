@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "a585eae6e7ada1ca9271607a4f48dfb17868ab7b",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug: Negation overflow in getlocal/setlocal",
+  "patch_path": "reports/codejit_extraction_v1/records/7df1940c9b55cfe56ab576ea.diff.gz",
+  "diff_bytes": 905,
+  "diff_sha256": "7b1be1190d14926c3610f8f3f242946f68f9df10d71b762f2462d9c3f47f9ca0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:48.031068+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

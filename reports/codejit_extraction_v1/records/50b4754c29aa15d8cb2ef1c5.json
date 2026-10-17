@@ -1,0 +1,16 @@
+{
+  "repo": "vrtadmin___clamav-devel",
+  "commit_id": "95e31dc77bb6186bb12374109f2c572d7563a8a6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "General \"tidy\" and some algo hacks.\nOld and inefficient sue cryptor replaced with a signature.\n\n\n\ngit-svn: trunk@3202",
+  "patch_path": "reports/codejit_extraction_v1/records/50b4754c29aa15d8cb2ef1c5.diff.gz",
+  "diff_bytes": 106354,
+  "diff_sha256": "1c0446c535ae3a353fed3d97d7cef2b1397c9dda6d75ffdde81066d42c600c2e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:56.397259+00:00",
+  "url": "https://github.com/vrtadmin/clamav-devel.git"
+}

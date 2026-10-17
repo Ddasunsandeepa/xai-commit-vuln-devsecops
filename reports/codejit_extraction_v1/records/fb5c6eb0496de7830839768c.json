@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___imageworsener",
+  "commit_id": "686c449df02bd0269f23b8eede391992f40645b3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactored the code that deals with non-square pixels.\n\nThis involved changes to the API, and to the behavior of the command-line\nutility.\n\nThe code that calculates the new density used to be awkwardly split between\nthe library and the command-line util. It's now entirely in the command-line\nutil.\n\nAdded the -noresize command line option, to prevent IW from fixing up\nnon-square pixels.\n\nFixed at least one bug: images with nonsquare pixels could end up the wrong\nshape in some cases, for example when using relative sizing.",
+  "patch_path": "reports/codejit_extraction_v1/records/fb5c6eb0496de7830839768c.diff.gz",
+  "diff_bytes": 29904,
+  "diff_sha256": "c52b8bb8ffe01a891bfc364c49785a5cbdb6b0c25fd20b1308bb51e6234aa2b0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:03.234016+00:00",
+  "url": "https://github.com/jsummers/imageworsener.git"
+}

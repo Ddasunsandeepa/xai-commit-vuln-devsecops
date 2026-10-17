@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "ccdbe8f3256c3c776a1cc1a0517a38437b9e2c65",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "The great UltraVNC Compatibility Commit",
+  "patch_path": "reports/codejit_extraction_v1/records/4eaae512c38ffa6601e3f034.diff.gz",
+  "diff_bytes": 128355,
+  "diff_sha256": "19a907e9ee3f13aebf34d515b8fdc0c92e36c9d9643220aedc02bde812590e31",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:37.281390+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "4f65a3e4eedaffa1efcf9ee1eb08f0b504fbc31a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed memory overrun bug in gdImageScaleTwoPass\n\n_gdContributionsCalc would compute a window size and then adjust\nthe left and right positions of the window to make a window within\nthat size.  However, it was storing the values in the struct *before*\nit made the adjustment.  This change fixes that.",
+  "patch_path": "reports/codejit_extraction_v1/records/336313545121d13295010482.diff.gz",
+  "diff_bytes": 899,
+  "diff_sha256": "c2e1eac5c1ee0cce1e6331e35d00333fc6331557683e7381393848b4cf7ce0a7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:56.293688+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

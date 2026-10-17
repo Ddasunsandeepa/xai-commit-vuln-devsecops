@@ -1,0 +1,16 @@
+{
+  "repo": "platform___hardware___qcom___audio",
+  "commit_id": "073a80800f341325932c66818ce4302b312909a4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "DO NOT MERGE Fix AudioEffect reply overflow\n\nBug: 28173666\nChange-Id: I055af37a721b20c5da0f1ec4b02f630dcd5aee02",
+  "patch_path": "reports/codejit_extraction_v1/records/27345735d05e237e47f2e58c.diff.gz",
+  "diff_bytes": 1689,
+  "diff_sha256": "afe2d048f1e37c34131a4f7131e7827573b5a86e079cfa371aef6f95faef9f2f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:55.972329+00:00",
+  "url": "https://android.googlesource.com/platform/hardware/qcom/audio"
+}

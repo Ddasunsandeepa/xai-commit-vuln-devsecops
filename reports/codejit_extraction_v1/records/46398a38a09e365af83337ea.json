@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libvpx",
+  "commit_id": "fc1f97bc051863f9c2ec41d749ce5b4513b9f0fc",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "libwebm: Fix parser if UID high bit is set\n\nCherry-picking change from https://gerrit.chromium.org/gerrit/#/c/73959/\n\nChange-Id: I8d98543f226594b28a88d5042f43c76f1224c0bb",
+  "patch_path": "reports/codejit_extraction_v1/records/46398a38a09e365af83337ea.diff.gz",
+  "diff_bytes": 471,
+  "diff_sha256": "82c945c32957b2e972c75df75b47d5572ed64c5fcf28f05ddc2386861060c2b1",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:35.857503+00:00",
+  "url": "https://android.googlesource.com/platform/external/libvpx"
+}

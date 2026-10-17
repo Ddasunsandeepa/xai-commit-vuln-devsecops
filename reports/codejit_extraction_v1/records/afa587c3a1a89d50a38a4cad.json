@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___native",
+  "commit_id": "febd4f4f462444bfcb3f0618d07ac77e3fc1f6ad",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "BufferQueue: Increase max slots from 32 to 64\n\nIncreases NUM_BUFFER_SLOTS from 32 to 64 and changes the mask\nreturned by IGBC::getReleasedBuffers from 32 to 64 bits.\n\nBug: 13174352\nChange-Id: Ie8ef0853916cfb91f83881c7241886bb1950f01a",
+  "patch_path": "reports/codejit_extraction_v1/records/afa587c3a1a89d50a38a4cad.diff.gz",
+  "diff_bytes": 9736,
+  "diff_sha256": "21c1325a820bc9fd379ea607b49e717e2007176459a0798cad364028444b42ad",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:30:54.964349+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/native"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "facebook___hhvm",
+  "commit_id": "dabd48caf74995e605f1700344f1ff4a5d83441d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a json_decode crash when depth==0\n\nSummary:\nSetting depth=0 is an error, and should result in NULL, but we weren't\nchecking for it, so in the case of a single, top-level string, we\nwould reading the -1th element of the stack.\n\nDifferential Revision: D19609959\n\nfbshipit-source-id: 04ca1e0965e04b44df2d5c806a73c3da99ff66fb",
+  "patch_path": "reports/codejit_extraction_v1/records/b75b8f2eb04071687f414fbf.diff.gz",
+  "diff_bytes": 1261,
+  "diff_sha256": "be7f7b15a7e8b7cb9f14f4b82ba395ea3ecedc12f1308afe30357c5c7e309f64",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:00.363472+00:00",
+  "url": "https://github.com/facebook/hhvm.git"
+}

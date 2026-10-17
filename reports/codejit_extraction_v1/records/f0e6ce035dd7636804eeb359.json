@@ -1,0 +1,16 @@
+{
+  "repo": "the-tcpdump-group___tcpdump",
+  "commit_id": "5d6a1edd068e89b14f7525f11f992c46e16cfc2f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "NDOize NFS decoder",
+  "patch_path": "reports/codejit_extraction_v1/records/f0e6ce035dd7636804eeb359.diff.gz",
+  "diff_bytes": 60334,
+  "diff_sha256": "555d0389a1324ffebbd9517a086487e2c2738f478a375eb1729670de48ace851",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:34.260618+00:00",
+  "url": "https://github.com/the-tcpdump-group/tcpdump.git"
+}

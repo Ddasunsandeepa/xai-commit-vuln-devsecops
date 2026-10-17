@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "831423ea1879244e746f39d7696ad4a66681f306",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bluetooth: Fix to avoid NULL pointer dereferences\n\nThis fix for avoiding NULL pointer dereferences:\n - Added check for state checking in btm_remove_acl function\n   to avoid sending disconnect command if already in Disconnecting\n   state.\n - Added NULL check for 'pin_code' in btif_dm_pin_reply function\n - Null check before accessing in BD interface layer configuration\n   node variables.\n - Add NULL check before accessing p_bd_addr variable to avoid null\n    pointer exception while referring to invalid memory.\n\nChange-Id: Ib7ed45b6a1692785a45224d739a564f767e5b10f",
+  "patch_path": "reports/codejit_extraction_v1/records/46ed545fbfe19e758612ad7a.diff.gz",
+  "diff_bytes": 2659,
+  "diff_sha256": "773d232b66ea7ffec7b1ab858568ab8d8f248668a3e63d65582545a902342b29",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:16.009138+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

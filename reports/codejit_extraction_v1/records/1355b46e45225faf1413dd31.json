@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "2b2efba4eda0a654ab02ca41545f50fe4f81845f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Made some cosmetic changes to fix linewrap/indentation problems.",
+  "patch_path": "reports/codejit_extraction_v1/records/1355b46e45225faf1413dd31.diff.gz",
+  "diff_bytes": 1943,
+  "diff_sha256": "50ea439f1eb950fb21a180de135ec9b552b1ca1134243f7f6954fd7ffa60ee50",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:39.921075+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

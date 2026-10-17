@@ -1,0 +1,16 @@
+{
+  "repo": "igrr___axtls-8266",
+  "commit_id": "5efe2947ab45e81d84b5f707c51d1c64be52f36c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Apply CVE fixes for X509 parsing\n\nApply patches developed by Sze Yiu which correct a vulnerability in\nX509 parsing.  See CVE-2018-16150 and CVE-2018-16149 for more info.",
+  "patch_path": "reports/codejit_extraction_v1/records/32c8e3b90a448f9b7867302e.diff.gz",
+  "diff_bytes": 5940,
+  "diff_sha256": "5dc87ad962b0ae8319fc7e30dc2a096997c8dd0133377f57d14b32e9ca9f5292",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:00:03.788389+00:00",
+  "url": "https://github.com/igrr/axtls-8266.git"
+}

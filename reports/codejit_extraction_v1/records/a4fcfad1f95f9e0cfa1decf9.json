@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "1f3c6f4534c6411313361697d98d1145a1f030fa",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug: Lua can generate wrong code when _ENV is <const>",
+  "patch_path": "reports/codejit_extraction_v1/records/a4fcfad1f95f9e0cfa1decf9.diff.gz",
+  "diff_bytes": 973,
+  "diff_sha256": "568021995da7388a3925512fa954e4fb222118b6deca03eb86efc24a96536b5d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:46.200734+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

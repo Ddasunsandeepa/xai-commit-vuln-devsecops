@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___core",
+  "commit_id": "50eb546ec1584c04cf18f1941a042d7c5d045a67",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Removed log.quiet and log = NULL cases from debuggerd.\n\nNow the functionality implemented by these semi-confusing cases has been\nreplaced with the same logtype enum behavior that is easier to\nunderstand, and cases that used log-looking behavior to print to logcat\n(when log = NULL) now use the more transparent ALOGE/ALOGD functions.\n\nChange-Id: I7e38f2d4ca74a828df4d2266b3ea34edd3c6f5bb",
+  "patch_path": "reports/codejit_extraction_v1/records/fe344f4bee97d7cf5b67b6e2.diff.gz",
+  "diff_bytes": 20877,
+  "diff_sha256": "b6f3d126723b5a966e86371a3a71256ac347d1b7225ab2cf7a6bd30e80288cf4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:29.049108+00:00",
+  "url": "https://android.googlesource.com/platform/system/core"
+}

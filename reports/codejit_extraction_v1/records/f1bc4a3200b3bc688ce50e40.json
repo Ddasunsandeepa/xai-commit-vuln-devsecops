@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "992480c30f75943e9cd6245bb2015c7737f9b661",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix buffer overrun (issue #678). Add assert for detecting this kind of issues earlier.",
+  "patch_path": "reports/codejit_extraction_v1/records/f1bc4a3200b3bc688ce50e40.diff.gz",
+  "diff_bytes": 1343,
+  "diff_sha256": "71d7cb266f4818ca2523198284ee57723017d24b7e7dc305bd79a5e51ba57463",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:46.418092+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

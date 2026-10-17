@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "bb7bf175951475235ee7d0504198c4a30cf5d5dd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "vc1dec: Don't decode slices when the latest slice header failed to decode\n\nReported-by: Mateusz \"j00ru\" Jurczyk and Gynvael Coldwind\nCC: libav-stable@libav.org\nSigned-off-by: Martin Storsjö <martin@martin.st>",
+  "patch_path": "reports/codejit_extraction_v1/records/6e8f097cacc7ab0bc9d89b73.diff.gz",
+  "diff_bytes": 1678,
+  "diff_sha256": "a4344f80560a35a94590e44ed9f019b3115f3932cfc9292e9d418c51a91ee923",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:00.475870+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

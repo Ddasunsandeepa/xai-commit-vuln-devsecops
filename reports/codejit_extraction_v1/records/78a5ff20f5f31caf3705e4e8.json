@@ -1,0 +1,16 @@
+{
+  "repo": "weidai11___cryptopp",
+  "commit_id": "9425e16437439e68c7d96abef922167d68fafaff",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix for CVE-2015-2141. Thanks to Evgeny Sidorov for reporting. Squaring to satisfy Jacobi requirements suggested by JPM.",
+  "patch_path": "reports/codejit_extraction_v1/records/78a5ff20f5f31caf3705e4e8.diff.gz",
+  "diff_bytes": 766,
+  "diff_sha256": "38f44e230e46da9b4eb68a34a0e6563453d652b42d8c954f7f911c93e47f7242",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:08.615658+00:00",
+  "url": "https://github.com/weidai11/cryptopp.git"
+}

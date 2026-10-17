@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "97eff7eb57fc2320c267a949cffd622c38712484",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #72241: get_icu_value_internal out-of-bounds read",
+  "patch_path": "reports/codejit_extraction_v1/records/9de2e6e62d2ddc8089e4eb56.diff.gz",
+  "diff_bytes": 31641,
+  "diff_sha256": "1509562eb09143183ad2fc0366779f1ac8c8de33a9c4ce4a0c6b9663d86a3259",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:12:16.932198+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

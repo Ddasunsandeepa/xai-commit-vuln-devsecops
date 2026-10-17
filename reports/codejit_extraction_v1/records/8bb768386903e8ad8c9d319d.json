@@ -1,0 +1,16 @@
+{
+  "repo": "sshock___afflibv3",
+  "commit_id": "435a2ca802358a3debb6d164d2c33049131df81c",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Sanity check size passed to malloc...\n\nAdd sanity check before calling malloc in af_get_page() function to\navoid undefined behavior (e.g., seg fault) when dealing with a corrupt\nAFF image with an invalid pagesize.\n\nIssue found by Luis Rocha (luiscrocha@gmail.com).",
+  "patch_path": "reports/codejit_extraction_v1/records/8bb768386903e8ad8c9d319d.diff.gz",
+  "diff_bytes": 643,
+  "diff_sha256": "8d899effe1b7e20585e8dfb61acefb68d671b5fb36a65fd64ec6c875db116f6c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:36.971284+00:00",
+  "url": "https://github.com/sshock/afflibv3.git"
+}

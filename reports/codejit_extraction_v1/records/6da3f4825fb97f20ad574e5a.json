@@ -1,0 +1,16 @@
+{
+  "repo": "openenclave___openenclave",
+  "commit_id": "1e2a9a386a0e7ed53bdc0014aa0141469351805e",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add pread and pwrite\n\nSigned-off-by: Thomas Tendyck <tt@edgeless.systems>",
+  "patch_path": "reports/codejit_extraction_v1/records/6da3f4825fb97f20ad574e5a.diff.gz",
+  "diff_bytes": 14215,
+  "diff_sha256": "fb682ab33d20f8f7df23c6dbb50fc690af008d92813ada46a83b5eeb1a158587",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:50.094214+00:00",
+  "url": "https://github.com/openenclave/openenclave.git"
+}

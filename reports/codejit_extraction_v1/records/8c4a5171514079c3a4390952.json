@@ -1,0 +1,16 @@
+{
+  "repo": "sqlite___sqlite",
+  "commit_id": "8654186b0236d556aa85528c2573ee0b6ab71be3",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "When an error occurs while rewriting the parser tree for window functions\nin the sqlite3WindowRewrite() routine, make sure that pParse->nErr is set,\nand make sure that this shuts down any subsequent code generation that might\ndepend on the transformations that were implemented.  This fixes a problem\ndiscovered by the Yongheng and Rui fuzzer.\n\nFossilOrigin-Name: e2bddcd4c55ba3cbe0130332679ff4b048630d0ced9a8899982edb5a3569ba7f",
+  "patch_path": "reports/codejit_extraction_v1/records/8c4a5171514079c3a4390952.diff.gz",
+  "diff_bytes": 5598,
+  "diff_sha256": "3ab3e8a1cf2a986a6ef635933c927623e89a1adf438fa16b6d9e610346a7659e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:00.704696+00:00",
+  "url": "https://github.com/sqlite/sqlite.git"
+}

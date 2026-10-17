@@ -1,0 +1,16 @@
+{
+  "repo": "academysoftwarefoundation___openexr",
+  "commit_id": "25e9515b06a6bc293d871622b8cafaee7af84e0f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add sanity check for reading multipart files with no parts (#840)\n\nSigned-off-by: Peter Hillman <peterh@wetafx.co.nz>",
+  "patch_path": "reports/codejit_extraction_v1/records/c9e6894982f41739785a2c4a.diff.gz",
+  "diff_bytes": 537,
+  "diff_sha256": "6010ec00f40838c9b73f64fe9b41052b30144341b8077bf537a866fc7a35c3bf",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:02.845939+00:00",
+  "url": "https://github.com/academysoftwarefoundation/openexr.git"
+}

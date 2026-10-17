@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "e629194c62a9a129ce378e08cb1059a8a53f1795",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Initialize slice parameters before concealing error MBs\n\nAlso memset ps_dec_op structure to zero.\nFor error input, this ensures dimensions are initialized to zero\n\nBug: 28165661\nChange-Id: I66eb2ddc5e02e74b7ff04da5f749443920f37141",
+  "patch_path": "reports/codejit_extraction_v1/records/ddd3fc6057ddc6c178fcb2a9.diff.gz",
+  "diff_bytes": 2719,
+  "diff_sha256": "4ffad388e226a6352be88dbde50737e7b5f19a2ebacb416ca9bf89e26c64d04f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:24.991613+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

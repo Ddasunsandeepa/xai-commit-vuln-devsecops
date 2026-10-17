@@ -1,0 +1,16 @@
+{
+  "repo": "rpm-software-management___rpm",
+  "commit_id": "174f083d1ccb772e2aad5c45735c86922e98af98",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "rpmSignVerity: Generate signatures for files not present in archive\n\nThis generates signatures for all files in the archive, then picks up\nghost files from the header metadata and generates signatures for them\nas well. It finally submits them to RPMTAG_VERITYSIGNATURES in header\nfile order as we cannot rely on archive order and header order being\nthe same.\n\nSigned-off-by: Jes Sorensen <jsorensen@fb.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/118205d9c72cba0a830ac4d6.diff.gz",
+  "diff_bytes": 4595,
+  "diff_sha256": "a64b908e3271ffd388bb8d2285b5da9735b92c7d6288953bdd3d755c6eecb417",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:15:20.363073+00:00",
+  "url": "https://github.com/rpm-software-management/rpm.git"
+}

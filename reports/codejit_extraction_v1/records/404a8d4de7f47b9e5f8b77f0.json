@@ -1,0 +1,16 @@
+{
+  "repo": "bfabiszewski___libmobi",
+  "commit_id": "82b3a6272a0cb65ddd47d3f53e24cfcfd7371ad3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "feature: support for older inflections scheme",
+  "patch_path": "reports/codejit_extraction_v1/records/404a8d4de7f47b9e5f8b77f0.diff.gz",
+  "diff_bytes": 14124,
+  "diff_sha256": "22904cd83cdc71a6ff74d634cb0ee8c96defc14abd0de38f4ec9e8d033895212",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:21.024243+00:00",
+  "url": "https://github.com/bfabiszewski/libmobi.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "0a365c029e437be0349c31f8d4c9926b69fa3fa1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Prevent null pointer dereference in constant folding.\n\nUnder certain conditions, an invalid protobuf saved model with invalid nodes would be loaded. During optimization phase, Grappler optimizer will then dereference a null pointer.\n\nPiperOrigin-RevId: 409683530\nChange-Id: I1f10340a7ec384bc9bc587300390f1078cf5caa0",
+  "patch_path": "reports/codejit_extraction_v1/records/7f929f974fa0f4ec44125b45.diff.gz",
+  "diff_bytes": 824,
+  "diff_sha256": "74cdfb552e1dd0fd917ef8cc65822d4046b8b3d6503ae1ae549fcee694ad936c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:51.688947+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

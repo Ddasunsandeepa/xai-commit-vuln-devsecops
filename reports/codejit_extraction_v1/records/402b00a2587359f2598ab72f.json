@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "9822261ce3bfbc7aec8b2a3e378892dc368910ed",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "uhci: Use an intermediate buffer for usb packet data\n\nDue to various unfortunate reasons we cannot reliable detect a guest\ncancelling a packet as soon as it happens, instead we detect cancels\nwith some delay.\n\nWhen packets are handled async, and we directly pass the guest memory for\nthe packet to the usb-device as iovec, this means that the usb-device can\nwrite to guest-memory which the guest has already re-used for other purposes\n-> not good!\n\nThis patch fixes this by adding an intermediate buffer and writing back not\nonly the result, but also the data, of async completed packets when scanning\nthe schedule.\n\nSigned-off-by: Hans de Goede <hdegoede@redhat.com>\nSigned-off-by: Gerd Hoffmann <kraxel@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/402b00a2587359f2598ab72f.diff.gz",
+  "diff_bytes": 3196,
+  "diff_sha256": "9dbccb07317d4f43f3127879e3f25bb3deca2afe8ec49ba6d42a437cb445d41d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:12.059676+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

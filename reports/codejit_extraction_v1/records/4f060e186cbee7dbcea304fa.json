@@ -1,0 +1,16 @@
+{
+  "repo": "imagemagick___imagemagick6",
+  "commit_id": "45b2f27fd88ad814c800a0820a05a957465d8632",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixes for the Q16 build that broke because of the recent patches.",
+  "patch_path": "reports/codejit_extraction_v1/records/4f060e186cbee7dbcea304fa.diff.gz",
+  "diff_bytes": 1984,
+  "diff_sha256": "404fe2b0762aa8bd60cc175a6112155bd575c51db475636d87b27c6465876efb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:09.520171+00:00",
+  "url": "https://github.com/imagemagick/imagemagick6.git"
+}

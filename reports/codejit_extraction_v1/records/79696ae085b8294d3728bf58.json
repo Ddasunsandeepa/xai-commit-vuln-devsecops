@@ -1,0 +1,16 @@
+{
+  "repo": "antlarr___audiofile",
+  "commit_id": "9c7fe7be6f2766e3230a60e1c5be63ebcee86528",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Refactor calculation of frame count from audio data size.",
+  "patch_path": "reports/codejit_extraction_v1/records/79696ae085b8294d3728bf58.diff.gz",
+  "diff_bytes": 20089,
+  "diff_sha256": "9e291827bca52909c5e708c4294d4524fe6a785feac3761681cfd57dae538102",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:29.127786+00:00",
+  "url": "https://github.com/antlarr/audiofile.git"
+}

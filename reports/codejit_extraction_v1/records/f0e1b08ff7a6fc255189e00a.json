@@ -1,0 +1,16 @@
+{
+  "repo": "stephane___libmodbus",
+  "commit_id": "933ed4d3e9f226a21274ff33ebc735d50d5f0be9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Change API modbus_mapping_(offsets_new) to (new_start_address)\n\nRelated to 52ab1bbea760ed8eaca184f7d875a2f52a116d0f.\nThe arguments have been changed (see documentation).\n\nhttps://groups.google.com/d/msg/libmodbus/aXO8nBzW4Ew/uVGTDmvvBAAJ",
+  "patch_path": "reports/codejit_extraction_v1/records/f0e1b08ff7a6fc255189e00a.diff.gz",
+  "diff_bytes": 29150,
+  "diff_sha256": "6c8e588a75c72173e58b3f1356f7cf8de074934d95d98febc3e8994c42679927",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:17:38.994159+00:00",
+  "url": "https://github.com/stephane/libmodbus.git"
+}

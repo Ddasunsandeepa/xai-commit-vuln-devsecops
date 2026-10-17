@@ -1,0 +1,16 @@
+{
+  "repo": "virustotal___yara",
+  "commit_id": "4a342f01e5439b9bb901aff1c6c23c536baeeb3f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix heap overflow (reported by Jurriaan Bremer)\n\nWhen setting a new array item with yr_object_array_set_item() the array size is doubled if the index for the new item is larger than the already allocated ones. No further checks were made to ensure that the index fits into the array after doubling its capacity. If the array capacity was for example 64, and a new object is assigned to an index larger than 128 the overflow occurs. As yr_object_array_set_item() is usually invoked with indexes that increase monotonically by one, this bug never triggered before. But the new \"dotnet\" module has the potential to allow the exploitation of this bug by scanning a specially crafted .NET binary.",
+  "patch_path": "reports/codejit_extraction_v1/records/a511f98dc58194a9a0b5df72.diff.gz",
+  "diff_bytes": 1736,
+  "diff_sha256": "447a71fa415d7a7586e24ace6a9fa4bb72d559e4a241ff7d9aef426923ea6a66",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:41.245939+00:00",
+  "url": "https://github.com/virustotal/yara.git"
+}

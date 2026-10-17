@@ -1,0 +1,16 @@
+{
+  "repo": "vslavik___winsparkle",
+  "commit_id": "bb454857348245a7397f9e4fbb3a902f4ac25913",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Verify UpdateTempDir isn't maliciously modified\n\nDon't just delete the stored updates temporary directory on launch, but\nvalidate the registry key to ensure it is in an expected location and\nfollows WinSparkle's naming convention. This is to prevent malicious\nusers from modifying this registry key and forcing the host app to\ndelete arbitrary directories (a user being able to delete the key would\nbe able to delete the directory themselves, so it's not a serious issue,\nbut it nevertheless is bad behavior and shouldn't be possible).",
+  "patch_path": "reports/codejit_extraction_v1/records/312bcba6f8ac48757ddfa0d2.diff.gz",
+  "diff_bytes": 1909,
+  "diff_sha256": "f6e12b98e92987ea1090e86ee8dbe3f5202dd1844835b2a56a5192f42cea485c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:44:04.089589+00:00",
+  "url": "https://github.com/vslavik/winsparkle.git"
+}

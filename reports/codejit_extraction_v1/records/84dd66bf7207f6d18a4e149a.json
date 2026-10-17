@@ -1,0 +1,16 @@
+{
+  "repo": "open-power___skiboot",
+  "commit_id": "87562bc5c1a6863009fe244c306b9446b0ceae9c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "secvar/backend: add edk2 derived key updates processing\n\nAs part of secureboot key management, the scheme for handling key updates\nis derived from tianocore reference implementation[1]. The wrappers for\nholding the signed update is the Authentication Header and for holding\nthe public key certificate is ESL (EFI Signature List), both derived from\ntianocore reference implementation[1].\n\nThis patch adds the support to process update queue. This involves:\n1. Verification of the update signature using the key authorized as per the\nkey hierarchy\n2. Handling addition/deletion of the keys\n3. Support for dbx (blacklisting of hashes)\n4. Validation checks for the updates\n5. Supporting multiple ESLs for single variable both for update/verification\n6. Timestamp check\n7. Allowing only single PK\n8. Failure Handling\n9. Resetting keystore if the hardware key hash changes\n\n[1] https://github.com/tianocore/edk2-staging.git\n\nSigned-off-by: Nayna Jain <nayna@linux.ibm.com>\nSigned-off-by: Eric Richter <erichte@linux.ibm.com>\nSigned-off-by: Oliver O'Halloran <oohall@gmail.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/84dd66bf7207f6d18a4e149a.diff.gz",
+  "diff_bytes": 45236,
+  "diff_sha256": "ce466f93dda2eb9ac4b4f9cfe3dfb4bbc14f1bdb64018cd96bd825d3e6cc4ea7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:24.676535+00:00",
+  "url": "https://github.com/open-power/skiboot.git"
+}

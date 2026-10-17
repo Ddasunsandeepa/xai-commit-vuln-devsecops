@@ -1,0 +1,16 @@
+{
+  "repo": "wireapp___wire-avs",
+  "commit_id": "40d373ede795443ae6f2f756e9fb1f4f4ae90bbe",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Import latest release-7.1 files from old repo",
+  "patch_path": "reports/codejit_extraction_v1/records/9e3230f5c01e33498813b5c7.diff.gz",
+  "diff_bytes": 112285,
+  "diff_sha256": "df9a0061f6207dedba76c272c7ce5d9238a2c15e5a63c8f54c4f5c379b15f312",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:11.736473+00:00",
+  "url": "https://github.com/wireapp/wire-avs.git"
+}

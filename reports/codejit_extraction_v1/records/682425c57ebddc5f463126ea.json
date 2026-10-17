@@ -1,0 +1,16 @@
+{
+  "repo": "netblue30___firejail",
+  "commit_id": "eecf35c2f8249489a1d3e512bb07f0d427183134",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "mount runtime seccomp files read-only (#2602)\n\navoid creating locations in the file system that are both writable and\nexecutable (in this case for processes with euid of the user).\n\nfor the same reason also remove user owned libfiles\nwhen it is not needed any more",
+  "patch_path": "reports/codejit_extraction_v1/records/682425c57ebddc5f463126ea.diff.gz",
+  "diff_bytes": 3903,
+  "diff_sha256": "173c29bc5fb115993c69c3a042c12df648269420ff6f8fb8dd4cb25d9e84df24",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:56.992868+00:00",
+  "url": "https://github.com/netblue30/firejail.git"
+}

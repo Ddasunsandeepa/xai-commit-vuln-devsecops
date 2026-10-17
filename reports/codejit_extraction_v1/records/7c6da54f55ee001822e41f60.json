@@ -1,0 +1,16 @@
+{
+  "repo": "mjg59___linux",
+  "commit_id": "d7a6be58edc01b1c66ecd8fcc91236bfbce0a420",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "acpi: Disable APEI error injection if securelevel is set\n\nACPI provides an error injection mechanism, EINJ, for debugging and testing\nthe ACPI Platform Error Interface (APEI) and other RAS features. If\nsupported by the firmware, ACPI specification 5.0 and later provide for a\nway to specify a physical memory address to which to inject the error.\n\nInjecting errors through EINJ can produce errors which to the platform are\nindistinguishable from real hardware errors. This can have undesirable\nside-effects, such as causing the platform to mark hardware as needing\nreplacement.\n\nWhile it does not provide a method to load unauthenticated privileged code,\nthe effect of these errors may persist across reboots and affect trust in\nthe underlying hardware, so disable error injection through EINJ if\nsecurelevel is set.\n\nSigned-off-by: Linn Crosetto <linn@hpe.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/7c6da54f55ee001822e41f60.diff.gz",
+  "diff_bytes": 666,
+  "diff_sha256": "8ad3784d81d28219eb2db154787e46042d0f5905b474f3fdac1b0c21cc9363c4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:36.478012+00:00",
+  "url": "https://github.com/mjg59/linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___frameworks___av",
+  "commit_id": "035cb12f392860113dce96116a5150e2fde6f0cc",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "soundtrigger: add size check on sound model and recogntion data\n\nBug: 30148546\n\nChange-Id: I082f535a853c96571887eeea37c6d41ecee7d8c0\n(cherry picked from commit bb00d8f139ff51336ab3c810d35685003949bcf8)\n(cherry picked from commit ef0c91518446e65533ca8bab6726a845f27c73fd)",
+  "patch_path": "reports/codejit_extraction_v1/records/84ad40099d10f997e05a4eb5.diff.gz",
+  "diff_bytes": 3018,
+  "diff_sha256": "2cbdb803664f25c72dbf184670f1f99d0b8f0479d1715780e042617775453be4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:44.043853+00:00",
+  "url": "https://android.googlesource.com/platform/frameworks/av"
+}

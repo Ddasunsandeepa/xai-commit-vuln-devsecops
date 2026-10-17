@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "c94f9e854228e0ea00e1de8769d8d3f7cab84a55",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avutil/mem: Fix flipped condition\n\nFixes return code and later null pointer dereference\n\nFound-by: Laurent Butti <laurentb@gmail.com>\nSigned-off-by: Michael Niedermayer <michaelni@gmx.at>",
+  "patch_path": "reports/codejit_extraction_v1/records/f01e4c269e06c5b8ec78cf45.diff.gz",
+  "diff_bytes": 411,
+  "diff_sha256": "5f07d7963028f5202a80febb5c23ef582258896373a7c5fd9b9ad4704cc4a339",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:08.307610+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

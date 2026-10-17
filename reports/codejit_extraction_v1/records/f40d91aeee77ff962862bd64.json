@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___security",
+  "commit_id": "07438c8d7256d3788dac323b4d0055f201e0bec9",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Switch keystore to binder\n\nChange-Id: I6dacdc43bcc1a56e47655e37e825ee6a205eb56b",
+  "patch_path": "reports/codejit_extraction_v1/records/f40d91aeee77ff962862bd64.diff.gz",
+  "diff_bytes": 108769,
+  "diff_sha256": "e7c1c4e43fe80f29e81aea4034f8bd6b5dc53281b42e52cbdd3b1f642e7caf9f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:38.119602+00:00",
+  "url": "https://android.googlesource.com/platform/system/security"
+}

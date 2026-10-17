@@ -1,0 +1,16 @@
+{
+  "repo": "brave___muon",
+  "commit_id": "c18663aa171c6cdf03da3e8c70df8663645b97c4",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Issue: 15232 AllowScript should use atom::ContentSettingsManager like other Allow* methods in the observer",
+  "patch_path": "reports/codejit_extraction_v1/records/36b7d0169ed97d241a95e662.diff.gz",
+  "diff_bytes": 1201,
+  "diff_sha256": "67ff764045679e8a61851261f712a88fe73b75e2826a8f252e8aa5617df18d93",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:50.355745+00:00",
+  "url": "https://github.com/brave/muon.git"
+}

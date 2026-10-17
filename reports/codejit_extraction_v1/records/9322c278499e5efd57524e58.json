@@ -1,0 +1,16 @@
+{
+  "repo": "openthread___openthread",
+  "commit_id": "b8c3161281f8e15873f8decabd8eac461717aefe",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "[commissioner] add network name length check in GeneratePskc() (#4404)",
+  "patch_path": "reports/codejit_extraction_v1/records/9322c278499e5efd57524e58.diff.gz",
+  "diff_bytes": 738,
+  "diff_sha256": "bf2e4f75f18a2ec126ce03a223ab3bb53e5bd6891d8940000c6acbbe942903be",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:18.101400+00:00",
+  "url": "https://github.com/openthread/openthread.git"
+}

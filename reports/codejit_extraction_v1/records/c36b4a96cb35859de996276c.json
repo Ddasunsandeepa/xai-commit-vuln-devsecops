@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "127e7a6c8942b362aa3c6627f44d660a4fb75312",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bug of old finalized objects in the GC\n\nWhen an object aged OLD1 is finalized, it is moved from the list\n'finobj' to the *beginning* of the list 'allgc'. So, this part of the\nlist (and not only the survival list) must be visited by 'markold'.",
+  "patch_path": "reports/codejit_extraction_v1/records/c36b4a96cb35859de996276c.diff.gz",
+  "diff_bytes": 1016,
+  "diff_sha256": "ed3fed75a702280336192bf8bc67d103b92981f9c0978bd465cdefca73d6b901",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:45.530250+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "f5326039938ca0599265462aed529fa10db5074f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avfilter: add showpalette filter",
+  "patch_path": "reports/codejit_extraction_v1/records/749b44f8fb6be00385e75e34.diff.gz",
+  "diff_bytes": 26649,
+  "diff_sha256": "0bbfd967f90d28638063ec64120ae6c8d16b12320156f9d03a7364220179103a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:18.566809+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

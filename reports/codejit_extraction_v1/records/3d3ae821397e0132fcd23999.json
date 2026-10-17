@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "0bfb970f43acd1e81d11be1154805f86655f15d5",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix bug #72928 - Out of bound when verify signature of zip phar in phar_parse_zipfile\n\n(cherry picked from commit 19484ab77466f99c78fc0e677f7e03da0584d6a2)",
+  "patch_path": "reports/codejit_extraction_v1/records/3d3ae821397e0132fcd23999.diff.gz",
+  "diff_bytes": 3164,
+  "diff_sha256": "864b1dc0d16aa379d5aaad6d803eaf4538c04edfaafaf432ca546fba47e49da7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:03.567091+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

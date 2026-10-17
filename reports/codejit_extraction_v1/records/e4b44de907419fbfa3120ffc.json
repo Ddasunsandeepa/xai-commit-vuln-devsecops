@@ -1,0 +1,16 @@
+{
+  "repo": "mysql___mysql-server",
+  "commit_id": "0dbd5a8797ed4bd18e8b883988fb62177eb0f73f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Bug#21973610: BUFFER OVERFLOW ISSUES\n\nDescription : Incorrect usage of sprintf/strcpy caused\n              possible buffer overflow issues at various\n              places.\n\nSolution : - Fixed mysql_plugin and mysqlshow\n           - Fixed regex library issues\n\nReviewed-By : Georgi Kodinov <georgi.kodinov@oracle.com>\nReviewed-By : Venkata S Murthy Sidagam <venkata.sidagam@oracle.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/e4b44de907419fbfa3120ffc.diff.gz",
+  "diff_bytes": 8193,
+  "diff_sha256": "2f58d4e63249d455d7c43ae2550010ba2b957d1223a782dd6590196ee6d5eb13",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:05.228506+00:00",
+  "url": "https://github.com/mysql/mysql-server.git"
+}

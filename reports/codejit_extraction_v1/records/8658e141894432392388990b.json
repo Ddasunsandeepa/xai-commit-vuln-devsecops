@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "d8af56e3b4cd0ac5096e32c3eee2d2cfb4d4137d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix data race in tensorflow/core/kernels/map_stage_op.cc, and use tf locking/formatting  conventions.\n\n- Fix data race in which a routine mysteriously releases a lock which was held when\n  it was called, and which the caller expects will still be held afterwards.(!)\n  See the changes to the routines notify_inserters_if_bounded() and notify_removers().\n\n  The data race was in put() on current_bytes_ near the end, after the call to\n  put_complete().  put_complete() calls notify_removers(), which released the\n  lock, thus causing the race.  Any reader of the code would have expected that\n  the lock would have been held at that point, but it wasn't.\n\n  The same pattern in notify_inserters_if_bounded() didn't cause a race in the\n  current code, but is a pitfall for future maintainers, who would not mornally\n  expect something called notify_inserters_if_bounded() to mean \"and in some\n  circumstances, unlock\".\n\n  Even in the absense of this bug, and the weird, uncommented spec for those\n  routines, it is almost always a bad idea to release the lock before calling a\n  condition-variable wakeup.  First, it complicates the code, and makes\n  it hard to reason about object deletion if the deletion is predicated by one\n  of the signalled conditions.  Second, it's an _unnecessary_ complication:  a\n  well-written condition variable implementation will requeue the woken\n  thread(s) on the mutex queue, so the expensive part of the wakeup will be\n  deferred until the waking thread unlocks anyway.\n\n- Avoid the C++11 unique_lock mechanism that allowed the bug to happen,\n  and instead use tensorflow::mutex, tensorflow::mutex_lock, and\n  tensorflow::condition_variable.\n\n- Use while-loops instead of lambdas for condition-variable waits, because\n  while-loops are much easier to read.\n\n- Fix the routines would_exceed_memory_limit() and is_capacity_full() to\n  include their own validity check, so it's not needed at each of their call\n  sites.  This improves the readability at the call sites.\n\n- Use annotalysis locking annotations so that other violations can be found\n  statically by the compiler.\n\n- Reformat with clang-format.\n\nPiperOrigin-RevId: 175913085",
+  "patch_path": "reports/codejit_extraction_v1/records/8658e141894432392388990b.diff.gz",
+  "diff_bytes": 20885,
+  "diff_sha256": "001af5808e6b2b958ad9ef8d6072f1f28958bbcf5d0bf3faab1621b0e7c3f672",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:34:40.262584+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

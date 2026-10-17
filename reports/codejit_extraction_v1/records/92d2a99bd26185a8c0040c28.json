@@ -1,0 +1,16 @@
+{
+  "repo": "gpac___gpac",
+  "commit_id": "fd0e296e1a9be04a67fe844eec653ccdd744d8a6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed spelling of elapsed",
+  "patch_path": "reports/codejit_extraction_v1/records/92d2a99bd26185a8c0040c28.diff.gz",
+  "diff_bytes": 3789,
+  "diff_sha256": "d5c5b7540a47c50ec8735faeba6b51bb9ff82afe820a9daea5e2e0988c6fcd7a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:59:30.748715+00:00",
+  "url": "https://github.com/gpac/gpac.git"
+}

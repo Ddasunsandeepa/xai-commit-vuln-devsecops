@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "e3ec60d82a853a4de5568bfadcd72e3984095148",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "free private streamcontext when closing demuxer, fix memory leak, patch by Art Clarke, aclarke at vlideshow dot com\n\nOriginally committed as revision 13800 to svn://svn.ffmpeg.org/ffmpeg/trunk",
+  "patch_path": "reports/codejit_extraction_v1/records/0b0776851cbbdaf561bb5147.diff.gz",
+  "diff_bytes": 412,
+  "diff_sha256": "a38b2f4242414a517a3614ce4e3be90389e35e49fdba8fcb4987f96294e6ba58",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:17.497554+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

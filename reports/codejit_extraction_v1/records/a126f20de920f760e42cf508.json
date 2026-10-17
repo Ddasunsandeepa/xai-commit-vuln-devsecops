@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "42cf02965b11c397dd37a0063e683cef005bc0ae",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Detect change of mbaff flag in SPS\n\nChange in Mbaff flag needs re-initialization of NMB group\nand other variables in decoder context.\n\nBug: 64380237\nTest: ran poc on ASAN before/after\nChange-Id: I0fc65e4dfc3cc2c15528ec52da1782ecec61feab\n(cherry picked from commit d524ba03101c0c662c9d365d7357536b42a0265e)",
+  "patch_path": "reports/codejit_extraction_v1/records/a126f20de920f760e42cf508.diff.gz",
+  "diff_bytes": 1338,
+  "diff_sha256": "3c48feb035d8c944d15f8171b504a3671bc4b8ea0e6b6241a9af9c4bdd1748ae",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:18.486835+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "federicomenaquintero___bzip2",
+  "commit_id": "74de1e2e6ffc9d51ef9824db71a8ffee5962cdbc",
+  "label": 0,
+  "split": "train",
+  "status": "failed",
+  "error": "RuntimeError: fatal: could not read Username for 'https://github.com': terminal prompts disabled",
+  "message": "",
+  "patch_path": "",
+  "diff_bytes": 0,
+  "diff_sha256": "",
+  "parent_count": null,
+  "is_merge": null,
+  "attempted_at_utc": "2026-10-17T16:56:22.437002+00:00",
+  "url": "https://github.com/federicomenaquintero/bzip2.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "veyon___veyon",
+  "commit_id": "cde893085beadc05d23688ac9dc0eed2b0b0c8f6",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Platform: Windows: more wide string and const cast fixes",
+  "patch_path": "reports/codejit_extraction_v1/records/751e3dbfcc2aff933976b653.diff.gz",
+  "diff_bytes": 16144,
+  "diff_sha256": "aba5dcdf477d8f97cd8426c159cc2d6f78e3d81cafcfcde213279bb7f8e18432",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:50.407405+00:00",
+  "url": "https://github.com/veyon/veyon.git"
+}

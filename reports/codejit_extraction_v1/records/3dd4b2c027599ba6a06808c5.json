@@ -1,0 +1,16 @@
+{
+  "repo": "swaywm___swaylock",
+  "commit_id": "1d1c75b6316d21933069a9d201f966d84099f6ca",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add support for ext-session-lock-v1\n\nThis is a new protocol to lock the session [1]. It should be more\nreliable than layer-shell + input-inhibitor.\n\n[1]: https://gitlab.freedesktop.org/wayland/wayland-protocols/-/merge_requests/131",
+  "patch_path": "reports/codejit_extraction_v1/records/3dd4b2c027599ba6a06808c5.diff.gz",
+  "diff_bytes": 10202,
+  "diff_sha256": "c5dcd073385a6043b0209b043d1252dfaf7d620a67c05170d85e152dbc8ebb68",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:18:46.654934+00:00",
+  "url": "https://github.com/swaywm/swaylock.git"
+}

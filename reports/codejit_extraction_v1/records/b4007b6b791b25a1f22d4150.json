@@ -1,0 +1,16 @@
+{
+  "repo": "microsoft___chakracore",
+  "commit_id": "898582f13b860031c528397d9057337d0c04ed95",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge remaining code changes from internal RS1 branch",
+  "patch_path": "reports/codejit_extraction_v1/records/b4007b6b791b25a1f22d4150.diff.gz",
+  "diff_bytes": 160014,
+  "diff_sha256": "e0c7d98162c68b2f7168acfd53f22175f4153881a85eebb26e258d871419537e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:53.917526+00:00",
+  "url": "https://github.com/microsoft/chakracore.git"
+}

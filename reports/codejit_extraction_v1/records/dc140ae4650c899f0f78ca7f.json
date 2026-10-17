@@ -1,0 +1,16 @@
+{
+  "repo": "mjg59___pupnp-code",
+  "commit_id": "80c2b7a82ab65150c415585be14b1328ec9ccc0a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Indent plus Doxygen in webserver.",
+  "patch_path": "reports/codejit_extraction_v1/records/dc140ae4650c899f0f78ca7f.diff.gz",
+  "diff_bytes": 97418,
+  "diff_sha256": "ba5a94677d000fbea64a0f3b9b8e9f35193edb5e26e1377e3447b3e706d20f6e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:35.329896+00:00",
+  "url": "https://github.com/mjg59/pupnp-code.git"
+}

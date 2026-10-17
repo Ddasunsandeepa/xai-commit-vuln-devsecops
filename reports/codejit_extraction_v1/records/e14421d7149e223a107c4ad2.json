@@ -1,0 +1,16 @@
+{
+  "repo": "keepkey___keepkey-firmware",
+  "commit_id": "bfc5b83003279c36722a6b53676a9ff02e53d008",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "board: clean up and simplify usb_rx_helper\n\nAlso add better error messages when usb packets are malformed.",
+  "patch_path": "reports/codejit_extraction_v1/records/e14421d7149e223a107c4ad2.diff.gz",
+  "diff_bytes": 12895,
+  "diff_sha256": "7f778976213da0b6a0a6490cd48c135685a33b51d34ee6fbc9698039ca0c9153",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:25.074633+00:00",
+  "url": "https://github.com/keepkey/keepkey-firmware.git"
+}

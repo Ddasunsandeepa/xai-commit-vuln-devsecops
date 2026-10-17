@@ -1,0 +1,16 @@
+{
+  "repo": "madler___zlib",
+  "commit_id": "6a043145ca6e9c55184013841a67b2fef87e44c0",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Remove offset pointer optimization in inftrees.c.\n\ninftrees.c was subtracting an offset from a pointer to an array,\nin order to provide a pointer that allowed indexing starting at\nthe offset. This is not compliant with the C standard, for which\nthe behavior of a pointer decremented before its allocated memory\nis undefined. Per the recommendation of a security audit of the\nzlib code by Trail of Bits and TrustInSoft, in support of the\nMozilla Foundation, this tiny optimization was removed, in order\nto avoid the possibility of undefined behavior.",
+  "patch_path": "reports/codejit_extraction_v1/records/5fa383027ad573c4ff3ba80f.diff.gz",
+  "diff_bytes": 1996,
+  "diff_sha256": "e66fcbdf52c022e010d535e6bba0f5bf4b0da7ba7ac638bc11d6a6acdf04ad09",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:55.611080+00:00",
+  "url": "https://github.com/madler/zlib.git"
+}

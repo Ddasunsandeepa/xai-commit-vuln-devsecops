@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "903337734dca35879ac3e29a927c65762e2e7972",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Implement gradients for SparseAdd.\nChange: 118216819",
+  "patch_path": "reports/codejit_extraction_v1/records/530bc8dc06cb0f776a53bcf2.diff.gz",
+  "diff_bytes": 20577,
+  "diff_sha256": "eafce6f0e973d52edfccfe67a2dafb1083ba1261a0b6c819f8f6a861c8741aea",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:33:18.228552+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "puma___puma",
+  "commit_id": "acdc3ae571dfae0e045cf09a295280127db65c7f",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Merge pull request from GHSA-48w2-rm65-62xx\n\n* Fix HTTP request smuggling vulnerability\n\nSee GHSA-48w2-rm65-62xx or CVE-2021-41136 for more info.\n\n* 4.3.9 release note\n\n* 5.5.1 release note\n\n* 5.5.1",
+  "patch_path": "reports/codejit_extraction_v1/records/71f70aa7bd8db6bb30383906.diff.gz",
+  "diff_bytes": 12501,
+  "diff_sha256": "38a45b3d906b6248613e7c5bfa6ca7152bb7b5d2bdc7485da6aa1e148ac49b4c",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:12.123724+00:00",
+  "url": "https://github.com/puma/puma.git"
+}

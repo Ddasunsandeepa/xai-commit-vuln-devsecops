@@ -1,0 +1,16 @@
+{
+  "repo": "jedisct1___pure-ftpd",
+  "commit_id": "10cfaac45baa3ca64a183e1cc4c65da1e016b7ec",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Abort uploads as soon as quota is exceeded.\n+ More quota fixes",
+  "patch_path": "reports/codejit_extraction_v1/records/b0dcc5037c8dcabf79ee2598.diff.gz",
+  "diff_bytes": 5290,
+  "diff_sha256": "86b3a3533778bf49b717fcaa043d56b0708f0c6250f1e94045967c837762ce33",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:56.030819+00:00",
+  "url": "https://github.com/jedisct1/pure-ftpd.git"
+}

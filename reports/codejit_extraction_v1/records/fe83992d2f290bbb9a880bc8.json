@@ -1,0 +1,16 @@
+{
+  "repo": "collectd___collectd",
+  "commit_id": "e94e1ca83a8ac255f045259ec898f944f9118430",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "network plugin: Introduce new types for the \"high resolution\" time fields.",
+  "patch_path": "reports/codejit_extraction_v1/records/fe83992d2f290bbb9a880bc8.diff.gz",
+  "diff_bytes": 2920,
+  "diff_sha256": "68be8307a71572abe42f2342bc30d33a57e40764c554a2601996d93b60d453aa",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:52:54.978005+00:00",
+  "url": "https://github.com/collectd/collectd.git"
+}

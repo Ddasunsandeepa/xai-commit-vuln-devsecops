@@ -1,0 +1,16 @@
+{
+  "repo": "ccxvii___mujs",
+  "commit_id": "5f3ea4132d2a7b34c3a14b196f2444f375d1f93b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Rename jump to emitjump in compiler.",
+  "patch_path": "reports/codejit_extraction_v1/records/60a013f004056ea2006d7705.diff.gz",
+  "diff_bytes": 6433,
+  "diff_sha256": "4a58587a6d864b0551d48afa4a356e75027188cbb566f1774c1399124fabd3c2",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:59.158185+00:00",
+  "url": "https://github.com/ccxvii/mujs.git"
+}

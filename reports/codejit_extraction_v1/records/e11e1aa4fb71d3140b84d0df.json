@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "e96fc4fdd525fa0ede28074a7e2b1caf94b58b0d",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed bugs due to uninitialized data in the JP2 decoder.\nAlso, added some comments marking I/O stream interfaces that probably\nneed to be changed (in the long term) to fix integer overflow problems.",
+  "patch_path": "reports/codejit_extraction_v1/records/e11e1aa4fb71d3140b84d0df.diff.gz",
+  "diff_bytes": 7999,
+  "diff_sha256": "a8828a20e9cdb97520a9e644465fac1d526a3d12ae49c6ad23a197fc4cd0d76f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:48.327317+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

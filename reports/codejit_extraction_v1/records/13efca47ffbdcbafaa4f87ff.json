@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libavc",
+  "commit_id": "326fe991a4b7971e8aeaf4ac775491dd8abd85bb",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Decoder: Initialize first_pb_nal_in_pic for error slices\n\nfirst_pb_nal_in_pic was uninitialized for error clips\n\nBug: 29023649\n\nChange-Id: Ie4e0a94059c5f675bf619e31534846e2c2ca58ae",
+  "patch_path": "reports/codejit_extraction_v1/records/13efca47ffbdcbafaa4f87ff.diff.gz",
+  "diff_bytes": 893,
+  "diff_sha256": "d2bc705d73151b6dd13619c728be38326fcde498da45eb07f27556034cbbdb7d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:17.690990+00:00",
+  "url": "https://android.googlesource.com/platform/external/libavc"
+}

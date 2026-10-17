@@ -1,0 +1,16 @@
+{
+  "repo": "freifunk-gluon___ecdsautils",
+  "commit_id": "a0e16edf44ea8f6e0f33ecb5ecaee4de52b4dace",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add libecdsautil library",
+  "patch_path": "reports/codejit_extraction_v1/records/26c2094351633dddd33f974c.diff.gz",
+  "diff_bytes": 26676,
+  "diff_sha256": "bea29d10521991aaa3a6ca7963228e3ecc86fe6b5749ff90c15796b04b0913e8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:48.605046+00:00",
+  "url": "https://github.com/freifunk-gluon/ecdsautils.git"
+}

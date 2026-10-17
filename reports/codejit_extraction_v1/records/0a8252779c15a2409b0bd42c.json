@@ -1,0 +1,16 @@
+{
+  "repo": "quassel___quassel",
+  "commit_id": "8b5ecd226f9208af3074b33d3b7cf5e14f55b138",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check for invalid input in encrypted buffers\n\nThe ECB Blowfish decryption function assumed that encrypted input would\nalways come in blocks of 12 characters, as specified. However, buggy\nclients or annoying people may not adhere to that assumption, causing\nthe core to crash while trying to process the invalid base64 input.\n\nWith this commit we make sure that we're not overstepping the bounds of\nthe input string while decoding it; instead we bail out early and display\nthe original input. Fixes #1314.\n\nThanks to Tucos for finding that one!",
+  "patch_path": "reports/codejit_extraction_v1/records/0a8252779c15a2409b0bd42c.diff.gz",
+  "diff_bytes": 870,
+  "diff_sha256": "36098eb3134691e0e5f1500b1dd94c5ee00abce46bf2ec104e4d7bf02b5f6698",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:58.182169+00:00",
+  "url": "https://github.com/quassel/quassel.git"
+}

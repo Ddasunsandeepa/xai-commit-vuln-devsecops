@@ -1,0 +1,16 @@
+{
+  "repo": "git___git",
+  "commit_id": "34fa79a6cde56d6d428ab0d3160cb094ebad3305",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "prefer memcpy to strcpy\n\nWhen we already know the length of a string (e.g., because\nwe just malloc'd to fit it), it's nicer to use memcpy than\nstrcpy, as it makes it more obvious that we are not going to\noverflow the buffer (because the size we pass matches the\nsize in the allocation).\n\nThis also eliminates calls to strcpy, which make auditing\nthe code base harder.\n\nSigned-off-by: Jeff King <peff@peff.net>\nSigned-off-by: Junio C Hamano <gitster@pobox.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/fef0c722a6672c9f8825b99a.diff.gz",
+  "diff_bytes": 1148,
+  "diff_sha256": "d2d64a93f70dd0df4b250c24297540660db56e2a90e00f7d8ab145764d3b852f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:56.559307+00:00",
+  "url": "https://github.com/git/git.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "inspircd___inspircd",
+  "commit_id": "74fafb7f11b06747f69f182ad5e3769b665eea7a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "m_sasl: don't allow AUTHENTICATE with mechanisms with a space",
+  "patch_path": "reports/codejit_extraction_v1/records/c1ab761950a1da26fa16ddbb.diff.gz",
+  "diff_bytes": 784,
+  "diff_sha256": "98a4b4fe8f4c691c554aeae83565c2deedd527a63c8ab746e2d3f3b1269c8c11",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:38.979939+00:00",
+  "url": "https://github.com/inspircd/inspircd.git"
+}

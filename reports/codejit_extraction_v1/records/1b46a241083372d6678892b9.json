@@ -1,0 +1,16 @@
+{
+  "repo": "qemu___qemu",
+  "commit_id": "d829a2115f0817993e2b683601cb544a27980a8f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "block/qapi: Convert qmp_query_block() to BlockBackend\n\nMuch more command code needs conversion.  I start with this one\nbecause it's using bdrv_dev_* functions, which I'm about to lift into\nBlockBackend.\n\nWhile there, give bdrv_query_info() internal linkage.\n\nSigned-off-by: Markus Armbruster <armbru@redhat.com>\nReviewed-by: Benoît Canet <benoit.canet@nodalink.com>\nReviewed-by: Max Reitz <mreitz@redhat.com>\nReviewed-by: Kevin Wolf <kwolf@redhat.com>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/1b46a241083372d6678892b9.diff.gz",
+  "diff_bytes": 2343,
+  "diff_sha256": "6ff3144dee90699cedcad56796037714f6864323d2214eddada00d8a390950de",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:14:27.154254+00:00",
+  "url": "https://github.com/qemu/qemu.git"
+}

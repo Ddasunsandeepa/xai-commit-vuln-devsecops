@@ -1,0 +1,16 @@
+{
+  "repo": "academysoftwarefoundation___openexr",
+  "commit_id": "4c587457266cafb5d293d58963ec3c288fa4be2b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Reduce warnings reported in #982 (#983)\n\n* Reduce warnings reported in #982\n\nSigned-off-by: Nick Porcino <nporcino@pixar.com>\n\n* Finish cleaning warnings on dll usage\n\nSigned-off-by: Nick Porcino <nporcino@pixar.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/d49ca480d16f94746f124a70.diff.gz",
+  "diff_bytes": 41894,
+  "diff_sha256": "fadce4733f8c15fadf676b213540e5aedf39f3c79273e392875b5a8f5232b63b",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:37:04.314031+00:00",
+  "url": "https://github.com/academysoftwarefoundation/openexr.git"
+}

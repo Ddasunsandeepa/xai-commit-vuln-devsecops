@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "92a7bf8c44a236607c146240f3c0adc1ae01fedf",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check remaining frame length in rfc_process_mx_message\n\nBug: 111936792\nBug: 80432928\nTest: manual\nChange-Id: Ie2c09f3d598fb230ce060c9043f5a88c241cdd79\n(cherry picked from commit 0471355c8b035aaa2ce07a33eecad60ad49c5ad0)",
+  "patch_path": "reports/codejit_extraction_v1/records/e1cd375c6fd6bf667c546335.diff.gz",
+  "diff_bytes": 1721,
+  "diff_sha256": "d14aab66130f7c672a301c61e5ff91e938a1186ce3b0b0ce7c27b37ce1808da6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:16.771589+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

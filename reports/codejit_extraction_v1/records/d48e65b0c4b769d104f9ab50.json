@@ -1,0 +1,16 @@
+{
+  "repo": "neomutt___neomutt",
+  "commit_id": "9c36717a3e2af1f2c1b7242035455ec8112b4b06",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "imap: close connection on all failures\n\nThanks to Gabriel Salles-Loustau for spotting the problem.\n\nCo-authored-by: Kevin McCarthy <kevin@8t8.us>",
+  "patch_path": "reports/codejit_extraction_v1/records/d48e65b0c4b769d104f9ab50.diff.gz",
+  "diff_bytes": 1496,
+  "diff_sha256": "bac607a3f8cc898b53bfd06502ad93e95cefd1de921a0094b40a8e6ec27cd6f4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:42.263771+00:00",
+  "url": "https://github.com/neomutt/neomutt.git"
+}

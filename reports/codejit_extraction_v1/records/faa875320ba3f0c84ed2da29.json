@@ -1,0 +1,16 @@
+{
+  "repo": "libgd___libgd",
+  "commit_id": "1e09060f0595995b0afe5794ce3d8d80529fbc9c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "add gdImageClone, use gdImageClone for 0 degree rotation, fix expected images for bug00067 test",
+  "patch_path": "reports/codejit_extraction_v1/records/faa875320ba3f0c84ed2da29.diff.gz",
+  "diff_bytes": 650463,
+  "diff_sha256": "121ddbb7cb97fb83a39a42a7adf7a333128c84af9e4249ab9a97f0419eaee688",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:53.514663+00:00",
+  "url": "https://github.com/libgd/libgd.git"
+}

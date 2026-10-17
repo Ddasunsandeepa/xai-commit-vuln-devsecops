@@ -1,0 +1,16 @@
+{
+  "repo": "miniupnp___miniupnp",
+  "commit_id": "19d728d9d8312d7639526431fb61f6d3754c0fbe",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix error handling in upnpevents.c (was causing segfault on Solaris !)",
+  "patch_path": "reports/codejit_extraction_v1/records/e161c6e1829f9edf2f54322e.diff.gz",
+  "diff_bytes": 2023,
+  "diff_sha256": "358e2bcbd09800d75b943a74b43fb49d02820aa0d66a753eff5a7b2164cdfc43",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:05:06.170642+00:00",
+  "url": "https://github.com/miniupnp/miniupnp.git"
+}

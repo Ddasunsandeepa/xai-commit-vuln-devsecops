@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "cb7e2353fa3adb15bc903dd8c98a186f7437c781",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Make flexible array members work with Visual Studio.\n\nPiperOrigin-RevId: 398550680\nChange-Id: I555ebee6ddf1701233346577aec78e38bace5f4b",
+  "patch_path": "reports/codejit_extraction_v1/records/f53b9a616f3355402d1a3edf.diff.gz",
+  "diff_bytes": 3513,
+  "diff_sha256": "2c4495125b4822ae8613d470118f0c92c7348b3d5643f0cc15a024dc27a6b19a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:34:29.690476+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

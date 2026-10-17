@@ -1,0 +1,16 @@
+{
+  "repo": "nothings___stb",
+  "commit_id": "2073403a5f54eda44090bc62d0907e07ba73bde5",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "fix two setup crashes found by fuzz testing",
+  "patch_path": "reports/codejit_extraction_v1/records/0d35fda4299cb179f4c41c6f.diff.gz",
+  "diff_bytes": 4483,
+  "diff_sha256": "94ed957a4fe72422bda67c9ddcd5370cd7c2cf8bd408adba50b8a87258f814cd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:08:04.376882+00:00",
+  "url": "https://github.com/nothings/stb.git"
+}

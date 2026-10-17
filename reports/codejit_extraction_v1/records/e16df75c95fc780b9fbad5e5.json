@@ -1,0 +1,16 @@
+{
+  "repo": "chromium___chromium",
+  "commit_id": "b755ebba29dd405d6f1e4cf70f5bc81ffd33b0f6",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Guard against the same PrintWebViewHelper being re-entered.\n\nBUG=159165\n\nReview URL: https://chromiumcodereview.appspot.com/11367076\n\ngit-svn-id: svn://svn.chromium.org/chrome/trunk/src@165821 0039d316-1c4b-4281-b951-d872f2087c98",
+  "patch_path": "reports/codejit_extraction_v1/records/e16df75c95fc780b9fbad5e5.diff.gz",
+  "diff_bytes": 1881,
+  "diff_sha256": "8709a347f490410d626f2766c0bb9c54857066a3cc638dbdbefc88eced86ebe9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:48:31.538935+00:00",
+  "url": "https://github.com/chromium/chromium.git"
+}

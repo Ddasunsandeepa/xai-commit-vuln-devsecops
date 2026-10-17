@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "547a96090f2eb652c4f3c0978164199b835ac86f",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- Fixed bug #54332 (trunk only, null pointer deref due to information loss on long to int conversion)\n- Fixed some int* pointers being passed as size_t*.",
+  "patch_path": "reports/codejit_extraction_v1/records/03e7ae0bbcbfc005cc26a456.diff.gz",
+  "diff_bytes": 4504,
+  "diff_sha256": "d65a040d414c7d59951e0fbe38c66f0e0cf5b84afd9c8195b585e11a8d6df6af",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:28.664931+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

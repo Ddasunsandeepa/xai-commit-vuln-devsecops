@@ -1,0 +1,16 @@
+{
+  "repo": "ioquake___ioq3",
+  "commit_id": "376267d534476a875d8b9228149c4ee18b74a4fd",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't load .pk3s as .dlls, and don't load user config files from .pk3s.",
+  "patch_path": "reports/codejit_extraction_v1/records/fc2a56d32bbb6d766ebc21f1.diff.gz",
+  "diff_bytes": 2200,
+  "diff_sha256": "e4afbb7a68ff80dc136bb43c841ad8f77257dec59109a341e75e03d0cc49acff",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:01:43.085784+00:00",
+  "url": "https://github.com/ioquake/ioq3.git"
+}

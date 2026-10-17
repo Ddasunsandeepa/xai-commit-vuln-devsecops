@@ -1,0 +1,16 @@
+{
+  "repo": "vim___vim",
+  "commit_id": "77557a7ae66830cb21c79d3a2b48a93b086599b3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "patch 8.0.1674: libvterm can't handle an OSC string split\n\nProblem:    Libvterm can't handle a long OSC string that is split.\nSolution:   When an incomplete OSC string is received copy it to the parser\n            buffer. Increase the size of the parser buffer to be able to\n            handle longer strings.",
+  "patch_path": "reports/codejit_extraction_v1/records/af723d1ca6105fae509908bd.diff.gz",
+  "diff_bytes": 1453,
+  "diff_sha256": "f5583cc9e09b7434f42f84a128595b09aac5e3cbe0deaea8eb4dd5b1cf9645cb",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:43:27.074040+00:00",
+  "url": "https://github.com/vim/vim.git"
+}

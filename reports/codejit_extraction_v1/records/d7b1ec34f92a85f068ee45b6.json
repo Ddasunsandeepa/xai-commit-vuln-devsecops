@@ -1,0 +1,16 @@
+{
+  "repo": "wez___atomicparsley",
+  "commit_id": "d72ccf06c98259d7261e0f3ac4fd8717778782c1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Avoid stack overflow\n\nrefs: https://github.com/wez/atomicparsley/issues/32",
+  "patch_path": "reports/codejit_extraction_v1/records/d7b1ec34f92a85f068ee45b6.diff.gz",
+  "diff_bytes": 2633,
+  "diff_sha256": "af039d4fac29a6ab2b953e9536ef8aecea96c5684cca57045e691608fc55278f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:45:59.226049+00:00",
+  "url": "https://github.com/wez/atomicparsley.git"
+}

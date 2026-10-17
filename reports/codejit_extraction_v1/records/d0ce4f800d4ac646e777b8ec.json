@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "7121b8d0a24b4d98c0065632a184565d796b5f71",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do the revert properly, and put back fraction support in 7.1",
+  "patch_path": "reports/codejit_extraction_v1/records/d0ce4f800d4ac646e777b8ec.diff.gz",
+  "diff_bytes": 803099,
+  "diff_sha256": "fd3d5c9acaa50a064e3d762cd98e29b5a49155487f6f7929711cb79dc0c04bce",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:53.562537+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

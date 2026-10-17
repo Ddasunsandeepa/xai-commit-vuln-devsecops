@@ -1,0 +1,16 @@
+{
+  "repo": "fragglet___lhasa",
+  "commit_id": "0451357e2d8cb386cbdc94913562b1a96076d69a",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add level 3 header decoding.",
+  "patch_path": "reports/codejit_extraction_v1/records/ddfe2a5dea1c9f1d3162f73f.diff.gz",
+  "diff_bytes": 18572,
+  "diff_sha256": "9d8106081471ee11f1f45acce3f15ee15e966ebc06baa2fd1bcbc91dd02f8d9e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:29.321542+00:00",
+  "url": "https://github.com/fragglet/lhasa.git"
+}

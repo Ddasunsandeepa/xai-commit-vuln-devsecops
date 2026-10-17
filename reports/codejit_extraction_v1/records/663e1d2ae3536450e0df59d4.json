@@ -1,0 +1,16 @@
+{
+  "repo": "mdadams___jasper",
+  "commit_id": "1f0dfe5a42911b6880a1445f13f6d615ddb55387",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed an integer overflow problem in the JPC codec that later resulted\nin the use of uninitialized data.",
+  "patch_path": "reports/codejit_extraction_v1/records/663e1d2ae3536450e0df59d4.diff.gz",
+  "diff_bytes": 3030,
+  "diff_sha256": "78c6ca8cf4fcab45f9d6fc89fdfe0b6ab103bbb65076941706589f43e1cfd79e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:04:39.534389+00:00",
+  "url": "https://github.com/mdadams/jasper.git"
+}

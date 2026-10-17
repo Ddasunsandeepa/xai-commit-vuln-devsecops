@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "3d89911481ba6ebe8c88c1c0b595412121e6c645",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Eliminate `CHECK`-fail from `function.cc`.\n\nPiperOrigin-RevId: 409414744\nChange-Id: Ic854e12ab2edb88b165d32e2d632c4ee654d71ad",
+  "patch_path": "reports/codejit_extraction_v1/records/876280656eb4c9322df9cb82.diff.gz",
+  "diff_bytes": 696,
+  "diff_sha256": "bf1759981977213db26be8ce86c6faf812e9424a58fd5363b62cbdc9f5fd9b76",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:19:09.204568+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

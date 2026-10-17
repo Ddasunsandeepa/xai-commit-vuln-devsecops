@@ -1,0 +1,16 @@
+{
+  "repo": "proftpd___proftpd",
+  "commit_id": "ecff21e0d0e84f35c299ef91d7fda088e516d4ed",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Backporting recursive handling of DefaultRoot path, when AllowChrootSymlinks\nis off, to 1.3.5 branch.",
+  "patch_path": "reports/codejit_extraction_v1/records/520cf19cc20d7b9ca2d15e58.diff.gz",
+  "diff_bytes": 3449,
+  "diff_sha256": "bdd1ba7e903424cd348e31520a4aa7eeb7fec473766e21fe60e8a6f30a773ee7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:13:05.861881+00:00",
+  "url": "https://github.com/proftpd/proftpd.git"
+}

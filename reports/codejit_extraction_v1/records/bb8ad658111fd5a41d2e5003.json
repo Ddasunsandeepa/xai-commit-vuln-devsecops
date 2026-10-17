@@ -1,0 +1,16 @@
+{
+  "repo": "jsummers___imageworsener",
+  "commit_id": "dc74009a3cbcbc51dd29b3856043754d3c107449",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed a GIF decoding bug (buffer overrun)\n\nFixes issues #9, #11",
+  "patch_path": "reports/codejit_extraction_v1/records/bb8ad658111fd5a41d2e5003.diff.gz",
+  "diff_bytes": 1533,
+  "diff_sha256": "77baaacd5dea19f95e495524e140b9d65879c7b67590e841216a64321fe38d4e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:04.628304+00:00",
+  "url": "https://github.com/jsummers/imageworsener.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___media",
+  "commit_id": "8e7a2b4d13bff03973dbad2bfb88a04296140433",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Camera: Prevent data size overflow\n\nAdd a function to check overflow when calculating metadata\ndata size.\n\nBug: 30741779\nChange-Id: I6405fe608567a4f4113674050f826f305ecae030",
+  "patch_path": "reports/codejit_extraction_v1/records/0755bfe4ec4dc9237e1c4b26.diff.gz",
+  "diff_bytes": 3077,
+  "diff_sha256": "3db2aa599a9afa75675418bbf13d60b87ce6bc8565b7c499d13d3f188a4b56f0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:37.043116+00:00",
+  "url": "https://android.googlesource.com/platform/system/media"
+}

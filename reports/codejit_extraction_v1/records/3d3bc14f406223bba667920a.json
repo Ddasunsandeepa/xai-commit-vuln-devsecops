@@ -1,0 +1,16 @@
+{
+  "repo": "kyz___libmspack",
+  "commit_id": "1a33152fb583ce9e9502d0acd5cee651abb877c2",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Initial import.",
+  "patch_path": "reports/codejit_extraction_v1/records/3d3bc14f406223bba667920a.diff.gz",
+  "diff_bytes": 438335,
+  "diff_sha256": "d5fc81f4ef716684c5bb5cbb371d100e7a500ebcc2461604562141bb800b992d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:33.664484+00:00",
+  "url": "https://github.com/kyz/libmspack.git"
+}

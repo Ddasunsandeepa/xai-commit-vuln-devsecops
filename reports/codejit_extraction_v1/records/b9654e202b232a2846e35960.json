@@ -1,0 +1,16 @@
+{
+  "repo": "knik0___faad2",
+  "commit_id": "942c3e0aee748ea6fe97cb2c1aa5893225316174",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix a couple buffer overflows\n\nhttps://hackerone.com/reports/502816\nhttps://hackerone.com/reports/507858\n\nhttps://github.com/videolan/vlc/blob/master/contrib/src/faad2/faad2-fix-overflows.patch",
+  "patch_path": "reports/codejit_extraction_v1/records/b9654e202b232a2846e35960.diff.gz",
+  "diff_bytes": 1022,
+  "diff_sha256": "5133b531e5ed5c52d36ec0cc4d3612474358b99e4102ff6cff436942590f2848",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:30.727008+00:00",
+  "url": "https://github.com/knik0/faad2.git"
+}

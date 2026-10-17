@@ -1,0 +1,16 @@
+{
+  "repo": "libexpat___libexpat",
+  "commit_id": "2b1702456dab2e8de6f74e8e4e03aac87571aafd",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Namespace support",
+  "patch_path": "reports/codejit_extraction_v1/records/d937ea806c0c92caa37750f3.diff.gz",
+  "diff_bytes": 38360,
+  "diff_sha256": "af775fbeaf2591ce1865c3fcd3a0676c75354b4ddddc15163a7cbcb264ddedc8",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:49.888258+00:00",
+  "url": "https://github.com/libexpat/libexpat.git"
+}

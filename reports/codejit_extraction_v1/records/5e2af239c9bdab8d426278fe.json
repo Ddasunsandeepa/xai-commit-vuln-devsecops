@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "82168140bc4cec7ec9bad39705518541149ff8b7",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "x86: standardize mmap_rnd() usage\n\nIn preparation for splitting out ET_DYN ASLR, this refactors the use of\nmmap_rnd() to be used similarly to arm, and extracts the checking of\nPF_RANDOMIZE.\n\nSigned-off-by: Kees Cook <keescook@chromium.org>\nReviewed-by: Ingo Molnar <mingo@kernel.org>\nCc: Oleg Nesterov <oleg@redhat.com>\nCc: Andy Lutomirski <luto@amacapital.net>\nSigned-off-by: Andrew Morton <akpm@linux-foundation.org>\nSigned-off-by: Linus Torvalds <torvalds@linux-foundation.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/5e2af239c9bdab8d426278fe.diff.gz",
+  "diff_bytes": 2201,
+  "diff_sha256": "f81aa46b16ee4add4e7f0e899274781f402ec4e0b67d9ca16833cb5c60e275d5",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:38:46.405456+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "libvnc___libvncserver",
+  "commit_id": "09e8fc02f59f16e2583b34fe1a270c238bd9ffec",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Limit lenght to INT_MAX bytes in rfbProcessFileTransferReadBuffer()\n\nThis ammends 15bb719c03cc70f14c36a843dcb16ed69b405707 fix for a heap\nout-of-bound write access in rfbProcessFileTransferReadBuffer() when\nreading a transfered file content in a server. The former fix did not\nwork on platforms with a 32-bit int type (expected by rfbReadExact()).\n\nCVE-2018-15127\n<https://github.com/LibVNC/libvncserver/issues/243>\n<https://github.com/LibVNC/libvncserver/issues/273>",
+  "patch_path": "reports/codejit_extraction_v1/records/149a1c0dedcaf33f6d471a37.diff.gz",
+  "diff_bytes": 1101,
+  "diff_sha256": "b038621e9aebf510c201986a03d100e4376ce5d9dd93adc07de733f7a9419049",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:34.060009+00:00",
+  "url": "https://github.com/libvnc/libvncserver.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "vadz___libtiff",
+  "commit_id": "ae9365db1b271b62b35ce018eac8799b1d5e8a53",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "* tools/tiffcrop.c: fix out-of-bound read of up to 3 bytes in\nreadContigTilesIntoBuffer(). Reported as MSVR 35092 by Axel Souchet\n& Vishal Chauhan from the MSRC Vulnerabilities & Mitigations team.",
+  "patch_path": "reports/codejit_extraction_v1/records/d57345bf458ec2f5a62322fd.diff.gz",
+  "diff_bytes": 1280,
+  "diff_sha256": "af1bde7fd1e4060570a321439d0228d6e27aacd37978cfccffb2cf9eec7fd734",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:40:46.317870+00:00",
+  "url": "https://github.com/vadz/libtiff.git"
+}

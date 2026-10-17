@@ -1,0 +1,16 @@
+{
+  "repo": "platform___external___libmpeg2",
+  "commit_id": "d1c775d1d8d2ed117d1e026719b7f9f089716597",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fixed out of bound read in flush_bits\n\nBug: 28168413\nChange-Id: I3db5432a08daf665e160c0dab2d1928a576418b4",
+  "patch_path": "reports/codejit_extraction_v1/records/a599fd7d6eeda845066b8e6a.diff.gz",
+  "diff_bytes": 1053,
+  "diff_sha256": "e24d2af5858e90e9bc346663a1e4469bb76ce8595ed7ea0a1dd7a2f4e5525c09",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:22:30.175962+00:00",
+  "url": "https://android.googlesource.com/platform/external/libmpeg2"
+}

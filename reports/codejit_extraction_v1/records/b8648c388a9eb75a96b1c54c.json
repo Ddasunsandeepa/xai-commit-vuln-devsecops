@@ -1,0 +1,16 @@
+{
+  "repo": "muttmua___mutt",
+  "commit_id": "3d9028fec8f4d08db2251096307c0bbbebce669a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check outbuf length in mutt_from_base64()\n\nThe obuf can be overflowed in auth_cram.c, and possibly auth_gss.c.\n\nThanks to Jeriko One for the bug report.",
+  "patch_path": "reports/codejit_extraction_v1/records/b8648c388a9eb75a96b1c54c.diff.gz",
+  "diff_bytes": 2852,
+  "diff_sha256": "280571bde7223ae9609498b72cfbccc849a464b04ba31fb397100e737fc791e0",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:01.402780+00:00",
+  "url": "https://github.com/muttmua/mutt.git"
+}

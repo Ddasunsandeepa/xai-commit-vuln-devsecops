@@ -1,0 +1,16 @@
+{
+  "repo": "bonzini___qemu",
+  "commit_id": "a597e79ce14ea62266924acc7b8a7030a42ed29b",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "block: explicit I/O accounting\n\nDecouple the I/O accounting from bdrv_aio_readv/writev/flush and\nmake the hardware models call directly into the accounting helpers.\n\nThis means:\n - we do not count internal requests from image formats in addition\n   to guest originating I/O\n - we do not double count I/O ops if the device model handles it\n   chunk wise\n - we only account I/O once it actuall is done\n - can extent I/O accounting to synchronous or coroutine I/O easily\n - implement I/O latency tracking easily (see the next patch)\n\nI've conveted the existing device model callers to the new model,\ndevice models that are using synchronous I/O and weren't accounted\nbefore haven't been updated yet.  Also scsi hasn't been converted\nto the end-to-end accounting as I want to defer that after the pending\nscsi layer overhaul.\n\nSigned-off-by: Christoph Hellwig <hch@lst.de>\nSigned-off-by: Kevin Wolf <kwolf@redhat.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/e359f437cbfea8bdf76504ed.diff.gz",
+  "diff_bytes": 23822,
+  "diff_sha256": "03a8ef916c1925ef5f96f0c675d3d270e0b6332412f0de3891a954e0d3e6bcf4",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:43.622774+00:00",
+  "url": "https://github.com/bonzini/qemu.git"
+}

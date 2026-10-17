@@ -1,0 +1,16 @@
+{
+  "repo": "freerdp___freerdp",
+  "commit_id": "b6e6575bf63e8ac6c8353b0670dcbcba4a89d078",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "license: support CAL license\n\nThis patch simplifies the licensing code mutualizing encryption / decryption\nroutines. It also adds the support for client_info packet that allows to send a\npreviously saved CAL file.",
+  "patch_path": "reports/codejit_extraction_v1/records/b9082b4d5134dc503d62a1af.diff.gz",
+  "diff_bytes": 48099,
+  "diff_sha256": "937b7c34c4162a82641434b95aa8cf8e5c2284d7dea253ba4772755d7cdc0b3f",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:57:41.977709+00:00",
+  "url": "https://github.com/freerdp/freerdp.git"
+}

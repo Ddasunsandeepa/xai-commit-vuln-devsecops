@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "9b0fbce37260e69cb116be1cdcbceb1f43bf9346",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Modulizification of btif_config",
+  "patch_path": "reports/codejit_extraction_v1/records/c1615262988ea5aaab3d8160.diff.gz",
+  "diff_bytes": 4730,
+  "diff_sha256": "82f04025c40b2320042e48953276d7850576d8f82f58db3a170246f2058893d6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:18.033916+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

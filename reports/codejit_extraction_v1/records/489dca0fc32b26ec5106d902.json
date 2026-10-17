@@ -1,0 +1,16 @@
+{
+  "repo": "snapcore___snapd",
+  "commit_id": "bdbfeebef03245176ae0dc323392bb0522a339b1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "cmd/snap-confine: chown private /tmp parent to root.root\n\nWhen snap-confine creates a private /tmp directory for a given snap it\nfirst creates a temporary directory in /tmp/ named after the snap, along\nwith a random name. Inside that directory it creates a /tmp directory\nwith permissions appropriate for a future /tmp, namely 1777.\n\nUp until recently the that directory was owned by the user who first\ninvoked snap-confine. Since the directory is reused by all the users on\nthe system this logic makes no sense.\n\nThis patch changes the related logic so that the private /tmp directory\nis owned by root, just like the real one.\n\nSigned-off-by: Zygmunt Krynicki <zygmunt.krynicki@canonical.com>",
+  "patch_path": "reports/codejit_extraction_v1/records/489dca0fc32b26ec5106d902.diff.gz",
+  "diff_bytes": 834,
+  "diff_sha256": "dd2b7af283cb318c4d9fbfd92186584ffce47f1b0a2b16d041cad1ef232fb96d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:16:20.994991+00:00",
+  "url": "https://github.com/snapcore/snapd.git"
+}

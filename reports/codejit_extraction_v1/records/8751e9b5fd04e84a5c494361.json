@@ -1,0 +1,16 @@
+{
+  "repo": "php___php-src",
+  "commit_id": "639f7fde6a51c23d7c670358fbcb777ac1a143f3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Improve fix for #72663",
+  "patch_path": "reports/codejit_extraction_v1/records/8751e9b5fd04e84a5c494361.diff.gz",
+  "diff_bytes": 8775,
+  "diff_sha256": "3630858ab5aa3ea2dd6bbe5339a5c2824ed3e1215d7931e1bbdc5da97044fb7a",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:11:37.827873+00:00",
+  "url": "https://github.com/php/php-src.git"
+}

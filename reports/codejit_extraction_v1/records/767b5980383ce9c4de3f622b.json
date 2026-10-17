@@ -1,0 +1,16 @@
+{
+  "repo": "libass___libass",
+  "commit_id": "4881a6e11764ee5c4b755d45738c243042111b6c",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "More malloc checking\n\nDon't crash if running out of memory when allocating per-glyph data\nduring shaping. Also some fixes to initialization.\n\nThe caller of ass_fontconfig.c/match_fullname() actually handles a NULL\nreturn value correctly.",
+  "patch_path": "reports/codejit_extraction_v1/records/767b5980383ce9c4de3f622b.diff.gz",
+  "diff_bytes": 4126,
+  "diff_sha256": "41e40b1b0b131e6985a52e7e87d26f1fc2495286d5280ec4a6dd979d0de93590",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:48.598176+00:00",
+  "url": "https://github.com/libass/libass.git"
+}

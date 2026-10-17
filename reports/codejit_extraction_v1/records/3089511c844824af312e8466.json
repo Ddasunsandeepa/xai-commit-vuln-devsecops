@@ -1,0 +1,16 @@
+{
+  "repo": "yast___yast-core",
+  "commit_id": "7fe2e3df308b8b6a901cb2cfd60f398df53219de",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "- ini-agent: added Write(.section_private.SECTION, BOOLEAN) (bnc#713661, CVE-2011-3177)\n- system agent: added  Write(.target.string, [filename, mode],  content)\n\nsvn merge -r66758:66764 http://svn.opensuse.org/svn/yast/branches/SuSE-Code-11-SP2-Branch/core\n\nsvn path=/trunk/core/; revision=67117",
+  "patch_path": "reports/codejit_extraction_v1/records/3089511c844824af312e8466.diff.gz",
+  "diff_bytes": 16845,
+  "diff_sha256": "6b01d7087234ed570ded6bbdc127e7687236d419cf18c6a49d75c253fb7a14c6",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:17.896363+00:00",
+  "url": "https://github.com/yast/yast-core.git"
+}

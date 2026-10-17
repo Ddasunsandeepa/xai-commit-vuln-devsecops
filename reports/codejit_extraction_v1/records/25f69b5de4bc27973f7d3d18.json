@@ -1,0 +1,16 @@
+{
+  "repo": "ffmpeg___ffmpeg",
+  "commit_id": "3518925a9127e368b6d0c7e8fd86510d34af40a1",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "avformat/movenc: Check for memory allocation failures\n\nFixes CID1271049\nSigned-off-by: Michael Niedermayer <michaelni@gmx.at>",
+  "patch_path": "reports/codejit_extraction_v1/records/25f69b5de4bc27973f7d3d18.diff.gz",
+  "diff_bytes": 798,
+  "diff_sha256": "86f76c14e3b938f90f88627dcceb697bd14ec15ae8d426fa27e1e00e3759bc99",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:56:39.688331+00:00",
+  "url": "https://github.com/ffmpeg/ffmpeg.git"
+}

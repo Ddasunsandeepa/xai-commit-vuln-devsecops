@@ -1,0 +1,16 @@
+{
+  "repo": "neoraider___fastd",
+  "commit_id": "737925113363b6130879729cdff9ccc46c33eaea",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "receive: fix buffer leak when receiving invalid packets\n\nFor fastd versions before v20, this was just a memory leak (which could\nstill be used for DoS, as it's remotely triggerable). With the new\nbuffer management of fastd v20, this will trigger an assertion failure\ninstead as soon as the buffer pool is empty.",
+  "patch_path": "reports/codejit_extraction_v1/records/403bdfe7fc94ef01e1d340dd.diff.gz",
+  "diff_bytes": 743,
+  "diff_sha256": "f4cc84f68708d5a83165a2a3488253d5081cac0d0151ecc8866b608b1368a465",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:07:53.747703+00:00",
+  "url": "https://github.com/neoraider/fastd.git"
+}

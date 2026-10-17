@@ -1,0 +1,16 @@
+{
+  "repo": "yubico___pam-u2f",
+  "commit_id": "18b1914e32b74ff52000f10e97067e841e5fff62",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not leak file descriptor when doing exec\n\nWhen opening a custom debug file, the descriptor would stay\nopen when calling exec and leak to the child process.\n\nMake sure all files are opened with close-on-exec.\n\nThis fixes CVE-2019-12210.\n\nThanks to Matthias Gerstner of the SUSE Security Team for reporting\nthe issue.",
+  "patch_path": "reports/codejit_extraction_v1/records/bc1ecba4443e055ba6934c58.diff.gz",
+  "diff_bytes": 4003,
+  "diff_sha256": "ede92adbf0b4a7e6ce39fc1d05af0d749cb212f8920163d1f1208f531c5b77f7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:46:18.280023+00:00",
+  "url": "https://github.com/yubico/pam-u2f.git"
+}

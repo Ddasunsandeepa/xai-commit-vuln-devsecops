@@ -1,0 +1,16 @@
+{
+  "repo": "openssl___openssl",
+  "commit_id": "4ad93618d26a3ea23d36ad5498ff4f59eff3a4d2",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Don't change the state of the ETM flags until CCS processing\n\nChanging the ciphersuite during a renegotiation can result in a crash\nleading to a DoS attack. ETM has not been implemented in 1.1.0 for DTLS\nso this is TLS only.\n\nThe problem is caused by changing the flag indicating whether to use ETM\nor not immediately on negotiation of ETM, rather than at CCS. Therefore,\nduring a renegotiation, if the ETM state is changing (usually due to a\nchange of ciphersuite), then an error/crash will occur.\n\nDue to the fact that there are separate CCS messages for read and write\nwe actually now need two flags to determine whether to use ETM or not.\n\nCVE-2017-3733\n\nReviewed-by: Richard Levitte <levitte@openssl.org>",
+  "patch_path": "reports/codejit_extraction_v1/records/11245a402efee8ff71dae990.diff.gz",
+  "diff_bytes": 9486,
+  "diff_sha256": "ba4f71569d7a5f3504fcaf244d1c3f670d2d0d9c4d2a4e712a67d2798cb3efcd",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:10:11.635105+00:00",
+  "url": "https://github.com/openssl/openssl.git"
+}

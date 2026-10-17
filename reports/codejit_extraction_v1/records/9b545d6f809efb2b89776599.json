@@ -1,0 +1,16 @@
+{
+  "repo": "torvalds___linux",
+  "commit_id": "2dcab598484185dea7ec22219c76dcdd59e3cb90",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "sctp: avoid BUG_ON on sctp_wait_for_sndbuf\n\nAlexander Popov reported that an application may trigger a BUG_ON in\nsctp_wait_for_sndbuf if the socket tx buffer is full, a thread is\nwaiting on it to queue more data and meanwhile another thread peels off\nthe association being used by the first thread.\n\nThis patch replaces the BUG_ON call with a proper error handling. It\nwill return -EPIPE to the original sendmsg call, similarly to what would\nhave been done if the association wasn't found in the first place.\n\nAcked-by: Alexander Popov <alex.popov@linux.com>\nSigned-off-by: Marcelo Ricardo Leitner <marcelo.leitner@gmail.com>\nReviewed-by: Xin Long <lucien.xin@gmail.com>\nSigned-off-by: David S. Miller <davem@davemloft.net>",
+  "patch_path": "reports/codejit_extraction_v1/records/9b545d6f809efb2b89776599.diff.gz",
+  "diff_bytes": 441,
+  "diff_sha256": "e1304e8a291efe545a36c633d4a4d225c7b990eaccc750f5c17d8c61c304b28e",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:58.718323+00:00",
+  "url": "https://github.com/torvalds/linux.git"
+}

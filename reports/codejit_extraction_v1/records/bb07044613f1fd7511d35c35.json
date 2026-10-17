@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "db4f9717c41bccc3ce10099ab61996b246099892",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Fix heap buffer overflow in UnsortedSegmentSum.\n\nWhen Index=int32, data_size and num_segments were truncated from int64 to int32. This truncation can produce negative numbers, which causes UnsortedSegmentFunctor to access out of bounds memory.\n\nAlso:\n- Switches some indexing calculations to int64 to avoid signed integer overflow when either the input or output tensors have more than 2**31 - 1 elements.\n- Fixes a range check error in the GPU kernel. The segment ID was checked against an upper bound measured in elements, not segments.\nPiperOrigin-RevId: 256451663",
+  "patch_path": "reports/codejit_extraction_v1/records/bb07044613f1fd7511d35c35.diff.gz",
+  "diff_bytes": 8648,
+  "diff_sha256": "3e0dfabe7ff65db21b062304c0a3351a28977dd9db0d6a484d777bc159ebf8c7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:34:44.674645+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

@@ -1,0 +1,16 @@
+{
+  "repo": "opensc___opensc",
+  "commit_id": "790ed5fcd7a3189c2df686daebe02f43ae5a72c3",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add Coolkey driver\n\nAuthor: Robert Relyea <rrelyea@redhat.com>\n\nCoolkey driver improvements:\n * Remove hardcoded list and use SimCList\n * Whitespace cleanup\n * Remove bogus if\n * drop inline keywords\n * proper path to include sys/types.h\n * full name of ushort type\n * condition to use compression\n * proper include path\n * Resolve template name conflict in Tokend\n\nClean up the copyright headers\n\n-- rebased into one commit by VTA\n-- closes #896",
+  "patch_path": "reports/codejit_extraction_v1/records/d4a92054deb2e2399f2ebdb0.diff.gz",
+  "diff_bytes": 101604,
+  "diff_sha256": "391559f9afd57a2826702aec4cd0ca4b27b63e9b6b9a7b0b3969657c90158d24",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:09:59.661346+00:00",
+  "url": "https://github.com/opensc/opensc.git"
+}

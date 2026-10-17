@@ -1,0 +1,16 @@
+{
+  "repo": "lua___lua",
+  "commit_id": "6d04537ea660fd12fc16c328366b701fabaf4919",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "A to-be-closed variable must have a closable value (or be nil)\n\nIt is an error for a to-be-closed variable to have a non-closable\nnon-nil value when it is being closed. This situation does not seem to\nbe useful and often hints to an error. (Particularly in the C API, it is\neasy to change a to-be-closed index by mistake.)",
+  "patch_path": "reports/codejit_extraction_v1/records/ab7e821511f3a1b3d9b0eb80.diff.gz",
+  "diff_bytes": 12673,
+  "diff_sha256": "1d8f0b95777352ea6af972402678893e54f1086fb28295690f7a9cb671b589e7",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:47.516032+00:00",
+  "url": "https://github.com/lua/lua.git"
+}

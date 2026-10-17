@@ -1,0 +1,16 @@
+{
+  "repo": "bittorrent___bootstrap-dht",
+  "commit_id": "e809ea80e3527e32c40756eddd8b2ae44bc3af1a",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Check for out-of-bounds bencoded lengths before advancing buffer pointer",
+  "patch_path": "reports/codejit_extraction_v1/records/926bdd493c0b48503e24b477.diff.gz",
+  "diff_bytes": 1067,
+  "diff_sha256": "d487f08cc012ea0417abcec81fbf0d8f6f6e3042fcfed7b0a8ea380ce7258a90",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T16:39:25.172113+00:00",
+  "url": "https://github.com/bittorrent/bootstrap-dht.git"
+}

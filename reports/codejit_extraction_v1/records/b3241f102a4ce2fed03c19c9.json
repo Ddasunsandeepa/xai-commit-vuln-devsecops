@@ -1,0 +1,16 @@
+{
+  "repo": "mongodb___mongo",
+  "commit_id": "fc923dbad70755f8c98a8774299bd5061454a69d",
+  "label": 1,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "SERVER-2939 UTF-8 support for the shell\n\nMajor reworking of the internals of linenoise to support UTF-8.  Added\nUtf8String and Utf32String classes adapted from code by Mathias.  Start\nof work to handle zero-width and double-width characters (for combining\ncharacters and Chinese-Japanese-Korean wide characters) using code from\nMarkus Kuhn (called mk_wcwidth as checked in here).  Some additional\ncleanup would be desirable, but all features should now work with Unicode\nin Windows and non-Windows builds.",
+  "patch_path": "reports/codejit_extraction_v1/records/b3241f102a4ce2fed03c19c9.diff.gz",
+  "diff_bytes": 132886,
+  "diff_sha256": "11a00b1a35d796d8379073fec05e08ab7ef11bf1ffe2394843414ae314832239",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:06:37.106283+00:00",
+  "url": "https://github.com/mongodb/mongo.git"
+}

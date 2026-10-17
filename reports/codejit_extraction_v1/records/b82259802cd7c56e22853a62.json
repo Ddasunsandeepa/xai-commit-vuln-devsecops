@@ -1,0 +1,16 @@
+{
+  "repo": "luke-jr___bfgminer",
+  "commit_id": "c80ad8548251eb0e15329fc240c89070640c9d79",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Stratum: extract_sockaddr: Truncate overlong addresses rather than stack overflow\n\nThanks to Mick Ayzenberg <mick@dejavusecurity.com> for finding this!",
+  "patch_path": "reports/codejit_extraction_v1/records/b82259802cd7c56e22853a62.diff.gz",
+  "diff_bytes": 449,
+  "diff_sha256": "e73cea462e5f2af13d8e47242a80d00cdbaabfb40c3ca9b71f40c0d7bff5d197",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:03:49.665827+00:00",
+  "url": "https://github.com/luke-jr/bfgminer.git"
+}

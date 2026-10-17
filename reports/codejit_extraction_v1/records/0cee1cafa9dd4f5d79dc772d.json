@@ -1,0 +1,16 @@
+{
+  "repo": "platform___system___bt",
+  "commit_id": "5216e6120160b28d76e9ee4dff9995e772647511",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add packet length checks in mca_ccb_hdl_req\n\nBug: 110791536\nTest: manual\nChange-Id: Ica5d8037246682fdb190b2747a86ed8d44c2869a\n(cherry picked from commit 4de7ccdd914b7a178df9180d15f675b257ea6e02)",
+  "patch_path": "reports/codejit_extraction_v1/records/0cee1cafa9dd4f5d79dc772d.diff.gz",
+  "diff_bytes": 997,
+  "diff_sha256": "a223eaa1f46f656915679afe7804e088eb9cbbf6d59f31dd6725f01803144d7d",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:31:13.996330+00:00",
+  "url": "https://android.googlesource.com/platform/system/bt"
+}

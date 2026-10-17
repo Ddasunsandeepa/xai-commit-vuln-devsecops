@@ -1,0 +1,16 @@
+{
+  "repo": "tensorflow___tensorflow",
+  "commit_id": "f68fdab93fb7f4ddb4eb438c8fe052753c9413e8",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Add a check for pad width to be a positive value.\n\nPiperOrigin-RevId: 413275853\nChange-Id: I261a8db9dabf5ce48a806a9e58129080c9fac619",
+  "patch_path": "reports/codejit_extraction_v1/records/200e4dc50ad916994689079c.diff.gz",
+  "diff_bytes": 3069,
+  "diff_sha256": "d47d51b0bec8f9045cc677395c3a7fb8c03431c6777720fe04928451c44b1ea9",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T18:35:12.971294+00:00",
+  "url": "https://github.com/tensorflow/tensorflow.git"
+}

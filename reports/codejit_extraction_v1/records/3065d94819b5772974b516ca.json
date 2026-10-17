@@ -1,0 +1,16 @@
+{
+  "repo": "koral--___android-gif-drawable",
+  "commit_id": "cc5b4f8e43463995a84efd594f89a21f906c2d20",
+  "label": 0,
+  "split": "train",
+  "status": "ok",
+  "error": "",
+  "message": "Do not realloc array if new raster size is 0.\n\nif realloc() is called with 0 size it may return NULL and this will be incorrectly handled\nas not enough memory and (also) rasterBits will be freed by realloc but we will not update\nit.",
+  "patch_path": "reports/codejit_extraction_v1/records/3065d94819b5772974b516ca.diff.gz",
+  "diff_bytes": 1165,
+  "diff_sha256": "98e00bd2f5172cafa7e7d886039e0320d42e452fc449446bbef7fe021a8afcfe",
+  "parent_count": 1,
+  "is_merge": false,
+  "attempted_at_utc": "2026-10-17T17:02:32.174796+00:00",
+  "url": "https://github.com/koral--/android-gif-drawable.git"
+}
