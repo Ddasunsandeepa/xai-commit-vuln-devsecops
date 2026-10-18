@@ -8,8 +8,8 @@
   "input_mode": "combined",
   "train_manifest": "reports/codejit_train_val_v2/train_manifest.csv",
   "val_manifest": "reports/codejit_train_val_v2/val_manifest.csv",
-  "selection_rows": 1174,
-  "fallback_rows": 0,
+  "selection_rows": 1586,
+  "fallback_rows": 1,
   "limitations": [
     "Preserves changed lines in original order; later hunks can still be truncated.",
     "Diff metadata/header context is reduced.",
