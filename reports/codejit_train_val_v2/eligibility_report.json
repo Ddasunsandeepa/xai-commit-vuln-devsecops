@@ -7,21 +7,21 @@
   "original_metadata_modified": false,
   "summary": {
     "train": {
-      "original": 947,
-      "eligible": 937,
-      "excluded": 10,
+      "original": 1277,
+      "eligible": 1272,
+      "excluded": 5,
       "label_distribution": {
-        "1": 474,
-        "0": 463
+        "1": 639,
+        "0": 633
       }
     },
     "val": {
-      "original": 237,
-      "eligible": 237,
-      "excluded": 0,
+      "original": 319,
+      "eligible": 314,
+      "excluded": 5,
       "label_distribution": {
-        "1": 121,
-        "0": 116
+        "0": 158,
+        "1": 156
       }
     }
   },
@@ -62,35 +62,35 @@
       "reason": "empty_or_missing_commit_message"
     },
     {
-      "split": "train",
+      "split": "val",
       "repo": "imagemagick___imagemagick6",
       "commit_id": "0f4ba5afce8cd32c2ca756987375ff7c8d3a7b29",
       "label": 1,
       "reason": "empty_or_missing_commit_message"
     },
     {
-      "split": "train",
+      "split": "val",
       "repo": "imagemagick___imagemagick6",
       "commit_id": "1684c4c35fa5a84e296d9b8a6fae6627fa046941",
       "label": 1,
       "reason": "empty_or_missing_commit_message"
     },
     {
-      "split": "train",
+      "split": "val",
       "repo": "imagemagick___imagemagick6",
       "commit_id": "8aed7e307316751f32d9d1981cd16cb8cf82f752",
       "label": 1,
       "reason": "empty_or_missing_commit_message"
     },
     {
-      "split": "train",
+      "split": "val",
       "repo": "imagemagick___imagemagick6",
       "commit_id": "9fe8cd76fbf1dc52cef01a2b137ca1b659b244c8",
       "label": 1,
       "reason": "empty_or_missing_commit_message"
     },
     {
-      "split": "train",
+      "split": "val",
       "repo": "imagemagick___imagemagick6",
       "commit_id": "fca094c5eda14e547ca03a5d4e0a7f1dc0e810e8",
       "label": 1,

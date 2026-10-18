@@ -216,7 +216,7 @@
       }
     }
   ],
-  "seconds": 73.53998351097107,
+  "seconds": 73.15200519561768,
   "config": {
     "train": "reports/codejit_train_val_v3/train_manifest.csv",
     "val": "reports/codejit_train_val_v3/val_manifest.csv",

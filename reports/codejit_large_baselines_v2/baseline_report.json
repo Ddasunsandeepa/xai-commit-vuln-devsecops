@@ -2,8 +2,8 @@
   "experiment": "CodeJIT repository-disjoint matched-input TF-IDF logistic baseline",
   "evaluation": "frozen validation only; held-out test not accessed",
   "source_sha256": {
-    "train_manifest": "25c4b1029628ba5d20148b8103cae9141279b67bab8a26feecdd8d801050259e",
-    "val_manifest": "007e6adb0ff5778dd02717daaf7b856543bed2f3b822afc9ec5ddbdc41d0c7b3"
+    "train_manifest": "1ddfa6b4dd2e8dff7627ac8e725009d3a482284d9c0f1ec90915a2642d946b15",
+    "val_manifest": "b717de9ae17a1d154498a0a55a2d1c40a6f158b59bbcfdb58cc311d20762203f"
   },
   "configuration": {
     "seed": 42,
@@ -15,82 +15,82 @@
     "patch_selection": "first N raw bytes decoded with replacement"
   },
   "sample_counts": {
-    "train": 937,
-    "val": 237,
-    "train_repositories": 240,
-    "val_repositories": 60,
-    "train_label0": 463,
-    "train_label1": 474,
-    "val_label0": 116,
-    "val_label1": 121
+    "train": 1272,
+    "val": 314,
+    "train_repositories": 311,
+    "val_repositories": 78,
+    "train_label0": 633,
+    "train_label1": 639,
+    "val_label0": 158,
+    "val_label1": 156
   },
   "input_coverage": {
-    "truncated_train": 127,
-    "truncated_val": 34,
-    "truncated_total": 161,
+    "truncated_train": 164,
+    "truncated_val": 52,
+    "truncated_total": 216,
     "max_full_patch_bytes": 14239326
   },
   "validation_metrics": {
     "message": {
-      "n": 237,
-      "accuracy": 0.7383966244725738,
-      "balanced_accuracy": 0.7393488173268737,
-      "precision": 0.7706422018348624,
-      "recall": 0.6942148760330579,
-      "f1": 0.7304347826086957,
-      "macro_f1": 0.738168210976479,
-      "roc_auc": 0.7994442861214022,
-      "pr_auc": 0.8120360508300832,
+      "n": 314,
+      "accuracy": 0.7866242038216561,
+      "balanced_accuracy": 0.786432976306394,
+      "precision": 0.8027210884353742,
+      "recall": 0.7564102564102564,
+      "f1": 0.7788778877887789,
+      "macro_f1": 0.7863620208174664,
+      "roc_auc": 0.8391755923401493,
+      "pr_auc": 0.8441049598484808,
       "confusion_matrix": [
         [
-          91,
-          25
+          129,
+          29
         ],
         [
-          37,
-          84
+          38,
+          118
         ]
       ]
     },
     "code": {
-      "n": 237,
-      "accuracy": 0.6919831223628692,
-      "balanced_accuracy": 0.6926474779139355,
-      "precision": 0.7142857142857143,
-      "recall": 0.6611570247933884,
-      "f1": 0.6866952789699571,
-      "macro_f1": 0.6918953573273021,
-      "roc_auc": 0.7563408378455401,
-      "pr_auc": 0.8109516680170433,
+      "n": 314,
+      "accuracy": 0.7006369426751592,
+      "balanced_accuracy": 0.700787082116196,
+      "precision": 0.6890243902439024,
+      "recall": 0.7243589743589743,
+      "f1": 0.70625,
+      "macro_f1": 0.7005275974025974,
+      "roc_auc": 0.7477482960077897,
+      "pr_auc": 0.7383274388049641,
       "confusion_matrix": [
         [
-          84,
-          32
+          107,
+          51
         ],
         [
-          41,
-          80
+          43,
+          113
         ]
       ]
     },
     "combined": {
-      "n": 237,
-      "accuracy": 0.7257383966244726,
-      "balanced_accuracy": 0.7264177828441152,
-      "precision": 0.75,
-      "recall": 0.6942148760330579,
-      "f1": 0.721030042918455,
-      "macro_f1": 0.7256602496749951,
-      "roc_auc": 0.7889712168709034,
-      "pr_auc": 0.8320734227060125,
+      "n": 314,
+      "accuracy": 0.7165605095541401,
+      "balanced_accuracy": 0.7167315806556314,
+      "precision": 0.703030303030303,
+      "recall": 0.7435897435897436,
+      "f1": 0.7227414330218068,
+      "macro_f1": 0.7164195764457568,
+      "roc_auc": 0.7865141187925999,
+      "pr_auc": 0.7700806186754265,
       "confusion_matrix": [
         [
-          88,
-          28
+          109,
+          49
         ],
         [
-          37,
-          84
+          40,
+          116
         ]
       ]
     }

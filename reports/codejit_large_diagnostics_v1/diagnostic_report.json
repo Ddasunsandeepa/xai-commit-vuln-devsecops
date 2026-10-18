@@ -1,29 +1,29 @@
 {
   "status": "completed",
-  "validation_commits": 237,
-  "repositories": 60,
+  "validation_commits": 314,
+  "repositories": 78,
   "validation_label_counts": {
-    "1": 121,
-    "0": 116
+    "0": 158,
+    "1": 156
   },
   "baseline_metrics_recomputed": {
     "message": {
-      "f1": 0.7304347826086957,
-      "roc_auc": 0.7994442861214022,
-      "pr_auc": 0.8120360508300832,
-      "accuracy": 0.7383966244725738
+      "f1": 0.7788778877887789,
+      "roc_auc": 0.8391755923401493,
+      "pr_auc": 0.8441049598484808,
+      "accuracy": 0.7866242038216561
     },
     "code": {
-      "f1": 0.6866952789699571,
-      "roc_auc": 0.7563408378455401,
-      "pr_auc": 0.8109516680170433,
-      "accuracy": 0.6919831223628692
+      "f1": 0.70625,
+      "roc_auc": 0.7477482960077897,
+      "pr_auc": 0.7383274388049641,
+      "accuracy": 0.7006369426751592
     },
     "combined": {
-      "f1": 0.721030042918455,
-      "roc_auc": 0.7889712168709034,
-      "pr_auc": 0.8320734227060125,
-      "accuracy": 0.7257383966244726
+      "f1": 0.7227414330218068,
+      "roc_auc": 0.7865141187925999,
+      "pr_auc": 0.7700806186754265,
+      "accuracy": 0.7165605095541401
     }
   },
   "cluster_bootstrap": {
@@ -33,10 +33,10 @@
     "seed": 42
   },
   "input_sha256": {
-    "validation_predictions.csv": "a931f1ef05a61dd9bf031c62d6f15f6e543c8ce5e3695b9190dd7347ef96473c",
-    "input_coverage.csv": "abbb5f40cbd687e79074156e3c39fcdd12fbb0f62f49a4d0fdd6da64a2147805",
-    "top_tfidf_features.csv": "4e98ba8297c193eee7828cd1d881e77c0e35b06e2533fd01923234eec8e291ca",
-    "baseline_report.json": "7b333be70b4be1d0066d59927352a8f2e09de453636275713b71037b91775a6f"
+    "validation_predictions.csv": "57a41838b2ef4f87edbf1bcd278a5727dbe787bfb8ae16803b7a47b5b743e68b",
+    "input_coverage.csv": "8ead295aa6b1f51f02ad1e27e7bdd062409bb876f0ecaf8e658c7f490a3b628f",
+    "top_tfidf_features.csv": "e23ee416d237cab3592ac0b1d40c9c44f11f29d7d7b0cf0e2a1b6e6429ce86c4",
+    "baseline_report.json": "ca63ec0b7d4f819cee34b021cd0866f6b04593fc6e9156707c8770b4330762f1"
   },
   "limitations": [
     "Exploratory validation-only analysis; no test access.",
