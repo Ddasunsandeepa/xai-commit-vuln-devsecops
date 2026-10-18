@@ -1,0 +1,26 @@
+{
+  "experiment": "E10-B exploratory validation-only metadata deletion audit",
+  "heldout_test_accessed": false,
+  "validation_rows": 323,
+  "interventions": 290,
+  "replay_max_abs_error": 0.0007514059543609619,
+  "manifest_sha256": "1e284c9c6647b615fce51a9bb33a9da7112edf0fca33bdbb72d866e818ab15c1",
+  "predictions_sha256": "23dc5274e38773a699166df3f77e958c096ea1dd154a59934b7ce39b31b7e991",
+  "checkpoint_sha256": "a8f3368019ee87a149cedaca5f4a966c2c16a6eed1522f3e099bda13d0533b9b",
+  "patterns": {
+    "bug_reference": "(?im)^\\s*Bug\\s*:\\s*[^\\r\\n]*(?:\\r?\\n)?",
+    "fix_word": "(?i)\\bfix(?:es|ed|ing)?\\b",
+    "cve_identifier": "(?i)\\bCVE-\\d{4}-\\d{4,}\\b",
+    "change_id": "(?im)^\\s*Change-Id\\s*:\\s*[^\\r\\n]*(?:\\r?\\n)?",
+    "cherry_pick": "(?im)^\\s*\\(cherry picked from commit\\s+[0-9a-f]+\\)\\s*(?:\\r?\\n)?"
+  },
+  "limitations": [
+    "Patterns selected after inspecting E10-A validation examples; exploratory.",
+    "Deleting spans changes message length and token positions; it is not token masking.",
+    "Only occurrences present in the full original message are tested; matches beyond the 254-token model window may have no effect.",
+    "Some patterns may occur in very few repositories, so repo and label are confounded.",
+    "CVE pattern requires full CVE identifier; standalone CVE is not matched.",
+    "Class 0 is not representative ordinary benign commits.",
+    "No independent test, causal vulnerability localization, or multiple-testing correction."
+  ]
+}
