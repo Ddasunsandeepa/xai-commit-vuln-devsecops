@@ -1,0 +1,32 @@
+{
+  "experiment": "E10 message-only leave-one-token-out and masking pilot",
+  "validation_only": true,
+  "heldout_test_accessed": false,
+  "model": "GraphCodeBERT sequence classifier (no explicit graph)",
+  "checkpoint": "reports/codejit_graphcodebert_v3/message/message/best_model",
+  "checkpoint_config_sha256": "a4739183b428522b544fc891a84943308dd34b1bdf4ced8b08e823bf834076c7",
+  "checkpoint_weights_sha256": "a8f3368019ee87a149cedaca5f4a966c2c16a6eed1522f3e099bda13d0533b9b",
+  "val_manifest_sha256": "1e284c9c6647b615fce51a9bb33a9da7112edf0fca33bdbb72d866e818ab15c1",
+  "frozen_predictions_sha256": "23dc5274e38773a699166df3f77e958c096ea1dd154a59934b7ce39b31b7e991",
+  "n_validation": 323,
+  "n_selected": 20,
+  "n_analyzed": 20,
+  "seed": 42,
+  "max_length": 256,
+  "max_patch_bytes": 32768,
+  "mask_k": 3,
+  "random_repeats": 10,
+  "replay_max_abs_probability_error": 0.0007514059543609619,
+  "mean_top_abs_change": 0.15059934789314866,
+  "mean_random_abs_change": 0.037782999258488416,
+  "mean_top_minus_random_change": 0.11281634863466024,
+  "limitations": [
+    "Exploratory validation-only pilot; validation reused for model selection.",
+    "Top tokens are selected and evaluated on the same cases; superiority over random is partly by construction.",
+    "Single-token mask effects are not additive; simultaneous masking can interact.",
+    "Masking creates potentially out-of-distribution inputs.",
+    "Attributions are model influence, not proof of vulnerable code or causal software defects.",
+    "Code changes are not attributed by this message-only pilot.",
+    "The negative CodeJIT label is not a representative sample of ordinary benign commits."
+  ]
+}
