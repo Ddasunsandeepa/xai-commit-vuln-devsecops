@@ -1,0 +1,3 @@
+group,commits,truncation_rate,mean_visibility_fraction,median_visibility_fraction,micro_visibility_fraction,mean_visible_changed_lines,mean_total_changed_lines
+Full validation,323,0.9597523219814241,0.24236118041088733,0.0909090909090909,0.030549807533987495,4.25077399380805,139.14241486068113
+E10-C pilot,20,1.0,0.1648174850579308,0.0630899155489319,0.025741283805799934,3.95,153.45
