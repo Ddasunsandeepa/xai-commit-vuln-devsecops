@@ -86,7 +86,7 @@ def main():
     torch.backends.cudnn.benchmark = False
 
     # Original loader verifies extraction records, integrity, and commit identity.
-    messages, patches, loader_audit = baseline.load_records(val, args.extraction, args.max_patch_bytes)
+    messages, patches, loader_audit = baseline.load_records(val, Path(args.extraction), args.max_patch_bytes)
     if len(messages) != len(val) or len(patches) != len(val):
         raise RuntimeError('Loader returned wrong number of records')
 
