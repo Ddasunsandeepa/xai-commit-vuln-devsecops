@@ -9,7 +9,7 @@ codebert_message,attorneyonline___akashi,2,0,0,0,0
 codebert_message,bittorrent___bootstrap-dht,3,0,0,0,0
 codebert_message,cesanta___mongoose,3,0,0,0,0
 codebert_message,cisco___thor,2,0,0,0,0
-codebert_message,drogonframework___drogon,2,0,0,0,0
+codebert_message,drogonframework___drogon,2,1,0,1,0
 codebert_message,facebook___hhvm,28,6,1,5,1
 codebert_message,flori___json,2,0,0,0,0
 codebert_message,fontforge___fontforge,1,0,0,0,0
@@ -20,7 +20,7 @@ codebert_message,fwdillema___totd,1,1,1,0,0
 codebert_message,inspircd___inspircd,11,2,1,1,0
 codebert_message,iortcw___iortcw,2,2,2,0,0
 codebert_message,jeromerobert___k4dirstat,2,2,1,1,0
-codebert_message,jmacd___xdelta-devel,2,0,0,0,0
+codebert_message,jmacd___xdelta-devel,2,1,0,1,0
 codebert_message,jpirko___libndp,4,0,0,0,0
 codebert_message,jsummers___imageworsener,7,1,0,1,0
 codebert_message,karelzak___util-linux,5,1,1,0,1
@@ -46,7 +46,7 @@ codebert_message,opensips___opensips,2,0,0,0,0
 codebert_message,openssh___openssh-portable,1,0,0,0,0
 codebert_message,opensuse___libsolv,1,1,0,1,0
 codebert_message,platform___external___libavc,29,7,0,7,0
-codebert_message,platform___frameworks___av,30,9,0,9,0
+codebert_message,platform___frameworks___av,30,10,0,10,0
 codebert_message,plutinosoft___platinum,1,0,0,0,0
 codebert_message,pornel___pngquant,1,0,0,0,0
 codebert_message,postgres___postgres,4,0,0,0,1
@@ -234,7 +234,7 @@ graphcodebert_message,op-tee___optee_os,9,2,0,2,2
 graphcodebert_message,opensips___opensips,2,0,0,0,0
 graphcodebert_message,openssh___openssh-portable,1,0,0,0,0
 graphcodebert_message,opensuse___libsolv,1,0,0,0,0
-graphcodebert_message,platform___external___libavc,29,13,6,7,0
+graphcodebert_message,platform___external___libavc,29,12,5,7,0
 graphcodebert_message,platform___frameworks___av,30,8,1,7,0
 graphcodebert_message,plutinosoft___platinum,1,0,0,0,0
 graphcodebert_message,pornel___pngquant,1,0,0,0,0
@@ -250,7 +250,7 @@ graphcodebert_message,rsyslog___rsyslog,1,0,0,0,0
 graphcodebert_message,saschahauer___barebox,4,2,2,0,0
 graphcodebert_message,snapcore___snapd,2,1,1,0,0
 graphcodebert_message,sqlite___sqlite,19,7,1,6,0
-graphcodebert_message,tensorflow___tensorflow,27,7,5,2,1
+graphcodebert_message,tensorflow___tensorflow,27,6,4,2,1
 graphcodebert_code,aawc___unrar,2,2,1,1,2
 graphcodebert_code,academysoftwarefoundation___openexr,7,2,0,2,6
 graphcodebert_code,acassen___keepalived,2,1,1,0,2
@@ -297,7 +297,7 @@ graphcodebert_code,op-tee___optee_os,9,3,0,3,9
 graphcodebert_code,opensips___opensips,2,0,0,0,1
 graphcodebert_code,openssh___openssh-portable,1,1,0,1,1
 graphcodebert_code,opensuse___libsolv,1,1,0,1,1
-graphcodebert_code,platform___external___libavc,29,14,6,8,27
+graphcodebert_code,platform___external___libavc,29,13,6,7,27
 graphcodebert_code,platform___frameworks___av,30,12,0,12,30
 graphcodebert_code,plutinosoft___platinum,1,0,0,0,1
 graphcodebert_code,pornel___pngquant,1,0,0,0,1
